@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="/tw/static/css/public.css">
+    <link rel="stylesheet" href="/tw/static/css/style.css">
+    <script src="/tw/static/js/jquery-1.11.3.min.js"></script>
+    <script src="https://polyfill.io/v3/polyfill.js?features=default,fetch,HTMLPictureElement,Array.prototype.find,NodeList.prototype.forEach&amp;flags=gated"></script>
+    <script src="/tw/dsc/assets/modernizr-custom.js"></script>
+    <script src="/tw/dsc/assets/mobile-detect.js"></script>
+    <script src="/tw/dsc/assets/mobile-detect-modernizr.js" defer=""></script>
+    <script src="/tw/dsc/assets/smoothscroll.js" defer></script>
+    <script src="/tw/dsc/assets/axios.min.js"></script>
+    <script src="/tw/dsc/assets/vuejs/vue-all-dev.js"></script>
+    <script src="/tw/dsc/js/common.min.js"></script>
+  </head>
+  <body>
+    <!-- 後台上稿內容開始-->
+    <link rel="stylesheet" href="/tw/dsc/css/Eform/xcConfirm.css">
+    <script src="/tw/dsc/js/Eform/xcConfirm.js" defer></script>
+    <link rel="stylesheet" href="/tw/dsc/assets/submenu/submenu.css">
+    <script src="/tw/dsc/assets/submenu/submenu.min.js"></script>
+    <link rel="stylesheet" href="assets/swiper.min.css">
+    <script src="assets/swiper.min.js" defer></script>
+    <link rel="preload" href="images/ad.jpg" as="image">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/animate.min.css">
+    <link rel="stylesheet" href="/tw/dsc/css/reboot.css">
+    <script src="assets/lodash.min.js" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TimelineMax.min.js" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/dat-gui/0.7.6/dat.gui.min.js" defer></script>
+    <script src="js/all.min.js" defer></script>
+    <link rel="preload" href="images/case1/hero-bg.jpg" as="image">
+    <link rel="preload" href="images/case1/hero-bg-s.jpg" as="image">
+    <link rel="stylesheet" href="css/case1/style.css">
+    <script src="js/case1.min.js" defer></script>
+    <main v-cloak v-if="result"><slider-banner-s v-if="isMobile" v-bind:slides="result.banner.case1" device="mobile"></slider-banner-s>
+<slider-banner v-else v-bind:slides="result.banner.case1" device="desktop"></slider-banner>
+
+<article class="section1">
+    <div class="container">
+        <div class="text">
+            <hgroup>
+                <h1>安琪兒</h1>
+                <h2>林姚宗 總經理</h2>
+            </hgroup>
+            <p class="text__quote">1985年，安琪兒林姚宗總經理看見新手爸媽的需求，創立了安琪兒婦嬰百貨，一間以孕婦、兒童及嬰幼兒的創新複合式用品店。一直以來，安琪兒期許成為新手爸媽信賴安心的好幫手，除了提供國際品牌的高品質育兒用品外，亦提供新手爸媽育兒知識的服務；秉持著專業貼心，為消費者創造美好顧客體驗，持續打造優質、創新的安琪兒婦嬰用品百貨。</p>
+        </div>
+        <div class="img">
+            <img src="images/case1/section1-illust.jpg" alt="">
+        </div>
+        <!-- <div class="video">
+            <div class="video__container">
+                <iframe src="https://www.youtube.com/embed/hHW1oY26kxQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </div> -->
+    </div>
+</article>
+
+<article class="section2">
+    <div class="container">
+        <section-title title="安琪兒的<strong>期許</strong>一好！還要更好！" desc="婦幼商品的實際體驗是不可或缺的，也因此線下才是主要營運管道，但如何才能再提升？<br>就是應該利用線下門店優勢，結合線上經營，吸引更多新世代消費者來體驗並持續消費！"></section-title>
+        <section2-svg src="images/case1/svg/section2.svg"></section2-svg>
+    </div>
+</article>
+
+<article class="section3">
+    <div class="container">
+        <section-title title="安琪兒邁向更好一找出<strong>2大關鍵</strong>問題"></section-title>
+        <img src="images/case1/section3-s.png" v-if="isMobile">
+        <section3-svg src="images/case1/svg/section3.svg" v-else></section3-svg>
+    </div>
+</article>
+
+<article class="section4">
+    <div class="container">
+        <section-title title="更好的安琪兒一<strong>3階段啟動</strong>新零售模式"></section-title>
+        <section4-svg src="images/case1/svg/section4-s.svg" v-show="isMobile"></section4-svg>
+        <section4-svg src="images/case1/svg/section4.svg" v-show="!isMobile"></section4-svg>
+    </div>
+</article>
+
+<article id="section5" class="section5">
+    <div class="container">
+        <section-title2 title="1. 建立全通路會員管道" subtitle="打造安琪兒會員中心"></section-title2>
+        <section5-svg src="images/case1/svg/section5/section5.svg"></section5-svg>
+    </div>
+</article>
+
+<article id="section6" class="section6">
+    <div class="container">
+        <section-title2 title="2. 擴大全通路行銷效果" subtitle="融合線上線下，擴大行銷效果" desc="線上線下都能觸及顧客，因應不同的行銷目的，規劃適合的行銷活動，提高行銷效益。"></section-title2>
+        <section6-svg src="images/case1/svg/section6/section6.svg"></section6-svg>
+    </div>
+</article>
+
+<article id="section7" class="section7">
+    <div class="container">
+        <section-title2 title="3. 統一全通路接單模式" subtitle="前端銷售升級，接單模式更要同步升級" desc="門店、網路、電商統一訂單中心管理，預購、寄貨完全掌握，庫存調撥一目瞭然，也能因應未來通路布局"></section-title2>
+        <section7-svg src="images/case1/svg/section7/section7.svg"></section7-svg>
+    </div>
+</article>
+
+<article class="section8">
+    <slider-checkbox id="1">
+        <template slot="left">
+            <section>
+                <section-title title="現在的安琪兒一持續往更好進化中" desc="即時掌握人、貨、場，才能快速因應市場變化"></section-title>
+                <section8-l-svg src="images/case1/svg/section8-l/section8-l.svg" v-show="!isMobile"></section8-l-svg>
+                <img src="images/case1/section8-l-s.jpg" v-show="isMobile">
+                <label for="slider-toggle1">看看安琪兒行銷成效 &gt;&gt;&gt;</label>
+            </section>
+        </template>
+        <template slot="right">
+            <section>
+                <section-title title="統一會員中心和行銷活動的成效" desc="透過導入新零售模式，打造會員中心，吸引有效的新會員，<br>並且深入經營，達到多來客、常回購、高客單，提升營收看的見"></section-title>
+                <section8-r-svg src="images/case1/svg/section8-r.svg"></section8-r-svg>
+                <label for="slider-toggle1">&lt;&lt;&lt; 回到上一頁</label>
+            </section>
+        </template>
+    </slider-checkbox>
+</article>
+
+<contact v-bind:multiple="false" source=""></contact>
+    </main>
+    <!-- 後台上稿內容結束-->
+  </body>
+</html>

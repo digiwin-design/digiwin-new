@@ -1,0 +1,282 @@
+main *, main *:before, main *:after {
+    box-sizing: content-box;
+}
+body {
+	background: none repeat-x top #fff;
+}
+
+.banner {
+    width: 100%;
+    height: 407px;
+    background: url(https://static.digiwin.com/tw/dsc/service/WB002736/images/bannerBg.jpg) no-repeat center;
+    text-align: center;
+}
+
+.banner img {
+    width: 995px;
+    height: 407px;
+    margin: 0 auto;
+}
+
+#navLink.fixed {
+	background-color: #f5f5f5;
+}
+
+/*必写：资料来源的样式开始*/
+/* #fromSource {
+	font-size: 0;
+	height: 0;	
+}
+ */
+/*资料来源的样式结束*/
+/* .form input,
+.form textarea {
+	font-size: 19px;
+	font-family: Arial, "微軟正黑體", "新細明體";
+	border: none;
+}
+ */
+/* ========================= topInfo style ========================= */
+#contact {
+/* 	width: 100%; 
+	min-width: 1000px;
+	padding: 70px 0;  */
+	background-color: #fff;
+	color: #333;
+/* 	font-size: 19px; 
+	font-family: Arial, "微軟正黑體", "新細明體";
+	line-height: 30px; 	 */
+}
+
+#contact a {
+	color: #333;
+}
+
+#contact a:hover {
+	color: #ff8a00;
+}
+
+#contact #contactTxt {
+	width: 1000px;
+	margin: 0 auto;
+}
+
+#contact h2 {
+/* 	position: relative;
+	margin: 0;
+	
+	font-size: 36px; 
+	line-height: 36px; 	 */
+	margin-bottom: 16px;
+	padding-bottom: 0;
+	text-align: center;
+	color: #333;
+}
+
+#contact h2:before {
+	display: none;
+}
+
+#contact p {
+	color: #333;
+}
+
+/* #contact hr {
+	margin: 20px 0 0 0;
+	border: none;
+	border-top: 1px solid #666;
+}
+ */
+/*========================= info style =========================*/
+#contact #info p {
+	width: 100%;
+	text-align: center;
+}
+
+#contact #info .highLight {
+	color: #ff8a00;
+}
+
+/* ========================= form style ========================= */
+
+/*公司名称、联系方式。。。。样式结束*/
+.form {
+	width: 100%;
+}
+
+#rightForm p.highLight {
+	color: #da3737;
+	font-size: 16px;
+}
+
+#contactInput input {
+	/* position: relative;
+	float: left; */
+    width: 320px;
+    /* height: 50px; */
+    margin: 0 20px 20px 0;
+    padding-left: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-left-width: 1px;
+    border-radius: 2px;
+    /* -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box; */
+    color: #333;
+}
+
+#contactInput input#telephone {
+	width: 190px;
+	margin-right: 8px;
+}
+
+#contactInput input#extension {
+	width: 122px;
+}
+
+/* #contactInput input.end {
+	margin-right: 0;
+} */
+
+/* .hideLabel {
+	display: none;
+} */
+
+input::-webkit-input-placeholder,
+textarea::-webkit-input-placeholder { 
+	color: #333!important; 
+} 
+
+input:-moz-placeholder,
+textarea:-moz-placeholder { 
+	color: #333!important; 
+} 
+
+input::-moz-placeholder,
+textarea::-moz-placeholder { 
+	color: #333; 
+} 
+input:-ms-input-placeholder,
+textarea:-ms-input-placeholder { 
+	color: #333!important; 
+} 
+/*公司名称、联系方式。。。。样式结束*/
+
+/* ================== demandCheck style ================= */
+.demandCheck {
+	/* margin-bottom: 20px; */
+	padding: 5px 10px 5px 20px;/* 
+    -webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box; */
+	border: 1px solid #ccc;
+	border-radius: 2px;
+}
+
+/* ================== inforCheck style ================= */
+.form .inforCheck {
+	width: 100%;
+	margin-bottom: 30px;
+	padding-left: 17px;
+	font-size: 21px;
+}
+
+.form .inforCheck label {
+	cursor: pointer;
+}
+
+/*咨询内容样式开始*/
+.form #contact-query {
+	/* display: block;
+	width: 100%; */
+	height: 200px;
+	/* margin-bottom: 20px; */
+	/* padding: 10px; */
+	background-color: #fff;
+	border: 1px solid #ccc;
+	border-radius: 2px;
+	border-left-width: 1px;
+/* 	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;	 */
+	color: #333;
+}
+/*咨询内容样式结束*/
+
+/*验证码样式开始*/
+.verifica {
+	margin: 30px 0;
+	color: #333;
+	font-size: 18px;
+	/* text-align: center; */
+}
+
+
+/* .veriSpan-m {
+	display: none;
+}
+ */
+#identCode {
+	height:36px;
+	width: 100px;
+	padding: 0 0 0 10px;
+	border: 1px solid #ccc;
+	border-radius: 2px;
+}
+
+#vericodePic {
+/*     position: relative; 
+	height: 38px;
+	width: 120px;
+	margin-left: 8px;
+	padding: 0; */
+	background: url('https://static.digiwin.com/tw/dsc/images/Eform/identCode.jpg') no-repeat center;
+/* 	color: #555;  
+    font-size: 20px;  
+    font-family: Arial;  
+    font-style: italic;  
+    font-weight: bold;  
+    letter-spacing: 4px;  
+    vertical-align: middle;  */
+}
+
+.renovCode {
+	background: url('https://static.digiwin.com/tw/dsc/images/Eform/renovCode.png') no-repeat;
+}
+
+/* #codeSuces {
+    position: absolute;
+    top: 50px;
+    left: 0;
+    font-size: 0;
+} */
+
+/*验证码样式结束*/
+
+/* label.checAgree {
+    display: block;
+    margin: 5px auto 0;
+    font-size: 16px;
+    text-align: center;
+}
+
+label.checAgree a {
+    text-decoration: underline;
+} */
+
+/*送出样式开始*/
+#submit {
+	border-radius: 2px;
+}
+
+#submit:hover {
+	background-color: #ff7200;
+}
+
+/*送出样式结束*/
+
+.form #contactInput input.noInput {
+    background-color: #eaeaea;
+    border-color: #ff8a00;
+}

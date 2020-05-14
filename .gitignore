@@ -1,0 +1,9 @@
+.sass-cache/
+node_modules/
+bower_components/
+*.map
+*.psd
+*.mov
+*.mp4
+*.Ogg
+Thumbs.db

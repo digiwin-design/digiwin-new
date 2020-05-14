@@ -1,0 +1,485 @@
+@charset "big5";
+body {
+	font-family: "微軟正黑體";
+	font-size: 13px;
+	line-height: 22px;
+	color: #4C4C4C;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: left top;
+	background-color: #f4f3f3;
+}
+td {
+	font-family: "新細明體";
+	font-size: 13px;
+	line-height: 24px;
+	letter-spacing:1px;
+	color: #464646;
+}
+.txt11w {
+	font-family: "新細明體";
+	font-size: 11px;
+	line-height: 15px;
+	color: #ffffff;
+}
+.txt13{
+	font-family: "微軟正黑體";
+	font-size: 13px;
+	line-height: 24px;
+	letter-spacing:1px;
+	color: #464646;
+}
+.txt13w {
+	font-family: "新細明體";
+	font-size: 13px;
+	line-height: 18px;
+	color: #ffffff;
+}
+.txt13a {
+	font-family: "微軟正黑體";
+	font-size: 15px;
+	line-height: 22px;
+	letter-spacing:1px;
+	color: #1382b6;
+}
+.txt13g1 {
+	font-family: "新細明體";
+	font-size: 13px;
+	line-height: 22px;
+	color: #458645;
+}
+.txt13R{
+	font-family: "新細明體";
+	font-size: 13px;
+	line-height: 22px;
+	letter-spacing:1px;
+	color: #e3185c;
+	font-weight: bold;
+}
+.txt13B{
+	font-family: "新細明體";
+	font-size: 13px;
+	line-height: 22px;
+	letter-spacing:1px;
+	color: #0e90c2;
+	font-weight: bold;
+}
+.txt13O{
+	font-family: "新細明體";
+	font-size: 13px;
+	line-height: 22px;
+	letter-spacing:1px;
+	color: #f05b26;
+	font-weight: bold;
+}
+.txt13Oa{
+	font-family: "新細明體";
+	font-size: 13px;
+	line-height: 22px;
+	letter-spacing:1px;
+	color: #f05b26;
+}
+.txt13G{
+	font-family: "新細明體";
+	font-size: 13px;
+	line-height: 22px;
+	letter-spacing:1px;
+	color: #458645;
+	font-weight: bold;
+}
+.txt12 {
+	font-family: "新細明體";
+	font-size: 12px;
+	line-height: 1.5;
+	letter-spacing:1px;
+	color: #505050;
+}
+.txt15B {
+	font-family: "新細明體";
+	font-size: 15px;
+	line-height: 28px;
+	letter-spacing:1px;
+	font-weight: bold;
+	color: #505050;
+}
+.txt15Bule {
+	font-family: "新細明體";
+	font-size: 15px;
+	line-height: 28px;
+	letter-spacing:1px;
+	font-weight: bold;
+	color: #1A5BBD;
+}
+.txt15o {
+	font-family: "新細明體";
+	font-size: 15px;
+	line-height: 28px;
+	letter-spacing:1px;
+	font-weight: bold;
+	color: #F02C0F;
+}
+.txt15r {
+	font-family: "新細明體";
+	font-size: 15px;
+	line-height: 28px;
+	letter-spacing:1px;
+	font-weight: bold;
+	color: #E91237;
+}
+.txt15g {
+	font-family: "新細明體";
+	font-size: 15px;
+	line-height: 28px;
+	letter-spacing:1px;
+	font-weight: bold;
+	color: #74b64a;
+}
+
+.txt15{
+	font-family: "微軟正黑體";
+	font-size: 15px;
+	line-height: 25px;
+	letter-spacing:1px;
+	color: #464646;
+}
+.txt22 {
+	font-family: "新細明體";
+	font-size: 22px;
+	line-height: 35px;
+	color: #505050;
+	font-weight: bold;
+}
+.txt18 {
+	font-family: Arial, "新細明體";
+	font-size: 18px;
+	line-height: 30px;
+	font-weight: bold;
+	color: #1B75BB;
+}
+.txt18B {
+	font-family: "新細明體";
+	font-size: 18px;
+	line-height: 25px;
+	font-weight: bold;
+	color: #505050;
+}
+.txt18c {
+	font-family: "新細明體";
+	font-size: 18px;
+	line-height: 30px;
+	font-weight: bold;
+	color: #E91237;
+}
+.txt19 {
+	font-family: "新細明體";
+	font-size: 19px;
+	line-height: 25px;
+	font-weight: bold;
+	color: #505050;
+}
+.txt20 {
+	font-family: Arial, "新細明體";
+	font-size: 20px;
+	line-height: 25px;
+	font-weight: bold;
+	color: #505050;
+}
+.txt20a {
+	font-family: "微軟正黑體","新細明體";
+	font-size: 22px;
+	line-height: 31px;
+	font-weight: bold;
+	color: #db0505;
+}
+.txt20w {
+	font-family: "微軟正黑體";
+	font-size: 22px;
+	line-height: 31px;
+	font-weight: bold;
+	color: #FFFFFF;
+}
+.txt35b {
+	font-family: "微軟正黑體","新細明體",Arial, Helvetica, sans-serif;
+	font-size: 35px;
+	line-height: 37px;
+	font-weight: normal;
+	color: #1B75BB;
+}
+.txt35o {
+	font-family: Arial, "新細明體";
+	font-size: 35px;
+	line-height: 37px;
+	font-weight: normal;
+	color:#f05a22;
+}
+.txt35r {
+	font-family: Arial, "新細明體";
+	font-size: 35px;
+	line-height: 37px;
+	font-weight: normal;
+	color:#E3185C;
+}
+.txt35g {
+	font-family: Arial, "新細明體";
+	font-size: 35px;
+	line-height: 37px;
+	font-weight: normal;
+	color:#458645;
+}
+.topline {
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	border-top-color: #bebebe;
+}
+.topline_a {
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	border-top-color: #dcdbdb;
+}
+.lineLR {
+	border-left-width: 1px;
+	border-left-style: solid;
+	border-left-color: #dcdbdb;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #dcdbdb;
+}
+.lineLD {
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-bottom-color: #bebebe;
+	border-left-color: #bebebe;
+}
+.lineLDo {
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-bottom-color: #ffcb83;
+	border-left-color: #ffcb83;
+}
+.linedown {
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #bebebe;
+	font-family: "微軟正黑體";
+	font-size: 13px;
+}
+.lineL {
+	border-left-width: 1px;
+	border-left-style: solid;
+	border-left-color: #bebebe;
+}
+.lineLR {
+	border-left-width: 1px;
+	border-left-style: solid;
+	border-left-color: #bebebe;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #bebebe;
+}
+.lineLa {
+	border-left-width: 1px;
+	border-left-style: solid;
+	border-left-color: #f6911d;
+}
+a:link {
+	font-family: "微軟正黑體";
+	font-size: 13px;
+	line-height: 20px;
+	color: #505050;
+	text-decoration: none;
+}
+a:visited {
+	font-family: "微軟正黑體";
+	font-size: 13px;
+	line-height: 20px;
+	color: #505050;
+	text-decoration: none;
+}
+a:hover {
+	font-family: "微軟正黑體";
+	font-size: 13px;
+	line-height: 20px;
+	color: #f05a28;
+	text-decoration: none;
+}
+a:active {
+	font-family: "微軟正黑體";
+	font-size: 13px;
+	line-height: 20px;
+	color: #B6B5B5;
+	text-decoration: none;
+}
+a.b:link {
+	font-family: "微軟正黑體";
+	font-size: 13px;
+	line-height: 20px;
+	color: #505050;
+	text-decoration: underline;
+}
+a.b:visited {
+	font-family: "微軟正黑體";
+	font-size: 15px;
+	line-height: 20px;
+	color: #505050;
+	text-decoration: underline;
+}
+a.b:hover {
+	font-family: "微軟正黑體";
+	font-size: 15px;
+	line-height: 20px;
+	color: #f05a28;
+	text-decoration: underline;
+}
+a.b:active {
+	font-family: "微軟正黑體";
+	font-size: 15px;
+	line-height: 20px;
+	color: #B6B5B5;
+	text-decoration: underline;
+}
+a.c:link {
+	font-family: "微軟正黑體";
+	font-size: 13px;
+	line-height: 21px;
+	color: #f05a22;
+	text-decoration: underline;
+}
+a.c:visited {
+	font-family: "微軟正黑體";
+	font-size: 13px;
+	line-height: 21px;
+	color: #f05a22;
+	text-decoration: underline;
+}
+a.c:hover {
+	font-family: "新細明體";
+	font-size: 13px;
+	line-height: 21px;
+	color: #990000;
+	text-decoration: none;
+}
+a.c:active {
+	font-family: "新細明體";
+	font-size: 13px;
+	line-height: 21px;
+	color: #f05a22;
+	text-decoration: underline;
+}
+a.d:link {
+	font-family: "新細明體";
+	font-size: 13px;
+	line-height: 18px;
+	color: #ffffff;
+	text-decoration: none;
+}
+a.d:visited {
+	font-family: "新細明體";
+	font-size: 13px;
+	line-height: 18px;
+	color: #ffffff;
+	text-decoration: none;
+}
+a.d:hover {
+	font-family: "新細明體";
+	font-size: 13px;
+	line-height: 18px;
+	color: #FF6;
+	text-decoration: underline;
+}
+
+
+
+a.e:link {
+	font-family: "新細明體";
+	font-size: 13px;
+	line-height: 21px;
+	color: #f05a22;
+	text-decoration: underline;
+}
+a.e:visited {
+	font-family: "新細明體";
+	font-size: 13px;
+	line-height: 21px;
+	color: #f05a22;
+	text-decoration: underline;
+}
+a.e:hover {
+	font-family: "新細明體";
+	font-size: 13px;
+	line-height: 21px;
+	color: #990000;
+	text-decoration: none;
+}
+a.e:active {
+	font-family: "新細明體";
+	font-size: 13px;
+	line-height: 21px;
+	color: #f05a22;
+	text-decoration: underline;
+}
+a.f:link {
+	font-family: "新細明體";
+	font-size: 15px;
+	line-height: 25px;
+	color: #464646;
+	text-decoration: none;
+}
+a.f:visited {
+	font-family: "新細明體";
+	font-size: 13px;
+	line-height: 25px;
+	color: #464646;
+	text-decoration: none;
+}
+a.f:hover {
+	font-family: "新細明體";
+	font-size: 13px;
+	line-height: 25px;
+	color: #990000;
+	text-decoration: underline;
+}
+a.f:active {
+	font-family: "新細明體";
+	font-size: 15px;
+	line-height: 25px;
+	color: #464646;
+	text-decoration: none;
+}
+a.g:link {
+	font-family: "新細明體";
+	font-size: 15px;
+	line-height: 26px;
+	color: #464646;
+	text-decoration: underline;
+}
+a.g:hover {
+	font-family: "新細明體";
+	font-size: 15px;
+	line-height: 26px;
+	color: #24a75f;
+	text-decoration: none;
+}
+a.h:link {
+	font-family: "微軟正黑體","新細明體",Arial, Helvetica, sans-serif;
+	font-size: 25px;
+	line-height: 1.5;
+	color: #000;
+	text-decoration: none;
+}
+a.h:hover {
+	font-family: "微軟正黑體","新細明體",Arial, Helvetica, sans-serif;
+	font-size: 25px;
+	line-height: 1.5;
+	color: #039;
+	text-decoration: none;
+}

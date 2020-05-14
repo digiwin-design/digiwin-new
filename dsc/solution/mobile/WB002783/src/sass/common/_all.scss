@@ -1,0 +1,47 @@
+[v-cloak] {
+    display: none;
+}
+
+// transition
+.fade-enter-active,
+.fade-leave-active {
+    transition: opacity 1s;
+}
+.fade-enter,
+.fade-leave-to {
+    opacity: 0;
+}
+
+// dat.GUI
+.dg.ac {
+    z-index: 99;
+}
+
+main {
+    margin: 0 auto;
+    min-width: 360px;
+    max-width: 768px;
+    color: #333;
+    font-size: 18px;
+    line-height: 1.6;
+    .container {
+        margin: 0 auto;
+        padding: 0 5px;
+        max-width: $content-width;
+        @media (min-width: 361px) {
+            padding-right: percentage(20 / 414);
+            padding-left: percentage(20 / 414);
+        }
+        @media (min-width: $mobile-width + 1) {
+            padding-right: 20px;
+            padding-left: 20px;
+        }
+    }
+    .mainTitle {
+        font-weight: bold;
+        font-size: 30px;
+    }
+    .header strong {
+        color: #ff0;
+    }
+}

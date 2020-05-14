@@ -1,0 +1,8 @@
+main .case {
+    .header {
+        @include headerBg('case/header-bg.jpg', 'case/header-bg.jpg', 100% 0);
+    }
+    .section1 {
+        padding-bottom: 60px;
+    }
+}

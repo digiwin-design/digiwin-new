@@ -1,0 +1,19 @@
+<main-header>
+    <template slot="content">
+        <h1>做門市專櫃生意，<br>您也是這樣嗎?</h1>
+        <p>促銷活動、滿額活動、會員專屬、預購活動、門市要貨</p>
+    </template>
+</main-header>
+
+<component :is="componentId"></component>
+
+<article class="cases">
+    <div class="container">
+        <section-title title="輔導案例"></section-title>
+        <div class="cases-content">
+            <case v-bind:id="i" v-for="i in [9,10,11,12]"></case>
+        </div>
+    </div>
+</article>
+
+<contact v-bind:multiple="false" source=""></contact>

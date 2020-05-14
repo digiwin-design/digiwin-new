@@ -1,0 +1,93 @@
+$seminar-color: (
+    primary: #e52847,
+    secondary: #f37086,
+    orange: #ff8111,
+    gray: #b9b9b9,
+);
+@import '../common/variable';
+@import '../common/helpers';
+@import '../common/all';
+@import 'accordion';
+@import 'accordionContent';
+
+main {
+    .container {
+        padding: 0 20px;
+    }
+    .header {
+        @include headerBg('seminar/header-bg.jpg', 'seminar/header-bg.jpg', 50% 100%, false);
+        .container {
+            height: 340px;
+            @media (min-width: $tablet-width + 1) {
+                padding-left: 85px;
+                height: image-height('seminar/header-bg.jpg');
+            }
+        }
+        h1 {
+            color: #f0fe11;
+            font-weight: bold;
+            font-size: 30px;
+            @media (min-width: $tablet-width + 1) {
+                font-size: 48px;
+            }
+        }
+    }
+    article h1 {
+        margin-top: 1.5em;
+        margin-bottom: 1em;
+        color: #0c53aa;
+        text-align: center;
+        font-weight: bold;
+        font-size: 26px;
+        @media (min-width: $tablet-width + 1) {
+            font-size: 36px;
+        }
+    }
+    .section1 {
+        &-desc {
+            margin: 0 auto;
+            max-width: 1000px;
+        }
+        &-nav {
+            display: flex;
+            margin-top: 3em;
+            margin-bottom: 3em;
+            justify-content: center;
+            align-items: center;
+            @media (max-width: $tablet-width) {
+                flex-direction: column;
+                margin-right: auto;
+                margin-left: auto;
+                width: 180px;
+                align-items: flex-start;
+            }
+            li + li {
+                margin-left: 40px;
+                @media (max-width: $tablet-width) {
+                    margin-top: 1em;
+                    margin-left: 0;
+                }
+            }
+            a {
+                display: block;
+                padding-left: 50px;
+                background-image: image-url('seminar/icon2.png');
+                background-repeat: no-repeat;
+                color: #1172a4;
+                font-size: 14px;
+                line-height: 50px;
+                &:hover {
+                    color: #f60;
+                }
+                @at-root {
+                    $bgPosY: 0 -50px -100px;
+                    @for $nth from 1 through 3 {
+                        main .section1-nav li:nth-child(#{$nth}) a {
+                            background-position-y: nth($bgPosY, $nth);
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

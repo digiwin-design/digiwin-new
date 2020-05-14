@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!-- 全站共用 -->
+    <link rel="stylesheet" href="https://www.digiwin.com/tw/static/css/public.css">
+    <link rel="stylesheet" href="https://www.digiwin.com/tw/static/css/style.css">
+    <script src="https://www.digiwin.com/tw/static/js/jquery-1.11.3.min.js"></script>
+
+    <!-- 全站共用(自定義) -->
+    <link rel="stylesheet" href="https://www.digiwin.com/tw/dsc/css/all.css">
+    <script src="https://polyfill.io/v3/polyfill.js?features=default,fetch,HTMLPictureElement,Array.prototype.find,NodeList.prototype.forEach&flags=gated"></script>
+    <script src="https://www.digiwin.com/tw/dsc/assets/modernizr-custom.js"></script>
+    <script src="https://www.digiwin.com/tw/dsc/assets/mobile-detect.js"></script>
+    <script src="https://www.digiwin.com/tw/dsc/assets/mobile-detect-modernizr.js" defer></script>
+    <script src="https://www.digiwin.com/tw/dsc/assets/smoothscroll.js" defer></script>
+    <script src="https://www.digiwin.com/tw/dsc/assets/axios.min.js"></script>
+    <script src="https://www.digiwin.com/tw/dsc/assets/axios-mock-adapter.min.js"></script>
+    <script src="https://www.digiwin.com/tw/dsc/assets/vuejs/vue-all.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.2.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.0.1/firebase-database.js"></script>
+    <script src="https://www.digiwin.com/tw/dsc/js/common.min.js"></script>
+</head>
+
+<body>
+    <!-- 後台上稿內容開始-->
+    <!-- form -->
+    <link rel="stylesheet" href="https://www.digiwin.com/tw/dsc/css/Eform/form-rwd2.css">
+    <script src="https://www.digiwin.com/tw/dsc/js/Eform/form.js" defer></script>
+    <script src="https://www.digiwin.com/tw/dsc/js/contact.js" defer></script>
+    <link rel="stylesheet" href="https://www.digiwin.com/tw/dsc/css/Eform/xcConfirm.css">
+    <script src="https://www.digiwin.com/tw/dsc/js/Eform/xcConfirm.js" defer></script>
+
+    <!-- submenu -->
+    <link rel="stylesheet" href="https://www.digiwin.com/tw/dsc/assets/submenu/submenu.css">
+    <script src="https://www.digiwin.com/tw/dsc/assets/submenu/submenu.min.js"></script>
+
+    <link rel="stylesheet" href="https://www.digiwin.com/tw/dsc/css/reboot.css">
+
+    <main>
+        <!-- 從此處新增內容 -->
+
+        <!-- 聯絡表單 -->
+        <div id="contact" class="section">
+            <div class="content">
+                <h2>鼎新MES導入成功經驗，<br>運用工廠營運管制系統充份掌控生產脈動</h2>
+                <p class="sectionDesc-center">各行各業皆有成功案例，歡迎諮詢索取 <a href="tel:0800009890">0800-009-890</a></p>
+                <div id="form">
+                    <form>
+                        <a id="fromSource" href="javascript:;">WB002838</a> <!-- 文宣編號 -->
+                        <h3>需求內容</h3>
+                        <div class="demandContent">
+                            <div class="demandCheck">
+                                <p class="inputTitle">需求類別<i class="fa fa-exclamation-circle" aria-hidden="true"></i></p>
+                                <div class="outline">
+                                    <input name="contact-demand" class="contact-demand" id="demand01" type="checkbox" value="實證案例">
+                                    <label for="demand01">實證案例</label>
+                                </div>
+                                <div class="outline">
+                                    <input name="contact-demand" class="contact-demand" id="demand02" type="checkbox" value="應用效益">
+                                    <label for="demand02">應用效益</label>
+                                </div>
+                                <div class="outline">
+                                    <input name="contact-demand" class="contact-demand" id="demand03" type="checkbox" value="系統架構">
+                                    <label for="demand03">系統架構</label>
+                                </div>
+                                <div class="outline">
+                                    <input name="contact-demand" class="contact-demand" id="demand04" type="checkbox" value="模組功能">
+                                    <label for="demand04">模組功能</label>
+                                </div>
+                                <div class="outline">
+                                    <input name="contact-demand" class="contact-demand" id="demand05" type="checkbox" value="硬體規格">
+                                    <label for="demand05">硬體規格</label>
+                                </div>
+                                <div class="outline">
+                                    <input name="contact-demand" class="contact-demand" id="demand06" type="checkbox" value="報價諮詢">
+                                    <label for="demand06">報價諮詢</label>
+                                </div>
+                                <div class="outline">
+                                    <input name="contact-demand" class="contact-demand" id="demand07" type="checkbox" value="整合規劃">
+                                    <label for="demand07">整合規劃</label>
+                                </div>
+                                <div class="outline">
+                                    <input name="contact-demand" class="contact-demand" id="demand08" type="checkbox" value="其他">
+                                    <label for="demand08">其他</label>
+                                </div>
+                            </div>
+                            <div class="consult-cont">
+                                <p class="inputTitle">諮詢內容</p>
+                                <textarea id="contact-query" cols="40" rows="5" maxlength="500"></textarea>
+                                <p class="wordNum">可輸入 <span class="remaining">500</span> 字</p>
+                            </div>
+                        </div>
+                        <h3>聯絡資料</h3>
+                        <div class="basciInfo">
+                            <div class="outline">
+                                <input type="text" name="contact-company" id="contact-company" class="contact required">
+                                <p class="inputTitle"><span class="requiredHint">*</span>公司名稱 <span class="fillHint"> (請填寫完整公司名稱)</span><i class="fa fa-exclamation-circle" aria-hidden="true"></i></p>
+                            </div>
+                            <div class="outline">
+                                <input type="text" name="telephone" id="telephone" class="contact required">
+                                <p class="inputTitle"><span class="requiredHint">*</span>聯絡電話<i class="fa fa-exclamation-circle" aria-hidden="true"></i></p>
+                            </div>
+                            <div class="outline">
+                                <input type="text" name="contact_person" id="contact_person" class="contact required">
+                                <p class="inputTitle"><span class="requiredHint">*</span>聯絡人<i class="fa fa-exclamation-circle" aria-hidden="true"></i></p>
+                            </div>
+                            <div class="outline">
+                                <input type="text" name="contact-dept" id="contact-dept" class="contact required">
+                                <p class="inputTitle"><span class="requiredHint">*</span>部門<i class="fa fa-exclamation-circle" aria-hidden="true"></i></p>
+                            </div>
+                            <div class="outline">
+                                <input type="text" name="contact-job" id="contact-job" class="contact required">
+                                <p class="inputTitle"><span class="requiredHint">*</span>職稱<i class="fa fa-exclamation-circle" aria-hidden="true"></i></p>
+                            </div>
+                            <div class="outline">
+                                <input type="text" name="contact-email" id="contact-email" class="contact required">
+                                <p class="inputTitle"><span class="requiredHint">*</span>E-mail<span class="fillHint"> (例：example@digiwin.com)</span><i class="fa fa-exclamation-circle" aria-hidden="true"></i></p>
+                            </div>
+                            <div class="verifica clearfix">
+                                <div class="outline">
+                                    <input type="text" name="" id="identCode" class="identCode" onblur="validate()">
+                                    <p class="inputTitle"><span class="requiredHint">*</span>請輸入驗證碼</p>
+                                </div>
+                                <input type="button" id="vericodePic" />
+                                <span class="renovCode" onclick="createCode()"></span>
+                                <span id="codeSuces"></span>
+                            </div>
+                        </div>
+                        <div class="btnBlock">
+                            <input type="button" id="submit" value="提交資料">
+                            <div class="agreeLabel">
+                                <label for="agree">
+                                    <input type="checkbox" name="agree" value="" id="agree" checked> 我同意接受鼎新電腦<a class="links" href="https://tw.digiwin.biz/legal.html" target="_blank">隱私權聲明</a>
+                                </label>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <!-- loading -->
+        <div id="loading">
+            <p><i></i>資料提交中，請稍後</p>
+        </div>
+
+        <!-- thx page -->
+        <div id="thx">
+            <div id="thxContent">
+                <div class="close">X</div>
+                <h3>資料己送出</h3>
+                <p class="thxparg"></p>
+                <p class="suprtCall">
+                    <span>如需要立即的支援與服務，</span>
+                    <span>請直撥免付費專線 0800-888-162，謝謝！</span>
+                </p>
+                <p class="thxSourLoad1">
+                    <a id="SourLoadLink" href="" target="_blank">資料下載</a>
+                </p>
+                <p id="goIndex">
+                    <a href="javascript:;">繼續瀏覽網站</a>
+                </p>
+            </div>
+        </div>
+    </main>
+    <!-- 後台上稿內容結束-->
+</body>
+
+</html>

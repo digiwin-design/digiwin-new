@@ -1,0 +1,19 @@
+<main-header>
+    <template slot="content">
+        <h1>作經銷批發生意，<br>您也是這樣嗎?</h1>
+        <p>通路管理、應收帳款、信用額度、業務巡補</p>
+    </template>
+</main-header>
+
+<component :is="componentId"></component>
+
+<article class="cases">
+    <div class="container">
+        <section-title title="輔導案例"></section-title>
+        <div class="cases-content">
+            <case v-bind:id="i" v-for="i in [1,2,3,4]"></case>
+        </div>
+    </div>
+</article>
+
+<contact v-bind:multiple="false" source=""></contact>

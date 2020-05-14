@@ -1,0 +1,224 @@
+<main class="WB00247601_Industry02">
+  <!--
+    <link rel="stylesheet" type="text/css" href="https://www.digiwin.com/tw/dsc/Library/css/reset.css" />
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+  -->
+  <link rel="stylesheet" type="text/css" href="https://www.digiwin.com/tw/dsc/Library/css/jquery-ui.min.css" /> <link rel="stylesheet" type="text/css" href="https://www.digiwin.com/tw/dsc/css/animate.css" /> <link rel="stylesheet" type="text/css" href="https://www.digiwin.com/tw/dsc/plugins/font-awesome/css/font-awesome.min.css" />
+  <script type="text/javascript" src="https://www.digiwin.com/tw/dsc/solution/WB002476/js/jquery-ui.min.js"></script>
+  <script type="text/javascript" src="assets/modernizr-custom.js" defer></script>
+  <script type="text/javascript" src="assets/handlebars.js" defer></script>
+
+  <!-- form -->
+  <link rel="stylesheet" type="text/css" href="https://www.digiwin.com/tw/dsc/css/Eform/form.css" /> <link rel="stylesheet" type="text/css" href="https://www.digiwin.com/tw/dsc/css/Eform/xcConfirm.css" />
+  <script type="text/javascript" src="https://www.digiwin.com/tw/dsc/js/Eform/form.js" defer></script>
+  <script type="text/javascript" src="https://www.digiwin.com/tw/dsc/js/Eform/xcConfirm.js"></script>
+
+  <!-- submenu -->
+  <link rel="stylesheet" href="/tw/dsc/assets/submenu/submenu.css" />
+  <script src="/tw/dsc/assets/submenu/submenu.min.js"></script>
+
+  <!-- custom -->
+  <link rel="stylesheet" type="text/css" href="css/WB002476_common.css" /> <link rel="stylesheet" type="text/css" href="css/WB002476_Industry02.css" />
+  <script type="text/javascript" src="js/WB002476_common.js" defer></script>
+  <script type="text/javascript" src="js/WB002476.js" defer></script>
+
+  <!-- shadowbox -->
+  <link rel="stylesheet" type="text/css" href="https://www.digiwin.com/tw/dsc/shadowbox/shadowbox.css" />
+  <script type="text/javascript" src="https://www.digiwin.com/tw/dsc/shadowbox/shadowbox.js" defer></script>
+  <script type="text/javascript">
+    $(function() {
+      Shadowbox.init({
+        continuous: "next",
+        displayCounter: true
+      });
+
+      $("#mainContent .group .list").click(function() {
+        var $this = $(this).index();
+        var _scrollTop = $(".issueGroup .issue")
+          .eq($this)
+          .offset().top;
+        $("html, body").animate({
+          scrollTop: _scrollTop + "px"
+        });
+      });
+    });
+  </script>
+
+  <div id="industry">
+    <div id="indBanner" class="section vAlignMiddle">
+      <div class="content vAlignContent">
+        <a href="#">
+          <h1>機械設備業智慧工廠全場景</h1>
+          <p class="pageDesc">IQC</p>
+        </a>
+      </div>
+    </div>
+
+    <div id="benefit" class="section">
+      <div class="content">
+        <h2>如果能將待驗優先急、已驗待入庫資訊連動起來那就好了</h2>
+        <br />
+
+        <ul class="listGroup clearfix">
+          <li class="list list01">
+            <div class="outline">
+              <img src="/tw/dsc/solution/WB002476/images/Industry/Industry02/icon_ind05.png" alt="採購" /><img src="/tw/dsc/solution/WB002476/images/Industry/Industry02/icon_ind06.png" alt="生產" />
+              <h3>採購/生產</h3>
+              <p>待驗區，零件一堆堆、一件件，等著要檢驗。不管兩天前、三天前的來料，都得在門口乖乖地排隊。廠商加工要時間，品保檢驗要時間，誰能幫我趕時間送現場。<br /></p>
+            </div>
+          </li>
+          <li class="list list02">
+            <div class="outline">
+              <img src="/tw/dsc/solution/WB002476/images/Industry/Industry02/icon_ind07.png" alt="品檢" />
+              <h3>品檢</h3>
+              <p>檢驗工作總是月初閒閒，月底塞爆。趕工檢驗是必然的，但有那麼多的檢驗標準要查找、圖面版本要核對，有那麼多的檢驗項目要記錄。且，即時要判斷，後續要分析。現場來追料、先拿料。到底哪些要先趕，這些檢驗順序經查被打亂，檢驗效率怎麼出的來。<br /></p>
+            </div>
+          </li>
+          <li class="list list03">
+            <div class="outline">
+              <img src="/tw/dsc/solution/WB002476/images/Industry/Industry02/icon_ind03.png" alt="現場" />
+              <h3>現場</h3>
+              <p>生產進度延遲，缺料是最大的主因。尤其是有精度要求的品項，排隊檢驗就要等3~5天。有時候一卡就是好幾台機台在等檢驗料，待料停工也是家常便飯。東西來了也有可能圖面版本錯了，進度也只能一直延下去。<br /></p>
+            </div>
+          </li>
+          <li class="list list04">
+            <div class="outline">
+              <img src="/tw/dsc/solution/WB002476/images/Industry/Industry02/icon_ind04.png" alt="廠長" />
+              <h3>廠長</h3>
+              <p>
+                IQC是公司品質的第一關卡，但往往因時間不足，檢驗項目繁多費時費工，而無法完全落實檢驗。最後在FQC不過關，一切還是得重來。<br />
+                <br />
+              </p>
+            </div>
+          </li>
+        </ul>
+        <p class="font_main">品質靠檢驗、檢驗靠數字、數字靠標準，在機械設備業的進料檢驗上，最困擾的不外乎：交期變更導致來料檢驗時間不足，無法預擬來料檢驗的優先序，要檢驗的料品找不到檢驗標準、圖面，料品精度品質未達標但現場急著用。 光花在溝通協調、資料查找就耗費掉大半天，檢驗後還要找時間整理分析品質資料。如果可以透過資訊的連動結合，事先做好檢驗工作的預估與提醒。讓檢驗人員可以聚焦檢驗工作，並同時將檢驗結果即時記錄下來，將來分析時就不用翻翻找找編數字。</p>
+      </div>
+    </div>
+
+    <div id="mainContent" class="section">
+      <div class="content">
+        <h2>未來進料檢驗情境佈建</h2>
+
+        <div class="BOX">
+          <div class="left">
+            <p class="Ticon">應用場景</p>
+
+            角色：品檢人員<br />
+            <ul>
+              <li>從「IQC待驗看板」掌握當日待驗任務，以及急件資訊，事先做好工作安排與調度。</li>
+              <li>透過APP直接刷讀待驗料品資訊，並即時維護品質資料，且同步更新ERP資料。</li>
+              <li>透過設備聯網直接讀取檢驗儀器數據，透過互聯中台進行數據傳遞與保存。</li>
+            </ul>
+          </div>
+
+          <div class="title">IQC<br />進料檢驗</div>
+
+          <div class="right">
+            <p class="Ticon2">預期效益</p>
+            <ul>
+              <li>減少來料檢驗資訊查找時間，快速釐清檢驗任務的優先順序，降低檢驗任務對焦與查找時間浪費。</li>
+              <li>即時品質資訊紀錄，降低人員登打錯誤與時效不佳問題。</li>
+              <li>透過電子看板達到進料檢驗作業預警，提升檢驗人員作業應變處理能力。即時的流程資訊預警，消除作業流程閒置等待浪費。</li>
+            </ul>
+          </div>
+
+          <div class="bottom">
+            串聯整合來料待驗資訊<br />
+            提升進料檢驗作業即時處理能力
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="screen" class="section">
+      <div class="screen-content content">
+        <img class="screen-img" src="/tw/dsc/solution/WB002476/images/Industry/Industry02/screen.png" />
+        <div class="screen-grid"><a class="is-active js-popup-open" href="javascript:;" title="計數值檢驗" data-video="03"></a></div>
+        <ul class="screen-productLine">
+          <li><a class="screen-productLine-item bounceDown js-popup-open" href="javascript:;" data-text="c">IQC待驗看板</a></li>
+          <li><a class="screen-productLine-item bounceDown js-popup-open" href="javascript:;" data-text="f">進料品質監控看板</a></li>
+          <li><a class="screen-productLine-item bounceDown js-popup-open" href="javascript:;" data-text="e">進貨入庫待辦看板</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- popup -->
+    <div id="popup" class="popup">
+      <div id="popup-content" class="content"><!-- #popup-content-template --></div>
+    </div>
+
+    <div id="howto" class="section">
+      <div class="content">
+        <h2><span class="font_orange">可以這樣做</span><br />三次元量測儀設備整合架構</h2>
+        <div class="boxs"><img src="/tw/dsc/solution/WB002476/images/Industry/Industry02/img01.png" width="1200" height="724" /></div>
+      </div>
+    </div>
+
+    <div id="IQC" class="section">
+      <div class="content">
+        <div class="boxs"><img src="/tw/dsc/solution/WB002476/images/Industry/Industry02/img02.png" width="1200" height="803" /></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="MBtn_B"><a href="/tw/dsc/solution/WB002476/industry">回 機械設備業智慧工廠全場景</a></div>
+</main>
+
+<div id="contact">
+  <div id="contactTxt" class="clearfix">
+    <h2>資料索取與諮詢</h2>
+    <div id="info">
+      <p>請填寫下方資料便於盡快為您服務。<br />若您需要立即的支援與服務，請直撥免付費專線 <span class="highLight">0800-888-162</span>，謝謝！</p>
+      <ul>
+        <li class="mail"><a href="mailto:marketing01@digiwin.biz"></a></li>
+        <li class="fb"><a href="https://www.facebook.com/DSCmain" target="_blank"></a></li>
+      </ul>
+    </div>
+    <div id="rightForm" class="form shortForm">
+      <a id="fromSource" href="javascript:;">WB002476</a>
+      <div id="contactInput" class="clearfix">
+        <span class="hideLabel ">*完整公司名稱：</span><input type="text" placeholder="*完整公司名稱" name="contact-company" id="contact-company" class="contact required" /><span class="hideLabel perLabel">*姓名：</span><input type="text" placeholder="*姓名" name="contact_person" id="contact_person" class="contact required" /><span class="hideLabel evenLable">*聯絡電話：</span><input type="text" placeholder="*聯絡電話" name="telephone" id="telephone" class="contact required end" /><span class="hideLabel evenLable">*E-mail：</span> <input type="text" placeholder="*E-mail" name="contact-email" id="contact-email" class="contact required" /><span class="hideLabel">*部門：</span><input type="text" placeholder="*部門" name="contact-dept" id="contact-dept" class="contact required" />
+        <span class="hideLabel">*職稱：</span><input type="text" placeholder="*職稱" name="contact-job" id="contact-job" class="contact required end" />
+      </div>
+      <div class="consult-cont">
+        <p class="hideLabel">請在這裡描述您的需求(最多500字)：</p>
+        <textarea id="contact-query" cols="40" placeholder="請在這裡描述您的需求(最多500字)：" rows="4" maxlength="500"></textarea>
+      </div>
+      <!--
+        <div class="inforCheck">
+            <label for="dm_ask">
+            <input name="information" class="information" id="dm_ask" type="checkbox" value="資料索取" /> 索取智慧工廠相關資料
+        </label>
+        </div>
+      -->
+      <div class="demandCheck clearfix">
+        <p>請勾選貴公司想要改善的項目：</p>
+        <label for="contact-demand01"><input name="contact-demand" class="contact-demand" id="contact-demand01" type="checkbox" value="採購收貨流程智能化" /> 採購收貨流程智能化</label> <label for="contact-demand02"><input name="contact-demand" class="contact-demand" id="contact-demand02" type="checkbox" value="進料檢驗流程智能化" /> 進料檢驗流程智能化</label> <label for="contact-demand03"><input name="contact-demand" class="contact-demand" id="contact-demand03" type="checkbox" value="備料流程智能化" /> 備料流程智能化</label> <label for="contact-demand04"> <input name="contact-demand" class="contact-demand" id="contact-demand04" type="checkbox" value="生產報工智能化" /> 生產報工智能化</label>
+        <label for="contact-demand05"><input name="contact-demand" class="contact-demand" id="contact-demand05" type="checkbox" value="生產工時收集智能化" /> 生產工時收集智能化</label> <label for="contact-demand06"><input name="contact-demand" class="contact-demand" id="contact-demand06" type="checkbox" value="SOP作業標準智能化" /> SOP作業標準智能化</label> <label for="contact-demand07"><input name="contact-demand" class="contact-demand" id="contact-demand07" type="checkbox" value="店面倉管理智能化" /> 店面倉管理智能化</label> <label for="contact-demand08"><input name="contact-demand" class="contact-demand" id="contact-demand08" type="checkbox" value="生產入庫流程智能化" /> 生產入庫流程智能化</label>
+        <label for="contact-demand09"><input name="contact-demand" class="contact-demand" id="contact-demand09" type="checkbox" value="出貨作業流程智能化" /> 出貨作業流程智能化</label> <label for="contact-demand10"><input name="contact-demand" class="contact-demand" id="contact-demand10" type="checkbox" value="現場看板管理" /> 現場看板管理</label> <label for="contact-demand11"><input name="contact-demand" class="contact-demand" id="contact-demand11" type="checkbox" value="智慧工廠戰情室" /> 智慧工廠戰情室</label>
+      </div>
+
+      <hr />
+      <div class="verifica"><span class="veriSpan">＊請輸入驗證碼：</span> <span class="veriSpan-m">驗證碼:</span> <input type="text" name="" id="identCode" class="identCode" onblur="validate()" /> <input type="button" id="vericodePic" /> <span class="renovCode" onclick="createCode()"></span> <span id="codeSuces"></span></div>
+      <input type="button" id="submit" value="送　　出" /> <label for="agree" class="checAgree"><input type="checkbox" name="agree" value="" id="agree" checked="" /> 我同意接受鼎新電腦<a href="/tw/portal/page/index/id/1202.html" target="_blank">隱私權聲明</a></label>
+    </div>
+  </div>
+</div>
+
+<!-- loading -->
+<div id="loading">
+  <p><i></i>資料處理中，請稍後...</p>
+</div>
+
+<!-- thx page -->
+<div id="thx">
+  <div id="thxContent">
+    <div class="close">X</div>
+    <h3>資料己送出</h3>
+    <p class="thxparg"></p>
+    <p class="suprtCall"><span>如需要立即的支援與服務，</span> <span>請直撥免付費專線0800-888-162，謝謝！</span></p>
+    <p class="thxSourLoad1"><a id="SourLoadLink" href="" target="_blank">資料下載</a></p>
+    <p id="goIndex"><a href="javascript:;">繼續瀏覽網站</a></p>
+  </div>
+</div>

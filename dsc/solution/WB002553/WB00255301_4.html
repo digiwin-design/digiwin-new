@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="/tw/static/css/public.css">
+    <link rel="stylesheet" href="/tw/static/css/style.css">
+    <script src="/tw/static/js/jquery-1.11.3.min.js"></script>
+    <script src="https://polyfill.io/v3/polyfill.js?features=default,fetch,HTMLPictureElement,Array.prototype.find,NodeList.prototype.forEach&amp;flags=gated"></script>
+    <script src="/tw/dsc/assets/modernizr-custom.js"></script>
+    <script src="/tw/dsc/assets/mobile-detect.js"></script>
+    <script src="/tw/dsc/assets/mobile-detect-modernizr.js" defer=""></script>
+    <script src="/tw/dsc/assets/axios.min.js"></script>
+    <script src="/tw/dsc/assets/vuejs/vue-all-dev.js"></script>
+    <script src="/tw/dsc/js/common.min.js"></script>
+  </head>
+  <body>
+    <!-- 後台上稿內容開始-->
+    <link rel="stylesheet" href="/tw/dsc/css/Eform/xcConfirm.css">
+    <script src="/tw/dsc/js/Eform/xcConfirm.js" defer></script>
+    <link rel="stylesheet" href="../../assets/submenu/submenu.css">
+    <script src="../../assets/submenu/submenu.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="assets/lodash.min.js" defer></script>
+    <link rel="stylesheet" href="/tw/dsc/css/reboot.css">
+    <script src="js/all.min.js" defer></script>
+    <link rel="preload" href="images/seminar/header-bg.jpg" as="image">
+    <link rel="stylesheet" href="css/seminar/seminar.css">
+    <script src="assets/jquery-ui-1.12.1.custom/jquery-ui.min.js" defer></script>
+    <script src="assets/lodash.min.js" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.9.2/d3.min.js" defer></script>
+    <script src="js/seminar.min.js" defer></script>
+    <main v-cloak v-if="result">
+      <seminar v-if="result" :content="result"></seminar>
+    </main>
+    <!-- 後台上稿內容結束-->
+  </body>
+</html>

@@ -1,0 +1,15 @@
+@charset "UTF-8";
+/* 展開區塊上方箭頭 */
+.home-industry .home-box .tab li::before {
+    border-bottom: 15px solid #093889 !important;
+}
+
+/* 展開區塊底圖 */
+.home-industry .home-box .tabbg .content {
+    background: url(https://www.digiwin.com/tw/dsc/images/index/home-bg.jpg) no-repeat top center;
+}
+
+/* 展開區塊第一項預設顯示 */
+.home-industry .home-box:first-of-type .tabbg .content:first-of-type {
+    display: block;
+}

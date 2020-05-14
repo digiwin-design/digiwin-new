@@ -1,0 +1,164 @@
+@charset "utf-8";
+@import url("reset.css");
+/* CSS Document */
+
+#WRAPPER { width:100%; margin:0 auto; background-color:#e9e9e9;}
+#CONTENT { width:930px; margin:0 auto; background-color:#fef9ee; background-image:url(../images/WB00250401_01.jpg); background-repeat:no-repeat; background-position:top;}
+#CONTENT #MENU { width:135; height:34px; padding-top:320px; margin-left:68px; margin-right:5px;}
+#CONTENT #MAIN {
+	width:800px;
+	height:1296px;
+	background-image:url(../images/WB00250401_bg.png);
+	margin-left:68px;
+	padding-top:35px; }
+	
+/* 02挑戰遊戲頁 */	
+#CONTENT #MAIN02 {
+	width:800px;
+	height:1331px;
+	background-image:url(../images/WB00250401_bg.png);
+	margin-left:68px;}
+
+/* 他們的創新傳奇故事 */
+#CONTENT #MAIN #M1 { width:745px; height:325px; background-image:url(../images/WB00250401_05.jpg); margin:0 auto; position:relative;}
+#CONTENT #MAIN #M1 h2 { font-family: "微軟正黑體", "新細明體", Arial, Helvetica, sans-serif; font-size:18px; color:#f37053; font-weight: bold;}
+.txt18 { font-family: "微軟正黑體", "新細明體", Arial, Helvetica, sans-serif; font-size:18px; color:#c24c34; font-weight: bold;	}
+#CONTENT #MAIN #M1 h3 { font-family: "微軟正黑體", "新細明體", Arial, Helvetica, sans-serif; font-size:15px; color:#0c858f; font-weight: bold;}
+#CONTENT #MAIN #M1 p { font-family: "微軟正黑體", "新細明體", Arial, Helvetica, sans-serif; font-size:15px; color:#3b3b3b; line-height:1.5;}
+#M1 ul {
+	width:390px;
+	height:58px;
+	position: absolute;
+	left: 355px;
+	top: 0px;
+	z-index: 99;
+}
+
+#M1 li {
+	float: left;
+}
+
+#M1 li a{
+	display: block;
+	width:130px;
+	height:58px;
+	font-family: "微軟正黑體", "新細明體", Arial, Helvetica, sans-serif;
+	font-size:18px;
+	color:#e6e6e6;
+	line-height:40px;
+	background-image:url(../images/WB00250401_menu1.png);
+	text-align: center;
+	text-decoration:none;
+	/* [disabled]cursor: pointer; */
+}
+#M1 li.tabNow a{
+	background-image:url(../images/WB00250401_menu2.png);
+	color:#480e01;
+	font-weight: bold;
+}
+#M1 li a:hover { background-image:url(../images/WB00250401_menu2.png); color:#480e01;}
+.M1-A {
+	width:690px;
+	height:225px;
+	margin-top:0px;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto;
+	padding-top: 70px;
+	float: left;
+	position: absolute;
+	left: 27.5px;
+	top: 0px;
+}
+.M1-A1{
+	float:left;
+	width:350px;
+	height:197px;
+	margin-top:10px;
+	margin-left:8px;
+	position: relative;
+}
+#M1-A1 #play1 , #M1-A2 #play2{
+	position: absolute;
+	z-index: 999;
+	left: 0px;
+	top: 29px;
+	height: 132px;
+	width: 350px;
+	cursor: pointer;
+}
+#M1-A1 #play1-1, #M1-A2 #play2-1 {
+	position: absolute;
+	z-index: 999;
+	left: 0px;
+	height: 27px;
+	width: 58px;
+	cursor: pointer;
+	bottom: 0px;
+}
+
+
+
+.M1-A2{
+	float:left;
+	width:310px;
+	height:200px;
+	margin-left:10px;
+	margin-top:7px;
+}
+#M1-A2 , #M1-A3{
+	display: none;
+}
+
+
+
+/* 競爭環境下贏在起跑點的秘密 */
+#CONTENT #MAIN #M2 { width:745px; height:367px; background-image:url(../images/WB00250401_06.jpg); margin:0 auto; margin-top:20px; position:relative;}
+#CONTENT #MAIN #M2 p { padding: 55px 50px 0px 50px; font-family: "微軟正黑體", "新細明體", Arial, Helvetica, sans-serif; font-size:15px; color:#3b3b3b; line-height:1.6;}
+.M2-L {
+	float:left;
+	width:290px;
+	height:185px;
+	position:absolute;
+	left: 95px;
+	top: 145px;
+	display: none;
+}
+.M2-L h2 { font-family: "微軟正黑體", "新細明體", Arial, Helvetica, sans-serif; font-size:21px; color:#036c74; font-weight: bold; padding-bottom:5px;}
+.M2-L h3 { font-family: "微軟正黑體", "新細明體", Arial, Helvetica, sans-serif; font-size:17px; color:#010101; font-weight: bold; padding-bottom:4px;}
+.M2-L h4 { font-family: "微軟正黑體", "新細明體", Arial, Helvetica, sans-serif; font-size:15px; color:#3b3b3b; line-height:1.6;}
+#M2-R {
+	float:left;
+	width:236px;
+	height:185px;
+	position:absolute;
+	left: 440px;
+	top: 142px;
+}
+#M2-R .C { float:left; width:72px; height:58px; margin:2px;}
+#M2-R .C img { cursor:pointer;}	
+
+/* 單元Highlights */
+#CONTENT #MAIN #M3 { width:745px; height:367px; background-image:url(../images/WB00250401_07.jpg); margin:0 auto; margin-top:20px;}
+#M3-1 { float:left; width:181px; height:292px; margin-left:35px; margin-top:55px;}
+#M3-2 { float:left; width:490px; height:292px; margin-top:55px; position:relative;}
+#M3-2 h2 { font-family: "微軟正黑體", "新細明體", Arial, Helvetica, sans-serif; font-size:18px; color:#eb0101; font-weight: bold; line-height:1.6;}
+#M3-2 p { padding-left:175px; font-family: "微軟正黑體", "新細明體", Arial, Helvetica, sans-serif; font-size:15px; color:#3b3b3b; line-height:1.5;}
+#M3-2 #ITEM1 { padding-left:20px; width:470px; height:140px;}
+#M3-2 #ITEM1 img {
+	width:162px;
+	height:87px;
+	position:absolute;
+	left: 24px;
+	top: 34px;
+}
+#M3-2 #ITEM2 { padding-left:20px; width:470px; height:140px;}
+#M3-2 #ITEM2 img {
+	width:162px;
+	height:87px;
+	position:absolute;
+	left: 24px;
+	top: 174px;
+}
+/* 鼎新粉絲團×挑戰創新遊戲 */
+#CONTENT #MAIN #M4 { width:747px; height:176px; margin:0 auto; margin-top:20px;}

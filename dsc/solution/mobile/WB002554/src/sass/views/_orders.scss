@@ -1,0 +1,5 @@
+main .orders {
+    .header {
+        @include headerBg('orders/header-bg.jpg', 'orders/header-bg.jpg', 100% 0);
+    }
+}

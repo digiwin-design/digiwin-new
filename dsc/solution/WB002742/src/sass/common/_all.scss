@@ -1,0 +1,24 @@
+[v-cloak] {
+    display: none;
+}
+main {
+    padding-top: 50px;
+    min-width: 360px;
+    font-size: 18px;
+    line-height: 1.6;
+    @media (min-width: $tablet-width + 1) {
+        padding-top: 0;
+    }
+    .container {
+        margin: 0 auto;
+        max-width: $content-width;
+    }
+    .mainTitle {
+        font-weight: bold;
+        font-size: 30px;
+    }
+    .sectionTitle {
+        padding-top: 50px;
+        font-size: 26px;
+    }
+}

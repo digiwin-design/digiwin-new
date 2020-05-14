@@ -1,0 +1,9 @@
+extends ../layout.pug
+
+block includes
+    link(rel="preload", href="images/efficiency/banner.jpg", as="image")
+    link(rel='stylesheet', href='css/efficiency/style.css')
+    script(src='js/efficiency.min.js', defer)
+
+block content
+    include efficiency.html

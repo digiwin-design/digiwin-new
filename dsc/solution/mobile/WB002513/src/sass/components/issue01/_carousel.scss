@@ -1,0 +1,32 @@
+main .issue01 .carousel {
+    .swiper {
+        &-container {
+            padding-bottom: 58px;
+        }
+        &-pagination {
+            bottom: 0;
+            display: flex;
+            justify-content: center;
+            &-bullet {
+                margin: 0 9px;
+                width: 22px;
+                height: 22px;
+                background-color: #dedede;
+                opacity: 1;
+                &-active {
+                    background-color: #ffde00;
+                }
+            }
+        }
+    }
+    .slide3 {
+        color: #ffde00;
+        letter-spacing: getLetterSpacing(25);
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 40px;
+        li::first-letter {
+            font-size: 40px;
+        }
+    }
+}

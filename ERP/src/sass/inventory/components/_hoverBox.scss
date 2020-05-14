@@ -1,0 +1,88 @@
+main .hoverBox {
+    $bgColor: #2da2bf, #3e88cc, #256fad;
+    $hoverHeight: 65%, 90%, 90%;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 217px;
+    color: #fff;
+    justify-content: center;
+    @media (min-width: $tablet-width + 1) {
+        width: calc((100% - 20px) / 3);
+        height: 285px;
+    }
+    & + .hoverBox {
+        margin-top: 5px;
+        @media (min-width: $tablet-width + 1) {
+            margin-top: 0;
+            margin-left: 10px;
+        }
+    }
+    &::after {
+        @include imgBg('inventory/hover-box-arrow.png', true);
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        content: '';
+        transform: translateX(-50%);
+    }
+    &::before {
+        display: block;
+        margin: 0 auto 25px;
+        background-position: 50%;
+        background-repeat: no-repeat;
+        content: '';
+        @media (min-width: $tablet-width + 1) {
+            margin-bottom: 35px;
+        }
+    }
+    &-title {
+        text-align: center;
+        font-weight: bold;
+        font-size: 23px;
+        line-height: 1;
+        @media (min-width: $tablet-width + 1) {
+            font-size: 30px;
+        }
+    }
+    &-hover {
+        display: flex;
+        color: #fff;
+        text-align: justify;
+        letter-spacing: getLetterSpacing(25);
+        font-size: 14px;
+        line-height: 1.3;
+        align-items: center;
+        @media (min-width: $content-width + 1) {
+            font-size: 18px;
+        }
+        li {
+            display: flex;
+            &::before {
+                content: '●';
+            }
+        }
+    }
+    @for $nth from 1 through 3 {
+        &.hoverBox#{$nth} {
+            background-color: nth($bgColor, $nth);
+            &::before {
+                width: image-width('inventory/hoverBox-icon#{$nth}-s.png');
+                height: image-height('inventory/hoverBox-icon#{$nth}-s.png');
+                background-image: image-url('inventory/hoverBox-icon#{$nth}.png');
+                background-size: contain;
+                @media (min-width: $tablet-width + 1) {
+                    width: image-width('inventory/hoverBox-icon#{$nth}.png');
+                    height: image-height('inventory/hoverBox-icon#{$nth}.png');
+                }
+            }
+            .hoverBox-hover {
+                background-color: rgba(darken(nth($bgColor, $nth), 20%), .95);
+                & > div {
+                    margin: 0 auto;
+                    width: nth($hoverHeight, $nth);
+                }
+            }
+        }
+    }
+}

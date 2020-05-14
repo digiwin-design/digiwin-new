@@ -1,0 +1,64 @@
+$seminar-color: (
+    primary: #e52847,
+    secondary: #f37086,
+    orange: #ff8111,
+    gray: #b9b9b9,
+);
+@import '../common';
+@import 'components';
+@import 'accordion';
+@import 'accordionContent';
+
+main {
+    .container {
+        padding: 0 20px;
+    }
+    .header {
+        @include headerBg('../../images/WB00278501_seminar/hero-bg.jpg', '../../images/WB00278501_seminar/hero-bg.jpg', 50% 100%);
+        background-size: cover;
+        .container {
+            height: 500px;
+        }
+        h1 {
+            color: #fff;
+            letter-spacing: getLetterSpacing(25);
+            font-weight: bold;
+            font-size: 36px;
+            line-height: 1.2;
+            @media (min-width: $tablet-width + 1) {
+                font-size: 48px;
+            }
+        }
+        p {
+            margin-top: 1em;
+            max-width: 800px;
+            color: #fff;
+            letter-spacing: getLetterSpacing(25);
+            font-size: 18px;
+            line-height: 1.6;
+        }
+    }
+    .section1 {
+        @include bg('../../images/WB00278501_seminar/section1-bg.jpg');
+        background-attachment: fixed;
+        h1 {
+            padding-top: 1.5em;
+            padding-bottom: 1em;
+            color: #0c53aa;
+            text-align: center;
+            font-weight: bold;
+            font-size: 26px;
+            @media (min-width: $tablet-width + 1) {
+                font-size: 36px;
+            }
+        }
+    }
+    .section1 {
+        &-desc {
+            margin: 0 auto 2em;
+            max-width: 1000px;
+            font-size: 18px;
+            line-height: 1.6;
+        }
+    }
+}

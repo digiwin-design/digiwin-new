@@ -1,0 +1,342 @@
+@charset "UTF-8";
+main.WB00247601_Industry07 a i.fa {
+  font-size: 16px;
+}
+main.WB00247601_Industry07 #industry #indBanner {
+  background: url("../images/Industry/Industry07/bg_banner.jpg") no-repeat center center;
+  color: #FFF;
+}
+main.WB00247601_Industry07 #industry #indBanner h1 {
+  color: #00f0ff;
+}
+main.WB00247601_Industry07 #industry #indBanner {
+  height: 250px;
+  margin-bottom: 60px;
+  padding: 0;
+  color: #fff;
+}
+main.WB00247601_Industry07 #industry #indBanner h1 {
+  margin-bottom: 4px;
+  font-size: 36px;
+  line-height: 54px;
+  text-align: left;
+}
+main.WB00247601_Industry07 #industry #indBanner .pageDesc {
+  width: 500px;
+  font-size: 20px;
+  font-size: 30px;
+  line-height: 30px;
+  color: #FFF;
+}
+main.WB00247601_Industry07 #benefit h2 br {
+  display: none;
+}
+main.WB00247601_Industry07 #benefit .listGroup {
+  margin: 0 -15px;
+}
+main.WB00247601_Industry07 #benefit .listGroup h3 {
+  margin: 10px 0;
+  color: #297396;
+  font-size: 22px;
+  font-weight: bold;
+}
+main.WB00247601_Industry07 #benefit .listGroup h3 strong {
+  font-size: 30px;
+}
+main.WB00247601_Industry07 #benefit .listGroup .list {
+  float: left;
+  position: relative;
+  width: 25%;
+  height: 450px;
+  padding: 0 15px;
+  text-align: center;
+  margin-bottom: 20PX;
+}
+main.WB00247601_Industry07 #benefit .listGroup .list:before {
+  position: absolute;
+  top: 0;
+  left: 15px;
+  content: "";
+  width: 0;
+  height: 0;
+  border-left: 170px solid #297396;
+  border-bottom: 100px solid transparent;
+}
+main.WB00247601_Industry07 #benefit .listGroup .list:after {
+  content: "事件";
+  position: absolute;
+  top: 10px;
+  left: 30px;
+  color: #fff;
+  font-size: 24px;
+  font-weight: bold;
+}
+main.WB00247601_Industry07 #benefit .listGroup .list p {
+  display: inline-block;
+  list-style: disc outside;
+  padding: 0 20px;
+  text-align: justify;
+  font-size: 17px;
+}
+main.WB00247601_Industry07 #benefit .listGroup .list.list02:before {
+  border-left-color: #31b5d6;
+}
+main.WB00247601_Industry07 #benefit .listGroup .list.list02:after {
+  content: "困擾";
+}
+main.WB00247601_Industry07 #benefit .listGroup .list.list02 h3 {
+  color: #31b5d6;
+}
+main.WB00247601_Industry07 #benefit .listGroup .list.list03:before {
+  border-left-color: #018c95;
+}
+main.WB00247601_Industry07 #benefit .listGroup .list.list03:after {
+  content: "影響誰";
+}
+main.WB00247601_Industry07 #benefit .listGroup .list.list03 h3 {
+  color: #018c95;
+}
+main.WB00247601_Industry07 #benefit .listGroup .list.list04:before {
+  border-left-color: #29bac3;
+}
+main.WB00247601_Industry07 #benefit .listGroup .list.list04:after {
+  content: "結果";
+}
+main.WB00247601_Industry07 #benefit .listGroup .list.list04 h3 {
+  color: #29bac3;
+}
+main.WB00247601_Industry07 #benefit .listGroup .outline {
+  width: 100%;
+  height: 100%;
+  padding-top: 30px;
+  border: 1px solid #297396;
+}
+main.WB00247601_Industry07 #benefit .listGroup .list02 .outline {
+  border-color: #31b5d6;
+}
+main.WB00247601_Industry07 #benefit .listGroup .list03 .outline {
+  border-color: #018c95;
+}
+main.WB00247601_Industry07 #benefit .listGroup .list04 .outline {
+  border-color: #29bac3;
+}
+main.WB00247601_Industry07 #benefit .goContact {
+  display: block;
+  margin: 30px 0 0;
+  font-size: 24px;
+  text-align: center;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+main.WB00247601_Industry07 #benefit .goContact i {
+  margin-right: 4px;
+}
+main.WB00247601_Industry07 #benefit .goContact:before {
+  display: block;
+  content: "";
+  position: absolute;
+  bottom: -5px;
+  left: 50%;
+  width: 0;
+  border-bottom: 5px solid #00c3f3;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+main.WB00247601_Industry07 #benefit .goContact:hover {
+  color: #00c3f3;
+}
+main.WB00247601_Industry07 #benefit .goContact:hover:before {
+  width: 39%;
+}
+main.WB00247601_Industry07 #mainContent {
+  background: url("../images/Industry/Industry07/bg_banner02.png") no-repeat top center #f5f5f5;
+}
+main.WB00247601_Industry07 #mainContent h3 {
+  text-align: center;
+  padding: 20px 0 0 0;
+  font-weight: bold;
+  color: #2694ce;
+  font-size: 28px;
+}
+main.WB00247601_Industry07 #mainContent .fa {
+  display: block;
+  font-size: 50px;
+  color: #ccc;
+  text-align: center;
+  cursor: pointer;
+}
+main.WB00247601_Industry07 #mainContent .BOX {
+  display: block;
+  width: 1200px;
+  height: 700px;
+  position: relative;
+  font-family: Arial, "微軟正黑體";
+  line-height: 1.8;
+}
+main.WB00247601_Industry07 #mainContent .BOX .left {
+  display: block;
+  width: 441px;
+  height: 451px;
+  position: absolute;
+  font-size: 18px;
+  left: 46px;
+  top: 45px;
+  overflow: hidden;
+}
+main.WB00247601_Industry07 #mainContent .BOX .title {
+  display: block;
+  width: 191px;
+  position: absolute;
+  font-size: 30px;
+  left: 503px;
+  top: 404px;
+  text-align: center;
+  overflow: hidden;
+  color: #093;
+}
+main.WB00247601_Industry07 #mainContent .BOX .right {
+  display: block;
+  width: 429px;
+  height: 451px;
+  position: absolute;
+  font-size: 18px;
+  left: 712px;
+  top: 52px;
+  overflow: hidden;
+}
+main.WB00247601_Industry07 #mainContent .BOX li {
+  background: url("../images/Industry/Industry07/dot.png") no-repeat top left;
+  padding-left: 30px;
+}
+main.WB00247601_Industry07 #mainContent .BOX .bottom {
+  display: block;
+  width: 985px;
+  height: 160px;
+  position: absolute;
+  font-size: 36px;
+  left: 99px;
+  top: 566px;
+  text-align: center;
+  color: #FFF;
+  line-height: 1.6;
+}
+main.WB00247601_Industry07 #mainContent .BOX .Ticon {
+  font-size: 24px;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  width: 180px;
+  height: 60px;
+  background: #fc0;
+  color: #fff;
+  text-align: center;
+  line-height: 60px;
+}
+main.WB00247601_Industry07 #mainContent .BOX .Ticon2 {
+  font-size: 24px;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  width: 180px;
+  height: 60px;
+  background: #f60;
+  color: #fff;
+  text-align: center;
+  line-height: 60px;
+}
+main.WB00247601_Industry07 #mainContent .issue .imgGroup p {
+  text-align: center;
+}
+main.WB00247601_Industry07 #mainContent a.pageLink-outline {
+  background-color: #FFF;
+  color: #5aacd8;
+  border: #5aacd8 1px solid;
+}
+main.WB00247601_Industry07 #mainContent a.pageLink-outline:hover {
+  color: #555555;
+}
+main.WB00247601_Industry07 #screen {
+  background: #f5f5f5;
+}
+main.WB00247601_Industry07 #howto {
+  background: #fff;
+}
+main.WB00247601_Industry07 #howto {
+  overflow: hidden;
+}
+main.WB00247601_Industry07 #howto .boxs {
+  overflow: hidden;
+  width: 100%;
+}
+main.WB00247601_Industry07 .greybg {
+  background: #f5f5f5;
+}
+main.WB00247601_Industry07 #Structure {
+  background: #169da0;
+  color: #fff;
+}
+main.WB00247601_Industry07 #Structure {
+  overflow: hidden;
+}
+main.WB00247601_Industry07 #Structure .boxs {
+  overflow: hidden;
+  width: 100%;
+}
+main.WB00247601_Industry07 #information {
+  background: #f5f5f5;
+}
+main.WB00247601_Industry07 #information img {
+  display: block;
+  margin: 0 auto;
+}
+main.WB00247601_Industry07 #information a.pageLink-outline {
+  display: block;
+  margin: 0 auto;
+  width: 500px;
+  background-color: #fff;
+  color: #289bd7;
+  margin-top: 60px;
+  margin-bottom: 20px;
+  border: #289bd7 1px solid;
+}
+main.WB00247601_Industry07 #information a.pageLink-outline:hover {
+  color: #289bd7;
+}
+main.WB00247601_Industry07 .screen-grid {
+  top: 395px;
+}
+main.WB00247601_Industry07 .screen-grid a:nth-of-type(1) {
+  position: relative;
+  left: -13px;
+  -ms-grid-column-span: 1;
+  -ms-grid-column: 11;
+  grid-column: 11/span 1;
+  -ms-grid-row-span: 1;
+  -ms-grid-row: 1;
+  grid-row: 1/span 1;
+}
+main.WB00247601_Industry07 .screen-grid a:nth-of-type(2) {
+  position: relative;
+  left: -25px;
+  -ms-grid-column-span: 1;
+  -ms-grid-column: 13;
+  grid-column: 13/span 1;
+  -ms-grid-row-span: 1;
+  -ms-grid-row: 1;
+  grid-row: 1/span 1;
+}
+main.WB00247601_Industry07 .screen-productLine {
+  top: 165px;
+}
+main.WB00247601_Industry07 .screen-productLine li:nth-child(1) {
+  margin-right: 35px;
+  margin-left: 130px;
+}
+main.WB00247601_Industry07 .screen-productLine li:nth-child(2) {
+  margin-right: 35px;
+}
+main.WB00247601_Industry07 .screen-productLine li:nth-child(3) {
+  margin-right: 85px;
+}

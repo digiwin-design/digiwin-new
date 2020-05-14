@@ -1,0 +1,91 @@
+@charset "utf-8";
+
+body {font-size: 100%; font-family: Arial, "微軟正黑體"; line-height: 30px; background-color: #000;}
+h2 {color: #39ceff; font-size: 36px; margin-bottom: 25px;}
+h3 {color: #00f6ed; font-size: 19px;}
+p, li {color: #fff; font-size: 17px; text-align: justify;}
+a {color:#fff; text-decoration: none;}
+.clearFix:before,.clearFix:after {display:table; line-height:0; content:"";}
+.clearFix:after {clear:both;}
+.clearFix {*zoom: 1;}
+
+.section {width: 100%; min-width: 1000px; margin: 0 auto; position: relative; padding: 50px 0 60px;}
+.content {width: 1000px; margin: 0 auto; position: relative;}
+.des {width: 660px; font-size: 19px; line-height: 33px; margin-bottom: 25px;}
+.btn {width: 320px; height: 55px; font-size: 23px; text-align: center; line-height: 55px; margin: 0 auto;}
+.btn a {color: #fff; display: block; border: 1px solid #00acf6; }
+.btn a:hover {background-color: #065280;}
+#section03, #section04, #section06 {padding-top: 150px;}
+
+#nav {position: fixed; top:50%; right: 20px; z-index: 9999; margin-top: -135px; display: none;}
+#nav li {font-size: 15px; text-align: right; margin-top: 15px; padding-right: 20px; position: relative;}
+#nav a {color:#aaa; display: block;}
+#nav a .secName {opacity: 0; margin-right: 5px;}
+#nav a .circle {font-size: 20px;}
+#nav a:hover {color:#39ceff;}
+#nav .now .secName, #nav .now .circle {color:#39ceff; opacity: 1;}
+
+#section0 {height:885px; padding-top: 65px; background: url(../images/topBg.jpg) no-repeat center top;}
+#section0 #logo {margin-left: 75px;} 
+#section0 h1 {width: 490px; text-align: center; margin: 125px auto 0;}
+#section0 h1:hover {cursor: pointer;}
+#section0 #arrow {width: 69px; height: 69px; background: url(../images/arrow.png) no-repeat left top; margin: 10px auto 0;}
+/*
+#section01 {height: 500px; background: url(../images/section01.jpg) no-repeat center center; padding-top: 380px;}
+#section01>.content>div {width: 575px; float: right;}
+*/
+
+#section01 .video {width: 100%; min-width: 1000px; height:100%; margin: 0 auto 50px;}
+#section01 iframe {width: 100%; height:100%; display: block;}
+
+#section02 {background: url(../images/section02Bg.jpg) no-repeat center bottom;}
+#section02 .content {background: url(../images/img02.jpg) no-repeat center -50px;}
+#section02 h2 {text-align: center;}
+#section02 img {display: block; margin: 0 auto;}
+#section02 ul {margin: 500px 0 30px;}
+#section02 li {width: 300px; margin-right:50px; float: left;}
+#section02 li.end {margin-right:0;}
+
+#section03 {background: url(../images/section03.jpg) no-repeat center top;}
+#section03 .btn {margin: 0;}
+#section03 ul {margin: 160px 0 220px; padding: 0 35px;}
+#section03 li {width: 285px; margin-right:360px; float: left;}
+#section03 li.end {margin-right:0;}
+
+#section04 {padding-bottom: 200px; background: url(../images/section04Bg.jpg) no-repeat center top;}
+#section04 .content {background: url(../images/img04.jpg) no-repeat center -70px;}
+#section04 h3 {font-size: 27px; margin: 0 0 5px;}
+#section04 ul {width: 425px; margin: 70px 0;}
+#section04 li {margin: 0 0 50px; padding: 5px 0 0 85px;}
+#section04 li.end {margin: 0;}
+#section04 .icon01 {background:  url(../images/icon01.png) no-repeat left top;}
+#section04 .icon02 {background:  url(../images/icon02.png) no-repeat left top;}
+
+#section05 {background: url(../images/section05Bg.jpg) no-repeat center top;}
+#section05 ul {margin: 500px 0 60px;}
+#section05 li {width: 300px; margin-right:50px; float: left;}
+#section05 li.end {margin-right:0;}
+
+#section06 {padding-bottom: 200px;}
+#section06 .content {background: url(../images/img06.jpg) no-repeat right 120px;}
+#section06 ul {width: 510px; margin: 70px 0;}
+#section06 li {margin: 0 0 50px; padding: 5px 0 0 85px;}
+#section06 li.end {margin: 0;}
+#section06 .icon01 {background:  url(../images/icon03.png) no-repeat left top;}
+#section06 .icon02 {background:  url(../images/icon04.png) no-repeat left top;}
+
+#section07 {width: 100%; min-width: 1000px; height:330px; background: url(../images/section07Bg.jpg) no-repeat center bottom;}
+#section07 a {color: #fff;}
+#section07 a:hover {color: #ffee00;}
+#section07 p {font-size: 19px;}
+#section07 #info {width: 470px; text-align: left; float: left;}
+#section07 #iframeForm { width: 500px; height: 100%; float: right;}
+#section07 ul {margin-top: 15px;}
+#section07 ul li {font-size: 19px; padding-left: 30px; line-height: 25px; margin-bottom: 10px;}
+#section07 .tel {background: url(https://static.digiwin.com/tw/dsc/images/contactIcon.png) no-repeat left top;}
+#section07 .mail {background: url(https://static.digiwin.com/tw/dsc/images/contactIcon.png) no-repeat left -25px;}
+#section07 .fb {background: url(https://static.digiwin.com/tw/dsc/images/contactIcon.png) no-repeat left -50px;}
+#section07 iframe { width: 100%; border: none; display: block;}
+
+#footer {width: 100%; min-width: 1000px;padding: 20px 0; background-color: #2b2b2b;}
+#footer p {font-size: 13px; font-family: Arial, "新細明體"; line-height: 20px; text-align: center;}

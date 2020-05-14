@@ -1,0 +1,98 @@
+@import '../common';
+@import 'components';
+
+main {
+    .header {
+        @include headerBg('WB00267501_6/header-bg.jpg');
+        .container > div::before {
+            color: #f0fe11;
+            font-size: 18px;
+            @media (max-width: $tablet-width) {
+                font-size: 16px;
+            }
+        }
+        h1 {
+            color: #f0fe11;
+        }
+    }
+    .section1 {
+        padding-bottom: 70px;
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .sectionTitle {
+            width: 100%;
+        }
+        section {
+            margin-bottom: 1em;
+            padding-bottom: 1em;
+            min-height: 175px;
+            width: calc((100% - 40px) / 2);
+            border-bottom: 1px solid #a4a4a4;
+            line-height: 26px;
+            @media (min-width: $tablet-width + 1) {
+                &:nth-last-of-type(-n + 2) {
+                    margin-bottom: 0;
+                }
+            }
+            @media (max-width: $tablet-width) {
+                min-height: 0;
+                width: 100%;
+                &:last-of-type {
+                    margin-bottom: 0;
+                }
+            }
+            &:nth-of-type(odd) {
+                margin-right: 20px;
+                @media (max-width: $tablet-width) {
+                    margin-right: 0;
+                }
+            }
+            &:nth-of-type(even) {
+                margin-left: 20px;
+                @media (max-width: $tablet-width) {
+                    margin-left: 0;
+                }
+            }
+            h1 {
+                color: #eb1a4a;
+                font-weight: bold;
+            }
+        }
+        figure {
+            margin-top: 2em;
+            width: 100%;
+            text-align: center;
+        }
+        figcaption {
+            margin-top: 1em;
+            line-height: 1;
+        }
+    }
+    .section2 {
+        padding-bottom: 60px;
+        min-height: 364px;
+        background-color: #f5f5f5;
+        ul {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            @media (max-width: $content-width) {
+                justify-content: flex-start;
+            }
+            @media (max-width: $mobile-width) {
+                justify-content: center;
+            }
+        }
+        li {
+            @media (max-width: $content-width) {
+                margin-bottom: 1em;
+                width: calc(#{$content-width} / 6);
+            }
+            &::before {
+                content: '．';
+            }
+        }
+    }
+}

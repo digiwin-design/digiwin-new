@@ -1,0 +1,15 @@
+extends ../layout.pug
+
+block includes
+    link(rel="preload", href="images/banner.jpg", as="image")
+    link(rel="preload", href="images/h-benefit1.png", as="image")
+    link(rel="preload", href="images/h-benefit2.png", as="image")
+    link(rel="preload", href="images/h-benefit3.png", as="image")
+    link(rel="preload", href="images/h-benefit4.png", as="image")
+    link(rel="stylesheet", href="https://netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css")
+    link(rel='stylesheet', href='css/DOP/style.css')
+    script(src='js/all.min.js', defer)
+    script(src='js/DOP.min.js', defer)
+
+block content
+    include DOP.html

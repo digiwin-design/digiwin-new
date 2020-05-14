@@ -1,0 +1,56 @@
+main .mis02 {
+    .section1 {
+        padding-bottom: 55px;
+        letter-spacing: getLetterSpacing(25);
+        .sectionTitle > h1 {
+            color: #27a7b3;
+        }
+        section {
+            $color: #ea3c14 #6caf27 #f99424 #46b2bc #73166f #178ed5;
+            position: relative;
+            padding-left: 30px;
+            &::before {
+                position: absolute;
+                left: 0;
+                width: 5px;
+                content: '';
+                @at-root {
+                    @for $i from 1 through length($color) {
+                        main .mis02 .section1 section:nth-of-type(#{$i})::before {
+                            @if $i == 1 {
+                                top: -7px;
+                                height: 101%;
+                            }
+                            @else {
+                                top: -7px + 50px;
+                                height: calc(101% - 50px);
+                            }
+                            background-color: nth($color, $i);
+                        }
+                    }
+                }
+            }
+            h1 {
+                font-weight: bold;
+                font-size: 24px;
+                @at-root {
+                    @for $i from 1 through length($color) {
+                        main .mis02 .section1 section:nth-of-type(#{$i}) h1 {
+                            color: nth($color, $i);
+                        }
+                    }
+                }
+            }
+            p {
+                line-height: 1.6;
+                &:nth-of-type(1) {
+                    margin-top: 1em;
+                    font-weight: bold;
+                }
+            }
+            + section {
+                padding-top: 50px;
+            }
+        }
+    }
+}

@@ -1,0 +1,286 @@
+@charset "UTF-8";
+main *, main *:before, main *:after {
+    box-sizing: content-box;
+}
+main.WB002588_1 {
+background: url(https://static.digiwin.com/tw/dsc/service/WB002588/images/bg1.png) repeat top;
+margin: 0;
+}
+
+main.WB002588_1 body {
+    font-family: Arial, "微軟正黑體", "新細明體";
+    background-color: #f5f5f5;
+    background-image: url(https://static.digiwin.com/tw/dsc/service/WB002588/images/bg1.png);
+}
+
+main.WB002588_1 #Block1 {
+    width: 100%;
+    min-width: 1000px;
+    overflow: hidden;
+    margin: 0 auto;
+    background-image: url(https://static.digiwin.com/tw/dsc/service/WB002588/images/bg1.png);
+}
+
+main.WB002588_1 .content {
+    width: 1000px;
+    overflow: hidden;
+    margin: 0 auto;
+    padding: 10px 0;
+}
+
+main.WB002588_1 #Block1 .content h2 {
+    color: #835eb0;
+    font-family: "微軟正黑體", Arial, Helvetica, sans-serif;
+    font-size: 42px;
+    letter-spacing: 4px;
+    margin: 30px;
+    text-align: center;
+    font-weight: normal;
+}
+
+main.WB002588_1 #Block1 .content .text1 {
+    color: #000;
+    font-family: "微軟正黑體", Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    letter-spacing: 1px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+main.WB002588_1 #Block1 h4 {
+    width: 100%;
+    margin: 0 auto;
+    line-height: 45px;
+    font-size: 18px;
+    color: #FFF;
+    margin-top: 40px;
+    text-align: center;
+    font-weight: normal;
+}
+
+main.WB002588_1 #Block1 .content h3 {
+    color: #639;
+    font-family: "微軟正黑體", Arial, Helvetica, sans-serif;
+    font-size: 30px; line-height: 40px;
+    letter-spacing: 4px;
+    margin: 20px 0 0 15px;
+    text-align: left;
+    font-weight: normal;
+    background-image: url(https://static.digiwin.com/tw/dsc/service/WB002588/images/icon05.png);
+    background-repeat: no-repeat;
+    background-position: center left;
+    padding-left: 55px;
+}
+
+main.WB002588_1 #Block1 .content #LL {
+    width: 500px;
+    float: left;
+}
+
+main.WB002588_1 #Block1 .content img {
+    float: right;
+    margin-left: 10px;
+}
+
+main.WB002588_1 #Block1 .content p {
+    color: #333;
+    font-family: "微軟正黑體", Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    letter-spacing: 2px;
+    margin: 15px;
+    text-align: left;
+    font-weight: normal;
+    line-height: 1.6;
+}
+
+main.WB002588_1 #Block1 .content p span {
+    color: #333;
+    font-family: "微軟正黑體", Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    letter-spacing: 2px;
+    text-align: left;
+    font-weight: bold;
+}
+
+main.WB002588_1 #Block1 .content p a {
+    width: 90px;
+    height: 50px;
+    overflow: hidden;
+    background-color: #22BEC6;
+    line-height: 50px;
+    font-size: 16px;
+    text-align: center;
+    color: #FFF;
+    border-radius: 5px 5px 5px 5px;
+    padding: 6px;
+}
+
+main.WB002588_1 #Block1 .content p a:hover {
+    width: 90px;
+    height: 50px;
+    overflow: hidden;
+    background-color: #ff8522;
+    line-height: 50px;
+    font-size: 16px;
+    text-align: center;
+    color: #FFF;
+    border-radius: 5px 5px 5px 5px;
+    padding: 6px;
+}
+
+main.WB002588_1 #banner {
+    width: 100%;
+    min-width: 1000px;
+    height: 380px;
+    margin-top: 0px;
+    background: url(https://static.digiwin.com/tw/dsc/service/WB002588/images/bannerBg2.jpg) no-repeat top center;
+}
+
+main.WB002588_1 #banner #blockCon {
+    width: 1000px;
+    height: 329px;
+    margin: 0 auto;
+    padding: 0;
+    overflow: hidden;
+    position: relative;
+}
+
+main.WB002588_1 #banner .block {
+    position: absolute;
+    top: 0;
+    left: 1000px;
+}
+
+main.WB002588_1 #banner .block img {
+    float: left;
+    margin-top: 25px;
+}
+
+main.WB002588_1 #banner .block p {
+    width: 610px;
+    font-size: 18px;
+    line-height: 32px;
+    letter-spacing: 1px;
+    text-align: justify;
+    padding: 0 20px 0 0;
+    float: right;
+    margin-top: 85px;
+}
+
+main.WB002588_1 #banner .block span {
+    color: #835eb0;
+    font-weight: bold;
+    text-align: right;
+    display: block;
+}
+
+main.WB002588_1 #banner .block a:hover span {
+    color: #f45897;
+}
+
+main.WB002588_1 #banner ul {
+    width: 300px;
+    margin: 15px auto 0;
+}
+
+main.WB002588_1 #banner li {
+    width: 40px;
+    height: 13px;
+    text-indent: -9999px;
+    background-color: #777;
+    float: left;
+    margin-left: 10px;
+}
+
+main.WB002588_1 #banner #block1 {
+    left: 0;
+}
+
+main.WB002588_1 #banner #num {
+    cursor: pointer;
+}
+
+main.WB002588_1 #banner .now {
+    left: 0;
+}
+
+main.WB002588_1 #banner .tabNow {
+    background-color: #835eb0;
+}
+
+main.WB002588_1 #wrapper {
+    width: 960px;
+    padding: 40px 0 0;
+    position: relative;
+    margin: 0 auto;
+    font-size: 16px;
+    line-height: 30px;
+    text-align: justify;
+}
+
+main.WB002588_1 #wrapper li {
+    width: 295px;
+    margin: 0 37px 25px 0;
+    float: left;
+    transform: translate(0, 0);
+    transition: all 0.2s ease-out;
+}
+
+main.WB002588_1 #wrapper li:hover {
+    transform: translate(0, -20px);
+}
+
+main.WB002588_1 #wrapper li.end {
+    margin-right: 0;
+}
+
+main.WB002588_1 #wrapper h4 {
+    padding-left: 10px;
+}
+
+main.WB002588_1 #wrapper h4 a {
+    color: #0bb580;
+}
+
+main.WB002588_1 #wrapper h4 a:hover {
+    color: #fdb813;
+}
+
+main.WB002588_1 #wrapper p {
+    padding: 0 10px;
+}
+
+main.WB002588_1 #wrapper span a {
+    color: #ff6c00;
+    font-weight: bold;
+}
+
+main.WB002588_1 #wrapper span a:hover {
+    color: #e63404;
+}
+
+main.WB002588_1 #button {
+    width: 308px;
+    margin: 50px auto 80px;
+}
+
+main.WB002588_1 #button p {
+    width: 204px;
+    height: 54px;
+    float: left;
+    text-indent: -9999px;
+}
+
+main.WB002588_1 #button #contactDSC {
+    background: url(https://static.digiwin.com/tw/dsc/service/WB002588/images/contactDSC.png) no-repeat left top;
+}
+
+main.WB002588_1 #button #back {
+    background: url(https://static.digiwin.com/tw/dsc/service/WB002588/images/back.png) no-repeat left top;
+    margin-left: 50px;
+}
+
+main.WB002588_1 #button #contactDSC:hover, main.WB002588_1 #button #back:hover {
+    background-position: right top;
+}
+

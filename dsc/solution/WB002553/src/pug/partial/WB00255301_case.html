@@ -1,0 +1,16 @@
+<main-header>
+    <template slot="content">
+        <h1 class="mainTitle">成功案例</h1>
+    </template>
+</main-header>
+
+<article class="section1">
+    <div class="container">
+        <h1 class="sectionTitle">食品業成功案例</h1>
+        <div class="section1-content">
+            <case v-bind:id="i" v-for="i in 27"></case>
+        </div>
+    </div>
+</article>
+
+<contact v-bind:multiple="false" source=""></contact>

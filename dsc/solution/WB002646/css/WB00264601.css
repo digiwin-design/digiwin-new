@@ -1,0 +1,86 @@
+﻿@charset "utf-8";
+
+*{ margin:0; padding:0; -webkit-box-sizing:border-box; box-sizing:border-box;}
+html{ width:100%; height:100%; -webkit-text-size-adjust:none;}
+body{ width:100%; height:100%; font-family:"微軟正黑體", Arial, Helvetica, sans-serif;}
+
+/*---pc-----WRAPPER-------------------------*/
+#WRAPPER{ width:100%; overflow:hidden; height:auto; -webkit-text-size-adjust:none; background-color:#FFF; background-image:url(../images/banner_bg.jpg); background-repeat:no-repeat; background-position:center top;}
+#header { width:960px; height:400px; margin:0 auto; 
+background-image: url(../images/banner.png); background-repeat:no-repeat; }
+h2 { margin:0 auto; font-size:38px; color: #085eaf; text-align:center; margin-bottom:50px;}
+
+/*---選單＋影片------------------------*/
+#block1bg { width:100%; margin:0 auto; font-family:"微軟正黑體", Arial, Helvetica, sans-serif; padding:10px 0px 0px 0px; overflow:hidden ; letter-spacing:1px; background-color:#FFF; padding-bottom:40px; height:810px; }
+#block1 { width:900px; margin:0 auto; margin-top:40px;}
+#block1 a { color:#000; text-decoration:none;}
+#block1 a:hover { color:#085eaf;}
+#block1 .item { float:left; width:140px; height:auto; margin-right:10px; margin-bottom:50px; }
+#block1 #link1 a { display:block; width:140px; height:140px; background: url(../images/link1.png) no-repeat left top; text-align:center; text-indent:-9999px;}
+#block1 #link2 a { display:block; width:140px; height:140px; background: url(../images/link2.png) no-repeat left top; text-align:center; text-indent:-9999px;}
+#block1 #link3 a { display:block; width:140px; height:140px; background: url(../images/link3.png) no-repeat left top; text-align:center; text-indent:-9999px;}
+#block1 #link4 a { display:block; width:140px; height:140px; background: url(../images/link4.png) no-repeat left top; text-align:center; text-indent:-9999px;}
+#block1 #link5 a { display:block; width:140px; height:140px; background: url(../images/link5.png) no-repeat left top; text-align:center; text-indent:-9999px;}
+#block1 #link6 a { display:block; width:140px; height:140px; background: url(../images/link6.png) no-repeat left top; text-align:center; text-indent:-9999px;}
+
+#block1 #link1 a:hover,#block1 #link2 a:hover,#block1 #link3 a:hover,#block1 #link4 a:hover,#block1 #link5 a:hover,#block1 #link6 a:hover { background-position: right top;}
+#block1 .txt h3 { font-size: 22px; text-align: center; color:#000; padding-top:10px;}
+#block1 p { clear:both; font-size: 17px; line-height:1.6; color: #333; padding-top:10px; padding-bottom:30px;}
+.mov1 { float:left; width:430px; height:242px;}
+.mov2 { float:right; width:430px; height:242px;}
+h4 { font-size:18px; color:#ac0930; margin-bottom:10px; line-height:25px;}
+
+/*---聽聽東毓怎麼說-見證分享------------------------*/
+#block2bg { width:100%; background-color:#085eaf; background-image:url(../images/share_bg.jpg); background-repeat:no-repeat; background-position:center top;}
+#block2 { width:960px; height:822px; margin:0 auto; text-align:center; padding-top:50px;}
+#block2 h2 { color: #FFF;}
+#block2 .share_txt1 { margin:0 auto; width:900px; height:190px; background-image:url(../images/share_txtbg1.jpg); margin-bottom:10px;}
+#block2 .share_txt1 h3 { text-align:left; padding:30px 35px 0px 340px; color:#085eaf; font-size:22px; font-weight:bold;}
+#block2 .share_txt1 p { text-align:left; padding:5px 35px 0px 340px; font-size:16px; line-height:1.4;}
+#block2 .share_txt2 { margin:0 auto; width:900px; height:190px; background-image:url(../images/share_txtbg2.jpg); margin-bottom:10px;}
+#block2 .share_txt2 h3 { text-align:left; padding:30px 340px 0px 35px; color:#085eaf; font-size:22px; font-weight:bold;}
+#block2 .share_txt2 p { text-align:left; padding:5px 340px 0px 35px; font-size:16px; line-height:1.4;}
+#block2 .share_txt3 { margin:0 auto; width:900px; height:190px; background-image:url(../images/share_txtbg3.jpg); margin-bottom:10px;}
+#block2 .share_txt3 h3 { text-align:left; padding:30px 35px 0px 340px; color:#085eaf; font-size:22px; font-weight:bold;}
+#block2 .share_txt3 p { text-align:left; padding:5px 35px 0px 340px; font-size:16px; line-height:1.4;}
+
+/*---資訊串聯不掉棒 系統管理So Easy------------------------*/
+#block3bg { width:100%; background-color:#085eaf; background-image: url(../images/block3_bg.jpg); background-repeat:no-repeat; background-position:center top;}
+#block3 { width:910px; height:580px; margin:0 auto; text-align:center; padding-top:60px;}
+#block3 .item { float:left; width:190px; height:auto; margin-right:45px; margin-bottom:20px; }
+#block3 .itemEND { float:left; width:192px; height:auto; margin-bottom:20px; }
+#block3 img { width:174px; height:174px;}
+#block3 h3 { font-size: 28px; text-align: center; color: #000; padding-top:10px;}
+#block3 p { font-size: 16px; line-height:1.5; color: #000; padding-top:10px; padding-bottom:30px; text-align:justify;}
+
+/*---東毓油壓的致勝武器------------------------*/
+#block4bg { width:100%; background-color:#085eaf; background-color:#00204f; background-image:url(../images/block4bg.jpg); background-repeat:no-repeat; background-position:center top;}
+#block4 { width:900px; height:680px; margin:0 auto; text-align:center; padding-top:50px;}
+#block4 h2 { color: #FFF;}
+#txt4 { width:750px; margin:0 auto;}
+#txt4 img { float:left;}
+#txt4 h3 { color:#fffe93; font-size:24px; padding-left:210px; text-align:left; margin-bottom:5px;}
+#txt4 p { color:#FFF; font-size:18px; padding-left:210px; text-align:left; line-height:1.5;}
+
+#TOP{
+	position:absolute;
+	right:0;
+	top:-100px;
+	width:80px;
+	height:80px;
+	cursor:pointer;
+}
+
+#contactTxt {width: 100%; min-width: 1000px; height:480px; background-color: #555; padding: 15px 0 0; font-size: 16px; line-height: 30px; font-family: "微軟正黑體", "新細明體", Arial, Helvetica, sans-serif;}
+#contactTxt a {color: #fff;}
+#contactTxt a:hover {color: #ffee00;}
+#contactTxt #contactText {width: 900px; margin: 0 auto;}
+#contactTxt #info {width: 450px; color: #fff; font-size: 17px; line-height: 30px; text-align: left; float: left;}
+#contactTxt h2 {width: 100%; font-size: 36px; line-height: 36px; color: #fff; margin: 0 0 15px; padding-top: 40px; text-align: left;}
+#contactTxt ul {margin-top: 15px;}
+#contactTxt ul li {padding-left: 30px; line-height: 25px; margin-bottom: 10px;}
+#contactTxt .tel {background: url(../images/icons.png) no-repeat left top;}
+#contactTxt .mail {background: url(../images/icons.png) no-repeat left -25px;}
+#contactTxt .fb {background: url(../images/icons.png) no-repeat left -50px;}
+#contactTxt #iframeForm { width: 420px; float: right;}
+iframe { width: 100%; margin: 0 0 -10px;}

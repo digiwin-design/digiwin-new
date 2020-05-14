@@ -1,0 +1,21 @@
+[
+    {
+        "id": "mag201909",
+        "title": "企業通雜誌-數據賦能",
+        "menus": [
+            {
+                "text": "精選文章",
+                "url": "#section2"
+            },
+            {
+                "text": "深度閱讀",
+                "url": "#section3"
+            },
+            {
+                "text": "立即訂閱",
+                "url": "/tw/enewspaper.html",
+                "target": "_blank"
+            }
+        ]
+    }
+]

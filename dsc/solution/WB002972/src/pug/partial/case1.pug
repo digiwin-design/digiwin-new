@@ -1,0 +1,10 @@
+extends ../layout.pug
+
+block includes
+    link(rel="preload", href="images/case1/hero-bg.jpg", as="image")
+    link(rel="preload", href="images/case1/hero-bg-s.jpg", as="image")
+    link(rel='stylesheet', href='css/case1/style.css')
+    script(src='js/case1.min.js', defer)
+
+block content
+    include case1.html

@@ -1,0 +1,9 @@
+extends ../layout.pug
+
+block includes
+    link(rel="preload", href="images/payment/banner.jpg", as="image")
+    link(rel='stylesheet', href='css/payment/style.css')
+    script(src='js/payment.min.js', defer)
+
+block content
+    include payment.html

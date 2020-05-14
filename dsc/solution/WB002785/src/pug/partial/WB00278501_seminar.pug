@@ -1,0 +1,11 @@
+extends ../layout.pug
+
+block includes
+    link(rel="preload", href="images/WB00278501_seminar/hero-bg.jpg", as="image")
+    link(rel='stylesheet', href='WB00278501_seminar.css')
+    script(src='assets/lodash.min.js', defer)
+    script(src='assets/countUp.min.js', defer)
+
+block content
+    seminar(v-if='result', :content='result' :is-mobile='isMobile')
+    contact(v-bind:multiple='false', source='')

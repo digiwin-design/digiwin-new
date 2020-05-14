@@ -1,0 +1,489 @@
+@import '../common';
+@import 'components';
+
+main {
+    #indBanner {
+        background: url('../../images/multichannel/bg_banner.jpg') no-repeat center center;
+        color: #fff;
+    }
+
+    #indBanner h1 {
+        color: #fff;
+    }
+
+    #mainContent {
+        background-color: #f5f5f5;
+    }
+
+    #mainContent .group {
+        padding: 50px;
+    }
+
+    #mainContent .group .list {
+        float: left;
+        margin-top: 20px;
+        width: calc(100% / 6);
+        text-align: center;
+        cursor: pointer;
+    }
+
+    #mainContent .group .left1 {
+        float: left;
+        margin-top: 20px;
+        margin-left: 100px;
+        width: 20%;
+        text-align: center;
+        cursor: pointer;
+    }
+
+    #mainContent .group .list img {
+        width: 120px;
+        height: 120px;
+        border-radius: 100%;
+        background-color: #ff5252;
+        -webkit-transition: .5s;
+           -moz-transition: .5s;
+             -o-transition: .5s;
+                transition: .5s;
+    }
+
+    #mainContent .group .list p {
+        position: relative;
+        margin-top: 10px;
+        text-align: center;
+        font-size: 20px;
+    }
+
+    #mainContent .group .list p:before {
+        position: absolute;
+        top: 110%;
+        left: 50%;
+        display: block;
+        width: 0;
+        height: 3px;
+        background-color: #ff64a2;
+        content: '';
+        -webkit-transition: .5s;
+           -moz-transition: .5s;
+             -o-transition: .5s;
+                transition: .5s;
+        -webkit-transform: translateX(-50%);
+           -moz-transform: translateX(-50%);
+             -o-transform: translateX(-50%);
+                transform: translateX(-50%);
+    }
+
+    #mainContent .group .list:hover img {
+        background-color: #ff64a2;
+    }
+
+    #mainContent .group .list:hover p {
+        color: #ff64a2;
+    }
+
+    #mainContent .group .list:hover p:before {
+        width: 60%;
+    }
+
+    #mainContent .fa {
+        display: block;
+        color: #ccc;
+        text-align: center;
+        font-size: 50px;
+        cursor: pointer;
+    }
+
+    #mainContent .issue {
+        display: table;
+        margin: 0 auto;
+        padding: 50px 0;
+        border-bottom: 1px solid #ccc;
+    }
+
+    #mainContent .issue.end {
+        border-bottom: none;
+    }
+
+    #mainContent .issue strong {
+        color: #05529a;
+    }
+
+    #mainContent .issue .GroupAll {
+        position: relative;
+        margin: 0 auto;
+        width: 1000px;
+        text-align: center;
+    }
+
+    #mainContent .issue .GroupAll .title {
+        display: block;
+        margin: 0 auto;
+        margin-top: 15px;
+        margin-bottom: 25px;
+        width: 120px;
+        height: 40px;
+        border: #ff5454 1px solid;
+        border-radius: 50px;
+        background-color: #fff;
+        color: #ff5454;
+        text-align: center;
+        line-height: 40px;
+    }
+
+    .GroupAll .jobProblem {
+        color: #fff;
+    }
+
+    .GroupAll .jobProblem:hover .handTop {
+        -webkit-animation-play-state: paused;
+           -moz-animation-play-state: paused;
+             -o-animation-play-state: paused;
+                animation-play-state: paused;
+    }
+
+    .GroupAll .txt,
+    .GroupAll .txt10 {
+        float: left;
+        overflow: hidden;
+        padding: 15px 15px;
+        width: 50%;
+        cursor: pointer;
+    }
+
+    .GroupAll .txt.w33,
+    .GroupAll .txt10 {
+        float: left;
+        overflow: hidden;
+        padding: 15px 15px;
+        width: 33.3333%;
+        cursor: pointer;
+    }
+
+    .GroupAll .txt.w100,
+    .GroupAll .txt10 {
+        float: left;
+        overflow: hidden;
+        padding: 15px 15px;
+        width: 100%;
+        cursor: pointer;
+    }
+
+    .GroupAll .txt .outline {
+        position: relative;
+        overflow: hidden;
+        padding: 30px 0;
+        border-radius: 2px;
+        background-color: #5cc99c;
+    }
+
+    .GroupAll .txt10 .outline {
+        position: relative;
+        overflow: hidden;
+        padding: 30px 0;
+        border-radius: 2px;
+        background-color: #0482b7;
+    }
+
+    .GroupAll .txt .nameLayer,
+    .GroupAll .txt10 .nameLayer {
+        position: relative;
+        z-index: 2;
+        text-align: center;
+    }
+
+    .GroupAll .txt .nameLayer p,
+    .GroupAll .txt10 .nameLayer p {
+        margin-top: 8px;
+        text-align: inherit;
+        font-weight: bold;
+        font-size: 24px;
+    }
+
+    .GroupAll .txt .txtLayer,
+    .GroupAll .txt10 .txtLayer {
+        position: absolute;
+        top: 50%;
+        left: 0;
+        padding: 0 10px;
+        -webkit-transform: translateY(-50%);
+           -moz-transform: translateY(-50%);
+             -o-transform: translateY(-50%);
+                transform: translateY(-50%);
+    }
+
+    .GroupAll .txt .txtLayer p.w50 {
+        float: left;
+        padding: 0 20px;
+        width: 50%;
+    }
+
+    .GroupAll .txt .txtLayer p,
+    .GroupAll .txt10 .txtLayer p {
+        float: left;
+        padding: 0 20px;
+        width: 100%;
+    }
+
+    .GroupAll .txt .handTop,
+    .GroupAll .txt10 .handTop {
+        position: absolute;
+        top: 95%;
+        left: 50%;
+        font-size: 24px;
+        -webkit-transform: translateX(-50%);
+           -moz-transform: translateX(-50%);
+             -o-transform: translateX(-50%);
+                transform: translateX(-50%);
+        -webkit-animation: handTop 1.5s infinite;
+           -moz-animation: handTop 1.5s infinite;
+             -o-animation: handTop 1.5s infinite;
+                animation: handTop 1.5s infinite;
+        -webkit-animation-timing-function: ease-out;
+           -moz-animation-timing-function: ease-out;
+             -o-animation-timing-function: ease-out;
+                animation-timing-function: ease-out;
+    }
+
+    @-webkit-keyframes handTop {
+        0% {
+            top: 95%;
+        }
+        50% {
+            top: 87%;
+        }
+        100% {
+            top: 95%;
+        }
+    }
+
+    @-moz-keyframes handTop {
+        0% {
+            top: 95%;
+        }
+        50% {
+            top: 87%;
+        }
+        100% {
+            top: 95%;
+        }
+    }
+
+    @-o-keyframes handTop {
+        0% {
+            top: 95%;
+        }
+        50% {
+            top: 87%;
+        }
+        100% {
+            top: 95%;
+        }
+    }
+
+    @keyframes handTop {
+        0% {
+            top: 95%;
+        }
+        50% {
+            top: 87%;
+        }
+        100% {
+            top: 95%;
+        }
+    }
+
+    .GroupAll .txt .mask,
+    .GroupAll .txt10 .mask {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        z-index: 3;
+        width: 100%;
+        height: 100%;
+    }
+
+    .GroupAll .txt01 .outline {
+        background-color: #49bcc3;
+    }
+
+    .GroupAll .txt01 .txtLayer {
+        color: #53c4cb;
+    }
+
+    .GroupAll .txt01 .mask {
+        background-color: rgba(29, 97, 101, .9);
+    }
+
+    .GroupAll .txt02 .outline {
+        background-color: #bd973c;
+    }
+
+    .GroupAll .txt02 .txtLayer {
+        color: #c39d43;
+    }
+
+    .GroupAll .txt02 .mask {
+        background-color: rgba(111, 86, 25, .9);
+    }
+
+    .GroupAll .txt03 .outline {
+        background-color: #ef8570;
+    }
+
+    .GroupAll .txt03 .txtLayer {
+        color: #f7907c;
+    }
+
+    .GroupAll .txt03 .mask {
+        background-color: rgba(133, 67, 54, .9);
+    }
+
+    .GroupAll .txt04 .outline {
+        background-color: #49bcc3;
+    }
+
+    .GroupAll .txt04 .txtLayer {
+        color: #53c4cb;
+    }
+
+    .GroupAll .txt04 .mask {
+        background-color: rgba(29, 97, 101, .9);
+    }
+
+    .GroupAll .txt05 .outline {
+        background-color: #ef8570;
+    }
+
+    .GroupAll .txt05 .txtLayer {
+        color: #ef8570;
+    }
+
+    .GroupAll .txt05 .mask {
+        background-color: rgba(117, 57, 45, 0.9);
+    }
+
+    .GroupAll .txt06 .outline {
+        background-color: #cdbc5d;
+    }
+
+    .GroupAll .txt06 .txtLayer {
+        color: #cdbc5d;
+    }
+
+    .GroupAll .txt06 .mask {
+        background-color: rgba(107, 98, 49, 0.9);
+    }
+
+    .GroupAll .txt07 .outline {
+        background-color: #ef8570;
+    }
+
+    .GroupAll .txt07 .txtLayer {
+        color: #f58e7a;
+    }
+
+    .GroupAll .txt07 .mask {
+        background-color: rgba(117, 57, 45, .9);
+    }
+
+    .GroupAll .txt08 .outline {
+        background-color: #cdbc5d;
+    }
+
+    .GroupAll .txt08 .txtLayer {
+        color: #d5c467;
+    }
+
+    .GroupAll .txt08 .mask {
+        background-color: rgba(107, 98, 49, .9);
+    }
+
+    .GroupAll .txt09 .outline {
+        background-color: #7ccdc4;
+    }
+
+    .GroupAll .txt09 .txtLayer {
+        color: #86d5cc;
+    }
+
+    .GroupAll .txt09 .mask {
+        background-color: rgba(54, 93, 89, .9);
+    }
+
+    .GroupAll .txt10 .outline {
+        background-color: #5cc99c;
+    }
+
+    .GroupAll .txt10 .txtLayer img {
+        width: 900px;
+        height: 230px;
+    }
+
+    .GroupAll .txt10 .txtLayer {
+        display: none;
+    }
+
+    .GroupAll .txt10 .mask {
+        background-color: rgba(49, 95, 79, .9);
+    }
+
+    #mainContent .issue .GroupAll2 {
+        position: relative;
+        padding: 20px;
+        width: 1000px;
+        background: #fff;
+    }
+
+    #mainContent .issue .GroupAll2 .title {
+        display: block;
+        margin: 0 auto;
+        margin-top: 15px;
+        margin-bottom: 25px;
+        width: 120px;
+        height: 40px;
+        border: #fff 1px solid;
+        border-radius: 50px;
+        background-color: #ff5454;
+        color: #fff;
+        text-align: center;
+        line-height: 40px;
+    }
+
+    #mainContent .issue .txtGroup {
+        position: relative;
+        display: table-cell;
+        padding-left: 50px;
+        width: 550px;
+        vertical-align: middle;
+    }
+
+    #mainContent .issue .txtGroup ul {
+        margin-left: 20px;
+    }
+
+    #mainContent .issue .txtGroup li {
+        margin-bottom: 4px;
+        list-style: disc outside;
+        line-height: 24px;
+    }
+
+    #mainContent .issue .imgGroup {
+        position: relative;
+        display: table-cell;
+        width: 350px;
+        vertical-align: middle;
+    }
+
+    #mainContent .issue .imgGroup > div {
+        float: left;
+        width: 310px;
+    }
+
+    #mainContent .issue .imgGroup > div:first-child {
+        margin-left: 50px;
+    }
+
+    #mainContent .issue .imgGroup p {
+        text-align: center;
+    }
+}

@@ -1,0 +1,14 @@
+extends ../layout.pug
+
+block includes
+    link(rel="preload", href="images/case2/header-bg.jpg", as="image")
+    link(rel='stylesheet', href='css/case2/style.css')
+    script(src="assets/color-converter.js", defer)
+    script(src='assets/lazysizes.min.js', defer)
+    script(src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js", defer)
+    script(src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TimelineMax.min.js", defer)
+    script(src="https://cdnjs.cloudflare.com/ajax/libs/dat-gui/0.7.6/dat.gui.min.js", defer)
+    script(src='js/case2.min.js', defer)
+
+block content
+    include case2.html

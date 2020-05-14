@@ -1,0 +1,283 @@
+@import '../common';
+@import '../WB002783_subPage';
+
+main {
+    #pageTitle {
+        @include headerBg('bg_customized.jpg');
+    }
+    #caseList {
+        h2 {
+            text-align: left;
+        }
+        ul {
+            margin-top: 30px;
+        }
+        li {
+            position: relative;
+            float: left;
+            -webkit-box-sizing: border-box;
+                    box-sizing: border-box;
+            margin: 0 10px 10px 0;
+            width: 200px;
+            height: 300px;
+            background: url('../../images/customized/bg_caseList.png') no-repeat 0 top;
+            color: #fff;
+            &:hover:before {
+                position: absolute;
+                top: 0;
+                left: 0;
+                z-index: 0;
+                width: 100%;
+                height: 100%;
+                background-color: rgba(0, 0, 0, .5);
+                content: '';
+            }
+            a {
+                position: relative;
+                z-index: 1;
+                display: block;
+                width: 100%;
+                height: 100%;
+                color: #fff;
+                &:hover {
+                    h3 {
+                        color: #ff0;
+                    }
+                    span {
+                        color: #ff0;
+                        -webkit-animation: move 3s infinite;
+                                animation: move 3s infinite;
+                    }
+                }
+            }
+            p {
+                padding: 0 25px;
+                line-height: 27px;
+            }
+            span {
+                position: absolute;
+                right: 25px;
+                bottom: 10px;
+                color: #1ce7ff;
+                font-weight: bold;
+                font-size: 24px;
+            }
+        }
+        .num01 {
+            margin-left: -20px;
+        }
+        .num02 {
+            background-position: -220px 0;
+        }
+        .num03 {
+            background-position: -440px 0;
+        }
+        .num04 {
+            background-position: -660px 0;
+        }
+        .num05 {
+            margin-right: -20px;
+            background-position: -880px 0;
+        }
+        .num06 {
+            margin-left: -20px;
+            background-position: 0 -320px;
+        }
+        .num07 {
+            background-position: -220px -320px;
+        }
+        .num08 {
+            background-position: -440px -320px;
+        }
+        .num09 {
+            background-position: -660px -320px;
+        }
+        .num10 {
+            margin-right: -20px;
+            background-position: -880px -320px;
+        }
+        h3 {
+            margin-bottom: 10px;
+            padding: 20px 0 0 25px;
+            color: #1ce7ff;
+            font-weight: normal;
+            font-size: 32px;
+            line-height: 40px;
+        }
+    }
+    #change {
+        background: url('../../images/bg_change.jpg') no-repeat center center;
+        color: #fff;
+        h3 {
+            text-align: center;
+            font-weight: normal;
+        }
+        .num01 {
+            margin-left: -183px;
+        }
+        .num02 {
+            margin-right: -183px;
+        }
+    }
+    #effect {
+        background: url('../../images/bg_gray2.jpg') no-repeat center center;
+        .content > div {
+            height: 470px;
+            background: url('../../images/customized/figure_effect.png') no-repeat center center;
+            .floatLeft {
+                margin-top: 55px;
+                margin-left: 150px;
+                li {
+                    margin-bottom: 70px;
+                }
+            }
+            .floatRight {
+                margin-top: 115px;
+                margin-right: 170px;
+                li {
+                    margin-bottom: 70px;
+                }
+            }
+        }
+    }
+    #managePattern {
+        padding-bottom: 120px;
+        background-color: #0092b1;
+        color: #fff;
+        h2 {
+            margin-bottom: 30px;
+            text-align: left;
+        }
+        strong {
+            color: #ff0;
+        }
+        h3 {
+            margin-left: -42px;
+            color: #fde876;
+            font-size: 22px;
+        }
+        h4 {
+            margin-bottom: 10px;
+            font-size: 20px;
+        }
+        .number {
+            margin-right: 10px;
+            font-weight: bold;
+            font-style: italic;
+            font-size: 36px;
+            font-family: Arial;
+        }
+        .part {
+            .floatLeft {
+                -webkit-box-sizing: border-box;
+                        box-sizing: border-box;
+                padding-right: 30px;
+                padding-left: 42px;
+                width: 500px;
+            }
+            .partTxt {
+                margin-bottom: 15px;
+                p,
+                ul {
+                    display: inline-block;
+                    width: 360px;
+                }
+                li {
+                    margin-bottom: 10px;
+                    margin-left: 20px;
+                    list-style: disc outside;
+                }
+                .tag {
+                    display: inline-block;
+                    padding: 3px 0;
+                    width: 60px;
+                    border-radius: 30px;
+                    background-color: #005d81;
+                    vertical-align: top;
+                    text-align: center;
+                }
+            }
+        }
+        .part02 {
+            margin-top: 30px;
+            .imgStyle {
+                margin-top: 70px;
+            }
+        }
+        .part03 {
+            margin-top: 30px;
+            color: #fde876;
+            font-size: 22px;
+            line-height: 50px;
+            li {
+                float: left;
+                width: 50%;
+            }
+        }
+    }
+}
+
+@-webkit-keyframes move {
+    0% {
+        -webkit-transform: rotate(-360deg);
+                transform: rotate(-360deg);
+    }
+
+    15% {
+        -webkit-transform: rotate(0deg);
+                transform: rotate(0deg);
+    }
+
+    20% {
+        right: 25px;
+    }
+
+    40% {
+        right: 35px;
+    }
+
+    60% {
+        right: 25px;
+    }
+
+    80% {
+        right: 35px;
+    }
+
+    100% {
+        right: 25px;
+    }
+}
+
+
+@keyframes move {
+    0% {
+        -webkit-transform: rotate(-360deg);
+                transform: rotate(-360deg);
+    }
+
+    15% {
+        -webkit-transform: rotate(0deg);
+                transform: rotate(0deg);
+    }
+
+    20% {
+        right: 25px;
+    }
+
+    40% {
+        right: 35px;
+    }
+
+    60% {
+        right: 25px;
+    }
+
+    80% {
+        right: 35px;
+    }
+
+    100% {
+        right: 25px;
+    }
+}

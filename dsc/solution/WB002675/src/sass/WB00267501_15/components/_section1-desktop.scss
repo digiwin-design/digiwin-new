@@ -1,0 +1,60 @@
+main .section1-desktop {
+    .beforeTitle {
+        margin-bottom: 42px;
+        color: #e64e50;
+        text-align: center;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 1;
+    }
+    input[type=checkbox] {
+        display: none;
+        &:checked {
+            & + .slider-container .slider {
+                transform: translateX(-100%);
+            }
+            & ~ .beforeSliderToggle {
+                background-color: #ea4f52;
+                color: #fff;
+                &::after {
+                    display: none;
+                }
+            }
+        }
+    }
+    .slider-container {
+        overflow-x: hidden;
+        margin-bottom: 40px;
+    }
+    .slider {
+        display: flex;
+        transition: transform .4s;
+    }
+    .slide {
+        width: 100%;
+        flex-shrink: 0;
+    }
+    .beforeSliderToggle {
+        @include btn(247px, 47px, #f00, transparent);
+        position: relative;
+        z-index: 1;
+        margin: 0 auto;
+        border: 1px solid #ea4f52;
+        font-weight: bold;
+        cursor: pointer;
+        transition: background-color .2s, color .2s;
+        &::after {
+            content: ' >>';
+        }
+    }
+    img {
+        display: block;
+        margin: 0 auto;
+        &:nth-child(2) {
+            margin-bottom: 38px;
+        }
+    }
+    .section1-illusts {
+        transform: translateY(-23px);
+    }
+}

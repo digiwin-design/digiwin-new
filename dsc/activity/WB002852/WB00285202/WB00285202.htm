@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
+    <title>研發亮點發佈會-企業數位化轉型的新動能</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/jquery.fullPage.css">
+    <link rel="stylesheet" href="css/index.css">
+    <script src="js/jquery.1.7.1.min.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+    <!--<script src="js/jquery.prettyPhoto.js"></script>-->
+    <!--<script src="js/jquery.ba-dotimeout.js"></script>-->
+    <script src="js/jquery.fullPage.js"></script>
+    <script src="js/index.js"></script>
+
+    <script>
+        $(function(){
+//	if($.browser.msie && $.browser.version < 10){
+//		$('body').addClass('ltie10');
+//	}
+            $('#fullpage').fullpage({
+                verticalCentered: false,
+                anchors: ['page1', 'page2', 'page3', 'page4', 'page5', 'page6', 'page7'],
+                navigation: true,
+                navigationTooltips: ['新·動·能', '新·征·程', '新·開·發', '新·機·會', '新·模·式', '新·研·發', '新·體·驗']
+
+            });
+            $(window).resize(function(){
+                autoScrolling();
+            });
+
+            function autoScrolling(){
+                var $ww = $(window).width();
+                if($ww < 1024){
+                    $.fn.fullpage.setAutoScrolling(false);
+                } else {
+                    $.fn.fullpage.setAutoScrolling(true);
+                }
+            }
+            autoScrolling();
+        });
+    </script>
+</head>
+<body>
+<!--<div class="preloader">-->
+    <!--<div class="preloder-wrap">-->
+        <!--<div class="preloder-inner">-->
+
+        <!--</div>-->
+    <!--</div>-->
+<!--</div>-->
+<div id="fullpage">
+    <div class="section section1">
+        <video id="myVideo" data-keepplaying  autoplay muted loop poster="images/v1.png">
+            <!--<source src="Digital Processing_HD.webm" type="video/webm">-->
+            <source src="Digital02.mp4" type="video/mp4">
+        </video>
+        <div class="bg-bg"><img src="images/sectionA.jpg" alt=""></div>
+        <div class="txt" >
+            <!--<p class="p0">2018.04.18 研发亮点发布会</p>-->
+            <img class="title-b" src="images/title.png" alt="">
+            <img class="title-m" src="images/title1.png" alt="">
+            <b>······ 新征程 ······ 新亮點 ······ 新機會 ······ 新模式 ······ 新研發 ······ 新體驗 ······</b>
+            <b class="line-tilie">
+                ······ 新征程 ······ 新亮點 ······
+            </b>
+            <ul class="block-ul">
+                <li>吳丞傑</li>
+                <li>鄭書豪</li>
+                <li>09:30~09:40</li>
+                <li>09:40～10:20</li>
+            </ul>
+            <b class="line-tilie">
+                ······ 新機會 ······ 新模式 ······
+            </b>
+            <ul class="block-ul">
+                <li>陳杰弘</li>
+                <li>顧華杰</li>
+                <li>10:20~10:40</li>
+                <li>10:40~11:00</li>
+            </ul>
+            <b class="line-tilie">
+                ······ 新研發 ······ 新體驗 ······
+            </b>
+            <ul class="block-ul">
+                <li>孫國鑫</li>
+                <li>黄寶容</li>
+                <li>11:00~11:30</li>
+                <li>11:30~12:00</li>
+            </ul>
+            <div class="bg1">
+                <ul>
+                    <li>吳丞傑</li>
+                    <li>鄭書豪</li>
+                    <li>陳杰弘</li>
+                    <li>顧華杰</li>
+                    <li>孫國鑫</li>
+                    <li>黄寶容</li>
+                </ul>
+                <ol>
+                    <li>09:30~09:40</li>
+                    <li>09:40～10:20</li>
+                    <li>10:20~10:40</li>
+                    <li>10:40~11:00</li>
+                    <li>11:00~11:30</li>
+                    <li>11:30~12:00</li>
+                </ol>
+            </div>
+        </div>
+        <!--<div class="txt-none" >-->
+            <!--<img class="title-m" src="images/title1.png" alt="">-->
+          <!--&lt;!&ndash;<ul class="tile-sm">&ndash;&gt;-->
+              <!--&lt;!&ndash;<li>······ 新征程 ······</li>&ndash;&gt;-->
+              <!--&lt;!&ndash;<li> 新亮点 ······ </li>&ndash;&gt;-->
+          <!--&lt;!&ndash;</ul>&ndash;&gt;-->
+           <!--<div class="tile-sm">-->
+
+           <!--</div>-->
+        <!--</div>-->
+    </div>
+    <div class="section fp-auto-height-responsive section2" >
+        <div class="bg"><img class="fade" src="images/sectionB.jpg" alt=""></div>
+        <div class="txt2">
+            <img src="images/title2.png" alt="">
+            <p class="p1"> 智能＋戰略的實踐路徑「一線、三環、互聯」<br>
+                22018年即將邁向全新的里程碑<br>
+                加速實現資訊化、網絡化、智慧化<br>
+                為企業數位化轉型注入新動能</p>
+        </div>
+    </div>
+
+    <div class="section section3">
+        <div class="bg-img3">
+            <!--<img src="images/sectionC1.jpg" alt="">-->
+        </div>
+        <!--<div class="light">-->
+
+        <!--</div>-->
+        <div class="txt3">
+            <img src="images/title3.png" alt="">
+            <p class="str3">ERP企業核心運營平臺</p>
+            <p class="p3">滿足企業運營與各業務需求<br>
+                效能更高、UI/UX更友善、品質更穩定
+            </p>
+            <ul>
+                <li>
+                    <i></i>
+                    <!--<div class="txtbg clearfix">-->
+                        <p class="ttxt">WF</p>
+                        <p class="txtd">符合潮流UI、提高系統承載及效能、提升使用者操作體驗、滿足個性化需求</p>
+                    <!--</div>-->
+                </li>
+                <li>
+                    <i></i>
+                    <!--<div class="txtbg clearfix">-->
+                        <p class="ttxt">T100</p>
+                        <p class="txtd">功能更強大、穩定品質、報表可視化</p>
+                    <!--</div>-->
+                </li>
+                <li>
+                    <i></i>
+                    <!--<div class="txtbg clearfix">-->
+                        <p class="ttxt">BPM</p>
+                        <p class="txtd">簡約、移動、擴充, 結合企業營運行為, OA 不再只是OA</p>
+                    <!--</div>-->
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="section section4" >
+        <div class="bg-img4">
+            <!--<div class="line">-->
+            <!--<img src="images/line.png" alt="">-->
+            <!--</div>-->
+        </div>
+        <div class="txt4">
+            <img src="images/title4.png" alt="">
+            <p class="str4">工業互聯網IT與OT融合</p>
+            <p class="p4">API內通外連，建構新價值網路
+                <br>
+                數據相連、數位加值，創造跨界融合新機會</p>
+            <ul>
+                <li>
+                    <i></i>
+                    <!--<div class="txtbg clearfix">-->
+                        <p class="ttxt">異質平臺介面</p>
+                        <p class="txtd">互聯中臺│從IT到IT與從IT到OT的雙向標準化介面,實現異質系統、設備與MES整合串接
+                        </p>
+                    <!--</div>-->
+                </li>
+                <li>
+                    <i></i>
+                    <!--<div class="txtbg clearfix">-->
+                        <p class="ttxt">外部訊息標準介面</p>
+                        <p class="txtd">外聯 API│企業內外部流程串連，商務和非商務型多樣態支持，建立對外的通連管道
+                        </p>
+                    <!--</div>-->
+                </li>
+                <li>
+                    <i></i>
+                    <!--<div class="txtbg clearfix">-->
+                        <p class="ttxt">車間可視化</p>
+                        <p class="txtd">車間看板 | 執行進度可視化, 例外處理即時化, 進度協同一致化 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        </p>
+                    <!--</div>-->
+                </li>
+            </ul>
+        </div>
+
+    </div>
+
+    <div class="section section5" >
+        <div class="bg"><img src="images/sectionE.jpg" alt=""></div>
+        <div class="txt5">
+            <img src="images/title5.png" alt="">
+            <p class="str5">價值創造新拐點</p>
+            <p class="p5">
+                隨需隨選服務訂閱市場<br>
+                價值交付結果可視化 <br>
+                互聯網＋智慧系統
+            </p>
+            <ul>
+                <li>
+                    <i></i>
+                        <p class="ttxt">新實施模式</p>
+                        <p class="txtd">升級換代監控面板│應用效益指標可視化，智能預警SBEP
+                        </p>
+
+                </li>
+                <li>
+                    <i></i>
+
+                        <p class="ttxt">新服務模式</p>
+                        <p class="txtd">服務雲│連接客戶、用戶、硬體與軟體
+                        </p>
+
+                </li>
+                <li>
+                    <i></i>
+
+                        <p class="ttxt">新服務訂閱模式</p>
+                        <p class="txtd">訂閱市場│隨需隨選隨用
+                        </p>
+
+                </li>
+            </ul>
+        </div>
+
+    </div>
+
+
+    <div class="section section6" >
+        <div class="bg-img">
+            <div class="layer-img">
+
+            </div>
+        </div>
+        <div class="txt6">
+            <img src="images/title6.png" alt="">
+            <p class="str6">人工智慧+ERP向DT轉型</p>
+            <p class="p6">大數據、人工智慧、用戶體驗企業領先應用 <br>
+                企業智慧大腦，從洞察當下到預見未來
+            </p>
+            <ul>
+                <li>
+                    <i></i>
+
+                        <p class="ttxt">企業AI</p>
+                        <p class="txtd">小慧│ERP不只是企業運營骨幹，更是智慧女神，具備人工智慧、思考、智慧型學習成長
+                        </p>
+
+                </li>
+                <li>
+                    <i></i>
+
+                        <p class="ttxt">數據水晶球</p>
+                        <p class="txtd">DPS│預見未來,模擬獻策,發出預警與智能輔助&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        </p>
+
+                </li>
+                <li>
+                    <i></i>
+
+                        <p class="ttxt">企業用戶體驗</p>
+                        <p class="txtd">移動、WEB、看板、VUI│讓數據舞動大屏，人性、美觀、極致的新交互體驗&nbsp;
+                        </p>
+
+                </li>
+            </ul>
+        </div>
+
+    </div>
+
+    <div class="section section7" >
+        <div class="bg"><img src="images/sectionG.jpg" alt=""></div>
+        <div class="txt7">
+            <img src="images/title7.png" alt="">
+            <p class="str7">打造數據運營戰情中心</p>
+            <p class="p7">企業戰情視覺化<br>
+                對內掌握全局，對外展現實力
+            </p>
+            <ul>
+                <li>
+                    <i></i>
+
+                        <p class="ttxt">車間戰情</p>
+                        <p class="txtd">大屏戰情監控、職能駕駛艙│打破軟硬體藩籬，掌握從執行層到運營層戰情資訊，洞悉製造現場
+                        </p>
+
+                </li>
+                <li>
+                    <i></i>
+
+                        <p class="ttxt">調度協作即時通透</p>
+                        <p class="txtd">大屏、WEB、移動│車間動態即時共用，打造高效跨部協同&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        </p>
+
+                </li>
+
+            </ul>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

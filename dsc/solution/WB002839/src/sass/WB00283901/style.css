@@ -1,0 +1,443 @@
+@charset "UTF-8";
+/* #region function */
+/* #endregion function */
+/* #region mixin */
+/* #endregion mixin */
+/* #region extend */
+/* #endregion extend */
+main {
+  min-width: 320px;
+  font-size: 18px;
+  line-height: 1.6; }
+  main .container {
+    margin: 0 auto;
+    max-width: 1200px; }
+
+main a {
+  color: inherit; }
+main table {
+  border-spacing: 0;
+  border-collapse: collapse; }
+main .col-2 {
+  width: 50%; }
+main .col-3 {
+  width: 33.33333%; }
+main .col-4 {
+  width: 25%; }
+main .col-5 {
+  width: 20%; }
+main .section {
+  position: relative;
+  padding: 70px 0;
+  min-width: 1200px;
+  width: 100%;
+  font-size: 18px;
+  font-family: Arial, '微軟正黑體';
+  line-height: 1.5; }
+  main .section * {
+    -moz-box-sizing: border-box;
+    box-sizing: border-box; }
+  main .section h2 {
+    margin-bottom: 5px;
+    text-align: center;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 1.2; }
+  main .section h3 {
+    margin-bottom: 10px;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 1.2; }
+  main .section .title-line {
+    overflow: hidden;
+    margin-bottom: 30px;
+    text-align: center;
+    font-weight: bold; }
+    main .section .title-line span {
+      position: relative;
+      display: inline-block; }
+      main .section .title-line span:before, main .section .title-line span:after {
+        position: absolute;
+        top: 50%;
+        display: block;
+        width: 500%;
+        border-bottom: 1px solid #aeaeae;
+        content: ''; }
+      main .section .title-line span:before {
+        left: 100%;
+        margin-left: 10px; }
+      main .section .title-line span:after {
+        right: 100%;
+        margin-right: 10px; }
+  main .section p {
+    margin: 0;
+    text-align: justify; }
+main .content {
+  position: relative;
+  margin: 0 auto;
+  width: 1200px; }
+main .vAlignMiddle {
+  text-align: center;
+  font-size: 0; }
+  main .vAlignMiddle:before {
+    display: inline-block;
+    height: 100%;
+    content: '';
+    vertical-align: middle; }
+  main .vAlignMiddle .vAlignContent {
+    display: inline-block;
+    vertical-align: middle; }
+main .circle {
+  margin: 0 auto;
+  border-radius: 50%; }
+main .floatLeft {
+  float: left; }
+main .floatRight {
+  float: right; }
+main .imgCenter {
+  display: block;
+  margin: 0 auto; }
+main p.imgNote {
+  text-align: center;
+  font-size: 19px; }
+main p.sectionDesc {
+  margin: 0 auto 30px;
+  padding: 0 140px;
+  font-size: 20px;
+  line-height: 1.5; }
+main p.sectionDesc-center {
+  margin: 0 auto 30px;
+  padding: 0 140px;
+  text-align: center;
+  font-size: 20px;
+  line-height: 1.5; }
+main .link {
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 2px;
+  text-align: center;
+  font-size: 20px;
+  line-height: 1.5;
+  cursor: pointer;
+  -webkit-transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out;
+  -moz-transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out;
+  -o-transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out;
+  transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out; }
+main .link-normal {
+  background-color: #00b0bd;
+  color: #fff; }
+  main .link-normal:hover {
+    background-color: #00818a; }
+main .link-outline {
+  border: 1px solid #00b0bd;
+  background-color: transparent;
+  color: #00b0bd; }
+  main .link-outline:hover {
+    background-color: #00b0bd;
+    color: #fff; }
+main .link-block {
+  display: block;
+  margin: 0 auto; }
+main .linkGroup {
+  text-align: center; }
+main .highLight {
+  color: #ff0; }
+main .pageName {
+  margin: 0 auto;
+  width: 1200px;
+  font-family: Arial, '微軟正黑體';
+  line-height: 48px; }
+main #indBanner {
+  margin-bottom: 60px;
+  padding: 0;
+  height: 500px;
+  color: #fff; }
+  main #indBanner h1 {
+    margin-bottom: 4px;
+    text-align: left;
+    font-size: 44px;
+    line-height: 1.2; }
+  main #indBanner .pageDesc {
+    width: 700px;
+    font-size: 20px;
+    line-height: 30px; }
+main #navLink {
+  position: relative;
+  z-index: 998;
+  margin-top: -60px;
+  padding: 0;
+  min-width: 1200px;
+  width: 100%;
+  height: 60px;
+  border-bottom: 1px solid #ccc;
+  background-color: #fff;
+  color: #333;
+  text-align: center;
+  font-size: 18px;
+  font-family: Arial, '微軟正黑體'; }
+  main #navLink > ul {
+    display: inline-block; }
+    main #navLink > ul > li {
+      float: left;
+      width: 171px;
+      height: 60px;
+      border-left: 1px solid #ccc;
+      line-height: 60px; }
+      main #navLink > ul > li > a {
+        display: block;
+        width: 100%;
+        height: 100%; }
+      main #navLink > ul > li.end {
+        border-right: 1px solid #ccc; }
+  main #navLink .navLinks:hover,
+  main #navLink .selected {
+    color: #00b0bd;
+    font-weight: bold; }
+  main #navLink .subLink {
+    display: none;
+    margin-left: -1px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-top: none;
+    background-color: #fff;
+    text-align: center;
+    text-indent: 0px; }
+    main #navLink .subLink > li {
+      width: 100%;
+      font-size: 17px;
+      line-height: 40px; }
+      main #navLink .subLink > li a {
+        display: block;
+        color: #333;
+        font-weight: normal; }
+        main #navLink .subLink > li a:hover {
+          background-color: #00b0bd;
+          color: #fff; }
+  main #navLink.fixed {
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    margin-top: 0; }
+main #indBanner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: url("../../images/index/bg_banner.jpg") no-repeat center center; }
+  main #indBanner h1 {
+    color: #ff0; }
+  main #indBanner .btns {
+    display: flex;
+    margin-top: 75px; }
+    main #indBanner .btns a {
+      display: block;
+      height: 40px;
+      border-radius: 0;
+      background-color: #ff8404;
+      color: #fff;
+      text-align: center;
+      line-height: 40px;
+      width: 190px; }
+      main #indBanner .btns a + a {
+        margin-left: 20px; }
+main #problem .linkGroup {
+  margin-top: -100px; }
+main #problem .link-outline {
+  margin: 50px;
+  width: 480px;
+  background-color: #fff;
+  font-size: 28px; }
+  main #problem .link-outline:hover {
+    background-color: #00b0bd;
+    color: #fff; }
+main #basic {
+  z-index: 2;
+  background: url("../../images/index/bg_basic.jpg") no-repeat center center; }
+  main #basic:after {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    z-index: -1;
+    margin-left: -515px;
+    width: 1030px;
+    height: 854px;
+    background: url("../../images/index/bg_halo.png") no-repeat center center;
+    content: ''; }
+main #finance {
+  background: url(../../images/index/bg_finance.png) no-repeat center bottom; }
+  main #finance .outline {
+    margin-top: 40px; }
+  main #finance .floatLeft {
+    position: relative;
+    padding: 30px 0 0 100px;
+    width: 720px; }
+    main #finance .floatLeft span {
+      display: block;
+      text-align: right; }
+    main #finance .floatLeft p {
+      padding: 0 60px; }
+  main #finance .quote {
+    position: relative;
+    margin-bottom: 30px; }
+    main #finance .quote:before {
+      position: absolute;
+      top: -7px;
+      left: 0;
+      width: 30px;
+      height: 30px;
+      background: url(../../images/index/img_quote.png) no-repeat left top;
+      content: ''; }
+    main #finance .quote:after {
+      position: absolute;
+      top: 112px;
+      right: 0;
+      width: 30px;
+      height: 30px;
+      background: url(../../images/index/img_quote.png) no-repeat right top;
+      content: ''; }
+  main #finance .floatRight {
+    position: relative;
+    padding: 0 100px 0 30px;
+    width: 480px; }
+    main #finance .floatRight > p {
+      position: relative;
+      padding-left: 20px;
+      line-height: 1.5; }
+      main #finance .floatRight > p:before {
+        position: absolute;
+        top: 6px;
+        left: 0;
+        border-right: 6px solid transparent;
+        border-bottom: 10px solid #444;
+        border-left: 6px solid transparent;
+        content: ''; }
+  main #finance .otherLink {
+    display: block;
+    margin: 420px 0 0 170px;
+    width: 30%;
+    background-color: #de3513;
+    color: #fff;
+    text-align: center;
+    line-height: 40px; }
+    main #finance .otherLink:hover {
+      background-color: #ff5757; }
+    main #finance .otherLink i {
+      color: #fff; }
+main #invoice {
+  background-color: #cbe6e8; }
+  main #invoice .link-outline {
+    margin-top: 30px;
+    width: 400px; }
+main #law {
+  overflow: hidden;
+  padding-top: 70px;
+  padding-bottom: 160px;
+  background-color: #eee; }
+  main #law img {
+    display: block; }
+  main #law .content {
+    display: flex;
+    flex-wrap: wrap; }
+  main #law .col:first-of-type {
+    width: 300px;
+    flex-shrink: 0; }
+  main #law .col:last-of-type {
+    position: relative;
+    padding-left: 20px;
+    width: calc(100% - 320px); }
+  main #law h1 {
+    margin-bottom: 38px;
+    width: 100%;
+    color: #333;
+    text-align: center;
+    font-weight: normal;
+    font-size: 36px; }
+  main #law h2 {
+    margin: 0;
+    padding: 0;
+    color: #00b0bd;
+    text-align: left;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 30px; }
+  main #law .law-content {
+    color: #333;
+    font-size: 20px;
+    line-height: 30px; }
+  main #law .law-btn {
+    position: absolute;
+    bottom: 0;
+    left: 20px;
+    width: 285px;
+    border: 1px solid #00b0bd;
+    color: #00b0bd;
+    text-align: center;
+    font-size: 20px;
+    line-height: 35px;
+    transition: color .15s, background-color .15s; }
+    main #law .law-btn:hover {
+      background-color: #00b0bd;
+      color: #fff; }
+  main #law .swiper-container {
+    overflow: visible;
+    height: 100%; }
+  main #law .swiper-pagination {
+    bottom: -70px; }
+  main #law .swiper-pagination-bullet {
+    width: 13px;
+    height: 13px; }
+  main #law .swiper-pagination-bullet-active {
+    background-color: #00b0bd; }
+main #industry {
+  background-color: #fff; }
+  main #industry h2 {
+    color: #0e7aa7; }
+main #industryTxt {
+  position: relative;
+  margin-top: 40px; }
+  main #industryTxt li {
+    position: relative;
+    float: left;
+    overflow: hidden;
+    margin: 0 0 35px;
+    width: 200px;
+    height: 180px;
+    background: url("../../images/index/icon_industry.png") no-repeat;
+    text-align: center; }
+    main #industryTxt li:hover h4 {
+      color: #ff0; }
+  main #industryTxt h4 {
+    margin: 15px 0 0;
+    padding-top: 105px;
+    color: #fff;
+    font-weight: normal;
+    font-size: 18px; }
+  main #industryTxt #ind_01 {
+    background-position: 0 0; }
+  main #industryTxt #ind_02 {
+    background-position: -200px 0; }
+  main #industryTxt #ind_03 {
+    background-position: -400px 0; }
+  main #industryTxt #ind_04 {
+    background-position: -600px 0; }
+  main #industryTxt #ind_05 {
+    background-position: -800px 0; }
+  main #industryTxt #ind_06 {
+    background-position: 0 -250px; }
+  main #industryTxt #ind_07 {
+    background-position: -200px -250px; }
+  main #industryTxt #ind_08 {
+    background-position: -400px -250px; }
+  main #industryTxt #ind_09 {
+    background-position: -600px -250px; }
+  main #industryTxt #ind_10 {
+    background-position: -800px -250px; }
+  main #industryTxt #ind_11 {
+    background-position: 0 -500px; }
+  main #industryTxt #ind_12 {
+    background-position: -200px -500px; }
+  main #industryTxt #ind_13 {
+    background-position: -400px -500px; }
+  main #industryTxt #ind_14 {
+    background-position: -600px -500px; }
+  main #industryTxt #ind_15 {
+    background-position: -800px -500px; }

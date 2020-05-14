@@ -1,0 +1,74 @@
+$seminar-color: (
+    primary: #075f9f,
+    secondary: #199bd7,
+    orange: #ff8111,
+    gray: #b9b9b9,
+);
+@import '../common/variable';
+@import '../common/helpers';
+@import '../common/all';
+@import 'accordion';
+@import 'progressBar';
+
+main {
+    font-size: 18px;
+    line-height: 1.6;
+    .container {
+        padding: 0 20px;
+    }
+    .header {
+        @include headerBg('seminar/header-bg.jpg', 50% 100%);
+        .container {
+            height: 340px;
+            @media (min-width: $tablet-width + 1) {
+                padding-left: 85px;
+                height: image-height('seminar/header-bg.jpg');
+            }
+        }
+        h1 {
+            color: #fff;
+            font-size: 30px;
+            @media (min-width: $tablet-width + 1) {
+                font-size: 48px;
+            }
+        }
+        h2 {
+            color: #f0fe11;
+            line-height: 1.5;
+            @media (min-width: $tablet-width + 1) {
+                font-size: 24px;
+            }
+        }
+    }
+    article {
+        &:last-of-type {
+            padding-bottom: 60px;
+        }
+        h1 {
+            margin: 1.5em 0;
+            text-align: center;
+            font-weight: bold;
+            font-size: 26px;
+            @media (min-width: $tablet-width + 1) {
+                font-size: 36px;
+            }
+        }
+    }
+    .section1 {
+        padding-top: 60px;
+    }
+    .section2 {
+        padding-bottom: 60px;
+        h1 {
+            margin-bottom: 1em;
+        }
+        &-desc {
+            margin: 0 auto;
+            margin-bottom: 2em;
+            max-width: 1000px;
+        }
+        .progressBars ul + h2 {
+            margin-top: 2em;
+        }
+    }
+}

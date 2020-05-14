@@ -1,0 +1,21 @@
+{
+  "name": "solution",
+  "authors": [
+    "Kenge <pgkusn@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "animate.css": "^3.7.0",
+    "lodash": "^4.17.10"
+  }
+}

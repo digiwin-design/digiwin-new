@@ -1,0 +1,431 @@
+@charset "UTF-8";
+main.WB00247601_5 .linkALL_2 {
+    position: fixed;
+    top: 0;
+}
+
+main.WB00247601_5 body, main.WB00247601_5 html {
+    height: 100%;
+}
+
+main.WB00247601_5 .soluBan {
+    /*width: 100%;*/
+    min-width: 1000px;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    font-size: 0;
+    text-align: center;
+    font-family: "微軟正黑體", "新細明體", Arial, Helvetica, sans-serif;
+    background: url(../images/solu_banner.jpg) no-repeat center 0;
+}
+
+main.WB00247601_5 .soluBan:before {
+    content: '';
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
+
+main.WB00247601_5 .wordCon {
+    position: relative;
+    width: 960px;
+    font-size: 25px;
+    line-height: 48px;
+    display: inline-block;
+    vertical-align: middle;
+    font-weight: bold;
+}
+
+main.WB00247601_5 .wordCon span {
+    display: inline-block;
+    margin-top: 50px;
+    width: 59px;
+    height: 36px;
+    background: url(../images/solu_banIcon.png) no-repeat center center;
+    cursor: pointer;
+}
+
+main.WB00247601_5 .soluBom {
+    width: 100%;
+    min-width: 1000px;
+    height: 700px;
+    position: relative;
+    background: url(../images/soluBom1.png) no-repeat center center\9;
+}
+
+main.WB00247601_5 .bomDiv {
+    position: absolute;
+    top: 0;
+    height: 700px;
+}
+
+main.WB00247601_5 .leftBom {
+    width: 50%;
+    left: 0;
+    color: #fff;
+    position: relative;
+}
+
+main.WB00247601_5 .bomInner {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background-size: cover !important;
+}
+
+main.WB00247601_5 .leftBom .bomInner {
+    background: url(../images/solu_bom1.png) no-repeat left center;
+    background: url() \9;
+}
+
+main.WB00247601_5 .rightBom {
+    width: 60%;
+    right: 0;
+    text-align: center;
+}
+
+main.WB00247601_5 .rightBom .bomInner {
+    background: url(../images/solu_bom2.png) no-repeat right bottom;
+    background: url() \9;
+}
+
+main.WB00247601_5 .moreCase {
+    position: absolute;
+    bottom: 70px;
+    left: 34%;
+    margin-left: -146px;
+    width: 292px;
+    height: 51px;
+    margin: 0 auto;
+    margin-top: 50px;
+    background: #ff8522;
+    border: 1px solid #fff;
+    color: #fff;
+    text-align: center;
+    line-height: 51px;
+    font-size: 22px;
+    z-index: 10;
+}
+
+main.WB00247601_5 .moreCase:hover {
+    background: #11d1d5;
+}
+
+@media only screen and (max-width: 1750px) {
+    main.WB00247601_5 .leftBom {
+        width: 50%;
+        left: 0;
+    }
+    main.WB00247601_5 .rightBom {
+        width: 50%;
+        right: 0;
+        z-index: 2;
+    }
+    main.WB00247601_5 .leftBom .leftBomP {
+        position: absolute;
+        top: 170px;
+        left: 45%;
+        margin-left: -22.5%;
+        width: 55%;
+        font-size: 20px;
+        line-height: 30px;
+        font-family: "微軟正黑體", "新細明體";
+        font-weight: bold;
+    }
+    main.WB00247601_5 .moreCase {
+        position: absolute;
+        bottom: 70px;
+        left: 50%;
+        margin-left: -146px;
+    }
+}
+
+main.WB00247601_5 .bomInner h3 {
+    font-size: 30px;
+    margin: 65px 0 18px;
+    text-align: center;
+    font-family: "微軟正黑體" , "新細明體", Arial, Helvetica, sans-serif;
+    /*position: absolute;
+	left:30%;*/
+}
+
+main.WB00247601_5 .leftBom .leftBomP {
+    position: absolute;
+    top: 170px;
+    left: 40%;
+    margin-left: -20%;
+    width: 60%;
+    font-size: 20px;
+    line-height: 30px;
+    font-family: "微軟正黑體", "新細明體";
+    font-weight: bold;
+}
+
+@media only screen and (max-width: 1750px) {
+    main.WB00247601_5 .leftBom .leftBomP {
+        position: absolute;
+        top: 170px;
+        left: 45%;
+        margin-left: -22.5%;
+        width: 55%;
+        font-size: 20px;
+        line-height: 30px;
+        font-family: "微軟正黑體", "新細明體";
+        font-weight: bold;
+    }
+}
+
+main.WB00247601_5 .leftBom .leftBomP li {
+    list-style: decimal;
+}
+
+main.WB00247601_5 .rightBom img {
+    width: 50%;
+    min-width: 380px;
+}
+
+main.WB00247601_5 .soluPain {
+    width: 100%;
+    /*height: 1914px;*/
+    background: url(../images/soluPainBg.jpg) no-repeat top center fixed;
+    background-size: cover;
+    padding-bottom: 125px;
+}
+
+main.WB00247601_5 #problem {
+    width: 960px;
+    margin: 0 auto;
+    font-family: "微軟正黑體", "新細明體";
+    font-size: 17px;
+    line-height: 30px;
+    color: #333;
+    letter-spacing: 1px;
+    padding-top: 75px;
+}
+
+main.WB00247601_5 .soluPain h2 {
+    font-size: 30px;
+    font-weight: bold;
+    color: #000;
+    margin: 0;
+    margin-bottom: 50px;
+    font-family: "微軟正黑體" , "新細明體", Arial, Helvetica, sans-serif;
+}
+
+main.WB00247601_5 #problemTxt .tabList li {
+    float: left;
+    height: 39px;
+    width: 126px;
+    background-image: url(../images/tabBg.jpg);
+    background-repeat: repeat-x;
+    background-position: left center;
+    line-height: 39px;
+    font-size: 19px;
+    text-align: center;
+    margin-right: 3px;
+    -webkit-border-top-left-radius: 7px;
+    -webkit-border-top-right-radius: 7px;
+    -moz-border-radius-topleft: 7px;
+    -moz-border-radius-topright: 7px;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    cursor: pointer;
+}
+
+main.WB00247601_5 #problemTxt .tabList li:hover {
+    background-image: url(../images/tabHover.jpg);
+    background-repeat: repeat-x;
+    background-position: left center;
+    -webkit-border-top-left-radius: 7px;
+    -webkit-border-top-right-radius: 7px;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    color: #FFF;
+}
+
+main.WB00247601_5 #problemTxt .tabList .now {
+    background-image: url(../images/tabHover.jpg);
+    background-repeat: repeat-x;
+    background-position: center;
+    -webkit-border-top-left-radius: 7px;
+    -webkit-border-top-right-radius: 7px;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    color: #FFF;
+}
+
+main.WB00247601_5 #problemAll {
+    background-color: #79C2C8;
+    position: relative;
+    height: 735px;
+    overflow: hidden;
+    width: 960px;
+}
+
+main.WB00247601_5 #problemAll .Q {
+    background-image: url(../images/sol1.png);
+    background-repeat: no-repeat;
+    background-position: 23px bottom;
+    margin-bottom: 15px;
+}
+
+main.WB00247601_5 #problemAll .Q h3,
+main.WB00247601_5 #problemTxt #problemAll .A h3,
+main.WB00247601_5 #problemTxt #problemAll .sameCase h3 {
+    margin-left: 91px;
+    background-color: #f5ffff;
+    margin-right: 25px;
+    padding-left: 25px;
+    margin-top: 20px;
+    color: #044549;
+    font-size: 21px;
+    padding-top: 15px;
+}
+
+main.WB00247601_5 #problemAll .Q ul {
+    background-color: #f5ffff;
+    margin-right: 25px;
+    margin-left: 91px;
+    padding-left: 25px;
+    padding-bottom: 25px;
+    padding-right: 25px;
+}
+
+main.WB00247601_5 #problemAll .Q li {
+    list-style-type: disc;
+    margin-left: 50px;
+}
+
+main.WB00247601_5 #problemAll .A {
+    background-image: url(../images/sol2.png);
+    background-repeat: no-repeat;
+    background-position: 23px bottom;
+    margin-bottom: 10px;
+}
+
+main.WB00247601_5 #problemAll .A .sol,
+main.WB00247601_5 #problemTxt #problemAll .sameCase .company {
+    background-color: #f5ffff;
+    margin-right: 25px;
+    margin-left: 91px;
+    padding-left: 50px;
+    padding-bottom: 25px;
+    padding-top: 15px;
+}
+
+main.WB00247601_5 #problemAll .A .sol ul {
+    float: left;
+    margin-right: 45px;
+}
+
+main.WB00247601_5 #problemAll .A .sol li {
+    line-height: 36px;
+    width: 148px;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+main.WB00247601_5 #problemAll .A .sol li a {
+    background-image: url(../images/solBg.jpg);
+    background-repeat: repeat-x;
+    display: block;
+    height: 36px;
+    width: 148px;
+    border: 1px solid #ddd;
+    border-radius: 7px;
+    -moz-border-radius: 7px;
+    -webkit-border-radius: 7px;
+}
+
+main.WB00247601_5 #problemAll .A .sol li a:hover {
+    background-image: url(../images/solHover.jpg);
+    background-repeat: repeat-x;
+    border: 1px solid #00a2a5;
+    border-radius: 7px;
+    -moz-border-radius: 7px;
+    -webkit-border-radius: 7px;
+    color: #FFF;
+}
+
+main.WB00247601_5 #problemAll .A .longSol li {
+    line-height: 36px;
+    width: 270px;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+main.WB00247601_5 #problemAll .A .longSol li a {
+    background-image: url(../images/solBg.jpg);
+    background-repeat: repeat-x;
+    display: block;
+    height: 36px;
+    width: 270px;
+    border: 1px solid #ddd;
+    border-radius: 7px;
+    -moz-border-radius: 7px;
+    -webkit-border-radius: 7px;
+}
+
+main.WB00247601_5 #problemAll .A .longSol li a:hover {
+    background-image: url(../images/solHover.jpg);
+    background-repeat: repeat-x;
+    border: 1px solid #00a2a5;
+    border-radius: 7px;
+    -moz-border-radius: 7px;
+    -webkit-border-radius: 7px;
+    color: #FFF;
+}
+
+main.WB00247601_5 #problemAll .sameCase {
+    background-image: url(../images/sol3.png);
+    background-repeat: no-repeat;
+    background-position: 23px bottom;
+    margin-bottom: 10px;
+}
+
+main.WB00247601_5 #problemAll .sameCase .company ul {
+    float: left;
+    margin-right: 125px;
+    padding-left: 20px;
+}
+
+main.WB00247601_5 #problemAll .sameCase .company li {
+    list-style-image: url(../images/solIcin.png);
+    margin-bottom: 5px;
+    line-height: 21px;
+}
+
+main.WB00247601_5 #problemAll .sameCase .company li a:hover {
+    color: #DA2D2F;
+}
+
+main.WB00247601_5 #problemAll #problem1,
+main.WB00247601_5 #problemTxt #problemAll #problem2,
+main.WB00247601_5 #problemTxt #problemAll #problem3,
+main.WB00247601_5 #problemTxt #problemAll #problem4,
+main.WB00247601_5 #problemTxt #problemAll #problem5 {
+    position: absolute;
+    margin-right: 20px;
+    padding-bottom: 25px;
+    background-color: #79C2C8;
+    display: none;
+    left: 1000px;
+    top: 0px;
+    width: 960px;
+}
+
+main.WB00247601_5 #problemAll #problem1 {
+    display: block;
+}
+
+main.WB00247601_5 .bluePrint {
+    width: 960px;
+    /*	height: 955px;*/
+    margin: 0 auto;
+}
+
+main.WB00247601_5 .bluePrint h2 {
+    margin: 105px 0 50px;
+    font-family: "微軟正黑體" , "新細明體", Arial, Helvetica, sans-serif;
+}

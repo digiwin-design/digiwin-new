@@ -1,0 +1,40 @@
+@import 'common/variable';
+@import 'common/helpers';
+@import 'common/family';
+@import 'common/all';
+@import 'components/02/mobile';
+@import 'components/02/desktop';
+
+main {
+    .header {
+        @include headerBg('02/header-bg.jpg', '02/header-bg-s.jpg', 100% 100%);
+        @media (min-width: $tablet-width + 1) {
+            background-position: 50% 0;
+        }
+        &-text {
+            transform: translateY(-60px);
+            @media (min-width: $tablet-width + 1) {
+                transform: translateY(0);
+            }
+        }
+        p {
+            padding-top: 1em;
+            max-width: 490px;
+            color: #fff;
+            line-height: 24px;
+        }
+    }
+    .mainTitle {
+        font-weight: bold;
+        font-size: 30px;
+        line-height: 36px;
+    }
+    .section1 {
+        & > h1 {
+            margin-bottom: 2em;
+            @media (min-width: $content-width + 1) {
+                text-align: center;
+            }
+        }
+    }
+}

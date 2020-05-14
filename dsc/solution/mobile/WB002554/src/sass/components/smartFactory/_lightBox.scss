@@ -1,0 +1,23 @@
+main .smartFactory {
+    .lightBox {
+        a {
+            @include btn(100%, 84px, #fff, #19c0f0);
+            letter-spacing: getLetterSpacing(75);
+            font-weight: bold;
+            font-size: 24px;
+            &::after {
+                @include imgBg('smartFactory/link-icon.png', true);
+                display: inline-block;
+                margin-left: 10px;
+                width: image-width('smartFactory/link-icon.png');
+                height: image-height('smartFactory/link-icon.png');
+                content: '';
+                transform: translateY(6px);
+            }
+        }
+        // 隱藏旋轉按鈕
+        .toolbar-btn__rotate {
+            display: none;
+        }
+    }
+}

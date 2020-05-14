@@ -1,0 +1,282 @@
+@import 'common/variable';
+@import 'common/helpers';
+@import 'common/family';
+@import 'common/reset';
+@import 'common/all';
+
+#WB002811.WB002811_production {
+    #indBanner {
+        background: url('../images/production/bg_banner.jpg') no-repeat center center;
+    }
+    #jobProblem {
+        .group {
+            height: 50px;
+            text-align: center;
+            font-size: 0;
+            .outline {
+                display: inline-block;
+                -webkit-box-sizing: content-box;
+                        box-sizing: content-box;
+                padding: 0 15px;
+                width: 150px;
+                font-size: 20px;
+                &.active .changeBtn {
+                    background-color: #05529a;
+                    color: #fff;
+                }
+            }
+            .changeBtn {
+                position: relative;
+                display: inline-block;
+                overflow: hidden;
+                width: 150px;
+                border: 1px solid transparent;
+                border-radius: 300px;
+                color: #333;
+                text-align: center;
+                line-height: 50px;
+                cursor: pointer;
+                -webkit-transition: .5s;
+                        transition: .5s;
+                &:hover {
+                    color: #fff;
+                }
+                &:before {
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    -webkit-box-sizing: border-box;
+                            box-sizing: border-box;
+                    width: 100%;
+                    height: 100%;
+                    border: 1px solid #05529a;
+                    border-radius: 300px;
+                    content: '';
+                }
+                &:after {
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    z-index: -1;
+                    visibility: hidden;
+                    width: 100%;
+                    height: 100%;
+                    background-color: #05529a;
+                    content: '';
+                    -webkit-transition: all .275s ease-in-out, visibility 0s .275s;
+                            transition: all .275s ease-in-out, visibility 0s .275s;
+                    -webkit-transform: translateX(-100%);
+                            transform: translateX(-100%);
+                    will-change: transform;
+                }
+            }
+            &:hover {
+                .changeBtn:after {
+                    -webkit-transform: translateX(100%);
+                            transform: translateX(100%);
+                }
+                .outline:hover {
+                     ~ .outline .changeBtn:after {
+                        -webkit-transform: translateX(-100%);
+                                transform: translateX(-100%);
+                    }
+                    .changeBtn:after {
+                        visibility: visible;
+                        -webkit-transition-delay: 0s;
+                                transition-delay: 0s;
+                        -webkit-transform: none;
+                                transform: none;
+                    }
+                }
+            }
+        }
+        .jobGroup {
+            position: relative;
+            width: 100%;
+            height: 310px;
+        }
+        .jobProblem {
+            position: absolute;
+            top: 0;
+            left: 0;
+            display: none;
+            width: 100%;
+            color: #fff;
+            h2 {
+                margin: 30px 0 10px;
+                padding-left: 15px;
+                color: #555;
+                text-align: left;
+            }
+            &:hover .handTop {
+                -webkit-animation-play-state: paused;
+                        animation-play-state: paused;
+            }
+            &.active {
+                display: block;
+            }
+        }
+        .txt {
+            float: left;
+            overflow: hidden;
+            padding: 0 15px;
+            cursor: pointer;
+            .outline {
+                position: relative;
+                overflow: hidden;
+                padding: 30px 0;
+                border-radius: 2px;
+            }
+            .nameLayer {
+                position: relative;
+                z-index: 2;
+                text-align: center;
+                p {
+                    margin-top: 8px;
+                    text-align: inherit;
+                    font-weight: bold;
+                    font-size: 24px;
+                }
+            }
+            .txtLayer {
+                position: absolute;
+                top: 50%;
+                left: 0;
+                padding: 0 10px;
+                -webkit-transform: translateY(-50%);
+                        transform: translateY(-50%);
+                p {
+                    float: left;
+                    padding: 0 20px;
+                }
+            }
+            .handTop {
+                position: absolute;
+                top: 95%;
+                left: 50%;
+                font-size: 24px;
+                -webkit-transform: translateX(-50%);
+                        transform: translateX(-50%);
+                -webkit-animation: handTop 1.5s infinite;
+                        animation: handTop 1.5s infinite;
+                -webkit-animation-timing-function: ease-out;
+                        animation-timing-function: ease-out;
+            }
+            .mask {
+                position: absolute;
+                top: 100%;
+                left: 0;
+                z-index: 3;
+                width: 100%;
+                height: 100%;
+            }
+        }
+        .txt01 {
+            width: 66.66667%;
+            .outline {
+                background-color: #0482b7;
+            }
+            .txtLayer {
+                color: #0489c1;
+                p {
+                    width: 50%;
+                }
+            }
+            .mask {
+                background-color: rgba(2, 59, 83, .9);
+            }
+        }
+        .txt02 {
+            width: 33.33333%;
+            .outline {
+                background-color: #04a8b7;
+            }
+            .txtLayer {
+                color: #04b1c1;
+            }
+            .mask {
+                background-color: rgba(2, 76, 83, .9);
+            }
+        }
+    }
+    #mainContent {
+        background-color: #f5f5f5;
+        .fa {
+            display: block;
+            color: #ccc;
+            text-align: center;
+            font-size: 50px;
+            cursor: pointer;
+        }
+        .issue {
+            padding: 50px 0;
+            border-bottom: 1px solid #ccc;
+            &.end {
+                border-bottom: none;
+            }
+            h3 {
+                margin-bottom: 20px;
+            }
+            strong {
+                color: #05529a;
+            }
+            .txtGroup {
+                position: relative;
+                float: left;
+                padding-right: 50px;
+                width: 550px;
+                ul {
+                    margin-left: 20px;
+                }
+                li {
+                    margin-bottom: 4px;
+                    list-style: disc outside;
+                    line-height: 24px;
+                }
+            }
+            .imgGroup {
+                float: left;
+                width: 650px;
+                 > div {
+                    float: left;
+                    width: 310px;
+                    &:first-of-type {
+                        margin-right: 30px;
+                    }
+                }
+                p {
+                    text-align: center;
+                }
+            }
+        }
+    }
+}
+
+@-webkit-keyframes handTop {
+    0% {
+        top: 95%;
+    }
+
+    50% {
+        top: 87%;
+    }
+
+    100% {
+        top: 95%;
+    }
+}
+
+
+@keyframes handTop {
+    0% {
+        top: 95%;
+    }
+
+    50% {
+        top: 87%;
+    }
+
+    100% {
+        top: 95%;
+    }
+}

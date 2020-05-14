@@ -1,0 +1,206 @@
+@import '../common';
+@import 'components';
+
+main {
+    .section1 {
+        $breakpoint: 1300px;
+        position: relative;
+        overflow: hidden;
+        padding-top: 60px;
+        padding-bottom: 475px;
+        background-color: #b1e2e8;
+        @media (max-width: $breakpoint) {
+            padding-top: 40px;
+            padding-bottom: 0;
+        }
+        hgroup {
+            margin-bottom: 1.5em;
+            text-align: center;
+            @media (max-width: $breakpoint) {
+                margin-bottom: 1em;
+            }
+        }
+        h2 {
+            color: #2c2c2c;
+            font-size: 30px;
+            line-height: 1;
+            @media (max-width: $breakpoint) {
+                font-size: 18px;
+            }
+        }
+        h1 {
+            color: #1a2538;
+            font-weight: bold;
+            font-size: 40px;
+            @media (max-width: $breakpoint) {
+                font-size: 26px;
+            }
+        }
+    }
+    .section2 {
+        padding-top: 40px;
+        padding-bottom: 50px;
+        background-color: #1a2538;
+        @media (min-width: $content-width) {
+            padding-top: 55px;
+            padding-bottom: 65px;
+            background-image: image-url('mag201909/section2-bg-top.png'), image-url('mag201909/section2-bg-bottom.png');
+            background-position: calc(50% - 350px) -350px, calc(50% + 350px) 100%;
+            background-repeat: no-repeat;
+        }
+        & > .container {
+            padding-right: 0;
+            padding-left: 0;
+            max-width: none;
+            @media (min-width: $content-width) {
+                position: relative;
+                padding-right: 30px;
+                padding-left: 30px;
+                max-width: 1200px;
+            }
+            & > h1 {
+                margin-bottom: 30px;
+                color: #f6ff00;
+                text-align: center;
+                letter-spacing: getLetterSpacing(50);
+                font-weight: bold;
+                font-size: 26px;
+                line-height: 1;
+                @media (min-width: $content-width) {
+                    position: absolute;
+                    margin-top: 88px;
+                    margin-bottom: 0;
+                    width: 520px;
+                    font-size: 50px;
+                }
+            }
+        }
+        .toolbar {
+            @media (min-width: $content-width) {
+                position: absolute;
+                right: 20px;
+                bottom: 60px;
+                z-index: 1;
+                max-width: none;
+                width: 520px;
+            }
+            .container {
+                @media (min-width: $content-width) {
+                    justify-content: space-around;
+                    &::before,
+                    &::after {
+                        content: '';
+                    }
+                }
+            }
+        }
+    }
+    .section3 {
+        background-color: #eee;
+        & > header {
+            padding-top: 32px;
+            padding-bottom: 40px;
+            @media (min-width: $tablet-width + 1) {
+                padding-top: 40px;
+                padding-bottom: 34px;
+            }
+            .container {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                @media (min-width: $tablet-width + 1) {
+                    flex-direction: row;
+                    align-items: flex-start;
+                }
+                @media (min-width: $content-width) {
+                    padding-right: 30px;
+                    padding-left: 30px;
+                }
+            }
+            .img {
+                transform: translateX(-35px);
+                @media (min-width: $tablet-width + 1) {
+                    transform: translateX(-20px);
+                    flex-shrink: 0;
+                }
+                @media (min-width: $content-width) {
+                    margin-right: 60px;
+                }
+            }
+            .text {
+                @media (min-width: $tablet-width + 1) {
+                    margin-right: 2em;
+                    flex-grow: 1;
+                }
+            }
+            h1 {
+                margin-top: 1em;
+                margin-bottom: .5em;
+                color: #1a2538;
+                font-weight: bold;
+                font-size: 26px;
+                line-height: 30px;
+                @media (min-width: $tablet-width + 1) {
+                    margin-top: .7em;
+                    margin-bottom: .2em;
+                    font-size: 40px;
+                    line-height: 50px;
+                }
+            }
+            p {
+                color: #2c2c2c;
+                line-height: 26px;
+                & + p {
+                    margin-top: .5em;
+                    margin-bottom: 1.5em;
+                }
+            }
+            .link {
+                @media (min-width: $tablet-width + 1) {
+                    position: relative;
+                    margin-top: 90px;
+                    flex-shrink: 0;
+                    &::before {
+                        @include imgBg('mag201909/robot2.png');
+                        position: absolute;
+                        right: 0;
+                        bottom: 40px;
+                        content: '';
+                    }
+                }
+            }
+            a {
+                @include btn(210px, 60px, #fff, #ff4b45, 6px);
+                position: relative;
+                font-size: 20px;
+                @at-root {
+                    html.no-mobile main .section3 header a:hover {
+                        background-color: #ab0a1d;
+                    }
+                }
+            }
+        }
+    }
+    .ad {
+        background-color: #000;
+        a {
+            display: block;
+        }
+        img {
+            display: block;
+            margin: 0 auto;
+        }
+    }
+    .footer {
+        display: flex;
+        height: 150px;
+        background-color: #1a2538;
+        align-items: center;
+        @media (min-width: $tablet-width + 1) {
+            height: 200px;
+        }
+        .toolbar {
+            width: 100%;
+        }
+    }
+}

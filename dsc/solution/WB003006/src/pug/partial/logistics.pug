@@ -1,0 +1,9 @@
+extends ../layout.pug
+
+block includes
+    link(rel="preload", href="images/logistics/banner.jpg", as="image")
+    link(rel='stylesheet', href='css/logistics/style.css')
+    script(src='js/logistics.min.js', defer)
+
+block content
+    include logistics.html

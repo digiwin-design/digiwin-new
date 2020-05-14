@@ -1,0 +1,84 @@
+main .index .progress-bar {
+    $color: (
+    normal: #ebebeb,
+    normal-bar: #d6d6d6,
+    highest: #f77b7b,
+    highest-bar: #ccb17d,
+    first: #e84646,
+    first-bar: #cca352,
+    );
+    margin: 0 auto;
+    max-width: 885px;
+    h2 {
+        margin-bottom: .5em;
+        color: map-get($color, highest);
+        font-size: 24px;
+    }
+    li {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        &:not(:last-child) {
+            margin-bottom: 5px;
+        }
+    }
+    .text {
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        p {
+            display: flex;
+            padding: 16px 1em;
+            min-height: 80px;
+            background-color: map-get($color, normal);
+            color: #676767;
+            font-size: 16px;
+            line-height: 24px;
+            align-items: center;
+            @media (min-width: $tablet-width + 1) {
+                min-height: 60px;
+            }
+            @at-root {
+                main .progress-bar li.highest .text p {
+                    background-color: map-get($color, highest);
+                    color: #fff;
+                }
+                main .progress-bar li.first .text p {
+                    background-color: map-get($color, first);
+                    color: #fff;
+                }
+            }
+        }
+    }
+    .value {
+        width: 50%;
+        height: 55px;
+        line-height: 55px;
+        @media (min-width: $tablet-width + 1) {
+            height: 40px;
+            line-height: 40px;
+        }
+    }
+    .bar {
+        overflow: hidden;
+        width: 0;
+        background-color: map-get($color, normal-bar);
+        color: #fff;
+        text-align: right;
+        white-space: nowrap;
+        @media (min-width: $tablet-width + 1) {
+            font-size: 24px;
+        }
+        @at-root {
+            main .progress-bar li.highest .bar {
+                background-color: map-get($color, highest-bar);
+            }
+            main .progress-bar li.first .bar {
+                background-color: map-get($color, first-bar);
+            }
+        }
+        &::after {
+            content: '\00a0\00a0';
+        }
+    }
+}

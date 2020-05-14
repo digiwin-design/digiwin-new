@@ -1,0 +1,84 @@
+$seminar-color: (
+    primary: #e52847,
+    secondary: #543e3e,
+    btn: #eb1a4a
+);
+@import '../common/variable';
+@import '../common/helpers';
+@import '../common/all';
+@import 'accordion';
+@import 'progressBars';
+
+main {
+    .header {
+        @include headerBg('seminar/header-bg.jpg');
+        h1 {
+            color: #f0fe11;
+            font-size: 30px;
+            @media (min-width: $tablet-width + 1) {
+                font-size: 48px;
+            }
+            br {
+                display: none;
+                @media (min-width: $tablet-width + 1) {
+                    display: block;
+                }
+            }
+        }
+        p {
+            color: #fff;
+        }
+    }
+    article {
+        &:last-of-type {
+            padding-bottom: 60px;
+        }
+        .container {
+            padding-right: 20px;
+            padding-left: 20px;
+        }
+        h1 {
+            margin-top: 1.5em;
+            margin-bottom: .5em;
+            text-align: center;
+            font-weight: bold;
+            font-size: 26px;
+            @media (min-width: $tablet-width + 1) {
+                font-size: 36px;
+            }
+        }
+    }
+    .nav {
+        display: flex;
+        margin: 2em auto;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        @media (max-width: $content-width) {
+            justify-content: center;
+        }
+        li {
+            width: 115px;
+            @media (max-width: $content-width) {
+                margin: 20px;
+            }
+        }
+        a {
+            display: block;
+            padding-left: 40px;
+            background-repeat: no-repeat;
+            color: #000;
+            line-height: 36px;
+            @at-root {
+                @for $i from 1 through 6 {
+                    main .nav li:nth-child(#{$i}) a {
+                        background-image: image-url('seminar/nav/icon#{$i}.png');
+                    }
+                }
+            }
+        }
+    }
+    .accordion + .category {
+        margin-top: .5em;
+        font-size: 20px;
+    }
+}

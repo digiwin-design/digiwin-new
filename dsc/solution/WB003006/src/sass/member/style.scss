@@ -1,0 +1,55 @@
+@import '../common';
+@import 'components';
+
+main {
+    .section1 {
+        @include bg('member/section1-bg.jpg');
+        padding-bottom: 60px;
+        background-size: cover;
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .sectionTitle {
+            @media (min-width: $tablet-width + 1) {
+                text-align: center;
+            }
+        }
+    }
+    .section2,
+    .section3,
+    .section4 {
+        padding-bottom: 60px;
+    }
+    .section2 {
+        background-color: #fff;
+    }
+    .section3 {
+        background-color: #ececec;
+        .sectionTitle {
+            h1 {
+                text-align: center;
+            }
+            p {
+                @media (min-width: $tablet-width + 1) {
+                    text-align: center;
+                }
+            }
+            br {
+                display: none;
+                @media (min-width: $tablet-width + 1) {
+                    display: block;
+                }
+            }
+        }
+    }
+    .section4 {
+        background-color: #fff;
+        text-align: center;
+        img {
+            display: block;
+            margin: 0 auto;
+        }
+    }
+}

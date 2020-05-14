@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="/tw/static/css/public.css">
+    <link rel="stylesheet" href="/tw/static/css/style.css">
+    <script src="/tw/static/js/jquery-1.11.3.min.js"></script>
+    <script src="https://polyfill.io/v3/polyfill.js?features=default,fetch,HTMLPictureElement,Array.prototype.find,NodeList.prototype.forEach&amp;flags=gated"></script>
+    <script src="/tw/dsc/assets/modernizr-custom.js"></script>
+    <script src="/tw/dsc/assets/mobile-detect.js"></script>
+    <script src="/tw/dsc/assets/mobile-detect-modernizr.js" defer=""></script>
+    <script src="/tw/dsc/assets/smoothscroll.js" defer></script>
+    <script src="/tw/dsc/assets/axios.min.js"></script>
+    <script src="/tw/dsc/assets/vuejs/vue-all-dev.js"></script>
+    <script src="/tw/dsc/js/common.min.js"></script>
+  </head>
+  <body>
+    <!-- 後台上稿內容開始-->
+    <link rel="stylesheet" href="/tw/dsc/css/Eform/xcConfirm.css">
+    <script src="/tw/dsc/js/Eform/xcConfirm.js" defer></script>
+    <link rel="stylesheet" href="assets/swiper.min.css">
+    <script src="assets/swiper.min.js" defer></script>
+    <script src="assets/vue-awesome-swiper.js" defer></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="assets/lodash.min.js" defer></script>
+    <link rel="stylesheet" href="/tw/dsc/css/reboot.css">
+    <script src="js/common.min.js" defer></script>
+    <link rel="stylesheet" href="css/inventory/style.css">
+    <script src="js/inventory.min.js" defer></script>
+    <main v-cloak v-if="result"><div class="header">
+    <div class="container">
+        <div class="header-text">
+            <h1 class="mainTitle">進銷存管理</h1>
+            <p>
+                打通進貨、銷貨、庫存管理資訊<br>
+                提高作業效率與成本控管能力
+            </p>
+            <a href="#contact" class="js-nav">立即諮詢</a>
+        </div>
+    </div>
+</div>
+
+<article class="section1">
+    <div class="container">
+        <h1 class="sectionTitle">為什麼需要進銷存管理系統？</h1>
+        <p class="sectionDesc">受新型冠狀病毒(2019-nCoV)疫情影響，口罩、酒精等防疫相關物品需求滿載的情況下，打亂企業現有銷售、庫存管理和進貨管理秩序，透過進銷存系統能夠快速查詢庫存狀況、管理進出貨，帳務數據核對更精準！</p>
+        <div class="section1-boxs">
+            <hover-box custom-class="hoverBox1">
+                <template slot="content">
+                    <p class="hoverBox-title">進貨</p>
+                </template>
+                <template slot="hover">
+                    <div>無BOM表架構，且細項零件多，造成採購經常缺料生產，延長交貨時間。</div>
+                </template>
+            </hover-box>
+            <hover-box custom-class="hoverBox2">
+                <template slot="content">
+                    <p class="hoverBox-title">銷貨</p>
+                </template>
+                <template slot="hover">
+                    <div>
+                        <ul>
+                            <li>少量多樣訂單，物料、交期 難以預估。</li>
+                            <li>生產進度無法即時追蹤,急單抽差單的情況時常發生。</li>
+                            <li>人工手寫產出貨單很久，且資料量大，想透過系統產出資料。</li>
+                            <li>想要即時調閱客戶先前報價紀錄跟明細，降低調閱時間及報錯價格的風險。</li>
+                            <li>無系統作業，導致商品進出混亂，且無法清楚管理批號跟效期，希望建置系統，減少重工行為。</li>
+                        </ul>
+                    </div>
+                </template>
+            </hover-box>
+            <hover-box custom-class="hoverBox3">
+                <template slot="content">
+                    <p class="hoverBox-title">存貨</p>
+                </template>
+                <template slot="hover">
+                    <div>
+                        <ul>
+                            <li>帳面數據與庫存數量無法對上，希望有系統協助處理。</li>
+                            <li>出貨站別多，特殊品號規格多，成本/庫存難估計，希望有系統管理。</li>
+                            <li>供應商的倉庫在海外，需透過EXCEL發信回來人工登打，無法即時掌握庫存量，希望e化管理。</li>
+                        </ul>
+                    </div>
+                </template>
+            </hover-box>
+        </div>
+    </div>
+</article>
+
+<article class="section2">
+    <h1 class="sectionTitle container">掌握營運三大核心，進貨、銷售、庫存管理</h1>
+    <p class="sectionDesc container">進銷存系統，包含銷售、採購、庫存3大核心功能，最終將影響公司財務管理，透過系統有效整合各個環節的數據，查詢、統計、分析等，一鍵完成、立即看見，省時省力！</p>
+    <div class="section2-items">
+        <div class="section2-item">
+            <h2 v-if="isMobile" v-on:click="foldToggle" class="section2-subtitle container active">採購管理</h2>
+            <h2 v-else class="section2-subtitle container active">採購管理</h2>
+            <div class="section2-content container">
+                <p>採購是企業的管理核心，也是利潤來源，採購數量的拿捏、成本的掌控是重要關鍵。透過系統控制質量價格、規範採購流程，提高效率、縮短採購周期。</p>
+            </div>
+        </div>
+        <div class="section2-item">
+            <h2 v-if="isMobile" v-on:click="foldToggle" class="section2-subtitle container">銷售管理</h2>
+            <h2 v-else class="section2-subtitle container">銷售管理</h2>
+            <div class="section2-content container">
+                <p>提供客戶資料及銷售歷程的管理功能，售前、售中、售後管理到位，幫助企業開發新客、留住老客，增加成交率，提升企業營收。</p>
+            </div>
+        </div>
+        <div class="section2-item">
+            <h2 v-if="isMobile" v-on:click="foldToggle" class="section2-subtitle container">庫存管理</h2>
+            <h2 v-else class="section2-subtitle container">庫存管理</h2>
+            <div class="section2-content container">
+                <p>庫存是直接管理物資的，如果數量不準，會嚴重影響採購和銷售，也會影響企業資金。藉由系統管理，可實現多點、多庫管理，庫存預警，提供更精準的數據，加速企業資金周轉。</p>
+            </div>
+        </div>
+    </div>
+    <a href="#contact" class="section2-btn js-nav">想了解更多? 立即諮詢</a>
+</article>
+
+<article class="section3">
+    <div class="container">
+        <h1 class="sectionTitle">訊息透明即時，立即展現營運效能</h1>
+        <div class="section3-cases">
+            <case v-for="content in result.section3" v-bind:content="content"></case>
+        </div>
+    </div>
+</article>
+
+<article class="section4">
+    <div class="container">
+        <h1 class="sectionTitle">符合您成長路徑的進銷存管理</h1>
+        <p class="sectionDesc">鼎新多年於各行各業深耕與輔導經驗，提供不同營運規模提供企業適合的進銷存管理系統，無論是何種規模企業，進銷存系統的良莠在不景氣時更顯重要，從客戶交易、進出貨、庫存商品轉撥到盤虧調整，鼎新進銷存解決方案將是您提高營運效能的較佳選擇。</p>
+    </div>
+    <ul class="section4-nav">
+        <li v-for="(content, idx) in result.section4">
+            <a href v-on:click.prevent="section4Switch(idx)" v-bind:class="{active:section4ActiveNav===idx}">{{content.title}}</a>
+        </li>
+    </ul>
+    <template v-for="(content, idx) in result.section4">
+        <h2 v-on:click="foldToggle" class="section4-subtitle js-section4-subtitle container" :class="{active:idx===0}">{{content.title}}</h2>
+        <div v-bind:ref="'section4-'+idx" class="section4-content js-section4-content" v-bind:style="{display:section4Show(idx)}">
+            <div class="cols container">
+                <div class="col">
+                    <h3>{{content.title}}</h3>
+                    <h4>{{content.subtitle}}</h4>
+                    <p>{{content.detail}}</p>
+                    <a v-bind:href="content.linkUrl" class="section4-btn" target="_blank">{{content.linkText}}</a>
+                </div>
+                <div class="col">
+                    <img v-bind:src="content.illust" alt="">
+                </div>
+            </div>
+        </div>
+    </template>
+</article>
+
+<contact v-bind:multiple="false" source="WB002950"></contact>
+    </main>
+    <!-- 後台上稿內容結束-->
+  </body>
+</html>

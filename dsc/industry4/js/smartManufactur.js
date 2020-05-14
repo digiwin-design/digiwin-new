@@ -1,0 +1,8 @@
+'use strict';var $win=$(window),$htmlBody=$('html, body'),_winTop=$win.scrollTop(),_winWidth=$win.width();function scrollDown(a){$htmlBody.stop().animate({scrollTop:a})}$('.scrollDown, .keyAppList li, .btn-contact').click(function(){var a=$(this).data('anchor'),b=$('#'+a).offset().top-100;scrollDown(b)});var tag=document.createElement('script');tag.src='https://www.youtube.com/iframe_api';var firstScriptTag=document.getElementsByTagName('script')[0];firstScriptTag.parentNode.insertBefore(tag,firstScriptTag);var player;function onYouTubeIframeAPIReady(){player=new YT.Player('player',{width:'100%',height:'100%',videoId:'pj9lg7xyPEM',playerVars:{rel:0}})}$('.playVideo').click(function(){$('.mask').fadeOut(),player.playVideo(),$('#rightIcon').fadeOut()});function browserSupports360(){var a=navigator.userAgent;// No mobile browser is supported at the moment
+// if (/Mobile/.test(ua) || /Tablet/.test(ua)) return false;
+// Chrome >= 40
+// Microsoft Edge
+return!(!/Chrome\/[^123][0-9]/.test(a)||/Edge\//.test(a)||/OPR\//.test(a))||!!/Firefox\/[^123][0-9]/.test(a)||!!/Edge\//.test(a)||!!/OPR\/[^12][0-9]/.test(a);// Firefox >= 40
+// Opera >= 30
+}browserSupports360()?($('.postscript').text('\u53EF\u65BC\u5F71\u7247\u53F3\u4E0B\u89D2\u5C07\u756B\u8CEA\u8ABF\u6574\u81F34K\u4EE5\u9054\u5230\u6700\u4F73\u700F\u89BD\u6548\u679C\u5594\uFF01'),$('.postscript').css('color','#fff')):$('.postscript').html('\u60A8\u7684\u700F\u89BD\u5668\u4E0D\u652F\u63F4360\u5F71\u7247\uFF0C<br>\u5EFA\u8B70\u60A8\u4F7F\u7528Chrome\u6216Firefox\u7B49\u5176\u4ED6\u700F\u89BD\u5668\u4EE5\u9054\u5230\u6700\u4F73\u700F\u89BD\u6548\u679C\u3002');
+//# sourceMappingURL=smartManufactur.js.map

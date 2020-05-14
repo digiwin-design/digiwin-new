@@ -1,0 +1,122 @@
+.subscribe {
+    clear: both;
+    margin: 2em auto;
+    textarea,
+    input[type='email'],
+    input[type='date'],
+    input[type='password'],
+    input[type='text'] {
+        padding: .375rem .75rem;
+        color: #495057;
+    }
+    fieldset {
+        padding: .7em 1.4em 1.4em 1.4em;
+        border: 1px solid #ced4da;
+        box-shadow: 0px 0px 0px 0px #000;
+    }
+    legend {
+        padding: 0 10px;
+        width: auto;
+        border-bottom: none;
+        text-align: left;
+        font-size: 1.2em;
+    }
+    .invalid-feedback {
+        display: block;
+    }
+    .subscribe-submit {
+        position: relative;
+        width: 120px;
+        color: #fff;
+        &.is-loading {
+            opacity: .5;
+            pointer-events: none;
+            &::after {
+                position: absolute;
+                top: 50%;
+                right: 10px;
+                width: 24px;
+                height: 24px;
+                background-image: image-url('loading.svg');
+                background-size: contain;
+                content: '';
+                transform: translateY(-50%);
+            }
+        }
+        input[type=submit] {
+            width: 100%;
+            font-family: -apple-system, Roboto, Helvetica, Arial, 'PingFang TC', 'Microsoft JhengHei', sans-serif;
+        }
+    }
+    .subscribe-line {
+        width: 120px;
+        font-family: -apple-system, Roboto, Helvetica, Arial, 'PingFang TC', 'Microsoft JhengHei', sans-serif;
+    }
+    &-line {
+        display: flex;
+        height: 38px;
+        border-radius: .25rem;
+        background-color: #00c300;
+        font-size: 16px;
+        line-height: 1;
+        justify-content: center;
+        align-items: center;
+        &:link,
+        &:visited {
+            color: #fff;
+        }
+        &:hover {
+            background-color: #009e00;
+        }
+        &::before {
+            margin-right: 5px;
+            width: 25px;
+            height: 25px;
+            background: inline-image('line-icon.png') 50%/contain no-repeat;
+            content: '';
+        }
+    }
+    &-fields {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    &-field {
+        width: calc((100% - 260px) * .4);
+        @media (max-width: 991px) {
+            width: calc((100% - 5px) * .4);
+        }
+        @media (max-width: $tablet-width) {
+            width: 100%;
+        }
+        & + .subscribe-field {
+            margin-left: 5px;
+            width: calc((100% - 265px) * .6);
+            @media (max-width: 991px) {
+                width: calc((100% - 5px) * .6);
+            }
+            @media (max-width: $tablet-width) {
+                margin-top: 10px;
+                margin-left: 0;
+                width: 100%;
+            }
+        }
+    }
+    &-btns {
+        display: flex;
+        margin-left: 10px;
+        width: 245px;
+        justify-content: space-between;
+        align-items: flex-end;
+        @media (max-width: 991px) {
+            margin-top: 15px;
+            margin-left: 0;
+        }
+    }
+}
+// 上線後表單上方間距
+.list-case {
+    margin-bottom: 170px;
+    @media (max-width: 414px) {
+        margin-bottom: 275px;
+    }
+}

@@ -1,0 +1,403 @@
+@charset "UTF-8";
+#WB002839.eform a {
+    color: inherit;
+}
+
+#WB002839.eform table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+#WB002839.eform .col-2 {
+    width: 50%;
+}
+
+#WB002839.eform .col-3 {
+    width: 33.33333%;
+}
+
+#WB002839.eform .col-4 {
+    width: 25%;
+}
+
+#WB002839.eform .col-5 {
+    width: 20%;
+}
+
+#WB002839.eform .section {
+    position: relative;
+    width: 100%;
+    min-width: 1200px;
+    padding: 70px 0;
+    font-family: Arial, "微軟正黑體";
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+#WB002839.eform .section * {
+    -moz-box-sizing: border-box;
+         box-sizing: border-box;
+}
+
+#WB002839.eform .section h2 {
+    margin-bottom: 5px;
+    font-size: 36px;
+    line-height: 1.2;
+    font-weight: normal;
+    text-align: center;
+}
+
+#WB002839.eform .section h3 {
+    margin-bottom: 10px;
+    font-size: 30px;
+    font-weight: normal;
+    line-height: 1.2;
+}
+
+#WB002839.eform .section .title-line {
+    overflow: hidden;
+    margin-bottom: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+
+#WB002839.eform .section .title-line span {
+    display: inline-block;
+    position: relative;
+}
+
+#WB002839.eform .section .title-line span:before, #WB002839.eform .section .title-line span:after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 50%;
+    width: 1000%;
+    border-bottom: 1px solid #aeaeae;
+}
+
+#WB002839.eform .section .title-line span:before {
+    left: 100%;
+    margin-left: 10px;
+}
+
+#WB002839.eform .section .title-line span:after {
+    right: 100%;
+    margin-right: 10px;
+}
+
+#WB002839.eform .section p {
+    margin: 0;
+    text-align: justify;
+}
+
+#WB002839.eform .content {
+    position: relative;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+#WB002839.eform .vAlignMiddle {
+    text-align: center;
+    font-size: 0;
+}
+
+#WB002839.eform .vAlignMiddle:before {
+    content: "";
+    height: 100%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#WB002839.eform .vAlignMiddle .vAlignContent {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#WB002839.eform .circle {
+    margin: 0 auto;
+    border-radius: 50%;
+}
+
+#WB002839.eform .floatLeft {
+    float: left;
+}
+
+#WB002839.eform .floatRight {
+    float: right;
+}
+
+#WB002839.eform .imgCenter {
+    display: block;
+    margin: 0 auto;
+}
+
+#WB002839.eform p.imgNote {
+    font-size: 19px;
+    text-align: center;
+}
+
+#WB002839.eform p.sectionDesc, #WB002839.eform p.sectionDesc-center {
+    margin: 0 auto 30px;
+    padding: 0 140px;
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+#WB002839.eform p.sectionDesc-center {
+    text-align: center;
+}
+
+#WB002839.eform .link {
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 2px;
+    font-size: 20px;
+    line-height: 1.5;
+    text-align: center;
+    cursor: pointer;
+    -webkit-transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out;
+    -o-transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out;
+    -moz-transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out;
+}
+
+#WB002839.eform .link-normal {
+    background-color: #00b0bd;
+    color: #fff;
+}
+
+#WB002839.eform .link-normal:hover {
+    background-color: #00818a;
+}
+
+#WB002839.eform .link-outline {
+    background-color: transparent;
+    border: 1px solid #00b0bd;
+    color: #00b0bd;
+}
+
+#WB002839.eform .link-outline:hover {
+    background-color: #00b0bd;
+    color: #fff;
+}
+
+#WB002839.eform .link-block {
+    display: block;
+    margin: 0 auto;
+}
+
+#WB002839.eform .linkGroup {
+    text-align: center;
+}
+
+#WB002839.eform .highLight {
+    color: #ffff00;
+}
+
+#WB002839.eform .pageName {
+    width: 1200px;
+    line-height: 48px;
+    margin: 0 auto;
+    font-family: Arial, "微軟正黑體";
+}
+
+#WB002839.eform #indBanner {
+    height: 500px;
+    margin-bottom: 60px;
+    padding: 0;
+    color: #fff;
+}
+
+#WB002839.eform #indBanner h1 {
+    margin-bottom: 4px;
+    font-size: 44px;
+    line-height: 1.2;
+    text-align: left;
+}
+
+#WB002839.eform #indBanner .pageDesc {
+    width: 700px;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+#WB002839.eform #navLink {
+    position: relative;
+    z-index: 999999;
+    width: 100%;
+    min-width: 1200px;
+    height: 60px;
+    margin-top: -60px;
+    padding: 0;
+    background-color: #fff;
+    border-bottom: 1px solid #ccc;
+    color: #333;
+    font-size: 18px;
+    font-family: Arial, "微軟正黑體";
+    text-align: center;
+}
+
+#WB002839.eform #navLink > ul {
+    display: inline-block;
+}
+
+#WB002839.eform #navLink > ul > li {
+    float: left;
+    width: 171px;
+    height: 60px;
+    line-height: 60px;
+    border-left: 1px solid #CCC;
+}
+
+#WB002839.eform #navLink > ul > li > a {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+#WB002839.eform #navLink > ul > li.end {
+    border-right: 1px solid #CCC;
+}
+
+#WB002839.eform #navLink .navLinks:hover,
+#WB002839.eform #navLink .selected {
+    color: #00b0bd;
+    font-weight: bold;
+}
+
+#WB002839.eform #navLink .subLink {
+    display: none;
+    text-align: center;
+    width: 100%;
+    margin-left: -1px;
+    border: 1px solid #CCC;
+    border-top: none;
+    background-color: #FFF;
+    text-indent: 0px;
+}
+
+#WB002839.eform #navLink .subLink > li {
+    width: 100%;
+    line-height: 40px;
+    font-size: 17px;
+}
+
+#WB002839.eform #navLink .subLink > li a {
+    display: block;
+    color: #333;
+    font-weight: normal;
+}
+
+#WB002839.eform #navLink .subLink > li a:hover {
+    background-color: #00b0bd;
+    color: #fff;
+}
+
+#WB002839.eform #navLink.fixed {
+    position: fixed;
+    top: 0;
+    margin-top: 0;
+    z-index: 1000;
+}
+
+#WB002839.eform #indBanner {
+    background: url("../images/eform/bg_banner.jpg") no-repeat center center;
+}
+
+#WB002839.eform #indBanner h1 {
+    color: #ffff00;
+}
+
+#WB002839.eform #indBanner .pageDesc {
+    width: 570px;
+}
+
+#WB002839.eform #case h3,
+#WB002839.eform #reason h3 {
+    margin-bottom: 0;
+    color: #00b0bd;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+#WB002839.eform #case .list {
+    margin-top: 60px;
+}
+
+#WB002839.eform #case .list:nth-of-type(1) .txtLayer {
+    float: right;
+    width: 840px;
+    padding-top: 10px;
+}
+
+#WB002839.eform #case .txtLayer {
+    float: left;
+}
+
+#WB002839.eform #case .txtLayer01 {
+    padding-right: 40px;
+}
+
+#WB002839.eform #case .txtLayer02 {
+    padding-left: 40px;
+}
+
+#WB002839.eform #case .txtLayer01 h3,
+#WB002839.eform #case .txtLayer02 h3 {
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 4px;
+}
+
+#WB002839.eform #case .txtLayer01 h3:before,
+#WB002839.eform #case .txtLayer02 h3:before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 80px;
+    width: 200%;
+    border-bottom: 1px solid #aeaeae;
+}
+
+#WB002839.eform #case .txtLayer01 strong,
+#WB002839.eform #case .txtLayer02 strong {
+    color: #249f73;
+    font-weight: normal;
+}
+
+#WB002839.eform #reason {
+    background-color: #cbe6e8;
+}
+
+#WB002839.eform #reason .list {
+    margin: 30px 0;
+}
+
+#WB002839.eform #reason .list .txtLayer {
+    float: right;
+    width: 840px;
+    padding-top: 10px;
+}
+
+#WB002839.eform #reason h3 a {
+    -webkit-transition: color .5s;
+    -o-transition: color .5s;
+    -moz-transition: color .5s;
+    transition: color .5s;
+}
+
+#WB002839.eform #reason h3 a:hover {
+    color: #00818a;
+}
+
+#WB002839.eform #reason .readMore {
+    display: block;
+    text-align: right;
+}
+
+#WB002839.eform #reason .readMore .link {
+    width: 100px;
+    padding: 4px 0;
+    font-size: 16px;
+}

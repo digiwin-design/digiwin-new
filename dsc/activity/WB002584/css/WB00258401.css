@@ -1,0 +1,200 @@
+*{ margin:0; padding:0;-webkit-box-sizing:border-box;}
+html{width:100%; height:100%;}
+body{width:100%; height:100%; font-family:"微軟正黑體", Arial, Helvetica, sans-serif;}
+
+
+
+/*------右側跑馬AD-------------------------*/
+
+#abgne_float_ad {
+		display: none;
+		position: absolute;
+	}
+	#abgne_float_ad img {
+		border: none;
+	}
+	div.bigDiv {
+		height:1px;
+	}
+/*---pc-----WRAPPER-------------------------*/
+#WRAPPER{width:100%;overflow:hidden; height:auto; -webkit-text-size-adjust:none; 
+	background-image:url(../images/WB00258401_bg3t.jpg);
+	background-repeat:no-repeat;
+	background-attachment: fixed;
+	background-position:center top;
+	}
+
+#topbg{background-image:url(../images/WB00258401_bg1.png); width:100%; 
+    background-repeat:no-repeat;
+	background-attachment: scroll;
+	background-position:center top;}	
+#top{ max-width:1200px; margin:0 auto;}
+#top img{ width:100%; height:auto; margin:0 auto; }
+/*#start{ max-width:900px; margin:0 auto;}
+#start img{	width:100%;	height:auto; margin:0 auto;}*/
+
+#VVV{
+	width:100%;
+	height:0;
+	padding-bottom:56.25%;	
+	position:relative; /* fix:有些瀏覽器對伸縮式 iframe 會有問題 */
+}
+
+#VVV iframe{
+	width:100%;
+	height:100%;	
+	position:absolute; /* fix:有些瀏覽器對伸縮式 iframe 會有問題 */
+}
+
+
+/*---PC----article-----------------------*/
+#article{ z-index:9999px; display:block; width:100%;  margin:0 auto; font-family:"微軟正黑體", Arial, Helvetica, sans-serif; color:#ffffff; padding:10px 0px 0px 0px; overflow:hidden ; letter-spacing:1px; min-width: 1000x; }
+
+/*---background-image: url(../images/WB00258401_bg3.jpg);	background-repeat:no-repeat;
+	background-attachment: fixed;
+	background-position:center top;
+	background-size: cover;
+--------------*/
+	
+#article p { font-size:18px; line-height:1.8; letter-spacing:1px; font-family:"微軟正黑體", Arial, Helvetica, sans-serif; font-weight:normal; text-align:justify; padding-bottom:20px;}
+#article h1{ font-size:1.9em; line-height:70px; letter-spacing:2px; color:#01f5e7; text-align:center; margin-bottom:10px;}
+#article h2{ font-size:1.2em; line-height:1.8; color:#ff6000; text-align:center; margin:0 auto;}
+
+/*------PC--------#BLOCK1--------------------------*/
+#BLOCK1{ width:760px; margin: 0 auto; padding: 10px 0 20px 0; position: relative; overflow:hidden; margin-bottom:60px;}
+#BLOCK1 ul{ color: #FFF; padding-bottom:40px; font-size:18px; line-height:1.6; font-family:"微軟正黑體", Arial, Helvetica, sans-serif; text-align:left;}
+#BLOCK1 ul li{ background-image:url(../images/item.png); background-repeat:no-repeat; background-position:left top; padding:0px 0px 5px 20px;}
+
+/*--------PC------#object 適合對象--------------------------*/
+#objectbg{ width:100%; height:auto; background-color: #fd9e31; background-image:url(../images/objectbg1.jpg); background-repeat:no-repeat;
+	background-attachment: scroll; background-position:center top; margin-bottom:120px;}
+#object{ width:760px; margin: 0 auto; padding: 50px 0px 40px 0px; }
+#object ul{ color: #FFF; padding-bottom:40px; font-size:18px; line-height:1.6; font-family:"微軟正黑體", Arial, Helvetica, sans-serif; text-align:left;}
+#object ul li{ background-image:url(../images/item1.png); background-repeat:no-repeat; background-position:left top; padding:0px 0px 5px 20px;}
+
+
+/*--------PC------#BLOCK2 活動議程--------------------------*/
+#BLOCK2{ margin:0 auto; width:75%; height:auto; display:block; overflow:hidden; text-align:center; margin-bottom:70px;}
+#BLOCK2 p { font-size:18px; line-height:1.7; letter-spacing:1px; font-family:"微軟正黑體", Arial, Helvetica, sans-serif; font-weight:normal; text-align: center; padding-bottom:20px;}
+#BLOCK2 h1{ display:block; width:100%; font-size:3em; line-height:1.2; letter-spacing:3px; color:#fea640; text-align:center; }
+#BLOCK2 #line { margin:0 auto; margin-bottom:60px;}
+#BLOCK2 h3 { font-size:1.4em; line-height:1.8; color:#fea640; text-align:center; margin:0 auto;}
+
+/*#BLOCK2 img{ margin:0 auto; text-align:center; width:100%; height:auto;}*/
+
+/*---------PC----#BLOCK3--場次資訊-----------------*/
+#BLOCK3bg{ width:100%; height:auto; background-color: #fd9e31; background-image:url(../images/BLOCK3bg.jpg); background-repeat:no-repeat;
+	background-attachment: scroll;/*前方物動背景不動*/
+	background-position:center top;
+	}
+#BLOCK3{ width:600px; margin: 0 auto; padding: 20px 0 50px 0; }
+#BLOCK3 ul{ margin:0 auto; margin-top:0; font-size:1.5em; line-height:1.6; margin-bottom:30px;}
+#BLOCK3 ul li { padding-left: 60px; line-height: 55px; margin-bottom: 10px;}
+#BLOCK3 .date { background: url(../images/icon1.png) no-repeat left top;}
+#BLOCK3 .add { background: url(../images/icon2a.png)no-repeat left top;}
+#BLOCK3 .time { background: url(../images/icon3.png) no-repeat left top;}
+#BLOCK3 .tel { background: url(../images/icon4.png) no-repeat left top; color:#ff2929; font-size:1.5em;}
+#BLOCK3 h1{ font-size:3em; line-height:1.2; color: #FFF; margin-bottom:30px; margin-top:20px; }
+#BLOCK3 a{ color: #FFC; text-decoration: underline;}
+#BLOCK3 a:hover{ color: #ff2929; text-decoration: none;}
+
+#socialBlock a{ color: #000000; text-decoration: none;}
+#socialBlock a:hover{ text-decoration: underline;}
+
+/*---------------橘色按鈕------------------------------*/
+#button_O {width:100%; height:auto;
+padding:10px 0 20px 0; text-align:center;	
+-webkit-text-size-adjust:none; margin:10px 0; }
+
+#button_O .btn{ font-size:1.6em; line-height:1.5; font-family:"微軟正黑體", Arial, Helvetica, sans-serif;  width:300px; height:80px; margin:0 auto; line-height:80px; letter-spacing:2px; font-weight:bold;}
+#button_O .btn a{ display:block; color:#ff6000; text-decoration:none; border:#ff6000 solid 2px;}
+#button_O .btn a:hover{ color:#FFF ; text-decoration:none; background-color:#ff6000; margin:0 auto; border-bottom:#ff6000 solid 2px; }
+
+/*---------------紅線按鈕------------------------------*/
+#button_R{ width:100%; height:auto;
+padding:10px 0 20px 0; text-align:center;	
+-webkit-text-size-adjust:none; margin:10px 0; clear:both;}
+
+#button_R .btn{font-size:1.6em;line-height:1.5; font-family:"微軟正黑體", Arial, Helvetica, sans-serif;  width:300px; height:80px; margin:0 auto; line-height:80px; letter-spacing:2px; font-weight:bold;}
+#button_R .btn a{display:block; color:#ff2929 ; text-decoration:none; border:#ff2929 solid 2px;}
+#button_R .btn a:hover{ color:#FFF ; text-decoration:none; background-color:#ff2929; margin:0 auto;border:#ff2929 solid 2px;
+}
+
+/*---------------藍線按鈕------------------------------*/
+#button_B{ width:100%; height:auto;
+padding:10px 0 20px 0; text-align:center;	
+-webkit-text-size-adjust:none; margin:10px 0; clear:both;}
+
+#button_B .btn{font-size:1.6em;line-height:1.5; font-family:"微軟正黑體", Arial, Helvetica, sans-serif;  width:300px; height:80px; margin:0 auto; line-height:80px; letter-spacing:2px; font-weight:bold;}
+#button_B .btn a{display:block; color:#0fa0dc; text-decoration:none; border:#0fa0dc solid 2px;}
+#button_B .btn a:hover{ color:#FFF ; text-decoration:none; background-color:#0fa0dc; margin:0 auto;border:#0fa0dc solid 2px;
+}
+
+/*---------------黑線按鈕------------------------------*/
+#button_K{ width:100%; height:auto;
+padding:10px 0 20px 0; text-align:center;	
+-webkit-text-size-adjust:none; margin:10px 0; clear:both;}
+
+#button_K .btn{font-size:1.6em;line-height:1.5; font-family:"微軟正黑體", Arial, Helvetica, sans-serif;  width:300px; height:80px; margin:0 auto; line-height:80px; letter-spacing:2px; font-weight:bold;}
+#button_K .btn a{display:block; color:#000; text-decoration:none; border:#000 solid 2px;}
+#button_K .btn a:hover{ color:#FFF ; text-decoration:none; background-color:#000; margin:0 auto;border:#000 solid 2px;
+}
+
+/*--------手機css開始-----------------------------------------*/
+
+@media screen and (max-width: 768px) {
+	
+/*---手機-----WRAPPER-------------------------*/
+#WRAPPER{width:100%;overflow:hidden; height:auto; -webkit-text-size-adjust:none;
+	background-image:url(../images/WB00258401_bg3s.jpg);
+	background-repeat:no-repeat;
+	background-attachment: fixed;
+	background-position:center top; background-color:#000;}
+
+#topbg{background-image:url(../images/WB00258401_bg1.png); width:100%; 
+    background-repeat:no-repeat;
+	background-attachment: scroll;
+	background-position:center top;}	
+#top img{ width:105%; height:auto; margin:0 auto; }
+
+/*---手機----article-----------------------*/
+#article{ z-index:9999px; display:block; width:100%;  margin:0 auto; font-family:"微軟正黑體", Arial, Helvetica, sans-serif; color:#ffffff; padding:10px 0px 0px 0px; overflow:hidden ; letter-spacing:1px; min-width: 1000x; }
+
+#article p { font-size:18px; line-height:1.7; letter-spacing:1px; font-family:"微軟正黑體", Arial, Helvetica, sans-serif; font-weight:normal; text-align:justify; padding-bottom:20px;}
+#article h1{ font-size:1.9em; line-height:1.3; letter-spacing:2px; color:#01f5e7; text-align:center; margin-bottom:10px;}
+#article h2{ font-size:1.2em; line-height:1.8; color:#ff6000; text-align:center; margin:0 auto;}
+
+/*------手機--------#BLOCK1--------------------------*/
+#BLOCK1{ width:85%;  margin: 0 auto; padding: 10px 0 20px 0; position: relative; overflow:hidden; margin-bottom:50px;}
+#BLOCK1 ul{ color: #FFF; padding-bottom:40px; font-size:18px; line-height:1.6; font-family:"微軟正黑體", Arial, Helvetica, sans-serif; text-align:left;}
+#BLOCK1 ul li{ background-image:url(../images/item.png); background-repeat:no-repeat; background-position:left top; padding:0px 0px 5px 20px;}
+
+/*--------手機------#object 適合對象--------------------------*/
+#objectbg{ width:100%; height:auto; background-color: #fd9e31; background-image:url(../images/objectbg1.jpg); background-repeat:no-repeat;
+	background-attachment: scroll; background-position:center top; margin-bottom:90px;}
+#object{ width:85%; margin: 0 auto; padding: 50px 0px 30px 0px; }
+#object ul{ color: #FFF; padding-bottom:40px; font-size:18px; line-height:1.6; font-family:"微軟正黑體", Arial, Helvetica, sans-serif; text-align:left;}
+#object ul li{ background-image:url(../images/item1.png); background-repeat:no-repeat; background-position:left top; padding:0px 0px 5px 20px;}
+
+
+/*-------手機------#BLOCK2 活動議程--------------------------*/
+#BLOCK2{ margin:0 auto; width:90%; height:auto; display:block; overflow:hidden; text-align:center; margin-bottom:50px;}
+#BLOCK2 p { font-size:18px; line-height:1.7; letter-spacing:1px; font-family:"微軟正黑體", Arial, Helvetica, sans-serif; font-weight:normal; text-align: left; padding-bottom:20px;}
+
+#BLOCK2 h1{ display:block; width:100%; font-size:3em; line-height:1.2; letter-spacing:3px; color:#fea640; text-align:center; margin-bottom:50px; }
+#BLOCK2 #line{ display:none;}
+#BLOCK2 h3 { font-size:1.4em; line-height:1.8; color:#fea640; text-align:left; margin:0 auto;}
+
+/*--------手機----#BLOCK3--場次資訊-----------------*/
+#BLOCK3bg{ width:100%; height:auto;}
+#BLOCK3{ width:85%; margin: 0 auto; padding: 20px 0 50px 0; }
+#BLOCK3 ul{ margin:0 auto; margin-top:0; font-size:1.3em; margin-bottom:30px;}
+#BLOCK3 ul li { padding-left: 40px; line-height: 55px; margin-bottom: 5px; }
+#BLOCK3 .date { background: url(../images/icon1.png) no-repeat left -50px; line-height:50px; }
+#BLOCK3 .add { background: url(../images/icon2s.png)no-repeat left top; line-height:40px; }
+#BLOCK3 .time { background: url(../images/icon3.png) no-repeat left -50px; line-height:50px; }
+#BLOCK3 .tel { background: url(../images/icon4.png) no-repeat left -50px; color:#ff2929; font-size:1.7em; line-height:50px; }
+#BLOCK3 h1{ font-size:3em; line-height:1.2; color: #FFF; margin-bottom:30px; margin-top:20px; }
+
+
+}

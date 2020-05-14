@@ -1,0 +1,531 @@
+main *, main *:before, main *:after {
+    box-sizing: content-box;
+}
+
+main.WB00275201 #banner {
+    background: url("https://www.digiwin.com/tw/dsc/solution/WB002752/images/bg_banner.jpg") no-repeat center top;
+}
+
+main.WB00275201 #banner.section {
+    padding: 0;
+}
+
+main.WB00275201 #heartSound {
+    position: relative;
+    margin-top: 75px;
+}
+
+main.WB00275201 #heartSound .sectionNote {
+    width: 100%;
+    text-align: center;
+}
+
+main.WB00275201 #heartSound .wordList {
+    position: relative;
+    width: 100%;
+    height: 410px;
+    background: url("https://www.digiwin.com/tw/dsc/solution/WB002752/images/bg_heartSound.png") no-repeat center top;
+}
+
+main.WB00275201 #heartSound .wordList .imgStyle {
+    position: absolute;
+}
+
+main.WB00275201 #heartSound .wordList .wordList01 {
+    top: 15px;
+    left: 18px;
+}
+
+main.WB00275201 #heartSound .wordList .wordList02 {
+    top: 102px;
+    left: 272px;
+}
+
+main.WB00275201 #heartSound .wordList .wordList03 {
+    top: 37px;
+    left: 530px;
+}
+
+main.WB00275201 #heartSound .wordList .wordList04 {
+    top: 78px;
+    left: 783px;
+}
+
+main.WB00275201 #heartSound .wordListCon p {
+    box-sizing: border-box;
+    display: inline-block;
+    width: 50%;
+    height: 84px;
+    padding-top: 20px;
+    padding-left: 88px;
+    background: url("https://www.digiwin.com/tw/dsc/solution/WB002752/images/img_character.png") no-repeat left top;
+}
+
+main.WB00275201 #heartSound .wordListCon .wordList01 {
+    padding-right: 60px;
+    background-position: left 0;
+}
+
+main.WB00275201 #heartSound .wordListCon .wordList02 {
+    padding-left: 148px;
+    background-position: 60px -84px;
+}
+
+main.WB00275201 #heartSound .page_btn {
+    position: relative;
+    width: 470px;
+    margin: 50px auto 0;
+    padding: 0 20px;
+    background-color: #ff7f00;
+    border-radius: 100px;
+    color: #fff;
+    font-size: 24px;
+    line-height: 60px;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+main.WB00275201 #heartSound .page_btn:before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: 40px;
+    width: 26px;
+    height: 26px;
+    margin-top: -13px;
+    background: url("https://www.digiwin.com/tw/dsc/solution/WB002752/images/icon_click.png") no-repeat left top;
+}
+
+main.WB00275201 #heartSound .page_btn:hover {
+    background-color: #ff5426;
+}
+
+main.WB00275201 #heartSoundPop {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+main.WB00275201 #heartSoundPop .content {
+    width: 870px;
+    height: 500px;
+    margin-top: 190px;
+    padding-top: 30px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+main.WB00275201 #heartSoundPop .imgStyle {
+    display: block;
+    margin: 0 auto;
+}
+
+main.WB00275201 #heartSoundPop p {
+    position: relative;
+    width: 630px;
+    margin: 0 auto;
+    color: #ff7f00;
+    font-size: 19px;
+}
+
+main.WB00275201 #heartSoundPop p:before {
+    content: "";
+    position: absolute;
+    top: -11px;
+    left: -30px;
+    width: 22px;
+    height: 22px;
+    background: url("https://www.digiwin.com/tw/dsc/solution/WB002752/images/icon_quota.png") no-repeat center top;
+}
+
+main.WB00275201 #heartSoundPop p:after {
+    content: "";
+    position: absolute;
+    bottom: -11px;
+    right: -30px;
+    width: 22px;
+    height: 22px;
+    background: url("https://www.digiwin.com/tw/dsc/solution/WB002752/images/icon_quota.png") no-repeat center -22px;
+}
+
+main.WB00275201 #heartSoundPop .closeBtn {
+    position: absolute;
+    top: -20px;
+    right: -20px;
+    width: 40px;
+    height: 40px;
+    background-color: #000;
+    border-radius: 100%;
+    border: 5px solid #fff;
+    cursor: pointer;
+}
+
+main.WB00275201 .getCaseStep {
+    padding: 0;
+    background: url("https://www.digiwin.com/tw/dsc/solution/WB002752/images/bg_getCaseStep.png") no-repeat center center;
+}
+
+main.WB00275201 .getCaseStep .content {
+    overflow: hidden;
+    padding: 70px 0;
+}
+
+main.WB00275201 .getCaseStep h3 {
+    color: #fff;
+}
+
+main.WB00275201 .getCaseStep h4 {
+    padding-left: 60px;
+    background: url("https://www.digiwin.com/tw/dsc/solution/WB002752/images/icon_getCase.png") no-repeat left 16px;
+    color: #fff;
+    font-size: 24px;
+    line-height: 56px;
+    text-align: left;
+}
+
+main.WB00275201 .getCaseStep h5 {
+    padding-left: 86px;
+    background: url("https://www.digiwin.com/tw/dsc/solution/WB002752/images/icon_arrowRight.png") no-repeat 60px top;
+    color: #ffff00;
+    font-size: 20px;
+    font-weight: normal;
+    line-height: 27px;
+    text-align: left;
+}
+
+main.WB00275201 .getCaseStep .getCaseTxt {
+    position: relative;
+    width: 200%;
+}
+
+main.WB00275201 .getCaseStep .getCaseTxt .problems,
+main.WB00275201 .getCaseStep .getCaseTxt .solutions {
+    float: left;
+    width: 50%;
+}
+
+main.WB00275201 .getCaseStep .getCaseTxt .proTxt {
+    position: relative;
+}
+
+main.WB00275201 .getCaseStep .getCaseTxt .proTxt .imgStyle {
+    position: absolute;
+}
+
+main.WB00275201 .getCaseStep .getCaseTxt .hopeTxt {
+    position: relative;
+    margin: 0 auto;
+    color: #ffff00;
+    font-size: 22px;
+}
+
+main.WB00275201 .getCaseStep .getCaseTxt .hopeTxt:after {
+    content: "";
+    position: absolute;
+    bottom: 10px;
+    right: 0;
+    width: 95%;
+    border-top: 1px solid #ffff00;
+}
+
+main.WB00275201 .getCaseStep .getCaseTxt .hopeTxt:before {
+    content: "";
+    position: absolute;
+    bottom: 8px;
+    right: 0;
+    width: 5px;
+    height: 5px;
+    background-color: #ffff00;
+    border-radius: 100%;
+}
+
+main.WB00275201 .getCaseStep .getCaseTxt .hopeTxt .specialStyle {
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    margin-right: 30px;
+    line-height: 80px;
+    border-radius: 100%;
+    background-color: #ffff00;
+    color: #005188;
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+}
+
+main.WB00275201 .getCaseStep .btnGroup {
+    width: 323px;
+    margin: 30px auto 0;
+}
+
+main.WB00275201 .getCaseStep .btnGroup .page_btn {
+    position: relative;
+    width: 160px;
+    border: 1px solid #fff;
+    background-color: #028cdb;
+    color: #fff;
+    font-size: 21px;
+    line-height: 50px;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+main.WB00275201 .getCaseStep .btnGroup .page_btn:hover,
+main.WB00275201 .getCaseStep .btnGroup .page_btn:hover.now {
+    background-color: #004c7c;
+}
+
+main.WB00275201 .getCaseStep .btnGroup .page_btn.end {
+    border-left: none;
+}
+
+main.WB00275201 .getCaseStep .btnGroup .page_btn.now {
+    background-color: #57d1ff;
+}
+
+main.WB00275201 .getCaseStep .btnGroup .page_btn.now:before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    width: 24px;
+    height: 24px;
+    margin-top: -12px;
+    background: url("https://www.digiwin.com/tw/dsc/solution/WB002752/images/icon_check.png") no-repeat center center;
+}
+
+main.WB00275201 #getCaseFirst {
+    background-color: #005a96;
+}
+
+main.WB00275201 #getCaseFirst .content {
+    background: url("https://www.digiwin.com/tw/dsc/solution/WB002752/images/bg_getCase01.png") no-repeat center 20px;
+}
+
+main.WB00275201 #getCaseFirst.getCaseStep .getCaseTxt {
+    height: 435px;
+}
+
+main.WB00275201 #getCaseFirst .proTxt {
+    height: 344px;
+    background: url("https://www.digiwin.com/tw/dsc/solution/WB002752/images/bg_getCaseFirst.png") no-repeat center center;
+}
+
+main.WB00275201 #getCaseFirst .proTxt .wordList01 {
+    top: 37px;
+    left: 500px;
+}
+
+main.WB00275201 #getCaseFirst .proTxt .wordList02 {
+    top: 13px;
+    left: 767px;
+}
+
+main.WB00275201 #getCaseFirst .proTxt .wordList03 {
+    top: 40px;
+    left: 0;
+}
+
+main.WB00275201 #getCaseFirst .proTxt .wordList04 {
+    top: 10px;
+    left: 260px;
+}
+
+main.WB00275201 #getCaseFirst .getCaseTxt .hopeTxt {
+    width: 630px;
+}
+
+main.WB00275201 #getCaseSecond {
+    background-color: #3da8f0;
+}
+
+main.WB00275201 #getCaseSecond .content {
+    background: url("https://www.digiwin.com/tw/dsc/solution/WB002752/images/bg_getCase02.png") no-repeat center 20px;
+}
+
+main.WB00275201 #getCaseSecond.getCaseStep h4 {
+    background-position: left -60px;
+	line-height: 30px;
+}
+
+main.WB00275201 #getCaseSecond.getCaseStep .getCaseTxt {
+    height: 460px;
+}
+
+main.WB00275201 #getCaseSecond .proTxt {
+    height: 344px;
+    background: url("https://www.digiwin.com/tw/dsc/solution/WB002752/images/bg_getCaseSecond.png") no-repeat center center;
+}
+
+main.WB00275201 #getCaseSecond .proTxt .wordList01 {
+    top: 26px;
+    left: 36px;
+}
+
+main.WB00275201 #getCaseSecond .proTxt .wordList02 {
+    top: 52px;
+    left: 274px;
+}
+
+main.WB00275201 #getCaseSecond .proTxt .wordList03 {
+    top: 113px;
+    left: 489px;
+}
+
+main.WB00275201 #getCaseSecond .proTxt .wordList04 {
+    top: 0;
+    left: 583px;
+}
+
+main.WB00275201 #getCaseSecond .proTxt .wordList05 {
+    top: 42px;
+    left: 810px;
+}
+
+main.WB00275201 #getCaseSecond .getCaseTxt .hopeTxt {
+    width: 820px;
+}
+
+main.WB00275201 #getCaseThird {
+    background-color: #005a96;
+}
+
+main.WB00275201 #getCaseThird .content {
+    background: url("https://www.digiwin.com/tw/dsc/solution/WB002752/images/bg_getCase01.png") no-repeat center 20px;
+}
+
+main.WB00275201 #getCaseThird.getCaseStep h4 {
+    background-position: left -110px;
+}
+
+main.WB00275201 #getCaseThird.getCaseStep .getCaseTxt {
+    height: 470px;
+}
+
+main.WB00275201 #getCaseThird .proTxt {
+    height: 344px;
+    background: url("https://www.digiwin.com/tw/dsc/solution/WB002752/images/bg_getCaseThird.png") no-repeat center center;
+}
+
+main.WB00275201 #getCaseThird .proTxt .wordList01 {
+    top: 30px;
+    left: 56px;
+}
+
+main.WB00275201 #getCaseThird .proTxt .wordList02 {
+    top: 40px;
+    left: 437px;
+}
+
+main.WB00275201 #getCaseThird .proTxt .wordList03 {
+    top: 0;
+    left: 714px;
+}
+
+main.WB00275201 #getCaseThird .getCaseTxt .hopeTxt {
+    width: 670px;
+}
+
+main.WB00275201 #industry {
+    padding: 80px 0;
+    background-color: #ffc453;
+    color: #ffffff;
+}
+
+main.WB00275201 #industry .sectionNote {
+    text-align: center;
+}
+
+main.WB00275201 #industry #industryTxt {
+    position: relative;
+    margin-top: 40px;
+}
+
+main.WB00275201 #industry #industryTxt li {
+    overflow: hidden;
+    position: relative;
+    float: left;
+    width: 200px;
+    height: 150px;
+    margin: 0 0 35px;
+    text-align: center;
+    background: url("https://www.digiwin.com/tw/dsc/solution/WB002752/images/industry.jpg") no-repeat;
+}
+
+main.WB00275201 #industry #industryTxt a {
+    color: #fff;
+}
+
+main.WB00275201 #industry #industryTxt h4 {
+    width: 200px;
+    height: 45px;
+    margin: 0;
+    padding-top: 105px;
+    font-weight: normal;
+}
+
+main.WB00275201 #industry #industryTxt #ind_01 {
+    background-position: 0 0;
+}
+
+main.WB00275201 #industry #industryTxt #ind_02 {
+    background-position: -200px 0;
+}
+
+main.WB00275201 #industry #industryTxt #ind_03 {
+    background-position: -400px 0;
+}
+
+main.WB00275201 #industry #industryTxt #ind_04 {
+    background-position: -600px 0;
+}
+
+main.WB00275201 #industry #industryTxt #ind_05 {
+    background-position: -800px 0;
+}
+
+main.WB00275201 #industry #industryTxt #ind_06 {
+    background-position: 0 -150px;
+}
+
+main.WB00275201 #industry #industryTxt #ind_07 {
+    background-position: -200px -150px;
+}
+
+main.WB00275201 #industry #industryTxt #ind_08 {
+    background-position: -400px -150px;
+}
+
+main.WB00275201 #industry #industryTxt #ind_09 {
+    background-position: -600px -150px;
+}
+
+main.WB00275201 #industry #industryTxt #ind_10 {
+    background-position: -800px -150px;
+}
+
+main.WB00275201 #industry #industryTxt #ind_11 {
+    background-position: 0 -300px;
+}
+
+main.WB00275201 #industry #industryTxt #ind_12 {
+    background-position: -200px -300px;
+}
+
+main.WB00275201 #industry #industryTxt #ind_13 {
+    background-position: -400px -300px;
+}
+
+main.WB00275201 #industry #industryTxt #ind_14 {
+    background-position: -600px -300px;
+}
+
+main.WB00275201 #industry #industryTxt #ind_15 {
+    background-position: -800px -300px;
+}

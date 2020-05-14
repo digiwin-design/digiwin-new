@@ -1,0 +1,17 @@
+@charset "utf-8";
+.experience p {
+	margin-bottom: 17px;
+	font-size: 17px;
+	line-height: 24px;
+	text-align: justify;
+	text-indent: 34px;
+}
+
+.section p:nth-of-type(1) {
+	margin-top: 20px;
+}
+
+#experience02 {
+	background-color: #f79421;
+	color: #ffffff;
+}

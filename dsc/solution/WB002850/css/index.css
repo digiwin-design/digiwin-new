@@ -1,0 +1,263 @@
+@charset "UTF-8";
+main *, main *:before, main *:after {
+    box-sizing: content-box;
+}
+
+main.WB00285001 a {
+    color: inherit;
+}
+
+main.WB00285001 table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+main.WB00285001 .col-2 {
+    width: 50%;
+}
+
+main.WB00285001 .col-3 {
+    width: 33.33333%;
+}
+
+main.WB00285001 .col-4 {
+    width: 25%;
+}
+
+main.WB00285001 .col-5 {
+    width: 20%;
+}
+
+main.WB00285001 .section {
+    position: relative;
+    width: 100%;
+    min-width: 1200px;
+    padding: 70px 0;
+    font-family: Arial, "微軟正黑體";
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+main.WB00285001 .section * {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+main.WB00285001 .section h2 {
+    margin-bottom: 5px;
+    font-size: 36px;
+    line-height: 1.2;
+    font-weight: normal;
+    text-align: center;
+}
+
+main.WB00285001 .section h3 {
+    margin-bottom: 10px;
+    font-size: 30px;
+    font-weight: normal;
+    line-height: 1.2;
+}
+
+main.WB00285001 .section .title-line {
+    overflow: hidden;
+    margin-bottom: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+
+main.WB00285001 .section .title-line span {
+    display: inline-block;
+    position: relative;
+}
+
+main.WB00285001 .section .title-line span:before, main.WB00285001 .section .title-line span:after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 50%;
+    width: 1000%;
+    border-bottom: 1px solid #aeaeae;
+}
+
+main.WB00285001 .section .title-line span:before {
+    left: 100%;
+    margin-left: 10px;
+}
+
+main.WB00285001 .section .title-line span:after {
+    right: 100%;
+    margin-right: 10px;
+}
+
+main.WB00285001 .section p {
+    margin: 0;
+    text-align: justify;
+}
+
+main.WB00285001 .content {
+    position: relative;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+main.WB00285001 .vAlignMiddle {
+    text-align: center;
+    font-size: 0;
+}
+
+main.WB00285001 .vAlignMiddle:before {
+    content: "";
+    height: 100%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+main.WB00285001 .vAlignMiddle .vAlignContent {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+main.WB00285001 .circle {
+    margin: 0 auto;
+    border-radius: 50%;
+}
+
+main.WB00285001 .floatLeft {
+    float: left;
+}
+
+main.WB00285001 .floatRight {
+    float: right;
+}
+
+main.WB00285001 .imgCenter {
+    display: block;
+    margin: 0 auto;
+}
+
+main.WB00285001 p.imgNote {
+    font-size: 19px;
+    text-align: center;
+}
+
+main.WB00285001 p.sectionDesc, main.WB00285001 p.sectionDesc-center {
+    margin: 0 auto 30px;
+    padding: 0 140px;
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+main.WB00285001 p.sectionDesc-center {
+    text-align: center;
+}
+
+main.WB00285001 .link {
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 2px;
+    font-size: 20px;
+    line-height: 1.5;
+    text-align: center;
+    cursor: pointer;
+    -webkit-transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out;
+}
+
+main.WB00285001 .link-normal {
+    background-color: #53cfd9;
+    color: #fff;
+}
+
+main.WB00285001 .link-normal:hover {
+    background-color: #2dc0cc;
+}
+
+main.WB00285001 .link-outline {
+    background-color: transparent;
+    border: 1px solid #53cfd9;
+    color: #53cfd9;
+}
+
+main.WB00285001 .link-outline:hover {
+    background-color: #53cfd9;
+    color: #fff;
+}
+
+main.WB00285001 .link-block {
+    display: block;
+    margin: 0 auto;
+}
+
+main.WB00285001 .linkGroup {
+    text-align: center;
+}
+
+main.WB00285001 .highLight {
+    color: #ffff00;
+}
+
+main.WB00285001 .pageName {
+    width: 1200px;
+    line-height: 48px;
+    margin: 0 auto;
+    font-family: Arial, "微軟正黑體";
+}
+
+main.WB00285001 #indBanner {
+    height: 500px;
+    margin-bottom: 60px;
+    padding: 0;
+    color: #fff;
+}
+
+main.WB00285001 #indBanner h1 {
+    margin-bottom: 4px;
+	color: #fff;
+    font-size: 44px;
+    line-height: 1.2;
+    text-align: left;
+}
+
+main.WB00285001 #indBanner .pageDesc {
+    width: 700px;
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+main.WB00285001 #indBanner {
+    background: url("https://www.digiwin.com/tw/dsc/solution/WB002850/images/index/bg_banner.jpg") no-repeat center center;
+}
+
+main.WB00285001 #indBanner h1 strong {
+    color: #ffff00;
+}
+
+main.WB00285001 #business .linkGroup {
+    margin-top: -100px;
+}
+
+main.WB00285001 #business .link-outline {
+    width: 480px;
+    margin: 50px;
+    background-color: #fff;
+    font-size: 28px;
+}
+
+main.WB00285001 #business .link-outline:hover {
+    background-color: #53cfd9;
+    color: #fff;
+}
+
+main.WB00285001 #service {
+    background-color: #bbecf0;
+}
+
+main.WB00285001 #service .link {
+    width: 350px;
+    margin-top: 30px;
+    background-color: #ff5a5a;
+}
+
+main.WB00285001 #service .link:hover {
+    background-color: #ff2727;
+}

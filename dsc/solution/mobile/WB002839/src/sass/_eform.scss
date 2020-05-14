@@ -1,0 +1,79 @@
+main > .eform {
+    .header {
+        @include bg('../images/eform/header-bg.jpg');
+        height: image-height('eform/header-bg.jpg');
+        .container {
+            display: flex;
+            flex-direction: column;
+            max-width: 568px;
+            height: 100%;
+            justify-content: center;
+            @media (max-width: $tablet-width - 1) {
+                padding-top: 2em;
+            }
+        }
+    }
+    .sectionTitle {
+        margin-bottom: 1em;
+    }
+    .subtitle {
+        color: #00b0bd;
+        font-weight: bold;
+        font-size: 22px;
+    }
+    img {
+        display: block;
+    }
+    .more {
+        display: block;
+        margin-top: .5em;
+        width: 100px;
+        height: 32px;
+        border-radius: 2px;
+        background-color: #00b0bd;
+        color: #fff;
+        text-align: center;
+        font-size: 16px;
+        line-height: 32px;
+    }
+    section + section {
+        margin-top: 2em;
+    }
+    .section1 {
+        .container {
+            padding-bottom: 50px;
+        }
+        img {
+            margin: 0 auto 1.5em;
+        }
+        .subtitle {
+            position: relative;
+            &.line::before {
+                position: absolute;
+                top: 50%;
+                left: 0;
+                z-index: -1;
+                width: 100%;
+                height: 1px;
+                background-color: #a8a8a8;
+                content: '';
+            }
+            span {
+                padding-right: .5em;
+                background-color: #fff;
+            }
+        }
+        strong {
+            color: #249f73;
+        }
+    }
+    .section2 {
+        background-color: #cbe6e8;
+        .container {
+            padding-bottom: 50px;
+        }
+        img {
+            margin-bottom: 1em;
+        }
+    }
+}

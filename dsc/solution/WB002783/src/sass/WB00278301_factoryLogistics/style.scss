@@ -1,0 +1,47 @@
+@import '../common';
+@import '../WB002783_subPage';
+
+main {
+    background: url('../../images/bg_gray.jpg') no-repeat center center fixed;
+    .section h2 {
+        text-align: left;
+    }
+    #pageTitle {
+        @include headerBg('bg_warehouse.jpg');
+    }
+    .section img {
+        display: block;
+        margin: 0 auto;
+        margin-top: 30px;
+    }
+    #block01 {
+        h2,
+        h3 {
+            text-align: center;
+            font-weight: normal;
+        }
+    }
+    #block02,
+    #block04 {
+        background-color: #fff;
+    }
+    #block06 {
+        background: url('../../images/bg_boxs.jpg') no-repeat center center;
+        text-align: center;
+        ul {
+            display: inline-block;
+            text-align: left;
+        }
+        li {
+            color: #fff;
+            font-size: 22px;
+            line-height: 40px;
+        }
+        .otherLink {
+            margin: 30px auto 30px;
+            width: 400px;
+            border-color: #ff0;
+            color: #ff0;
+        }
+    }
+}

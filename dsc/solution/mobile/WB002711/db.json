@@ -1,0 +1,578 @@
+{
+    "index": {
+        "banner": [
+            {
+                "id": 1,
+                "title": "藥品、醫療及化妝品零售業銷售穩健",
+                "desc": "隨著時代進步及生活水準提升，國人對於美妝需求越趨重視，藥妝零售業營業額近 10 年平均年成長率為 2.9%，高於整體零售業之 2.4%。106年已超越2,000億元，107 年營業額更是攀升到2,100億元，年增 4.3%，創歷年新高。",
+                "imgSrc": "images/index/hero-bg.jpg",
+                "url": "javascript:;"
+            }
+        ],
+        "progressBar": [
+            {
+                "text": "多通路的訂單難以整合，相關財務報表系統產出後，需人工再去調整，重工時間太多",
+                "percentage": 75
+            },
+            {
+                "text": "有門市專案及網購通路，希望可以整合門市及網路前後台作業",
+                "percentage": 72
+            },
+            {
+                "text": "多套系統混搭無法串連，物料庫存、報表數字需靠人工修改",
+                "percentage": 46
+            },
+            {
+                "text": "原本代工型態，轉型新增門市專櫃、電商零售，需要系統支持",
+                "percentage": 55
+            },
+            {
+                "text": "公司有委外生產，生產進度與成本難以掌握",
+                "percentage": 58
+            },
+            {
+                "text": "電子計算機發票欲轉換電子發票，且結合財務作業避免重工",
+                "percentage": 78
+            },
+            {
+                "text": "跨店支援、出缺勤紀錄、排班排休、請假紀錄等眾多資料需要系統協助",
+                "percentage": 63
+            }
+        ],
+        "pains": [
+            {
+                "imgSrc": "images/index/icon-pain1.png",
+                "text": "來自台北某面膜品牌客戶來電",
+                "hoverText": "你好，我們有門市也有在百貨公司設專櫃，老闆還要成立觀光工廠，有沒有系統可以管控即時庫存與補貨提醒，還有觀光工廠的團務?",
+                "color": "#efba70"
+            },
+            {
+                "imgSrc": "images/index/icon-pain2.png",
+                "text": "來自台中大里某自創品牌妝品工廠來電",
+                "hoverText": "你好，我們有預計要在PCHOME, YAHOO, MOMO....這些電商品台賣產品，有沒有工具可以協助作接單還有出貨的處理，最好有對帳的功能....",
+                "color": "#b988b8"
+            },
+            {
+                "imgSrc": "images/index/icon-pain3.png",
+                "text": "來自台北某面膜品牌客戶來電",
+                "hoverText": "你好，我們有部份委外生產，目前在生產進度與成本結算部份，需要系統協助...另外，也想了解配方管理的部份....",
+                "color": "#7ccdc4"
+            }
+        ],
+        "issues": [
+            {
+                "imgSrc": "images/index/issue1.png",
+                "title": "商品與行銷議題",
+                "content": "原物料的計畫性採購依據、商品的批號效期管控、新產品的鋪貨計畫、促銷組合的產品搭配與定價政策..."
+            },
+            {
+                "imgSrc": "images/index/issue2.png",
+                "title": "生產議題",
+                "content": "配方BOM組合與變更、主副聯產品的生產狀況、現場料桶裝罐裝的處理、委外生產"
+            },
+            {
+                "imgSrc": "images/index/issue3.png",
+                "title": "通路與銷售議題",
+                "content": "通路合約費用管理計算、通路對帳與電子發票、檔商品提報與檔期促銷活動搭配、網購接單出貨的時效"
+            },
+            {
+                "imgSrc": "images/index/issue4.png",
+                "title": "營運分析議題",
+                "content": "那些通路是打品牌?賺營收?賺利潤?那些商品是金牛?老狗?檔期或促銷活動是賣得越多利潤越高?目標客群是否有移動改變的趨勢?"
+            }
+        ],
+        "channel": [
+            {
+                "url": "/tw/dsc/solution/WB002675/WB00267501_1.html",
+                "imgSrc": "images/index/channel1.png",
+                "caption": "經銷代理"
+            },
+            {
+                "url": "/tw/dsc/solution/WB002675/WB00267501_2.html",
+                "imgSrc": "images/index/channel2.png",
+                "caption": "連鎖賣場"
+            },
+            {
+                "url": "/tw/dsc/solution/WB002675/WB00267501_3.html",
+                "imgSrc": "images/index/channel3.png",
+                "caption": "門市專櫃"
+            },
+            {
+                "url": "/tw/dsc/solution/WB002595/WB00259501.html",
+                "imgSrc": "images/index/channel4.png",
+                "caption": "網購生意"
+            },
+            {
+                "url": "/tw/dsc/solution/WB002675/WB00267501_4.html",
+                "imgSrc": "images/index/channel5.png",
+                "caption": "觀光工廠"
+            },
+            {
+                "url": "/tw/dsc/solution/WB002972/case.html",
+                "imgSrc": "images/index/channel6.png",
+                "caption": "新零售"
+            }
+        ],
+        "cases": [
+            {
+                "id": 1,
+                "company": "森田藥粧",
+                "category": "美容藥妝",
+                "description": "林財務長說「森田是品牌企業，不同於零售或連鎖業型態，當公司要追求十倍成長時，對零售或連鎖業而言至少需開八倍的店面，培養八倍的人才，但是透過有效的品牌運作則能創造目標效益」",
+                "url": "/tw/case/1038.html",
+                "imgSrc": "images/index/case01.jpg"
+            },
+            {
+                "id": 2,
+                "company": "第一化工",
+                "category": "化工原料",
+                "description": "黃副總說當門市開到第3~4家時核帳的業務量已經倍增，核帳人力卻早已不堪負荷。系統導入後，現在10家店已經可以加速對帳作業，目前除了自家網路店外，尚有Yahoo購物商城、PChome商店街、及目前進入的企業內網購物平台經營....",
+                "url": "/tw/case/1498.html",
+                "imgSrc": "images/index/case02.jpg"
+            },
+            {
+                "id": 3,
+                "company": "屈臣氏",
+                "category": "通路",
+                "description": "只有有需求的時候才會進系統裡查資料，設定案件類別、月份、案件數量，數字馬上就出來了，還可以比較不同月份的趨勢，主管可以更快掌握客戶的需求。在處理案件上，也可應用以往的案例經驗，應變跟查詢都變得更簡單快速！」",
+                "url": "/tw/case/1582.html",
+                "imgSrc": "images/index/case03.jpg"
+            }
+        ]
+    },
+    "business": {
+        "banner": [
+            {
+                "id": 1,
+                "title": "代工、研發、生產、品牌、行銷、通路經營<br>樣樣都要精通，作化妝品這一行很不簡單",
+                "imgSrc": "images/business/hero-bg.png",
+                "url": "javascript:;"
+            }
+        ],
+        "pains": [
+            {
+                "imgSrc": "images/business/icon-pain1.png",
+                "text": "網購接單",
+                "hoverText": "當商品上架到一個新的網購平台時，對方品號與自有品號的對應輸入？訂單對帳資料如何輸入？",
+                "color": "#70c7ef"
+            },
+            {
+                "imgSrc": "images/business/icon-pain2.png",
+                "text": "物流配送",
+                "hoverText": "當訂單資料要拋給宅配業者，收件人、地址重打嗎？",
+                "color": "#88b9b0"
+            },
+            {
+                "imgSrc": "images/business/icon-pain3.png",
+                "text": "效期管理",
+                "hoverText": "又被退了一批貨，客戶說效期太短，報廢真的好可惜阿...",
+                "color": "#7cca70"
+            },
+            {
+                "imgSrc": "images/business/icon-pain4.png",
+                "text": "電子發票",
+                "hoverText": "申請電子發票好複雜，檢測Turnkey又是什麼?申請程序要等2-3個月.....真的嗎?",
+                "color": "#7ccdc4"
+            },
+            {
+                "imgSrc": "images/business/icon-pain5.png",
+                "text": "會員管理",
+                "hoverText": "想要舉辦會員活動促銷會員商品組合價、紅利積點、會員來店禮、會員生日禮、點數兌換...好複雜!!",
+                "color": "#db9e4a"
+            },
+            {
+                "imgSrc": "images/business/icon-pain6.png",
+                "text": "生產製造與委外管理",
+                "hoverText": "產品用料僅少數的產線同仁才可提供資訊，採購只能依經驗推想需要採買哪些物料?",
+                "color": "#975b96"
+            },
+            {
+                "imgSrc": "images/business/icon-pain7.png",
+                "text": "營運分析",
+                "hoverText": "這組新商品賣得好不好? 活動促銷帶動多少業績?作了那些多分析報表還是看不出前後的關聯?",
+                "color": "#ff6464"
+            },
+            {
+                "imgSrc": "images/business/icon-pain8.png",
+                "text": "排班與人事薪資",
+                "hoverText": "一例一休讓加班費計算與休假制度，還有排班輪班都變的好麻煩....",
+                "color": "#d44e4b"
+            }
+        ],
+        "collapse": [
+            {
+                "title": "網購業解決方案",
+                "content": {
+                    "title": "網購業解決方案",
+                    "desc": "一般於網購平台中，會分成自有官網經營、各大電商平台與寄銷平台，而自有網站與其他電商平台，差異最大的即為品號不同。且訂單資料數量太多，無法人工輸入。此時就會造成訂單愈多，人員就需要更多...",
+                    "imgUrl": "images/business/collapse1.jpg",
+                    "figcaption": "網購業解決方案圖"
+                }
+            },
+            {
+                "title": "電子發票方案",
+                "content": {
+                    "title": "電子發票方案",
+                    "desc": "導入電子發票，您可能會面臨? 申請電子發票程序繁鎖耗時(約1-2個月)? ERP資料與財政部平台資料重覆登打，人工處理易錯誤，且需逐筆人工核對? 網路斷線時無法開立及列印發票....",
+                    "imgUrl": "images/business/collapse2.jpg",
+                    "figcaption": "電子發票方案"
+                }
+            },
+            {
+                "title": "生產製造與委外管理方案",
+                "content": {
+                    "title": "生產製造-委外管理",
+                    "desc": "化妝品業委外代工生產時，常會發生這些困擾， 加工廠是否依照派工的順序來做，作到那裡了?委外加工品相關的生產資訊，例如數量、進度、品質..等，常無法即時得知，甚致造成訂單延遲，客戶不滿狀況發生....",
+                    "imgUrl": "images/business/collapse3.jpg",
+                    "figcaption": "生產製造-委外管理"
+                }
+            },
+            {
+                "title": "物流優化方案",
+                "content": {
+                    "title": "物流優化方案",
+                    "desc": "從自家網站與其他電商平台產生的大量出貨資料，在拋給宅配業者之後，又需到宅配業者平台登打收件人地址資料，真的很浪費時間又重工...",
+                    "imgUrl": "images/business/collapse4.jpg",
+                    "figcaption": "物流優化方案"
+                }
+            },
+            {
+                "title": "第三方支付資料整合方案",
+                "content": {
+                    "title": "第三方支付資料整合方案",
+                    "desc": "官網被盜了？該如何保障消費者線上付款的權益，尋求有保障的第三方支付，但系統能支援嗎?",
+                    "imgUrl": "images/business/collapse5.jpg",
+                    "figcaption": "第三方支付資料整合方案"
+                }
+            },
+            {
+                "title": "營運分析系統",
+                "content": {
+                    "title": "營運分析系統",
+                    "desc": "通路經營最重要的是獲利，但經營會議到底有沒有效？常討論那些通路還有成長空間？到底商品賣得好不好、活動促銷帶動多少，每個月努力做了這麼多，但哪些才是增加營收的關鍵點？",
+                    "imgUrl": "images/business/collapse6.jpg",
+                    "figcaption": "營運分析系統"
+                }
+            },
+            {
+                "title": "效期管理方案",
+                "content": {
+                    "title": "效期管理方案",
+                    "desc": "若客戶角色為通路商或製造商時, 會要求廠商的出貨商品或原料需在一定效期內才能收貨，為免商譽受損，因此建立短效期品自動提醒機制相對重要.....",
+                    "imgUrl": "images/business/collapse7.jpg",
+                    "figcaption": "效期管理方案"
+                }
+            },
+            {
+                "title": "VIP會員管理方案",
+                "content": {
+                    "title": "VIP會員管理方案",
+                    "desc": "化妝品的客戶在使用產品習慣之後，會再次消費的機率很高，因此您需要找到消費活絡的會員，提供專屬他們的尊寵活動，讓VIP會員擁有專屬禮遇、營收自然增加....也要想想如何喚醒沉寂會員，再次讓這群人來消費?",
+                    "imgUrl": "images/business/collapse8.jpg",
+                    "figcaption": "VIP會員管理方案"
+                }
+            },
+            {
+                "title": "排班與人事薪資方案",
+                "content": {
+                    "title": "排班與人事薪資方案",
+                    "desc": "化妝品產業常具備總公司、工廠及門店人員三種不同特性的單位，各自擁有截然不同的薪資計算邏輯與排班機制，大大增加薪資計算的複雜性，尤其是在一例一休實施之後...........",
+                    "imgUrl": "images/business/collapse9.jpg",
+                    "figcaption": "排班與人事薪資方案"
+                }
+            },
+            {
+                "title": "新零售",
+                "content": {
+                    "title": "新零售全渠道整合方案",
+                    "desc": "除了門店與網站，消費者可以選擇的渠道還有很多，一但配合多平台多通路，要配合的優惠折扣都不同，成本也不一樣，到底哪個有賺哪個是賠？而不只便捷支付、即時物流還有一堆四面八方來的會員資訊，要如何應整合經營管理，才能達到最大效益.........",
+                    "imgUrl": "images/business/collapse10.jpg",
+                    "figcaption": "新零售全渠道整合方案"
+                }
+            }
+        ]
+    },
+    "multichannel": {
+        "banner": [
+            {
+                "id": 1,
+                "title": "多通路管理",
+                "imgSrc": "images/multichannel/hero-bg.png",
+                "url": "javascript:;"
+            }
+        ],
+        "collapse": [
+            {
+                "title": "經銷代理",
+                "tabs": {
+                    "left": {
+                        "subtitle": "作經銷批發生意，管理重點有那些？通路管理、應收帳款、信用額度、業務巡補",
+                        "desc": "中壢與青埔的客戶銷售量跟規模都有差異….這價格要怎麼訂阿?大連假又到了，中壢的銷量一直很不錯，這次支援作促銷，要作買一送一還有不定期的小驚喜活動，但青埔那邊的客戶說他們也要一樣的折扣......",
+                        "pains": [
+                            {
+                                "imgSrc": "images/multichannel/icon-pain1.png",
+                                "text": "客戶",
+                                "hoverText": "feedback條件是贈送商品還是折抵貨款？哪個經銷商的合約快要到期了？可不可以主動通知我？",
+                                "color": "#49bcc3"
+                            },
+                            {
+                                "imgSrc": "images/multichannel/icon-pain2.png",
+                                "text": "業務",
+                                "hoverText": "每個經銷商的feedback條件都不同，哪些已經達到合約目標了，要來跟我要回饋？怎麼核算到底做到了沒？銷退有沒有扣掉？如何監控經銷商有沒有跑掉？(多久沒有叫貨，或越訂越少)",
+                                "color": "#bd973c"
+                            }
+                        ]
+                    },
+                    "right": {
+                        "subtitle": "作經銷批發生意，其實您可以這樣管",
+                        "listTitle": "通路合約控管好、加快結帳與對帳",
+                        "list": [
+                            "系統建立各通路商談定的合約費用計算方式與條件記錄，並自動產出費用金額與通路。",
+                            "合約費用明細表，可指定日期產出銷/ 退單據。",
+                            "通路合約費用可依金額自動拋轉產生應付憑單，依贈品產生訂單。",
+                            "自動依採購合約條件設定滾算採購費用，可指定資料日期，篩選進/退貨單單據。"
+                        ],
+                        "imgUrl": "images/multichannel/solution1.jpg",
+                        "figcaption": "解決方案圖"
+                    }
+                }
+            },
+            {
+                "title": "連鎖賣場",
+                "tabs": {
+                    "left": {
+                        "subtitle": "作連鎖賣場KA生意，管理重點有那些？允收‧效期、促銷管理、通路合約",
+                        "desc": "COSTCO說這批貨過了允收期，不收了.....家福樂也不要這批貨....每家量販店效期規範都不同，這批貨到底要出給誰阿....每天一直出貨都沒有注意到哪些快過期，報廢傷利潤，還得賠錢耶！",
+                        "pains": [
+                            {
+                                "imgSrc": "images/multichannel/icon-pain3.png",
+                                "text": "客戶",
+                                "hoverText": "怎麼又出短效期商品給我，害我沒東西賣...下次不跟你們公司進貨了...",
+                                "color": "#ef8570"
+                            },
+                            {
+                                "imgSrc": "images/multichannel/icon-pain4.png",
+                                "text": "業務",
+                                "hoverText": "倉庫人員怎麼常常出道效期不對的商品，老是被客戶退貨。我又要去跟客戶賠罪了...",
+                                "color": "#49bcc3"
+                            }
+                        ]
+                    },
+                    "right": {
+                        "subtitle": "作連鎖通路KA生意，其實您可以這樣管",
+                        "listTitle": "善用批號管理、進而降低報廢成本",
+                        "list": [
+                            "可按客戶商品允收期條件建立於系統中。",
+                            "出貨時由系統依照該客戶的商品允收期條件自動帶出出貨[批號]，倉庫人員僅需按系統建議的批號指示去倉庫撿貨即可。",
+                            "若有短效期品，系統能夠提早警示及提醒，讓同仁能盡早將[即期品]在未過期前充分被利用，降低報廢成本。",
+                            "避免出錯的批號導致被客戶退貨或罰款。"
+                        ],
+                        "imgUrl": "images/multichannel/solution2.jpg",
+                        "figcaption": "解決方案圖"
+                    }
+                }
+            },
+            {
+                "title": "門市專櫃",
+                "tabs": {
+                    "left": {
+                        "subtitle": "做門市專櫃生意，管理重點有那些？預購活動、滿額活動、會員專屬、促銷活動、門市要貨",
+                        "desc": "新光三越週年慶要開始了，只要預購抗老活膚霜組合，就送化妝包跟面膜，加購青春不老眼霜再加送旅行組一份，買二組送安瓶，買三組送行李箱.....某貴婦本來預購晚霜跟眼霜的組合，又說要換成精華液跟安瓶，又加買了彩妝盤，扣掉她之前付的禮券跟刷卡訂金，還要再收多少錢?",
+                        "pains": [
+                            {
+                                "imgSrc": "images/multichannel/icon-pain5.png",
+                                "text": "貴婦",
+                                "hoverText": "上次預訂的眼霜我不要了，幫我換成安瓶組合，但我想要行李箱，幫我算一下還要買多少才能送?",
+                                "color": "#efba70"
+                            },
+                            {
+                                "imgSrc": "images/multichannel/icon-pain6.png",
+                                "text": "櫃姐",
+                                "hoverText": "這位是VIP千萬不能得罪，但她一下要精華液，一下要送旅行組，現在又要溱到行李箱的滿額贈，已經搞不楚要收多少錢?",
+                                "color": "#b988b8"
+                            }
+                        ]
+                    },
+                    "right": {
+                        "subtitle": "經營門市專櫃其實您可以這樣管",
+                        "listTitle": "預購活動用心做、檔期營收穩達標",
+                        "list": [
+                            "預購明細隨時掌握，訂金及沖銷歷程統一控管。",
+                            "付款取貨確保顧客及公司權益。"
+                        ],
+                        "imgUrl": "images/multichannel/solution3.jpg",
+                        "figcaption": "解決方案圖"
+                    }
+                }
+            },
+            {
+                "title": "網購生意",
+                "tabs": {
+                    "left": {
+                        "subtitle": "作網購生意，管理重點有那些？接單、出貨、對帳、退換貨",
+                        "desc": "YA平台有267張單、PC平台有234張單、樂平台有189張單….哇！每天訂單這麼多，這季獎金可以領到手軟，但平台格式都不同打單打到眼睛花，就算加班也打不完吧？訂單從四面八方一直來！",
+                        "pains": [
+                            {
+                                "imgSrc": "images/multichannel/icon-pain7.png",
+                                "text": "客戶",
+                                "hoverText": "我前天訂了1組青春不老組，贈品是面膜10片，沒收到贈品阿....",
+                                "color": "#ef8570"
+                            },
+                            {
+                                "imgSrc": "images/multichannel/icon-pain8.png",
+                                "text": "客戶",
+                                "hoverText": "網頁上寫買晚霜50ml就送3瓶5ml的旅行組，還有送10ml化妝水，但我收到面膜?",
+                                "color": "#cdbc5d"
+                            },
+                            {
+                                "imgSrc": "images/multichannel/icon-pain9.png",
+                                "text": "客戶",
+                                "hoverText": "不是24小時到貨嗎?但我一直沒收到貨....",
+                                "color": "#7ccdc4"
+                            }
+                        ]
+                    },
+                    "right": {
+                        "subtitle": "網購生意其實您可以這樣管",
+                        "list": [
+                            "接單零誤差、出貨搶時效",
+                            "平台訂單自動轉入、確認即可",
+                            "隨時掌握準確的商品庫存",
+                            "自動產生對應的物流貨運",
+                            "降低平台扣款及缺貨罰款"
+                        ],
+                        "imgUrl": "images/multichannel/solution4.jpg",
+                        "figcaption": "解決方案圖"
+                    }
+                }
+            },
+            {
+                "title": "觀光工廠",
+                "tabs": {
+                    "left": {
+                        "subtitle": "經營觀光工廠，管理重點有那些？接團前、接團中、接團後",
+                        "desc": "控團沒做好影響有多大？哪一團什麼時候進來，不容易掌握，花時間做聯繫，需要做臨時應變。團控沒控好，引起團和團碰撞，造成館內壅擠，客人參觀意願降低。",
+                        "hoverBox": [
+                            {
+                                "imgSrc": "images/multichannel/icon-pain10.png",
+                                "hoverImgSrc": "images/multichannel/icon-pain10-h.png",
+                                "color": "#5cc99c"
+                            }
+                        ]
+                    },
+                    "right": {
+                        "subtitle": "觀光工廠其實您可以這樣管",
+                        "listTitle": "資源有限，事先安排不忙亂!",
+                        "list": [
+                            "團務資料預先建立，預先安排接待人力與有限資源。",
+                            "掌握準確商品庫存，即時補貨，架上不缺貨。"
+                        ],
+                        "imgUrl": "images/multichannel/solution5.jpg",
+                        "figcaption": "解決方案圖"
+                    }
+                }
+            },
+            {
+                "title": "新零售",
+                "tabs": {
+                    "left": {
+                        "subtitle": "門市、網購平台缺一不可，線上、線下、物流及金流全渠道會員管理",
+                        "desc": "消費者可選擇的渠道多又廣，不配合就少了很多機會？一配合多平台多通路，優惠折扣都不一樣，成本也不一樣，到底哪個能賺哪個是賠？而金流和物流的串接，和還有一堆會員資訊要分析！任何一個環節錯了，都是人財兩失.........",
+                        "pains": [
+                            {
+                                "imgSrc": "images/multichannel/icon-pain11.png",
+                                "text": "行銷企劃",
+                                "hoverText": "推了不同促銷方案，也不知道效果如何？越來越高的廣告行銷費用，但並沒有實際反應在銷售數字上.......",
+                                "color": "#ef8570"
+                            },
+                            {
+                                "imgSrc": "images/multichannel/icon-pain12.png",
+                                "text": "錢老闆",
+                                "hoverText": "商品要有門市可以體驗，還要上架到各網路平台，消費者要好、要快還要便宜，這樣還有利潤可以賺嗎？",
+                                "color": "#cdbc5d"
+                            }
+                        ]
+                    },
+                    "right": {
+                        "subtitle": "全渠道整合管理其實可以這樣管",
+                        "list": [
+                            "接從來客紀錄中找出對的人，去推對的活動，才能提高行銷效益",
+                            "有效整合全渠道會員管理、線上、線下、物流金流到消費者，進行大數據分析"
+                        ],
+                        "imgUrl": "images/multichannel/solution6.jpg",
+                        "figcaption": "解決方案圖"
+                    }
+                }
+            }
+        ]
+    },
+    "case": {
+        "banner": [
+            {
+                "id": 1,
+                "title": "行業深耕，<br>獨到專精",
+                "desc": "鼎新電腦累積30多年產業輔導驗，50,000多家企業成功案例，提供完整行業解決方案；因應產業趨勢、法令制度的變化，提供最佳服務與支援！",
+                "imgSrc": "images/case/hero-bg.png",
+                "url": "javascript:;"
+            }
+        ],
+        "cases": [
+            {
+                "id": 1,
+                "company": "和康生物科技(碧芙蕾詩/BIOFLASH)",
+                "category": "生物科技",
+                "description": "建立BOM，過往的成本計算需要四小時，而現在僅需半小時即可快速完成",
+                "url": "/tw/case/674.html",
+                "imgSrc": "images/case/case01.jpg"
+            },
+            {
+                "id": 2,
+                "company": "耐斯",
+                "category": "原料化工",
+                "description": "李經理認為IT必須幫助耐斯完成幾件事情：降低成本、優化作業過程從而減少資源消費、提高作業速度",
+                "url": "/tw/case/1023.html",
+                "imgSrc": "images/case/case02.jpg"
+            },
+            {
+                "id": 3,
+                "company": "益美化工",
+                "category": "原料化工",
+                "description": "由成本結算後所得出正確的成本，提供高層作為售價決策，增加經營分析管理掌握成本效益",
+                "url": "/tw/case/1055.html",
+                "imgSrc": "images/case/case03.jpg"
+            },
+            {
+                "id": 4,
+                "company": "香根企業",
+                "category": "高端品牌包材",
+                "description": "公司高層在跟鼎新談系統應用時，想的是公司未來二岸三地的大量溝通與使用",
+                "url": "/tw/case/1581.html",
+                "imgSrc": "images/case/case04.jpg"
+            },
+            {
+                "id": 5,
+                "company": "南六企業",
+                "category": "不織布王國",
+                "description": "HR蔣小姐說在收集文件上面，我的結算資料會更快速，也沒有紙本問題，系統會幫我看出缺勤的人員，我只要專心看幾個有出勤異常的人，包括輪班津貼部分系統都會幫我算好",
+                "url": "/tw/case/592.html",
+                "imgSrc": "images/case/case05.jpg"
+            },
+            {
+                "id": 6,
+                "company": "獨領風騷",
+                "category": "通路",
+                "description": "合夥人欲查詢大陸山東門市每日業績狀況，在POS的架構上，可控制交易資料回傳的時間",
+                "url": "/tw/case/1037.html",
+                "imgSrc": "images/case/case06.jpg"
+            },
+            {
+                "id": 7,
+                "company": "屈臣氏",
+                "category": "通路",
+                "description": "我們多了更多的時間向客戶介紹產品，直接以電話大量購買的訂單也變多了",
+                "url": "/tw/case/1582.html",
+                "imgSrc": "images/case/case07.jpg"
+            }
+        ]
+    }
+}

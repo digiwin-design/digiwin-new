@@ -1,0 +1,511 @@
+@charset "utf-8";
+* {
+	box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+}
+
+html, body {
+	background-color: #fff;
+	font-size: 100%;
+}
+
+strong {
+	font-weight: bold;
+}
+
+.li-list {
+	list-style: disc outside;
+	margin-left: 20px;
+}
+
+.float-left {
+	float: left;
+}
+
+.float-right {
+	float: right;
+}
+
+.hignLight-red{
+	color: #ee4727;
+	font-weight: bold;
+}
+
+.textCenter {
+	text-align: center;
+}
+
+/*color style*/
+.white {
+	color: #ffffff;
+}
+
+.blue-light {
+	color: #00b0c8;
+}
+
+.orange {
+	color: #f79421;
+}
+
+.yellow {
+	color: #ffff00;
+}
+
+.green {
+	color: #03a99d;
+}
+
+.section {
+	width: 100%;
+	min-width: 800px;
+	padding: 40px 0;
+	font-size: 17px;
+	line-height: 30px;
+	font-family: Arial, "微軟正黑體";
+	text-align: justify;
+}
+
+.content {
+	position: relative;
+	width: 800px;
+	margin: 0 auto;
+}
+
+.content img {
+	display: block;
+	margin: 0 auto;
+}
+
+.content a:hover {
+	color: #ee4727;
+}
+
+h2 {
+	margin-bottom: 25px;
+	
+	color: #f79421;
+	font-size: 24px;
+	text-align: center;
+}
+
+h2 .title {
+	padding: 0 10px 2px;
+	border-bottom:  2px solid #f79421;
+
+	font-weight: bold;
+}
+
+/*goIndex style*/
+#goIndex {
+	position: fixed;
+	bottom: 20px;
+	left: 50%;
+	z-index: 99999;
+	width: 75px;
+	height: 75px;
+	margin-left: 430px;
+	padding: 13px 15px 15px;
+	background-color: #00b0c8;
+	border-radius: 50%;
+	color: #ffffff;
+	font-family: Airal, "微軟正黑體";
+	font-size: 19px;
+	font-weight: bold;
+	line-height: 24px;
+	text-align: center;
+	cursor: pointer;
+}
+
+#goIndex a {
+	display: block;
+	color: #ffffff;
+}
+
+#goIndex:hover {
+	background-color: #008799;
+}
+
+#banner {
+	height: 440px;
+	background: url(../images/mainVisual.jpg) no-repeat center center;
+}
+
+#banner.section {
+	padding: 0;
+}
+
+#section03 .padding-left {
+	padding: 30px 0 30px 340px;
+	background: url(../images/img01.png) no-repeat left top;
+}
+
+.job {
+	margin: 30px 0;
+	padding-left: 130px;
+}
+
+#sales {
+	background: url(../images/job01.png) no-repeat left top;
+}
+
+
+#research {
+	background: url(../images/job02.png) no-repeat left top;
+}
+
+
+#service {
+	background: url(../images/job03.png) no-repeat left top;
+}
+
+#section05 .padding-left {
+	padding: 0 0 0 170px;
+	margin: 50px 0 20px;
+	background: url(../images/award.png) no-repeat left top;
+}
+
+#section05 .award {
+	display: none;
+}
+
+#section06 .padding-left {
+	padding: 0 0 0 250px;
+	background: url(../images/img02.png) no-repeat left center;
+}
+
+#section06 .float-left, 
+#section06 .float-right {
+	margin-top: 15px;
+	width: 260px;
+}
+
+#section07 .schoolList {
+	margin: 50px 0 0;
+}
+
+#section07 .schoolList li {
+	float: left;
+	width: 25%;
+	margin: 0 0 50px;
+	text-align: center;
+}
+
+#section07 .schoolList p {
+	margin: 15px 0 0;
+	line-height: 21px;
+}
+
+
+#section07 .schoolList span {
+	font-size: 15px;
+}
+
+#section07 a.btn {
+	display: block;
+	width: 95px;
+	line-height: 25px;
+	margin: 15px auto 0;
+	background-color: #00b0c8;
+	border-radius: 50px;
+	color: #ffffff;
+	text-align: center;
+}
+
+#section07 a.btn:hover {
+	background-color: #008799;
+}
+
+/*
+#seminar {
+	margin-bottom: 25px;
+	width: 100%;
+	border-collapse:collapse;
+}
+
+#seminar th,
+#seminar td {
+	padding: 10px 5px;
+	border: 1px solid #fff;
+	line-height: 23px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+#seminar th {
+	background-color: #00aec6;
+	color: #fff;
+	font-weight: bold;
+}
+
+#seminar tr:nth-child(odd) {
+	background-color: #f3f3f3;
+}
+
+#seminar tr:nth-child(even) {
+	background-color: #eee;
+}*/
+
+#section08 ul li {
+	float: left;
+	margin: 25px 0;
+	width: 250px;
+	line-height: 23px;
+	text-align: center;
+}
+
+#section08 i {
+	display: block;
+	margin-bottom: 15px;
+	font-size: 3em;
+}
+
+#section08 .digiwin {
+	margin: 25px 25px;
+}
+
+#section08 .fb a:hover {
+	color: #46629e;
+}
+
+#experience .expList {
+	margin: 30px 0 0;
+}
+
+#experience .expList h3 {
+	margin: 15px 0;
+	font-size: 19px;
+	font-weight: bold;
+	text-align: center;
+}
+
+#experience .expList li:nth-of-type(1) a {
+	color: #00b0c8;
+}
+
+#experience .expList li:nth-of-type(2) a {
+	color: #f79421;
+}
+
+#experience .expList li:nth-of-type(3) a {
+	color: #03a99d;
+}
+
+#experience .expList li a:hover {
+	color: #ee4727;
+}
+
+#experience .expList li {
+	float: left;
+	width: 266px;
+	padding: 0 15px;
+	line-height: 24px;
+}
+
+#experience .btn,
+#FAQ .btn {
+	display: block;
+	width: 200px;
+	line-height: 40px;
+	margin: 50px auto 0;
+	background-color: #ee4727;
+	color: #ffffff;
+	font-size: 21px;
+	text-align: center;
+}
+
+#experience .btn:hover,
+#FAQ .btn:hover {
+	background-color: #ba1e00;
+}
+
+#FAQ p {
+	padding: 40px 45px 45px 275px;
+	background: url(../images/FAQBg.png) no-repeat left top;
+}
+
+#FAQ .btn {
+	margin-top: -5px;
+}
+
+
+
+
+@media screen and (max-width: 480px) {
+	.li-list {
+		list-style: disc outside;
+		margin-left: 20px;
+	}
+
+	.section {
+		width: 100%;
+		min-width: 100%;
+		padding: 20px 5px 30px;
+		font-size: 17px;
+		line-height: 30px;
+		font-family: Arial, "微軟正黑體";
+		text-align: justify;
+	}
+
+	.content {
+		position: relative;
+		width: 100%;
+		margin: 0 auto;
+	}
+
+	.content img {
+		display: block;
+		width: 100%;
+		margin: 0 auto;
+	}
+
+
+	h2 {
+		margin-bottom: 25px;		
+		color: #f79421;
+		font-size: 21px;
+		text-align: center;
+	}
+
+	/*goIndex style*/
+	#goIndex {
+		position: fixed;
+		bottom: 5px;
+		left: 100%;
+		z-index: 99999;
+		width: 75px;
+		height: 75px;
+		margin-left: -80px;
+		padding: 13px 15px 15px;
+		background-color: #00b0c8;
+		border-radius: 50%;
+		color: #ffffff;
+		font-family: Airal, "微軟正黑體";
+		font-size: 19px;
+		font-weight: bold;
+		line-height: 24px;
+		text-align: center;
+		cursor: pointer;
+	}
+
+	#goIndex a {
+		display: block;
+		color: #ffffff;
+	}
+
+	#goIndex:hover {
+		background-color: #008799;
+	}
+
+	/*banner style*/
+	#banner {
+		height: auto;
+		background: url(../images/mainVisual_mobile.jpg) no-repeat center top;
+		background-size: contain;
+	}
+
+	#banner.section {
+		padding: 50% 0 25%;
+	}
+
+	/*計畫特色*/
+	#section03 .padding-left {
+		padding: 0;
+		background: url() no-repeat left top;
+	}
+
+	/**/
+	.job {
+		margin: 30px 0;
+		padding-left: 105px;
+	}
+
+	#section05 .padding-left {
+		padding: 0 0 0 20px;
+		margin: 0 0 20px;
+		background: url() no-repeat left top;
+	}
+
+	#section05 .award {
+		display: block;
+		color: #ee4727;
+		font-size: 21px;
+		font-weight: bold;
+	}
+
+	#section06 .padding-left {
+		padding: 0;
+		background: url() no-repeat left center;
+	}
+
+	#section06 .float-left, 
+	#section06 .float-right {
+		float: none;
+		margin-top: 15px;
+		width: 100%;
+	}
+
+	/**/
+	#section07 .schoolList {
+		margin: 30px 0 0;
+	}
+
+	#section07 .schoolList li {
+		float: left;
+		width: 50%;
+		margin: 0 0 50px;
+		text-align: center;
+	}
+
+	#section07 .schoolList img {
+		max-width: 130px;
+	}
+
+	/*聯絡資料*/
+	#section08 ul li {
+		float: none;
+		margin: 25px 0;
+		width: 100%;
+		line-height: 23px;
+		text-align: center;
+	}
+
+	#section08 .digiwin {
+		margin: 25px 0;
+	}
+
+
+	/*學長姐經驗談*/
+	#experience .expList li {
+		float: none;
+		width: 100%;
+		margin: 0 0 40px;
+		padding: 0 15px;
+		line-height: 24px;
+	}
+
+	#experience .expList img {
+		max-width: 150px;
+	}
+
+	#experience .btn,
+	#FAQ .btn {
+		display: block;
+		width: 200px;
+		line-height: 40px;
+		margin: 0 auto;
+		background-color: #ee4727;
+		color: #ffffff;
+		font-size: 21px;
+		text-align: center;
+	}
+
+	#FAQ p {
+		padding: 0;
+		background: url() no-repeat left top;
+	}
+
+	#FAQ .btn {
+		margin-top: 20px;
+	}
+}

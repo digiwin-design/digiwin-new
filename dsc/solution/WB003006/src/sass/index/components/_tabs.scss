@@ -1,0 +1,88 @@
+main .tabs {
+    color: #fff;
+    &-content {
+        $bgColor: #fa5a59 #ebb942 #2fb7d0;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 30px;
+        padding: 60px 70px;
+        height: 530px;
+        border-radius: 50px;
+        @for $i from 1 through 3 {
+            &.content#{$i} {
+                background-color: nth($bgColor, $i);
+            }
+        }
+        h3 {
+            margin-bottom: .5em;
+            font-size: 36px;
+            line-height: 1;
+        }
+        p {
+            margin-bottom: 10px;
+            font-size: 24px;
+            line-height: 1.3;
+        }
+        .img {
+            display: flex;
+            width: 100%;
+            flex-grow: 1;
+            justify-content: center;
+            align-items: center;
+            @at-root {
+                main .tabs-content.content1 .img {
+                    transform: translateY(-120px);
+                }
+            }
+        }
+        &.content3 img {
+            width: 75%;
+        }
+    }
+    &-nav {
+        display: flex;
+        justify-content: center;
+        li {
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            width: 300px;
+            height: 120px;
+            font-weight: bold;
+            line-height: 1;
+            cursor: pointer;
+            justify-content: center;
+            align-items: center;
+            & + li {
+                margin-left: 22px;
+            }
+            &::before {
+                position: absolute;
+                bottom: 100%;
+                left: 50%;
+                width: 0;
+                height: 0;
+                border-width: 0 20px 20px 20px;
+                border-style: solid;
+                border-color: transparent;
+                content: '';
+                transform: translateX(-50%);
+            }
+            @at-root {
+                $bgColor: #e83939 #dea316 #1b99b0;
+                @for $i from 1 through 3 {
+                    main .tabs-nav li:nth-child(#{$i}) {
+                        background-color: nth($bgColor, $i);
+                        &.active::before {
+                            border-bottom-color: nth($bgColor, $i);
+                        }
+                    }
+                }
+            }
+        }
+        h2 {
+            margin-bottom: 10px;
+            font-size: 30px;
+        }
+    }
+}

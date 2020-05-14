@@ -1,0 +1,48 @@
+@charset "utf-8";
+@media screen and (min-width: 501px) {
+	* {-webkit-box-sizing: border-box; -moz-box-sizing: border-box; -o-box-sizing: border-box; -ms-box-sizing: border-box; box-sizing: border-box;}
+	body {color: #fff; font-size: 100%; font-family: Arial, "微軟正黑體"; line-height: 1.875em; background: url(../images/m_pageBg.jpg) no-repeat center top #000; padding-top: 150px;}
+	h2 {font-size: 2em; margin-bottom: 30px; line-height: 1.3em; text-shadow: 2px 2px 3px #2e2e2e;}
+	h3 {color: #39ceff; font-size: 1.4375em;}
+	p, li {color: #fff; font-size: 1.0625em; text-align: justify;}
+	a {text-decoration: none;}
+	img {width: 100%; margin-top: 30px;}
+	.clearFix:before,.clearFix:after {display:table; line-height:0; content:"";}
+	.clearFix:after {clear:both;}
+	.clearFix {*zoom: 1;}
+
+	.content {width: 500px; padding:0 35px; position: relative; margin: 0 auto;}
+	.btn {width: 290px; height: 45px; font-size: 1.3125em; text-align: center; line-height: 45px; margin: 10px auto 60px;}
+	.btn a {color: #fff; display: block; border: 1px solid #00acf6;}
+	.btn a:hover {background-color: #065280;}
+
+	.block, .blockLong {margin: 0 auto 80px;}
+	.smallImg {width: 75%; display: block; margin: 30px auto 0;}
+
+	#footer {width: 100%; padding: 20px 0; background-color: #404040;}
+	#footer p {font-size: 0.8125em; font-family: Arial, "新細明體"; line-height: 20px; text-align: center;}	
+}
+
+@media screen and (max-width: 500px) {
+	* {-webkit-box-sizing: border-box; -moz-box-sizing: border-box; -o-box-sizing: border-box; -ms-box-sizing: border-box; box-sizing: border-box;}
+	body {color: #fff; font-size: 100%; font-family: Arial, "微軟正黑體"; line-height: 1.875em; background: url(../images/m_pageBg.jpg) no-repeat center top #000; padding-top: 150px;}
+	h2 {font-size: 2em; margin-bottom: 30px; line-height: 1.3em; text-shadow: 2px 2px 3px #2e2e2e;}
+	h3 {color: #39ceff; font-size: 1.4375em;}
+	p, li {color: #fff; font-size: 1.0625em; text-align: justify;}
+	a {text-decoration: none;}
+	img {width: 100%; margin-top: 30px;}
+	.clearFix:before,.clearFix:after {display:table; line-height:0; content:"";}
+	.clearFix:after {clear:both;}
+	.clearFix {*zoom: 1;}
+
+	.content {width: 100%; padding:0 7%; position: relative;}
+	.btn {width: 290px; height: 45px; font-size: 1.3125em; text-align: center; line-height: 45px; margin: 10px auto 60px;}
+	.btn a {color: #fff; display: block; border: 1px solid #00acf6;}
+	.btn a:hover {background-color: #065280;}
+
+	.block, .blockLong {margin: 0 auto 60px;}
+	.smallImg {width: 75%; display: block; margin: 30px auto 0;}
+
+	#footer {width: 100%; padding: 20px 0; background-color: #404040;}
+	#footer p {font-size: 0.8125em; font-family: Arial, "新細明體"; line-height: 20px; text-align: center;}	
+}

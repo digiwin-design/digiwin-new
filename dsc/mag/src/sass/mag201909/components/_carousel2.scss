@@ -1,0 +1,152 @@
+main .carousel2 {
+    $paddingBottom: 97px;
+    .swiper-container {
+        padding-bottom: $paddingBottom;
+        @media (min-width: $content-width) {
+            padding-bottom: 0;
+        }
+    }
+    .swiper-wrapper {
+        @media (min-width: $content-width) {
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+    }
+    .swiper-slide {
+        height: auto;
+        padding: 0 15px;
+        transition: transform .5s;
+        transform: translate3d(0,100px,0) scale(.6);
+        @media (min-width: 361px) {
+            padding-right: 20px;
+            padding-left: 20px;
+        }
+        @media (min-width: $content-width) {
+            @include first(2) {
+                margin-top: 0;
+            }
+            @include last(2) {
+                margin-bottom: 0;
+            }
+            margin-top: 20px;
+            margin-bottom: 20px;
+            padding-right: 0;
+            padding-left: 0;
+            width: 520px;
+            height: 650px;
+            &:nth-child(1) {
+                margin-top: 300px;
+            }
+            &:nth-child(even):not(:nth-child(2)) {
+                margin-top: -280px;
+            }
+        }
+        &.active {
+            transform: translate3d(0,0,0) scale(1);
+        }
+    }
+    .swiper-pagination {
+        bottom: 63px;
+        display: flex;
+        line-height: 14px;
+        justify-content: center;
+        @media (min-width: $content-width) {
+            display: none;
+        }
+    }
+    .swiper-pagination-bullet {
+        margin: 0 3px !important;
+        width: 14px;
+        height: 14px;
+        border-radius: 0;
+        background-color: #bbb;
+        opacity: 1;
+        &-active {
+            background-color: #0083be;
+        }
+    }
+    .swiper-button-prev,
+    .swiper-button-next {
+        width: 27px;
+        background-size: contain;
+        transform: translateY(-#{$paddingBottom / 2});
+        @media (min-width: $content-width) {
+            display: none;
+        }
+    }
+    .swiper-button-prev {
+        left: 0;
+        background-image: image-url('mag201909/carousel-prev.svg');
+    }
+    .swiper-button-next {
+        right: 0;
+        background-image: image-url('mag201909/carousel-next.svg');
+    }
+    .slideItem {
+        margin: 0 auto;
+        max-width: 520px;
+        height: 100%;
+        background-color: #0083be;
+        &-text {
+            padding: 16px 20px 28px;
+            @media (min-width: $content-width) {
+                padding: 30px;
+            }
+        }
+        h2 {
+            display: inline-block;
+            margin-bottom: .5em;
+            padding: 0 5px;
+            border: 1px solid #58e2e0;
+            color: #58e2e0;
+            font-size: 14px;
+            line-height: 16px;
+            @media (min-width: $content-width) {
+                padding-right: 7px;
+                padding-left: 7px;
+                font-size: 16px;
+                line-height: 23px;
+            }
+        }
+        h1 {
+            margin-bottom: .7em;
+            color: #fedd42;
+            letter-spacing: getLetterSpacing(10);
+            font-weight: bold;
+            font-size: 20px;
+            line-height: 24px;
+            @media (min-width: $content-width) {
+                font-size: 24px;
+                line-height: 30px;
+            }
+        }
+        p {
+            margin-bottom: 1em;
+            color: #fff;
+            letter-spacing: getLetterSpacing(10);
+            font-size: 16px;
+            line-height: 20px;
+            @media (min-width: $content-width) {
+                font-size: 18px;
+                line-height: 26px;
+            }
+        }
+        a {
+            @include btn(70px, 30px, #3183a9, #fedd42);
+            border: 1px solid #fedd42;
+            letter-spacing: getLetterSpacing(10);
+            font-size: 14px;
+            line-height: 28px;
+            @media (min-width: $content-width) {
+                width: 100px;
+                font-size: 18px;
+            }
+            @at-root {
+                html.no-mobile main .carousel2 .slideItem a:hover {
+                    background-color: transparent;
+                    color: #fedd42;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,6 @@
+main .header {
+    @include headerBg('intro/header-bg.jpg', 'intro/header-bg-s.jpg', 100% 0);
+    @media (min-width: $tablet-width + 1) {
+        background-position: 50% 0;
+    }
+}

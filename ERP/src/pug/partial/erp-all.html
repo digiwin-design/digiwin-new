@@ -1,0 +1,65 @@
+<div class="header">
+    <div class="container">
+        <div>
+            <h1><img src="images/erpAll/header-text.png" alt="ERP全方案-企業轉型，從創造數位價值開始"></h1>
+            <h2>從創造數位價值開始</h2>
+            <h3>適合企業E化的成長路徑<br>提升企業營運管理效率</h3>
+            <div class="header-btns">
+                <a href="/tw/dsc/project/WB002940/index" class="btn" target="_blank">想要了解更多</a>
+                <a href="#contact" class="btn js-nav">預約諮詢服務</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<article class="section1">
+    <div class="container">
+        <div class="section1-header">
+            <h1>選擇您導入ERP系統的原因</h1>
+            <p class="section1-desc">從創造資訊系統的應用效益開始，幫助企業提升運營效能。<br>探索各行各業所有業務流程，因應各職能需求，提供適合的ERP系統，推出真正有效的行業智慧整合解決方案，<br>讓企業運營更高效、更快速、更簡單。</p>
+        </div>
+        <columns v-bind:columns="result.section1"></columns>
+    </div>
+</article>
+
+<article id="section2" class="section2">
+    <banner v-bind:banner="result.section2.banner"></banner>
+    <hover-boxs v-bind:boxs="result.section2.hoverBoxs"></hover-boxs>
+    <div class="container">
+        <section-btns v-bind:link="result.section2.sectionLink"></section-btns>
+    </div>
+</article>
+
+<article id="section3" class="section3">
+    <banner v-bind:banner="result.section3.banner"></banner>
+    <hover-boxs v-bind:boxs="result.section3.hoverBoxs"></hover-boxs>
+    <div class="container">
+        <section-btns v-bind:link="result.section3.sectionLink"></section-btns>
+    </div>
+</article>
+
+<article id="section4" class="section4">
+    <banner v-bind:banner="result.section4.banner"></banner>
+    <div class="container">
+        <map-component></map-component>
+        <section-btns v-bind:link="result.section4.sectionLink"></section-btns>
+    </div>
+</article>
+
+<article id="section6" class="section6">
+    <banner v-bind:banner="result.section6.banner"></banner>
+    <industry></industry>
+    <div class="container">
+        <section-btns v-bind:link="result.section3.sectionLink"></section-btns>
+    </div>
+</article>
+
+<article id="section5" class="section5">
+    <banner v-bind:banner="result.section5.banner"></banner>
+    <div class="container">
+        <accordion v-bind:accordion="result.section5.accordion"></accordion>
+        <section-btns v-bind:link="result.section5.sectionLink"></section-btns>
+    </div>
+</article>
+
+<contact v-bind:multiple="false" source="WB002950"></contact>

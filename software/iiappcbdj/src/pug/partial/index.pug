@@ -1,0 +1,10 @@
+extends ../layout.pug
+
+block includes
+    link(rel="preload", href="images/header-bg.jpg", as="image")
+    link(rel='stylesheet', href='css/style.css')
+    script(src='assets/lazysizes.min.js', defer)
+    script(src='js/index.min.js', defer)
+
+block content
+    include index.html

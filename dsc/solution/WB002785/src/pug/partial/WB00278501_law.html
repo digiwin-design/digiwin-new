@@ -1,0 +1,11 @@
+<slider-banner-s v-if="isMobile" v-bind:slides="result.banner" device="mobile"></slider-banner-s>
+<slider-banner v-else v-bind:slides="result.banner" device="desktop"></slider-banner>
+
+<div class="laws">
+    <div class="container">
+        <a :href="law.link" target="_blank" v-for="law in result.laws" :key="law.text" v-html="law.text"></a>
+        <p>法規出處: FDA(http://www.fda.gov.tw/TC/site.aspx?sid=39)</p>
+    </div>
+</div>
+
+<contact v-bind:multiple="false" source=""></contact>

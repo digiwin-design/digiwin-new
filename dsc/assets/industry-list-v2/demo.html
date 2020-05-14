@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>industry list v2 demo</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js'></script>
+    
+    <!-- 全站共用(自定義) -->
+    <link rel="stylesheet" href="/tw/dsc/css/all.css">
+    <script src="https://polyfill.io/v3/polyfill.js?features=default,fetch,HTMLPictureElement,Array.prototype.find,NodeList.prototype.forEach&flags=gated"></script>
+    <script src="/tw/dsc/assets/modernizr-custom.js"></script>
+    <script src="/tw/dsc/assets/mobile-detect.js"></script>
+    <script src="/tw/dsc/assets/mobile-detect-modernizr.js" defer></script>
+    <script src="/tw/dsc/assets/smoothscroll.js" defer></script>
+    <script src="/tw/dsc/assets/axios.min.js"></script>
+    <script src="/tw/dsc/assets/axios-mock-adapter.min.js"></script>
+    <script src="/tw/dsc/assets/vuejs/vue-all.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.2.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.0.1/firebase-database.js"></script>
+    <script src="/tw/dsc/assets/ad/dayjs/dayjs.min.js"></script>
+    <script src="/tw/dsc/assets/ad/dayjs/isBetween.js"></script>
+    <script src="/tw/dsc/js/common.min.js"></script>
+</head>
+
+<body>
+    <div id="industry">
+        <industry></industry>
+    </div>
+    
+    <script>
+        new Vue({
+            el: '#industry',
+            components: {
+                industry: httpVueLoader('/tw/dsc/assets/industry-list-v2/industry.vue')
+            }
+        });
+    </script>
+</body>
+
+</html>

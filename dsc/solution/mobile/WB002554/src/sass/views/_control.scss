@@ -1,0 +1,5 @@
+main .control {
+    .header {
+        @include headerBg('control/header-bg.jpg', 'control/header-bg.jpg', 100% 0);
+    }
+}

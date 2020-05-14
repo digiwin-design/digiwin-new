@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Download Title Generator</title>
+    
+    <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.1/build/pure-min.css" integrity="sha384-oAOxQR6DkCoMliIh8yFnu25d7Eq/PHS21PClpwjOTeU2jRSq11vu66rf90/cZr47" crossorigin="anonymous">
+    <script src="/tw/dsc/assets/vuejs/vue-all-dev.js" defer></script>
+    <script src="https://www.gstatic.com/firebasejs/7.2.2/firebase-app.js" defer></script>
+    <script src="https://www.gstatic.com/firebasejs/6.0.1/firebase-database.js" defer></script>
+    <script src="script.min.js" defer></script>
+
+    <!-- title replace test -->
+    <!-- <script src="/tw/static/js/jquery-1.11.3.min.js" defer></script>
+    <script src="/tw/dsc/assets/mobile-detect.js" defer></script>
+    <script src="/tw/dsc/js/common.min.js" defer></script> -->
+    
+    <style>
+        [v-cloak] {
+            display: none;
+        }
+        #app {
+            display: grid;
+            padding: 0 20px;
+            height: 100vh;
+            grid-template-areas: "a1 a2";
+            grid-template-columns: 1fr 1fr;
+            gap: calc((100 / 1920) * 100%);
+            align-content: center;
+        }
+        @media (max-width: 767px) {
+            #app {
+                grid-template-areas:
+                    "a1"
+                    "a2";
+                grid-template-rows: 1fr 1fr;
+                grid-template-columns: auto;
+                gap: 10px;
+            }
+        }
+        .form {
+            grid-area: a1;
+            display: flex;
+            align-items: center;
+            justify-self: right;
+        }
+        @media (max-width: 767px) {
+            .form {
+                justify-self: center;
+            }
+        }
+        .table {
+            position: relative;
+            max-height: calc(100vh - 50px);
+            grid-area: a2;
+            overflow: auto;
+        }
+        @media (max-width: 767px) {
+            .table {
+                max-height: calc(50vh - 20px);
+            }
+        }
+        table {
+            width: 100%;
+        }
+        .pure-form fieldset {
+            padding: 0;
+        }
+        .url {
+            margin-right: 5px;
+        }
+        .pure-form-stacked input[type=number] {
+            display: inline-block;
+            width: 5em;
+        }
+        [type=submit] {
+            margin-top: 1em;
+        }
+        .loading {
+            position: absolute;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            margin: auto;
+            width: 100px;
+            height: 22px;
+            text-align: center;
+        }
+        .button-error {
+            color: white;
+            border-radius: 4px;
+            text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+            background: rgb(202, 60, 60);
+        }
+    </style>
+</head>
+
+<body>
+    <div id="app">
+        <div class="form">
+            <form class="pure-form pure-form-stacked" @submit.prevent="submitHandler">
+                <fieldset>
+                    <legend>輸入網址參數 (ID) / 標題</legend>
+                    <label for="id">ID</label>
+                    <div>
+                        <span class="url">https://www.digiwin.com/tw/zlsq.html?id=</span>
+                        <input type="number" id="id" required v-model.number="newContent.id" ref="id">
+                    </div>
+                    <label for="title">標題</label>
+                    <input type="text" id="title" required v-model="newContent.title">
+                    <button type="submit" class="pure-button pure-button-primary">新增</button>
+                </fieldset>
+            </form>
+        </div>
+
+        <div class="table">
+            <table class="pure-table pure-table-horizontal" v-if="content.length" v-cloak>
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>標題</th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr v-for="(item, idx) in content" :key="item.key" :class="{ 'pure-table-odd': (idx + 1) % 2 === 1 }">
+                        <td>{{item.id}}</td>
+                        <td>{{item.title}}</td>
+                        <td><button class="pure-button button-error" @click="deleteHandler(item.key)">刪除</button></td>
+                    </tr>
+                </tbody>
+            </table>
+            <p class="loading" v-else>載入中...</p>
+        </div>
+    </div>
+
+    <!-- title replace test -->
+    <!-- <div class="form-bd">
+        <h1 class="title" style="text-align: center;">title</h1>
+    </div> -->
+</body>
+
+</html>

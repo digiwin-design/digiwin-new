@@ -1,0 +1,50 @@
+main .case-card {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 330px;
+    height: 472px;
+    border: 1px solid #ccc;
+    &__illust {
+        height: 170px;
+        background-position: 50%;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    &__content {
+        position: relative;
+        padding: 1em;
+        background-color: #fff;
+        flex-grow: 1;
+    }
+    h2 {
+        margin-bottom: .5em;
+        color: #ff5454;
+        font-size: 24px;
+        line-height: 1.2;
+    }
+    h3 {
+        margin-bottom: 10px;
+        padding-left: 8px;
+        width: 127px;
+        height: 28px;
+        background-color: #666;
+        color: #fff;
+        font-size: 16px;
+        line-height: 28px;
+    }
+    p {
+        color: #555;
+        font-size: 16px;
+        line-height: 24px;
+    }
+    a {
+        @include btn(87px, 30px, #fff, #ff5454);
+        position: absolute;
+        right: 1em;
+        bottom: 1em;
+    }
+    + .case-card {
+        margin-top: 20px;
+    }
+}

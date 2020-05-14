@@ -1,0 +1,57 @@
+$seminar-color: (
+    primary: #44277e,
+    secondary: #a084da,
+    orange: #ff8111,
+    gray: #b9b9b9,
+);
+@import '../common/variable';
+@import '../common/helpers';
+@import '../common/all';
+@import 'accordion';
+@import 'progressBars';
+
+main {
+    padding-bottom: 60px;
+    .container {
+        padding: 0 20px;
+    }
+    .header {
+        @include headerBg('seminar/header-bg.jpg', 'seminar/header-bg.jpg', 50% 100%, false);
+        .container {
+            height: 340px;
+            @media (min-width: $tablet-width + 1) {
+                padding-left: 85px;
+                height: image-height('seminar/header-bg.jpg');
+            }
+        }
+        h1 {
+            color: #f0fe11;
+            font-size: 30px;
+            @media (min-width: $tablet-width + 1) {
+                font-size: 48px;
+            }
+        }
+    }
+    article h1 {
+        margin: 1.5em 0;
+        text-align: center;
+        font-weight: bold;
+        font-size: 26px;
+        @media (min-width: $tablet-width + 1) {
+            font-size: 36px;
+        }
+    }
+    .section2 {
+        h1 {
+            margin-bottom: 1em;
+        }
+        &-desc {
+            margin: 0 auto;
+            margin-bottom: 2em;
+            max-width: 1000px;
+        }
+        .progressBars ul + h2 {
+            margin-top: 2em;
+        }
+    }
+}

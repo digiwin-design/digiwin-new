@@ -1,0 +1,373 @@
+﻿/* ---reset.css------------------------- */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+	display: block;}
+body {	line-height: 1;}
+ol, ul {	list-style: none;}
+blockquote, q {	quotes: none;}
+blockquote:before, blockquote:after, q:before, q:after {	content: '';	content: none;}
+table {	border-collapse: collapse;	border-spacing: 0;}
+
+/* ---reset.css----------------------------------- */
+
+html {	font-family:Helvetica, sans-serif;	-webkit-text-size-adjust:none;	background-color:#CCC;}
+body { }
+
+
+/* --電腦版型------------------------------------- */
+
+#WRAPPER {}
+#TOP-MENU {	display:none;}
+#TOP-MENU h4 {}
+#TOP-MENU h5 {}
+/* --------------------------------- */
+
+#nav {
+	height: 35px;
+	background-color: #f4f5f5;
+	position: relative;
+	font-family: Arial, "新細明體", "微軟正黑體";
+	z-index:999995;
+	width: 100%;
+}
+
+#nav .logo {
+	float: left;
+	position: absolute;
+	left: 45px;
+	top: 3px;
+	z-index:999999;
+
+}
+#nav .link {
+	float: right;
+	letter-spacing:1px;
+	width:600px;
+	text-align: center;
+	height: 35px;
+}
+#nav .link>li {
+	border-right:1px solid #c4c4c4;
+	width: 100px;
+	float: left;
+	font-size: 13px;
+	color: #757373;
+	line-height: 35px;
+}
+#nav .link>li a {
+	text-decoration: none;
+	color: #757373;
+	display: block;
+}
+#nav .link>li:hover {
+	text-decoration: none;
+	color: #757373;
+	background-color: #e0e0e0;
+	line-height: 35px;
+}
+#nav .link .Phone {
+	border-right:0px solid #999;
+	width: 130px;
+	font-weight: bold;
+}
+#nav .link .Phone:hover, #nav .link .line:hover {
+	background-color: #f4f5f5;
+}
+#nav .link .line_L {
+	border-left:1px solid #c4c4c4;
+}
+#nav .link .subLink {
+	display: none;
+	border-left:1px solid #c4c4c4;
+	border-top:none;
+	background-color:#FFF;
+	z-index:999995;
+}
+#nav .link .subLink li a {
+	display:block;
+	height:35px;
+	color:#757373;
+	text-align:center;
+}
+#nav .link .subLink li a:hover {
+	background:#f4f5f5;
+}
+/*-------------------------------*/
+#dgwFooter {
+	background-color: #d9d9d9;
+	width: 100%;
+	border-top: 1px solid #FFF;
+	text-align: center;
+	padding-top: 13px;
+	color: #595757;
+	font-size: 13px;
+	font-family: "新細明體", "微軟正黑體";
+	padding-bottom: 17px;
+}
+#dgwFooter .link01 a {
+	font-size: 13px;
+	color: #595757;
+	text-decoration: none;
+	text-align: center;
+	display: inline-block;
+	padding: 0 3px 0 0x;
+}
+
+#dgwFooter .link01 a:hover {
+	font-size: 13px;
+	color: #595757;
+	text-decoration: underline;
+	text-align: center;
+	display: inline-block;
+	padding: 0 3px 0 0x;
+}
+
+#dgwFooter .link01 span {
+	font-size: 9px;
+	text-align: center;
+	display: inline-block;
+}
+
+#dgwFooter .link02 {
+	margin: 14px 0px 8px 0px;
+	text-align: center;
+}
+
+
+#dgwFooter .link02 ul li a {
+	font-size: 13px;
+	color: #595757;
+	text-decoration: none;
+	text-align: center;
+	display: inline-block;
+	padding: 0 4px 0 1px;
+}
+#dgwFooter .link02 ul li a:hover {
+	font-size: 13px;
+	color: #595757;
+	text-decoration: underline;
+	text-align: center;
+	display: inline-block;
+	padding: 0 4px 0 1px;
+}
+
+#dgwFooter .link02 ul li span {
+	font-size: 13px;
+	text-align: center;
+	display: inline-block;
+}
+
+#dgwFooter p {
+	font-size: 13px;
+	margin: 0;
+	clear: both;
+}
+
+.clear{clear:both; font-size:0px; padding:0;height:0;line-height:0;  margin:0}
+
+
+/* --手機版型------------------------------------- */
+
+@media screen and (max-width: 736px) {
+ * {box-sizing:border-box;-webkit-box-sizing:border-box;}
+ body, html {-webkit-text-size-adjust:none;}
+#WRAPPER { min-width:320px;}
+
+#TOP-MENU {	
+
+ display:block;
+ width:100%;
+ height:50px;
+ position:relative;
+ background-color:#f4f5f5;
+}
+#TOP-MENU h4 {
+display:block; 
+width:150px;
+height:40px;
+background-image:url(http://www.digiwin.com/Library/images/DSClogo.png);
+background-size:90px auto;
+position:absolute;
+background-repeat:no-repeat;
+left:10px;
+top:10px;
+text-indent:-9999px;
+}
+ #TOP-MENU h5 {
+display:block;
+width:60px;
+height:40px;
+background-image:url(http://www.digiwin.com/Library/images/btn.png);
+background-size:60px auto;
+background-repeat:no-repeat;
+position:absolute;
+right:5px;
+top:10px;
+text-indent:-9999px;
+}
+
+/* --------------------------------- */
+
+ #nav {
+ height:auto;
+ background-color:#e0e0e0;
+ position: relative;
+ font-family:"微軟正黑體", Arial, Helvetica, sans-serif;
+ z-index:999995;
+ width: 100%;
+ display:none;
+}
+ #nav .logo {
+display:none;
+}
+ #nav .link {
+ float: none;
+ width:100%;
+ margin-right: 30px;
+ text-align: center;
+ height: auto;
+ line-height: 45px;
+}
+#nav .link>li {
+width:100%;
+ border-right:0px solid #999;
+border-bottom:#fff 1px solid;
+ float: none;
+ font-size: 18px;
+ color: #757373;
+ line-height: 45px;
+}
+ #nav .link>li a {
+ text-decoration: none;
+ color: #000;
+ display: block;
+ line-height: 45px;
+}
+#nav .link>li a:hover {
+ text-decoration: none;
+ color: #fff;
+ background-color:#666;
+ line-height: 45px;
+}
+ #nav .link .Phone {
+ width:100%;
+ font-weight:normal;
+}
+#nav .link .Phone:hover, #nav .link .line:hover {
+ background-color: #f4f5f5;
+}
+#nav .link .line_L {
+ border-left:0px solid #999;
+}
+#nav .link .subLink {
+ display: none;
+ border:0px solid #757373;
+ border-top:none;
+ background-color:#f4f5f5;
+ z-index:999995;
+}
+ #nav .link .subLink li a {
+border-bottom:#e0e0e0 1px solid;
+ display:block;
+ height:45px;
+ color:#900;
+ text-align:center;
+}
+ #nav .link .subLink li a:hover {
+ background-color:#900;
+color:#fff;
+ line-height:45px;
+}
+
+/*-------------------------------*/
+#dgwFooter {
+	background-color: #333;
+	width: 100%;
+	border-top: 1px solid #FFF;
+	text-align: center;
+	padding-top: 13px;
+	color: #595757;
+	font-size: 13px;
+	font-family:"微軟正黑體",Arial, Helvetica, sans-serif;
+	padding-bottom: 17px;
+	
+	/*--固定下方----------
+	position:fixed;
+	bottom:0px;
+	z-index:888;------*/
+}
+#dgwFooter .link01{ display:none;}
+
+#dgwFooter .link01 a { display:none;
+	font-size: 13px;
+	color: #595757;
+	text-decoration: none;
+	text-align: center;
+	display: inline-block;
+	padding: 0 3px 0 0x;
+}
+
+#dgwFooter .link01 a:hover {
+	font-size: 13px;
+	color: #595757;
+	text-decoration: underline;
+	text-align: center;
+	display: inline-block;
+	padding: 0 3px 0 0x;
+}
+
+#dgwFooter .link01 span {
+	font-size: 9px;
+	text-align: center;
+	display: inline-block;
+}
+
+#dgwFooter .link02 {display:none;
+	margin: 14px 0px 8px 0px;
+	text-align: center;
+}
+
+
+#dgwFooter .link02 ul li a {
+	font-size: 13px;
+	color: #595757;
+	text-decoration: none;
+	text-align: center;
+	display: inline-block;
+	padding: 0 4px 0 1px;
+}
+#dgwFooter .link02 ul li a:hover {
+	font-size: 13px;
+	color: #595757;
+	text-decoration: underline;
+	text-align: center;
+	display: inline-block;
+	padding: 0 4px 0 1px;
+}
+
+#dgwFooter .link02 ul li span {
+	font-size: 13px;
+	text-align: center;
+	display: inline-block;
+}
+
+#dgwFooter p {
+	font-size: 13px;
+	line-height:1.8;
+	padding:0 20px;
+	margin: 0;
+	clear: both;
+	color:#CCC;
+}
+
+.clear{clear:both; font-size:0px; padding:0;height:0;line-height:0;  margin:0}
+
+}

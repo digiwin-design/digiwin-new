@@ -1,0 +1,100 @@
+main .banner + [class^=solution] {
+    padding-bottom: 30px;
+    letter-spacing: getLetterSpacing(25);
+    .sectionTitle {
+        align-items: flex-start;
+        > h1 {
+            color: #285c9c;
+            font-weight: bold;
+            font-size: 24px;
+        }
+    }
+    ul {
+        padding-left: 1em;
+        list-style-type: disc;
+        line-height: 1.6;
+    }
+    h2 {
+        font-weight: bold;
+    }
+    p {
+        text-indent: 2em;
+        line-height: 1.6;
+    }
+    img,
+    figure {
+        display: block;
+        margin: 0 auto;
+    }
+    .subtitle {
+        display: block;
+        margin-bottom: 1em;
+        color: #43aaf2;
+        font-weight: bold;
+    }
+    table.table {
+        width: 100%;
+        border: 1px solid #000;
+        font-size: 16px;
+        tbody > tr:nth-of-type(odd) {
+            background-color: #e8e8e8;
+        }
+        th,
+        td {
+            padding: 1em;
+            vertical-align: top;
+        }
+        th {
+            text-align: left;
+            line-height: 1;
+            &:nth-of-type(1) {
+                width: 35%;
+            }
+            &:nth-of-type(2) {
+                width: 65%;
+            }
+        }
+        td {
+            line-height: 1.6;
+        }
+    }
+    dl.list {
+        dt,
+        dd {
+            padding: 1em;
+        }
+        dt {
+            background-color: #e8e8e8;
+        }
+        dd {
+            line-height: 1.6;
+        }
+    }
+    @for $n from 1 through 2 {
+        .mt-#{$n} {
+            margin-top: #{$n}em;
+        }
+    }
+
+    /* ====================================================================== */
+    /* solution1~8 */
+    /* ====================================================================== */
+    &.solution03,
+    &.solution05,
+    &.solution06,
+    &.solution07 {
+        padding-top: 48px;
+    }
+    &.solution05 {
+        figcaption {
+            color: #f60;
+            text-align: center;
+        }
+    }
+    &.solution08 {
+        padding-bottom: 55px;
+        .nav {
+            @include btn(100%, 57px, #fff, #034ea2);
+        }
+    }
+}

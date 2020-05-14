@@ -1,0 +1,181 @@
+@import url("reset.css");
+@charset "big5";
+/* CSS Document */
+
+ol { 
+	font-family: 新細明體,Arial, Helvetica, sans-serif; 
+	font-size:13px; 
+	color:#484848; 
+	letter-spacing:1px; 
+	line-height:1.6;
+}
+
+.txt13W { 
+    font-family: 新細明體,Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	line-height: 20px;
+	color: #ffffff;
+}
+.menu {
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #f67d69;
+}
+.txt13 { 
+	font-family: 新細明體,Arial, Helvetica, sans-serif; 
+	font-size:13px; 
+	color:#484848; 
+	letter-spacing:1px; 
+	line-height:1.6;
+	}
+.txt13a { 
+	font-family: 新細明體,Arial, Helvetica, sans-serif; 
+	font-size:13px; 
+	color:#3b5998; 
+	letter-spacing:1px; 
+	line-height:1.6;
+	}
+
+.txt15 { 
+    font-family: 新細明體,Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	line-height:1.6;
+	color: #C30;
+}
+.txt20 { 
+    font-family: 新細明體,Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	line-height:1.6;
+	color: #499704;
+}
+.txt35 { 
+    font-family: 新細明體,Arial, Helvetica, sans-serif;
+	font-size: 35px;
+	line-height:1.6;
+	color: #ec049d;
+}
+.txt24 { 
+    font-family: 新細明體,Arial, Helvetica, sans-serif;
+	font-size: 24px;
+	line-height:1.6;
+	color: #a0529d;
+}
+.txt17 { 
+    font-family: 新細明體,Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	line-height:1.6;
+	color: #033c92;
+}
+
+.txt15w { 
+    font-family: 新細明體,Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	line-height:1.6;
+	color: #ffffff;
+}
+.txt14 { 
+    font-family: 新細明體,Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	line-height:1.6;
+	color: #b14a11;
+}
+
+.txt12 {
+	font-family: 新細明體,Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 1.5;
+	color: #484848;
+}
+
+.line1 {
+	border-bottom-style: dotted;
+	border-bottom-color: #d95641;
+	margin: 2px;
+	padding: 2px;
+	border-bottom-width: 1px;
+}
+
+.line2 {
+	border-bottom-style: dotted;
+	border-bottom-color: #7e7e7e;
+	margin: 2px;
+	padding: 2px;
+	border-bottom-width: 1px;
+}
+.line3 {
+	border-top-width: 1px;
+	border-top-style: dashed;
+	border-top-color: #ff410b;
+}
+
+h1 {
+	font-family: 新細明體,Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	line-height:1.3;
+	letter-spacing:1px;
+	color: #d64403;
+	font-weight: bold;
+	padding:5px;	
+}
+
+h2 {
+	font-family: 新細明體,Arial, Helvetica, sans-serif;
+	font-size:17px;
+	color:#d64403;
+	letter-spacing:1px;
+	line-height:1.3;
+	font-weight: bold;
+	}
+
+p { 
+	font-family: 新細明體,Arial, Helvetica, sans-serif; 
+	font-size:13px; 
+	color:#484848; 
+	letter-spacing:1px; 
+	line-height:1.6;
+	padding-bottom:10px;
+	}
+a {
+	font-family: 新細明體,Arial, Helvetica, sans-serif;
+	text-decoration:none;
+	color:#484848;}	
+	
+a:hover {
+	color:#F30;
+	text-decoration:underline;}
+	
+a.a1 {
+	font-family: 新細明體,Arial, Helvetica, sans-serif;
+	text-decoration:none;
+	color:#ffffff;}	
+	
+a.a1:hover {
+	color:#ffdc17;
+	text-decoration:underline;}
+	
+a.a2 {
+	font-family: 新細明體,Arial, Helvetica, sans-serif;
+	text-decoration:none;
+	color:#b14a11;}	
+	
+a.a2:hover {
+	color:#e2075a;
+	text-decoration:underline;}
+	
+a.a3 {
+	font-family: 新細明體,Arial, Helvetica, sans-serif;
+	text-decoration:none;
+	color:#d64403;}	
+	
+a.a3:hover {
+	color:#e2075a;
+	text-decoration:underline;}
+	
+a.a4 {
+	font-family: 新細明體,Arial, Helvetica, sans-serif;
+	text-decoration:underline;
+	color:#484848;}	
+	
+a.a4:hover {
+	color:#c51b05;
+	text-decoration:none;}

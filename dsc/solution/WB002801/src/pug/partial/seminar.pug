@@ -1,0 +1,12 @@
+extends ../layout.pug
+
+block includes
+    link(rel='preload', href='images/seminar/header-bg.jpg', as="image")
+    link(rel='stylesheet', href='css/seminar/seminar.css')
+    script(src='assets/jquery-ui.min.js', defer)
+    script(src='assets/lodash.js', defer)
+    script(src='assets/countUp.min.js', defer)
+    script(src='js/seminar.min.js', defer)
+
+block content
+    seminar(v-if='content', :content='content')

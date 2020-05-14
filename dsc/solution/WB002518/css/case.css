@@ -1,0 +1,62 @@
+/* ----框內基本設定----------------------------------- */
+#htmlcontent{ width:100%; margin:0 auto; font-size:1.5em; color:#333; letter-spacing:1px; line-height:1.6; padding-top:10px; font-family:"微軟正黑體", Arial, Helvetica, sans-serif; }
+#htmlcontent a{color:#F60; text-decoration:none;}
+#htmlcontent a:hover{ text-decoration:underline;}
+
+#htmlcontent td {font-size:1.4em; border:2px; border-style:solid; border-color:#FFF; background-color:#F0F0F0; padding:10px;}
+/* ----文字大小標----------------------------------- */
+#htmlcontent h1{margin-top:0px; letter-spacing:1px; background-repeat:no-repeat; line-height:1.6; font-family:"微軟正黑體", Arial, Helvetica, sans-serif; font-size:2.6em; color:#C30;   }
+#htmlcontent h2{font-family:"微軟正黑體", Arial, Helvetica, sans-serif; font-size:2.2em; color:#C60; margin-bottom:0px; padding:10px 0px 0px 0px; }
+#htmlcontent h3{font-family:"微軟正黑體", Arial, Helvetica, sans-serif; font-size:1.8em; color:#C93; margin-bottom:0px;}
+#htmlcontent h4{font-family:"微軟正黑體", Arial, Helvetica, sans-serif; font-size:1.6em; color:#930; margin-bottom:0px; font-weight:bold}
+#htmlcontent p{ margin-top:3px; margin-bottom:10px;font-size:1.5em; font-family:"微軟正黑體", Arial, Helvetica, sans-serif; }
+
+/*img{ border:0; padding:8px;}- */
+
+/* ----圖說標----------------------------------- */
+#htmlcontent .h_legend{ color:#639; font-size:1em; font-family:"微軟正黑體" , Arial, Helvetica, sans-serif; }
+#htmlcontent .h_legendB{ color:#639; font-size:1em; font-family:"微軟正黑體" , Arial, Helvetica, sans-serif; font-weight:bold;}
+
+/* ---------表格--------------------------------------------------------
+td h1{font-family:"微軟正黑體", Arial, Helvetica, sans-serif; font-size:14px; color:#C60; margin-bottom:0px; font-weight:bold; background-image:none; padding-left:0px;}
+td h2{font-family:"微軟正黑體", Arial, Helvetica, sans-serif; font-size:12px; color:#000; margin-bottom:0px; font-weight:bold; background-image:none; padding-left:0px;}-*/
+
+/* 
+#htmlcontent td {border:0px;border-style:solid; border-color:#FFF ; font-size:12px; font-family:"微軟正黑體" , Arial, Helvetica, sans-serif;padding:5px;}
+#htmlcontent td a{color:#06F} -*/
+
+/* --------自訂義-------------------------------------------------------- */
+#htmlcontent .box{ clear:both; font-size:1.5em; color:#666; margin:5px; padding:10px; background-color:#FFC;}
+#htmlcontent .box a{color:#930;}
+#htmlcontent .textG{color:#666; font-size:1em}
+#htmlcontent .hr { border:1px dashed #cecece;}
+#htmlcontent .box3i{ float:left; width:719px; background-color:#e6e6e6; border:1px solid #cecece; margin-bottom:20px; padding:12px; color:#714e4e; font-family:"微軟正黑體" , Arial, Helvetica, sans-serif; font-size:1.5em;}
+#htmlcontent .box3i p { padding-left:200px; line-height:1.7;}
+#htmlcontent .box3i h4{ font-size:1.8em; color:#981e1e; margin:0; padding:0; margin-bottom:5px;}
+#htmlcontent .pic3i { float:left; width:200px; height:100%;}
+#htmlcontent .pic3i img { border:0; padding:0px;}
+
+#video { width: 100%; height: 100%;	position: absolute;	left: 0px; top: 0px; margin: 0; }
+#videoContainer { padding: 30px 0 75%; overflow: hidden; position: relative; margin-top: 2%; }
+.txt13{
+	font-family: "新細明體";
+	font-size: 1.3em;
+	line-height: 1.6;
+	letter-spacing:1px;
+	color: #464646;
+}
+.txt13w {
+	font-family: "新細明體";
+	font-size: 1em;
+	line-height: 1.6;
+	color: #ffffff;
+}
+.txt13a {
+	font-family: "新細明體";
+	font-size: 1.3em;
+	line-height: 1.6;
+	letter-spacing:1px;
+	color: #1382b6;
+}
+a{color:#F60; text-decoration:none;}
+a:hover{ text-decoration:underline;}

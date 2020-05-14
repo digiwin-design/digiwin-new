@@ -1,0 +1,63 @@
+{
+    "slides": {
+        "section4": [
+            {
+                "imgSrc": "section4-slide1.jpg",
+                "captions": ["特定設備整體參數監控", "特定參數全廠設備監控"]
+            }
+        ],
+        "section5": [
+            {
+                "imgSrc": "section5-slide1.jpg",
+                "captions": ["設備點檢與監控履歷查閱"]
+            }
+        ],
+        "section6": [
+            {
+                "imgSrc": "section6-slide1.jpg",
+                "captions": ["為自動叫修提供設備生產履歷"]
+            },
+            {
+                "imgSrc": "section6-slide2.jpg",
+                "captions": ["為自動叫修提供設備生產履歷"]
+            }
+        ],
+        "section7": [
+            {
+                "imgSrc": "section7-slide1.jpg"
+            },
+            {
+                "imgSrc": "section7-slide2.jpg"
+            },
+            {
+                "imgSrc": "section7-slide3.jpg"
+            }
+        ]
+    },
+    "section3": [
+        {
+            "text1": "設備改造/新問題點檢跟進",
+            "text2": "掌握設備實際狀況"
+        },
+        {
+            "text1": "根據不同設備類型、型號、廠商，規劃設備點檢方案",
+            "text2": "設備點檢精準執行"
+        },
+        {
+            "text1": "按設備參數運行履歷進行精準點檢",
+            "text2": "完整設備運行履歷"
+        },
+        {
+            "text1": "關鍵點與異常關係識別；關鍵點記錄與趨勢分析",
+            "text2": "點檢狀況預警分析"
+        },
+        {
+            "text1": "按規範精準點檢；點檢工具適用性與精準度",
+            "text2": "設備點檢針對性"
+        },
+        {
+            "text1": "點檢結果可視化，抽查機制建立",
+            "text2": "設備點檢管理考核"
+        }
+    ]
+}

@@ -1,0 +1,32 @@
+doctype html
+html
+    head
+        meta(charset='UTF-8')
+        meta(name='viewport', content='width=device-width, initial-scale=1.0')
+        meta(http-equiv='X-UA-Compatible', content='ie=edge')
+
+        //- 全站共用
+        link(rel='stylesheet', href='https://www.digiwin.com/static/css/public.css')
+        link(rel='stylesheet', href='https://www.digiwin.com/static/css/style.css')
+        script(src='https://www.digiwin.com/static/js/jquery-1.11.3.min.js')
+
+        //- 全站共用(自定義)
+        script(src="https://unpkg.com/vue/dist/vue.js")
+        script(src="https://www.digiwin.com/dgw/assets/promise-polyfill.min.js")
+        script(src="https://www.digiwin.com/dgw/assets/fetch-polyfill.js")
+        script(src="https://www.digiwin.com/dgw/assets/array-find-polyfill.js")
+    body
+        // 以下為後台上稿內容
+        //- form
+        link(rel="stylesheet", href="https://www.digiwin.com/contact_fault/css/contactForm.css")
+        link(rel="stylesheet", href="https://www.digiwin.com/contact_fault/css/xcConfirm.css")
+        script(src="https://www.digiwin.com/contact_fault/js/form.js", defer)
+        script(src="https://www.digiwin.com/contact_fault/js/xcConfirm.js", defer)
+        script(src="https://www.digiwin.com/contact_fault/js/jquery.xdomainrequest.min.js", defer)
+
+        block includes
+        
+        main
+            block content
+
+        include contact.html

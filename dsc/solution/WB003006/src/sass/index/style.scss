@@ -1,0 +1,73 @@
+@import '../common';
+@import 'components';
+
+main {
+    .section1 {
+        @include bg('index/section1-bg-s.jpg', 50% 100%);
+        padding-bottom: 40px;
+        background-size: cover;
+        @media (min-width: $tablet-width + 1) {
+            background-image: image-url('index/section1-bg.jpg');
+        }
+        &-illust,
+        &-source {
+            margin: 0 auto;
+            max-width: 900px;
+        }
+        &-source {
+            margin-top: 8px;
+            text-align: right;
+            font-size: 18px;
+            line-height: 1;
+        }
+    }
+    .section2 {
+        padding-bottom: 60px;
+        .container {
+            display: flex;
+            flex-direction: column;
+            overflow: hidden;
+        }
+        &-source {
+            margin-top: 1em;
+            text-align: right;
+            line-height: 1;
+            order: 1;
+            @media (min-width: $tablet-width + 1) {
+                margin-top: 0;
+                margin-bottom: 1em;
+                padding-right: percentage(70/1200);
+                order: 0;
+            }
+        }
+        .progressBars {
+            width: 100%;
+            @media (min-width: $tablet-width + 1) {
+                margin-left: percentage(160/1200);
+            }
+        }
+    }
+    .section3 {
+        padding-bottom: 60px;
+        background-color: #ececec;
+    }
+    .section4 {
+        .sectionTitle {
+            text-align: center;
+            strong {
+                color: #d10000;
+            }
+        }
+        &-illust {
+            margin: 0 auto;
+            max-width: 1087px;
+            @media (min-width: $tablet-width + 1) {
+                margin-top: 30px;
+            }
+        }
+    }
+    .section5 {
+        padding-bottom: 40px;
+        background-color: #ececec;
+    }
+}

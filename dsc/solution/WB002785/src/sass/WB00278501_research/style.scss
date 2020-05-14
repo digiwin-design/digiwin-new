@@ -1,0 +1,85 @@
+@import '../common';
+@import 'components';
+
+main {
+    line-height: 1.6;
+    .hoverBox {
+        // icon
+        @for $nth from 1 through 3 {
+            &.icon#{$nth} {
+                &::before {
+                    background-image: url('../../images/WB00278501_research/hover-box-icon#{$nth}.png');
+                }
+            }
+        }
+    }
+    .slider {
+        &-desc {
+            display: flex;
+            flex-direction: column;
+            margin-bottom: 1.5em;
+            width: 100%;
+            align-items: center;
+            &-title {
+                display: flex;
+                flex-direction: column;
+                margin-bottom: .5em;
+                font-weight: bold;
+                font-size: 24px;
+                align-items: center;
+                @media (min-width: $tablet-width + 1) {
+                    flex-direction: row;
+                    align-items: flex-start;
+                }
+                > strong {
+                    flex: none;
+                    margin-bottom: .5em;
+                    color: #30c2c4;
+                    font-size: 36px;
+                    font-family: -apple-system, Roboto, Helvetica, Arial, 'PingFang TC', PMingLiU, sans-serif;
+                    line-height: 1;
+                    @media (min-width: $tablet-width + 1) {
+                        margin-right: .5em;
+                        margin-bottom: 0;
+                    }
+                }
+            }
+            ul {
+                padding-left: 1em;
+                list-style-type: disc;
+            }
+            & > * {
+                max-width: 100%;
+            }
+        }
+        &-listCols {
+            display: flex;
+            ul + ul {
+                margin-left: 50px;
+            }
+        }
+    }
+    .desktop-nav a,
+    .mobile .accordion h2 {
+        background-color: #30c2c4;
+    }
+    .sectionTitle {
+        padding-top: 50px;
+        text-align: center;
+        font-size: 26px;
+        @media (min-width: $tablet-width + 1) {
+            font-size: 36px;
+        }
+    }
+    .more {
+        @include btn(100%, 60px, #00ada7, #fff, 0);
+        margin: 50px auto 0;
+        max-width: 510px;
+        border: 1px solid #00ada7;
+        font-weight: bold;
+        font-size: 24px;
+        @media (min-width: $tablet-width + 1) {
+            margin-top: 0;
+        }
+    }
+}

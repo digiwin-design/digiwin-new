@@ -1,0 +1,959 @@
+@charset "UTF-8";
+main {
+    /*專為特定產業研發的解決方案*/
+    /*ERP不再只是ERP*/
+    /*行業深耕，獨到專精*/
+    /*我們給您規劃的e化藍圖*/
+    /*成就客戶創造應用價值*/
+}
+
+main #banner {
+    width: 100%;
+    height: 470px;
+    min-width: 1000px;
+    font-size: 16px;
+    font-family: "微軟正黑體", "新細明體", Arial, Helvetica, sans-serif;
+    line-height: 30px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+
+main #banner #bannerCon {
+    width: 5760px;
+    height: 470px;
+    border-bottom: 1px solid #CCC;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+main #banner #bannerCon > div {
+    width: 1920px;
+    float: left;
+}
+
+main #banner h2 {
+    width: 1000px;
+    height: 470px;
+    margin: 0 auto;
+    padding: 0;
+    position: relative;
+    left: 0;
+}
+
+main #banner h2 #bannerButton {
+    position: absolute;
+    top: 321px;
+    left: 0px;
+    z-index: 28;
+    width: 655px;
+    height: 72px;
+}
+
+main #banner h2 #bannerButton li {
+    text-indent: -9999px;
+    float: left;
+}
+
+main #banner h2 #bannerButton li a {
+    width: 174px;
+    height: 49px;
+    display: block;
+}
+
+main #banner h2 #bannerButton li.bottom1 {
+    background: url(../images/contact.png) no-repeat left top;
+}
+
+main #banner h2 #bannerButton li.bottom2 {
+    background: url(../images/more.png) no-repeat left top;
+    margin-left: 25px;
+}
+
+main #banner h2 #bannerButton li.bottom1:hover, main #banner h2 #bannerButton li.bottom2:hover, main #banner h2 #bannerButton li.bottom3:hover, main #banner h2 #bannerButton li.bottom4:hover,
+main #banner h2 #bannerButton li.bottom5:hover, main #banner h2 #bannerButton li.bottom6:hover, main #banner h2 #bannerButton li.bottom7:hover {
+    background-position: right top;
+}
+
+main #banner .banner_01 {
+    background: url(../images/banner_bg1.jpg) no-repeat center center;
+}
+
+main #banner .banner_02 {
+    background: url(../images/banner_bg2.jpg) no-repeat center center;
+}
+
+main #banner .banner_03 {
+    background: url(../images/banner_bg3.jpg) no-repeat center center;
+}
+
+main #banner #bannerOrder {
+    width: 100%;
+    height: 70px;
+    background: url(../images/buttonBg.png) repeat-x top left;
+    position: absolute;
+    top: 400px;
+    left: 0;
+    z-index: 28;
+}
+
+main #banner #bannerOrder > ul {
+    width: 294px;
+    height: 70px;
+    padding-left: 806px;
+    margin: 0 auto;
+}
+
+main #banner #bannerOrder > ul > li {
+    width: 80px;
+    height: 45px;
+    float: left;
+    margin-left: 10px;
+    border: 4px solid #fff;
+    position: relative;
+    cursor: pointer;
+}
+
+main #banner #bannerOrder > ul > li.now {
+    margin-top: -10px;
+}
+
+main #banner #bannerOrder .bannerDes {
+    width: 285px;
+    height: 70px;
+    background: url(../images/bannerDes.png) no-repeat left top;
+    position: absolute;
+    top: -94px;
+    left: -220px;
+    padding: 10px;
+    display: none;
+}
+
+main #banner #bannerOrder .bannerDes img {
+    float: left;
+}
+
+main #banner #bannerOrder .bannerDes p {
+    width: 215px;
+    color: #fff;
+    font-family: "微軟正黑體", "新細明體", Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    text-align: justify;
+    line-height: 18px;
+    float: right;
+    margin-top: 5px;
+}
+
+main #banner #bannerOrder .bannerDes .bannerTitle {
+    color: #ffc001;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+main h2 {
+    width: 100%;
+    color: #034ea2;
+    font-family: "微軟正黑體", "新細明體", Arial;
+    font-size: 36px;
+    line-height: 40px;
+    text-align: center;
+    margin: 60px 0px 30px 0px;
+}
+
+main .foreword {
+    font-size: 22px;
+    color: #218cd9;
+    line-height: 1.5;
+    font-family: "微軟正黑體", "新細明體", Arial;
+    text-align: center;
+    margin-top: 20px;
+    font-weight: normal;
+}
+
+main #wrapper1_bg {
+    width: 100%;
+    height: auto;
+    background-color: #dff4fd;
+    background-image: url(../images/wrapper0_bg.jpg);
+    margin-top: 0px;
+}
+
+main #wrapper1_bg h2 {
+    margin: 0px;
+    padding-top: 100px;
+}
+
+main #wrapper1 {
+    width: 800px;
+    height: 450px;
+    margin: 0 auto;
+    padding-top: 30px;
+    box-sizing: border-box;
+}
+
+main .title {
+    padding-left: 45px;
+    display: inline-block;
+    background: url(../images/titleIcon.png) no-repeat left top;
+}
+
+main #wrapper1 #boxs {
+    float: left;
+    width: 160px;
+    height: 150px;
+    box-sizing: border-box;
+    margin: 15px;
+    overflow: hidden;
+    font-family: "微軟正黑體", "新細明體",Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    line-height: 32px;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+main #wrapper1 a.boxa {
+    width: 160px;
+    height: 105px;
+    background-image: url(../images/problems_01.png);
+    box-sizing: border-box;
+    background-position: top left;
+    background-repeat: no-repeat;
+    display: block;
+    float: left;
+}
+
+main #wrapper1 a.boxb {
+    width: 160px;
+    height: 105px;
+    background-image: url(../images/problems_02.png);
+    box-sizing: border-box;
+    background-position: top left;
+    background-repeat: no-repeat;
+    display: block;
+    float: left;
+}
+
+main #wrapper1 a.boxc {
+    width: 160px;
+    height: 105px;
+    background-image: url(../images/problems_03.png);
+    box-sizing: border-box;
+    background-position: top left;
+    background-repeat: no-repeat;
+    display: block;
+    float: left;
+}
+
+main #wrapper1 a.boxd {
+    width: 160px;
+    height: 105px;
+    background-image: url(../images/problems_04.png);
+    box-sizing: border-box;
+    background-position: top left;
+    background-repeat: no-repeat;
+    display: block;
+    float: left;
+}
+
+main #wrapper1 a.boxe {
+    width: 160px;
+    height: 105px;
+    background-image: url(../images/problems_05.png);
+    box-sizing: border-box;
+    background-position: top left;
+    background-repeat: no-repeat;
+    display: block;
+    float: left;
+}
+
+main #wrapper1 a.boxf {
+    width: 160px;
+    height: 105px;
+    background-image: url(../images/problems_06.png);
+    box-sizing: border-box;
+    background-position: top left;
+    background-repeat: no-repeat;
+    display: block;
+    float: left;
+}
+
+main #wrapper1 a.boxg {
+    width: 160px;
+    height: 105px;
+    background-image: url(../images/problems_07.png);
+    box-sizing: border-box;
+    background-position: top left;
+    background-repeat: no-repeat;
+    display: block;
+    float: left;
+}
+
+main #wrapper1 a.boxh {
+    width: 160px;
+    height: 105px;
+    background-image: url(../images/problems_08.png);
+    box-sizing: border-box;
+    background-position: top left;
+    background-repeat: no-repeat;
+    display: block;
+    float: left;
+}
+
+main #wrapper1 #boxs a:hover {
+    width: 160px;
+    height: 105px;
+    box-sizing: border-box;
+    background-position: top right;
+    background-repeat: no-repeat;
+    display: block;
+    float: left;
+}
+
+main #wrapper1 p {
+    font-family: "微軟正黑體", "新細明體",Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    line-height: 52px;
+    letter-spacing: 1px;
+}
+
+main #problemsTxt {
+    margin: 0 auto;
+}
+
+main #wrapper2_bg {
+    width: 100%;
+    padding: 40px 0px 30px 0px;
+    background-image: url(../images/wrapper0_bg2.jpg);
+    background-position: top center;
+    background-repeat: no-repeat;
+}
+
+main #wrapper2 {
+    width: 960px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+main #wrapper2 h2 {
+    color: #FFF;
+    font-size: 50px;
+}
+
+main #wrapper2 h3 {
+    color: #c1e3fc;
+    margin-bottom: 30px;
+}
+
+main .title1 {
+    padding-left: 45px;
+    display: inline-block;
+    background: url(../images/titleIcon1.png) no-repeat left top;
+}
+
+main #ERPTxt {
+    width: 660px;
+    height: 600px;
+    margin: 0 auto;
+}
+
+main #ERPbox {
+    float: left;
+    width: 113px;
+    height: 113px;
+    box-sizing: border-box;
+    margin: 10px 20px 20px 30px;
+    overflow: hidden;
+    font-family: "微軟正黑體", "新細明體",Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    line-height: 60px;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+main #ERPbox a.icon1 {
+    width: 113px;
+    height: 113px;
+    background: url(../images/erp_icon_01.png) no-repeat left top;
+    text-indent: -9999px;
+    display: block;
+}
+
+main #ERPbox a.icon2 {
+    width: 113px;
+    height: 113px;
+    background: url(../images/erp_icon_02.png) no-repeat left top;
+    text-indent: -9999px;
+    display: block;
+}
+
+main #ERPbox a.icon3 {
+    width: 113px;
+    height: 113px;
+    background: url(../images/erp_icon_03.png) no-repeat left top;
+    text-indent: -9999px;
+    display: block;
+}
+
+main #ERPbox a.icon4 {
+    width: 113px;
+    height: 113px;
+    background: url(../images/erp_icon_04.png) no-repeat left top;
+    text-indent: -9999px;
+    display: block;
+}
+
+main #ERPbox a.icon5 {
+    width: 113px;
+    height: 113px;
+    background: url(../images/erp_icon_05.png) no-repeat left top;
+    text-indent: -9999px;
+    display: block;
+}
+
+main #ERPbox a.icon6 {
+    width: 113px;
+    height: 113px;
+    background: url(../images/erp_icon_06.png) no-repeat left top;
+    text-indent: -9999px;
+    display: block;
+}
+
+main #ERPbox a.icon7 {
+    width: 113px;
+    height: 113px;
+    background: url(../images/erp_icon_07.png) no-repeat left top;
+    text-indent: -9999px;
+    display: block;
+}
+
+main #ERPbox a.icon8 {
+    width: 113px;
+    height: 113px;
+    background: url(../images/erp_icon_08.png) no-repeat left top;
+    text-indent: -9999px;
+    display: block;
+}
+
+main #ERPbox a.icon9 {
+    width: 113px;
+    height: 113px;
+    background: url(../images/erp_icon_09.png) no-repeat left top;
+    text-indent: -9999px;
+    display: block;
+}
+
+main #ERPbox a.icon10 {
+    width: 113px;
+    height: 113px;
+    background: url(../images/erp_icon_10.png) no-repeat left top;
+    text-indent: -9999px;
+    display: block;
+}
+
+main #ERPbox a.icon11 {
+    width: 113px;
+    height: 113px;
+    background: url(../images/erp_icon_11.png) no-repeat left top;
+    text-indent: -9999px;
+    display: block;
+}
+
+main #ERPbox a.icon12 {
+    width: 113px;
+    height: 113px;
+    background: url(../images/erp_icon_12.png) no-repeat left top;
+    text-indent: -9999px;
+    display: block;
+}
+
+main #ERPbox a.icon13 {
+    width: 113px;
+    height: 113px;
+    background: url(../images/erp_icon_13.png) no-repeat left top;
+    text-indent: -9999px;
+    display: block;
+}
+
+main #ERPbox a.icon14 {
+    width: 113px;
+    height: 113px;
+    background: url(../images/erp_icon_14.png) no-repeat left top;
+    text-indent: -9999px;
+    display: block;
+}
+
+main #ERPbox a.icon15 {
+    width: 113px;
+    height: 113px;
+    background: url(../images/erp_icon_15.png) no-repeat left top;
+    text-indent: -9999px;
+    display: block;
+}
+
+main #ERPbox a.icon16 {
+    width: 113px;
+    height: 113px;
+    background: url(../images/erp_icon_16.png) no-repeat left top;
+    text-indent: -9999px;
+    display: block;
+}
+
+main #ERPbox a:hover {
+    background-position: right top;
+}
+
+main #buttonCase {
+    width: 206px;
+    margin: 20px auto;
+}
+
+main #buttonCase p {
+    width: 206px;
+    height: 48px;
+    float: left;
+    text-indent: -9999px;
+}
+
+main #buttonCase #DO1 {
+    background: url(../images/do_icon1.png) no-repeat left top;
+}
+
+main #buttonCase #DO1:hover {
+    background-position: right top;
+}
+
+main #button_R {
+    text-align: center;
+    margin-top: 10px;
+}
+
+main .btnR {
+    float: left;
+    font-size: 16px;
+    font-family: "微軟正黑體", "新細明體", Arial, Helvetica, sans-serif;
+    width: 140px;
+    height: 30px;
+    margin: 0 auto;
+    line-height: 30px;
+    letter-spacing: 1px;
+    margin-right: 15px;
+}
+
+main .btnR a {
+    display: block;
+    color: #e93030;
+    text-decoration: none;
+    border: #e93030 solid 1px;
+    background-color: #c5ebfe;
+}
+
+main .btnR a:hover {
+    text-decoration: none;
+    color: #FFF;
+    background-color: #e93030;
+    margin: 0 auto;
+    border-bottom: #e93030 solid 1px;
+}
+
+main #inCase_bg {
+    width: 100%;
+    background-color: #eaeaea;
+    padding: 50px 0px 30px 0px;
+}
+
+main #inCase {
+    width: 960px;
+    margin: 0 auto;
+}
+
+main #inCase h2 {
+    color: #034ea2;
+}
+
+main #inCase h3 {
+    color: #199fff;
+    margin-bottom: 30px;
+}
+
+main #buttonCase {
+    width: 206px;
+    margin: 20px auto;
+}
+
+main #buttonCase p {
+    width: 206px;
+    height: 48px;
+    float: left;
+    text-indent: -9999px;
+}
+
+main #buttonCase #DO1 {
+    background: url(../images/do_icon1.png) no-repeat left top;
+}
+
+main #buttonCase #DO1:hover {
+    background-position: right top;
+}
+
+main #button_R {
+    text-align: center;
+    margin-top: 10px;
+}
+
+main .btnR {
+    float: left;
+    font-size: 16px;
+    font-family: "微軟正黑體", "新細明體", Arial, Helvetica, sans-serif;
+    width: 140px;
+    height: 30px;
+    margin: 0 auto;
+    line-height: 30px;
+    letter-spacing: 1px;
+    margin-right: 15px;
+}
+
+main .btnR a {
+    display: block;
+    color: #e93030;
+    text-decoration: none;
+    border: #e93030 solid 1px;
+    background-color: #c5ebfe;
+}
+
+main .btnR a:hover {
+    text-decoration: none;
+    color: #FFF;
+    background-color: #e93030;
+    margin: 0 auto;
+    border-bottom: #e93030 solid 1px;
+}
+
+main #wrapper5 {
+    width: 960px;
+    height: 700px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+main #solutionTxt {
+    width: 960px;
+    height: 410px;
+}
+
+main #plan1 {
+    width: 480px;
+    height: 350px;
+    float: left;
+    margin-top: 10px;
+    text-align: center;
+}
+
+main #plan2 {
+    width: 480px;
+    height: 350px;
+    float: right;
+    margin-top: 10px;
+    text-align: center;
+}
+
+main #wrapper5 #buttonCase3 {
+    width: 174px;
+    margin: 0 auto;
+}
+
+main #wrapper5 #buttonCase3 p {
+    float: left;
+    width: 174px;
+    height: 49px;
+    text-indent: -9999px;
+}
+
+main #wrapper5 #buttonCase3 #DO3 {
+    background: url(../images/contact.png) no-repeat left top;
+}
+
+main #wrapper5 #buttonCase3 #DO3:hover {
+    background-position: right top;
+}
+
+main #buttonCase2 {
+    width: 206px;
+    margin: 30px auto;
+}
+
+main #buttonCase2 p {
+    width: 206px;
+    height: 48px;
+    float: left;
+    text-indent: -9999px;
+}
+
+main #buttonCase2 #DO2 {
+    background: url(../images/do_icon2.png) no-repeat left top;
+}
+
+main #buttonCase2 #DO2:hover {
+    background-position: right top;
+}
+
+main .section h2 {
+    font-size: 36px;
+    text-align: center;
+    margin: 50px 0px 20px 0px;
+}
+
+main .section h3 {
+    font-size: 21px;
+    text-align: center;
+    font-weight: normal;
+    line-height: 32px;
+}
+
+main .section {
+    width: 100%;
+    min-width: 1000px;
+    color: #333;
+    font-size: 16px;
+    font-family: Arial, "微軟正黑體", "新細明體";
+    position: relative;
+}
+
+main .content {
+    width: 1000px;
+    margin: 0 auto;
+    position: relative;
+}
+
+main #industry {
+    height: 700px;
+    background: url(../images/section1_Bg2.jpg) repeat-x left top;
+    padding: 0;
+    overflow: hidden;
+}
+
+main #industry .case {
+    height: 700px;
+    position: absolute;
+    top: -45px;
+    left: 1950px;
+    z-index: 28;
+}
+
+main #industry .case.now {
+    left: 0;
+}
+
+main #industry .caseContent {
+    width: 515px;
+    padding-top: 67px;
+    margin-left: 465px;
+}
+
+main #industry .caseContent h4 {
+    font-size: 21px;
+    line-height: 24px;
+    background: no-repeat left center;
+    padding-left: 35px;
+    margin-bottom: -10px;
+}
+
+main #industry .caseContent p {
+    color: #fff;
+    font-size: 19px;
+    line-height: 26px;
+    text-align: justify;
+    margin: 30px 0 0 88px;
+}
+
+main #industry .caseName {
+    font-size: 21px;
+    font-weight: bold;
+    line-height: 35px;
+}
+
+main #industry .video {
+    padding: 14px 7px;
+    background: url(../images/section1_videoBg.png) no-repeat center center;
+}
+
+main #industry a.caseRead {
+    width: 110px;
+    color: #fff;
+    font-size: 17px;
+    line-height: 28px;
+    text-align: center;
+    display: block;
+    margin: 8px 0 0 405px;
+    background: url(../images/section1_caseRead.png) no-repeat left top;
+}
+
+main #industry a.caseRead:hover {
+    background-position: right top;
+}
+
+main #industry #case_1 {
+    background: url(../images/case_01.png) no-repeat left top;
+}
+
+main #industry #case_2 {
+    background: url(../images/case_02.png) no-repeat left top;
+}
+
+main #industry #case_3 {
+    background: url(../images/case_03.png) no-repeat left top;
+}
+
+main #industry #caseOrder {
+    width: 210px;
+    position: absolute;
+    top: 495px;
+    left: 635px;
+    z-index: 28;
+}
+
+main #industry #caseOrder li {
+    width: 15px;
+    height: 15px;
+    margin-right: 5px;
+    float: left;
+    text-indent: -99999px;
+    background-color: #555;
+    border-radius: 15px;
+    -moz-border-radius: 15px;
+    -webkit-border-radius: 15px;
+}
+
+main #industry #caseOrder .tabNow {
+    background-color: #086eb7;
+}
+
+main #industry #caseOrder li:hover {
+    cursor: pointer;
+}
+
+main p.contactBtn {
+    position: relative;
+    z-index: 2;
+    width: 400px;
+    line-height: 55px;
+    margin: 50px auto 0;
+    margin-bottom: 50px;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    background-color: #034ea2;
+    border: 1px solid #ffffff;
+    letter-spacing: 1px;
+    font-family: "微軟正黑體", Arial, Helvetica, sans-serif;
+}
+
+main p.contactBtn a {
+    color: #FFF;
+}
+
+main p.contactBtn:hover {
+    background-color: #ffb400;
+}
+
+main p.Btn2 {
+    position: relative;
+    z-index: 2;
+    width: 400px;
+    line-height: 55px;
+    margin: 50px auto 0;
+    margin-bottom: 50px;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    background-color: #034ea2;
+    border: 1px solid #ffffff;
+    letter-spacing: 1px;
+    font-family: "微軟正黑體", Arial, Helvetica, sans-serif;
+}
+
+main p.Btn2 a {
+    color: #FFF;
+}
+
+main p.Btn2:hover {
+    background-color: #ffb400;
+}
+main #seminar { width: 100%; background-color:#eeeeee;font-family: "微軟正黑體", "新細明體", Arial, Helvetica, sans-serif; }
+main #banner_bg2 {
+    width: 1000px;
+	margin: 0 auto;
+    height: 430px;
+	}
+main #banner_bg2 h2 {
+	width: 1000px;
+	padding: 50px 0px 20px 0px;
+	text-align: center;
+	margin: 0 auto;
+	color: #034ea2;
+	font-size: 32px;
+	
+}
+main #banner_bg2 .txtbox {
+    float: left;
+    width: 1000px;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+main #banner_bg2 .txtbox .txtbox_L {
+    float: left;
+    width: 300px;
+    margin-right: 15px;
+}
+
+main #banner_bg2 .txtbox .txtbox_R {
+    float: right;
+    width: 685px;
+}
+
+main #banner_bg2 .txtbox .txtbox_R h3 {
+    font-size: 20px;
+    line-height: 1.6;
+    color: #034ea2;
+}
+
+main #banner_bg2 .txtbox .txtbox_R p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #202020;
+    padding-bottom: 20px;
+	text-align: justify;
+}
+main #button_R {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+main .btnR {
+    float: left;
+    font-size: 16px;
+    font-family: "微軟正黑體", "新細明體", Arial, Helvetica, sans-serif;
+    width: 250px;
+    height: 30px;
+    margin: 0 auto;
+    line-height: 30px;
+    letter-spacing: 1px;
+}
+
+main .btnR a {
+    display: block;
+    color: #034ea2;
+    text-decoration: none;
+    border: #034ea2 solid 1px;
+}
+
+main .btnR a:hover {
+    text-decoration: none;
+    color: #FFF;
+    background-color: #034ea2;
+    margin: 0 auto;
+    border-bottom: #034ea2 solid 1px;
+}

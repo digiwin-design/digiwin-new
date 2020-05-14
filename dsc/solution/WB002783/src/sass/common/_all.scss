@@ -1,0 +1,112 @@
+[v-cloak] {
+    display: none;
+}
+// dat.GUI
+.dg.ac {
+    z-index: 99;
+}
+main {
+    * {
+        box-sizing: content-box;
+        &:before,
+        &:after {
+            box-sizing: content-box;
+        }
+    }
+    .section {
+        padding: 70px 0;
+        min-width: 1000px;
+        width: 100%;
+        color: #444;
+        font-size: 18px;
+        font-family: Arial, '微軟正黑體';
+        h2 {
+            margin-bottom: 5px;
+            text-align: center;
+            font-weight: normal;
+            font-size: 36px;
+            line-height: 43px;
+        }
+        p {
+            margin: 0;
+            padding: 0;
+            text-align: justify;
+            line-height: 30px;
+        }
+    }
+    .content {
+        position: relative;
+        margin: 0 auto;
+        width: 1000px;
+    }
+    .circle {
+        margin: 0 auto;
+        border-radius: 50%;
+    }
+    .floatLeft {
+        float: left;
+    }
+    .floatRight {
+        float: right;
+    }
+    p {
+        &.imgNote {
+            text-align: center;
+            font-weight: bold;
+            font-size: 19px;
+        }
+        &.sectionNote {
+            margin: 0 auto 30px;
+            padding: 0 50px;
+        }
+        &.pageBtn {
+            margin: 50px auto 0;
+            width: 400px;
+            border: 1px solid #fff;
+            text-align: center;
+            font-size: 24px;
+            line-height: 60px;
+            cursor: pointer;
+        }
+        &.contactBtn {
+            position: relative;
+            z-index: 2;
+            margin: -30px auto 0;
+            width: 400px;
+            text-align: center;
+            font-size: 21px;
+            line-height: 55px;
+            cursor: pointer;
+            &:hover {
+                background-color: #ffb400;
+            }
+        }
+    }
+    #navLink {
+        padding: 10px 0;
+        min-width: 1020px;
+        width: 100%;
+        height: 80px;
+        background-color: #fff;
+        text-align: center;
+        font-family: Arial, '微軟正黑體';
+    }
+    .navLink {
+        position: absolute;
+        top: 602px;
+        z-index: 999;
+    }
+    .fixed {
+        position: fixed;
+        top: 0px;
+        width: 100%;
+        background-color: #f7f7f7;
+    }
+    #pageTitle {
+        padding-top: 0;
+        padding-bottom: 0;
+        h1 {
+            text-align: left;
+        }
+    }
+}

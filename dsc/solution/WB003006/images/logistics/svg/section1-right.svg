@@ -1,0 +1,101 @@
+<svg data-name="圖層 5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 834 346">
+  <path d="M.75 83.85c0-6.83 4.49-12.85 9.6-12.9h125.86c5.17 0 9.66 6.07 9.6 12.9v12.9c.06 7.42-4.43 13.45-9.6 12.89H10.35c-5.11.55-9.6-5.48-9.6-12.89v-12.9z" fill="#7e7e7e" fill-rule="evenodd"/>
+  <path d="M.75 84.46c0-7.44 4.49-13.46 10-13.46h125.09c5.54 0 10 6 10 13.46v12.29c0 7.43-4.49 13.46-10 13.46H10.75c-5.54 0-10-6-10-13.46V84.46z" fill="none" stroke="#fff" stroke-width="1.501"/>
+  <text transform="matrix(.8 0 0 .8 27.95 98.38)" font-size="27.221" fill="#fff">
+    <tspan letter-spacing=".017em">要貨範</tspan><tspan x="83.05" y="0">本</tspan>
+  </text>
+  <path d="M.75 131.12c0-6.87 4.48-12.89 9.6-12.89h125.86c5.17 0 9.66 6 9.6 12.89v12.9c.06 7.34-4.43 13.36-9.6 12.89H10.35c-5.12.47-9.6-5.55-9.6-12.89v-12.9z" fill="#7e7e7e" fill-rule="evenodd"/>
+  <path d="M.75 131.68c0-7.43 4.48-13.45 10-13.45h125.1c5.53 0 10 6 10 13.45v12.25c0 7.43-4.49 13.45-10 13.45H10.75c-5.53 0-10-6-10-13.45v-12.25z" fill="none" stroke="#fff" stroke-width="1.501"/>
+  <text transform="matrix(.8 0 0 .8 27.95 146.11)" font-size="27.221" fill="#fff">
+    <tspan letter-spacing=".017em">車輛資</tspan><tspan x="83.05" y="0">訊</tspan>
+  </text>
+  <path d="M.75 178.4c0-7 4.48-13 9.6-12.89h125.86c5.17-.1 9.66 5.92 9.6 12.89v12.9c.06 7.24-4.43 13.26-9.6 12.89H10.35c-5.12.37-9.6-5.65-9.6-12.89v-12.9z" fill="#7e7e7e" fill-rule="evenodd"/>
+  <path d="M.75 178.86c0-7.43 4.48-13.45 10-13.45h125.1c5.53 0 10 6 10 13.45v12.25c0 7.43-4.49 13.45-10 13.45H10.75c-5.53 0-10-6-10-13.45v-12.25z" fill="none" stroke="#fff" stroke-width="1.501"/>
+  <text transform="matrix(.8 0 0 .8 27.95 193.29)" font-size="27.221" fill="#fff">
+    <tspan letter-spacing=".017em">配送線</tspan><tspan x="83.05" y="0">路</tspan>
+  </text>
+  <path d="M.75 225.68c0-7.06 4.48-13.08 9.6-12.89h125.86c5.17-.19 9.66 5.83 9.6 12.89v12.89c.06 7.16-4.43 13.18-9.6 12.9H10.35c-5.12.28-9.6-5.72-9.6-12.9v-12.89z" fill="#7e7e7e" fill-rule="evenodd"/>
+  <path d="M.75 226.05c0-7.43 4.48-13.45 10-13.45h125.1c5.53 0 10 6 10 13.45v12.25c0 7.43-4.49 13.45-10 13.45H10.75c-5.53 0-10-6-10-13.45v-12.25z" fill="none" stroke="#fff" stroke-width="1.501"/>
+  <text transform="matrix(.8 0 0 .8 27.95 239.55)" font-size="27.221" fill="#fff">
+    <tspan letter-spacing=".017em">配送規</tspan><tspan x="83.05" y="0">則</tspan>
+  </text>
+  <path d="M.75 272.96c0-7.16 4.48-13.18 9.6-12.9h125.86c5.17-.28 9.66 5.74 9.6 12.9v12.89c.06 7.06-4.43 13.08-9.6 12.9H10.35c-5.12.18-9.6-5.84-9.6-12.9v-12.89z" fill="#7e7e7e" fill-rule="evenodd"/>
+  <path d="M.75 273.23c0-7.43 4.48-13.48 10-13.48h125.1c5.53 0 10 6 10 13.45v12.25c0 7.43-4.49 13.45-10 13.45H10.75c-5.53 0-10-6-10-13.45v-12.22z" fill="none" stroke="#fff" stroke-width="1.501"/>
+  <text transform="matrix(.8 0 0 .8 27.95 287.68)" font-size="27.221" fill="#fff">
+    <tspan letter-spacing=".017em">配送價</tspan><tspan x="83.05" y="0">格</tspan>
+  </text>
+  <path d="M.75 320.24c0-7.25 4.48-13.27 9.6-12.9h125.86c5.17-.37 9.66 5.65 9.6 12.9v12.89c.06 7-4.43 13-9.6 12.89H10.35c-5.12.1-9.6-5.92-9.6-12.89v-12.89z" fill="#7e7e7e" fill-rule="evenodd"/>
+  <path d="M.75 320.42c0-7.43 4.48-13.45 10-13.45h125.1c5.53 0 10 6 10 13.45v12.25c0 7.43-4.49 13.45-10 13.45H10.75c-5.53 0-10-6-10-13.45v-12.25z" fill="none" stroke="#fff" stroke-width="1.501"/>
+  <text transform="matrix(.8 0 0 .8 27.95 334.85)" font-size="27.221" fill="#fff">
+    <tspan letter-spacing=".017em">信用管</tspan><tspan x="83.05" y="0">控</tspan>
+  </text>
+  <path d="M.75 13.64C.88 6.69 5.31.75 10.35.75h125.86c5.22 0 9.65 5.94 9.6 12.89v22.93c.05 7.47-4.38 13.41-9.6 12.89H10.35c-5 .52-9.47-5.42-9.6-12.89V13.64z" fill="#b51f24" fill-rule="evenodd"/>
+  <path d="M.88 14.02C.88 6.69 5.31.75 10.75.75h125.23c5.45 0 9.88 5.94 9.88 13.27v22.73c0 7.33-4.43 13.27-9.88 13.27H10.75C5.31 49.98.88 44.04.88 36.75V14.02z" fill="none" stroke="#fff" stroke-width="1.501"/>
+  <text transform="matrix(.8 0 0 .8 23.16 34.69)" font-size="31.519" fill="#fff">
+    <tspan letter-spacing="-.018em">基礎資</tspan><tspan x="92.85" y="0">料</tspan>
+  </text>
+  <path d="M179.94 13.64c.12-6.95 4.55-12.89 9.59-12.89h125.86c5.22 0 9.65 5.94 9.6 12.89v22.93c.05 7.47-4.38 13.41-9.6 12.89H189.53c-5 .52-9.47-5.42-9.59-12.89V13.64z" fill="#b51f24" fill-rule="evenodd"/>
+  <path d="M180.06 14.02c0-7.33 4.43-13.27 9.88-13.27h125.22c5.45 0 9.88 5.94 9.88 13.27v22.73c0 7.33-4.43 13.27-9.88 13.27H189.94c-5.45 0-9.88-5.94-9.88-13.27V14.02z" fill="none" stroke="#fff" stroke-width="1.501"/>
+  <text transform="matrix(.8 0 0 .8 215.9 34.69)" font-size="31.519" fill="#fff">
+    <tspan letter-spacing="-.018em">要貨</tspan><tspan x="61.9" y="0">單</tspan>
+  </text>
+  <path d="M359.12 13.64c.12-6.95 4.55-12.89 9.63-12.89h125.83c5.21 0 9.64 5.94 9.6 12.89v22.93c0 7.47-4.39 13.41-9.6 12.89H368.75c-5.05.52-9.48-5.42-9.6-12.89V13.64z" fill="#b51f24" fill-rule="evenodd"/>
+  <path d="M359.24 14.02c0-7.33 4.43-13.27 9.88-13.27h125.22c5.45 0 9.88 5.94 9.88 13.27v22.73c0 7.33-4.43 13.27-9.88 13.27H369.12c-5.45 0-9.88-5.94-9.88-13.27V14.02z" fill="none" stroke="#fff" stroke-width="1.501"/>
+  <text transform="matrix(.8 0 0 .8 385.61 34.69)" font-size="31.519" fill="#fff" letter-spacing="-.018em">
+    要貨匯<tspan x="92.85" y="0" letter-spacing="0em">總</tspan>
+  </text>
+  <path d="M538.31 13.64c.11-6.95 4.54-12.89 9.6-12.89h125.84c5.21 0 9.64 5.94 9.6 12.89v22.93c0 7.47-4.39 13.41-9.6 12.89H547.91c-5.06.52-9.49-5.42-9.6-12.89V13.64z" fill="#b51f24" fill-rule="evenodd"/>
+  <path d="M538.42 14.02c0-7.33 4.43-13.27 9.88-13.27h125.22c5.45 0 9.88 5.94 9.88 13.27v22.73c0 7.33-4.43 13.27-9.88 13.27H548.3c-5.45 0-9.88-5.94-9.88-13.27V14.02z" fill="none" stroke="#fff" stroke-width="1.501"/>
+  <text transform="matrix(.8 0 0 .8 572.21 34.69)" font-size="31.519" fill="#fff">
+    <tspan letter-spacing="-.018em">分揀</tspan><tspan x="61.9" y="0">貨</tspan>
+  </text>
+  <path d="M538.31 109.63c.11-6.86 4.36-12.57 9.6-12.89h123.72c5.73.32 10 6 9.6 12.89v21.49c.38 7.52-3.87 13.23-9.6 12.9H547.91c-5.24.33-9.49-5.38-9.6-12.9v-21.49z" fill="#b51f24" fill-rule="evenodd"/>
+  <path d="M538.42 109.81c0-7 4.25-12.75 9.49-12.75h124.21c5.24 0 9.49 5.71 9.49 12.75v21.79c0 7-4.25 12.75-9.49 12.75H547.91c-5.24 0-9.49-5.71-9.49-12.75v-21.79z" fill="none" stroke="#fff" stroke-width="1.501"/>
+  <text transform="matrix(.8 0 0 .8 559.8 129.66)" font-size="31.519" fill="#fff" letter-spacing="-.018em">
+    物流配<tspan x="92.85" y="0" letter-spacing="0em">送</tspan>
+  </text>
+  <path d="M538.31 298.75c.11-7.63 4.36-13.34 9.6-12.9h123.72c5.73-.44 10 5.27 9.6 12.9v21.49c.37 6.57-3.64 12.15-9.13 12.84a7.4 7.4 0 01-.94.05H548.54a7.74 7.74 0 01-1.6-.14c-4.78-1-8.52-6.41-8.63-12.75v-21.49z" fill="#b51f24" fill-rule="evenodd"/>
+  <path d="M538.42 298.16c0-7 4.25-12.75 9.49-12.75h124.21c5.24 0 9.49 5.71 9.49 12.75v21.8c0 7-4.25 12.75-9.49 12.75H547.91c-5.24 0-9.49-5.71-9.49-12.75v-21.8z" fill="none" stroke="#fff" stroke-width="1.501"/>
+  <text transform="matrix(.8 0 0 .8 559.8 317.85)" font-size="31.519" fill="#fff" letter-spacing="-.018em">
+    要貨入<tspan x="92.85" y="0" letter-spacing="0em">庫</tspan>
+  </text>
+  <path d="M359.12 113.93c.12-7.75 4.37-13.46 9.6-12.89h123.72c5.74-.57 10 5.14 9.6 12.89v14.33c.39 7-3.86 12.68-9.6 12.89H368.75c-5.23-.21-9.48-5.92-9.6-12.89v-14.33z" fill="#7e7e7e" fill-rule="evenodd"/>
+  <path d="M359.24 113.23c0-7 4.25-12.76 9.49-12.76h124.21c5.24 0 9.49 5.71 9.49 12.76v15c0 7-4.25 12.75-9.49 12.75H368.75c-5.24 0-9.49-5.71-9.49-12.75v-15z" fill="none" stroke="#fff" stroke-width="1.501"/>
+  <text transform="matrix(.8 0 0 .8 399.84 128.66)" font-size="27.221" fill="#fff" letter-spacing=".017em">
+    裝車<tspan x="55.37" y="0" letter-spacing="0em">單</tspan>
+  </text>
+  <path d="M538.31 207.06c.09-5.45 2.92-10.24 6.79-12.1a8.44 8.44 0 013.72-.8H671.1a7.31 7.31 0 011 .06c5.47.78 9.45 6.35 9.08 12.84v15.75c.36 6.2-3.38 11.62-8.59 12.74a8.19 8.19 0 01-1.71.16h-122a8.67 8.67 0 01-3.83-.84c-3.87-1.91-6.7-6.69-6.79-12.06v-15.75z" fill="#b51f24" fill-rule="evenodd"/>
+  <path d="M538.42 207.4c0-7 4.25-12.75 9.49-12.75h124.21c5.24 0 9.49 5.71 9.49 12.75v15c0 7-4.25 12.75-9.49 12.75H547.91c-5.24 0-9.49-5.7-9.49-12.75v-15z" fill="none" stroke="#fff" stroke-width="1.501"/>
+  <text transform="matrix(.8 0 0 .8 571.32 222.87)" font-size="31.519" fill="#fff">
+    <tspan letter-spacing="-.018em">在途</tspan><tspan x="61.9" y="0">倉</tspan>
+  </text>
+  <path d="M359.12 207.06c.12-6.7 4.37-12.41 9.6-12.9h123.72c5.74.49 10 6.2 9.6 12.9v15.75c.39 6.6-3.86 12.3-9.6 12.9H368.75c-5.23-.6-9.48-6.3-9.6-12.9v-15.75z" fill="#7e7e7e" fill-rule="evenodd"/>
+  <path d="M359.24 207.4c0-7 4.25-12.75 9.49-12.75h124.21c5.24 0 9.49 5.71 9.49 12.75v15c0 7-4.25 12.75-9.49 12.75H368.75c-5.24 0-9.49-5.7-9.49-12.75v-15z" fill="none" stroke="#fff" stroke-width="1.501"/>
+  <text transform="matrix(.8 0 0 .8 389.54 222.85)" font-size="27.221" fill="#fff">
+    <tspan letter-spacing=".017em">裝車回</tspan><tspan x="83.05" y="0">執</tspan>
+  </text>
+  <path d="M706.83 265.75c.5-8.06 5-14.09 10.66-14.32h105.59c5.75.32 10.24 6.32 10.67 14.32v11.47c-.43 7.61-4.92 13.64-10.67 14.32H717.49c-5.67-.68-10.16-6.71-10.66-14.32v-11.47z" fill="#7e7e7e" fill-rule="evenodd"/>
+  <path d="M707.33 265.17c0-7.44 4.49-13.47 10-13.47H823.3c5.53 0 10 6 10 13.47v12.26c0 7.44-4.49 13.47-10 13.47H717.35c-5.53 0-10-6-10-13.47v-12.26z" fill="none" stroke="#fff" stroke-width="1.501"/>
+  <text transform="matrix(.8 0 0 .8 729.04 278.57)" font-size="27.221" fill="#fff" letter-spacing=".017em">
+    物流申<tspan x="83.05" y="0" letter-spacing="0em">請</tspan>
+  </text>
+  <path d="M706.83 211.35c.5-7.11 5-13.14 10.66-12.89h105.59c5.75-.25 10.24 5.78 10.67 12.89v12.9c-.43 7.13-4.92 13.15-10.67 12.89H717.49c-5.67.26-10.16-5.76-10.66-12.89v-12.9z" fill="#7e7e7e" fill-rule="evenodd"/>
+  <path d="M707.33 211.67c0-7.43 4.49-13.46 10-13.46H823.3c5.53 0 10 6 10 13.46v12.27c0 7.44-4.49 13.46-10 13.46H717.35c-5.53 0-10-6-10-13.46v-12.27z" fill="none" stroke="#fff" stroke-width="1.501"/>
+  <text transform="matrix(.8 0 0 .8 729.04 225.15)" font-size="27.221" fill="#fff" letter-spacing=".017em">
+    要貨退<tspan x="83.05" y="0" letter-spacing="0em">回</tspan>
+  </text>
+  <path d="M706.83 158.34c.5-7.53 5-13.56 10.66-12.89h105.59c5.76-.67 10.24 5.36 10.67 12.89v11.47c-.43 8.14-4.91 14.17-10.67 14.32H717.49c-5.67-.15-10.16-6.18-10.66-14.32v-11.47z" fill="#7e7e7e" fill-rule="evenodd"/>
+  <path d="M707.33 158.24c0-7.43 4.49-13.46 10-13.46H823.3c5.54 0 10 6 10 13.46v12.27c0 7.44-4.48 13.47-10 13.47H717.35c-5.53 0-10-6-10-13.47v-12.27z" fill="none" stroke="#fff" stroke-width="1.501"/>
+  <text transform="matrix(.8 0 0 .8 729.04 172.68)" font-size="27.221" fill="#fff" letter-spacing=".017em">
+    退回確<tspan x="83.05" y="0" letter-spacing="0em">認</tspan>
+  </text>
+  <path d="M171.12 30.13V18.67l8.53 5.73-8.53 5.73zm-25.25-7.17h27.38v2.87h-27.38v-2.87zM350.3 30.13V18.67l8.53 5.73-8.53 5.73zm-22.95-7.17h25.08v2.87h-25.08v-2.87zM529.48 30.13V18.67l8.53 5.73-8.53 5.73zm-25.25-7.17h27.38v2.87h-27.38v-2.87zM604.68 85.17h8.53l-4.26 11.46-4.27-11.46zm5.34-36.7v39.57h-2.14V48.47h2.14zM604.68 182.75h8.53l-4.26 11.47-4.27-11.47zm5.34-36.7v39.57h-2.14v-39.56h2.14zM604.68 272.24h8.53l-4.26 11.51-4.27-11.46zm5.34-36.7v39.57h-2.14v-39.57h2.14zM512.75 126.44v-11.46l-8.52 5.77 8.53 5.73zm-.35-7.17h-1.78v2.87h1.78v-2.87zM425.2 184.15h8.55l-4.27 11.46-4.26-11.46zM529.46 314.75v-11.42l8.54 5.73-8.54 5.69z" fill="#727272"/>
+  <path fill="none" stroke="#7a7a7a" stroke-width="3" d="M429.46 309.06v-73"/>
+  <path d="M691.93 114.98v11.46l-8.53-5.69 8.53-5.73zm.65 7.16h-2.78v-2.87h2.78v2.87zM765.11 302.36h8.53l-4.26-11.46-4.27 11.46zm5.33 6.7v-5.73h-2.13v5.73h2.13z" fill="#727272"/>
+  <path fill="none" stroke="#7a7a7a" stroke-width="3" stroke-dasharray="60,60" d="M769.38 120.71v25.35"/>
+  <path fill="none" stroke="#7a7a7a" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" stroke-dasharray="10,10" d="M683.4 309.7h86.93"/>
+  <path fill="none" stroke="#7a7a7a" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" stroke-dasharray="10,0" d="M429.46 184.15v-37.77"/>
+  <path fill="none" stroke="#7a7a7a" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" stroke-dasharray="10,10" d="M533.12 308.13H428.98"/>
+  <path fill="#fff" stroke="#7a7a7a" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" stroke-dasharray="10,10" d="M512.41 120.25h24.7"/>
+  <path fill="none" stroke="#7a7a7a" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" stroke-dasharray="10,10" d="M770.06 118.5h-80.29"/>
+</svg>

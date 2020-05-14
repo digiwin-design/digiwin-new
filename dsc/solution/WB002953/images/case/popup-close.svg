@@ -1,0 +1,20 @@
+<svg id="popup-close.svg" xmlns="http://www.w3.org/2000/svg" width="55" height="55" viewBox="0 0 55 55">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #444;
+        stroke: #fff;
+        stroke-linejoin: round;
+        stroke-width: 3px;
+      }
+
+      .cls-2 {
+        font-size: 36px;
+        fill: #fff;
+        font-family: "Microsoft JhengHei";
+      }
+    </style>
+  </defs>
+  <circle id="橢圓_3" data-name="橢圓 3" class="cls-1" cx="27.5" cy="27.5" r="26"/>
+  <text id="X" class="cls-2" transform="translate(15.979 38.145) scale(1 0.819)">X</text>
+</svg>

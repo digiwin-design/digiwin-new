@@ -1,0 +1,38 @@
+main *, main *:before, main *:after {
+    box-sizing: content-box;
+}
+/* CSS Document */
+
+/*subA01bg 动画更改的之一 开始 */
+#block1sub{width:950px; overflow:hidden;  margin:0 auto; display:block; padding-top:50px}
+#block1sub .subA01_a{
+	width: 900px;
+	height: 505px;
+	position: relative;
+
+}
+.subA01_p{
+	position: absolute;
+	top:-5px;
+	left:-49px;
+	margin-left:62px;
+	margin-top:40px;
+	display: block;
+	width: 554px;
+	height: 359px;
+	background: url(../images/block01_bg.png) no-repeat;
+}
+.subA01_a img{
+	position: absolute;
+}
+.subA01_a1{
+	left: 311px;
+	top: 36px;
+}
+.subA01_a2{
+	right:5px;
+	top:212px;
+}
+
+
+/*subA01bg 动画更改的之一 结束 */

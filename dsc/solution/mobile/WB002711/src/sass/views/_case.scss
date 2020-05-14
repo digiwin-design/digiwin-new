@@ -1,0 +1,29 @@
+main .case {
+    .section1 {
+        section {
+            padding-bottom: 55px;
+        }
+        h2 {
+            margin-bottom: 1em;
+            color: #a09173;
+            letter-spacing: getLetterSpacing(75);
+            font-size: 24px;
+        }
+        p {
+            @include quoteBlock('', 29px, .5em);
+            margin-bottom: 1em;
+            color: #555;
+            line-height: 1.6;
+        }
+        img {
+            border: 1px solid #bebebe;
+        }
+    }
+    .section2 {
+        padding-bottom: 55px;
+        background-color: #f5f5f5;
+        .case-card {
+            width: 268px;
+        }
+    }
+}

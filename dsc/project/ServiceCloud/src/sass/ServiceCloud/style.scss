@@ -1,0 +1,534 @@
+@import '../common';
+
+main {
+    section {
+        position: relative;
+        min-width: 1200px;
+        max-width: 1920px;
+        width: 100%;
+        font-size: 16px;
+    }
+    .container {
+        position: relative;
+        margin: 0 auto;
+        width: 1200px;
+    }
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        font-weight: normal;
+        line-height: 1.5;
+    }
+
+    h1 {
+        font-size: 55px;
+    }
+
+    h2 {
+        font-size: 30px;
+    }
+
+    h3 {
+        font-size: 24px;
+    }
+    h4 {
+        font-size: 20px;
+    }
+    h5 {
+        font-size: 18px;
+    }
+    p {
+        font-size: 18px;
+        line-height: 1.5;
+    }
+    .pc {
+        display: block;
+    }
+    .m-mobile {
+        display: none;
+    }
+    .fl {
+        float: left;
+    }
+    .fr {
+        float: right;
+    }
+    /*banner*/
+    #banner {
+        position: relative;
+        height: 500px;
+        background: url('../../images/ServiceCloud/bannerbg.jpg') no-repeat center center;
+        background-size: cover;
+    }
+    #banner h1 {
+        padding-top: 120px;
+        padding-left: 105px;
+        color: #fff;
+    }
+    #banner .h2txt {
+        padding-left: 105px;
+        color: #2efffd;
+        font-size: 31px;
+        line-height: 1.2;
+    }
+    #banner .txt1 {
+        padding-top: 40px;
+        padding-left: 105px;
+        color: #fff;
+        line-height: 1.83;
+    }
+    #remould {
+        position: relative;
+        overflow: hidden;
+        margin: 0 auto;
+        width: 100%;
+        text-align: center;
+    }
+    #remould h2,
+    #steward h2,
+    #steward2 h2,
+    #success h2,
+    #item h2 {
+        padding-top: 80px;
+        padding-bottom: 30px;
+        color: #0071be;
+        font-weight: bold;
+        font-size: 44px;
+    }
+    #remould .view-w {
+        margin: 0 auto;
+        width: 945px;
+    }
+    #remould .view-w .fr {
+        margin-right: 58px;
+        width: 570px;
+        height: 290px;
+        background: url('../../images/ServiceCloud/ab1.png') no-repeat;
+        background-size: cover;
+    }
+    .view-w .fr .n1 {
+        padding: 0 90px;
+        padding-top: 32px;
+        text-align: justify;
+    }
+    .view-w .fr h3 {
+        padding-right: 90px;
+        text-align: right;
+        font-size: 30px;
+    }
+    .view-w .fr .na1 {
+        padding-right: 90px;
+        text-align: right;
+    }
+
+    #remould .h3txt {
+        padding-bottom: 30px;
+        color: #025ac4;
+        font-size: 36px;
+    }
+    #steward {
+        position: relative;
+        overflow: hidden;
+        height: 1020px ;
+        background: url('../../images/ServiceCloud/stewardbg.png') no-repeat center center;
+        background-size: cover;
+        text-align: center;
+    }
+    .h2txt {
+        color: #878787;
+        font-size: 36px;
+    }
+    .img-l {
+        margin-top: 87px;
+        margin-bottom: 23px;
+    }
+    #steward ul {
+        overflow: hidden;
+        margin-top: 68px;
+        margin-right: 126px;
+        width: 364px;
+    }
+    #steward ul li {
+        float: left;
+        margin-top: 5px;
+        margin-right: 8px;
+        width: 174px;
+        height: 156px;
+        border: 3px solid #00a0e9;
+        background: #f3f3f3;
+    }
+    #steward ul li:first-child {
+        background: #00a0e9;
+    }
+    #steward ul li .th3p {
+        padding-top: 14px;
+        padding-bottom: 10px;
+        color: #fff;
+        font-weight: bold;
+        font-size: 32px;
+        line-height: 38px;
+    }
+    #steward ul li .img-x {
+        margin-top: 18px;
+    }
+    #steward ul li h4 {
+        color: #00a4ff;
+        font-weight: bold;
+        font-size: 18px;
+    }
+    #steward ul li p {
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+    #steward2 {
+        position: relative;
+        overflow: hidden;
+        height: 914px ;
+        background: url('../../images/ServiceCloud/stewardbg2.png') no-repeat center center;
+        background-size: cover;
+        text-align: center;
+    }
+    #steward2 h2 {
+        padding-top: 0;
+        padding-bottom: 10px;
+        color: #0071be;
+        font-weight: bold;
+    }
+    #steward2 .h2txt {
+        padding-top: 40px;
+        padding-bottom: 10px;
+        color: #282828;
+    }
+
+    #steward2 .mimg {
+        margin-top: 60px;
+    }
+    #steward2 .lty {
+        margin-top: 40px;
+        margin-left: 300px;
+    }
+
+    #employ {
+        position: relative;
+        overflow: hidden;
+        height: 399px;
+        background: url('../../images/ServiceCloud/employbg.png') no-repeat center center;
+        background-size: cover;
+        text-align: center;
+    }
+    #employ h2 {
+        padding: 60px 0;
+        color: #fff;
+    }
+
+    #item {
+        position: relative;
+        overflow: hidden;
+        margin: 0 auto;
+        width: 100%;
+        text-align: center;
+    }
+    #item h2 {
+        color: #000;
+    }
+    .tab_box {
+        position: relative;
+        overflow: hidden;
+        margin: 0 auto;
+        margin-bottom: 160px;
+        width: 100%;
+        text-align: center;
+    }
+    .tab_box .tab_menu {
+        margin: 0 auto;
+        padding: 0px 158px;
+        width: 100%;
+        text-align: center;
+    }
+    .tab_menu li {
+        float: left;
+        margin-right: 116px;
+        width: 82px;
+        height: 60px;
+        cursor: pointer;
+    }
+    .tab_menu li h4 {
+        font-size: 20px;
+    }
+    .tab_menu li:last-child {
+        margin-right: 0;
+    }
+    .tab_menu .active h4 {
+        color: #217dc3;
+        font-weight: bold;
+    }
+    .tab_menu li b {
+        display: none;
+        margin-top: 10px;
+        line-height: 0;
+    }
+    .tab_menu .active b {
+        display: block;
+    }
+
+    /*.tab_menu .active i:after{*/
+    /*content: url("../../images/ServiceCloud/line.png");*/
+    /*}*/
+    .tab_box_a {
+        overflow: hidden;
+        margin-top: 100px;
+        height: 606px;
+        background: url('../../images/ServiceCloud/tabbg.png');
+    }
+    .hide {
+        display: none;
+    }
+
+    .tab_box_a .fl {
+        margin-left: 30px;
+        text-align: left;
+    }
+    .tab_box_a .fl h3 {
+        padding-top: 80px;
+        color: #fff;
+        text-align: left;
+    }
+    .tab_box_a .fl img {
+        margin-top: 25px;
+        margin-bottom: 30px;
+    }
+    .tab_box_a .fl p {
+        display: block;
+        width: 225px;
+        color: #fff;
+        text-align: justify;
+    }
+    .tab_box_a .fr img {
+        margin-top: 32px;
+        margin-right: 20px;
+    }
+
+
+    @media (max-width: 1366px)and (min-width: 769px) {
+        #banner {
+            position: relative;
+            overflow: hidden;
+            width: 100%;
+            height: 500px;
+            background: url('../../images/ServiceCloud/bannerbg1366.jpg') no-repeat center center;
+            background-size: cover;
+        }
+    }
+    @media (max-width:768px) {
+        section {
+            min-width: 100%;
+            max-width: 100%;
+        }
+        .container {
+            width: 100%;
+        }
+        h1 {
+            font-size: 36px;
+        }
+
+        h2 {
+            font-size: 28px;
+        }
+
+        h3 {
+            font-size: 22px;
+        }
+        h4 {
+            font-size: 18px;
+        }
+        p {
+            font-size: 16px;
+            line-height: 1.75;
+        }
+        .pc {
+            display: none;
+        }
+        .m-mobile {
+            display: block;
+        }
+        #banner {
+            position: relative;
+            overflow: hidden;
+            height: 500px;
+            background: url('../../images/ServiceCloud/m-bannerbg.jpg') no-repeat center center;
+            background-size: cover;
+        }
+        #banner .fl {
+            float: none;
+        }
+        #banner h1 {
+            padding: 0 8%;
+            padding-top: 30%;
+            color: #fff;
+            font-size: 42px;
+        }
+        #banner .h2txt {
+            display: inline-block;
+            padding: 3% 8% ;
+        }
+        #banner .txt1 {
+            padding: 8%;
+            letter-spacing: 0;
+        }
+        #banner .groupbtn {
+            display: none;
+        }
+        #remould h2,
+        #steward h2,
+        #steward2 h2,
+        #success h2,
+        #item h2 {
+            text-align: center;
+            font-weight: bold;
+            font-size: 36px;
+        }
+        #steward {
+            height: auto;
+            background: none;
+        }
+        #steward .h2txt,
+        #steward2 .h2txt {
+            text-align: center;
+        }
+        #steward p {
+            padding: 0 8%;
+            text-align: justify;
+        }
+        #steward p br {
+            display: none;
+        }
+        #steward .bg_s {
+            overflow: hidden;
+            height: 760px;
+            background: url('../../images/ServiceCloud/mstewardbg.png') no-repeat center center;
+        }
+        #steward h2.c2 {
+            padding: 30px 0 10px;
+            color: #878787;
+        }
+        #steward ul {
+            overflow: hidden;
+            margin: 0 auto;
+            padding: 0px 3%;
+            width: 100%;
+        }
+        #steward ul li {
+            float: none;
+            margin: 0px auto;
+            margin-bottom: 10px;
+            width: 100%;
+            height: auto;
+            border: none;
+            background: none;
+        }
+        #steward ul li:first-child {
+            background: none;
+        }
+        #steward ul li p {
+            color: #555;
+            font-size: 20px;
+            line-height: 30px;
+        }
+        #steward ul li p span {
+            color: #0074c6;
+            font-weight: 900;
+        }
+        #steward2 {
+            height: auto;
+            background: none;
+        }
+        #steward2 p {
+            padding: 0px 5%;
+            text-align: justify;
+        }
+        #steward2 .h2txt {
+            padding: 0px 5%;
+        }
+        #steward2 p br {
+            display: none;
+        }
+        #employ {
+            height: auto;
+            background: none;
+        }
+        #item {
+            margin-bottom: 10%;
+        }
+        .tab_box {
+            position: relative;
+            overflow: hidden;
+            margin: 0 auto;
+            margin-bottom: 5%;
+            width: 100%;
+            text-align: center;
+        }
+        .tab_box .tab_menu {
+            margin: 0 auto;
+            padding: 0;
+            width: 100%;
+            text-align: center;
+        }
+        .tab_menu li {
+            margin: 0px 2px;
+            margin-right: 0;
+            width: 19%;
+            height: 60px;
+            cursor: pointer;
+        }
+        .tab_menu li h4 {
+            font-size: 16px;
+        }
+        .tab_menu li h4 br {
+            display: none;
+        }
+        .tab_menu li:last-child {
+            margin-right: 0;
+        }
+        .tab_menu .active h4 {
+            color: #217dc3;
+            font-weight: bold;
+        }
+        .tab_menu li b {
+            display: none;
+            margin-top: 10px;
+            line-height: 0;
+        }
+        .tab_menu .active b {
+            display: block;
+        }
+
+        .tab_box_b {
+            overflow: hidden;
+            margin-top: 80px;
+            width: 100%;
+            height: auto;
+            background: url('../../images/ServiceCloud/mtabbg.png') no-repeat center center;
+            background-size: cover;
+        }
+        .hide {
+            display: none;
+        }
+
+        .tab_box_b p {
+            display: block;
+            padding: 2% 0;
+            padding-left: 30%;
+            width: 90%;
+            color: #fff;
+            text-align: justify;
+        }
+        .tab_box_b img {
+            margin-top: 10px;
+            padding: 0 5%;
+        }
+    }
+}

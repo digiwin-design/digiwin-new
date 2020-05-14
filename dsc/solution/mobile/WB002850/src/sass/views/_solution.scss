@@ -1,0 +1,15 @@
+main .solution {
+    article {
+        padding-bottom: 55px;
+        &:nth-of-type(even) {
+            background-color: #f5f5f5;
+        }
+    }
+    img + img {
+        margin-top: 15px;
+    }
+    .section4 p {
+        margin: 2em 0;
+        line-height: 30px;
+    }
+}

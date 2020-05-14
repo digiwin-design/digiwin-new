@@ -1,0 +1,21 @@
+<svg id="ac41f6c2-869d-41c6-9015-c85ac2336ff4" data-name="圖層 1"
+	xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1060 524.81">
+	<g id="fbd59ba2-0145-4907-94b0-44033cdd7a89" data-name="g1">
+		<image width="991" height="613" transform="translate(0 51.54) scale(0.79 0.77)" xlink:href="images/case1/svg/section7/section71.png"/>
+		<polygon points="95.57 93.95 678.93 93.95 678.93 448.61 95.57 448.61 95.57 93.95 95.57 93.95" style="fill:#558ed5;fill-rule:evenodd"/>
+		<image width="1582" height="890" transform="translate(91.07 93.95) scale(0.38 0.42)" xlink:href="images/case1/svg/section7/section72.png"/>
+	</g>
+	<g id="b7ab1594-3516-46a8-90d0-d0492ce01199" data-name="g2">
+		<path d="M70,458.75H-23.34v-159H70Zm-84.93-8.42H61.58V308.16H-14.93Z" transform="translate(443.96 -196.29)" style="fill:#c61818"/>
+		<polygon points="509.43 176.07 760.98 176.07 760.98 169.76 773.61 183.29 760.98 195.93 760.98 189.61 509.43 189.61 509.43 176.07 509.43 176.07 509.43 176.07" style="fill:#c61818;fill-rule:evenodd"/>
+	</g>
+	<g id="b0b43721-1df3-4526-b526-d49f2f5eb4c7" data-name="g3">
+		<image width="235" height="351" transform="translate(801.56 152.61) scale(0.92 1.02)" xlink:href="images/case1/svg/section7/section73.png"/>
+		<path d="M574.89,343.48l.39,0,.37.08.37.14.33.18.31.24.28.27.23.31.18.34.14.36.08.38,0,.38v361l0,.39-.08.38-.14.36-.18.34-.23.31-.28.27-.31.23-.33.19-.37.13-.37.08-.39,0h-220l-.38,0-.38-.08-.36-.13-.34-.19-.31-.23-.27-.27-.23-.31-.19-.34-.13-.36-.09-.38,0-.39v-361l0-.38.09-.38.13-.36.19-.34.23-.31.27-.27.31-.24.34-.18.36-.14.38-.08.38,0Zm-220,5.42,2.71-2.71v361l-2.71-2.7h220l-2.7,2.7v-361l2.7,2.71Z" transform="translate(443.96 -196.29)"/>
+		<rect x="752.49" width="307.51" height="113.44" rx="2.83" style="fill:#c61818"/>
+		<text transform="translate(766.16 39.76)" style="font-size:21.639320373535156px;fill:#fff;font-family:MicrosoftJhengHeiRegular, Microsoft JhengHei">門店、網路、電商訂單整合，
+			<tspan x="0" y="25.97">可持續新增其他通路，由訂單</tspan>
+			<tspan x="0" y="51.93">中心統一管理</tspan>
+		</text>
+	</g>
+</svg>

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="/tw/static/css/public.css">
+    <link rel="stylesheet" href="/tw/static/css/style.css">
+    <script src="/tw/static/js/jquery-1.11.3.min.js"></script>
+    <script src="https://polyfill.io/v3/polyfill.js?features=default,fetch,HTMLPictureElement,Array.prototype.find,NodeList.prototype.forEach&amp;flags=gated"></script>
+    <script src="/tw/dsc/assets/modernizr-custom.js"></script>
+    <script src="/tw/dsc/assets/mobile-detect.js"></script>
+    <script src="/tw/dsc/assets/mobile-detect-modernizr.js" defer></script>
+    <script src="/tw/dsc/assets/smoothscroll.js" defer></script>
+    <script src="/tw/dsc/assets/axios.min.js"></script>
+    <script src="/tw/dsc/assets/vuejs/vue-all-dev.js"></script>
+    <script src="/tw/dsc/js/common.min.js"></script>
+  </head>
+  <body>
+    <!-- 以下為後台上稿內容-->
+    <link rel="stylesheet" href="/tw/dsc/css/Eform/xcConfirm.css">
+    <script src="/tw/dsc/js/Eform/xcConfirm.js" defer></script>
+    <link rel="stylesheet" href="../../assets/submenu/submenu.css">
+    <script src="../../assets/submenu/submenu.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/tw/dsc/css/reboot.css">
+    <script src="assets/color-converter.js" defer></script>
+    <script src="assets/jquery.actual.min.js" defer></script>
+    <script src="js/all.min.js" defer></script>
+    <link rel="preload" href="images/WB00247601_2/header-bg.jpg" as="image">
+    <link rel="stylesheet" href="css/WB00247601_2/style.css">
+    <script src="assets/jquery-ui-1.12.1.custom/jquery-ui.min.js" defer></script>
+    <script src="js/WB00247601_2.min.js" defer></script>
+    <main v-cloak v-if="result"><main-header>
+    <template slot="content">
+        <h1>客製化訂單</h1>
+    </template>
+</main-header>
+
+<article class="section1">
+    <div class="container">
+        <section-title title="機械設備產業完整解決方案"></section-title>
+        <img src="images/WB00247601_2/section1-illust.png" alt="">
+    </div>
+</article>
+
+<article class="section2" v-show="!isMobile">
+    <div class="container">
+        <section-title
+            title="機械設備業管理關鍵議題"
+            padding-bottom="1em"
+        ></section-title>
+        <p>客製化接單，有沒有發生這些問題？</p>
+        <p>機械產業策略發展已走向「高階客製化」，生產環境也從少量多樣漸漸朝向「大量客製」在轉變，除了在技術研發上的挑戰外，整合研發設計與生產製造之協同作業，更是機械產業在「訂單客製化」管理上的一大課題。改變並非一個人或者單一職能所能支撐，如何有效整合人、圖、料、BOM，讓效益發揮到最大將是面對「客製化」的重要思考點。</p>
+        <img src="images/WB00247601_2/section2-illust.png" alt="" usemap="#image-map">
+        <map name="image-map">
+            <area target="" alt="找客戶" title="找客戶" href="#section1" coords="125,121,2,200,1,229,210,228,209,121" shape="poly" class="js-nav" data-offset="62">
+            <area target="" alt="搶訂單" title="搶訂單" href="#section2" coords="216,122,408,229" shape="rect" class="js-nav" data-offset="62">
+            <area target="" alt="立中樞" title="立中樞" href="#section3" coords="214,346,55,236" shape="rect" class="js-nav" data-offset="62">
+            <area target="" alt="重應變" title="重應變" href="#section4" coords="221,236,380,345" shape="rect" class="js-nav" data-offset="62">
+            <area target="" alt="順產能" title="順產能" href="#section5" coords="54,352,213,461" shape="rect" class="js-nav" data-offset="62">
+            <area target="" alt="削庫存" title="削庫存" href="#section6" coords="386,235,545,345" shape="rect" class="js-nav" data-offset="62">
+            <area target="" alt="固忠誠" title="固忠誠" href="#section7" coords="414,54,497,129" shape="rect" class="js-nav" data-offset="62">
+        </map>
+    </div>
+</article>
+
+<component :is="componentId"></component>
+
+<contact v-bind:multiple="false" source=""></contact>
+    </main>
+  </body>
+</html>

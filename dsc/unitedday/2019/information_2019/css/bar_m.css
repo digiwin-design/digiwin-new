@@ -1,0 +1,38 @@
+﻿#BTN {display: none;}
+
+#nav {height: 55px;	background-color: #f4f4f4; font-family: Arial, "新細明體", "微軟正黑體"; z-index:999995; width: 100%; position: fixed; top: 0; min-width: 900px;}
+#nav .logo {float: left; position: absolute; left: 45px; top: 5px; z-index:999999;}
+#mainMenu {float: right; margin-right: 50px;}
+#mainMenu .link {display:none; position: relative; margin-top: 10px;}
+#mainMenu li {float: left; text-align: center; font-size: 16px; font-weight: bold; font-family: Arial, "微軟正黑體"; margin-bottom: 5px; position: relative; width: 80px;}
+#mainMenu i {width: 40px; border-radius: 40px; background-color: #ff396a; color: #fff; font-size: 27px; line-height: 40px; margin-top: 7px;}
+#mainMenu a {color: #ff396a; display: block;}
+
+#dgwFooter {background-color: #d9d9d9; width: 100%;	border-top: 1px solid #FFF;	text-align: center;	padding-top: 13px; color: #595757; font-size: 13px;	font-family: "新細明體", "微軟正黑體"; padding-bottom: 17px; min-width: 900px;}
+#dgwFooter .link01 a {font-size: 13px; color: #595757;	text-decoration: none; text-align: center; display: inline-block; padding: 0 3px 0 0;
+}
+#dgwFooter .link01 a:hover {font-size: 13px; color: #595757; text-decoration: underline; text-align: center; display: inline-block;	padding: 0 3px 0 0;}
+#dgwFooter .link01 span {font-size: 9px; text-align: center; display: inline-block;}
+#dgwFooter .link02 {margin: 14px 0px 8px 0px; text-align: center;}
+#dgwFooter .link02 ul li a {font-size: 13px; color: #595757; text-decoration: none; text-align: center;	display: inline-block; padding: 0 4px 0 1px;}
+#dgwFooter .link02 ul li a:hover {font-size: 13px; color: #595757;	text-decoration: underline;	text-align: center;	display: inline-block; padding: 0 4px 0 1px;}
+#dgwFooter .link02 ul li span {font-size: 13px; text-align: center;	display: inline-block;}
+#dgwFooter p {font-size: 13px; margin: 0; clear: both;}
+
+@media screen and (max-width: 480px) {
+	#BTN {display:block; width:60px; height:40px; background:url(../images/btn.svg) no-repeat center center; position:absolute; right:5px; top:10px; text-indent:-9999px;}
+	#nav {min-width: 100%;}
+	#nav .logo {position: absolute; left: 20px;}
+	#mainMenu {float: none; margin-right: 0; width: 100%; position: relative; top: 55px; display: none;}
+	#mainMenu .link {display:block; position: relative; margin-top: 10px;}
+	#mainMenu li {float: left; text-align: center; font-size: 1.5em; font-weight: bold; font-family: Arial, "微軟正黑體"; margin-bottom: 0; position: relative; width: 50%; height:33%; background-color: #ff6c7a; border: 1px solid #ffb8be; border-top: none; border-left: none; padding: 10% 0;}
+	#mainMenu i {width: 100%; border-radius: 0; background-color: #ff6c7a; color: #fff; font-size: 2em;  margin-top: 0;}
+	#mainMenu a {color: #fff; display: block;}
+
+	#dgwFooter {background-color: #333; min-width: 100%;}
+	#dgwFooter .link01{ display:none;}
+	#dgwFooter .link01 a {display:none;}
+	#dgwFooter .link02 {display:none;}
+	#dgwFooter p {line-height:1.8; padding:0 20px; color:#CCC;}
+	
+}

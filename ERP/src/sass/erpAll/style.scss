@@ -1,0 +1,115 @@
+@import '../common';
+@import 'all';
+@import 'components';
+
+main {
+    .header {
+        @include headerBg('erpAll/header-bg.jpg', 'erpAll/header-bg-s.jpg');
+        background-size: cover;
+        @media (min-width: $tablet-width + 1) {
+            background-size: auto;
+        }
+        .container {
+            height: image-height('erpAll/header-bg.jpg');
+        }
+        h1 {
+            margin-bottom: 24px;
+        }
+        h2 {
+            margin-bottom: 15px;
+            color: #fff;
+            font-weight: bold;
+            font-size: 36px;
+            line-height: 1;
+            @media (min-width: $tablet-width + 1) {
+                font-size: 45px;
+            }
+        }
+        h3 {
+            margin-bottom: 40px;
+            color: #fff;
+            font-weight: normal;
+            font-size: 20px;
+            line-height: 1.4;
+            @media (min-width: $tablet-width + 1) {
+                font-size: 22px;
+            }
+        }
+        &-btns {
+            display: flex;
+            a {
+                @include btn(137px, 28px, #000, #b4f38a, 5px);
+                @media (min-width: $tablet-width + 1) {
+                    width: 230px;
+                    height: 40px;
+                    font-size: 24px;
+                    line-height: 40px;
+                }
+                & + a {
+                    margin-left: 20px;
+                }
+            }
+        }
+    }
+    .section1 {
+        padding-top: 50px;
+        padding-bottom: 50px;
+        background-color: #d8eaf0;
+        &-header {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            h1 {
+                margin-bottom: 1em;
+                color: #333;
+                font-size: 30px;
+                line-height: 1;
+            }
+        }
+        &-desc {
+            margin-bottom: 1.5em;
+            color: #333;
+            @media (min-width: 960px) {
+                margin-bottom: 3em;
+                text-align: center;
+            }
+            br {
+                display: none;
+                @media (min-width: 960px) {
+                    display: block;
+                }
+            }
+        }
+    }
+    .section2,
+    .section3 {
+        padding-bottom: 70px;
+        .hoverBoxs {
+            margin-bottom: 25px;
+            @media (max-width: $tablet-width) {
+                margin-bottom: 10px;
+            }
+        }
+    }
+    .section4 {
+        padding-bottom: 70px;
+        .mapContainer {
+            margin-bottom: 45px;
+        }
+    }
+    .section5 {
+        padding-bottom: 70px;
+        .accordion {
+            margin-bottom: 50px;
+            @media (min-width: $content-width+10) {
+                margin-bottom: 80px;
+            }
+        }
+    }
+    .section6 {
+        padding-bottom: 70px;
+        .industryList {
+            margin-bottom: 30px;
+        }
+    }
+}

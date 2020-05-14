@@ -1,0 +1,385 @@
+@charset "UTF-8";
+main *, main *:before, main *:after {
+    box-sizing: content-box;
+}
+
+
+main #navLink,
+main #navLink .subLink {
+    background-color: #f9f9f9;
+}
+
+main h3 {
+    width: 100%;
+    color: #0584dd;
+    font-family: "微軟正黑體", "新細明體", Arial;
+    font-size: 24px;
+    line-height: 24px;
+    text-align: center;
+    margin: 60px 0 40px;
+}
+
+main .title {
+    padding-left: 25px;
+    display: inline-block;
+    background: url(../images/solution/IC_icon2.png) no-repeat left top;
+}
+
+main h4 {
+    font-size: 18px;
+    margin: 5px 0px 2px;
+    text-align: left;
+    color: #1555a6;
+}
+
+main .section p {
+    text-align: justify;
+    font-size: 18px;
+}
+
+main .Block01bg {
+    width: 100%;
+}
+
+main .section {
+    width: 100%;
+    min-width: 1000px;
+    font-family: "微軟正黑體", "新細明體",Arial;
+}
+
+main .section p {
+    color: #444444;
+}
+
+main .content {
+    position: relative;
+    width: 1000px;
+    margin: 0 auto;
+}
+
+main .subBanner {
+    height: 400px;
+    padding: 0;
+    text-align: center;
+    font-size: 0;
+}
+
+main .subBanner:before {
+    content: '';
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
+
+main .subBanner .content {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+main .subBanner h2 {
+    display: block;
+    background: url(../images/solution/IC_icon1.png) no-repeat left;
+    padding-left: 35px;
+    color: #0c53aa;
+    font-size: 32px;
+    text-align: left;
+}
+
+main .subBanner p {
+    margin: 20px 0 7px 40px;
+    width: 500px;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+main .subBanner.equipPage {
+    background: url(../images/solution/IC00_bg.jpg) no-repeat center top;
+}
+
+main #Block01 {
+    width: 960px;
+    overflow: hidden;
+    margin: 0 auto;
+    display: block;
+}
+
+main #Block01 img {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+main #Block01 .P_center {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+main #Block01 p {
+    line-height: 28px;
+}
+
+main .BOX_caseL {
+    clear: both;
+    float: left;
+    width: 432px;
+    margin-bottom: 60px;
+}
+
+main .BOX_caseR {
+    float: right;
+    width: 450px;
+    margin-bottom: 60px;
+}
+
+main #BOX_s p {
+    margin: 20px 0 7px 60px;
+}
+
+main #BOX_s {
+    width: 870px;
+    overflow: hidden;
+    display: block;
+    margin: 0 auto;
+    margin-top: 30px;
+    border-bottom: #CCC 1px solid;
+}
+
+main #BOX_s .titleA_3H {
+    margin: 0px;
+    width: 150px;
+    display: block;
+    float: left;
+    line-height: 80px;
+    padding: 10px;
+    background: #eeeeee;
+    text-align: center;
+    font-weight: bold;
+    border-right: #1e95d3 solid 3px;
+}
+
+main #BOX_s .titleA {
+    margin: 0px;
+    width: 150px;
+    display: block;
+    float: left;
+    line-height: 50px;
+    padding: 10px;
+    background: #eeeeee;
+    text-align: center;
+    font-weight: bold;
+    border-right: #1e95d3 solid 3px;
+}
+
+main #BOX_s .titleB {
+    margin: 0px;
+    width: 565px;
+    display: block;
+    float: left;
+    padding: 5px 40px 5px 30px;
+    font-size: 16px;
+}
+
+main #BOX_s .titleB_1H {
+    margin: 0px;
+    width: 565px;
+    display: block;
+    float: left;
+    padding: 5px 40px 5px 30px;
+    font-size: 16px;
+    line-height: 60px;
+}
+
+main #BOX_s .more {
+    border-radius: 50px;
+    margin: 0px;
+    width: 50px;
+    display: block;
+    float: left;
+    font-size: 10px;
+    background-color: #09F;
+    line-height: 50px;
+    margin-top: 10px;
+    color: #FFF;
+    text-align: center;
+}
+
+main #BOX_s .more a {
+    color: #FFF;
+}
+
+main #BOX_s .more a:hover {
+    border-radius: 50px;
+    margin: 0px;
+    width: 50px;
+    display: block;
+    float: left;
+    font-size: 10px;
+    background-color: #004a9d;
+    line-height: 50px;
+    color: #FFF;
+    text-align: center;
+}
+
+main #features {
+    width: 100%;
+    height: 1310px;
+    background: url(../images/solution/IC_bg.jpg) no-repeat center top;
+}
+
+main #wrapper2 {
+    width: 960px;
+    margin: 0 auto;
+    overflow: hidden;
+    margin-top: 50px;
+}
+
+main #problemsTxt {
+    position: relative;
+}
+
+main #problemsTxt #num2 {
+    cursor: pointer;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+
+main #problemsTxt #num2 ul {
+    width: 960px;
+    margin: 0 auto;
+    list-style: none;
+}
+
+main #problemsTxt #num2 li {
+    position: relative;
+    display: inline-block;
+    width: 170px;
+    height: 70px;
+    float: left;
+    margin-left: 15px;
+    background: url(../images/solution/IC_menu.png) right top;
+    text-align: center;
+    line-height: 53px;
+    font-size: 16px;
+    font-family: "微軟正黑體", "新細明體";
+}
+
+main #problemsTxt #num2 li.r {
+    text-align: center;
+    line-height: 25px;
+}
+
+main #problemsTxt #num2 li a {
+    position: relative;
+    z-index: 99;
+    display: inline-block;
+    width: 170px;
+    height: 70px;
+    text-decoration: none;
+    color: #FFF;
+}
+
+main #problemsTxt #num2 li a.NOWTAB {
+    background: url(../images/solution/IC_menu.png) left top;
+}
+
+main #problemsTxt #blockCon2 {
+    clear: both;
+    width: 5000px;
+    height: 1300px;
+    margin: 0 auto;
+    padding: 0;
+    position: relative;
+}
+
+main #problemsTxt .box {
+    float: left;
+    z-index: 11;
+    width: 960px;
+    margin-top: 130px;
+    margin-bottom: 15px;
+}
+
+main #problemsTxt .box p {
+    text-align: center;
+    line-height: 1.6;
+    padding-bottom: 40px;
+}
+
+main #problemsTxt .box img {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+main #problemsTxt #box1 {
+    left: 0;
+}
+
+main #problemsTxt .now2 {
+    left: 0;
+}
+
+main #Block02 {
+    width: 960px;
+    overflow: hidden;
+    margin: 0 auto;
+    display: block;
+}
+
+main #Block02 img {
+    display: block;
+    margin: 0 auto;
+}
+
+main .conblock {
+    width: 100%;
+    background-color: #096ca0;
+    padding: 100px 0;
+}
+
+main #conblock {
+    width: 1000px;
+    overflow: hidden;
+    margin: 0 auto;
+    display: block;
+    padding: 30px 0;
+}
+
+main #conblock h3 {
+    line-height: 1.2;
+    text-align: center;
+    color: #FFF;
+}
+
+main #conblock h4 {
+    line-height: 1.2;
+    text-align: center;
+    color: #FFF;
+}
+
+main p.contactBtn {
+    position: relative;
+    z-index: 2;
+    width: 600px;
+    line-height: 55px;
+    margin: 30px auto 0;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    background-color: #034ea2;
+    border: 1px solid #ffffff;
+    letter-spacing: 1px;
+}
+
+main p.contactBtn a {
+    color: #FFF;
+}
+
+main p.contactBtn:hover {
+    background-color: #ffb400;
+}
+
+main .imgBorderAll {
+    border: 1px solid #eaeaea;
+}

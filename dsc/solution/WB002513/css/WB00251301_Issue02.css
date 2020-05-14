@@ -1,0 +1,210 @@
+@charset "UTF-8";
+main *, main *:before, main *:after {
+    box-sizing: content-box;
+}
+
+
+main .contentCon {
+    width: 950px;
+    height: 525px;
+    position: relative;
+}
+
+main .changeDiv {
+    width: 3800px;
+    height: 600px;
+    overflow: hidden;
+    zoom: 1;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+main .changeDiv li.subB01bg_a1 {
+    width: 950px;
+    float: left;
+}
+
+main .subB01bg_a1 h4 {
+    font-size: 30px;
+    color: #000;
+    font-weight: normal;
+}
+
+main .subB01bg_a1 .subB01bg_p1 {
+    font-size: 20px;
+    color: #0075b8;
+}
+
+main .dialog {
+    position: relative;
+    height: 234px;
+    margin-top: 50px;
+}
+
+main .dialog1 {
+    position: absolute;
+    top: 0;
+    left: 20px;
+}
+
+main .dialog2 {
+    position: absolute;
+    top: 80px;
+    right: 100px;
+}
+
+main .people_b1 {
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    margin-left: -150px;
+    width: 285px;
+    height: 177px;
+    display: inline-block;
+    background: url(../images/issue/issue02_pic03.png) no-repeat;
+}
+
+main .hope {
+    margin-top: 50px;
+    padding-left: 0;
+    background: url(../images/issue/hopeicon.png) no-repeat 0 0;
+    height: 96px;
+    /*margin-left: 40px;*/
+    text-align: center;
+}
+
+main .hope p {
+    /*padding-top: 20px;*/
+    text-align: left;
+    line-height: 1.5;
+    font-size: 20px;
+    /*color: #b7202e;*/
+    display: inline-block;
+}
+
+main .subB01bg_a1 .hope p {
+    padding-left: 35px;
+}
+
+main .hope p span {
+    font-weight: bold;
+}
+
+main .subB01bg_a2 .hope {
+    height: 135px;
+    background-position: 0px 15px;
+    padding-left: 65px;
+}
+
+main .subB01bg_a3 .hope {
+    /*	background-position: 0px 15px;*/
+    text-align: left;
+}
+
+main .subB01bg_a3 .hope p {
+    padding-top: 20px;
+    padding-left: 116px;
+}
+
+main .subB01bg_a4 .people_b1 {
+    background: url(../images/issue/issue02_pic10.png) no-repeat;
+}
+
+main .subB01bg_btn {
+    text-align: center;
+    margin-top: 56px;
+}
+
+main .subB01bg_btn li {
+    display: inline-block;
+    margin-right: 15px;
+    width: 142px;
+    height: 65px;
+    background: url(../images/issue/issue02_tab.png) -142px 0 no-repeat;
+    text-align: center;
+    line-height: 85px;
+    font-size: 20px;
+    color: #fff;
+    cursor: pointer;
+}
+
+main .subB01bg_btn li.current {
+    background-position: 7px 0;
+}
+
+main .content2 .contentCon {
+    width: 900px;
+    height: 395px;
+}
+
+main .content2 .changeDiv {
+    height: 395px;
+}
+
+main .content2 .subB01bg_a1 h4 {
+    color: #eaff00;
+    text-align: center;
+}
+
+main .content2 .subB01bg_a1 {
+    height: 395px;
+    overflow: hidden;
+    zoom: 1;
+}
+
+main .subB02bg_b1 {
+    height: 290px;
+    width: 525px;
+    float: left;
+    margin-top: 60px;
+    padding-left: 40px;
+    /*list-style-type: disc;*/
+}
+
+main .subB01bg_a1 .subB02bg_b1 li {
+    list-style-type: disc;
+    color: #fff;
+}
+
+main .subB01bg_a1 .subB02bg_b1 li p {
+    font-size: 20px;
+    line-height: 2;
+}
+
+main .content2 .subB01bg_a1 img {
+    vertical-align: middle;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+main .content2 .changeDiv {
+    width: 1960px;
+}
+
+main .changeDiv .soli ul {
+    width: 415px;
+}
+
+main .soli img {
+    margin-left: 0;
+}
+
+main .soli ul {
+    padding-left: 40px;
+}
+
+main .content2 .subB01bg_btn li {
+    width: 274px;
+    height: 52px;
+    border: 1px solid #fff;
+    background: url(../images/issue/icon_bg1.png);
+    line-height: 54px;
+}
+
+main .content2 .subB01bg_btn li.current {
+    background: url();
+    background: #ff6600;
+    border: 1px solid #fff;
+    line-height: 54px;
+}

@@ -1,0 +1,1586 @@
+[
+    {
+        "id": "WB002899",
+        "title": "工程業",
+        "menus": [
+            {
+                "text": "工程首頁",
+                "url": "WB00289901"
+            },
+            {
+                "text": "工程營運管理",
+                "url": "operation"
+            },
+            {
+                "text": "工程損益管理",
+                "url": "income"
+            },
+            {
+                "text": "整體解決方案",
+                "url": "solution"
+            },
+            {
+                "text": "行業輔導案例",
+                "url": "case"
+            },
+            {
+                "text": "聯絡我們",
+                "url": "#contact"
+            }
+        ]
+    },
+    {
+        "id": "WB002476",
+        "title": "機械業",
+        "menus": [
+            {
+                "text": "機械首頁",
+                "url": "WB00247601"
+            },
+            {
+                "text": "智慧工廠",
+                "url": "javascript:;",
+                "dropdowns": [
+                    {
+                        "text": "智慧工廠",
+                        "url": "industry"
+                    },
+                    {
+                        "text": "採購收貨",
+                        "url": "WB00247601_Industry01"
+                    },
+                    {
+                        "text": "IQC",
+                        "url": "WB00247601_Industry02"
+                    },
+                    {
+                        "text": "原料倉",
+                        "url": "WB00247601_Industry03"
+                    },
+                    {
+                        "text": "副線生產",
+                        "url": "WB00247601_Industry04"
+                    },
+                    {
+                        "text": "裝配店面倉",
+                        "url": "WB00247601_Industry05"
+                    },
+                    {
+                        "text": "主線生產",
+                        "url": "WB00247601_Industry06"
+                    },
+                    {
+                        "text": "出貨",
+                        "url": "WB00247601_Industry07"
+                    },
+                    {
+                        "text": "戰情室",
+                        "url": "WB00247601_Industry08"
+                    }
+                ]
+            },
+            {
+                "text": "客製化訂單",
+                "url": "WB00247601_2"
+            },
+            {
+                "text": "生產製造",
+                "url": "WB00247601_manufacture"
+            },
+            {
+                "text": "輔導案例",
+                "url": "javascript:;",
+                "dropdowns": [
+                    {
+                        "text": "東毓油壓",
+                        "url": "WB00247601_3"
+                    },
+                    {
+                        "text": "東野精機",
+                        "url": "WB00247601_case"
+                    }
+                ]
+            },
+            {
+                "text": "研討會",
+                "url": "WB00247601_4"
+            },
+            {
+                "text": "解決方案",
+                "url": "WB00247601_5",
+                "dropdowns": [
+                    {
+                        "text": "機械維修",
+                        "url": "WB00247601_repair"
+                    },
+                    {
+                        "text": "邁向工業4.0",
+                        "url": "http://industry4.digiwin.com",
+                        "target": "_blank"
+                    },
+                    {
+                        "text": "評量健檢",
+                        "url": "http://industry4.digiwin.com/diagnosis.htm",
+                        "target": "_blank"
+                    },
+                    {
+                        "text": "產官學研討會",
+                        "url": "http://industry4.digiwin.com/activity.htm",
+                        "target": "_blank"
+                    },
+                    {
+                        "text": "方案規劃",
+                        "url": "http://industry4.digiwin.com/smartFactory.htm",
+                        "target": "_blank"
+                    }
+                ]
+            },
+            {
+                "text": "聯絡我們",
+                "url": "#contact"
+            }
+        ]
+    },
+    {
+        "id": "WB002785",
+        "title": "醫材業",
+        "menus": [
+            {
+                "text": "醫材首頁",
+                "url": "WB00278501"
+            },
+            {
+                "text": "醫材法規",
+                "url": "WB00278501_law"
+            },
+            {
+                "text": "電腦確效",
+                "url": "WB00278501_verify"
+            },
+            {
+                "text": "研發與品質",
+                "url": "javascript:;",
+                "dropdowns": [
+                    {
+                        "text": "研發管理",
+                        "url": "WB00278501_research"
+                    },
+                    {
+                        "text": "品管作業",
+                        "url": "WB00278501_control"
+                    }
+                ]
+            },
+            {
+                "text": "生產與售服",
+                "url": "javascript:;",
+                "dropdowns": [
+                    {
+                        "text": "生產管理",
+                        "url": "WB00278501_produce"
+                    },
+                    {
+                        "text": "維修售服",
+                        "url": "WB00278501_service"
+                    }
+                ]
+            },
+            {
+                "text": "研討會",
+                "url": "WB00278501_seminar"
+            },
+            {
+                "text": "案例客戶",
+                "url": "WB00278501_case"
+            },
+            {
+                "text": "聯絡我們",
+                "url": "#contact"
+            }
+        ]
+    },
+    {
+        "id": "WB002736",
+        "title": "資訊委外",
+        "menus": [
+            {
+                "text": "服務首頁",
+                "url": "WB00273601#sec1Stre"
+            },
+            {
+                "text": "貼心服務內容",
+                "url": "WB00273601#sec2Serv"
+            },
+            {
+                "text": "完整解決方案",
+                "url": "WB00273601#sec3Case"
+            },
+            {
+                "text": "競爭優勢比較",
+                "url": "WB00273601#sec4Compr"
+            },
+            {
+                "text": "客戶證言",
+                "url": "WB00273601#sec5Guest"
+            },
+            {
+                "text": "FAQ常見問題",
+                "url": "WB00273601#sec6FQA"
+            },
+            {
+                "text": "線上報修",
+                "url": "WB00273601_repair"
+            }
+        ]
+    },
+    {
+        "id": "WB002553",
+        "title": "食品業",
+        "menus": [
+            {
+                "text": "食品首頁",
+                "url": "WB00255301"
+            },
+            {
+                "text": "效期管理",
+                "url": "WB00255301_period"
+            },
+            {
+                "text": "研產銷管理",
+                "url": "WB00255301_produce"
+            },
+            {
+                "text": "多通路管理",
+                "url": "WB00255301_channel"
+            },
+            {
+                "text": "食品安全管理",
+                "url": "javascript:;",
+                "dropdowns": [
+                    {
+                        "text": "食安困擾",
+                        "url": "WB00255301_5"
+                    },
+                    {
+                        "text": "食安因應",
+                        "url": "WB00255301_3"
+                    },
+                    {
+                        "text": "食安研討會",
+                        "url": "WB00255301_4"
+                    }
+                ]
+            },
+            {
+                "text": "其它方案",
+                "url": "javascript:;",
+                "dropdowns": [
+                    {
+                        "text": "清真認證",
+                        "url": "/tw/dsc/event/WB002841/WB00284101.htm",
+                        "target": "_blank"
+                    },
+                    {
+                        "text": "食品追蹤追溯",
+                        "url": "/tw/dsc/solution/WB002574/WB00257401.htm",
+                        "target": "_blank"
+                    }
+                ]
+            },
+            {
+                "text": "成功案例",
+                "url": "WB00255301_case"
+            },
+            {
+                "text": "聯絡我們",
+                "url": "#contact"
+            }
+        ]
+    },
+    {
+        "id": "WB002811",
+        "title": "交通業",
+        "menus": [
+            {
+                "text": "交通首頁",
+                "url": "WB00281101"
+            },
+            {
+                "text": "研發與交期",
+                "url": "WB00281101_research"
+            },
+            {
+                "text": "生產現場管理",
+                "url": "WB00281101_production"
+            },
+            {
+                "text": "品質管理對策",
+                "url": "WB00281101_quality"
+            },
+            {
+                "text": "成本議題",
+                "url": "WB00281101_cost"
+            },
+            {
+                "text": "工廠導覽",
+                "url": "WB00281101_factory"
+            },
+            {
+                "text": "研討會",
+                "url": "seminar"
+            },
+            {
+                "text": "輔導案例",
+                "url": "WB00281101_case"
+            },
+            {
+                "text": "聯絡我們",
+                "url": "#contact"
+            }
+        ]
+    },
+    {
+        "id": "WB002554",
+        "title": "塑膠業",
+        "menus": [
+            {
+                "text": "塑膠首頁",
+                "url": "WB00255401"
+            },
+            {
+                "text": "同業需求",
+                "url": "WB00255401_demand"
+            },
+            {
+                "text": "少量多樣接單",
+                "url": "WB00255401_Issue"
+            },
+            {
+                "text": "接單與結成本",
+                "url": "javascript:;",
+                "dropdowns": [
+                    {
+                        "text": "接單管理",
+                        "url": "WB00255401_Orders"
+                    },
+                    {
+                        "text": "成本精算",
+                        "url": "WB00255401_cost"
+                    }
+                ]
+            },
+            {
+                "text": "品質與現場管理",
+                "url": "javascript:;",
+                "dropdowns": [
+                    {
+                        "text": "品質控管",
+                        "url": "WB00255401_quality"
+                    },
+                    {
+                        "text": "智慧現場管理",
+                        "url": "WB00255401_smartFactory"
+                    }
+                ]
+            },
+            {
+                "text": "研討會",
+                "url": "WB00255401_seminar"
+            },
+            {
+                "text": "案例客戶",
+                "url": "WB00255401_case"
+            },
+            {
+                "text": "聯絡我們",
+                "url": "#contact"
+            }
+        ]
+    },
+    {
+        "id": "WB002588",
+        "title": "心服務新價值",
+        "menus": [
+            {
+                "text": "服務首頁",
+                "url": "WB00258801"
+            },
+            {
+                "text": "系統導入",
+                "url": "WB00258801_1"
+            },
+            {
+                "text": "管理升級",
+                "url": "WB00258801_2"
+            },
+            {
+                "text": "IT委外",
+                "url": "WB00258801#IT"
+            },
+            {
+                "text": "服務平台",
+                "url": "http://service.digiwin.com/login",
+                "target": "_blank"
+            },
+            {
+                "text": "聯絡我們",
+                "url": "#contact"
+            }
+        ]
+    },
+    {
+        "id": "WB002839",
+        "title": "中小企業SmartERP",
+        "menus": [
+            {
+                "text": "中小企業首頁",
+                "url": "WB00283901"
+            },
+            {
+                "text": "製造業管理",
+                "url": "manufacture"
+            },
+            {
+                "text": "買賣業管理",
+                "url": "merchandise"
+            },
+            {
+                "text": "常見作業困擾",
+                "url": "WB00283901#problem"
+            },
+            {
+                "text": "方案介紹",
+                "url": "solution"
+            },
+            {
+                "text": "成功案例",
+                "url": "case"
+            },
+            {
+                "text": "其它方案",
+                "url": "javascript:;",
+                "dropdowns": [
+                    {
+                        "text": "網購接單",
+                        "url": "online"
+                    },
+                    {
+                        "text": "電子發票",
+                        "url": "/tw/dsc/solution/WB002742/WB00274201_solution",
+                        "target": "_blank"
+                    },
+                    {
+                        "text": "ISO文管",
+                        "url": "iso"
+                    },
+                    {
+                        "text": "電子表單",
+                        "url": "eform"
+                    },
+                    {
+                        "text": "薪資計算",
+                        "url": "/tw/dsc/solution/WB002741/WB00274101_HR",
+                        "target": "_blank"
+                    },
+                    {
+                        "text": "條碼方案",
+                        "url": "barcode"
+                    },
+                    {
+                        "text": "庫存方案",
+                        "url": "inventory"
+                    },
+                    {
+                        "text": "費用控管",
+                        "url": "cost_control"
+                    }
+                ]
+            },
+            {
+                "text": "聯絡我們",
+                "url": "#contact"
+            }
+        ]
+    },
+    {
+        "id": "WB002742",
+        "title": "電子發票",
+        "menus": [
+            {
+                "text": "電子發票首頁",
+                "url": "WB00274201"
+            },
+            {
+                "text": "相關法規",
+                "url": "WB00274201_law"
+            },
+            {
+                "text": "研討會",
+                "url": "WB00274201_seminar"
+            },
+            {
+                "text": "解決方案",
+                "url": "WB00274201_solution"
+            },
+            {
+                "text": "前往各行業",
+                "url": "WB00274201#Solutionblock03"
+            },
+            {
+                "text": "資料索取",
+                "url": "#contact"
+            },
+            {
+                "text": "聯絡我們",
+                "url": "#contact"
+            }
+        ]
+    },
+    {
+        "id": "WB002595",
+        "title": "網購業",
+        "menus": [
+            {
+                "text": "網購首頁",
+                "url": "WB00259501"
+            },
+            {
+                "text": "典範客戶",
+                "url": "WB00259501#section1"
+            },
+            {
+                "text": "網購生意",
+                "url": "WB00259501#section3"
+            },
+            {
+                "text": "網購管理",
+                "url": "WB00259501#section4"
+            },
+            {
+                "text": "跨境電商",
+                "url": "WB00259501_2"
+            },
+            {
+                "text": "研討會",
+                "url": "WB00259501_3"
+            },
+            {
+                "text": "資料索取",
+                "url": "WB00259501#section5"
+            },
+            {
+                "text": "連絡我們",
+                "url": "WB00259501#contact"
+            }
+        ]
+    },
+    {
+        "id": "WB002639",
+        "title": "EAS企業會計準則",
+        "menus": [
+            {
+                "text": "EAS首頁",
+                "url": "WB00263901"
+            },
+            {
+                "text": "法規時程",
+                "url": "WB00263901_2"
+            },
+            {
+                "text": "衝擊影響",
+                "url": "WB00263901_3"
+            },
+            {
+                "text": "研討會",
+                "url": "WB00263901_4"
+            },
+            {
+                "text": "輔導案例",
+                "url": "WB00263901_6"
+            },
+            {
+                "text": "解決方案",
+                "url": "WB00263901_5"
+            },
+            {
+                "text": "資料索取",
+                "url": "#contact"
+            },
+            {
+                "text": "聯絡我們",
+                "url": "#contact"
+            }
+        ]
+    },
+    {
+        "id": "WB002711",
+        "title": "美妝業",
+        "menus": [
+            {
+                "text": "美妝首頁",
+                "url": "WB00271101"
+            },
+            {
+                "text": "生意管理",
+                "url": "WB00271101_business"
+            },
+            {
+                "text": "多通路管理",
+                "url": "WB00271101_multichannel"
+            },
+            {
+                "text": "輔導案例",
+                "url": "WB00271101_case"
+            },
+            {
+                "text": "聯絡我們",
+                "url": "#contact"
+            }
+        ]
+    },
+    {
+        "id": "WB002752",
+        "title": "接案管理方案",
+        "menus": [
+            {
+                "text": "接案首頁",
+                "url": "WB00275201"
+            },
+            {
+                "text": "接案前中後",
+                "url": "#getCaseFirst"
+            },
+            {
+                "text": "輔導案例介紹",
+                "url": "WB00275201_case"
+            },
+            {
+                "text": "研討會",
+                "url": "WB00275201_activity"
+            },
+            {
+                "text": "前往各行業",
+                "url": "#industry"
+            },
+            {
+                "text": "資料索取",
+                "url": "#contact"
+            }
+        ]
+    },
+    {
+        "id": "WB002521",
+        "title": "新設公司",
+        "menus": [
+            {
+                "text": "常見困擾",
+                "url": "#problems"
+            },
+            {
+                "text": "管理制度",
+                "url": "#process"
+            },
+            {
+                "text": "輔導案例",
+                "url": "#case"
+            },
+            {
+                "text": "硬體網路",
+                "url": "#hardware"
+            },
+            {
+                "text": "財務融資",
+                "url": "#finance"
+            },
+            {
+                "text": "行業方案",
+                "url": "#industry"
+            },
+            {
+                "text": "聯絡我們",
+                "url": "#contact"
+            }
+        ]
+    },
+    {
+        "id": "WB002850",
+        "title": "醫美業",
+        "menus": [
+            {
+                "text": "醫美首頁",
+                "url": "WB00285001"
+            },
+            {
+                "text": "奠定口碑",
+                "url": "brand"
+            },
+            {
+                "text": "快速展店",
+                "url": "store"
+            },
+            {
+                "text": "解決方案",
+                "url": "solution"
+            },
+            {
+                "text": "聯絡我們",
+                "url": "#contact"
+            }
+        ]
+    },
+    {
+        "id": "WB002747",
+        "title": "法令因應服務白皮書",
+        "menus": [
+            {
+                "text": "白皮書首頁",
+                "url": "javascript:;"
+            },
+            {
+                "text": "企業會計準則",
+                "url": "#EAS"
+            },
+            {
+                "text": "勞基法新修法",
+                "url": "/tw/dsc/solution/WB002741/WB00274101",
+                "target": "_blank"
+            },
+            {
+                "text": "電子發票",
+                "url": "#receipt"
+            },
+            {
+                "text": "前往各行業",
+                "url": "#solution"
+            },
+            {
+                "text": "連絡我們",
+                "url": "#contact"
+            }
+        ]
+    },
+    {
+        "id": "WB002801",
+        "title": "設備代理業",
+        "menus": [
+            {
+                "text": "設備代理首頁",
+                "url": "WB00280101"
+            },
+            {
+                "text": "主動式服務",
+                "url": "WB00280101_service"
+            },
+            {
+                "text": "成品型銷售",
+                "url": "WB00280101_sales"
+            },
+            {
+                "text": "客製型專案",
+                "url": "WB00280101_project"
+            },
+            {
+                "text": "研討會",
+                "url": "seminar"
+            },
+            {
+                "text": "成功案例",
+                "url": "javascript:;",
+                "dropdowns": [
+                    {
+                        "text": "歐亞科技",
+                        "url": "WB00280101_case2",
+                        "target": "_blank"
+                    },
+                    {
+                        "text": "其他案例",
+                        "url": "WB00280101_case"
+                    }
+                ]
+            },
+            {
+                "text": "聯絡我們",
+                "url": "#contact"
+            }
+        ]
+    },
+    {
+        "id": "WB002543",
+        "title": "生技業",
+        "menus": [
+            {
+                "text": "生技首頁",
+                "url": "WB00254301"
+            },
+            {
+                "text": "電腦確效",
+                "url": "WB00254301_verify"
+            },
+            {
+                "text": "PIC/S因應",
+                "url": "WB00254301_PICS"
+            },
+            {
+                "text": "生技IPO",
+                "url": "WB00254301_IPO"
+            },
+            {
+                "text": "輔導案例",
+                "url": "WB00254301_case"
+            },
+            {
+                "text": "醫療行業",
+                "url": "javascript:;",
+                "dropdowns": [
+                    {
+                        "text": "醫療器材",
+                        "url": "/tw/dsc/solution/WB002785/WB00278501",
+                        "target": "_blank"
+                    },
+                    {
+                        "text": "醫療院所",
+                        "url": "WB00254301_hospital"
+                    },
+                    {
+                        "text": "醫美診所",
+                        "url": "/tw/dsc/solution/WB002850/WB00285001",
+                        "target": "_blank"
+                    }
+                ]
+            },
+            {
+                "text": "解決方案",
+                "url": "WB00254301_solution"
+            },
+            {
+                "text": "聯絡我們",
+                "url": "#contact"
+            }
+        ]
+    },
+    {
+        "id": "WB002675",
+        "title": "流通業",
+        "menus": [
+            {
+                "text": "流通首頁",
+                "url": "WB00267501"
+            },
+            {
+                "text": "同業需求",
+                "url": "WB00267501_14"
+            },
+            {
+                "text": "批發生意",
+                "url": "javascript:;",
+                "dropdowns": [
+                    {
+                        "text": "經銷代理",
+                        "url": "WB00267501_1"
+                    },
+                    {
+                        "text": "連鎖賣場KA",
+                        "url": "WB00267501_2"
+                    }
+                ]
+            },
+            {
+                "text": "零售生意",
+                "url": "javascript:;",
+                "dropdowns": [
+                    {
+                        "text": "門市專櫃",
+                        "url": "WB00267501_3"
+                    },
+                    {
+                        "text": "網購生意",
+                        "url": "/tw/dsc/solution/WB002595/WB00259501",
+                        "target": "_target"
+                    }
+                ]
+            },
+            {
+                "text": "其它方案",
+                "url": "javascript:;",
+                "dropdowns": [
+                    {
+                        "text": "觀光工廠",
+                        "url": "WB00267501_4"
+                    },
+                    {
+                        "text": "行動經銷",
+                        "url": "WB00267501_15"
+                    },
+                     {
+                        "text": "LINE經銷",
+                        "url": "/tw/dsc/solution/WB003031/linesell.html",
+                        "target": "_target"
+                    },
+                    {
+                        "text": "條碼方案",
+                        "url": "barcode"
+                    }
+                ]
+            },
+            {
+                "text": "其它流通業",
+                "url": "javascript:;",
+                "dropdowns": [
+                    {
+                        "text": "食品業",
+                        "url": "/tw/dsc/solution/WB002553/WB00255301",
+                        "target": "_blank"
+                    },
+                    {
+                        "text": "電子零件業",
+                        "url": "WB00267501_6"
+                    },
+                    {
+                        "text": "網購業",
+                        "url": "/tw/dsc/solution/WB002595/WB00259501",
+                        "target": "_blank"
+                    },
+                    {
+                        "text": "服飾業",
+                        "url": "WB00267501_7"
+                    },
+                    {
+                        "text": "藥妝業",
+                        "url": "/tw/dsc/solution/WB002711/WB00271101",
+                        "target": "_blank"
+                    },
+                    {
+                        "text": "家電用品業",
+                        "url": "WB00267501_9"
+                    },
+                    {
+                        "text": "儀器設備業",
+                        "url": "WB00267501_10"
+                    },
+                    {
+                        "text": "圖書業",
+                        "url": "WB00267501_11"
+                    },
+                    {
+                        "text": "補教業",
+                        "url": "WB00267501_12"
+                    },
+                    {
+                        "text": "專業服務業",
+                        "url": "WB00267501_13"
+                    }
+                ]
+            },
+            {
+                "text": "研討會",
+                "url": "WB00267501_5"
+            },
+            {
+                "text": "聯絡我們",
+                "url": "#contact"
+            }
+        ]
+    },
+    {
+        "id": "WB002741old",
+        "title": "勞基法新修法",
+        "menus": [
+            {
+                "text": "勞基法新修法首頁",
+                "url": "WB00274101"
+            },
+            {
+                "text": "法規怎麼說",
+                "url": "WB00274101_law"
+            },
+            {
+                "text": "衝擊與影響",
+                "url": "WB00274101_effect",
+                "dropdowns": [
+                    {
+                        "text": "法規衝擊與企業因應",
+                        "url": "WB00274101_effect#effect"
+                    },
+                    {
+                        "text": "專家怎麼說?",
+                        "url": "WB00274101_effect#expert"
+                    }
+                ]
+            },
+            {
+                "text": "解決方案",
+                "url": "WB00274101_aboutsolution"
+            },
+            {
+                "text": "HR人力資源",
+                "url": "WB00274101_HR"
+            },
+            {
+                "text": "前往各行業",
+                "url": "WB00274101_aboutsolution#ALL"
+            },
+            {
+                "text": "聯絡我們",
+                "url": "#contact"
+            }
+        ]
+    },
+     {
+        "id": "WB002741",
+        "title": "人資相關法令",
+        "menus": [
+            {
+                "text": "首頁",
+                "url": "index"
+            },
+            {
+                "text": "勞動事件法",
+                "url": "law"
+            },
+            {
+                "text": "因應勞檢",
+                "url": "respond"
+            },
+            {
+                "text": "解決方案",
+                "url": "solution"
+            },
+            {
+                "text": "行動應用",
+                "url": "mobile"
+            },
+            {
+                "text": "輔導案例",
+                "url": "case"
+            },
+            {
+                "text": "聯絡我們",
+                "url": "#contact"
+            }
+        ]
+    },   
+    {
+        "id": "WB002513",
+        "title": "電子業",
+        "menus": [
+            {
+                "text": "回首頁",
+                "url": "WB00251301"
+            },
+            {
+                "text": "工業4.0",
+                "url": "javascript:;",
+                "dropdowns": [
+                    {
+                        "text": "邁向工業4.0",
+                        "url": "http://industry4.digiwin.com",
+                        "target": "_blank"
+                    },
+                    {
+                        "text": "評量健檢",
+                        "url": "http://industry4.digiwin.com/diagnosis.htm",
+                        "target": "_blank"
+                    },
+                    {
+                        "text": "產官學研討會",
+                        "url": "http://industry4.digiwin.com/activity.htm",
+                        "target": "_blank"
+                    },
+                    {
+                        "text": "方案規劃",
+                        "url": "http://industry4.digiwin.com/smartFactory.htm",
+                        "target": "_blank"
+                    }
+                ]
+            },
+            {
+                "text": "電子業議題",
+                "url": "javascript:;",
+                "dropdowns": [
+                    {
+                        "text": "少量多樣接單",
+                        "url": "WB00251301_Issue01"
+                    },
+                    {
+                        "text": "電子業轉型",
+                        "url": "WB00251301_Issue02"
+                    },
+                    {
+                        "text": "IPO須知",
+                        "url": "WB00251301_Issue03"
+                    }
+                ]
+            },
+            {
+                "text": "生產製造",
+                "url": "WB00251301_Manufacture"
+            },
+            {
+                "text": "輔導案例",
+                "url": "WB00251301#inCase_bg"
+            },
+            {
+                "text": "研討會",
+                "url": "WB00251301_seminar"
+            },
+            {
+                "text": "MIS專區",
+                "url": "javascript:;",
+                "dropdowns": [
+                    {
+                        "text": "ERPII介紹",
+                        "url": "WB00251301#wrapper2_bg"
+                    },
+                    {
+                        "text": "資安 備援 虛擬化",
+                        "url": "WB00251301_mis01"
+                    },
+                    {
+                        "text": "資訊委外",
+                        "url": "WB00251301_mis02"
+                    },
+                    {
+                        "text": "VPN",
+                        "url": "WB00251301_mis02"
+                    },
+                    {
+                        "text": "機房建置",
+                        "url": "WB00251301_mis02"
+                    },
+                    {
+                        "text": "預算編製管理",
+                        "url": "WB00251301_mis03"
+                    }
+                ]
+            },
+            {
+                "text": "解決方案",
+                "url": "WB00251301#problems"
+            }
+        ]
+    },
+    {
+        "id": "WB002783",
+        "title": "製造業",
+        "menus": [
+            {
+                "text": "回首頁",
+                "url": "WB00278301"
+            },
+            {
+                "text": "工廠管理",
+                "url": "WB00278301_factoryManage",
+                "dropdowns": [
+                    {
+                        "text": "帳料合一",
+                        "url": "WB00278301_factoryLogistics"
+                    },
+                    {
+                        "text": "電子看板",
+                        "url": "WB00278301_factoryManage#ekb"
+                    },
+                    {
+                        "text": "現場報工",
+                        "url": "WB00278301_factoryManage#replyWork"
+                    },
+                    {
+                        "text": "電子化SOP",
+                        "url": "WB00278301_factoryManage#esop"
+                    },
+                    {
+                        "text": "稼動管理",
+                        "url": "WB00278301_factoryManage#availability"
+                    },
+                    {
+                        "text": "機台整合",
+                        "url": "WB00278301_factoryManage#machineIntegration"
+                    },
+                    {
+                        "text": "生產排程",
+                        "url": "WB00278301_factoryManage#productionSchedule"
+                    },
+                    {
+                        "text": "產品回溯",
+                        "url": "WB00278301_factoryManage#productRecall"
+                    },
+                    {
+                        "text": "外包管理",
+                        "url": "WB00278301_factoryManage#outsourcing"
+                    }
+                ]
+            },
+            {
+                "text": "製造業議題",
+                "url": "#issue",
+                "dropdowns": [
+                    {
+                        "text": "接單：少量多樣",
+                        "url": "WB00278301_customized"
+                    },
+                    {
+                        "text": "因應：急單插單",
+                        "url": "WB00278301_order"
+                    },
+                    {
+                        "text": "法令：勞基法新修法",
+                        "url": "/tw/dsc/solution/WB002741/WB00274101",
+                        "target": "_blank"
+                    },
+                    {
+                        "text": "法令：電子發票",
+                        "url": "/tw/dsc/solution/WB002742/WB00274201",
+                        "target": "_blank"
+                    },
+                    {
+                        "text": "市場：通路佈局",
+                        "url": "WB00278301_channelArrange"
+                    }
+                ]
+            },
+            {
+                "text": "輔導案例",
+                "url": "WB00278301_case"
+            },
+            {
+                "text": "研討會",
+                "url": "seminar"
+            },
+            {
+                "text": "解決方案",
+                "url": "javascript:;",
+                "dropdowns": [
+                    {
+                        "text": "APS",
+                        "url": "WB00278301_solution#APS"
+                    },
+                    {
+                        "text": "MES",
+                        "url": "WB00278301_solution#MES"
+                    },
+                    {
+                        "text": "SFT",
+                        "url": "WB00278301_solution#SFT"
+                    },
+                    {
+                        "text": "廠內物流",
+                        "url": "WB00278301_factoryLogistics"
+                    },
+                    {
+                        "text": "通路佈局",
+                        "url": "WB00278301_channelArrange"
+                    }
+                ]
+            },
+            {
+                "text": "前往各行業",
+                "url": "#otherIndustry",
+                "dropdowns": [
+                    {
+                        "text": "電子",
+                        "url": "/tw/dsc/solution/WB002513/WB00251301",
+                        "target": "_blank"
+                    },
+                    {
+                        "text": "機械",
+                        "url": "/tw/dsc/solution/WB002476/WB00247601",
+                        "target": "_blank"
+                    },
+                    {
+                        "text": "生技",
+                        "url": "/tw/dsc/solution/WB002543/WB00254301",
+                        "target": "_blank"
+                    },
+                    {
+                        "text": "醫材",
+                        "url": "/tw/dsc/solution/WB002785/WB00278501",
+                        "target": "_blank"
+                    },
+                    {
+                        "text": "金屬",
+                        "url": "/tw/solution/ListDetail5964",
+                        "target": "_blank"
+                    },
+                    {
+                        "text": "塑膠",
+                        "url": "/tw/dsc/solution/WB002554/WB00255401",
+                        "target": "_blank"
+                    },
+                    {
+                        "text": "買賣流通業",
+                        "url": "/tw/dsc/solution/WB002675/WB00267501",
+                        "target": "_blank"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "WB002917",
+        "title": "IT 編列預算",
+        "menus": [
+            {
+                "text": "編列預算首頁",
+                "url": "WB00291701"
+            },
+            {
+                "text": "IT如何預算編列",
+                "url": "WB00291701_2"
+            },
+            {
+                "text": "方案介紹",
+                "url": "WB00291701_3"
+            },
+            {
+                "text": "資訊安全解決方案",
+                "url": "WB00291701_4"
+            },
+            {
+                "text": "行業ERP",
+                "url": "WB00291701_5"
+            },
+            {
+                "text": "聯絡我們",
+                "url": "#contact"
+            }
+        ]
+    },
+    {
+        "id": "WB002953",
+        "title": "金屬業",
+        "menus": [
+            {
+                "text": "回首頁",
+                "url": "WB00295301#banner"
+            },
+            {
+                "text": "管理挑戰",
+                "url": "WB00295301#perplex"
+            },
+            {
+                "text": "解決方案",
+                "url": "WB00295301#plan"
+            },
+            {
+                "text": "導入效益",
+                "url": "WB00295301#benefit"
+            },
+            {
+                "text": "輔導案例",
+                "url": "javascript:;",
+                "dropdowns": [
+                    {
+                        "text": "力肯實業",
+                        "url": "case"
+                    },
+                    {
+                        "text": "安得烈",
+                        "url": "case2"
+                    }
+                ]
+            },
+            {
+                "text": "聯絡我們",
+                "url": "#contact"
+            }
+        ],
+        "anchors": [
+            {
+                "url": "#banner",
+                "index": 0
+            },
+            {
+                "url": "#perplex",
+                "index": 1
+            },
+            {
+                "url": "#plan",
+                "index": 2
+            },
+            {
+                "url": "#benefit",
+                "index": 3
+            },
+            {
+                "url": "#header",
+                "index": 4
+            }
+        ]
+    },
+    {
+        "id": "WB002972",
+        "title": "新零售",
+        "menus": [
+            {
+                "text": "零售業管理挑戰",
+                "url": "index"
+            },
+            {
+                "text": "新零售介紹",
+                "url": "intro"
+            },
+            {
+                "text": "新零售方案及應用",
+                "url": "case"
+            },
+            {
+                "text": "輔導案例",
+                "url": "javascript:;",
+                "dropdowns": [
+                    {
+                        "text": "安琪兒",
+                        "url": "case1"
+                    }
+                ]
+            },
+            {
+                "text": "研討會",
+                "url": "seminar"
+            },
+            {
+                "text": "聯絡我們",
+                "url": "#contact"
+            }
+        ]
+    },
+    {
+        "id": "ERP",
+        "title": "ERP全方案-企業轉型，從創造數位價值開始",
+        "menus": [
+            {
+                "text": "職能管理",
+                "url": "#section2"
+            },
+            {
+                "text": "經營能力",
+                "url": "#section3"
+            },
+            {
+                "text": "產業趨勢",
+                "url": "#section4"
+            },
+            {
+                "text": "行業分類",
+                "url": "#section6"
+            },
+            {
+                "text": "企業規模",
+                "url": "#section5"
+            }
+        ],
+        "anchors": [
+            {
+                "url": "#section2",
+                "index": 0
+            },
+            {
+                "url": "#section3",
+                "index": 1
+            },
+            {
+                "url": "#section4",
+                "index": 2
+            },
+            {
+                "url": "#section6",
+                "index": 3
+            },
+            {
+                "url": "#section5",
+                "index": 4
+            }
+        ]
+    },
+    {
+        "id": "semiconductor",
+        "title": "半導體產業",
+        "menus": [
+            {
+                "text": "半導體產業首頁",
+                "url": "index"
+            },
+            {
+                "text": "外延與芯片製造",
+                "url": "semiconductorMF"
+            },
+            {
+                "text": "封裝與測試",
+                "url": "semiconductorBT"
+            }
+        ]
+    },
+    {
+        "id": "WB003006",
+        "title": "餐飲業",
+        "menus": [
+            {
+                "text": "餐飲業現況",
+                "url": "index.html"
+            },
+            {
+                "text": "提昇效率",
+                "url": "efficiency.html"
+            },
+            {
+                "text": "會員營銷",
+                "url": "member.html"
+            },
+            {
+                "text": "精準物流",
+                "url": "logistics.html"
+            },
+            {
+                "text": "便捷支付",
+                "url": "payment.html"
+            },
+            {
+                "text": "聯絡我們",
+                "url": "#contact"
+            }
+        ]
+    },
+    {
+        "id": "ServiceCloud",
+        "title": "服務雲管家",
+        "menus": [
+            {
+                "text": "服務雲介紹",
+                "url": "#remould"
+            },
+            {
+                "text": "雲管家",
+                "url": "#steward"
+            },
+            {
+                "text": "Tip Biu BI",
+                "url": "#steward2"
+            },
+            {
+                "text": "產品特色",
+                "url": "#item"
+            },
+            {
+                "text": "數位化方案",
+                "url": "/tw/page/2079.html",
+                "target": "_blank"
+            }
+        ],
+        "anchors": [
+            {
+                "url": "#remould",
+                "index": 0
+            },
+            {
+                "url": "#steward",
+                "index": 1
+            },
+            {
+                "url": "#steward2",
+                "index": 2
+            },
+            {
+                "url": "#item",
+                "index": 3
+            }
+        ]
+    }
+]

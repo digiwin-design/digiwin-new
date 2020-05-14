@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="/tw/static/css/public.css">
+    <link rel="stylesheet" href="/tw/static/css/style.css">
+    <script src="/tw/static/js/jquery-1.11.3.min.js"></script>
+    <script src="https://polyfill.io/v3/polyfill.js?features=default,fetch,HTMLPictureElement,Array.prototype.find,NodeList.prototype.forEach&amp;flags=gated"></script>
+    <script src="/tw/dsc/assets/modernizr-custom.js"></script>
+    <script src="/tw/dsc/assets/mobile-detect.js"></script>
+    <script src="/tw/dsc/assets/mobile-detect-modernizr.js" defer></script>
+    <script src="/tw/dsc/assets/smoothscroll.js" defer></script>
+    <script src="/tw/dsc/assets/axios.min.js"></script>
+    <script src="/tw/dsc/assets/vuejs/vue-all-dev.js"></script>
+    <script src="/tw/dsc/js/common.min.js"></script>
+  </head>
+  <body>
+    <section class="page-content page-content02 clearfix" style="min-height: 904px;">
+      <div class="container">
+        <div class="leftbox leftbox01">
+          <div class="list-case-show">
+            <h1 class="font32"><strong>標題</strong></h1>
+            <h2 class="font24"><strong>副標題</strong></h2>
+            <p class="tag"><span><a href="javascript:;">標籤</a></span></p>
+            <!-- 後台上稿內容開始-->
+            <link rel="stylesheet" href="/tw/article/assets/swiper.min.css">
+            <script src="/tw/article/assets/swiper.min.js" defer></script>
+            <script src="/tw/article/assets/vue-awesome-swiper.js" defer></script>
+            <link rel="stylesheet" href="/tw/dsc/css/reboot.css">
+            <script src="/tw/article/assets/lodash.min.js" defer></script>
+            <script src="/tw/article/js/all.min.js" defer></script>
+            <link rel="stylesheet" href="/tw/article/css/aboutdsc/style.css">
+            <script src="/tw/article/js/aboutdsc.min.js" defer></script>
+            <main v-cloak v-if="result" v-bind:class="{top:!fixedHeader}">
+              <main-content></main-content>
+            </main>
+            <!-- 後台上稿內容結束-->
+          </div>
+        </div>
+        <aside class="rightbox">
+          <div style="background:#fff;padding-bottom:10px;">
+            <p class="pic"><a target="_blank" href="https://a1.digiwin.com/action/20190702/index.php?utm_source=DGW&amp;utm_medium=banner&amp;utm_content=DGW_Vicky_0717_A1移動辦公無限可能&amp;utm_campaign=DGW_Vicky_0717_CPL"><img src="https://static.digiwin.com/tw/upload/portal/20190708/dc8a6eae0ac0e6580602c0b8a1515086.jpg"></a></p><br>
+            <p class="pic"><a target="_blank" href="https://www.digiwin.com/tw/dsc/solution/WB002972/index?utm_source=DGW&amp;utm_medium=banner&amp;utm_content=DGW_Vicky_0708_新零售&amp;utm_campaign=DGW_Vicky_0708_CPL"><img src="https://static.digiwin.com/tw/upload/portal/20190708/5baa9f4033555c7b0c7ee41024ed42dc.jpg"></a></p>
+          </div>
+          <div class="list-box pinned">
+            <ul class="tab-menu">
+              <li class="active">最新發佈</li>
+              <li>熱門文章</li>
+            </ul>
+            <div class="clearfix releatedbox">
+              <div class="tab-content" style="display: block;">
+                <ul>
+                  <li><a href="/tw/case/1941.html">鴻福製革e化打通全廠數據 精進管理更省力</a></li>
+                  <li><a href="/tw/case/1933.html">致力數據E化分析　宏致越南精密經營管理撥雲見日</a></li>
+                  <li><a href="/tw/case/1932.html">二代接班思維變革　惠傑E化轉型與時俱進</a></li>
+                  <li><a href="/tw/case/1930.html">整合資訊數位化　承育精密無懼新挑戰</a></li>
+                  <li><a href="/tw/case/1864.html">I.B.O強化資訊整合　搶先落實E化管理</a></li>
+                </ul>
+              </div>
+              <div class="tab-content">
+                <ul>
+                  <li><a href="/tw/case/981.html">美而快實業 PAZZO 跨境經營 打造網購品牌帝國</a></li>
+                  <li><a href="/tw/case/537.html">俊益鋼鐵─工廠管理結合QRcode條碼化改變傳統鋼材廠</a></li>
+                  <li><a href="/tw/case/626.html">記銘工業穩健向前，逐步實現智能化工廠</a></li>
+                  <li><a href="/tw/case/1689.html">揮別盲眼管理 大井泵浦與數據同行           </a></li>
+                  <li><a href="/tw/case/1277.html">立德飯店ERP電腦化上線成功案例</a></li>
+                </ul>
+              </div>
+            </div>
+            <p class="pic"><a href="https://pse.is/H78BX" target="_blank"><img src="https://static.digiwin.com/tw/upload/default/20190531/f0b20124464559a1e2c538e705e042d0.jpg" alt="WB00296701_300x600.jpg"></a></p>
+          </div>
+        </aside>
+      </div>
+    </section>
+  </body>
+</html>

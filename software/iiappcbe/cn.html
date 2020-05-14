@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://www.digiwin.com/static/css/public.css">
+    <link rel="stylesheet" href="https://www.digiwin.com/static/css/style.css">
+    <script src="https://www.digiwin.com/static/js/jquery-1.11.3.min.js"></script>
+    <script src="https://unpkg.com/vue/dist/vue.js"></script>
+    <script src="https://www.digiwin.com/dgw/assets/promise-polyfill.min.js"></script>
+    <script src="https://www.digiwin.com/dgw/assets/fetch-polyfill.js"></script>
+    <script src="https://www.digiwin.com/dgw/assets/array-find-polyfill.js"></script>
+  </head>
+  <body>
+    <!-- 以下為後台上稿內容-->
+    <link rel="stylesheet" href="https://www.digiwin.com/contact_fault/css/contactForm.css">
+    <link rel="stylesheet" href="https://www.digiwin.com/contact_fault/css/xcConfirm.css">
+    <script src="https://www.digiwin.com/contact_fault/js/form.js" defer></script>
+    <script src="https://www.digiwin.com/contact_fault/js/xcConfirm.js" defer></script>
+    <script src="https://www.digiwin.com/contact_fault/js/jquery.xdomainrequest.min.js" defer></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="/tw/dsc/assets/modernizr-custom.js" defer></script>
+    <script src="/tw/dsc/assets/mobile-detect.js"></script>
+    <script src="/tw/dsc/assets/mobile-detect-modernizr.js" defer></script>
+    <script src="https://unpkg.com/vuex" defer></script>
+    <script src="https://unpkg.com/http-vue-loader" defer></script>
+    <script src="assets/lodash.min.js" defer></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.7/css/swiper.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.7/js/swiper.min.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue-awesome-swiper@3.1.2/dist/vue-awesome-swiper.js" defer></script>
+    <link rel="stylesheet" href="css/reboot.css">
+    <link rel="stylesheet" href="css/index.css">
+    <script src="js/index.min.js" defer></script>
+    <main><div id="header" class="header">
+    <div class="container">
+        <p class="header-tag">工业APP</p>
+        <hgroup>
+            <h1>设备水晶球</h1>
+            <h2>赋能企业精益制造</h2>
+        </hgroup>
+        <p class="header-text">实现设备数字化管理，精确掌握设备运行状态<br>精准反应机台利用率，提高设备OEE水平</p>
+        <a href="https://app.ma.scrmtech.com/resources/ResourcePc/ResourcePcInfo?pf_uid=12451_1532&id=7234&source=1&pf_type=3&channel_id=2969&channel_name=%E5%AE%98%E7%BD%91&tag_id=9249b5a7c7831f57" class="header-btn" target="_blank">下载资料</a>
+        <header-form v-if="!isMobile"></header-form>
+    </div>
+</div>
+
+<header-form v-if="isMobile"></header-form>
+
+<article class="section1">
+    <h1 class="sectionTitle container">中小微制造企业 工厂智能化困扰</h1>
+    <div class="hoverBoxs">
+        <div class="container">
+            <Hover-box custom-class="hoverBox1">
+                <template slot="content">
+                    <p class="hoverBox-title">老板</p>
+                </template>
+                <template slot="hover">
+                    <ul>
+                        <li>每天到处跑客户，生产状况究竟怎样？</li>
+                        <li>到底机台帮我赚了多少钱？</li>
+                        <li>机台的利用率是如何？</li>
+                        <li>成本预算不足怎么办？</li>
+                    </ul>
+                </template>
+            </Hover-box>
+            <Hover-box custom-class="hoverBox2">
+                <template slot="content">
+                    <p class="hoverBox-title">厂长/现场主管</p>
+                </template>
+                <template slot="hover">
+                    <ul>
+                        <li>订单迟迟交不上来，机台运作状况？</li>
+                        <li>到底机台在作什么订单呀？</li>
+                        <li>机台每天生产多少什么产品呀？</li>
+                        <li>是否可实时反映机台异常？</li>
+                    </ul>
+                </template>
+            </Hover-box>
+        </div>
+    </div>
+</article>
+
+<article class="section2">
+    <div class="container">
+        <div class="section2-content">
+            <h1 class="sectionTitle">智能工厂第一步<br>设备水晶球 实现设备联网数字化</h1>
+            <div class="section2-list">
+                <dt>工厂决策会更加全面</dt>
+                <dd>数据实时采集更新与分析反馈</dd>
+                <dt>设备运行状态可监测</dt>
+                <dd>数据统计更迭，实现设备预测性维护、保养</dd>
+                <dt>生产过程更加标准化</dt>
+                <dd>数据保留，形成长期标准化的数据设置</dd>
+            </div>
+        </div>
+        <img src="/tw/software/iiappcbe/images/section2-bg.jpg" alt="">
+    </div>
+</article>
+
+<article class="section3">
+    <div class="container">
+        <div class="section3-content">
+            <h1 class="sectionTitle">工业互联网智能制造实践路径</h1>
+            <h2>以工业APP微应用、智能云平台，协助企业实现精进管理，加速数字化转型落地。</h2>
+            <p>数据价值转化路径：</p>
+            <img src="/tw/software/iiappcbe/images/section3-illust.svg" alt="">
+            <p>以效益价值为起始，用轻量方案为手段，在垂直行业细分场景上促应用落地解放<i>数据红利</i>。</p>
+            <ul class="section3-list">
+                <li data-text="IT&OT"><i>信息化/自动化</i></li>
+                <li data-text="IT+OT"><i>数字化制造</i></li>
+                <li data-text="IT×OT"><i>数字化，网络化制造</i></li>
+                <li data-text="AIOT"><i>数字化、网络化，智能化制造</i></li>
+            </ul>
+        </div>
+    </div>
+</article>
+
+<article class="section4">
+    <div class="container">
+        <div class="section4-content">
+            <h1 class="sectionTitle">设备水晶球应用场景</h1>
+            <h2>结合工厂应用场景，发展工业APP应用，<br>加速推动工厂数字化管理，赋能中小制造企业。</h2>
+            <img src="/tw/software/iiappcbe/images/section4-illust.png" class="section4-illust" alt="">
+        </div>
+        <img src="/tw/software/iiappcbe/images/section4-bg.jpg" class="section4-bg" alt="">
+    </div>
+</article>
+
+<article class="section5">
+    <div class="container">
+        <div class="section5-content">
+            <h1 class="sectionTitle">效益价值立即可见</h1>
+            <h2>实现合理的绩效管理，提高生产人员维修技能和运维管理水平，确保成本最低和效益最高</h2>
+            <div class="section5-list">
+                <dt>降本/随时随地了解设备投资收益</dt>
+                <dd>
+                    <ul>
+                        <li>减少设备的待工时间与维修费用</li>
+                        <li>更好地管理设备的使用寿命周期</li>
+                    </ul>
+                </dd>
+                <dt>增效/随时随地掌握真实设备运行效率</dt>
+                <dd>
+                    <ul>
+                        <li>精确掌控设备状况与班组绩效</li>
+                        <li>提升企业设备综合效率OEE水平</li>
+                    </ul>
+                </dd>
+                <dt>提质/改善瓶颈工艺生产效率</dt>
+                <dd>
+                    <ul>
+                        <li>降低废品率，提高质量水平</li>
+                        <li>即时捕获设备异常，加速解决</li>
+                    </ul>
+                </dd>
+            </div>
+        </div>
+        <carousel></carousel>
+    </div>
+</article>
+
+<article class="section6">
+    <div class="container">
+        <h1 class="sectionTitle">小应用 大效益 设备水晶球</h1>
+        <div class="section6-content">
+            <figure>
+                <img src="/tw/software/iiappcbe/images/section6-item1.png" alt="">
+                <figcaption>基于SaaS应用，按需订阅</figcaption>
+            </figure>
+            <figure>
+                <img src="/tw/software/iiappcbe/images/section6-item2.png" alt="">
+                <figcaption>无需高单价IT基础设施，<br>可单机上线</figcaption>
+            </figure>
+            <figure>
+                <img src="/tw/software/iiappcbe/images/section6-item3.png" alt="">
+                <figcaption>标准化打包方案，随需即享</figcaption>
+            </figure>
+        </div>
+    </div>
+</article>
+    </main><div id="des" class="section">
+    <div class="content">
+        <h1>想了解更多关于数智工厂 <br>
+            欢迎与我们联系索取资料</h1>
+        <p class="sectionNote">请详细填写以下资料<span class="addStyle">(*为必填)</span>便于尽快为您服务。<br>
+            请直接联系在线客服或拨打免费热线<strong class="highLight"> <a href="tel:400-626-5858">400-626-5858</a></strong>，谢谢！</p>
+    </div>
+
+    <div id="form" class="section">
+        <div class="content">
+            <form>
+                <a id="fromSource" href="javascript:;">contact</a>
+                <div class="lxwm">
+                    <div class="text">
+                        <div class="bt">联系我们</div>
+                        <p style="font-size: 16px;">
+                            电话：400-626-5858
+                        </p>
+                    </div>
+                    <div class="ewm">
+                        <span class="pic">
+                            <img src="https://www.digiwin.com/contact_fault/images/ewm.jpg">
+                        </span>
+                        <div class="txt">关注鼎捷软件官微<br />获取更多智能制造解决方案</div>
+                    </div>
+                </div>
+                <div class="form">
+                    <div class="bt">提交您的信息</div>
+                    <ul class="list">
+                        <li>
+                            <div>
+                                <input type="text" name="contact-company" id="contact-company" placeholder="公司名称" class="input-text required">
+                                <span class="quired">*</span>
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <input type="text" name="contact-job" id="contact-job" placeholder="职称 " class="input-text" />
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <input type="tel" name="telephone" id="telephone" placeholder="联系电话 " class="input-text required" />
+                                <span class="quired">*</span>
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <input type="email" name="contact-email" id="contact-email" placeholder="E-mail" class="input-text required" />
+                                <span class="quired">*</span>
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <input type="text" iname="contact_person" id="contact_person" placeholder="联系人 " class="input-text" />
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <input type="text" name="contact-dept" id="contact-dept" placeholder="部门 " class="input-text" />
+                            </div>
+                        </li>
+                        <li class="yzhm">
+                            <div>
+                                <input type="text" id="identCode" placeholder="请输入验证码 " class="input-text identCode" onblur="validate()" />
+                                <input type="button" class="img" id="vericodePic">
+                                <span class="a-01" onclick="createCode()">换一换</span>
+                                <span id="codeSuces"></span>
+                            </div>
+                        </li>
+                        <li class="btns">
+                            <a id="submit">提交</a>
+                        </li>
+                        <li class="yinsi">
+                            <div class="agreeLabel">
+                                <label for="agree">
+                                    <input type="checkbox" name="agree" value="" id="agree" checked> 我同意接受鼎捷软件<a class="links" href="/portal/article/index/id/9959/cid/160.html" target="_blank">隐私权声明</a>
+                                </label>
+                            </div>
+                        </li>
+                    </ul>
+
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- loading -->
+    <div id="loading">
+        <p><i></i>资料提交中，请稍后</p>
+    </div>
+
+    <!-- thx page -->
+    <div id="thx">
+        <div id="thxContent">
+            <div class="close">X</div>
+            <h3>资料己送出</h3>
+            <p class="thxparg"></p>
+            <p class="suprtCall">
+                <span>如需要立即的支援与服务，</span>
+                <span>请拨打免费热线 400-626-5858，谢谢！</span>
+            </p>
+            <p class="thxSourLoad1">
+                <a id="SourLoadLink" href="" target="_blank">资料下载</a>
+            </p>
+            <p id="goIndex">
+                <a href="javascript:;">继续浏览网页</a>
+            </p>
+        </div>
+    </div>
+</div>
+  </body>
+</html>

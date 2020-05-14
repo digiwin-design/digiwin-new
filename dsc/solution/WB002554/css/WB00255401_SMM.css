@@ -1,0 +1,683 @@
+@charset "UTF-8";
+
+.linkA {
+	text-align: center;
+	margin: 0 auto;
+
+}
+
+
+.link {
+
+	display: inline-block;
+	width: 360px;
+  padding: 20px;
+  border-radius: 2px;
+  font-size: 20px;
+  line-height: 1.5;
+  text-align: center;
+	margin: 0 auto;
+  cursor: pointer;
+  -webkit-transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out;
+  transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out;
+	margin-bottom: 30px;
+	margin-top: 20px;
+}
+
+.link-normal {
+  background-color: #05acc7;
+  color: #fff;
+}
+.link-normal a {
+
+  color: #fff;
+}
+.link-normal:hover {
+  background-color: #048195;
+}
+
+
+.link-normal2 {
+  background-color: #0b6a9d;
+  color: #fff;
+}
+.link-normal2 a {
+
+  color: #fff;
+}
+.link-normal2:hover {
+  background-color: #048195;
+}
+
+
+.link-outline {
+  background-color: #fff;
+  color: #289bd7;
+	border: 1px solid #289bd7;
+	
+}
+.link-outline a {
+
+  color: #289bd7;
+}
+.link-outline:hover {
+  background-color: #fff;
+}
+
+
+.linkbg{ background: #ddecf0; width: 100%; height: 250px; text-align: center;padding-top: 50px;}
+.fontyellow{ color: #ffd800}
+
+#WB002554.WB002554_SM #indBanner {
+    background: url("../images/quality/bg_banner.jpg") no-repeat center center;
+    color: #FFF;
+}
+
+#WB002554.WB002554_SM #mainContent {
+    background-color: #f5f5f5;
+}
+
+#WB002554.WB002554_SM #mainContent .group {
+    padding: 50px;
+}
+
+#WB002554.WB002554_SM #mainContent .group .list {
+    float: left;
+    margin-top: 20px;
+    width: 33%;
+    text-align: center;
+    cursor: pointer;
+}
+
+#WB002554.WB002554_SM #mainContent .group .left1 {
+    float: left;
+    margin-top: 20px;
+    margin-left: 100px;
+    width: 20%;
+    text-align: center;
+    cursor: pointer;
+}
+
+#WB002554.WB002554_SM #mainContent .group .list img {
+    width: 120px;
+    height: 120px;
+    background-color: #5aacd8;
+    border-radius: 100%;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    -moz-transition: 0.5s;
+    transition: 0.5s;
+}
+
+#WB002554.WB002554_SM #mainContent .group .list h3 {
+    position: relative;
+    margin-top: 20px;
+    font-size: 30px;
+    text-align: center;
+}
+#WB002554.WB002554_SM #mainContent .group .list h4 {
+    position: relative;
+    margin-top: 20px;
+    font-size: 21px;
+    text-align: center;
+	border-radius: 50px;
+    margin: 0 auto;
+    color: #2694ce;
+    background-color: #FFF;
+    border: #2694ce 1px solid;
+    display: block;
+    width: 310px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+	
+	
+	
+	
+}
+#WB002554.WB002554_SM #mainContent .group .list p {
+    position: relative;
+    margin-top: 20px;
+    font-size: 20px;
+    text-align: left;
+	padding:10px 40px;
+}
+
+#WB002554.WB002554_SM #mainContent .group .list p.listbold {color:#178ece; font-weight:bold; font-size: 30px; margin-bottom: 20px; text-align: center;
+}
+#WB002554.WB002554_SM #mainContent .group .list p:before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 110%;
+    left: 50%;
+    width: 0;
+    height: 3px;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    transform: translateX(-50%);
+    background-color: #28c6ee;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    -moz-transition: 0.5s;
+    transition: 0.5s;
+}
+
+#WB002554.WB002554_SM #mainContent .group .list:hover img {
+    background-color: #28c6ee;
+}
+
+#WB002554.WB002554_SM #mainContent .group .list:hover p {
+    color: #28c6ee;
+}
+
+#WB002554.WB002554_SM #mainContent .group .list:hover p:before {
+    width: 80%;
+}
+
+#WB002554.WB002554_SM #mainContent .fa {
+    display: block;
+    font-size: 50px;
+    color: #ccc;
+    text-align: center;
+    cursor: pointer;
+}
+
+#WB002554.WB002554_SM #mainContent .issue {
+    margin: 0 auto;
+    display: table;
+    padding: 50px 0;
+    border-bottom: 0px solid #ccc;
+}
+
+#WB002554.WB002554_SM #mainContent .issue.end {
+    border-bottom: none;
+}
+
+#WB002554.WB002554_SM #mainContent .issue strong {
+    color: #05529a;
+}
+
+#WB002554.WB002554_SM #mainContent .issue .GroupAll {
+    margin: 0 auto;
+    position: relative;
+    width: 1000px;
+    text-align: center;
+}
+
+#WB002554.WB002554_SM #mainContent .issue .GroupAll .title {
+    border-radius: 50px;
+    margin: 0 auto;
+    margin-top: 15px;
+    margin-bottom: 25px;
+    color: #2694ce;
+    background-color: #FFF;
+    border: #2694ce 1px solid;
+    display: block;
+    width: 160px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+}
+
+#WB002554.WB002554_SM .GroupAll .jobProblem {
+    color: #fff;
+}
+
+#WB002554.WB002554_SM .GroupAll .jobProblem:hover .handTop {
+    -webkit-animation-play-state: paused;
+    -moz-animation-play-state: paused;
+    -o-animation-play-state: paused;
+    animation-play-state: paused;
+}
+
+#WB002554.WB002554_SM .GroupAll .txt,
+#WB002554.WB002554_SM .GroupAll .txt10 {
+    float: left;
+    overflow: hidden;
+    width: 50%;
+    padding: 15px 15px;
+    cursor: pointer;
+}
+
+#WB002554.WB002554_SM .GroupAll .txt.w33,
+#WB002554.WB002554_SM .GroupAll .txt10 {
+    float: left;
+    overflow: hidden;
+    width: 33.3333%;
+    padding: 15px 15px;
+    cursor: pointer;
+}
+
+#WB002554.WB002554_SM .GroupAll .txt.w100,
+#WB002554.WB002554_SM .GroupAll .txt10 {
+    float: left;
+    overflow: hidden;
+    width: 100%;
+    padding: 15px 15px;
+    cursor: pointer;
+}
+
+#WB002554.WB002554_SM .GroupAll .txt .outline {
+    overflow: hidden;
+    position: relative;
+    padding: 30px 0;
+    background-color: #5cc99c;
+    border-radius: 2px;
+}
+
+#WB002554.WB002554_SM .GroupAll .txt10 .outline {
+    overflow: hidden;
+    position: relative;
+    padding: 30px 0;
+    background-color: #0482b7;
+    border-radius: 2px;
+}
+
+#WB002554.WB002554_SM .GroupAll .txt .nameLayer,
+#WB002554.WB002554_SM .GroupAll .txt10 .nameLayer {
+    position: relative;
+    text-align: center;
+    z-index: 2;
+}
+
+#WB002554.WB002554_SM .GroupAll .txt .nameLayer p,
+#WB002554.WB002554_SM .GroupAll .txt10 .nameLayer p {
+    margin-top: 8px;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: inherit;
+}
+
+#WB002554.WB002554_SM .GroupAll .txt .txtLayer,
+#WB002554.WB002554_SM .GroupAll .txt10 .txtLayer {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    padding: 0 10px;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+#WB002554.WB002554_SM .GroupAll .txt .txtLayer p.w50 {
+    float: left;
+    width: 50%;
+    padding: 0 20px;
+}
+
+#WB002554.WB002554_SM .GroupAll .txt .txtLayer p,
+#WB002554.WB002554_SM .GroupAll .txt10 .txtLayer p {
+    float: left;
+    width: 100%;
+    padding: 0 20px;
+}
+
+#WB002554.WB002554_SM .GroupAll .txt .handTop,
+#WB002554.WB002554_SM .GroupAll .txt10 .handTop {
+    position: absolute;
+    top: 95%;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    transform: translateX(-50%);
+    font-size: 24px;
+    -webkit-animation: handTop 1.5s infinite;
+    -moz-animation: handTop 1.5s infinite;
+    -o-animation: handTop 1.5s infinite;
+    animation: handTop 1.5s infinite;
+    -webkit-animation-timing-function: ease-out;
+    -moz-animation-timing-function: ease-out;
+    -o-animation-timing-function: ease-out;
+    animation-timing-function: ease-out;
+}
+
+@-webkit-keyframes handTop {
+    0% {
+        top: 95%;
+    }
+    50% {
+        top: 87%;
+    }
+    100% {
+        top: 95%;
+    }
+}
+
+@-moz-keyframes handTop {
+    0% {
+        top: 95%;
+    }
+    50% {
+        top: 87%;
+    }
+    100% {
+        top: 95%;
+    }
+}
+
+@-o-keyframes handTop {
+    0% {
+        top: 95%;
+    }
+    50% {
+        top: 87%;
+    }
+    100% {
+        top: 95%;
+    }
+}
+
+@keyframes handTop {
+    0% {
+        top: 95%;
+    }
+    50% {
+        top: 87%;
+    }
+    100% {
+        top: 95%;
+    }
+}
+
+#WB002554.WB002554_SM .GroupAll .txt .mask,
+#WB002554.WB002554_SM .GroupAll .txt10 .mask {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 3;
+    width: 100%;
+    height: 100%;
+}
+
+#WB002554.WB002554_SM .GroupAll .txt01 .outline {
+    background-color: #49bcc3;
+}
+
+#WB002554.WB002554_SM .GroupAll .txt01 .txtLayer {
+    color: #53c4cb;
+}
+
+#WB002554.WB002554_SM .GroupAll .txt01 .mask {
+    background-color: rgba(29, 97, 101, 0.9);
+}
+
+#WB002554.WB002554_SM .GroupAll .txt02 .outline {
+    background-color: #88b9b0;
+}
+
+#WB002554.WB002554_SM .GroupAll .txt02 .txtLayer {
+    color: #96c4bc;
+}
+
+#WB002554.WB002554_SM .GroupAll .txt02 .mask {
+    background-color: rgba(70, 127, 116, 0.9);
+}
+
+#WB002554.WB002554_SM .GroupAll .txt03 .outline {
+    background-color: #ef8570;
+}
+
+#WB002554.WB002554_SM .GroupAll .txt03 .txtLayer {
+    color: #f7907c;
+}
+
+#WB002554.WB002554_SM .GroupAll .txt03 .mask {
+    background-color: rgba(133, 67, 54, 0.9);
+}
+
+#WB002554.WB002554_SM .GroupAll .txt04 .outline {
+    background-color: #a37799;
+}
+
+#WB002554.WB002554_SM .GroupAll .txt04 .txtLayer {
+    color: #ab85a2;
+}
+
+#WB002554.WB002554_SM .GroupAll .txt04 .mask {
+    background-color: rgba(96, 59, 88, 0.9);
+}
+
+#WB002554.WB002554_SM .GroupAll .txt05 .outline {
+    background-color: #7e396e;
+}
+
+#WB002554.WB002554_SM .GroupAll .txt05 .txtLayer {
+    color: #854376;
+}
+
+#WB002554.WB002554_SM .GroupAll .txt05 .mask {
+    background-color: rgba(93, 34, 80, 0.9);
+}
+
+#WB002554.WB002554_SM .GroupAll .txt06 .outline {
+    background-color: #0f87c5;
+}
+
+#WB002554.WB002554_SM .GroupAll .txt06 .txtLayer {
+    color: #158fce;
+}
+
+#WB002554.WB002554_SM .GroupAll .txt06 .mask {
+    background-color: rgba(13, 109, 158, 0.9);
+}
+
+#WB002554.WB002554_SM .GroupAll .txt06 .txtLayer p.pp2 {
+    width: 50%;
+}
+
+#WB002554.WB002554_SM .GroupAll .txt07 .outline {
+    background-color: #86961c;
+}
+
+#WB002554.WB002554_SM .GroupAll .txt07 .txtLayer {
+    color: #8e9e25;
+}
+
+#WB002554.WB002554_SM .GroupAll .txt07 .mask {
+    background-color: rgba(142, 185, 37, 0.9);
+}
+
+#WB002554.WB002554_SM .GroupAll .txt08 .outline {
+    background-color: #cdbc5d;
+}
+
+#WB002554.WB002554_SM .GroupAll .txt08 .txtLayer {
+    color: #d5c467;
+}
+
+#WB002554.WB002554_SM .GroupAll .txt08 .mask {
+    background-color: rgba(107, 98, 49, 0.9);
+}
+
+#WB002554.WB002554_SM .GroupAll .txt09 .outline {
+    background-color: #7ccdc4;
+}
+
+#WB002554.WB002554_SM .GroupAll .txt09 .txtLayer {
+    color: #86d5cc;
+}
+
+#WB002554.WB002554_SM .GroupAll .txt09 .mask {
+    background-color: rgba(54, 93, 89, 0.9);
+}
+
+#WB002554.WB002554_SM .GroupAll .txt11 .outline {
+    background-color: #15769a;
+}
+
+#WB002554.WB002554_SM .GroupAll .txt11 .txtLayer {
+    color: #1b7da1;
+}
+
+#WB002554.WB002554_SM .GroupAll .txt11 .mask {
+    background-color: rgba(18, 86, 111, 0.9);
+}
+
+#WB002554.WB002554_SM .GroupAll .txt12 .outline {
+    background-color: #22afb8;
+}
+
+#WB002554.WB002554_SM .GroupAll .txt12 .txtLayer {
+    color: #2ab7c0;
+}
+
+#WB002554.WB002554_SM .GroupAll .txt12 .mask {
+    background-color: rgba(33, 154, 161, 0.9);
+}
+
+#WB002554.WB002554_SM .GroupAll .txt13 .outline {
+    background-color: #bd973c;
+}
+
+#WB002554.WB002554_SM .GroupAll .txt13 .txtLayer {
+    color: #c39e44;
+}
+
+#WB002554.WB002554_SM .GroupAll .txt13 .mask {
+    background-color: rgba(143, 112, 39, 0.9);
+}
+
+#WB002554.WB002554_SM .GroupAll .txt14 .outline {
+    background-color: #b7a579;
+}
+
+#WB002554.WB002554_SM .GroupAll .txt14 .txtLayer {
+    color: #c0ae84;
+}
+
+#WB002554.WB002554_SM .GroupAll .txt14 .mask {
+    background-color: rgba(116, 101, 66, 0.9);
+}
+
+#WB002554.WB002554_SM .GroupAll .txt15 .outline {
+    background-color: #8d6433;
+}
+
+#WB002554.WB002554_SM .GroupAll .txt15 .txtLayer {
+    color: #956b3a;
+}
+
+#WB002554.WB002554_SM .GroupAll .txt15 .mask {
+    background-color: rgba(100, 73, 36, 0.9);
+}
+
+#WB002554.WB002554_SM .GroupAll .txt10 .outline {
+    background-color: #5cc99c;
+}
+
+#WB002554.WB002554_SM .GroupAll .txt10 .txtLayer img {
+    height: 230px;
+    width: 900px;
+}
+
+#WB002554.WB002554_SM .GroupAll .txt10 .txtLayer {
+    display: none;
+}
+
+#WB002554.WB002554_SM .GroupAll .txt10 .mask {
+    background-color: rgba(49, 95, 79, 0.9);
+}
+
+#WB002554.WB002554_SM #mainContent .issue .GroupAll2 {
+    position: relative;
+    width: 1000px;
+    background: #FFF;
+    padding: 20px;
+}
+
+#WB002554.WB002554_SM #mainContent .issue .GroupAll2 .title {
+    border-radius: 50px;
+    margin: 0 auto;
+    margin-top: 15px;
+    margin-bottom: 25px;
+    color: #FFF;
+    background-color: #178ece;
+    border: #FFF 1px solid;
+    display: block;
+    width: 300px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+}
+
+#WB002554.WB002554_SM #mainContent .issue .txtGroup {
+    display: table-cell;
+    vertical-align: middle;
+    position: relative;
+    width: 320px;
+    padding-left: 30px;
+}
+
+#WB002554.WB002554_SM #mainContent .issue .txtGroup ul {
+    margin-left: 20px;
+}
+
+#WB002554.WB002554_SM #mainContent .issue .txtGroup li {
+    margin-bottom: 4px;
+    list-style: disc outside;
+    line-height: 24px;
+}
+
+#WB002554.WB002554_SM #mainContent .issue .imgGroup {
+    display: table-cell;
+    position: relative;
+    vertical-align: middle;
+    width: 100%;
+}
+
+#WB002554.WB002554_SM #mainContent .issue .imgGroup>div {
+    float: left;
+    width:100%;
+}
+
+#WB002554.WB002554_SM #mainContent .issue .imgGroup>div:first-child {
+    margin-left: 30px;
+}
+
+#WB002554.WB002554_SM #mainContent .issue .imgGroup p {
+    text-align: center;
+}
+
+#WB002554.WB002554_SM #mainContent .issue .txtGroup2 {
+    display: table-cell;
+    vertical-align: middle;
+    position: relative;
+    width: 420px;
+    padding-left: 50px;
+}
+
+#WB002554.WB002554_SM #mainContent .issue .imgGroup2 {
+    display: table-cell;
+    position: relative;
+    vertical-align: middle;
+    width:100%;
+}
+
+#WB002554.WB002554_SM #mainContent .issue .imgGroup2>div {
+    float: left;
+    width: 100%;
+}
+
+#WB002554.WB002554_SM #mainContent .issue .imgGroup2>div:first-child {
+    margin-left: 50px;
+}
+
+#WB002554.WB002554_SM #mainContent .issue .imgGroup2 p {
+    text-align: center;
+}
+
+#WB002554.WB002554_SM #mainContent .issue .pageLink-normal,
+#WB002554.WB002554_SM #mainContent .issue .pageLink-bgColor,
+#WB002554.WB002554_SM #mainContent .issue .pageLink-outline {
+    display: inline-block;
+    line-height: 60px;
+    padding: 0 50px;
+    border-radius: 2px;
+    font-size: 18px;
+    text-align: center;
+    cursor: pointer;
+}

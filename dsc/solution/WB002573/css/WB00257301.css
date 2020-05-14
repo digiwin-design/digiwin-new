@@ -1,0 +1,150 @@
+@charset "utf-8";
+@import url("reset.css");
+/* CSS Document */
+
+html {
+	font-family:"微軟正黑體", Arial, Helvetica, sans-serif;
+	-webkit-text-size-adjust:none;
+	font-size:18px;
+	background-color:#F5F3F4
+}
+body {
+	margin:0 auto;
+	font-family:"微軟正黑體", Arial, Helvetica, sans-serif;
+}
+#wrapper {
+	margin:0px;
+	padding:0px
+}
+.lineLR {
+	border-left: 1px solid #999;
+	border-right: 1px solid #999
+}
+.linedown_b {
+	border-bottom-width: 1px;
+	border-bottom-style:dotted;
+	border-bottom-color: #bebebe;
+}
+.txtB13 {
+	color:#333;
+	font-size:13px;
+}
+.txtB13 a {
+	color:#333;
+	text-decoration:none
+}
+.txtB13 a:hover {
+	color:#999;
+}
+
+.txtA {
+	color:#fff;
+	font-size:14px;
+}
+.txtA a {
+	color:#fff;
+	text-decoration:none
+}
+.txtA a:hover {
+	color:#F7CAAD;
+}
+
+a {	color:#333;	text-decoration:none;}
+a:hover { color:#999;}
+
+.block1 td { padding:15px 0px 25px 20px;}
+.block1 p {	color:#ffffff; font-size:16px; line-height:1.5; text-align:justify; letter-spacing:1px; margin:0px; padding:0px; }
+.block1 img { border:1px solid #CCC;}
+.block1 h3 { color:#ffe6a4; font-size:18px; padding-bottom:5px; margin:0px; padding:0px; letter-spacing:1px;}
+.block1 h3 a { text-decoration:none; color:#ffe6a4; margin:0px; padding:0px; }
+.block1 h3 a:hover { text-decoration:underline; color:#fdf1d1; margin:0px; padding:0px; }
+.block1 a {	color:#fff;	text-decoration:none;}
+.block1 a:hover { color:#999;}
+.block1 h4 { color:#cdcdcd; font-size:17px; margin:0px; padding:0px; padding-bottom:5px;}
+
+.block2 td { padding:15px 0px 10px 20px;}
+.block2 p {	color:#262626; font-size:16px; line-height:1.5; text-align:justify; letter-spacing:1px; margin:0px; padding:0px; }
+.block2 img { border:1px solid #CCC;}
+.block2 h3 { color:#e94609; font-size:18px; padding-bottom:5px; margin:0px; padding:0px; letter-spacing:1px;}
+.block2 h3 a { text-decoration:none; color:#e94609; margin:0px; padding:0px;  }
+.block2 h3 a:hover { text-decoration:underline; color:#F00; margin:0px; padding:0px; }
+
+
+/* ====footer===================== */
+
+.footer {
+	color:#FFF;
+	text-align:center;
+	font-size:14px;
+}
+.footer p {
+	color:#FFF;
+	text-align:center;
+	font-size:14px;
+	line-height:1.2
+}
+.footer .copy {
+	color:#FFF;
+	text-align:center;
+	font-size:12px;
+	line-height:1.2
+}
+.footer p a {
+	display:block;
+	color:#FFF;
+	text-align:center;
+	font-size:14px;
+}
+.footer p a:hover {
+	color:#FFF;
+	text-align:center;
+	font-size:14px;
+}
+/* =====以下是手機版css========================= */
+@media screen and (max-width: 600px) {
+.block1 td { padding:15px 0px 25px 20px;}
+.block1 p {	color:#ffffff; font-size:1em; line-height:1.5; text-align:justify; letter-spacing:1px; margin:0px; padding:0px; }
+.block1 img { border:1px solid #CCC;}
+.block1 h3 { color:#ffe6a4; font-size:1.2em; padding-bottom:5px; margin:0px; padding:0px; letter-spacing:1px;}
+.block1 h3 a { text-decoration:none; color:#ffe6a4; margin:0px; padding:0px; }
+.block1 h3 a:hover { text-decoration:underline; color:#fdf1d1; margin:0px; padding:0px; }
+.block1 a {	color:#fff;	text-decoration:none;}
+.block1 a:hover { color:#999;}
+.block1 h4 { color:#cdcdcd; font-size:1.1em; margin:0px; padding:0px; padding-bottom:5px;}
+
+.block2 td { padding:15px 0px 10px 20px;}
+.block2 p {	color:#262626; font-size:1em; line-height:1.5; text-align:justify; letter-spacing:1px; margin:0px; padding:0px; }
+.block2 img { border:1px solid #CCC;}
+.block2 h3 { color:#e94609; font-size:1.2em; padding-bottom:5px; margin:0px; padding:0px; letter-spacing:1px;}
+.block2 h3 a { text-decoration:none; color:#e94609; margin:0px; padding:0px;  }
+.block2 h3 a:hover { text-decoration:underline; color:#F00; margin:0px; padding:0px; }
+
+
+/* ====footer===================== */
+
+.footer {
+color:#FFF;
+text-align:center;
+font-size:0.9em;
+}
+.footer p {
+color:#FFF;
+text-align:center;
+font-size:0.9em;
+}
+.footer p a {
+color:#FFF;
+text-align:center;
+font-size:0.9em;
+}
+.footer p a:hover {
+color:#FFF;
+text-align:center;
+font-size:0.9em;
+}
+.footer .copy {
+color:#FFF;
+text-align:center;
+font-size:0.7em;
+line-height:1.2;
+}}

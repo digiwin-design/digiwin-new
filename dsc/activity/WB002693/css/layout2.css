@@ -1,0 +1,20 @@
+
+/*---------------#contact--------------------------*/
+
+#contactTxt {width:900px; height:470px; background-color: #555; padding: 15px 0 0; font-size: 16px; line-height: 30px; font-family: Arial, "微軟正黑體", "新細明體" ;overflow:hidden}
+#contactTxt a {color: #ffffff;}
+#contactTxt a:hover {color: #ffee00;}
+#contactTxt #contactText {width: 960px; margin: 0 auto;}
+#contactTxt #info {width: 400px; color: #fff; font-size: 17px; line-height: 30px; text-align: left; float: left; margin :0px 10px 0px 40px}
+#contactTxt h2 {width: 100%; font-size: 36px; line-height: 36px; color: #fff; margin: 0 0 15px; padding-top: 40px; text-align: left;}
+#contactTxt ul {margin-top: 15px;}
+#contactTxt ul li {padding-left: 30px; line-height: 25px; margin-bottom: 10px;}
+#contactTxt .tel {background: url(../images/icons.png) no-repeat left top;}
+#contactTxt .mail {background: url(../images/icons.png) no-repeat left -25px;}
+#contactTxt .fb {background: url(../images/icons.png) no-repeat left -50px;}
+#contactTxt #iframeForm { width: 410px; float:left; }
+iframe { width: 100%; margin: 0 0 -10px; border:none}
+
+
+
+

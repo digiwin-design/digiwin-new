@@ -1,0 +1,6 @@
+<slider-banner-s v-if="isMobile" v-bind:slides="result.banner" device="mobile"></slider-banner-s>
+<slider-banner v-else v-bind:slides="result.banner" device="desktop"></slider-banner>
+
+<component :is="componentId"></component>
+
+<contact v-bind:multiple="false" source=""></contact>

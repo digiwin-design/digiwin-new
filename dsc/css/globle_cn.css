@@ -1,0 +1,112 @@
+   
+ /* This needs to be first because FF3 is now supporting this  */
+.clearfix {display: inline-block;}
+
+.clearfix:after {
+    content: " ";
+    display: block;
+    height: 0;
+    clear: both;
+    font-size: 0;
+    visibility: hidden;
+}
+/* Hides from IE-mac \*/
+* html .clearfix {height: 1%;}
+.clearfix {display: block;padding:0;}
+
+/* site wide */
+  
+.bound{ width:980px; overflow:hidden; margin:0 auto;}
+.clear_head{width:986px;}
+a.expand { display:block; float:right; font-size:12px; height:18px; line-height:18px; vertical-align:middle; *width:90px; width:auto !important; }
+img.iconTick{ margin-left:5px; vertical-align: middle; }
+span.HighlightSearch {font-weight:bold;}
+
+
+#menu {height: 47px; width:785px; margin:0px auto;position:relative;z-index: 999;float:left;}
+#menu .nav { width:799px; margin: 0 auto; height: 47px;float:left; position: relative; z-index: 999;}
+#menu .nav ul {float:left; }
+#menu li {float: left; display: block; overflow: visible; vertical-align: top;}
+#menu .nav ul.last{margin:0;}
+
+.nav a{color:#333; cursor:pointer;}
+.nav a.name {display: block; line-height: 47px; text-decoration:none; color:#666;font-size:14px; font-weight:bold; text-align:center; position:relative; z-index:1007;}
+.nav a.name span{display:block; height:47px; margin-left: 1px;width:auto; text-shadow:#fff 1px 1px 0px; padding:0 11px 0 8px;_padding:0 11px 0 11px;}
+.nav li a.hover{color:#b00; background:url(../images/leftmenu.jpg) no-repeat left ; margin-top: 0px; line-height: 47px;}
+.nav li a.hover span{background-image:url(../images/menu1.png); background-repeat:no-repeat; background-position:100% -18px;  background-color:transparent; color:#b00;}
+.nav li a:active span{color:#B00;}
+
+.menuitempanel {top: 47px; position: absolute; z-index: 999; display: none; left: 0px; -webkit-box-shadow: 2px 2px 6px rgba(0,0,0,.3); box-shadow: 2px 2px 6px rgba(0,0,0,.3); border-bottom-right-radius: 12px; border-bottom-left-radius: 12px;}
+.menuright{right:0px; left:auto;}
+.menucontentdiv {background: #fff url(../images/menubg1.png) 0 0 repeat-x; border-left: 1px solid #CCC; margin-right: 7px; padding: 20px 20px 0 30px; width:auto; height:100%; border-bottom-right-radius: 10px;border-bottom-left-radius: 10px;}
+
+
+.menucontentdiv .clearfix{ padding-bottom:10px; position:relative;}
+.menufillet_e{position: absolute;zoom: 1;display: block;overflow: hidden;
+background-attachment:scroll; background-color:transparent; z-index: 999; width: 10px;height: 10px;}
+.menufillet_e { background-image: url(../images/menu3.png);background-repeat: repeat-y; _background:transparent; height: 100%; right: 0px; top: 0; width: 7px;}
+.verticalLine{ background-color:#FFFFFF; border-left:#cfcfcf solid 1px; width:1px; height:100%; left:200px; top:0px; float:left; min-height:200px; height:200px; margin:0 25px;}
+#menu .menuitempanel li {float: none; top: 0; line-height:24px;}
+#menu .menuitempanel li.left {float: left;}
+.menuitempanel h2 {color: #de0010; font-size: 16px;font-weight: bold; padding-bottom:10px;}
+.menuitempanel h2 a {color: #B00;}
+.menuitempanel ul li a{ color:#666;}
+.menuitempanel ul.taxonomy { margin-left: -5px;margin-right:10px;}
+.menuitempanel ul.taxonomy last{margin-right:0;}
+#menu .menuitempanel ul.taxonomy li{font-size: 14px;  line-height: 32px;text-indent: 10px;}
+.menuitempanel ul.taxonomy li a{ color:#333;background: url(../images/dot1.gif) no-repeat left;padding-left:10px;margin-left:-5px; }
+
+.menuitempanel ul.m_box{margin-top:20px;}
+.menuitempanel ul.m_box li.title {font-weight: bold; margin-top: 5px;}
+.menuitempanel ul.m_box div.summary {width:213px; font-weight: normal;}
+.menuitempanel ul.m_box img{border:1px solid #ddd;}
+
+
+#menu .menuitempanel ul.m_box li.summary ul {padding: 0 0; float:none;}
+.menuitempanel .name ul.m_box li.summary{ padding:0 0 0 2px;}
+.menuitempanel .name ul.m_box li.left{ margin-right:15px;}
+.menuitempanel ul.list {margin-right: 15px;}
+.menuitempanel ul > li.left > ul {margin-right: 15px;}
+.menuitempanel ul.list h3 {padding: 0px 0px 0px 0px;}
+.menuitempanel ul.list h3 a {color: #de0010; font-size: 14px;font-weight: bold;}
+.menuitempanel .name ul.m_box li.last, .menuitempanel ul.last,.menuitempanel ul li ul.last { margin:0px;}
+
+.shadow_b_layout {background-image: url(../images/menu1.png); background-attachment: scroll; background-repeat: no-repeat; background-position: 0 -67px; position: absolute; width: 100%; left: 0px;}
+.shadow_b_layout div {background: url(../images/menu1.png) 100% -1px no-repeat;background-attachment: scroll;display: block;height: 16px;margin-left: 15px;}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+.shadow_b_layout, .menufillet_e{ display:none;}
+.menucontentdiv{ margin-right:0px;border-right: 1px solid #CCC;border-bottom: 1px solid #CCC;}
+.menucontentdiv .clearfix{ padding-bottom:15px;}
+}
+@-moz-document url-prefix(){
+.shadow_b_layout, .menufillet_e{ display:none;}
+.menucontentdiv{ margin-right:0px;border-right: 1px solid #CCC;border-bottom: 1px solid #CCC;}
+.menucontentdiv .clearfix{ padding-bottom:15px;}
+}
+@media all and (-webkit-min-device-pixel-ratio:10000), not all and (-webkit-min-device-pixel-ratio:0){
+.shadow_b_layout, .menufillet_e{ display:none;}
+.menucontentdiv{ margin-right:0px;border-right: 1px solid #CCC;border-bottom: 1px solid #CCC;}
+.menucontentdiv .clearfix{ padding-bottom:15px;}
+}/*opera&#19987;&#23646;*/
+:root .shadow_b_layout, :root .menufillet_e {display:none\9;}/*IE9&#19987;&#23646;*/
+:root .menucontentdiv{ margin-right:0px\9;border-right: 1px solid #CCC\9;border-bottom: 1px solid #CCC\9;}
+:root .menucontentdiv .clearfix{ padding-bottom:15px\9;}
+
+
+/* =======IE-6 =========*/
+*html .nav a.name{float:left;}
+*html .nav a.name span{float:left;}
+*html .menufillet_e {position: relative; background-image: none; right: 0; top: 0; height: 1px; font-size: 1px; line-height: 1px;}
+*html .menuitempanel{ top:46px;}
+*html .menucontentdiv {border-bottom: 1px solid #ccc; position: relative; z-index: 1009;border-top: 1px solid #ccc;border-right: 1px solid #ccc; padding: 0px 20px 0 30px;}
+*html .nav li a.hover {background-image: url(../images/leftmenu.jpg);}
+*html .nav li a.hover span { background-image: url(../images/menu1.png);}
+*html .shadow_b_layout, *html .shadow_b_layout div {position: relative;background: none;height: 1px;line-height: 1px;font-size: 1px;}
+*html .menuitempanel div.clearfix{padding-top:20px;}
+*html .menuitempanel ul.list li.left ul{margin-right:10px;}
+*html .menuitempanel ul.list li.left ul.last{margin-right:0;}
+*html .menuitempanel ul.list li.last{margin-left:0;}
+*html .menuitempanel .name{width:900px;}
+
+

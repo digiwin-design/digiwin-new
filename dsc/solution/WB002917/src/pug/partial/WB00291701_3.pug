@@ -1,0 +1,20 @@
+extends ../layout.pug
+
+block includes
+    link(rel='stylesheet', href='assets/animate.css')
+    link(rel='stylesheet', href='https://use.fontawesome.com/releases/v5.3.1/css/all.css')
+    link(rel='stylesheet', href='assets/jquery.fancybox.min.css')
+    link(rel='stylesheet', href=`css/WB00291701_3.css?v=${Math.random()}`)
+    script(src='assets/modernizr-custom.js', defer)
+    script(src='assets/mobile-detect.js', defer)
+    script(src='assets/mobile-detect-modernizr.js', defer)
+    script(src='assets/picturefill.js', defer)
+    script(src='assets/lodash.js', defer)
+    script(src='assets/jquery-ui-1.12.1.custom/jquery-ui.min.js', defer)
+    script(src='assets/jquery.preload.min.js', defer)
+    script(src='assets/jquery.fancybox.min.js', defer)
+    script(src=`js/common.min.js?v=${Math.random()}`, defer)
+    script(src=`js/WB00291701_3.min.js?v=${Math.random()}`, defer)
+
+block content
+    include WB00291701_3.html

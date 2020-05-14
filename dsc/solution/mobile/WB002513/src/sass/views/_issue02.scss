@@ -1,0 +1,160 @@
+main .issue02 {
+    .section1 {
+        background-color: #e0dbd9;
+        .sectionTitle > h1 {
+            text-align: center;
+        }
+        .collapse {
+            .content {
+                letter-spacing: getLetterSpacing(25);
+                font-size: 18px;
+                p {
+                    margin-bottom: 1em;
+                    &:first-of-type {
+                        color: #0075b8;
+                    }
+                }
+                .graph {
+                    $quote1-color: #ff9f16 #f0405d #1eb372 #da6916;
+                    $quote2-color: #a8ba14 #0486c9 #04b4c9 #36a345;
+                    display: flex;
+                    flex-direction: column;
+                    margin-bottom: 1em;
+                    padding: 0 20px;
+                    align-items: center;
+                    &__quote {
+                        position: relative;
+                        padding: 1em;
+                        border-radius: 10px;
+                        color: #fff;
+                        font-weight: bold;
+                        font-size: 16px;
+                        line-height: 24px;
+                        @at-root {
+                            @for $i from 1 through 4 {
+                                main .issue02 .section1 .collapse .item#{$i} .content .graph__quote {
+                                    background-color: nth($quote1-color, $i);
+                                }
+                            }
+                        }
+                        &::after {
+                            position: absolute;
+                            top: 98%;
+                            left: 70%;
+                            width: 0;
+                            height: 0;
+                            border-width: 0 20px 15px 20px;
+                            border-style: solid;
+                            border-top-color: transparent;
+                            border-right-color: transparent;
+                            border-left-color: transparent;
+                            content: '';
+                            transform: rotate(-37deg);
+                            @at-root {
+                                @for $i from 1 through 4 {
+                                    main .issue02 .section1 .collapse .item#{$i} .content .graph__quote::after {
+                                        border-bottom-color: nth($quote1-color, $i);
+                                    }
+                                }
+                            }
+                        }
+                        + .graph__quote {
+                            margin: 40px 0;
+                            width: 90%;
+                            align-self: flex-end;
+                            @at-root {
+                                @for $i from 1 through 4 {
+                                    main .issue02 .section1 .collapse .item#{$i} .content .graph__quote + .graph__quote {
+                                        background-color: nth($quote2-color, $i);
+                                        &::after {
+                                            border-bottom-color: nth($quote2-color, $i);
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+                h4 {
+                    color: #fd620e;
+                    font-weight: bold;
+                    font-size: 20px;
+                }
+                a {
+                    @include btn(100%, 64px, #fff, #146181);
+                    letter-spacing: getLetterSpacing(100);
+                    font-size: 30px;
+                }
+            }
+        }
+    }
+    .section2 {
+        @include bg('issue02/section1-bg.jpg', 50% 100%);
+        padding-bottom: 55px;
+        background-color: #00577b;
+        color: #fff;
+        letter-spacing: getLetterSpacing(25);
+        .sectionTitle > h1::first-line {
+            color: #fffc00;
+        }
+        .desc {
+            margin-bottom: 1em;
+            line-height: 30px;
+        }
+        .arrow {
+            position: relative;
+            margin-bottom: 75px;
+            padding: .5em 0;
+            background-color: #ff8c3f;
+            text-align: center;
+            line-height: 24px;
+            &::before {
+                position: absolute;
+                top: 100%;
+                left: 50%;
+                width: 175px;
+                height: 10px;
+                background-color: #ff8c3f;
+                content: '';
+                transform: translateX(-50%);
+            }
+            &::after {
+                position: absolute;
+                top: calc(100% + 7px);
+                left: 50%;
+                width: 0;
+                height: 0;
+                border-width: 50px 125px 0 125px;
+                border-style: solid;
+                border-color: #ff8c3f transparent transparent transparent;
+                content: '';
+                transform: translateX(-50%);
+            }
+        }
+    }
+    .section3 {
+        @include bg('issue02/section3-bg.jpg', 50% 100%);
+        height: 540px;
+        .sectionTitle > h1 {
+            text-align: center;
+            strong {
+                &:nth-of-type(1) {
+                    color: #f60;
+                }
+                &:nth-of-type(2) {
+                    color: #058fa8;
+                }
+            }
+        }
+    }
+    .section4 {
+        padding-bottom: 55px;
+        background-color: #1d8fbe;
+        .sectionTitle > h1 {
+            color: #fff;
+        }
+        a {
+            @include mainBtn(175px, 50px, #086eb7, #034ea2, #fff);
+        }
+    }
+}

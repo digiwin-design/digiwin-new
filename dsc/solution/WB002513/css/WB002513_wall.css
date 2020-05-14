@@ -1,0 +1,834 @@
+@charset "UTF-8";
+main.WB002513_wall {
+    /**/
+    /*common css-section/column*/
+    /*-------------------------------------------*/
+    /*--------------------------------------------*/
+    /*common css-fontColor/bgColor*/
+    /*---------------研討會藍色按鈕-----------------------------*/
+    /*----------索取解決方案區塊------------------------------*/
+    /*-------聯絡我們按鈕--------*/
+}
+
+main.WB002513_wall .section h3 {
+    margin-bottom: 30px;
+    font-size: 36px;
+}
+
+main.WB002513_wall .section h4 {
+    font-size: 21px;
+    margin: 20px 0 7px 40px;
+    text-align: left;
+    color: #0584dd;
+}
+
+main.WB002513_wall .section h6 {
+    font-size: 17px;
+    margin: 40px 0px 0px 40px;
+    text-align: left;
+    color: #004a9d;
+}
+
+main.WB002513_wall .section a {
+    color: #43aaf2;
+}
+
+main.WB002513_wall .section a:hover {
+    color: #F60;
+}
+
+main.WB002513_wall .section p {
+    margin: 20px 0 7px 40px;
+    padding: 0;
+    font-size: 17px;
+    line-height: 30px;
+    text-align: justify;
+}
+
+main.WB002513_wall .section p.left60 {
+    margin: 20px 0 7px 60px;
+    padding: 0;
+    font-size: 17px;
+    line-height: 30px;
+    text-align: justify;
+}
+
+main.WB002513_wall .section table {
+    border: solid #CCC 1px;
+    line-height: 30px;
+    font-family: Arial, "微軟正黑體";
+    font-size: 15px;
+    margin-top: 30px;
+    margin-left: 40px;
+}
+
+main.WB002513_wall .section table h5 {
+    line-height: 30px;
+    font-family: Arial, "微軟正黑體";
+    font-size: 16px;
+}
+
+main.WB002513_wall .section table td {
+    padding: 10px;
+}
+
+main.WB002513_wall .section table li {
+    background: url(../images/dot.png) left top no-repeat;
+    padding-left: 30px;
+}
+
+main.WB002513_wall .section {
+    width: 100%;
+    min-width: 1000px;
+    padding: 100px 0;
+    color: #444444;
+    font-family: Arial, "微軟正黑體";
+}
+
+main.WB002513_wall .content {
+    position: relative;
+    width: 1000px;
+    margin: 0 auto;
+}
+
+main.WB002513_wall .column_2 {
+    width: 50%;
+}
+
+main.WB002513_wall .column_3 {
+    width: 33%;
+}
+
+main.WB002513_wall .column_4 {
+    width: 25%;
+}
+
+main.WB002513_wall .column_5 {
+    width: 20%;
+}
+
+main.WB002513_wall .Block01bg {
+    width: 100%;
+}
+
+main.WB002513_wall h3.Block01_icon {
+    text-align: left;
+    background: url(../images/Icon.png) no-repeat left -300px;
+    padding-left: 40px;
+    color: #0c53aa;
+line-height: 70px;
+}
+
+main.WB002513_wall #Block01 {
+    width: 950px;
+    overflow: hidden;
+    margin: 0 auto;
+    display: block;
+    padding-top: 0px;
+}
+
+main.WB002513_wall #Block01 #logowall {
+    width: 950px;
+    overflow: hidden;
+    margin: 0 auto;
+    display: block;
+}
+
+main.WB002513_wall #Block01 #logowall #logoicon {
+    width: 180px;
+    height: 60px;
+    overflow: hidden;
+    float: left;
+    display: block;
+    background: #0f75bc;
+    margin-right: 10px;
+    line-height: 60px;
+    text-align: center;
+    color: #FFF;
+    margin-top: 10px;
+    letter-spacing: 1px;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+main.WB002513_wall #Block01 #logowall #logoicon a {
+    color: #FFF;
+    display: block;
+}
+
+main.WB002513_wall #Block01 #logowall #logoicon a:hover {
+    color: #FFF;
+    background: #ff9000;
+}
+
+main.WB002513_wall #Block01 #logowall #logoicon2 {
+    width: 180px;
+    height: 60px;
+    overflow: hidden;
+    float: left;
+    display: block;
+    background: #d1d2d4;
+    margin-right: 10px;
+    line-height: 60px;
+    text-align: center;
+    color: #000;
+    margin-top: 10px;
+    letter-spacing: 1px;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+main.WB002513_wall #Block01 #logowall #logoicon2 a {
+    color: #000;
+    display: block;
+}
+
+main.WB002513_wall #Block01 #logowall #logoicon2 a:hover {
+    color: #fff;
+    background: #ff9000;
+}
+
+main.WB002513_wall .topicon {
+    width: 60px;
+    height: 30px;
+    font-size: 16px;
+    float: right;
+    background: url(../images/up.png) no-repeat left top;
+    clear: both;
+    padding: 0;
+    letter-spacing: 0;
+}
+
+main.WB002513_wall #wall_1 {
+    padding-top: 110px;
+    text-align: center;
+    letter-spacing: 5px;
+    font-size: 30px;
+}
+
+main.WB002513_wall #wall_2 {
+    padding-top: 110px;
+    text-align: center;
+    letter-spacing: 5px;
+    font-size: 30px;
+}
+
+main.WB002513_wall #wall_3 {
+    padding-top: 110px;
+    text-align: center;
+    letter-spacing: 5px;
+    font-size: 30px;
+}
+
+main.WB002513_wall #wall_4 {
+    padding-top: 110px;
+    text-align: center;
+    letter-spacing: 5px;
+    font-size: 30px;
+}
+
+main.WB002513_wall #wall_5 {
+    padding-top: 110px;
+    text-align: center;
+    letter-spacing: 5px;
+    font-size: 30px;
+}
+
+main.WB002513_wall #wall_6 {
+    padding-top: 110px;
+    text-align: center;
+    letter-spacing: 5px;
+    font-size: 30px;
+}
+
+main.WB002513_wall #wall_7 {
+    padding-top: 110px;
+    text-align: center;
+    letter-spacing: 5px;
+    font-size: 30px;
+}
+
+main.WB002513_wall #wall_8 {
+    padding-top: 110px;
+    text-align: center;
+    letter-spacing: 5px;
+    font-size: 30px;
+}
+
+main.WB002513_wall #wall_9 {
+    padding-top: 110px;
+    text-align: center;
+    letter-spacing: 5px;
+    font-size: 30px;
+}
+
+main.WB002513_wall #wall_10 {
+    padding-top: 110px;
+    text-align: center;
+    letter-spacing: 5px;
+    font-size: 30px;
+}
+
+main.WB002513_wall #wall_11 {
+    padding-top: 110px;
+    text-align: center;
+    letter-spacing: 5px;
+    font-size: 30px;
+}
+
+main.WB002513_wall #wall_12 {
+    padding-top: 110px;
+    text-align: center;
+    letter-spacing: 5px;
+    font-size: 30px;
+}
+
+main.WB002513_wall #wall_13 {
+    padding-top: 110px;
+    text-align: center;
+    letter-spacing: 5px;
+    font-size: 30px;
+}
+
+main.WB002513_wall #wall_14 {
+    padding-top: 110px;
+    text-align: center;
+    letter-spacing: 5px;
+    font-size: 30px;
+}
+
+main.WB002513_wall #wall_15 {
+    padding-top: 110px;
+    text-align: center;
+    letter-spacing: 5px;
+    font-size: 30px;
+}
+
+main.WB002513_wall #wall_16 {
+    padding-top: 110px;
+    text-align: center;
+    letter-spacing: 5px;
+    font-size: 30px;
+}
+
+main.WB002513_wall #wall_17 {
+    padding-top: 110px;
+    text-align: center;
+    letter-spacing: 5px;
+    font-size: 30px;
+}
+
+main.WB002513_wall #wall_18 {
+    padding-top: 110px;
+    text-align: center;
+    letter-spacing: 5px;
+    font-size: 30px;
+}
+
+main.WB002513_wall #wall_19 {
+    padding-top: 110px;
+    text-align: center;
+    letter-spacing: 5px;
+    font-size: 30px;
+}
+
+main.WB002513_wall #wall_20 {
+    padding-top: 110px;
+    text-align: center;
+    letter-spacing: 5px;
+    font-size: 30px;
+}
+
+main.WB002513_wall #wall_21 {
+    padding-top: 110px;
+    text-align: center;
+    letter-spacing: 5px;
+    font-size: 30px;
+}
+
+main.WB002513_wall #wall_22 {
+    padding-top: 110px;
+    text-align: center;
+    letter-spacing: 5px;
+    font-size: 30px;
+}
+
+main.WB002513_wall #wall_23 {
+    padding-top: 110px;
+    text-align: center;
+    letter-spacing: 5px;
+    font-size: 30px;
+}
+
+main.WB002513_wall #wall_24 {
+    padding-top: 110px;
+    text-align: center;
+    letter-spacing: 5px;
+    font-size: 30px;
+}
+
+main.WB002513_wall #wall_25 {
+    padding-top: 110px;
+    text-align: center;
+    letter-spacing: 5px;
+    font-size: 30px;
+}
+
+main.WB002513_wall #wall_26 {
+    padding-top: 110px;
+    text-align: center;
+    letter-spacing: 5px;
+    font-size: 30px;
+}
+
+main.WB002513_wall #wall_27 {
+    padding-top: 110px;
+    text-align: center;
+    letter-spacing: 5px;
+    font-size: 30px;
+}
+
+main.WB002513_wall #wall_28 {
+    padding-top: 110px;
+    text-align: center;
+    letter-spacing: 5px;
+    font-size: 30px;
+}
+
+main.WB002513_wall #wall_29 {
+    padding-top: 110px;
+    text-align: center;
+    letter-spacing: 5px;
+    font-size: 30px;
+}
+
+main.WB002513_wall #wall_30 {
+    padding-top: 110px;
+    text-align: center;
+    letter-spacing: 5px;
+    font-size: 30px;
+}
+
+main.WB002513_wall #wall_31 {
+    padding-top: 110px;
+    text-align: center;
+    letter-spacing: 5px;
+    font-size: 30px;
+}
+
+main.WB002513_wall #wall_32 {
+    padding-top: 110px;
+    text-align: center;
+    letter-spacing: 5px;
+    font-size: 30px;
+}
+
+main.WB002513_wall #wall_33 {
+    padding-top: 110px;
+    text-align: center;
+    letter-spacing: 5px;
+    font-size: 30px;
+}
+
+main.WB002513_wall #wall_34 {
+    padding-top: 110px;
+    text-align: center;
+    letter-spacing: 5px;
+    font-size: 30px;
+}
+
+main.WB002513_wall #wall_35 {
+    padding-top: 110px;
+    text-align: center;
+    letter-spacing: 5px;
+    font-size: 30px;
+}
+
+main.WB002513_wall #wall_36 {
+    padding-top: 110px;
+    text-align: center;
+    letter-spacing: 5px;
+    font-size: 30px;
+}
+
+main.WB002513_wall #wall_37 {
+    padding-top: 110px;
+    text-align: center;
+    letter-spacing: 5px;
+    font-size: 30px;
+}
+
+main.WB002513_wall #wall_38 {
+    padding-top: 110px;
+    text-align: center;
+    letter-spacing: 5px;
+    font-size: 30px;
+}
+
+main.WB002513_wall #wall_39 {
+    padding-top: 110px;
+    text-align: center;
+    letter-spacing: 5px;
+    font-size: 30px;
+}
+
+main.WB002513_wall #wall_40 {
+    padding-top: 110px;
+    text-align: center;
+    letter-spacing: 5px;
+    font-size: 30px;
+}
+
+main.WB002513_wall #BOX_s {
+    width: 950px;
+    overflow: hidden;
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+    border-bottom: #CCC 1px solid;
+}
+
+main.WB002513_wall #BOX_s .titleA_3H {
+    margin: 0px;
+    width: 130px;
+    display: block;
+    float: left;
+    line-height: 110px;
+    padding: 5px;
+    background: #eeeeee;
+    text-align: center;
+    font-weight: bold;
+    border-right: #1e95d3 solid 3px;
+}
+
+main.WB002513_wall #BOX_s .titleA_4H {
+    margin: 0px;
+    width: 130px;
+    display: block;
+    float: left;
+    line-height: 140px;
+    padding: 5px;
+    background: #eeeeee;
+    text-align: center;
+    font-weight: bold;
+    border-right: #1e95d3 solid 3px;
+}
+
+main.WB002513_wall #BOX_s .titleA {
+    margin: 0px;
+    width: 130px;
+    display: block;
+    float: left;
+    line-height: 80px;
+    padding: 5px;
+    background: #eeeeee;
+    text-align: center;
+    font-weight: bold;
+    border-right: #1e95d3 solid 3px;
+}
+
+main.WB002513_wall #BOX_s .titleB {
+    margin: 0px;
+    width: 720px;
+    display: block;
+    float: left;
+    padding: 15px 15px 15px 15px;
+    font-size: 16px;
+}
+
+main.WB002513_wall #BOX_s .titleB_1H {
+    margin: 0px;
+    width: 720px;
+    display: block;
+    float: left;
+    padding: 15px 15px 15px 15px;
+    font-size: 16px;
+    line-height: 60px;
+}
+
+main.WB002513_wall #BOX_s .more {
+    border-radius: 50px;
+    margin: 0px;
+    width: 50px;
+    display: block;
+    float: left;
+    font-size: 10px;
+    background-color: #09F;
+    line-height: 50px;
+    margin-top: 10px;
+    color: #FFF;
+    text-align: center;
+}
+
+main.WB002513_wall #BOX_s .more a {
+    color: #FFF;
+}
+
+main.WB002513_wall #BOX_s .more a:hover {
+    border-radius: 50px;
+    margin: 0px;
+    width: 50px;
+    display: block;
+    float: left;
+    font-size: 10px;
+    background-color: #004a9d;
+    line-height: 50px;
+    color: #FFF;
+    text-align: center;
+}
+
+main.WB002513_wall .font_mainColor {
+    color: #0bb580;
+}
+
+main.WB002513_wall .font_orange {
+    color: #ff6600;
+}
+
+main.WB002513_wall .font_blue {
+    color: #058fa8;
+}
+
+main.WB002513_wall .font_blue2 {
+    color: #b5e6ff;
+}
+
+main.WB002513_wall .font_green {
+    color: #4fcc6a;
+}
+
+main.WB002513_wall .font_yellow1 {
+    color: #fffc00;
+}
+
+main.WB002513_wall .font_yellow {
+    color: #ffb400;
+}
+
+main.WB002513_wall .font_yellowLight {
+    color: #feffc1;
+}
+
+main.WB002513_wall .font_yellowDark {
+    color: #ff8d00;
+}
+
+main.WB002513_wall .font_redLight {
+    color: #ff5454;
+}
+
+main.WB002513_wall .font_white {
+    color: #ffffff;
+}
+
+main.WB002513_wall .font_gray {
+    color: #bbbbbb;
+}
+
+main.WB002513_wall .font_blackB {
+    color: #000000;
+    font-weight: bold;
+}
+
+main.WB002513_wall .font_green2 {
+    color: #eaff01;
+}
+
+main.WB002513_wall .bg_mainColor {
+    background-color: #0bb580;
+}
+
+main.WB002513_wall .bg_green {
+    background-color: #4fcc6a;
+}
+
+main.WB002513_wall .bg_yellow {
+    background-color: #ffb400;
+}
+
+main.WB002513_wall .bg_yellowDark {
+    background-color: #ff8d00;
+}
+
+main.WB002513_wall .bg_gray {
+    background-color: #bbbbbb;
+}
+
+main.WB002513_wall .bg_greenImg {
+    background: url(../images/bgGreen.jpg) no-repeat center center;
+}
+
+main.WB002513_wall .bg_ {
+    background: url(../images/bgGreen.jpg) no-repeat center center;
+}
+
+main.WB002513_wall .hover_yellow:hover h4 {
+    color: #ffb400;
+}
+
+main.WB002513_wall .circle {
+    margin: 0 auto;
+    border-radius: 50%;
+}
+
+main.WB002513_wall p.imgNote {
+    font-size: 19px;
+    font-weight: bold;
+    text-align: center;
+}
+
+main.WB002513_wall p.sectionNote {
+    width: 800px;
+    margin: 0 auto;
+    font-size: 19px;
+}
+
+main.WB002513_wall p.pageBtn {
+    width: 400px;
+    line-height: 60px;
+    margin: 50px auto 0;
+    border: 1px solid #ffffff;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+}
+
+main.WB002513_wall #button_O {
+    width: 715px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+main.WB002513_wall #button_OC {
+    width: 960px;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 325px;
+}
+
+main.WB002513_wall .btn {
+    float: left;
+    font-size: 20px;
+    font-family: "微軟正黑體", Arial, Helvetica, sans-serif;
+    width: 145px;
+    height: 40px;
+    margin: 0 auto;
+    line-height: 40px;
+    letter-spacing: 1px;
+    margin-right: 15px;
+}
+
+main.WB002513_wall .btn a {
+    display: block;
+    color: #FFF;
+    text-decoration: none;
+    background-color: #09F;
+}
+
+main.WB002513_wall .btn a:hover {
+    text-decoration: none;
+    margin: 0 auto;
+    background-color: #36C;
+}
+
+main.WB002513_wall .btn2 {
+    float: left;
+    font-size: 20px;
+    font-family: "微軟正黑體", Arial, Helvetica, sans-serif;
+    width: 145px;
+    height: 40px;
+    margin: 0 auto;
+    line-height: 40px;
+    letter-spacing: 1px;
+    margin-right: 15px;
+}
+
+main.WB002513_wall .btn2 a {
+    display: block;
+    color: #FFF;
+    text-decoration: none;
+    background-color: #0CF;
+}
+
+main.WB002513_wall .btn2 a:hover {
+    text-decoration: none;
+    margin: 0 auto;
+    background-color: #36C;
+}
+
+main.WB002513_wall .btn1 {
+    float: left;
+    font-size: 20px;
+    font-family: "微軟正黑體", Arial, Helvetica, sans-serif;
+    width: 200px;
+    height: 40px;
+    margin: 0 auto;
+    line-height: 40px;
+    margin-left: 20px;
+}
+
+main.WB002513_wall .btn1 a {
+    display: block;
+    color: #FFF;
+    text-decoration: none;
+    background: url(../images/icon_bg1.png) no-repeat left top;
+    font-weight: bold;
+}
+
+main.WB002513_wall .btn1 a:hover {
+    text-decoration: none;
+    margin: 0 auto;
+    background-position: right top;
+}
+
+main.WB002513_wall .conblock {
+    width: 100%;
+    background-color: #096ca0;
+    padding: 100px 0;
+}
+
+main.WB002513_wall #conblock {
+    width: 1000px;
+    overflow: hidden;
+    margin: 0 auto;
+    display: block;
+    padding: 30px 0;
+}
+
+main.WB002513_wall #conblock h3 {
+    line-height: 1.2;
+    text-align: center;
+    color: #FFF;
+}
+
+main.WB002513_wall #conblock h4 {
+    line-height: 1.2;
+    text-align: center;
+    color: #FFF;
+}
+
+main.WB002513_wall p.contactBtn {
+    position: relative;
+    z-index: 2;
+    width: 400px;
+    line-height: 55px;
+    margin: 50px auto 0;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    background-color: #034ea2;
+    border: 1px solid #ffffff;
+    letter-spacing: 1px;
+}
+
+main.WB002513_wall p.contactBtn a {
+    color: #FFF;
+}
+
+main.WB002513_wall p.contactBtn:hover {
+    background-color: #ffb400;
+}
+
+main.WB002513_wall .imgBorderAll {
+    border: 1px solid #eaeaea;
+}

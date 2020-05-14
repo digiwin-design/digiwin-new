@@ -1,0 +1,31 @@
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!--右側懸浮窗口-->
+<div id="floatTips" style='overflow: visible;top:190px'>
+    <!-- WPA Button Begin QQ線上諮詢-->
+    
+    <!-- WPA Button END -->
+    <div class="window_main">
+        <h4>
+            聯絡我們</h4>
+        <div class="lianxiwomen">
+            <ul>
+                <li><a href="http://www.digiwin.com/Contact.html">線上e化諮詢</a></li>
+                <li style="background: none;"><span><a href="http://www.digiwin.com/Contact.html">E化諮詢、課程、培訓</a></span></li>
+                <li><a>諮詢電話：</a></li>
+                <li style="background: none;"><span><a href="http://www.digiwin.com/Contact.html">0800-888-162</a></span></li>
+            </ul>
+        </div>
+        <h4>
+            更多服務</h4>
+        <div class="lianxiwomen">
+            <ul>
+                <li><a href="http://www.digiwin.com/courseActivity.html">課程活動</a></li>
+                <li><a href="http://www.digiwin.com/news_3.6.01.html">管理前瞻</a></li>
+                <li><a href="http://www.digiwin.com/case.html">行業案例</a></li>
+                <li><a target="_blank" href="http://www.dsc.com.tw/newspaper/free_online2011.asp" rel="nofollow nofollow">訂閱管理快訊</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="btn" id="btn">
+    </div>
+</div>

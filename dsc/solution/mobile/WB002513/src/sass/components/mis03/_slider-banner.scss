@@ -1,0 +1,113 @@
+main .mis03 .banner {
+    position: relative;
+    overflow: hidden;
+    margin: 0 auto;
+    max-width: 1920px;
+    &.clickable {
+        cursor: pointer;
+    }
+    &-slide {
+        height: image-height('mis03/hero-bg.jpg');
+        background-position: 50% 0;
+    }
+    .container {
+        display: flex;
+        flex-direction: column;
+        padding-top: 1em;
+        max-width: 370px;
+        height: 100%;
+        justify-content: center;
+    }
+    &-title {
+        margin-bottom: .5em;
+        color: #ff0;
+        letter-spacing: getLetterSpacing(25);
+        font-weight: bold;
+        font-size: 36px;
+        line-height: 1.2;
+    }
+    &-desc {
+        color: #fff;
+        letter-spacing: getLetterSpacing(25);
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 1.3;
+    }
+    &-tag {
+        display: flex;
+        margin: 1em 0;
+        width: 320px;
+        height: 38px;
+        border-radius: 10px;
+        background-color: #10b3e5;
+        color: #fff;
+        letter-spacing: getLetterSpacing(20);
+        font-weight: bold;
+        font-size: 23px;
+        justify-content: center;
+        align-items: center;
+        &::before {
+            @include imgBg('mis03/hero-tagicon.png');
+            margin-right: 10px;
+            content: '';
+        }
+    }
+    img {
+        width: 100%;
+    }
+    &-controls {
+        position: absolute;
+        top: 0;
+        left: 50%;
+        z-index: 1;
+        width: 100%;
+        height: 100%;
+        transform: translateX(-50%);
+    }
+    &-button-next,
+    &-button-prev {
+        position: absolute;
+        top: 50%;
+        width: 44px;
+        height: 77px;
+        cursor: pointer;
+        transform: translateY(-50%);
+    }
+    &-button-next {
+        right: 5px;
+        background: image-url('mis03/banner-btn-next.png') 100% 50%/contain no-repeat;
+    }
+    &-button-prev {
+        left: 5px;
+        background: image-url('mis03/banner-btn-prev.png') 0 50%/contain no-repeat;
+    }
+    &-pagination {
+        position: absolute;
+        bottom: 13px;
+        left: 50%;
+        display: flex;
+        transform: translateX(-50%);
+        align-items: center;
+        &-bullet {
+            width: 14px;
+            height: 14px;
+            border-radius: 50%;
+            background-color: #aeaeae;
+            cursor: pointer;
+            & + .banner-pagination-bullet {
+                margin-left: 13px;
+            }
+            &-active {
+                background-color: #fff;
+            }
+        }
+    }
+    &.disabled {
+        .swiper-wrapper {
+            transform: translate3d(0px, 0, 0) !important;
+        }
+        .banner-pagination {
+            display: none;
+        }
+    }
+}

@@ -1,0 +1,170 @@
+* {box-sizing:border-box;-webkit-box-sizing:border-box;}
+ body, html {-webkit-text-size-adjust:none;}
+#WRAPPER { min-width:320px;}
+
+#TOP-MENU {	
+
+ display:block;
+ width:100%;
+ height:50px;
+ position:relative;
+ background-color:#f4f5f5;
+}
+#TOP-MENU h4 {
+display:block; 
+width:150px;
+height:40px;
+background-image:url(https://static.digiwin.com/tw/dsc/Library/images/DSClogo.png);
+background-size:90px auto;
+position:absolute;
+background-repeat:no-repeat;
+left:10px;
+top:10px;
+text-indent:-9999px;
+}
+ #TOP-MENU h5 {
+display:block;
+width:60px;
+height:40px;
+background-image:url(https://static.digiwin.com/tw/dsc/Library/images/btn.png);
+background-size:60px auto;
+background-repeat:no-repeat;
+position:absolute;
+right:5px;
+top:10px;
+text-indent:-9999px;
+}
+
+/* --------------------------------- */
+
+ #nav {
+ height:auto;
+ background-color:#e0e0e0;
+ position: relative;
+ font-family:"微軟正黑體", Arial, Helvetica, sans-serif;
+ z-index:999995;
+ width: 100%;
+ display:none;
+}
+ #nav .logo {
+display:none;
+}
+ #nav .link {
+ float: none;
+ width:100%;
+ margin-right: 30px;
+ text-align: center;
+ height: auto;
+ line-height: 45px;
+}
+#nav .link>li {
+width:100%;
+ border-right:0px solid #999;
+border-bottom:#fff 1px solid;
+ float: none;
+ font-size: 18px;
+ color: #757373;
+ line-height: 45px;
+}
+ #nav .link>li a {
+ text-decoration: none;
+ color: #000;
+ display: block;
+ line-height: 45px;
+}
+#nav .link>li a:hover {
+ text-decoration: none;
+ color: #fff;
+ background-color:#666;
+ line-height: 45px;
+}
+ #nav .link .Phone {
+ width:100%;
+ font-weight:normal;
+}
+#nav .link .Phone:hover, #nav .link .line:hover {
+ background-color: #f4f5f5;
+}
+#nav .link .line_L {
+ border-left:0px solid #999;
+}
+#nav .link .subLink {
+ display: none;
+ border:0px solid #757373;
+ border-top:none;
+ background-color:#f4f5f5;
+ z-index:999995;
+}
+ #nav .link .subLink li a {
+border-bottom:#e0e0e0 1px solid;
+ display:block;
+ height:45px;
+ color:#900;
+ text-align:center;
+}
+ #nav .link .subLink li a:hover {
+ background-color:#900;
+color:#fff;
+ line-height:45px;
+}
+/*底部信息开始*/
+#dgwFooter {
+    background-color: #333;   
+    border-top: 1px solid #FFF;
+    text-align: center;
+    padding-top: 13px;
+    color: #595757;
+    font-size: 13px;
+    font-family: "微軟正黑體",Arial, Helvetica, sans-serif;
+    padding-bottom: 17px;
+    margin-bottom: 30px;
+}
+#dgwFooter p {
+    font-size: 13px;
+    line-height: 1.8;
+    padding: 0 20px;
+    margin: 0;
+    clear: both;
+    color: #CCC;
+}
+/*底部信息结束*/
+/*底部选单开始*/
+#navLeft .btnGroup {
+	position: fixed;
+    top: auto;
+    bottom: 0;
+    left: 0;
+    z-index: 2;
+    width: 100%;
+}
+
+#navLeft a {
+	color: #ffffff;
+    display: block;
+}
+
+
+
+#navLeft>ul>li {
+	float: left;
+    margin-right: 0;
+    padding: 3px;
+    width: 20%;
+    height: auto;
+    border-radius: 0;
+    border-right: 1px solid #ffffff;
+    font-size: 14px;
+    line-height: 30px;
+    background-color:#000;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -o-box-sizing: border-box;
+}
+#navLeft>ul>li:hover {
+	background-color: #ff8a00;
+}
+#navLeft>ul>li.lineTel {
+	background-color: #EF2D24;
+}

@@ -1,0 +1,22 @@
+extends ../layout.pug
+
+block includes
+    link(rel='stylesheet', href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css')
+    script(src='/tw/dsc/assets/modernizr-custom.js', defer)
+    script(src='/tw/dsc/assets/mobile-detect.js')
+    script(src='/tw/dsc/assets/mobile-detect-modernizr.js', defer)
+    script(src="https://unpkg.com/vuex", defer)
+    script(src='https://unpkg.com/http-vue-loader', defer)
+    script(src="assets/lodash.min.js", defer)
+    
+    //- swiper
+    link(rel='stylesheet', href='https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.7/css/swiper.min.css')
+    script(src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.7/js/swiper.min.js", defer)
+    script(src="https://cdn.jsdelivr.net/npm/vue-awesome-swiper@3.1.2/dist/vue-awesome-swiper.js", defer)
+    
+    link(rel='stylesheet', href='css/reboot.css')
+    link(rel='stylesheet', href='css/index.css')
+    script(src='js/index.min.js', defer)
+
+block content
+    include cn.html

@@ -1,0 +1,16 @@
+{
+    "ServiceCloud": {
+        "banner": [
+            {
+                "id": 1,
+                "title": ["標題"],
+                "desc": ["描述"],
+                "imgSrc": [
+                    "images/ServiceCloud/hero-bg.jpg",
+                    "images/ServiceCloud/hero-bg-s.jpg"
+                ],
+                "url": "javascript:;"
+            }
+        ]
+    }
+}

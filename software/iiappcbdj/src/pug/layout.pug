@@ -1,0 +1,43 @@
+doctype html
+html(lang='zh-Hant-TW')
+    head
+        meta(charset='UTF-8')
+        meta(name='viewport', content='width=device-width, initial-scale=1.0')
+        meta(http-equiv='X-UA-Compatible', content='ie=edge')
+
+        //- 全站共用
+        link(rel='stylesheet', href='/tw/static/css/public.css')
+        link(rel='stylesheet', href='/tw/static/css/style.css')
+        script(src='/tw/static/js/jquery-1.11.3.min.js')
+
+        //- 全站共用(自定義)
+        script(src='https://polyfill.io/v3/polyfill.js?features=default,fetch,HTMLPictureElement,Array.prototype.find,NodeList.prototype.forEach&flags=gated')
+        script(src='/tw/dsc/assets/modernizr-custom.js')
+        script(src='/tw/dsc/assets/mobile-detect.js')
+        script(src='/tw/dsc/assets/mobile-detect-modernizr.js', defer)
+        script(src="/tw/dsc/assets/smoothscroll.js", defer)
+        script(src="/tw/dsc/assets/axios.min.js")
+        script(src="/tw/dsc/assets/vuejs/vue-all-dev.js")
+        script(src='/tw/dsc/js/common.min.js')
+    body
+        // 後台上稿內容開始
+        //- form
+        link(rel='stylesheet', href='/tw/dsc/css/Eform/xcConfirm.css')
+        script(src='/tw/dsc/js/Eform/xcConfirm.js', defer)
+
+        //- swiper
+        link(rel="stylesheet", href="assets/swiper.min.css")
+        script(src="assets/swiper.min.js", defer)
+        script(src="assets/vue-awesome-swiper.js", defer)
+
+        link(rel='stylesheet', href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css')
+        script(src="assets/color-converter.js", defer)
+        script(src="assets/lodash.min.js", defer)
+        link(rel='stylesheet', href='/tw/dsc/css/reboot.css')
+        script(src='js/all.min.js', defer)
+        
+        block includes
+        
+        main(v-cloak, v-if="result")
+            block content
+        // 後台上稿內容結束

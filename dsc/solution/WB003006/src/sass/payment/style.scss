@@ -1,0 +1,37 @@
+@import '../common';
+@import 'components';
+
+main {
+    .section1 {
+        .sectionTitle {
+            strong {
+                display: block;
+                color: #ed3e3e;
+                font-weight: bold;
+            }
+            h1 {
+                text-align: center;
+            }
+            p {
+                @media (min-width: $tablet-width + 1) {
+                    text-align: center;
+                }
+                br {
+                    display: none;
+                    @media (min-width: $tablet-width + 1) {
+                        display: block;
+                    }
+                }
+            }
+        }
+        &-boxs {
+            display: none;
+            @media (min-width: $content-width) {
+                display: flex;
+                margin-bottom: 60px;
+                padding: 0 85px;
+                justify-content: space-between;
+            }
+        }
+    }
+}

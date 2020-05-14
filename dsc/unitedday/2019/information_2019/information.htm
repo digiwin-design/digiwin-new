@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>2018聚英會-UPGrade 因價值而不凡</title>
+<link rel="stylesheet" type="text/css" href="css/reset.css" />
+<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css" />
+<link rel="stylesheet" type="text/css" href="css/information.css" />
+
+<script type="text/javascript" src="js/jquery-1.11.2.min.js"></script>
+<script type="text/javascript" src="js/information.js"></script>
+<script type="text/javascript" src="js/search.js"></script>
+</head>
+<body>
+<div id="nav">
+	<a href="http://tw.digiwin.biz/" target="_blank"><img class="logo" src="images/logo.svg" alt="鼎新官網"></a>
+</div>
+
+<div id="mainVisual" class="section"><img class="imgStyle" src="images/img_mainVisual.png" alt="2018聚英會Upgrade 因價值而不凡"></div>
+
+<div id="agenda" class="section">
+	<div class="content">
+		<ul>
+			<li>
+				<p class="time">12:00 - 13:00</p>
+				<p class="detail">各區整裝出發<br><span class="btn">各分公司發車時間</span></p>
+			</li>
+			<li>
+				<p class="time">14:30 - 15:15</p>
+				<p class="detail"><span class="highLight">Ready to Upgrade</span>整裝待發．乘風而來</p>
+			</li>
+			<li>
+				<p class="time">15:15 - 15:20</p>
+				<p class="detail"><span class="highLight">Time to Upgrade</span>聚英匯聚．夢想啟航</p>
+			</li>
+			<li>
+				<p class="time">15:20 - 15:30</p>
+				<p class="detail"><span class="highLight">Let's Upgrade</span>搖滾閃耀．首航主秀</p>
+			</li>
+			<li>
+				<p class="time">15:30 - 15:55</p>
+				<p class="detail"><span class="highLight">We'll Upgrade</span>鼎新因價值而不凡</p>
+			</li>
+			<li>
+				<p class="time">15:55 - 17:35</p>
+				<p class="detail"><span class="highLight">Upgrade Value</span>星光燦爛．金鼎閃耀</p>
+			</li>
+			<li>
+				<p class="time">17:35 - 18:00</p>
+				<p class="detail"><span class="highLight">Upgrade Future</span>能量充滿．築夢啟動</p>
+			</li>
+			<li>
+				<p class="time">18:30 - 21:00</p>
+				<p class="detail"><span class="highLight">Upgrade Life</span>歡樂派對．活力無限</p>
+			</li>
+		</ul>
+	</div>
+</div>
+
+<div id="search" class="section">
+	<div class="content">
+		<h2><span class="bgLine">座位/車次查詢</span></h2>
+		<p>請輸入工號(5位數字)或<span class="lineBreak">姓名(2-4個中文字)</span></p>
+		<div class="inputCol">
+			<div class="loading"><i class="fa fa-spinner fa-pulse"></i></div>
+			<input type="text" id="searchValue" class="searchValue" name="searchValue" maxLength="5"><input type="button" id="submit">
+		</div>
+		<div id="searchResult">
+			<table border="0" cellspacing="0" cellpadding="0" id="result">
+			</table>
+			<p class="hint">小提醒：新竹、台中同仁中午請提前自行用餐</p>
+		</div>
+		<p class="noInput">請輸入工號(5位數字)或<span class="lineBreak">姓名(2-4個中文字)</span></p>
+		<img class="imgStyle" src="images/img_seat.svg" alt="2018桌次表" id="seat">
+	</div>
+</div>
+
+<div id="notice" class="section">
+	<div class="content">
+		<h2><span class="bgLine">行前宣導</span></h2>
+		<h3>1. 服裝規定</h3>
+		<p>請同仁務必<span class="highlight">攜帶識別証</span>，2/13(二)當天上午為正常上班，如當天需外出洽公人員，請著正式服裝。</p>
+		<h3>2. 發車時間及各車車長</h3>
+		<ul class="list">
+			<li>台中分公司與自行前往的同仁，請準時入場(入場時間：14:30 - 15:15)。</li>
+			<li>搭乘公司交通車的同仁，請提前15分鐘至1F乘車處集合(發車時間請參閱下表)，如有臨時修改或緊急狀況請與車長聯絡。</li>
+			<li><span class="highlight">新竹、台中同仁中午請提前自行用餐。台北、桃園、台南、高雄午餐統一由主辦單位提供餐盒，供同仁在車上享用。</span></li>
+		</ul>
+		<div id="carTime" class="clearfix">
+			<p class="tableName"><i class="fa fa-play"></i> 各分公司發車時間及各車車長</p>
+			<div id="taipei">
+				<table border="0" cellspacing="0" cellpadding="0">
+				  <tr>
+				    <th colspan="3">台北  12:30 發車，並提供餐盒</th>
+				  </tr>
+				  <tr>
+				    <td>北 1 車 鄭茹燕</td><td colspan="2">北 2 車 彭雨涵</td>
+				  </tr>
+				  <tr>
+				    <td>北 3 車 蔡欣璇</td><td colspan="2">北 4 車 何昇展</td>
+				  </tr>
+				  <tr>
+				    <td>北 5 車 吳筱鈺</td><td colspan="2">北 6 車 周雨萱</td>
+				  </tr>
+				  <tr>
+				    <td>北 7 車 曹峻豪</td><td colspan="2">北 8 車 劉翠杏</td>
+				  </tr>
+				  <tr>
+				    <td>北 9 車 林嘉鳳</td><td colspan="2">北 10 車 李承璋</td>
+				  </tr>
+				  <tr>
+				    <td>北 11 車 梁富傑</td><td colspan="2">北 12 車 張雪峰</td>
+				  </tr>
+				  <tr>
+				    <td>北 13 車 謝舜惠</td><td colspan="2">北 14 車 范筱鈴</td>
+				  </tr>
+				</table>
+			</div>
+			<div id="other">
+				<table border="0" cellspacing="0" cellpadding="0">
+				  <tr>
+				    <th colspan="2">桃園 12:30 發車，並提供餐盒</th>
+				  </tr>
+				  <tr>
+				    <td>桃  1  車 劉秀婷</td><td>桃  2  車 黃玠瑛</td>
+				  </tr>
+				</table>
+
+				<table width="340" border="0" cellspacing="0" cellpadding="0">
+					<tr>
+						<th colspan="3" class="hc">新竹/新竹鼎華 13:30 發車，<br>請提前自行用餐</th>
+					</tr>
+					<tr>
+						<td rowspan="2">竹  1  車 林秀紅</td>
+						<td rowspan="2" class="special3">竹  2  車</td>
+						<td class="special4">郭璟萱(去)</td>
+					</tr>
+					<tr>
+						<td class="special2">劉慧純(回)</td>
+					</tr>
+				</table>
+
+				<table width="340" border="0" cellspacing="0" cellpadding="0">
+				  <tr>
+				    <th>台中 14:40前抵達 自行往返</th>
+				  </tr>
+				</table>
+
+				<table width="340" border="0" cellspacing="0" cellpadding="0">
+				  <tr>
+				    <th colspan="2">台南 12:30 發車，並提供餐盒</th>
+				  </tr>
+				  <tr>
+				    <td>南  1  車 何宜秋</td><td>南  2  車 蔡孟慧</td>
+				  </tr>
+				</table>
+
+				<table width="340" border="0" cellspacing="0" cellpadding="0">
+				  <tr>
+				    <th colspan="2">高雄 12:00 發車，並提供餐盒</th>
+				  </tr>
+				  <tr>
+				    <td>高  1  車 張佳雯</td><td>高  2  車 黃冠瑋</td>
+				  </tr>
+				  <tr>
+				    <td class="special2">高  3  車 洪宥愉(回)</td><td class="special2">&nbsp;</td>
+				  </tr>
+				</table>													
+			</div>
+			<a class="btn" href="#backcar">返程車輛停放位置</a>
+		</div>
+		<h3>3. 貼心服務</h3>
+		<ul id="service">
+			<li class="icon01 clearfix">
+				<img class="imgStyle" src="images/img_service01.svg" alt="服務台">
+				<div class="contentDetail">
+					<h4>服務台</h4>
+					<p>位於會場B2，提供桌次及場地諮詢。</p>
+				</div>
+			</li>
+			<li class="icon02 clearfix">
+				<img class="imgStyle" src="images/img_service02.svg" alt="哺乳室">
+				<div class="contentDetail">
+					<h4>哺乳室</h4>
+					<p>位於會場B2，詳細位置可洽服務台或飯店服務人員。</p>
+				</div>
+			</li>
+			<li class="icon03 clearfix end">
+				<img class="imgStyle" src="images/img_service03.svg" alt="吸菸區">
+				<div class="contentDetail">
+					<h4>吸菸區</h4>
+					<p>室內禁止吸菸，欲吸菸者可前往會場B2室外場地。</p>
+				</div>
+			</li>
+		</ul>
+		<h3>4. 現場WiFi</h3>
+		<p>葳格國際會議中心 帳號：polg，不需要密碼。</p>
+	</div>
+</div>
+
+<div id="palceInfo" class="section">
+	<div class="content">
+		<h2><span class="bgLine">活動地點</span></h2>
+		<ul class="list">
+			<li class="icon icon01">葳格國際會議中心：台中市北屯區軍福十八路328號(葳格高級中學旁)</li>
+			<li class="icon icon02">公    車：統聯77或仁友72 (葳格中學站) </li>
+			<li class="icon icon03">停車場：軍福十九路進入(車輛停放請依現場狀況調整)</li>
+		</ul>
+		<div id="map"><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3639.8060520018635!2d120.71143634578553!3d24.17853376518615!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0000000000000000%3A0xbb55f41a8de4d279!2z6JGz5qC85ZyL6Zqb5pyD6K2w5Lit5b-D!5e0!3m2!1szh-TW!2stw!4v1453107871348" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe></div>
+		<div id="backcar">
+			<h3>返程車輛停放位置</h3>
+			<p>當日<span class="highlight">回程</span>交通車將停放於會場兩側出口，請同仁留意會場內指引海報並依交通車車身標示儘速上車。</p>
+			<ul>
+				<li>往台北：軍福十八路</li>
+				<li>往桃園、新竹、新竹鼎華、台南、高雄：軍福十九路</li>
+			</ul>
+			<img class="imgStyle" src="images/img_backMap.jpg" alt="回程車輛停放圖">
+		</div>
+	</div>
+</div>
+
+<div id="contact" class="section clearfix">
+	<div class="content">
+		<h2><span class="bgLine">聯絡窗口</span></h2>
+		<div class="outline">
+			<div class="icon icon01">
+				<img class="imgStyle" src="images/img_contactCar.svg" alt="交通接駁相關">
+				<div class="contentDetail">
+					<h4>交通接駁相關</h4>
+					趙宗瑜 /台灣平台服務中心<br>分機 2250 (台北)<br><a href="mailto:chuniu0924@digiwin.com">chuniu0924@digiwin.com</a>
+				</div>
+			</div>
+			<div class="icon icon02">
+				<img class="imgStyle" src="images/img_contactEat.svg" alt="餐點">
+				<div class="contentDetail">
+					<h4>餐點/其他問題</h4>
+					余孟鴻 /台灣人力資源處　<br>分機 3333 (桃園)<br><a href="mailto:chrisyu@digiwin.com">chrisyu@digiwin.com</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div id="dgwFooter">
+    <p>Copyright© 2012 鼎新電腦股份有限公司. Copyright c Data Systems Consulting Co., Ltd. All rights reserved.</p> 
+</div>
+</body>
+</html>

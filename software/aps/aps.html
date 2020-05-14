@@ -1,0 +1,758 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!-- 全站共用 -->
+    <link rel="stylesheet" href="https://www.digiwin.com/tw/static/css/public.css">
+    <link rel="stylesheet" href="https://www.digiwin.com/tw/static/css/style.css">
+    <script src="https://www.digiwin.com/tw/static/js/jquery-1.11.3.min.js"></script>
+
+    <!-- 全站共用(自定義) -->
+<!--    <link rel="stylesheet" href="https://www.digiwin.com/tw/dsc/css/all.css">-->
+<!--    <script src="https://polyfill.io/v3/polyfill.js?features=default,fetch,HTMLPictureElement,Array.prototype.find,NodeList.prototype.forEach&flags=gated"></script>-->
+<!--    <script src="https://www.digiwin.com/tw/dsc/assets/modernizr-custom.js"></script>-->
+<!--    <script src="https://www.digiwin.com/tw/dsc/assets/mobile-detect.js"></script>-->
+<!--    <script src="https://www.digiwin.com/tw/dsc/assets/mobile-detect-modernizr.js" defer></script>-->
+<!--    <script src="https://www.digiwin.com/tw/dsc/assets/smoothscroll.js" defer></script>-->
+<!--    <script src="https://www.digiwin.com/tw/dsc/assets/axios.min.js"></script>-->
+<!--    <script src="https://www.digiwin.com/tw/dsc/assets/axios-mock-adapter.min.js"></script>-->
+<!--    <script src="https://www.digiwin.com/tw/dsc/assets/vuejs/vue-all.js"></script>-->
+<!--    <script src="https://www.gstatic.com/firebasejs/7.2.2/firebase-app.js"></script>-->
+<!--    <script src="https://www.gstatic.com/firebasejs/6.0.1/firebase-database.js"></script>-->
+<!--    <script src="https://www.digiwin.com/tw/dsc/js/common.min.js"></script>-->
+
+</head>
+
+<body>
+    <!-- 後台上稿內容開始-->
+    <!-- form -->
+    <link rel="stylesheet" href="https://www.digiwin.com/tw/dsc/css/Eform/form-rwd.css">
+    <script src="https://www.digiwin.com/tw/dsc/js/Eform/form.js" defer></script>
+    <link rel="stylesheet" href="https://www.digiwin.com/tw/dsc/css/Eform/xcConfirm.css">
+    <script src="https://www.digiwin.com/tw/dsc/js/Eform/xcConfirm.js" defer></script>
+
+    <!-- submenu -->
+    <link rel="stylesheet" href="https://www.digiwin.com/tw/dsc/assets/submenu/submenu.css">
+    <script src="https://www.digiwin.com/tw/dsc/assets/submenu/submenu.min.js"></script>
+
+    <link rel="stylesheet" href="https://www.digiwin.com/tw/dsc/css/reboot.css">
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <link rel="stylesheet" href="css/index.css">
+    <script src="js/swiper.min.js"></script>
+    <script src="js/index.js"></script>
+    <main>
+        <!-- 從此處新增內容 -->
+        <!--banner -->
+        <section id="banner">
+            <div class="container">
+                <p class="b_tit">APS先進規劃與排程管理系統</p>
+                <h1>訂單排程 快、狠、準</h1>
+                <p class="txt1">市場瞬息萬變也能處變不驚！</p>
+            </div>
+        </section>
+        <!--困擾-->
+        <section id="nag">
+            <div class="container">
+                <h2>困擾與痛點</h2>
+                <p class="pc" style="padding-bottom:72px;">
+                    受新型冠狀病毒(2019-nCoV)疫情影響，導致全球供應鏈斷鏈的風險逐漸提高外，<br />終端需求兩極化導致不同產業訂單變動挑戰愈趨嚴峻。<br>
+                    在大環境不確定的情勢下，您的企業是否也面臨著經營的不確定性， <br>
+                    還有工廠訂單緊急變動、物料缺貨、交期緊張的困境…
+                </p>
+                <p class="m-mobile px_txt">
+                    受新型冠狀病毒(2019-nCoV)疫情影響，導致全球供應鏈斷鏈的風險逐漸提高外，終端需求兩極化導致不同產業訂單變動挑戰愈趨嚴峻。<br>
+                    在大環境不確定的情勢下，您的企業是否也面臨著經營的不確定性，
+                    還有工廠訂單緊急變動、物料缺貨、交期緊張的困境…
+                </p>
+                <div>
+<!--                    <h3><span>面對市場變化</span></h3>-->
+                    <ul class="t_box">
+                        <li class="t_li">
+                            <div class="fadeout">
+                                <img src="images/nag1.png" alt="" class="m_img">
+                                <img src="images/arrow.png" alt="" class="arrow">
+                            </div>
+                            <div class="fadein">
+                                <ul class="t_U">
+                                    <li>
+                                        產線大亂
+                                    </li>
+                                    <li>
+                                        訂單不知道能不能準時交出來
+                                    </li>
+                                    <li>
+                                        如果違約!後續還接不接的到訂單阿…
+                                    </li>
+                                    <li>
+                                        接單不穩定，營收會不會被影響…
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="t_li">
+                            <div class="fadeout">
+                                <img src="images/nag2.png" alt="" class="m_img">
+                                <img src="images/arrow.png" alt="" class="arrow">
+                            </div>
+                            <div class="fadein"  style="background: rgba(18,103,151,.85)">
+                                <ul class="t_U">
+                                    <li>
+                                        明明答應客戶的交期， 卻又延誤造成客訴，影響後續接單...
+                                    </li>
+                                    <li>
+                                        少量多樣又短交期,真是要人命
+                                    </li>
+
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+<!--                    <h3><span>面對內部管理</span></h3>-->
+                    <ul class="th_box">
+                        <li class="t_li">
+                            <div class="fadeout">
+                                <img src="images/nag3.png" alt="" class="m_img">
+                                <img src="images/arrow.png" alt="" class="arrow">
+                            </div>
+                            <div class="fadein">
+                                <ul class="t_U">
+                                    <li>
+                                        遇到緊急抽插單時，原來計畫已排好了，要如何重排影響最小？
+                                    </li>
+                                    <li>
+                                        排程都是用人工排，要考慮的條件多、現場狀況又多變，造成排程與現場生產對不上...
+                                    </li>
+                                    <li>
+                                        少量多樣怎麼安排生產?
+                                    </li>
+                                    <li>
+                                        生產進度與物料進貨時程無法掌控，導致停工待料
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="t_li">
+                            <div class="fadeout">
+                                <img src="images/nag4.png" alt="" class="m_img">
+                                <img src="images/arrow.png" alt="" class="arrow">
+                            </div>
+                            <div class="fadein"  style="background: rgba(6,107,50,.85)">
+                                <ul class="t_U">
+                                    <li>
+                                        計畫永遠趕不上變化，只好靠經驗決定該加工什麼任務...
+                                    </li>
+
+
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="t_li">
+                            <div class="fadeout">
+                                <img src="images/nag5.png" alt="" class="m_img">
+                                <img src="images/arrow.png" alt="" class="arrow">
+                            </div>
+                            <div class="fadein" style="background: rgba(31,156,15,.85)">
+                                <ul class="t_U">
+                                    <li>
+                                        生管又通知停工待料了，到底該怎樣安排進料時程,才能滿足工單齊料？
+                                    </li>
+
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <p class="h3txt">
+                    交期永遠不準、急單馬上又要給交期，該怎麼辦？ <br>
+                    快速反應緊急訂單、產銷協作順暢，APS系統能幫您做到！
+                </p>
+                <div class="togglebox pc">
+<!--                    <input type="radio" id="slider-toggle1" name="img1">-->
+<!--                    <label for="slider-toggle2" class="la1">-->
+<!--                        <span>看提昇效率之後</span>-->
+<!--                        <i class="iconsl"></i></label>-->
+<!--                    <input type="radio" id="slider-toggle2" name="img1">-->
+<!--                    <label for="slider-toggle1" class="la2">-->
+<!--                        <i class="iconsr"></i>-->
+<!--                        <span>看提昇效率之前</span>-->
+<!--                    </label>-->
+<!--                    <ul class="slide_list">-->
+<!--                        <li>-->
+<!--                            <img src="images/before.png" alt="">-->
+<!--                        </li>-->
+<!--                        <li>-->
+<!--                            <img src="images/After.png" alt="">-->
+<!--                        </li>-->
+
+<!--                    </ul>-->
+                    <ul class="tab_list">
+                        <li class="active">
+                           <h3 class="h3t">Before<br>
+                               <i>改善前</i>
+                           </h3>
+                        </li>
+                        <li>
+                            <h3 class="h3t">After<br>
+                                <i>改善後</i>
+                            </h3>
+                        </li>
+                    </ul>
+                    <div class="tab_cont">
+                        <img src="images/before.png" alt="">
+                        <img src="images/After.png" alt="" class="hide">
+                    </div>
+                </div>
+                <div class="m-mobile togglebox">
+
+<!--                    <input type="radio" id="slider-toggle3" name="img1">-->
+<!--                    <label for="slider-toggle4" class="la1">-->
+<!--                        <span>看提昇效率之後</span>-->
+<!--                        <i class="iconsl"></i></label>-->
+<!--                    <input type="radio" id="slider-toggle4" name="img1">-->
+<!--                    <label for="slider-toggle3" class="la2">-->
+<!--                        <i class="iconsr"></i>-->
+<!--                        <span>看提昇效率之前</span>-->
+<!--                    </label>-->
+<!--                    <ul class="slide_list">-->
+<!--                        <li>-->
+<!--                            <img src="images/before_m.png" alt="">-->
+<!--                        </li>-->
+<!--                        <li>-->
+<!--                            <img src="images/After_m.png" alt="">-->
+<!--                        </li>-->
+<!--                    </ul>-->
+
+                    <ul class="tab_list">
+                        <li class="active">
+                            <h3 class="h3t">Before<br>
+                                <i>改善前</i>
+                            </h3>
+                        </li>
+                        <li>
+                            <h3 class="h3t">After<br>
+                                <i>改善後</i>
+                            </h3>
+                        </li>
+                    </ul>
+                    <div class="tab_cont">
+                        <img src="images/before_m.png" alt="">
+                        <img src="images/After_m.png" alt="" class="hide">
+                    </div>
+
+                </div>
+
+                <a href="http://bit.ly/2VVM0fl" target="_blank">
+                    <img src="images/btn1.png" alt="" class="btn1">
+                </a>
+            </div>
+        </section>
+<!--APS系統特色-->
+        <section id="item">
+            <div class="container">
+                <h2>APS系統特色</h2>
+                <p class="txt3">APS提供企業整體供需規劃及不同層次的生產規劃與排程方案，針對多元的離散型行業，滿足顧客訂單與充分的利用企業的有限資源，APS改善了傳統MRP運算邏輯的不足，提供與ERP與<a href="http://bit.ly/2wCrANZ" target="_blank">MES</a>集成，為企業運維的降本提效，提供最佳的一體性方案。 </p>
+                <img src="images/item1.png" alt="" class="pc icenter">
+                <img src="images/item1_m.png" alt="" class="m-mobile img_i icenter">
+                <ul class="th_box">
+                    <li class="t_li">
+                        <div class="fadeout">
+                            <h3>整體規劃 <br>
+                                降低運維成本</h3>
+                            <img src="images/item2.png" alt="" class="m_img">
+                            <img src="images/arrow.png" alt="" class="arrow">
+                        </div>
+                        <div class="fadein">
+                            <ul class="t_U">
+                                <li>同步規劃，解決採購/物管/生管供需安排問題。</li>
+                                <li>並同時集成ERP與MES數據，達成企業運維與製造現場的一體化。</li>
+                                <li>企業經營運維降本與提效。</li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="t_li">
+                        <div class="fadeout">
+                            <h3>重點提效 <br>
+                                增進營運績效</h3>
+                            <img src="images/item3.png" alt="" class="m_img">
+                            <img src="images/arrow.png" alt="" class="arrow">
+                        </div>
+                        <div class="fadein">
+                            <ul class="t_U">
+                                <li>針對離散型產業中，不同行業別、製程複雜、設備成本高昂</li>
+                                <li>為考慮資源限制下的規劃</li>
+                                <li>有效提昇設備稼動率</li>
+                                <li>低存貨水準及達成企業營運高效目標</li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="t_li">
+                        <div class="fadeout">
+                            <h3>智能模擬 <br>
+                                加速提昇決策品質</h3>
+                            <img src="images/item4.png" alt="" class="m_img">
+                            <img src="images/arrow.png" alt="" class="arrow">
+                        </div>
+                        <div class="fadein">
+                            <ul class="t_U">
+                                <li>因應日異多變的市場波動，針對需求變動(抽/插單)，予以快速因應客戶的詢單要求。</li>
+                                <li>APS快速反應詢單預計交期。</li>
+                                <li>提供即時性規劃、增進企業支援決策能力。</li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+                <p class="c_tit">
+                   APS系統在工廠營運管理(MOM)不可取代的地位
+                </p>
+                <img src="images/item5.png" alt="" class="pc img_i icenter">
+                <img src="images/item5_m.png" alt="" class="m-mobile img_i icenter" style="padding: 0 12px">
+                <p class="c_tit c1">
+                    排程可視化與快速分析
+                </p>
+                <div class="slider_box">
+                    <div class="swiper-container">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <img src="images/gt.png" alt="">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="images/pc.png" alt="">
+                            </div>
+                        </div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </div>
+                <a href="http://bit.ly/3cFdUSF" target="_blank">
+                    <img src="images/btn2.png" alt="" class="h_img">
+                </a>
+            </div>
+        </section>
+<!--案例视频-->
+        <section id="d_video">
+            <div class="container">
+                <h2 class="pc">應用系統管理的效益看得到！標竿企業實證</h2>
+                <h2 class="m-mobile">應用系統管理的效益看得到！ <br>標竿企業實證</h2>
+                <div class="v_box">
+                    <div class="fl">
+                        <iframe width="560" height="315"
+                           src="https://www.youtube.com/embed/X936HZQA7uU" frameborder="0"
+                                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen>
+                        </iframe>
+                    </div>
+                    <div class="fr">
+                        <div class="h_box">
+                            <h3>伯鑫工具</h3>
+                            <b>金屬手工具製造業</b>
+                        </div>
+                        <p class="h4_txt">打造更透明的生產數據網，為智能製造鋪路</p>
+                        <div class="show_txt">
+                            <img src="images/d1.png" alt="">
+                            <p class="box_txt">導入效益：<br>
+                                使用鼎新ERP和APS排程系統，生管可直接將每日派工表匯出，做為生產順序的依據；採購也可使用催料表，確認物料相對應的訂單以及預估的進料時間。</p>
+                        </div>
+                    </div>
+                </div>
+                <a href="http://bit.ly/2v5aV54" target="_blank">
+                    <img src="images/btn2.png" alt="" class="btn2">
+                </a>
+            </div>
+        </section>
+<!--APS行業應用-->
+        <section id="apply">
+            <div class="container">
+                <h2>APS行業應用</h2>
+                <div class="box_nav">
+                    <div>
+                        <div class="vtitle">
+                            五金機加
+                            <b class="vconst"></b>
+                        </div>
+                        <div class="vcon">
+                            <div class="d1">
+                                <h4>手工具產業產業特色</h4>
+                                <ul>
+                                    <li>APS可依現況調整派工廠內或委外</li>
+                                    <li>建立半成品安全庫存</li>
+                                    <li>製程長且外包製程多</li>
+                                    <li>排程派工彈性大，可廠內也可外包生產</li>
+                                    <li>現場製程報工資料蒐集</li>
+                                    <li>工模具上下線頻繁</li>
+                                    <li>需檢視訂單所屬半成品工單加工進度</li>
+                                </ul>
+                            </div>
+                            <div class="d2">
+                                <h4>APS規劃重點</h4>
+                                <ul>
+                                    <li>安全庫存規劃</li>
+                                    <li>排程派工調整</li>
+                                    <li>工模具派工</li>
+                                </ul>
+                            </div>
+                            <div class="d3">
+                                <img src="images/aps19.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="vtitle">
+                            塑橡膠-眼鏡製造產業
+                            <b class="vconst"></b>
+                        </div>
+                        <div class="vcon" style="display: none;">
+                            <div class="d1">
+                                <h4>塑橡膠-眼鏡製造產業特色</h4>
+                                <ul>
+                                    <li>訂單嚴守交期</li>
+                                    <li>物料備安全庫存</li>
+                                    <li>接單時參考產能負荷接單</li>
+                                    <li>射出機以噸位區分，要搭配模具大小</li>
+                                    <li>連批需求：射出機生產要以模具連批為優先，其次考量顏色</li>
+                                    <li>待客戶提供樣本後，製令才可雷射，印刷</li>
+									<li>剪蒂頭，修邊等製程順序依現場產能狀況可隨機調整</li>
+
+                                </ul>
+                            </div>
+                            <div class="d2">
+                                <h4>APS規劃重點</h4>
+                                <ul>
+                                    <li>可手調製令派工</li>
+                                    <li>物料採購建議</li>
+                                    <li>機台負荷表</li>
+                                    <li>多重連批派工</li>
+                                    <li>模具限制</li>
+                                </ul>
+                            </div>
+                            <div class="d3">
+                                <img src="images/aps23.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="vtitle">
+                            注塑/塑膠射出產業
+                            <b class="vconst"></b>
+                        </div>
+                        <div class="vcon" style="display: none;">
+                            <div class="d1">
+                                <h4>注塑/塑膠射出產業</h4>
+                                <ul>
+                                    <li>射出機以噸位區分，可加工不同大小的產品</li>
+                                    <li>射出機要搭配模具才能生產</li>
+                                    <li>模具有穴數(每次產出數)，計算製令加工時間要考慮模具穴數</li>
+                                    <li>連批需求：射出機生產要以模具連批為優先，其次考量顏色</li>
+                                    <li>換線時間不一：換模/換色或換品號的換線時間不同</li>
+
+                                </ul>
+                            </div>
+                            <div class="d2">
+                                <h4>APS規劃重點</h4>
+                                <ul>
+                                    <li>派工時考量多重連批條件</li>
+                                    <li>同品號連續生產</li>
+                                    <li>同模具同顏色連續生產</li>
+                                    <li>同模具換顏色連續生產</li>
+                                    <li>同顏色換品號連續生產</li>
+                                </ul>
+                            </div>
+                            <div class="d3">
+                                <img src="images/aps22.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="vtitle">
+                            電子零組件產業
+                            <b class="vconst"></b>
+                        </div>
+                        <div class="vcon" style="display: none;">
+                            <div class="d1">
+                                <h4>電子零組件產業特色</h4>
+                                <ul>
+                                    <li>需求Pull in、Push Out異動&緊急訂單插單頻繁</li>
+                                    <li>取代料、替代料物料規劃限制</li>
+                                    <li>一料多供應商，依據供應商品質決定採購比率</li>
+                                    <li>訂單-工單-採購單-庫存配置關係</li>
+                                    <li>產品別每日投料量限制</li>
+                                    <li>工治具限制</li>
+                                    <li>連批生產、降低換線時間</li>
+
+                                </ul>
+                            </div>
+                            <div class="d2">
+                                <h4>APS規劃重點</h4>
+                                <ul>
+                                    <li>ATP\CTP模擬、訂單延遲原因</li>
+                                    <li>取、替代料規劃邏輯</li>
+                                    <li>供應商採購比率</li>
+                                    <li>供給&需求各階配置關聯</li>
+                                    <li>依產品別每日生產量邏輯</li>
+                                    <li>產能規劃考量工治具限制</li>
+                                </ul>
+                            </div>
+                            <div class="d3">
+                                <img src="images/aps18.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="vtitle">
+                            汔車零部件
+                            <b class="vconst"></b>
+                        </div>
+                        <div class="vcon" style="display: none;">
+                            <div class="d1">
+                                <h4>運輸業(金屬製程)產業特色</h4>
+                                <ul>
+                                    <li>一人多機</li>
+                                    <li>加工機台與模治具的搭配問題</li>
+                                    <li>產品生產時，有慣用的加工機台</li>
+                                    <li>訂單的交付必須依客戶的需求交期</li>
+                                    <li>客戶的預示訂單必須保留所需的生產產能</li>
+                                    <li>機台加工時，異常狀況發生頻繁</li>
+
+                                </ul>
+                            </div>
+                            <div class="d2">
+                                <h4>APS規劃重點</h4>
+                                <ul>
+                                    <li>人員限制邏輯</li>
+                                    <li>模具管理</li>
+                                    <li>機台優先順序</li>
+                                    <li>嚴守交期的排程邏輯</li>
+                                    <li>ATP詢單功能</li>
+                                    <li>生產效率調整</li>
+                                </ul>
+                            </div>
+                            <div class="d3">
+                                <img src="images/aps25.png" alt="">
+
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="vtitle">
+                            傢俱或泛金屬
+                            <b class="vconst"></b>
+                        </div>
+                        <div class="vcon" style="display: none;">
+                            <div class="d1">
+                                <h4>其他金屬業 (傢俱或泛金屬控制閥類)</h4>
+                                <ul>
+                                    <li>淡旺季訂單差異大；淡季以預測訂單調節產線</li>
+                                    <li>產品種類及組合方式多；人員管理容易漏開單</li>
+                                    <li>廠區分佈，採購交貨需要記錄生產地及當廠工單才可耗用</li>
+                                    <li>工模具換模工時長</li>
+                                    <li>產品體積大，會有存放空間問題（減少庫存堆積)</li>
+                                    <li>需要配套生產</li>
+                                    <li>前後製程需即時串接</li>
+                                    <li>機台數量及樣式多(設備機台數多)</li>
+                                </ul>
+                            </div>
+                            <div class="d2">
+                                <h4>APS規劃重點</h4>
+                                <ul>
+                                    <li>MDS預測及訂單沖銷</li>
+                                    <li>系統自動計算及開立單據</li>
+                                    <li>供給法則-各廠別的工單、採購單及庫存不可混用</li>
+                                    <li>連批功能</li>
+                                    <li>替代製程及機器群組</li>
+                                    <li>工單群組(配對，一起生產)</li>
+                                </ul>
+                            </div>
+                            <div class="d3">
+                                <img src="images/aps21.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <a href="http://bit.ly/2wFTmZM" target="_blank">
+                    <img src="images/btn3.png" alt="" class="btn3">
+                </a>
+            </div>
+        </section>
+<!--管理-->
+        <section id="manage">
+            <div class="container">
+                <h2 class="pc">生產現場智能管理 ‧ 加速數位轉型</h2>
+                <h2 class="m-mobile">生產現場智能管理 ‧ <br>加速數位轉型</h2>
+                <ul class="pc">
+                    <li>
+                        <a href="https://www.digiwin.com/tw/dsc/marketing/WB002838/WB00283807.htm" target="_blank">
+                            <img src="images/m1.png" alt="">
+                        <p class="h4tit">SFT產區生產追蹤</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.digiwin.com/tw/dsc/marketing/WB002838/web/03/" target="_blank">
+                            <img src="images/m2.png" alt="">
+                            <p class="h4tit">MES智能現場執行系統</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.digiwin.com/tw/dsc/industry4/smartFactory.html" target="_blank" >
+                            <img src="images/m3.png" alt="">
+                            <p class="h4tit">廠內智能物流</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.digiwin.com/tw/dsc/marketing/WB002838/WB00283808.htm" target="_blank">
+                            <img src="images/m4.png" alt="">
+                            <p class="h4tit">智慧工廠全方案</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.digiwin.com/tw/dsc/project/sFWR/sFWR.html" target="_blank">
+                            <img src="images/m5.png" alt="">
+                            <p class="h4tit">智慧工廠戰情室</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.digiwin.com/tw/software/iiappcbe/index" target="_blank">
+                            <img src="images/m6.png" alt="">
+                            <p class="h4tit">工業APP-設備水晶球</p>
+                        </a>
+                    </li>
+                </ul>
+                <div class="m-mobile swiper-container">
+                    <ul class="swiper-wrapper">
+                        <li class="swiper-slide">
+                            <a href="https://www.digiwin.com/tw/dsc/marketing/WB002838/WB00283807.htm" target="_blank">
+                                <img src="images/m1.png" alt="">
+                                <p class="h4tit">SFT產區生產追蹤</p>
+                            </a>
+                        </li>
+                        <li class="swiper-slide">
+                            <a href="https://www.digiwin.com/tw/dsc/marketing/WB002838/web/03/" target="_blank">
+                                <img src="images/m2.png" alt="">
+                                <p class="h4tit">MES智能現場執行系統</p>
+                            </a>
+                        </li>
+                        <li class="swiper-slide">
+                            <a href="https://www.digiwin.com/tw/dsc/industry4/smartFactory.html" target="_blank" >
+                                <img src="images/m3.png" alt="">
+                                <p class="h4tit">廠內智能物流</p>
+                            </a>
+                        </li>
+                        <li class="swiper-slide">
+                            <a href="https://www.digiwin.com/tw/dsc/marketing/WB002838/WB00283808.htm" target="_blank">
+                                <img src="images/m4.png" alt="">
+                                <p class="h4tit">智慧工廠全方案</p>
+                            </a>
+                        </li>
+                        <li class="swiper-slide">
+                            <a href="https://www.digiwin.com/tw/dsc/project/sFWR/sFWR.html" target="_blank">
+                                <img src="images/m5.png" alt="">
+                                <p class="h4tit">智慧工廠戰情室</p>
+                            </a>
+                        </li>
+                        <li class="swiper-slide">
+                            <a href="https://www.digiwin.com/tw/software/iiappcbe/index" target="_blank">
+                                <img src="images/m6.png" alt="">
+                                <p class="h4tit">工業APP-設備水晶球</p>
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="swiper-pagination"></div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- 聯絡表單 -->
+        <div id="contact">
+            <div id="contactTxt" class="clearfix">
+                <h2>資料索取與諮詢</h2>
+                <div id="info">
+                    <p>請填寫下方資料便於盡快為您服務。<br>若您需要立即的支援與服務，請直撥免付費專線 <span class="highLight">0800-888-162</span>，謝謝！</p>
+                    <ul>
+                        <li class="line">
+                            <a href="https://acho.tw/acho/f/aB6q9" target="_blank"></a>
+                        </li>
+                        <li class="mail">
+                            <a href="mailto:marketing01@digiwin.com"></a>
+                        </li>
+                        <li class="fb">
+                            <a href="https://www.facebook.com/DSCmain" target="_blank"></a>
+                        </li>
+                    </ul>
+                </div>
+                <div id="formBlock" class="form">
+                    <a id="fromSource" href="javascript:;">WB003037</a> <!-- 文宣編號 -->
+                    <div id="contactInput" class="clearfix">
+                        <span class="hideLabel ">*公司名稱：</span><input type="text" placeholder="*完整公司名稱" name="contact-company" id="contact-company" class="contact required"><span class="hideLabel perLabel">*姓名：</span><input type="text" placeholder="*姓名" name="contact_person" id="contact_person" class="contact required"><span class="hideLabel evenLable">*聯絡電話：</span><input type="text" placeholder="*聯絡電話" name="telephone" id="telephone" class="contact required end"><span class="hideLabel evenLable">*E-mail：</span>
+                        <input type="text" placeholder="*E-mail" name="contact-email" id="contact-email" class="contact required"><span class="hideLabel">*部門：</span><input type="text" placeholder="*部門" name="contact-dept" id="contact-dept" class="contact required"><span class="hideLabel">*職稱：</span><input type="text" placeholder="*職稱" name="contact-job" id="contact-job" class="contact required end">
+                    </div>
+                    <div class="consult-cont">
+                        <p class="hideLabel">請在這裡描述您的需求：</p>
+                        <textarea id="contact-query" cols='40' placeholder="請在這裡描述您的需求(500字以內)：" rows='4' class="" maxlength="500"></textarea>
+                    </div>
+
+                    <!-- 複選 -->
+                    <!-- <div class="demandCheck clearfix">
+                        <label for="contact-demand01"><input name="contact-demand" class="contact-demand" id="contact-demand01" type="checkbox" value="預算管控資訊" /> 預算管控資訊</label>
+                        <label for="contact-demand02"><input name="contact-demand" class="contact-demand" id="contact-demand02" type="checkbox" value="準確成本估算" /> 準確成本估算</label>
+                        <label for="contact-demand03"><input name="contact-demand" class="contact-demand" id="contact-demand03" type="checkbox" value="確實掌握工程進度" /> 確實掌握工程進度</label>
+                        <label for="contact-demand04"><input name="contact-demand" class="contact-demand" id="contact-demand04" type="checkbox" value="估驗計價及請款" /> 估驗計價及請款</label>
+                        <label for="contact-demand05"><input name="contact-demand" class="contact-demand" id="contact-demand05" type="checkbox" value="帳務結算及分析" /> 帳務結算及分析</label>
+                        <label for="contact-demand06"><input name="contact-demand" class="contact-demand" id="contact-demand06" type="checkbox" value="發包及採購流程" /> 發包及採購流程</label>
+                        <label for="contact-demand07"><input name="contact-demand" class="contact-demand" id="contact-demand07" type="checkbox" value="合約管控" /> 合約管控</label>
+                        <label for="contact-demand08"><input name="contact-demand" class="contact-demand" id="contact-demand08" type="checkbox" value="其他" /> 其他</label>
+                    </div> -->
+
+                    <!-- 單選 -->
+                    <div class="inforCheck">
+                        <label for="dm_ask"> <input name="information" class="information" id="dm_ask" type="checkbox" value="資料索取">索取相關資料</label>
+                    </div>
+
+                    <hr>
+                    <div class="verifica">
+                        <span class="veriSpan">＊請輸入驗證碼：</span>
+                        <span class="veriSpan-m">驗證碼:</span>
+                        <input type="text" name="" id="identCode" class="identCode" onblur="validate()">
+                        <input type="button" id="vericodePic" />
+                        <span class="renovCode" onclick="createCode()"></span>
+                        <span id="codeSuces"></span>
+                    </div>
+                    <input type="button" id="submit" value="送　　出">
+                    <label for="agree" class="checAgree"><input type="checkbox" name="agree" value="" id="agree" checked="">
+                        我同意接受鼎新電腦<a href="/tw/portal/page/index/id/1202.html" target="_blank">隱私權聲明</a></label>
+                </div>
+            </div>
+        </div>
+
+        <!-- loading -->
+        <div id="loading">
+            <p><i></i>資料提交中，請稍後</p>
+        </div>
+
+        <!-- thx page -->
+        <div id="thx">
+            <div id="thxContent">
+                <div class="close">X</div>
+                <p class="title">資料己送出</p>
+                <p class="thxparg"></p>
+                <p class="suprtCall">
+                    <span>如需要立即的支援與服務，</span>
+                    <span>請直撥免付費專線 0800-888-162，謝謝！</span>
+                </p>
+                <p class="thxSourLoad1">
+                    <a id="SourLoadLink" href="" target="_blank">資料下載</a>
+                </p>
+                <p id="goIndex">
+                    <a href="javascript:;">繼續瀏覽網站</a>
+                </p>
+            </div>
+        </div>
+    </main>
+    <!-- 後台上稿內容結束-->
+</body>
+
+</html>

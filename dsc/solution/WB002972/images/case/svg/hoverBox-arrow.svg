@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="111" height="155" viewBox="0 0 111 155">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <path id="hoverBox-arrow.svg" class="cls-1" d="M231.277,2021v-81.28h28.729L204.5,1866l-55.506,73.72h28.729V2021h53.554Z" transform="translate(-149 -1866)"/>
+</svg>

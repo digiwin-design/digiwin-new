@@ -1,0 +1,9 @@
+.section1 {
+    background-image: url('images/section1-bg.jpg');
+}
+.section1::before {
+    background-image: url('images/section1-triangle-l.png');
+}
+.section1::after {
+    background-image: url('images/section1-triangle-r.png');
+}

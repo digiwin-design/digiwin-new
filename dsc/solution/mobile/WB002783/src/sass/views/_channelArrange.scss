@@ -1,0 +1,49 @@
+main .channelArrange {
+    .header {
+        @include headerBg('channelArrange/header-bg.jpg', 'channelArrange/header-bg.jpg', 100% 0);
+        h1 {
+            color: #fff;
+        }
+    }
+    .section1 {
+        padding-bottom: 1em;
+        dl {
+            margin-top: 1em;
+        }
+        dt a {
+            color: #ee5f47;
+            font-weight: bold;
+        }
+        dd {
+            a:hover {
+                color: #333;
+            }
+            & + dt {
+                margin-top: 1em;
+            }
+        }
+    }
+    .section2 {
+        padding-bottom: 60px;
+        background: image-url('channelArrange/section2-bg.jpg') no-repeat 50% 0 #5b80c4;
+        color: #fff;
+        .case {
+            strong {
+                color: #fde876;
+            }
+            .desc {
+                margin-top: 1em;
+                margin-bottom: 1em;
+            }
+            a {
+                height: 45px;
+                background-color: #214593;
+                color: #fff;
+                line-height: 45px;
+            }
+            & + .case {
+                padding-top: 1em;
+            }
+        }
+    }
+}

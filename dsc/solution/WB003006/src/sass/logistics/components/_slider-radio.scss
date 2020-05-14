@@ -1,0 +1,65 @@
+main .slider-radio {
+    input[type=radio] {
+        display: none;
+        @for $nth from 1 through 2 {
+            &:nth-of-type(#{$nth}):checked {
+                & ~ .slider-radio-nav label:nth-of-type(#{$nth}) {
+                    background-color: #ed3e3e;
+                    color: #fff;
+                }
+                & ~ .slider-radio-content .slider-radio-slides {
+                    transform: translateX(-($nth - 1) * 100%);
+                }
+            }
+        }
+    }
+    &-nav {
+        display: flex;
+        margin-bottom: 35px;
+        justify-content: center;
+        align-items: center;
+        label {
+            @include btn(173px, 40px, #fff, transparent, 20px);
+            border: 2px solid #fff;
+            font-size: 24px;
+            cursor: pointer;
+            & + label {
+                margin-left: 55px;
+            }
+        }
+    }
+    &-content {
+        overflow: hidden;
+    }
+    &-slides {
+        display: flex;
+        transition: transform .4s, height .4s;
+    }
+    &-slide {
+        display: flex;
+        width: 100%;
+        flex-wrap: wrap;
+        flex-shrink: 0;
+        align-items: center;
+        .container {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            justify-content: center;
+            align-items: center;
+        }
+        &-content {
+            padding: 2.5em;
+            width: 100%;
+            border-radius: 5px;
+            background-color: #fff;
+            h2 {
+                margin-bottom: 2em;
+                color: #ed3e3e;
+                text-align: center;
+                font-weight: bold;
+                font-size: 22px;
+            }
+        }
+    }
+}

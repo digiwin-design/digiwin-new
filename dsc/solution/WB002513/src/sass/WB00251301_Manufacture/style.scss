@@ -1,0 +1,134 @@
+@import '../common';
+@import 'components';
+
+main {
+    .w-1000 {
+        max-width: 1000px;
+    }
+    .section1 {
+        .sectionTitle {
+            text-align: center;
+            br {
+                @media (min-width: $tablet-width + 1) {
+                    display: none;
+                }
+            }
+        }
+        .pains {
+            background-color: #55b9e8;
+            .container {
+                display: flex;
+                flex-direction: column;
+                margin-top: 60px;
+                padding: 65px 0;
+                @media (min-width: $content-width) {
+                    flex-direction: row;
+                    padding: 90px 15px;
+                }
+            }
+        }
+        .pain + .pain {
+            margin-top: 30px;
+            @media (min-width: $content-width) {
+                margin-top: 0;
+                margin-left: 30px;
+            }
+        }
+    }
+    .section2 {
+        padding-bottom: 60px;
+        background-color: #d4e2e9;
+        .sectionTitle {
+            h1 {
+                @media (min-width: $tablet-width + 1) {
+                    text-align: center;
+                }
+                br {
+                    display: none;
+                    @media (min-width: $tablet-width + 1) {
+                        display: block;
+                    }
+                }
+            }
+            strong {
+                color: #55b9e8;
+            }
+        }
+        .pains {
+            display: flex;
+            flex-direction: column;
+            @media (min-width: $content-width) {
+                flex-direction: row;
+            }
+        }
+        .pain + .pain {
+            margin-top: 30px;
+            @media (min-width: $content-width) {
+                margin-top: 0;
+                margin-left: 6px;
+            }
+        }
+    }
+    .section3 {
+        @include bg('WB00251301_Manufacture/section3-bg.jpg');
+        @media (min-width: $tablet-width + 1) {
+            padding-bottom: 60px;
+        }
+        .sectionTitle {
+            h1,
+            p {
+                color: #fff;
+            }
+        }
+    }
+    .section4 {
+        padding-bottom: 60px;
+        background-color: #d4e2e9;
+        .sectionTitle {
+            h1,
+            p {
+                color: #055c8a;
+            }
+        }
+        img {
+            display: block;
+            margin: 0 auto;
+        }
+    }
+    .section5 {
+        padding-bottom: 60px;
+        background-color: #055c8a;
+        .sectionTitle {
+            h1,
+            p {
+                color: #fff;
+            }
+        }
+        .charts {
+            display: flex;
+            flex-direction: column;
+            @media (min-width: $tablet-width + 1) {
+                flex-direction: row;
+                justify-content: center;
+            }
+        }
+        figure {
+            margin-right: auto;
+            margin-left: auto;
+            + figure {
+                margin-top: 60px;
+                @media (min-width: $tablet-width + 1) {
+                    margin-top: 130px;
+                    margin-left: 23px;
+                }
+            }
+        }
+        figcaption {
+            margin-bottom: 1em;
+            color: #fff;
+            text-align: right;
+            letter-spacing: getLetterSpacing(25);
+            line-height: 1;
+        }
+    }
+}

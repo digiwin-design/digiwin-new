@@ -1,0 +1,270 @@
+/* #region function */
+@function rem($px) {
+    @return ($px / 16) + rem;
+}
+
+@function lineHeight($px, $fz: 16) {
+    @return $px / $fz;
+}
+
+// Converting Photoshop Letter Spacing to CSS
+@function getLetterSpacing($num) {
+    @return ($num / 1000) + em;
+}
+/* #endregion function */
+
+/* #region mixin */
+@mixin imgBg($img, $is-inline: false, $maxWidth: false) {
+    height: image-height($img);
+
+    @if ($is-inline) {
+        background-image: inline-image($img);
+    }
+    @else {
+        background-image: image-url($img);
+    }
+
+    @if ($maxWidth == true) {
+        max-width: image-width($img);
+    }
+    @else {
+        width: image-width($img);
+    }
+
+    @content;
+}
+
+@mixin bg($img, $pos: 50% 0, $is-inline: false) {
+    background-position: $pos;
+    background-repeat: no-repeat;
+    @if ($is-inline) {
+        background-image: inline-image($img);
+    }
+    @else {
+        background-image: image-url($img);
+    }
+    @content;
+}
+
+@mixin btn($width, $height, $color, $bgColor, $radius: 0, $maxWidth: false, $display: block) {
+    display: block;
+    height: $height;
+    border-radius: $radius;
+    background-color: $bgColor;
+    color: $color;
+    text-align: center;
+    line-height: $height;
+    @if ($maxWidth == true) {
+        max-width: $width;
+    }
+    @else {
+        width: $width;
+    }
+    @content
+}
+
+// 增加點擊範圍
+// $width: 原寬度(false: 不增加)
+// $height: 原高度(false: 不增加)
+// $widthScope: 可點擊寬度
+// $heightScope: 可點擊高度
+@mixin clickableArea($width, $height, $widthScope: 44px, $heightScope: 44px) {
+    position: absolute;
+    content: '';
+
+    // 寬度
+    @if ($width != false) {
+        right: -($widthScope - $width) / 2;
+        left: -($widthScope - $width) / 2;
+    }
+    @else {
+        right: 0;
+        left: 0;
+    }
+
+    // 高度
+    @if ($height != false) {
+        top: -($heightScope - $height) / 2;
+        bottom: -($heightScope - $height) / 2;
+    }
+    @else {
+        top: 0;
+        bottom: 0;
+    }
+}
+
+// 手機版導覽列
+@mixin mbnav($totalLink: 3, $height: 60px, $fontSize: 22px, $bgColor: #686868, $borderColor: #fff, $color: #fff, $bgColor-active: #e11921) {
+    body {
+        margin-bottom: $height;
+    }
+    .mbnav {
+        position: fixed;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        z-index: map-get($z-index, nav);
+        display: flex;
+        li {
+            width: (100% / $totalLink);
+            background-color: $bgColor-active;
+            &:not(:last-child) {
+                border-right: 1px solid $borderColor;
+                background-color: $bgColor;
+            }
+        }
+    }
+    .mbnav-link {
+        display: block;
+        width: 100%;
+        height: $height;
+        color: $color;
+        text-align: center;
+        font-size: $fontSize;
+        line-height: $height;
+    }
+    @media (min-width: $tablet-width + 1) {
+        body {
+            margin-bottom: 0;
+        }
+        .mbnav {
+            display: none;
+        }
+    }
+}
+
+// 固定頂部導覽列
+@mixin stickyNav($isMobile, $totalLink, $height, $fontSize, $bgColor, $bgColor-active, $borderColor: #fff, $color: #fff, $color-active: #fff) {
+    z-index: map-get($z-index, nav);
+    width: 100%;
+    height: $height;
+    background-color: $bgColor;
+    &.is-sticky a {
+        &:first-of-type.active.is-active,
+        &:not(:first-of-type).active {
+            background-color: $bgColor-active;
+            color: $color-active;
+        }
+    }
+    .container {
+        display: flex;
+        padding-right: 0;
+        padding-left: 0;
+    }
+    a {
+        width: (100% / $totalLink);
+        height: $height;
+        border-right: 1px solid $borderColor;
+        color: $color;
+        text-align: center;
+        font-size: $fontSize;
+        @if ($isMobile) {
+            display: flex;
+            flex-direction: column;
+            line-height: 1.3;
+            justify-content: center;
+            align-items: center;
+        }
+        @else {
+            display: block;
+            line-height: $height;
+        }
+        &:first-of-type {
+            border-left: 1px solid $borderColor;
+        }
+    }
+    @content;
+}
+
+// youtube嵌入
+@mixin youtubeIframe() {
+    position: relative;
+    overflow: hidden;
+    padding-top: 56.25%; /* 16:9 */
+    width: 100%;
+    height: 0;
+    iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+    @content;
+}
+
+@mixin headerBg($img, $imgS: $img, $pos: 50% 0, $cache: true) {
+    background-image: image-url($imgS, false, $cache);
+    background-position: $pos;
+    background-repeat: no-repeat;
+    @media (min-width: $tablet-width + 1) {
+        background-image: image-url($img, false, $cache);
+    }
+    .container {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        height: image-height($imgS);
+        justify-content: center;
+        @media (min-width: $tablet-width + 1) {
+            height: image-height($img);
+        }
+    }
+}
+/* #endregion mixin */
+
+/* #region extend */
+%clearfix {
+    &:before {
+        display: table;
+        content: '';
+    }
+    &:after {
+        display: table;
+        clear: both;
+        content: '';
+    }
+}
+
+%hide-text {
+    overflow: hidden;
+    text-indent: 100%;
+    white-space: nowrap;
+}
+
+%item-hover {
+    position: relative;
+    overflow-y: hidden;
+    cursor: pointer;
+    &:hover [class$='-hover'] {
+        top: 0;
+    }
+    [class$='-hover'] {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        z-index: 1;
+        width: 100%;
+        height: inherit;
+        transition: top .4s;
+    }
+
+    // fadeIn
+    &[class*='fadeIn'] {
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+        &:hover [class$='-hover'] * {
+            animation: fadeIn 1s .4s forwards;
+        }
+        [class$='-hover'] * {
+            opacity: 0;
+        }
+    }
+}
+/* #endregion extend */

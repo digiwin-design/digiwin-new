@@ -1,0 +1,433 @@
+*{margin:0;	padding:0;-webkit-box-sizing:border-box;}
+html{width:100%;height:100%;font-size:18px; }
+body{width:100%; height:100%;line-height:1.5; font-family:"微軟正黑體", Arial, Helvetica, sans-serif; }
+
+
+/*---------article-------------------------*/
+#article{display:block; width:900px;margin:0 auto;font-family:"微軟正黑體", Arial, Helvetica, sans-serif;}
+
+
+
+/*-----TOPBANNER-#BLOCK1--------------------------*/
+#BLOCK1{width:900px;height:280px;}
+
+#BLOCK1 #bg01{
+	background-image:url(https://static.digiwin.com/tw/dsc/activity/WB002845/images/boxbg_01.png);
+	background-color:#4EC3C7;
+	background-repeat:no-repeat;
+	width:900px;
+	height:280px;
+	margin: 0 auto;
+	padding: 0;
+	position: relative;
+	overflow:hidden;
+}
+
+#BLOCK1 #bg02{
+	background-image:url(https://static.digiwin.com/tw/dsc/activity/WB002845/images/boxbg_02.png);
+	background-color:#4EC3C7;
+	background-repeat:no-repeat;
+	width:900px;
+	height:280px;
+	margin: 0 auto;
+	padding: 0;
+	position: relative;
+	overflow:hidden;
+}
+
+#BLOCK1 #bg03{
+	background-image:url(https://static.digiwin.com/tw/dsc/activity/WB002845/images/boxbg_03.png);
+	background-color:#4EC3C7;
+	background-repeat:no-repeat;
+	width:900px;
+	height:280px;
+	margin: 0 auto;
+	padding: 0;
+	position: relative;
+	overflow:hidden;
+}
+
+#BLOCK1 #bg04{
+	background-image:url(https://static.digiwin.com/tw/dsc/activity/WB002845/images/boxbg_04.png);
+	background-color:#4EC3C7;
+	background-repeat:no-repeat;
+	width:900px;
+	height:280px;
+	margin: 0 auto;
+	padding: 0;
+	position: relative;
+	overflow:hidden;
+}
+#BLOCK1 #bg05{
+	background-image:url(https://static.digiwin.com/tw/dsc/activity/WB002845/images/boxbg_05.png);
+	background-color:#4EC3C7;
+	background-repeat:no-repeat;
+	width:900px;
+	height:280px;
+	margin: 0 auto;
+	padding: 0;
+	position: relative;
+	overflow:hidden;
+}
+
+#BLOCK1 #bg06{
+	background-image:url(https://static.digiwin.com/tw/dsc/activity/WB002845/images/boxbg_06.png);
+	background-color:#4EC3C7;
+	background-repeat:no-repeat;
+	width:900px;
+	height:280px;
+	margin: 0 auto;
+	padding: 0;
+	position: relative;
+	overflow:hidden;
+}
+
+#BLOCK1 #bg07{
+	background-image:url(https://static.digiwin.com/tw/dsc/activity/WB002845/images/boxbg_07.png);
+	background-color:#4EC3C7;
+	background-repeat:no-repeat;
+	width:900px;
+	height:280px;
+	margin: 0 auto;
+	padding: 0;
+	position: relative;
+	overflow:hidden;
+}
+
+#BLOCK1 #bg08{
+	background-image:url(https://static.digiwin.com/tw/dsc/activity/WB002845/images/boxbg_08.png);
+	background-color:#4EC3C7;
+	background-repeat:no-repeat;
+	width:900px;
+	height:280px;
+	margin: 0 auto;
+	padding: 0;
+	position: relative;
+	overflow:hidden;
+}
+#BLOCK1 #LL1{ width:800px; float:left; display:block; margin-top:15px; margin-left:50px; cursor: pointer; }
+
+#BLOCK1 #LL1 h2{ font-weight:bold;font-size:45px;line-height:1.4; font-family:"微軟正黑體", Arial, Helvetica, sans-serif; width:450px; text-align:left; color:#FF0;}
+
+#BLOCK1 #LL1 p{font-size:22px;line-height:1.4;font-family:"微軟正黑體", Arial, Helvetica, sans-serif; width:450px; text-align:left;  color:#fff; padding-top:3px; font-weight:bold}
+
+
+
+/*--------內容自填-------#BLOCK2--------------------------*/
+#BLOCK2{width:900px; height:auto;
+	background-color:#fff;
+	clear:both;
+	overflow:hidden; padding:20px;}
+	
+#BLOCK2 #LL2{ width:450px; float:left;display:block;clear:both;  }	
+	
+#BLOCK2 #LL2 h3{font-size:30px;line-height:1.5;font-family:"微軟正黑體", Arial, Helvetica, sans-serif;  text-align:left; }
+
+
+#BLOCK2 #LL2 p{font-size:18px; line-height:1.6;font-family:"微軟正黑體", Arial, Helvetica, sans-serif; text-align:justify; }
+
+#BLOCK2 #RR2img{ width:350px; height:auto; float:right;display:display; margin:20px; }
+
+
+/*---------------#BLOCK3--------課程主題+前言------------------*/
+#BLOCK3{width:900px; height:auto; background-color:#333333;clear:both; overflow:hidden; padding:20px 0; }
+	
+#BLOCK3 #title_A{font-weight:bold; font-size:36px; letter-spacing:1px;line-height:90px;font-family:"微軟正黑體", Arial, Helvetica, sans-serif;  text-align: center;  color:#fff;}
+
+#BLOCK3 .txt{ margin-left:30px; padding: 10px ; font-size:18px;line-height:1.5;font-family:"微軟正黑體", Arial, Helvetica, sans-serif; color:#fff; width:780px; height:auto ; overflow:hidden;float:left;display:block;}
+
+#BLOCK3 .morebtn{ float:left ;display:block;font-size:13px; width:50px; height:50px ; line-height:50px; text-align:center; font-family:"微軟正黑體", Arial, Helvetica, sans-serif; color:#fff;overflow:hidden; border-radius:99em; background-color:#C30; margin:10px; }
+
+#BLOCK3 .morebtn a:link{ color:#FFF; text-decoration:none;}
+#BLOCK3 .morebtn a:hover{ color:#FF0; }
+
+
+
+
+
+/*---------------#BLOCK5----上課對象----------------*/
+#BLOCK5{width:900px; height:auto; background-color:#fff;clear:both; overflow:hidden; padding:20px 0 ;border-bottom:#CCC 1px solid;}
+
+#BLOCK5 .txt{ width:700px; height:auto; float:left; display:block; line-height:1.5;font-size:18px;font-family:"微軟正黑體", Arial, Helvetica, sans-serif; padding:10px;}
+
+#title_B{width:120px; height:45px; font-size:20px;line-height:45px; font-family:"微軟正黑體", Arial, Helvetica, sans-serif;  text-align: center;  color:#000;  float:left; display:block;   border:#666 1px solid; margin-bottom:10px;border-radius:5px;}
+
+/*---------------#BLOCK6------課程大綱--------------------*/
+#BLOCK6{width:900px; height:auto;	background-color:#fff;clear:both; overflow:hidden;border-bottom:#CCC 1px solid ;padding:20px 0 ;}
+
+
+#BLOCK6 .B6_table{ width:100%; height:auto; float:left; display:block; }
+
+#BLOCK6 .B6_table table td{ font-size:15px;line-height:1.6;font-family:"微軟正黑體", Arial, Helvetica, sans-serif; padding:15px; border:#CCC solid 1px; }
+
+#BLOCK6 .txtbold{ font-size:18px;line-height:1.6;font-family:"微軟正黑體", Arial, Helvetica, sans-serif; font-weight:bold;}
+
+p.highlight{ color:#F60; font-weight:bold;}
+
+/*---------------#BLOCK7------講師經歷-------------------*/
+#BLOCK7{width:900px; height:auto; background-color:#fff;clear:both; overflow:hidden; padding:20px 0 ;border-bottom:#CCC 1px solid}
+
+#BLOCK7 .lefttxt{ width:180px; height:auto; float:left; display:block; line-height:1.5;font-size:18px;font-family:"微軟正黑體", Arial, Helvetica, sans-serif; color:#333333; padding:10px;text-align:center}
+
+#BLOCK7 .lefttxt h4{font-size:20px; font-weight:bold}
+
+#BLOCK7 .lefttxt img{ width:150px; height:180px; }
+
+#BLOCK7 .righttxt{ width:580px; height:auto; float:left; display:block;line-height:1.5; font-size:16px; }
+
+#BLOCK7 .righttxt .bb{font-size:16px; font-weight:bold; line-height:2}
+
+
+
+
+/*---------------#BLOCK8----------開課資訊-------------------*/
+#BLOCK8{width:900px; height:auto; background-color:#fff;clear:both; overflow:hidden; padding:20px 0 0 0 ;border-bottom:#CCC 1px solid}
+
+#BLOCK8 .B8_table{ width:900px; height:auto; float:left; display:block;font-size:18px;line-height:1.6;font-family:"微軟正黑體", Arial, Helvetica, sans-serif; color:#FFF; clear:both}
+
+#BLOCK8 .B8_table table td{ padding:5px; border:1px #CCC solid;color:#FFF; }
+
+p.highlight{ color:#F60; font-weight:bold;}
+
+#BLOCK8 .B8_table2{ width:900px; height:auto; float:left; display:block;clear:both; background-color:#F6F6F6;font-size:18px ; line-height:1.6; font-family:"微軟正黑體", Arial, Helvetica, sans-serif;  }
+
+#BLOCK8 .B8_table2 .LB{width:900px; height:auto; float:left; display:block;clear:both; border-bottom:#CCC 1px solid; padding:20px;}
+.txtRed36{ color:#F02C0F; font-size:36px;line-height:1.6;font-family:"微軟正黑體", Arial, Helvetica, sans-serif; }
+.txtRed18{ color:#F02C0F; font-size:18px;line-height:1.6;font-family:"微軟正黑體", Arial, Helvetica, sans-serif; }
+
+
+
+/*---------------課表下載按鈕------------------------------*/
+
+a.btn{text-align:center;
+	font-size:18px;
+	font-family:"微軟正黑體", Arial, Helvetica, sans-serif;  
+	width:180px;
+	height:50px; 
+	margin:0 auto; 
+	line-height:40px; 
+	letter-spacing:2px;
+	display:block;
+	color:#FFF;
+	background-color:#C00;
+	}
+
+a.btn:link{color:#fff ; text-decoration:none; background-color:#C00;  }
+
+a.btn:hover{color:#fff ; background-color:#F60}
+
+/*---------------線上報名按鈕------------------------------*/
+.btnA a{display:block;text-decoration:none;
+text-align:center;
+	font-size:1em;
+	font-family:"微軟正黑體", Arial, Helvetica, sans-serif;  
+	width:90px;
+	height:40px; 
+	line-height:40px; 
+	letter-spacing:1px;
+	color:#C00;
+	background-color:#E6E6E6;
+	border-radius:5px;
+	margin:20px 0; }
+
+
+.btnA a:hover{color:#C00 ; font-weight:bold;background-color:#ffffff }
+
+/*---------------點數折抵按鈕------------------------------*/
+.btnB a{display:block;text-decoration:none;
+text-align:center;
+	font-size:1em;
+	font-family:"微軟正黑體", Arial, Helvetica, sans-serif;  
+	width:90px;
+	height:40px; 
+	line-height:40px; 
+	letter-spacing:1px;
+	color:#393;
+	background-color:#E6E6E6;
+	border-radius:5px;
+	margin:20px 0; }
+
+
+.btnB a:hover{color:#393 ; font-weight:bold;background-color:#ffffff }
+
+
+@media screen and (max-width: 768px) {
+
+	
+
+
+
+
+/*---------article-------------------------*/
+#article{display:block; width:100%;background-color:#ccc;margin:0 auto; font-size:18px; }
+	
+
+#article h1{font-size:2em;line-height:2;  color:#666;	text-align:center; padding-top:20px; padding-bottom:20px;}
+
+
+/*---------TOPBANNER------#BLOCK1--------------------------*/
+#BLOCK1{ width:100%;  height:auto;  }
+
+#BLOCK1 #bg01{ width:100%;  height:auto;  margin: 0 auto; padding:10% 5% 80% 5%; position: relative; overflow:hidden; display:block; float:left; clear:both; background-position:top ;background-image:url(https://static.digiwin.com/tw/dsc/activity/WB002845/images/boxbg_01s.png); background-color:#4EC3C7; background-repeat:no-repeat;}
+#BLOCK1 #bg02{ width:100%;  height:auto;  margin: 0 auto; padding:10% 5% 80% 5%; position: relative; overflow:hidden; display:block; float:left; clear:both; background-position:top ;background-image:url(https://static.digiwin.com/tw/dsc/activity/WB002845/images/boxbg_02s.png); background-color:#4EC3C7; background-repeat:no-repeat;}
+#BLOCK1 #bg03{ width:100%;  height:auto;  margin: 0 auto; padding:10% 5% 80% 5%; position: relative; overflow:hidden; display:block; float:left; clear:both; background-position:top ;background-image:url(https://static.digiwin.com/tw/dsc/activity/WB002845/images/boxbg_03s.png); background-color:#4EC3C7; background-repeat:no-repeat;}
+#BLOCK1 #bg04{ width:100%;  height:auto;  margin: 0 auto; padding:10% 5% 80% 5%; position: relative; overflow:hidden; display:block; float:left; clear:both; background-position:top ;background-image:url(https://static.digiwin.com/tw/dsc/activity/WB002845/images/boxbg_04s.png); background-color:#4EC3C7; background-repeat:no-repeat;}
+#BLOCK1 #bg05{ width:100%;  height:auto;  margin: 0 auto; padding:10% 5% 80% 5%; position: relative; overflow:hidden; display:block; float:left; clear:both; background-position:top ;background-image:url(https://static.digiwin.com/tw/dsc/activity/WB002845/images/boxbg_05s.png); background-color:#4EC3C7; background-repeat:no-repeat;}
+#BLOCK1 #bg06{ width:100%;  height:auto;  margin: 0 auto; padding:10% 5% 80% 5%; position: relative; overflow:hidden; display:block; float:left; clear:both; background-position:top ;background-image:url(https://static.digiwin.com/tw/dsc/activity/WB002845/images/boxbg_06s.png); background-color:#4EC3C7; background-repeat:no-repeat;}
+#BLOCK1 #bg07{ width:100%;  height:auto;  margin: 0 auto; padding:10% 5% 80% 5%; position: relative; overflow:hidden; display:block; float:left; clear:both; background-position:top ;background-image:url(https://static.digiwin.com/tw/dsc/activity/WB002845/images/boxbg_07s.png); background-color:#4EC3C7; background-repeat:no-repeat;}
+#BLOCK1 #bg08{ width:100%;  height:auto;  margin: 0 auto; padding:10% 5% 80% 5%; position: relative; overflow:hidden; display:block; float:left; clear:both; background-position:top ;background-image:url(https://static.digiwin.com/tw/dsc/activity/WB002845/images/boxbg_08s.png); background-color:#4EC3C7; background-repeat:no-repeat;}
+
+#BLOCK1 #LL1{ width:100%; float:left; display:block; margin-top:10px; margin-left:0px;  }
+
+#BLOCK1 #LL1 h2{font-size:2.5em;line-height:1.3;font-family:"微軟正黑體", Arial, Helvetica, sans-serif; width:100%; text-align:left;  color:#ff0;}
+
+#BLOCK1 #LL1 p{font-size:1.3em;line-height:1.3;font-family:"微軟正黑體", Arial, Helvetica, sans-serif; width:100%; text-align:left;  color:#fff;}
+
+
+
+/*---------內容自填------#BLOCK2--------------------------*/
+#BLOCK2{width:100%; height:auto;
+	background-color:#fff;
+	clear:both;
+	overflow:hidden; padding:5% 0}
+	
+#BLOCK2 #LL2{ width:100%; float:left;display:block;clear:both; margin:0 0 0 0; }	
+	
+#BLOCK2 #LL2 h3{font-size:1.8em;line-height:1.6;font-family:"微軟正黑體", Arial, Helvetica, sans-serif;  text-align:center; }
+
+
+#BLOCK2 #LL2 p{font-size:1.1em;line-height:1.6;font-family:"微軟正黑體", Arial, Helvetica, sans-serif; text-align:justify; }
+
+#BLOCK2 #RR2img{ width:100%; float:left;display:block; margin:0px 0px; padding:0; clear:both}
+
+
+
+/*---------------#BLOCK3--------課程主題+-前言--------------------*/
+#BLOCK3{width:100%; height:auto;background-color:#333333;clear:both; overflow:hidden;  padding:7% 7% }
+	
+	
+#BLOCK3 #title_A{font-weight:bold; font-size:1.8em; letter-spacing:1px; line-height:1.6; font-family:"微軟正黑體", Arial, Helvetica, sans-serif;  text-align:center;  color:#fff;}
+
+#BLOCK3 .txt{ margin-left:0px; padding: 10px ; font-size:1.1em;line-height:1.5;font-family:"微軟正黑體", Arial, Helvetica, sans-serif; color:#fff; width:100%; height:auto ; overflow:hidden;float:left;display:block;}
+
+#BLOCK3 .morebtn{  float:none ;display:block;font-size:1em;line-height:50px; text-align:center;font-family:"微軟正黑體", Arial, Helvetica, sans-serif; color:#fff; width:100px; height:50px ; overflow:hidden; border-radius:99em; background-color:#C30; margin:0 auto;}
+
+#BLOCK3 .morebtn a:link{ color:#FFF;  }
+#BLOCK3 .morebtn a:hover{ color:#FF0; }
+
+
+
+
+/*---------------#BLOCK5-------上課對象------------------*/
+#BLOCK5{width:100%; height:auto; background-color:#fff;clear:both; overflow:hidden;padding:0; border-bottom:#CCC 1px solid}
+
+#BLOCK5 .txt{ width:100%; height:auto; float:left; display:block; font-size:1.1em; line-height:1.5;font-family:"微軟正黑體", Arial, Helvetica, sans-serif; text-align:justify; padding:5% 0;}
+
+#title_B{width:100%; height:auto;text-indent:0px; font-size:1.6em;line-height:1.6;font-family:"微軟正黑體", Arial, Helvetica, sans-serif;  color:#333; margin:0 auto; text-align:center;float:left; display:block;padding:2% ;border:#666 0px solid; margin:5% 0 2% 0; }
+
+
+/*---------------#BLOCK6------課程大綱---------------------*/
+#BLOCK6{width:100%; height:auto; background-color:#fff;clear:both; overflow:hidden; border-bottom:#CCC 1px solid}
+
+#BLOCK6 .B6_table{ width:100%; height:auto; float:left; display:block; }
+
+#BLOCK6 .B6_table table td{ font-size:1em;line-height:1.8;font-family:"微軟正黑體", Arial, Helvetica, sans-serif; padding:2%; border-bottom:#CCC solid 1px }
+
+#BLOCK6 h5{ font-size:1em;line-height:1.8;font-family:"微軟正黑體", Arial, Helvetica, sans-serif; font-weight:bold;}
+
+p.highlight{ color:#F60; font-weight:bold;}
+
+
+
+
+/*---------------#BLOCK7-------講師經歷---------------------*/
+#BLOCK7{width:100%; height:auto; background-color:#fff;clear:both; overflow:hidden; padding:0; border-bottom:#CCC 1px solid}
+
+#BLOCK7 .block{ width:100%; height:auto; float:left; display:block; font-size:1.2em; line-height:1.5;font-family:"微軟正黑體", Arial, Helvetica, sans-serif; color:#333333;text-align:justify; padding:5% 0;clear:both}
+
+
+#BLOCK7 .lefttxt{ width:100%; height:auto; float:left; display:block; line-height:1.5;font-size:18px;font-family:"微軟正黑體", Arial, Helvetica, sans-serif; color:#333333; padding:10px; text-align:center}
+
+#BLOCK7 .lefttxt h4{font-size:1.6em; font-weight:bold}
+
+#BLOCK7 .lefttxt img{ width:50%; height:50%; display:block; margin:0 auto}
+
+#BLOCK7 .righttxt{ width:100%; height:auto; float:left; display:block;line-height:1.5;font-size:1.1em; }
+
+#BLOCK7 .righttxt .bb{font-size:1.1em; font-weight:bold; line-height:2}
+
+
+/*---------------#BLOCK8--------開課資訊---------------------*/
+#BLOCK8{width:100%; height:auto; background-color:#fff;clear:both; overflow:hidden; border-bottom:#CCC 1px solid; padding:0;}
+
+#BLOCK8 .B8_table{ width:100%; height:auto; float:left; display:block;font-size:1em;line-height:1.6;font-family:"微軟正黑體", Arial, Helvetica, sans-serif; color:#FFF; }
+
+#BLOCK8 .B8_table table td{ padding:1%;}
+
+p.highlight{ color:#F60; font-weight:bold;}
+
+
+#BLOCK8 .B8_table2{ width:100%; height:auto; float:left; display:block;clear:both; background-color:#F6F6F6;font-size:1.1em;line-height:1.6; font-family:"微軟正黑體", Arial, Helvetica, sans-serif; }
+
+#BLOCK8 .B8_table2 .LB{width:100%; height:auto; float:left; display:block;clear:both; border-bottom:#CCC 1px solid; padding:5%; }
+
+
+.txtRed36{ color:#F02C0F; font-size:2.2em;line-height:1.6;font-family:"微軟正黑體", Arial, Helvetica, sans-serif; }
+.txtRed18{ color:#F02C0F; font-size:1em;line-height:1.6;font-family:"微軟正黑體", Arial, Helvetica, sans-serif; }
+
+
+
+/*---------------課表下載按鈕------------------------------*/
+
+
+a.btn{text-align:center;
+	font-size:1.2em;
+	font-family:"微軟正黑體", Arial, Helvetica, sans-serif;  
+	width:180px;
+	height:60px; 
+	margin:0 auto; 
+	line-height:40px; 
+	letter-spacing:2px;
+	display:block;
+	color:#FFF;
+	background-color:#C00;
+	}
+
+a.btn:link{color:#fff ;  background-color:#C00;text-decoration:none;  }
+
+a.btn:hover{color:#fff ;background-color:#F60; }
+
+/*---------------線上報名按鈕------------------------------*/
+.btnA a{display:block;text-decoration:none;
+text-align:center;
+	font-size:0.9em;
+	font-family:"微軟正黑體", Arial, Helvetica, sans-serif;  
+	width:100%;
+	height:auto; 
+	line-height:1; 
+	letter-spacing:1px;
+	color:#C00;
+	background-color:#E6E6E6;
+	border-radius:5px;
+	margin:20px 0 ;
+	padding:10% }
+
+
+.btnA a:hover{color:#C00 ; font-weight:bold;background-color:#ffffff }
+
+
+/*---------------點數折抵按鈕------------------------------*/
+.btnB a{display:block;text-decoration:none;
+text-align:center;
+	font-size:0.9em;
+	font-family:"微軟正黑體", Arial, Helvetica, sans-serif;  
+	width:100%;
+	height:auto; 
+ 	line-height:1; 
+	letter-spacing:1px;
+	color:#393;
+	background-color:#E6E6E6;
+	border-radius:5px;
+		margin:20px 0; padding:10%}
+
+.btnB a:hover{color:#393 ; font-weight:bold;background-color:#ffffff }

@@ -1,0 +1,147 @@
+<slider-banner-s v-if="isMobile" v-bind:slides="result.banner.index" device="mobile"></slider-banner-s>
+<slider-banner v-else v-bind:slides="result.banner.index" device="desktop"></slider-banner>
+
+<article class="section1">
+    <div class="container">
+        <h1 class="sectionTitle">消費模式的改變<br>消費者在想什麼，你知道嗎？</h1>
+        <div class="section1-hoverBoxs">
+            <hover-box v-for="item in result.hoverBoxs.index">
+                <template slot="content">
+                    <p class="hoverBox-title">{{item.title}}</p>
+                </template>
+                <template slot="hover">
+                    <p>{{item.hoverText}}</p>
+                </template>
+            </hover-box>
+        </div>
+    </div>
+</article>
+
+<article class="section2">
+    <div class="container">
+        <h1 class="sectionTitle">面對消費者思考模式的改變<br>您是不是也面對到這些挑戰？</h1>
+        <img src="images/index/section1-illust.png" class="section2-illust-s" alt="">
+        <div class="section2-illust">
+            <section2-svg></section2-svg>
+        </div>
+    </div>
+</article>
+
+<article class="section3">
+    <div class="container">
+        <h1 class="sectionTitle">零售業面對的內憂與外患</h1>
+        <div class="section3-illust">
+            <section3-svg-s v-if="isMobile"></section3-svg-s>
+            <section3-svg v-else></section3-svg>
+        </div>
+    </div>
+</article>
+
+<article id="section4" class="section4">
+    <slider id="1">
+        <template slot="left">
+            <slider-title id="1">
+                <template slot="title">消費者可選擇的通路越來越多</template>
+                <template slot="desc">除了門店與網站，消費者可以選擇的渠道還有很多，<br>是不是都要配合，不配合是不是少了一些機會？</template>
+            </slider-title>
+            <div class="slider-leftIllust">
+                <section4-svg></section4-svg>
+            </div>
+            <label for="slider-toggle1" class="btn primary">你需要的是？</label>
+        </template>
+        <template slot="right">
+            <h1 class="sectionTitle">多渠道銷售</h1>
+            <p class="sectionDesc">多渠道拓展銷售點，才能吸引更多消費者</p>
+            <div class="slider-rightIllust">
+                <img src="images/index/section4-illust2.png" alt="">
+            </div>
+            <div class="slider-btns">
+                <label for="slider-toggle1" class="btn primary arrow-l">挑戰 1</label>
+                <a href="#contact" class="btn secondary arrow-d js-nav">了解解決方案</a>
+            </div>
+        </template>
+    </slider>
+</article>
+
+<article id="section5" class="section5">
+    <slider id="2">
+        <template slot="left">
+            <slider-title id="2">
+                <template slot="title">消費者的回購率低？</template>
+                <template slot="desc">消費者這麼多，一次消費，並不代表就會回購<br>有這麼多來客資訊，但還是無法增加消費者忠誠度</template>
+            </slider-title>
+            <div class="slider-leftIllust">
+                <section5-svg></section5-svg>
+            </div>
+            <label for="slider-toggle2" class="btn primary">你需要的是？</label>
+        </template>
+        <template slot="right">
+            <h1 class="sectionTitle">精準行銷</h1>
+            <p class="sectionDesc">
+                從來客紀錄中找出對的人，去推對的活動，才能提高行銷效益<br>
+                要深化購買力，就要用對用戶數據，鞏固忠誠顧客創造核心獲利
+            </p>
+            <div class="slider-rightIllust">
+                <img src="images/index/section5-illust2.png" alt="">
+            </div>
+            <div class="slider-btns">
+                <label for="slider-toggle2" class="btn primary arrow-l">挑戰 2</label>
+                <a href="#contact" class="btn secondary arrow-d js-nav">了解解決方案</a>
+            </div>
+        </template>
+    </slider>
+</article>
+
+<article id="section6" class="section6">
+    <slider id="3">
+        <template slot="left">
+            <slider-title id="3">
+                <template slot="title">多元的通路銷售資訊整合問題</template>
+                <template slot="desc">一但配合多平台多通路，每個要給的優惠折扣都不一樣，<br>成本也不一樣，到底哪個有賺哪個是賠？</template>
+            </slider-title>
+            <div class="slider-leftIllust">
+                <section6-svg></section6-svg>
+            </div>
+            <label for="slider-toggle3" class="btn primary">你需要的是？</label>
+        </template>
+        <template slot="right">
+            <h1 class="sectionTitle">全渠道整合</h1>
+            <p class="sectionDesc">多渠道已經是零售業的必備條件，但必須整合才能有效經營管理</p>
+            <div class="slider-rightIllust">
+                <img src="images/index/section6-illust2.png" alt="">
+            </div>
+            <div class="slider-btns">
+                <label for="slider-toggle3" class="btn primary arrow-l">挑戰 3</label>
+                <a href="#contact" class="btn secondary arrow-d js-nav">了解解決方案</a>
+            </div>
+        </template>
+    </slider>
+</article>
+
+<article id="section7" class="section7">
+    <slider id="4">
+        <template slot="left">
+            <slider-title id="4">
+                <template slot="title">複雜卻關鍵的供應鏈運作</template>
+                <template slot="desc">不只金流、物流還有一堆消費者的資訊流<br>一個環節失誤，流失的不僅是客戶，還有客戶對企業的信心</template>
+            </slider-title>
+            <div class="slider-leftIllust">
+                <section7-svg></section7-svg>
+            </div>
+            <label for="slider-toggle4" class="btn primary">你需要的是？</label>
+        </template>
+        <template slot="right">
+            <h1 class="sectionTitle">串連供應鏈</h1>
+            <p class="sectionDesc">服務消費者組成供應鏈運作複雜<br>缺一不可，必須點點串連、面面俱到</p>
+            <div class="slider-rightIllust">
+                <img src="images/index/section7-illust2.png" alt="">
+            </div>
+            <div class="slider-btns">
+                <label for="slider-toggle4" class="btn primary arrow-l">挑戰 4</label>
+                <a href="#contact" class="btn secondary arrow-d js-nav">了解解決方案</a>
+            </div>
+        </template>
+    </slider>
+</article>
+
+<contact v-bind:multiple="false" source=""></contact>

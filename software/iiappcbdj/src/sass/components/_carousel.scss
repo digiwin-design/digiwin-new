@@ -1,0 +1,48 @@
+main .carousel {
+    margin: 0 auto;
+    width: image-width('carousel-bg.png');
+    &-slider {
+        position: relative;
+        height: image-height('carousel-bg.png');
+        background-image: image-url('carousel-bg.png');
+        &::after {
+            @include imgBg('carousel-bg2.png');
+            position: absolute;
+            top: 100%;
+            left: 0;
+            content: '';
+        }
+    }
+    .swiper-container {
+        top: 82px;
+        left: 15px;
+        margin: 0;
+        width: 230px;
+        height: 392px;
+    }
+    &-caption {
+        margin-top: 20px;
+        text-align: center;
+        & + .carousel-caption {
+            margin-top: .5em;
+        }
+        span {
+            position: relative;
+            display: inline-block;
+            font-weight: bold;
+            font-size: 20px;
+            line-height: 1;
+            &::before {
+                position: absolute;
+                bottom: 0;
+                left: -22px;
+                width: 0;
+                height: 0;
+                border-width: 0 9.5px 13px 9.5px;
+                border-style: solid;
+                border-color: transparent transparent #fa8140 transparent;
+                content: '';
+            }
+        }
+    }
+}

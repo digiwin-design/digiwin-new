@@ -1,0 +1,16 @@
+header {
+    background-image: url('../images/header-bg.jpg');
+}
+.header-illust {
+    background-image: url('../images/index/header-img.png');
+}
+@media (max-width: 768px) {
+    header {
+        background-image: none;
+    }
+}
+@media (max-height: 820px) {
+    .header-illust {
+        background-image: url('../images/index/header-img-s.png');
+    }
+}

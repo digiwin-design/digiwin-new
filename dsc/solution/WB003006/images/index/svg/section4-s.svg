@@ -1,0 +1,72 @@
+<svg data-name="圖層 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 343 391">
+  <circle cx="174.21" cy="192.92" r="103.82" fill="#eaeaea" stroke="#b7b7b7" stroke-miterlimit="8" stroke-width="3"/>
+  <text transform="matrix(1.01 0 0 1 133.18 235.4)" font-size="15.769">
+    線下到線上
+  </text>
+  <text transform="matrix(1.01 0 0 1 133.18 257.39)" font-size="15.769">
+    分散到融合
+  </text>
+  <text transform="matrix(1.01 0 0 1 134.26 163.71)" font-size="38.115" fill="#666">
+    鼎新
+  </text>
+  <text transform="matrix(1.01 0 0 1 114.92 203.23)" font-size="38.115" fill="#d10000">
+    新零售
+  </text>
+  <text transform="matrix(1.01 0 0 1 64.22 311.55)" font-size="15.556" fill="#2da092">
+    便捷支付
+  </text>
+  <text transform="matrix(1.01 0 0 1 226.36 311.55)" font-size="15.556" fill="#809914">
+    精準物流
+  </text>
+  <text transform="matrix(1.01 0 0 1 53.71 51.87)" font-size="15.556" fill="#f95346">
+    提升效率
+  </text>
+  <text transform="matrix(1.01 0 0 1 223.08 28.87)" font-size="15.556" fill="#d89500">
+    會員營銷
+  </text>
+  <circle cx="89.77" cy="255.01" r="33.18" fill="#6cd8ce" stroke="#999" stroke-miterlimit="8" stroke-width="3.003"/>
+  <path d="M97.74 273.83a2.15 2.15 0 0 1-2.15 2.17H82.32a2.49 2.49 0 0 1-2.49-2.49V248a2.41 2.41 0 0 1 2.41-2.4h13.09a2.41 2.41 0 0 1 2.41 2.4z" fill="none" stroke="#344154" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
+  <path d="M84.59 245.56v1.17a1.3 1.3 0 0 0 1.3 1.3h5.79a1.3 1.3 0 0 0 1.3-1.3v-1.17M86.62 263.32a2.66 2.66 0 1 0 5.32 0c0-1.47-1.09-2.15-2.66-2.66-1.4-.45-2.66-1.19-2.66-2.66a2.66 2.66 0 0 1 5.32 0M89.28 253.85v1.51M89.28 265.99v1.5" fill="none" stroke="#344154" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
+  <circle cx="89.77" cy="131.48" r="33.18" fill="#f95346" stroke="#999" stroke-miterlimit="8" stroke-width="3.003"/>
+  <path d="M88.79 269.53a15 15 0 0 1-6.87-1.68v5.64a.4.4 0 0 0 .4.4h13.27a.06.06 0 0 0 .06-.06v-6a15 15 0 0 1-6.86 1.7z" fill="#ffc524"/>
+  <path d="M83 233.34a12.08 12.08 0 0 1 11.44 0M85.83 236.14a6 6 0 0 1 5.72 0M89 239.11a.31.31 0 1 1-.31-.3.3.3 0 0 1 .31.3z" fill="none" stroke="#344154" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  <circle cx="258.42" cy="255.01" r="33.18" fill="#bfd66e" stroke="#999" stroke-miterlimit="8" stroke-width="3.003"/>
+  <circle cx="258.42" cy="128.85" r="33.18" fill="#f4b414" stroke="#999" stroke-miterlimit="8" stroke-width="3.003"/>
+  <path d="M263.49 253.62c0-5.43-4.18-10.83-11.82-10.83s-11.82 5.4-11.82 10.83M237.62 255.3h28.11M239.85 255.3a3.63 3.63 0 0 0 3.64 3.63h16.37a3.63 3.63 0 0 0 3.63-3.63M251.67 242.79v-2.83" fill="none" stroke="#344154" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
+  <path d="M266.79 241.72a1.5 1.5 0 0 0 3 0c0-.82-.61-1.19-1.48-1.48s-1.48-.66-1.48-1.48a1.5 1.5 0 0 1 3 0M268.27 236.46v.83M268.27 243.2v.83" fill="none" stroke="#344154" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  <circle cx="268.27" cy="240.24" r="5.62" fill="none" stroke="#344154" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  <path fill="none" stroke="#344154" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" d="M271.44 261.52h5.3"/>
+  <path d="M258 268.21a2.64 2.64 0 1 0-2.63 2.63 2.64 2.64 0 0 0 2.63-2.63z" fill="none" stroke="#344154" stroke-miterlimit="10" stroke-width="2"/>
+  <path d="M255.38 269.08a.88.88 0 1 1 .87-.87.87.87 0 0 1-.87.87z" fill="#ffc524"/>
+  <path d="M251.67 266.31a2.63 2.63 0 1 0-1.83 4.53 2.61 2.61 0 0 0 1.83-.74" fill="none" stroke="#344154" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
+  <path d="M245.59 266.94h-3.73a1.87 1.87 0 0 1-1.87-1.87v-2.79h26.29a2 2 0 0 0 2-2v-8.47h3.17a4 4 0 0 1 3.72 2.52 33.57 33.57 0 0 1 1.75 10.71v1.89h-3.14" fill="none" stroke="#344154" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
+  <path d="M274.09 268.21a2.64 2.64 0 1 0-2.63 2.63 2.64 2.64 0 0 0 2.63-2.63z" fill="none" stroke="#344154" stroke-miterlimit="10" stroke-width="2"/>
+  <path d="M271.46 269.08a.88.88 0 1 1 .87-.87.87.87 0 0 1-.87.87z" fill="#ffc524"/>
+  <path fill="none" stroke="#344154" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" d="M259.64 266.94h7.51M268.27 251.82v-2.74M235.88 130.88a.13.13 0 0 1-.26 0 .13.13 0 0 1 .26 0zM235.88 132.39a.13.13 0 1 1-.13-.13.13.13 0 0 1 .13.13zM259 140.74a.12.12 0 0 1-.12.13.13.13 0 0 1-.13-.13.12.12 0 0 1 .13-.12.12.12 0 0 1 .12.12zM259 142.25a.12.12 0 0 1-.12.13.13.13 0 0 1 0-.26.12.12 0 0 1 .12.13z"/>
+  <path d="M262.47 134.47a46.17 46.17 0 0 1 4.91 3 3.55 3.55 0 0 1 .83.94 4.22 4.22 0 0 1 .61 2.22v3.21H249v-3.21a4.21 4.21 0 0 1 .6-2.22 3.74 3.74 0 0 1 .83-.94 47.23 47.23 0 0 1 4.91-3" fill="none" stroke="#344154" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
+  <ellipse cx="258.87" cy="130.13" rx="4.99" ry="6.2" fill="none" stroke="#344154" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
+  <path d="M258.87 124.9a3.26 3.26 0 0 0-.83.11c1.82.5 3.19 2.61 3.19 5.12s-1.37 4.62-3.19 5.12a3.26 3.26 0 0 0 .83.11c2.22 0 4-2.35 4-5.23s-1.78-5.23-4-5.23z" fill="#35b4cf"/>
+  <path d="M275.54 131.68a.13.13 0 0 1-.26 0 .13.13 0 0 1 .26 0zM275.54 133.19a.13.13 0 1 1-.13-.13.13.13 0 0 1 .13.13z" fill="none" stroke="#344154" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
+  <path d="M279 125.4a47.68 47.68 0 0 1 4.92 3 3.7 3.7 0 0 1 .82.94 4.13 4.13 0 0 1 .61 2.22v3.21h-19.87v-3.21a4.13 4.13 0 0 1 .61-2.22 3.7 3.7 0 0 1 .82-.94 47.68 47.68 0 0 1 4.92-3" fill="none" stroke="#344154" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
+  <ellipse cx="275.39" cy="121.07" rx="4.99" ry="6.2" fill="none" stroke="#344154" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
+  <path d="M275.39 115.84a3.32 3.32 0 0 0-.83.11c1.82.5 3.19 2.6 3.19 5.12s-1.37 4.62-3.19 5.12a3.32 3.32 0 0 0 .83.11c2.22 0 4-2.35 4-5.23s-1.78-5.23-4-5.23z" fill="#35b4cf"/>
+  <path d="M245.32 124.6a46.79 46.79 0 0 1 4.91 3 3.55 3.55 0 0 1 .83.94 4.22 4.22 0 0 1 .61 2.22V134h-19.86v-3.21a4.21 4.21 0 0 1 .6-2.22 3.74 3.74 0 0 1 .83-.94 47.88 47.88 0 0 1 4.91-3" fill="none" stroke="#344154" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
+  <ellipse cx="241.72" cy="120.27" rx="4.99" ry="6.2" fill="none" stroke="#344154" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
+  <path d="M241.72 115a3.32 3.32 0 0 0-.83.11c1.82.5 3.19 2.6 3.19 5.12s-1.37 4.62-3.19 5.12a3.32 3.32 0 0 0 .83.11c2.22 0 4-2.35 4-5.23s-1.78-5.23-4-5.23z" fill="#35b4cf"/>
+  <path d="M111.29 136.53v-12.39h-4v12.39h-2.72v-10h-4v10h-2.65v-6.91H94v6.91h-1.42v1h20.1v-1zm-14.36 0H95v-5.92h2zm6.68 0h-2v-9h2zm6.69 0h-2v-11.4h2zM98.73 124.82h4.43l5.66-5.84v1.74h.99v-3.46h-3.46v.99h1.79l-5.4 5.58h-4.42l-3.74 3.74.7.7 3.45-3.45z" fill="#444"/>
+  <path d="M88 141.06l-.3-10.36h2.13v-10.56a4.3 4.3 0 0 0-4.29-4.29h-.3l-1.89 3.52h-.45l-1.9-3.52h-.29a4.29 4.29 0 0 0-4.29 4.29v10.56h2.13l-.31 10.36c-4.13.53-8.39 1.88-8.39 4.17 0 2.91 6.85 4.47 13.29 4.47s13.3-1.56 13.3-4.47c0-2.29-4.27-3.64-8.44-4.17zm-10.59-11.35v-9.57a3.31 3.31 0 0 1 3-3.29l1.88 3.52H84l1.89-3.52a3.31 3.31 0 0 1 3 3.29v9.57h-1.18l-.17-5.79h-1l.61 20.84H85.3l-1.64-13.42-.52.06-.51-.06L81 144.79h-1.87l.61-20.79h-1l-.17 5.79zm5.73 19c-7.25 0-12.3-1.83-12.3-3.48 0-1.11 2.53-2.53 7.38-3.17l-.11 3.72h3.76l1.27-10.44 1.28 10.44h3.76l-.11-3.72c4.84.64 7.38 2.06 7.38 3.17 0 1.65-5.06 3.48-12.31 3.48z" fill="#444"/>
+  <circle cx="86.37" cy="111.61" r="3.32" fill="#ffc524"/>
+  <path d="M83.14 115.26a2.9 2.9 0 1 0-2.89-2.89 2.9 2.9 0 0 0 2.89 2.89zm0-4.8a1.91 1.91 0 1 1-1.9 1.91 1.92 1.92 0 0 1 1.9-1.91z" fill="#444"/>
+  <text transform="matrix(1.01 0 0 1 222.72 45.98)" font-size="9.199">
+    <tspan letter-spacing=".045em">推動更多的通路、增加更</tspan><tspan x="105.75" y="0">多</tspan><tspan x="0" y="11.04" letter-spacing=".15em">的來客、精準營銷達到</tspan><tspan x="105.75" y="11.04">吸</tspan><tspan x="0" y="22.08" letter-spacing=".016em">粉、聚粉、活粉，完善360</tspan><tspan x="109.9" y="22.08">∘</tspan><tspan x="0" y="33.12">全方位會員營銷。</tspan>
+  </text>
+  <text transform="matrix(1.01 0 0 1 226.01 330.75)" font-size="9.199">
+    <tspan letter-spacing=".052em">到貨精準、降低缺貨，減</tspan><tspan x="106.49" y="0">少</tspan><tspan x="0" y="11.04">報廢，達到存貨有效控管。</tspan>
+  </text>
+  <text transform="matrix(1.01 0 0 1 0 68.97)" font-size="9.199">
+    <tspan letter-spacing=".045em">完善門市服務、達成供應</tspan><tspan x="105.75" y="0">鏈</tspan><tspan x="0" y="11.04" letter-spacing=".045em">精準，不僅是做到、更需</tspan><tspan x="105.75" y="11.04">要</tspan><tspan x="0" y="22.08">有效率的方法。</tspan>
+  </text>
+  <text transform="matrix(1.01 0 0 1 10.51 330.75)" font-size="9.199">
+    <tspan letter-spacing=".045em">應用多元支付便利性，引</tspan><tspan x="105.75" y="0">動</tspan><tspan x="0" y="11.04" letter-spacing=".045em">會員儲值，藉以打通線上</tspan><tspan x="105.75" y="11.04">、</tspan><tspan x="0" y="22.08">線下、增加回購與忠誠度。</tspan>
+  </text>
+</svg>

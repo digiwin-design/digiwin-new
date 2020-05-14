@@ -1,0 +1,13 @@
+extends ../layout.pug
+
+block includes
+    script(src="https://www.digiwin.com/tw/dsc/solution/WB002476/js/jquery-ui.min.js", defer)
+
+    //- shadowbox
+    link(rel="stylesheet", href="/tw/dsc/shadowbox/shadowbox.css")
+    script(src="/tw/dsc/shadowbox/shadowbox.js", defer)
+
+    link(rel='stylesheet', href='css/WB00247601/style.css')
+    script(src='js/WB00247601.min.js', defer)
+block content
+    include WB00247601.html

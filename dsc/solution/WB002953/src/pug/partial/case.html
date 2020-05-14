@@ -1,0 +1,132 @@
+<div id="header" class="header">
+    <div class="container">
+        <div>
+            <h1 class="mainTitle">力肯實業</h1>
+            <h2>效益導向的智能化轉型</h2>
+            <p>
+                看力肯實業如何釘接智能製造<br>
+                達到<strong>縮短生產製造週期</strong>及<strong>降本提效</strong>，<br>
+                穩健轉型強化競爭力
+            </p>
+        </div>
+    </div>
+</div>
+
+<article class="section1">
+    <div class="section1-top">
+        <div class="container">
+            <div class="section1-content">
+                <h1>力肯實業 溫銘漢 董事長:</h1>
+                <div class="section1-quote">
+                    <div class="section1-quote-text">
+                        <p>工業4.0早一點做也許會被市場晚一點淘汰，但如果做得好，就能早一點傲視群雄。</p>
+                        <p>台灣氣動釘槍產業一力肯實業股份有限公司，靠著強大的研發能力與優秀生產效率，於40年前開始以國外大廠OEM的方式，接下美國、日本與歐洲國家的訂單，從初期的代工仿效，累積自由設計與製程技術的生產能量，使得年產值突破千億元，站穩全球前二大製造國。</p>
+                    </div>
+                </div>
+                <a href="https://www.digiwin.com/tw/case/936.html" class="section1-btn">閱讀案例</a>
+            </div>
+        </div>
+    </div>
+    <video-section type="typeA" v-bind:title="result.videoSection.section1.title" v-bind:video-src="result.videoSection.section1.videoSrc"></video-section>
+</article>
+
+<article class="section2">
+    <div class="section2-top">
+        <div class="container">
+            <h1 class="sectionTitle">力肯釘接智能製造的三大變革</h1>
+            <div class="section2-nav">
+                <template v-for="(item,idx) in result.section2.nav">
+                    <a href v-bind:key="item.title" v-on:click.prevent="showPopup(idx)">
+                        <p class="section2-nav-title">{{item.title}}</p>
+                        <img v-bind:src="item.imgSrc" alt="">
+                    </a>
+                    <div v-if="idx+1!==result.section2.nav.length" class="section2-separate">
+                        <img v-bind:key="item.imgSrc" src="images/case/section2-separate.png" alt="">
+                    </div>
+                </template>
+            </div>
+        </div>
+    </div>
+    <video-section type="typeB" v-bind:title="result.videoSection.section2.title" v-bind:video-src="result.videoSection.section2.videoSrc"></video-section>
+</article>
+
+<article class="section3">
+    <h1 class="sectionTitle">如何提升廠內物流價值程序</h1>
+    <accordion v-if="isLargeDevice" v-bind:accordion="result.processes"></accordion>
+    <template v-else>
+        <div class="section3-nav">
+            <img v-bind:src="'images/case/section3-nav-'+(processId+1)+'.jpg'" usemap="#image-map">
+        </div>
+        <map name="image-map">
+            <area v-on:click="setProcess" href="javascript:;" coords="37,0,190,227" shape="rect">
+            <area v-on:click="setProcess" href="javascript:;" coords="229,0,383,227" shape="rect">
+            <area v-on:click="setProcess" href="javascript:;" coords="422,0,575,227" shape="rect">
+            <area v-on:click="setProcess" href="javascript:;" coords="617,0,770,227" shape="rect">
+            <area v-on:click="setProcess" href="javascript:;" coords="811,1,963,227" shape="rect">
+            <area v-on:click="setProcess" href="javascript:;" coords="1002,1,1155,227" shape="rect">
+        </map>
+        <process v-bind:process="result.processes[processId].process" v-bind:id="processId"></process>
+    </template>
+    <video-section type="typeA" v-bind:title="result.videoSection.section3.title" v-bind:video-src="result.videoSection.section3.videoSrc"></video-section>
+</article>
+
+<article class="section4">
+    <div class="container">
+        <h1 class="sectionTitle">內部價值鏈環環相扣 串連各職能展效益</h1>
+        <p class="section4-desc">從供應商、資材、製造現場的所有數據即時正確，讓全體人員相信數據、使用數據，而所帶來的管理效益更是產生連動的效益，讓內部的價值鏈環環相扣，讓管理視角層層把關！而這些可信的資訊亦支持帳務的精準性，達到精進管理「成本精準利潤可控」的專案目標，更達成了各職能管理能力的提升。</p>
+    </div>
+    <section>
+        <div class="container">
+            <h1>力肯智能改造</h1>
+            <ul class="section4-list1">
+                <li>
+                    <p>整體存貨降低<strong>1400</strong>萬</p>
+                </li>
+                <li>
+                    <p>製令準時開工提升<strong>10</strong>%</p>
+                </li>
+                <li>
+                    <p>製造週期縮短<strong>6</strong>天</p>
+                </li>
+            </ul>
+            <h2>提升四大管理能力</h2>
+            <ul class="section4-list2">
+                <li>精準<br>派工能力</li>
+                <li>即時<br>報工能力</li>
+                <li>生產<br>追蹤能力</li>
+                <li>存貨<br>管理能力</li>
+            </ul>
+        </div>
+    </section>
+    <div class="section4-hoverBoxs">
+        <hover-box v-for="item in result.hoverBoxs">
+            <template slot="content">
+                <p class="hoverBox-title">{{item.title}}</p>
+            </template>
+            <template slot="hover">
+                <ul>
+                    <li v-for="row in item.hoverText">{{row}}</li>
+                </ul>
+            </template>
+        </hover-box>
+    </div>
+    <div class="section4-arrow">透明資訊、扣緊引導各職能</div>
+</article>
+
+<popup>
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div v-for="item in result.section2.popup" v-bind:key="item.imgSrc" class="swiper-slide">
+                <article>
+                    <h1>{{item.title}}</h1>
+                    <p>{{item.desc}}</p>
+                    <img v-bind:src="item.imgSrc" alt="">
+                </article>
+            </div>
+        </div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+    </div>
+</popup>
+
+<contact v-bind:multiple="false" source=""></contact>

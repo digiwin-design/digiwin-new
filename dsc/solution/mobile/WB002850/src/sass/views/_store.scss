@@ -1,0 +1,8 @@
+main .store {
+    .nav {
+        width: 85px * 3;
+        @media (min-width: 500px) {
+            width: 85px * 5;
+        }
+    }
+}

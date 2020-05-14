@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="/tw/static/css/public.css">
+    <link rel="stylesheet" href="/tw/static/css/style.css">
+    <script src="/tw/static/js/jquery-1.11.3.min.js"></script>
+    <script src="https://polyfill.io/v3/polyfill.js?features=default,fetch,HTMLPictureElement,Array.prototype.find,NodeList.prototype.forEach&amp;flags=gated"></script>
+    <script src="/tw/dsc/assets/modernizr-custom.js"></script>
+    <script src="/tw/dsc/assets/mobile-detect.js"></script>
+    <script src="/tw/dsc/assets/mobile-detect-modernizr.js" defer></script>
+    <script src="/tw/dsc/assets/smoothscroll.js" defer></script>
+    <script src="/tw/dsc/assets/axios.min.js"></script>
+    <script src="/tw/dsc/assets/vuejs/vue-all-dev.js"></script>
+    <script src="/tw/dsc/js/common.min.js"></script>
+  </head>
+  <body>
+    <!-- 後台上稿內容開始-->
+    <link rel="stylesheet" href="/tw/dsc/css/Eform/xcConfirm.css">
+    <script src="/tw/dsc/js/Eform/xcConfirm.js" defer></script>
+    <link rel="stylesheet" href="/tw/dsc/assets/submenu/submenu.css">
+    <script src="/tw/dsc/assets/submenu/submenu.min.js"></script>
+    <link rel="stylesheet" href="assets/swiper.min.css">
+    <script src="assets/swiper.min.js" defer></script>
+    <script src="assets/vue-awesome-swiper.js" defer></script>
+    <link rel="stylesheet" href="https://unpkg.com/element-ui/lib/theme-chalk/index.css">
+    <script src="https://unpkg.com/element-ui/lib/index.js" defer></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="assets/animate.min.css">
+    <link rel="stylesheet" href="/tw/dsc/css/reboot.css">
+    <script src="assets/color-converter.js" defer></script>
+    <script src="assets/lodash.min.js" defer></script>
+    <script src="assets/jquery-ui-1.12.1.custom/jquery-ui.min.js" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TimelineMax.min.js" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/dat-gui/0.7.6/dat.gui.min.js" defer></script>
+    <script src="js/all.min.js" defer></script>
+    <link rel="preload" href="images/payment/banner.jpg" as="image">
+    <link rel="stylesheet" href="css/payment/style.css">
+    <script src="js/payment.min.js" defer></script>
+    <main v-cloak v-if="result"><slider-banner-s v-if="isMobile" v-bind:slides="result.payment.banner" device="mobile"></slider-banner-s>
+<slider-banner v-else v-bind:slides="result.payment.banner" device="desktop"></slider-banner>
+
+<article class="section1">
+    <div class="container">
+        <section-title title="<strong>便捷支付</strong>只是吸引消費者的入場券" desc="從消費者未消費時，就開始抓住消費者的眼睛，<br>消費者在消費前想的是最多的，如果能將消費門檻降到最低，促使的消費機率將會越高。"></section-title>
+        <div class="section1-boxs">
+            <anchor v-for="(anchor, idx) in result.payment.anchors" v-bind:key="anchor.imgSrc" v-bind:content="anchor" v-on:click.native="scrollTo(idx)"></anchor>
+        </div>
+    </div>
+
+    <component :is="componentId"></component>
+</article>
+
+<contact v-bind:multiple="false" source=""></contact>
+    </main>
+    <!-- 後台上稿內容結束-->
+  </body>
+</html>

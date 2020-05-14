@@ -1,0 +1,43 @@
+main .checklist {
+    display: flex;
+    flex-direction: column;
+    @media (min-width: $tablet-width + 1) {
+        flex-direction: row;
+    }
+    ul {
+        padding-left: 30px;
+        & + ul {
+            margin-top: 1em;
+            @media (min-width: $tablet-width + 1) {
+                margin-top: 0;
+                margin-left: 1em;
+            }
+        }
+    }
+    li {
+        position: relative;
+        padding-left: 1em;
+        letter-spacing: getLetterSpacing(75);
+        font-size: 18px;
+        line-height: 24px;
+        &:not(:last-child) {
+            margin-bottom: 1em;
+        }
+        &::before {
+            position: absolute;
+            top: 50%;
+            left: -25px;
+            width: 22px;
+            height: 22px;
+            border: 3px solid #000;
+            content: '';
+            transform: translateY(-50%);
+        }
+        img {
+            position: absolute;
+            top: calc(50% - 17.5px);
+            left: -25px;
+            opacity: 0;
+        }
+    }
+}

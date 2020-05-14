@@ -1,0 +1,5 @@
+main .cost {
+    .header {
+        @include headerBg('cost/header-bg.jpg', 'cost/header-bg.jpg', 100% 0);
+    }
+}

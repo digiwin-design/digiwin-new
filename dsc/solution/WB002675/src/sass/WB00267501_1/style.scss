@@ -1,0 +1,90 @@
+$main-color: #eb1a4a;
+@import '../common';
+@import '../case';
+@import 'components';
+
+main {
+    .header {
+        @include headerBg('WB00267501_1/header-bg.jpg');
+        h1 {
+            color: #f0fe11;
+        }
+        p {
+            color: #fff;
+            font-size: 20px;
+            @media (max-width: $tablet-width) {
+                font-size: 18px;
+            }
+        }
+    }
+    .desktop-nav a,
+    .mobile .accordion .accordion-title {
+        background-color: #3057f0;
+    }
+    .hoverBox {
+        @for $nth from 1 through 31 {
+            &.icon#{$nth} {
+                &::before {
+                    background-image: image-url('hoverBox-icons/icon#{$nth}.png');
+                }
+            }
+        }
+    }
+    .slider {
+        &-desc {
+            display: flex;
+            flex-direction: column;
+            margin-bottom: 1.5em;
+            width: 100%;
+            align-items: center;
+            &-title {
+                margin-bottom: .5em;
+                font-weight: bold;
+                font-size: 24px;
+            }
+            ul {
+                padding-left: 1em;
+                list-style-type: disc;
+            }
+            & > * {
+                max-width: 100%;
+            }
+        }
+        &-more {
+            @include btn(100%, 40px, #fff, $main-color, 0);
+            margin: 30px auto 0;
+            max-width: 335px;
+            font-size: 20px;
+        }
+        &-listCols {
+            display: flex;
+            ul + ul {
+                margin-left: 50px;
+            }
+        }
+        &-wish {
+            margin-top: 2em;
+            color: #eb1a4a;
+            letter-spacing: getLetterSpacing(10);
+            line-height: 24px;
+            &::first-line {
+                font-weight: bold;
+            }
+        }
+    }
+    .cases {
+        padding-bottom: 93px;
+        &-content {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            @media (max-width: $content-width + 20) {
+                margin: 0 auto;
+                width: 600px;
+            }
+            @media (max-width: $tablet-width) {
+                width: 300px;
+            }
+        }
+    }
+}

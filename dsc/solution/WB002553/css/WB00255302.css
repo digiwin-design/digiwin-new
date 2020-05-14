@@ -1,0 +1,293 @@
+﻿main *, main *:before, main *:after {
+    box-sizing: content-box;
+}
+*{margin:0;	padding:0;-webkit-box-sizing:border-box;}
+html{width:100%;height:100%;font-size:18px; }
+body{width:100%; height:100%;line-height:1.5; font-family:"微軟正黑體", Arial, Helvetica, sans-serif;}
+a{ color:#000; text-decoration:none;}
+a:hover{ color:#F00;}
+
+
+/*--------WRAPPER-------------------------*/
+#WRAPPER{width:100%;overflow:hidden;
+	height:auto;
+	font-family:Arial, Helvetica, sans-serif;
+	-webkit-text-size-adjust:none;
+	background-color:#CCC;
+}
+
+
+/*---------article-------------------------*/
+#article{display:block; width:900px;margin:0 auto;font-family:"微軟正黑體", Arial, Helvetica, sans-serif; line-height:1.8;}
+	
+
+#article h1{font-size:2em;line-height:2; color:#666; text-align:center; padding-top:20px; padding-bottom:20px;}
+
+
+/*---------------#BLOCK1--------------------------*/
+#BLOCK1{ width:900px; margin: 0 auto; padding: 10px 0 10px 0; position: relative; overflow:hidden; background-image:url(../images/02/boxbg_01.png); background-color:#e94609; background-repeat:no-repeat;}
+#BLOCK1 #LL1{ width:800px; float:left; display:block; margin-top:60px; margin-left:60px; cursor: pointer;}
+
+#BLOCK1 #LL1 h2{ font-weight:bold;font-size:35px;line-height:1.2;font-family:"微軟正黑體", Arial, Helvetica, sans-serif; width:430px; text-align:left; color:#f9a004;}
+
+#BLOCK1 #LL1 h2 span{ font-size:50px; line-height:1.3;font-family:"微軟正黑體", Arial, Helvetica, sans-serif; width:430px; text-align:left; color:#e94609;}
+#BLOCK1 #LL1 p{font-size:16px; line-height:1.4;font-family:"微軟正黑體", Arial, Helvetica, sans-serif; width:430px; text-align:left; color:#000; padding-top:20px;}
+#BLOCK1 #LL1 ul{ margin:20px 0px;}
+#BLOCK1 #LL1 ul li{ font-size:16px; font-family:"微軟正黑體", Arial, Helvetica, sans-serif; width:450px; text-align:left; color:#000; padding-top:2px; }
+
+#BLOCK1 #mov2{ width:380px; height:240px; display:block; float:left; clear:both; margin:30px 20px 20px 60px;  }
+
+#BLOCK1 #mov_t{ width:424px; height:auto; display:block; float:left; margin-top:160px; margin-left:10px; }
+
+
+/*---------------#BLOCK2--------------------------*/
+#BLOCK2{width:900px; height:510px;
+	background-color:#FAFAFA;
+	background-image:url(../images/02/boxbg_02s.png);
+	background-repeat:no-repeat;clear:both;
+	background-position:center top;  overflow:hidden;background-color:#fee647; }
+	
+#BLOCK2 #LL2{ width:360px; float:left;display:block;clear:both; margin:140px 10px 20px 60px; }	
+	
+#BLOCK2 #LL2 h3{ font-weight:bold;font-size:45px;line-height:1.4;font-family:"微軟正黑體", Arial, Helvetica, sans-serif; text-align:left; color:#000;}
+
+#BLOCK2 #LL2 h3 span{font-size:45px;line-height:1.4;font-family:"微軟正黑體", Arial, Helvetica, sans-serif; text-align:left; color:#e94609; }
+
+#BLOCK2 #LL2 p{font-size:18px;line-height:1.6;font-family:"微軟正黑體", Arial, Helvetica, sans-serif; text-align:justify; color:#000; padding:10px 0 0 5px;}
+
+#BLOCK2 #RR2{ width:440px; float:right; display:block; margin:35px 0px; }
+
+/*---------------#BLOCK3--------------------------*/
+#BLOCK3{width:900px; height:480px;
+	background-color:#fb9051;
+	background-repeat:no-repeat;clear:both;
+	background-position:center top; overflow:hidden; }
+	
+#BLOCK3 #LL3{ width:400px; float:left;display:block; margin:35px 40px; }
+
+#BLOCK3 #RR3{ width:330px; float:left;display:block; margin:50px 10px 20px 30px; }	
+	
+#BLOCK3 #RR3 h3{font-weight:bold;font-size:45px;line-height:1.4; font-family:"微軟正黑體", Arial, Helvetica, sans-serif;  text-align:left; color: #000;}
+
+#BLOCK3 #RR3 h3 span{font-size:45px;line-height:1.4; font-family:"微軟正黑體", Arial, Helvetica, sans-serif;  text-align:left; color:#fee647; }
+
+#BLOCK3 #RR3 p{font-size:18px;line-height:1.6;font-family:"微軟正黑體", Arial, Helvetica, sans-serif; text-align:justify; color:#fff; padding:10px 0 0 5px;}
+
+
+/*---------------#BLOCK4--------------------------*/
+#BLOCK4{width:900px; height:auto;
+	background-color:#f4f4f4;
+	background-repeat:no-repeat;clear:both;
+	background-position:center top; overflow:hidden; }
+
+
+#BLOCK4 h3{font-weight:bold;font-size:45px;line-height:1.2;font-family:"微軟正黑體", Arial, Helvetica, sans-serif;  text-align:center;  color:#000;padding:40px 15px 0px 0px;}
+
+#BLOCK4 p{font-size:18px;line-height:1.6;font-family:"微軟正黑體", Arial, Helvetica, sans-serif; text-align:center;  color:#000; padding:10px 15px 0px 15px;}
+
+#BLOCK4 #ClientLOGO{ width:100%; display:block; height:auto; margin:20px auto; padding:0px; text-align:center; }
+
+/*---------------按鈕------------------------------*/
+
+
+#btn{ float:left;
+	text-align:center;	
+	font-size:0.9em;
+	line-height:1.5; 
+	font-family:"微軟正黑體", Arial, Helvetica, sans-serif;  
+	width:140px; 
+	height:40px; 
+	margin:30px 0px 20px 65px; 
+	line-height:40px; 
+	letter-spacing:2px;
+	font-weight:bold;
+	}
+
+#btn a{ border-radius:10px 10px 10px 10px; -webkit-border-radius:10px 10px 10px 10px; display:block; color:#fff; text-decoration:none; border:#e94609 solid 2px; background-color:#e94609;}
+#btn a:hover{ color:#e94609; text-decoration:none; background-color:#fff; margin:0 auto; border-bottom:#e94609 solid 2px; border:#e94609 solid 2px; }
+
+#btn2{
+	clear:both;
+	text-align:center;	
+	font-size:0.9em;
+	line-height:1.5; 
+	font-family:"微軟正黑體", Arial, Helvetica, sans-serif;  
+	width:140px; 
+	height:40px; 
+	margin:20px 8px; 
+	line-height:40px; 
+	letter-spacing:2px;
+	font-weight:bold;
+	}
+
+#btn2 a{ border-radius:10px 10px 10px 10px; -webkit-border-radius:10px 10px 10px 10px;display:block; color:#fff; text-decoration:none;border:#2f4253 solid 2px; background-color:#2f4253;}
+#btn2 a:hover{ color:#e80d0d; text-decoration:none; background-color:#fff; margin:0 auto; border-bottom:#e80d0d solid 2px; border:#e80d0d solid 2px; }
+
+
+/*---------------#contact--------------------------*/
+
+#contactTxt {width:900px; height:330px; background-color: #555; padding: 15px 0 0; font-size: 16px; line-height: 30px; font-family: Arial, "微軟正黑體", "新細明體" ;overflow:hidden}
+#contactTxt a {color: #ffffff;}
+#contactTxt a:hover {color: #ffee00;}
+#contactTxt #contactText {width: 960px; margin: 0 auto;}
+#contactTxt #info {width: 400px; color: #fff; font-size: 17px; line-height: 30px; text-align: left; float: left; margin :0px 10px 0px 40px}
+#contactTxt h2 {width: 100%; font-size: 36px; line-height: 36px; color: #fff; margin: 0 0 15px; padding-top: 40px; text-align: left;}
+#contactTxt ul {margin-top: 15px;}
+#contactTxt ul li {padding-left: 30px; line-height: 25px; margin-bottom: 10px;}
+#contactTxt .tel {background: url(../images/02/icons.png) no-repeat left top;}
+#contactTxt .mail {background: url(../images/02/icons.png) no-repeat left -25px;}
+#contactTxt .fb {background: url(../images/02/icons.png) no-repeat left -50px;}
+#contactTxt #iframeForm { width: 410px; float:left; }
+iframe { width: 100%; margin: 0 0 -10px;}
+
+
+
+
+@media screen and (max-width: 768px) {
+	
+/*---手機---WRAPPER-------------------------*/
+#WRAPPER{width:100%;overflow:hidden;
+	height:auto;
+	font-family:Arial, Helvetica, sans-serif;
+	-webkit-text-size-adjust:none;
+	background-color:#CCC;
+
+	background-repeat:no-repeat;
+	background-attachment:fixed;/*當頁面滾動時背景不動*/
+	background-position:center top;/*位置*/
+	background-size: cover;}/*自動伸縮滿版出血*/
+	
+
+/*---手機--article-------------------------*/
+#article{display:block; width:100%; background-color:#ccc;margin:0 auto; font-size:18px; }
+	
+
+#article h1{font-size:2em;line-height:2; color:#666; text-align:center; padding-top:20px; padding-bottom:20px;}
+
+
+/*----手機------#BLOCK1--------------------------*/
+#BLOCK1{ width:100%; height:auto; margin: 0 auto; padding:2% 8%; position: relative; overflow:hidden; background-image:url(../images/02/boxbg_01s.png);display:block; float:left; clear:both;background-color:#e94609; background-repeat:no-repeat; }
+
+#BLOCK1 #LL1{ width:100%; float:left; display:block; margin-top:30px; margin-left:0px;}
+
+#BLOCK1 #LL1 h2{ font-size:1.5em;line-height:1.3;font-family:"微軟正黑體", Arial, Helvetica, sans-serif; width:100%; text-align:left; color: #f9a004;}
+
+#BLOCK1 #LL1 h2 span{ font-size:1.8em; line-height:1.3; font-family:"微軟正黑體", Arial, Helvetica, sans-serif; width:430px; text-align:left; color:#e94609; }
+#BLOCK1 #LL1 p{ font-size:1em; line-height:1.5; font-family:"微軟正黑體", Arial, Helvetica, sans-serif; width:100%; text-align:left; color:#000; padding-top:10px;}
+#BLOCK1 #LL1ul{}
+#BLOCK1 #LL1 ul li{ font-size:0.9em; line-height:1.5;font-family:"微軟正黑體", Arial, Helvetica, sans-serif; width:100%; text-align:justify; padding-top:5px; }
+
+#BLOCK1 #mov2{ width:100%;
+ height:auto;display:block;
+  float:left; margin:30px 0px 0px 0px; 
+}
+
+#BLOCK1 #mov_t{ width:100%; height:auto; display:block; float:left; margin-top:10px;  margin-left:0px;  padding:0 10px;}
+
+
+
+/*----手機-------#BLOCK2--------------------------*/
+#BLOCK2{width:100%; height:auto;
+	background-color:#FAFAFA;
+	background-image:url(../images/02/boxbg_02s.png);
+	background-repeat:no-repeat;clear:both;
+	background-position: left bottom; overflow:hidden; background-color:#fee647; }
+	
+#BLOCK2 #LL2{ width:100%; float:left; display:block; clear:both; margin:0 0 0 0; padding:10% 7% 2% 7%;}	
+	
+#BLOCK2 #LL2 h3{ font-weight:bold; font-size:2em; line-height:1.5; font-family:"微軟正黑體", Arial, Helvetica, sans-serif; text-align:center; color:#000;}
+
+#BLOCK2 #LL2 h3 span{ font-size:1em; line-height:1.5; font-family:"微軟正黑體", Arial, Helvetica, sans-serif; text-align:left; color:#e94609; }
+
+#BLOCK2 #LL2 p{font-size:1em; line-height:1.6;font-family:"微軟正黑體", Arial, Helvetica, sans-serif; text-align:justify;  color:#000; padding:15px 0 0 5px;}
+
+#BLOCK2 #RR2{ width:100%; float:left; display:block; margin:0px 0px; padding:2% 7%; clear:both;}
+
+
+/*----手機-------#BLOCK3--------------------------*/
+#BLOCK3{width:100%; height:auto;
+	background-color:#fb9051;
+	background-repeat:no-repeat;clear:both;
+	background-position:center top;  overflow:hidden; }
+	
+#BLOCK3 #LL3{ width:100%; float:left; display:block; margin:0px 0px; padding:2% 7%; }
+
+#BLOCK3 #RR3{ width:100%; float:left; display:block; margin:0 auto; padding:0% 7% 2% 7%}	
+	
+#BLOCK3 #RR3 h3{ font-weight:bold; font-size:2em; line-height:1.5;font-family:"微軟正黑體", Arial, Helvetica, sans-serif; text-align:center; color: #000;}
+
+#BLOCK3 #RR3 h3 span{ font-size:1em; line-height:1.5; font-family:"微軟正黑體", Arial, Helvetica, sans-serif; text-align:left; color:#fee647; }
+
+
+#BLOCK3 #RR3 p{font-size:1em; line-height:1.6; font-family:"微軟正黑體", Arial, Helvetica, sans-serif; text-align:justify; color:#fff; padding:10px 0 0 5px;}
+
+
+/*----手機--------#BLOCK4--------------------------*/
+#BLOCK4{width:100%; height:auto;
+	background-color:#f4f4f4;
+	background-repeat:no-repeat;clear:both;
+	background-position:center top; overflow:hidden; }
+
+#BLOCK4 h3{font-weight:bold;font-size:1.8em;line-height:1.2;font-family:"微軟正黑體", Arial, Helvetica, sans-serif;  text-align:center;  color:#000;padding:10% 7% 2% 7%}
+
+#BLOCK4 p{font-size:1em; line-height:1.6; font-family:"微軟正黑體", Arial, Helvetica, sans-serif; text-align:justify;  color:#000; padding:2% 7% 2% 7%;}
+#BLOCK4 #ClientLOGO{ width:100%; display:block; height:auto; margin:0 auto; padding:5%; text-align:center; }
+
+/*-----手機-------按鈕------------------------------*/
+
+
+#btn{ clear:both; 
+text-align:center;	
+	font-size:1em;
+	line-height:1.5; 
+	font-family:"微軟正黑體", Arial, Helvetica, sans-serif;  
+	width:100%; 
+	height:50px; 
+	margin: 0 auto;
+	padding:0% 10% 20% 10%;
+	line-height:50px; 
+	letter-spacing:2px;
+	font-weight:bold;
+	}
+
+#btn a{border-radius:10px 10px 10px 10px; -webkit-border-radius:10px 10px 10px 10px;display:block; color:#fff ; text-decoration:none;border:#e94609 solid 2px;background-color:#e94609;}
+#btn a:hover{ color:#e94609 ; text-decoration:none; background-color:#fff; margin:0 auto; border-bottom:#e94609 solid 2px;border:#e94609 solid 2px; }
+
+
+#btn2{ clear:both; 
+text-align:center;	
+	font-size:1em;
+	line-height:1.5; 
+	font-family:"微軟正黑體", Arial, Helvetica, sans-serif;  
+	width:100%; 
+	height:50px; 
+	margin: 0 auto;
+	padding:7% 4% 20% 4%;
+	line-height:50px; 
+	letter-spacing:2px;
+	font-weight:bold;
+	}
+
+#btn2 a{ border-radius:10px 10px 10px 10px; -webkit-border-radius:10px 10px 10px 10px;display:block;  color:#fff ; text-decoration:none;border:#2f4253 solid 2px; background-color:#2f4253;}
+#btn2 a:hover{ color:#e80d0d ; text-decoration:none; background-color:#fff; margin:0 auto; border-bottom:#e80d0d solid 2px;border:#e80d0d solid 2px; }
+
+
+/*----手機-------#contact--------------------------*/
+
+#contactTxt {width:100%; height:auto; display:block;background-color: #555; padding: 2% 7%; font-size: 16px; line-height: 30px; font-family: Arial, "微軟正黑體"; overflow:hidden}
+#contactTxt a {color:#fff;}
+#contactTxt a:hover {color:#ffee00;}
+#contactTxt #contactText {width: 100%; margin: 0 auto;}
+#contactTxt #info {width: 100%; color: #fff; font-size: 17px; line-height: 30px; text-align: left; float: left; margin :0% 0% ; }
+#contactTxt h2 {
+	font-family:"微軟正黑體",Arial, Helvetica, sans-serif!important ;
+width: 100%; font-size: 30px; line-height: 36px; color: #fff; margin: 0 0 15px; padding-top: 40px; text-align: left;}
+#contactTxt ul {margin-top: 15px;}
+#contactTxt ul li {padding-left: 30px; line-height: 25px; margin-bottom: 10px;}
+#contactTxt .tel {background: url(../images/02/icons.png) no-repeat left top;}
+#contactTxt .mail {background: url(../images/02/icons.png) no-repeat left -25px;}
+#contactTxt .fb {background: url(../images/02/icons.png) no-repeat left -50px;}
+#contactTxt #iframeForm { width:100%; float:left; margin :0% 0%}
+iframe { width: 100%; margin:0% 0%; }
+}
+

@@ -1,0 +1,341 @@
+<svg data-name="圖層 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 500">
+  <defs>
+    <clipPath id="a" transform="translate(.38 .38)">
+      <path fill="none" d="M.49.49H900V498.9H.49z"/>
+    </clipPath>
+  </defs>
+  <path fill="#fff" fill-rule="evenodd" d="M.87.87h898.52v498.41H.87V.87z"/>
+  <path fill="none" stroke="#d9d9d9" stroke-linejoin="round" stroke-width=".751" d="M.38.38h899.11v498.47H.38V.38zM79.54 421.06h806.31m-806.31-46.4h806.31m-806.31-46.4h806.31m-806.31-46.4h806.31m-806.31-46.4h806.31M79.54 189.05h806.31m-806.31-46.4h806.31M79.54 96.25h806.31M79.54 49.85h806.31M79.54 467.46h806.31"/>
+  <path fill="none" stroke="#5b9bd5" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.252" d="M99.7 342.32l40.31-12.89M140.01 329.43l40.32 16.75M180.33 346.18h40.31M220.64 346.11h40.32M260.96 345.22l40.31-3.63M301.27 341.59l40.32-8.42M341.59 333.17l40.31-6.15M381.9 327.02l40.32-14.04M422.22 312.98l40.32-11.32M462.54 301.66l40.31-9.03M502.85 292.63l40.32-22.6M543.17 270.03l40.31-27.1M583.48 242.93l40.32-19.46M623.8 223.47l40.31-16.3M664.11 207.17l40.32-21.2M704.43 185.97l40.31-21.89M744.74 164.08l40.32-26.49M785.06 137.59l40.31-12.3M825.37 125.29l40.32-18.59"/>
+  <path d="M96.38 342.38a3.3 3.3 0 1 1 3.3 3.3 3.3 3.3 0 0 1-3.3-3.3" fill="#5b9bd5" fill-rule="evenodd"/>
+  <path d="M96.38 342.38a3.3 3.3 0 1 1 3.3 3.3 3.3 3.3 0 0 1-3.3-3.3" fill="#ff7900" stroke="#ff7900" stroke-miterlimit="10" stroke-width="3"/>
+  <path d="M136.72 329.43a3.3 3.3 0 1 1 3.3 3.3 3.3 3.3 0 0 1-3.3-3.3" fill="#5b9bd5" fill-rule="evenodd"/>
+  <path d="M136.72 329.43a3.3 3.3 0 1 1 3.3 3.3 3.3 3.3 0 0 1-3.3-3.3" fill="#ff7900" stroke="#ff7900" stroke-miterlimit="10" stroke-width="3"/>
+  <path d="M177.04 346.18a3.3 3.3 0 1 1 3.29 3.3 3.29 3.29 0 0 1-3.29-3.3" fill="#5b9bd5" fill-rule="evenodd"/>
+  <path d="M177.04 346.18a3.3 3.3 0 1 1 3.29 3.3 3.29 3.29 0 0 1-3.29-3.3" fill="#ff7900" stroke="#ff7900" stroke-miterlimit="10" stroke-width="3"/>
+  <path d="M217.38 346.12a3.3 3.3 0 1 1 3.3 3.3 3.3 3.3 0 0 1-3.3-3.3" fill="#5b9bd5" fill-rule="evenodd"/>
+  <path d="M217.38 346.12a3.3 3.3 0 1 1 3.3 3.3 3.3 3.3 0 0 1-3.3-3.3" fill="#ff7900" stroke="#ff7900" stroke-miterlimit="10" stroke-width="3"/>
+  <path d="M257.67 345.22a3.3 3.3 0 1 1 3.29 3.3 3.29 3.29 0 0 1-3.29-3.3" fill="#5b9bd5" fill-rule="evenodd"/>
+  <path d="M257.67 345.22a3.3 3.3 0 1 1 3.29 3.3 3.29 3.29 0 0 1-3.29-3.3" fill="#ff7900" stroke="#ff7900" stroke-miterlimit="10" stroke-width="3"/>
+  <path d="M297.98 341.59a3.3 3.3 0 1 1 3.3 3.3 3.3 3.3 0 0 1-3.3-3.3" fill="#5b9bd5" fill-rule="evenodd"/>
+  <path d="M297.98 341.59a3.3 3.3 0 1 1 3.3 3.3 3.3 3.3 0 0 1-3.3-3.3" fill="#ff7900" stroke="#ff7900" stroke-miterlimit="10" stroke-width="3"/>
+  <path d="M338.3 333.17a3.3 3.3 0 1 1 3.29 3.3 3.29 3.29 0 0 1-3.29-3.3" fill="#5b9bd5" fill-rule="evenodd"/>
+  <path d="M338.3 333.17a3.3 3.3 0 1 1 3.29 3.3 3.29 3.29 0 0 1-3.29-3.3" fill="#ff7900" stroke="#ff7900" stroke-miterlimit="10" stroke-width="3"/>
+  <path d="M378.61 327.02a3.3 3.3 0 1 1 3.3 3.3 3.3 3.3 0 0 1-3.3-3.3" fill="#5b9bd5" fill-rule="evenodd"/>
+  <path d="M378.61 327.02a3.3 3.3 0 1 1 3.3 3.3 3.3 3.3 0 0 1-3.3-3.3" fill="#ff7900" stroke="#ff7900" stroke-miterlimit="10" stroke-width="3"/>
+  <path d="M418.93 312.98a3.3 3.3 0 1 1 3.3 3.3 3.29 3.29 0 0 1-3.3-3.3" fill="#5b9bd5" fill-rule="evenodd"/>
+  <path d="M418.93 312.98a3.3 3.3 0 1 1 3.3 3.3 3.29 3.29 0 0 1-3.3-3.3" fill="#ff7900" stroke="#ff7900" stroke-miterlimit="10" stroke-width="3"/>
+  <path d="M459.24 301.67a3.3 3.3 0 1 1 3.3 3.3 3.3 3.3 0 0 1-3.3-3.3" fill="#5b9bd5" fill-rule="evenodd"/>
+  <path d="M459.24 301.67a3.3 3.3 0 1 1 3.3 3.3 3.3 3.3 0 0 1-3.3-3.3" fill="#ff7900" stroke="#ff7900" stroke-miterlimit="10" stroke-width="3"/>
+  <path d="M499.56 292.64a3.3 3.3 0 1 1 3.3 3.3 3.3 3.3 0 0 1-3.3-3.3" fill="#5b9bd5" fill-rule="evenodd"/>
+  <path d="M499.56 292.64a3.3 3.3 0 1 1 3.3 3.3 3.3 3.3 0 0 1-3.3-3.3" fill="#ff7900" stroke="#ff7900" stroke-miterlimit="10" stroke-width="3"/>
+  <path d="M539.87 270.03a3.3 3.3 0 1 1 3.3 3.3 3.3 3.3 0 0 1-3.3-3.3" fill="#5b9bd5" fill-rule="evenodd"/>
+  <path d="M539.87 270.03a3.3 3.3 0 1 1 3.3 3.3 3.3 3.3 0 0 1-3.3-3.3" fill="#ff7900" stroke="#ff7900" stroke-miterlimit="10" stroke-width="3"/>
+  <path d="M580.19 242.94a3.3 3.3 0 1 1 3.3 3.3 3.3 3.3 0 0 1-3.3-3.3" fill="#5b9bd5" fill-rule="evenodd"/>
+  <path d="M580.19 242.94a3.3 3.3 0 1 1 3.3 3.3 3.3 3.3 0 0 1-3.3-3.3" fill="#ff7900" stroke="#ff7900" stroke-miterlimit="10" stroke-width="3"/>
+  <path d="M620.51 223.48a3.3 3.3 0 1 1 3.29 3.3 3.29 3.29 0 0 1-3.29-3.3" fill="#5b9bd5" fill-rule="evenodd"/>
+  <path d="M620.51 223.48a3.3 3.3 0 1 1 3.29 3.3 3.29 3.29 0 0 1-3.29-3.3" fill="#ff7900" stroke="#ff7900" stroke-miterlimit="10" stroke-width="3"/>
+  <path d="M660.82 207.18a3.3 3.3 0 1 1 3.3 3.3 3.3 3.3 0 0 1-3.3-3.3" fill="#5b9bd5" fill-rule="evenodd"/>
+  <path d="M660.82 207.18a3.3 3.3 0 1 1 3.3 3.3 3.3 3.3 0 0 1-3.3-3.3" fill="#ff7900" stroke="#ff7900" stroke-miterlimit="10" stroke-width="3"/>
+  <path d="M701.14 185.97a3.3 3.3 0 1 1 3.29 3.3 3.29 3.29 0 0 1-3.29-3.3" fill="#5b9bd5" fill-rule="evenodd"/>
+  <path d="M701.14 185.97a3.3 3.3 0 1 1 3.29 3.3 3.29 3.29 0 0 1-3.29-3.3" fill="#ff7900" stroke="#ff7900" stroke-miterlimit="10" stroke-width="3"/>
+  <path d="M741.45 164.09a3.3 3.3 0 1 1 3.3 3.3 3.3 3.3 0 0 1-3.3-3.3" fill="#5b9bd5" fill-rule="evenodd"/>
+  <path d="M741.45 164.09a3.3 3.3 0 1 1 3.3 3.3 3.3 3.3 0 0 1-3.3-3.3" fill="#ff7900" stroke="#ff7900" stroke-miterlimit="10" stroke-width="3"/>
+  <path d="M781.77 137.6a3.3 3.3 0 1 1 3.29 3.3 3.29 3.29 0 0 1-3.29-3.3" fill="#5b9bd5" fill-rule="evenodd"/>
+  <path d="M781.77 137.6a3.3 3.3 0 1 1 3.29 3.3 3.29 3.29 0 0 1-3.29-3.3" fill="#ff7900" stroke="#ff7900" stroke-miterlimit="10" stroke-width="3"/>
+  <path d="M822.08 125.29a3.3 3.3 0 1 1 3.3 3.3 3.3 3.3 0 0 1-3.3-3.3" fill="#5b9bd5" fill-rule="evenodd"/>
+  <path d="M822.08 125.29a3.3 3.3 0 1 1 3.3 3.3 3.3 3.3 0 0 1-3.3-3.3" fill="#ff7900" stroke="#ff7900" stroke-miterlimit="10" stroke-width="3"/>
+  <path d="M862.38 106.71a3.3 3.3 0 1 1 3.29 3.3 3.29 3.29 0 0 1-3.29-3.3" fill="#5b9bd5" fill-rule="evenodd"/>
+  <path d="M862.38 106.71a3.3 3.3 0 1 1 3.29 3.3 3.29 3.29 0 0 1-3.29-3.3" fill="#ff7900" stroke="#ff7900" stroke-miterlimit="10" stroke-width="3"/>
+  <g clip-path="url(#a)">
+    <text transform="translate(88.05 321.36)" font-size="11.82" fill="#404040" font-family="Arial-BoldMT,Arial" font-weight="700">
+      269682126
+    </text>
+  </g>
+  <g clip-path="url(#a)">
+    <text transform="translate(352.38 313.54)" font-size="11.82" fill="#404040" font-family="Arial-BoldMT,Arial" font-weight="700">
+      302665654
+    </text>
+  </g>
+  <g clip-path="url(#a)">
+    <text transform="translate(513.64 256.54)" font-size="11.82" fill="#404040" font-family="Arial-BoldMT,Arial" font-weight="700">
+      425486624
+    </text>
+  </g>
+  <g clip-path="url(#a)">
+    <text transform="translate(594.27 210)" font-size="11.82" fill="#404040" font-family="Arial-BoldMT,Arial" font-weight="700">
+      525813596
+    </text>
+  </g>
+  <g clip-path="url(#a)">
+    <text transform="translate(659.21 170.6)" font-size="11.82" fill="#404040" font-family="Arial-BoldMT,Arial" font-weight="700">
+      606642793
+    </text>
+  </g>
+  <g clip-path="url(#a)">
+    <text transform="translate(755.53 124.1)" font-size="11.82" fill="#404040" font-family="Arial-BoldMT,Arial" font-weight="700">
+      710901271
+    </text>
+  </g>
+  <g clip-path="url(#a)">
+    <text transform="translate(834.53 93.23)" font-size="11.82" fill="#404040" font-family="Arial-BoldMT,Arial" font-weight="700">
+      777467404
+    </text>
+  </g>
+  <g clip-path="url(#a)">
+    <text transform="translate(65.85 471.36)" font-size="11.82" fill="#595959" font-family="Calibri">
+      0
+    </text>
+  </g>
+  <g clip-path="url(#a)">
+    <text transform="translate(18.09 424.94)" font-size="11.82" fill="#595959" font-family="Calibri" letter-spacing="-.001em">
+      10000000<tspan x="47.83" y="0" letter-spacing="0em">0</tspan>
+    </text>
+  </g>
+  <g clip-path="url(#a)">
+    <text transform="translate(18.09 378.58)" font-size="11.82" fill="#595959" font-family="Calibri" letter-spacing="-.001em">
+      20000000<tspan x="47.83" y="0" letter-spacing="0em">0</tspan>
+    </text>
+  </g>
+  <g clip-path="url(#a)">
+    <text transform="translate(18.09 332.15)" font-size="11.82" fill="#595959" font-family="Calibri" letter-spacing="-.001em">
+      30000000<tspan x="47.83" y="0" letter-spacing="0em">0</tspan>
+    </text>
+  </g>
+  <g clip-path="url(#a)">
+    <text transform="translate(18.09 285.79)" font-size="11.82" fill="#595959" font-family="Calibri" letter-spacing="-.001em">
+      40000000<tspan x="47.83" y="0" letter-spacing="0em">0</tspan>
+    </text>
+  </g>
+  <g clip-path="url(#a)">
+    <text transform="translate(18.09 239.36)" font-size="11.82" fill="#595959" font-family="Calibri" letter-spacing="-.001em">
+      50000000<tspan x="47.83" y="0" letter-spacing="0em">0</tspan>
+    </text>
+  </g>
+  <g clip-path="url(#a)">
+    <text transform="translate(18.09 192.93)" font-size="11.82" fill="#595959" font-family="Calibri" letter-spacing="-.001em">
+      60000000<tspan x="47.83" y="0" letter-spacing="0em">0</tspan>
+    </text>
+  </g>
+  <g clip-path="url(#a)">
+    <text transform="translate(18.09 146.58)" font-size="11.82" fill="#595959" font-family="Calibri" letter-spacing="-.001em">
+      70000000<tspan x="47.83" y="0" letter-spacing="0em">0</tspan>
+    </text>
+  </g>
+  <g clip-path="url(#a)">
+    <text transform="translate(18.09 100.15)" font-size="11.82" fill="#595959" font-family="Calibri" letter-spacing="-.001em">
+      80000000<tspan x="47.83" y="0" letter-spacing="0em">0</tspan>
+    </text>
+  </g>
+  <g clip-path="url(#a)">
+    <text transform="translate(18.09 53.78)" font-size="11.82" fill="#595959" font-family="Calibri" letter-spacing="-.001em">
+      90000000<tspan x="47.83" y="0" letter-spacing="0em">0</tspan>
+    </text>
+  </g>
+  <g clip-path="url(#a)">
+    <text transform="translate(87.81 486.25)" font-size="11.82" fill="#595959" font-family="Calibri">
+      <tspan letter-spacing="-.001em">8</tspan><tspan x="5.98" y="0">8</tspan>
+    </text>
+  </g>
+  <g clip-path="url(#a)">
+    <text transform="translate(99.74 486.25)" font-size="11.82" fill="#595959" font-family="PMingLiU">
+      年
+    </text>
+  </g>
+  <g clip-path="url(#a)">
+    <text transform="translate(128.09 486.25)" font-size="11.82" fill="#595959" font-family="Calibri">
+      <tspan letter-spacing="-.001em">8</tspan><tspan x="5.98" y="0">9</tspan>
+    </text>
+  </g>
+  <g clip-path="url(#a)">
+    <text transform="translate(140.03 486.25)" font-size="11.82" fill="#595959" font-family="PMingLiU">
+      年
+    </text>
+  </g>
+  <g clip-path="url(#a)">
+    <text transform="translate(168.44 486.25)" font-size="11.82" fill="#595959" font-family="Calibri">
+      <tspan letter-spacing="-.001em">9</tspan><tspan x="5.98" y="0">0</tspan>
+    </text>
+  </g>
+  <g clip-path="url(#a)">
+    <text transform="translate(180.38 486.25)" font-size="11.82" fill="#595959" font-family="PMingLiU">
+      年
+    </text>
+  </g>
+  <g clip-path="url(#a)">
+    <text transform="translate(208.73 486.25)" font-size="11.82" fill="#595959" font-family="Calibri">
+      <tspan letter-spacing="-.001em">9</tspan><tspan x="5.98" y="0">1</tspan>
+    </text>
+  </g>
+  <g clip-path="url(#a)">
+    <text transform="translate(220.67 486.25)" font-size="11.82" fill="#595959" font-family="PMingLiU">
+      年
+    </text>
+  </g>
+  <g clip-path="url(#a)">
+    <text transform="translate(249.08 486.25)" font-size="11.82" fill="#595959" font-family="Calibri">
+      <tspan letter-spacing="-.001em">9</tspan><tspan x="5.98" y="0">2</tspan>
+    </text>
+  </g>
+  <g clip-path="url(#a)">
+    <text transform="translate(261.01 486.25)" font-size="11.82" fill="#595959" font-family="PMingLiU">
+      年
+    </text>
+  </g>
+  <g clip-path="url(#a)">
+    <text transform="translate(289.35 486.25)" font-size="11.82" fill="#595959" font-family="Calibri">
+      <tspan letter-spacing="-.001em">9</tspan><tspan x="5.98" y="0">3</tspan>
+    </text>
+  </g>
+  <g clip-path="url(#a)">
+    <text transform="translate(301.3 486.25)" font-size="11.82" fill="#595959" font-family="PMingLiU">
+      年
+    </text>
+  </g>
+  <g clip-path="url(#a)">
+    <text transform="translate(329.71 486.25)" font-size="11.82" fill="#595959" font-family="Calibri">
+      <tspan letter-spacing="-.001em">9</tspan><tspan x="5.98" y="0">4</tspan>
+    </text>
+  </g>
+  <g clip-path="url(#a)">
+    <text transform="translate(341.65 486.25)" font-size="11.82" fill="#595959" font-family="PMingLiU">
+      年
+    </text>
+  </g>
+  <g clip-path="url(#a)">
+    <text transform="translate(369.99 486.25)" font-size="11.82" fill="#595959" font-family="Calibri">
+      <tspan letter-spacing="-.001em">9</tspan><tspan x="5.98" y="0">5</tspan>
+    </text>
+  </g>
+  <g clip-path="url(#a)">
+    <text transform="translate(381.94 486.25)" font-size="11.82" fill="#595959" font-family="PMingLiU">
+      年
+    </text>
+  </g>
+  <g clip-path="url(#a)">
+    <text transform="translate(410.34 486.25)" font-size="11.82" fill="#595959" font-family="Calibri">
+      <tspan letter-spacing="-.001em">9</tspan><tspan x="5.98" y="0">6</tspan>
+    </text>
+  </g>
+  <g clip-path="url(#a)">
+    <text transform="translate(422.29 486.25)" font-size="11.82" fill="#595959" font-family="PMingLiU">
+      年
+    </text>
+  </g>
+  <g clip-path="url(#a)">
+    <text transform="translate(450.62 486.25)" font-size="11.82" fill="#595959" font-family="Calibri">
+      <tspan letter-spacing="-.001em">9</tspan><tspan x="5.98" y="0">7</tspan>
+    </text>
+  </g>
+  <g clip-path="url(#a)">
+    <text transform="translate(462.57 486.25)" font-size="11.82" fill="#595959" font-family="PMingLiU">
+      年
+    </text>
+  </g>
+  <g clip-path="url(#a)">
+    <text transform="translate(490.91 486.25)" font-size="11.82" fill="#595959" font-family="Calibri">
+      <tspan letter-spacing="-.001em">9</tspan><tspan x="5.98" y="0">8</tspan>
+    </text>
+  </g>
+  <g clip-path="url(#a)">
+    <text transform="translate(502.85 486.25)" font-size="11.82" fill="#595959" font-family="PMingLiU">
+      年
+    </text>
+  </g>
+  <g clip-path="url(#a)">
+    <text transform="translate(531.26 486.25)" font-size="11.82" fill="#595959" font-family="Calibri">
+      <tspan letter-spacing="-.001em">9</tspan><tspan x="5.98" y="0">9</tspan>
+    </text>
+  </g>
+  <g clip-path="url(#a)">
+    <text transform="translate(543.2 486.25)" font-size="11.82" fill="#595959" font-family="PMingLiU">
+      年
+    </text>
+  </g>
+  <g clip-path="url(#a)">
+    <text transform="translate(568.6 486.25)" font-size="11.82" fill="#595959" font-family="Calibri" letter-spacing="-.001em">
+      10<tspan x="11.96" y="0" letter-spacing="0em">0</tspan>
+    </text>
+  </g>
+  <g clip-path="url(#a)">
+    <text transform="translate(586.5 486.25)" font-size="11.82" fill="#595959" font-family="PMingLiU">
+      年
+    </text>
+  </g>
+  <g clip-path="url(#a)">
+    <text transform="translate(608.87 486.25)" font-size="11.82" fill="#595959" font-family="Calibri" letter-spacing="-.001em">
+      10<tspan x="11.96" y="0" letter-spacing="0em">1</tspan>
+    </text>
+  </g>
+  <g clip-path="url(#a)">
+    <text transform="translate(626.78 486.25)" font-size="11.82" fill="#595959" font-family="PMingLiU">
+      年
+    </text>
+  </g>
+  <g clip-path="url(#a)">
+    <text transform="translate(649.22 486.25)" font-size="11.82" fill="#595959" font-family="Calibri" letter-spacing="-.001em">
+      10<tspan x="11.96" y="0" letter-spacing="0em">2</tspan>
+    </text>
+  </g>
+  <g clip-path="url(#a)">
+    <text transform="translate(667.13 486.25)" font-size="11.82" fill="#595959" font-family="PMingLiU">
+      年
+    </text>
+  </g>
+  <g clip-path="url(#a)">
+    <text transform="translate(689.51 486.25)" font-size="11.82" fill="#595959" font-family="Calibri" letter-spacing="-.001em">
+      10<tspan x="11.96" y="0" letter-spacing="0em">3</tspan>
+    </text>
+  </g>
+  <g clip-path="url(#a)">
+    <text transform="translate(707.42 486.25)" font-size="11.82" fill="#595959" font-family="PMingLiU">
+      年
+    </text>
+  </g>
+  <g clip-path="url(#a)">
+    <text transform="translate(729.86 486.25)" font-size="11.82" fill="#595959" font-family="Calibri" letter-spacing="-.001em">
+      10<tspan x="11.96" y="0" letter-spacing="0em">4</tspan>
+    </text>
+  </g>
+  <g clip-path="url(#a)">
+    <text transform="translate(747.77 486.25)" font-size="11.82" fill="#595959" font-family="PMingLiU">
+      年
+    </text>
+  </g>
+  <g clip-path="url(#a)">
+    <text transform="translate(770.15 486.25)" font-size="11.82" fill="#595959" font-family="Calibri" letter-spacing="-.001em">
+      10<tspan x="11.96" y="0" letter-spacing="0em">5</tspan>
+    </text>
+  </g>
+  <g clip-path="url(#a)">
+    <text transform="translate(788.06 486.25)" font-size="11.82" fill="#595959" font-family="PMingLiU">
+      年
+    </text>
+  </g>
+  <g clip-path="url(#a)">
+    <text transform="translate(810.49 486.25)" font-size="11.82" fill="#595959" font-family="Calibri" letter-spacing="-.001em">
+      10<tspan x="11.96" y="0" letter-spacing="0em">6</tspan>
+    </text>
+  </g>
+  <g clip-path="url(#a)">
+    <text transform="translate(828.41 486.25)" font-size="11.82" fill="#595959" font-family="PMingLiU">
+      年
+    </text>
+  </g>
+  <g clip-path="url(#a)">
+    <text transform="translate(850.78 486.25)" font-size="11.82" fill="#595959" font-family="Calibri" letter-spacing="-.001em">
+      10<tspan x="11.96" y="0" letter-spacing="0em">7</tspan>
+    </text>
+  </g>
+  <g clip-path="url(#a)">
+    <text transform="translate(868.69 486.25)" font-size="11.82" fill="#595959" font-family="PMingLiU">
+      年
+    </text>
+  </g>
+  <g clip-path="url(#a)">
+    <text transform="translate(321.33 28.22)" font-size="18.715" fill="#595959">
+      <tspan letter-spacing="-.017em">餐飲業營業額統計（單位千元</tspan><tspan x="239.16" y="0">）</tspan>
+    </text>
+  </g>
+  <path fill="none" stroke="#d9d9d9" stroke-linejoin="round" stroke-width=".751" d="M.38.38h899.11v498.47H.38V.38z"/>
+</svg>

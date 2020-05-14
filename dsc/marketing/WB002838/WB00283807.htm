@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="description" content="訂單多樣少量，需要頻繁更換生產線，何時能交貨？經常遇到客戶急單、抽插單頻繁怎麼辦？客戶驗廠，品質履歷怎麼追溯？庫存管理不精準，帳戶不清楚，上千上萬零件盤點耗時?讓工廠管理即時監控生產資訊，第一步就做對！">
+    <meta name="robots" content="index,follow">
+    <meta name="author" content="鼎新電腦">
+    <meta name="keywords" content="MES,工廠管理,製程溯源,在製品管制,報工,品質控管,設備整合,設備稼動">
+    <title>鼎新電腦-製造業現場面臨生產管理三不盲點！訂單進度追蹤不確定、不知道、不清楚怎麼辦？</title>
+    <link rel="stylesheet" href="/tw/dsc/Library/css/bar_m.css">
+    <link rel="stylesheet" href="/tw/dsc/plugins/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/tw/dsc/css/Eform/xcConfirm.css">
+    <script src="assets/jquery.min.js"></script>
+    <script src="https://polyfill.io/v3/polyfill.js?features=es5,es6,es7&amp;flags=gated"></script>
+    <script src="/tw/dsc/assets/fetch-polyfill.js" defer></script>
+    <script src="/tw/dsc/Library/js/menu_m.js" defer></script>
+    <script src="/tw/dsc/js/EDMendBanner.js" defer></script>
+    <script src="/tw/dsc/js/Eform/xcConfirm.js" defer></script>
+    <script src="/tw/dsc/js/Eform/form.js" defer></script>
+    <script src="/tw/dsc/js/contact.js" defer></script>
+    <script src="/tw/dsc/assets/vuejs/vue-all.js"></script>
+    <script src="/tw/dsc/assets/mobile-detect.js"></script>
+    <script src="/tw/dsc/assets/ad/dayjs/dayjs.min.js"></script>
+    <script src="/tw/dsc/assets/ad/dayjs/isBetween.js"></script>
+    <script src="/tw/dsc/js/common.min.js"></script>
+    <!-- Google Tag Manager-->
+    <script>
+      (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+      new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+      j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+      'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+      })(window,document,'script','dataLayer','GTM-MRWJL2');
+    </script>
+    <!-- End Google Tag Manager-->
+    <link rel="stylesheet" href="assets/animate.css">
+    <link rel="stylesheet" href="assets/swiper.css">
+    <link rel="stylesheet" href="css/WB00283807.css">
+    <script src="assets/modernizr-custom.js" defer></script>
+    <script src="assets/mobile-detect.js" defer></script>
+    <script src="assets/mobile-detect-modernizr.js" defer></script>
+    <script src="assets/picturefill.js" defer></script>
+    <script src="assets/lodash.js" defer></script>
+    <script src="assets/jquery.sticky.js" defer></script>
+    <script src="assets/jquery.navScroll.js" defer></script>
+    <script src="assets/jquery-ui-1.12.1.custom/jquery-ui.min.js" defer></script>
+    <script src="assets/swiper.js" defer></script>
+    <script src="assets/polyfill.min.js" defer></script>
+    <script src="assets/fetch.umd.js" defer></script>
+    <script src="js/common.min.js" defer></script>
+    <script src="js/WB00283807.min.js" defer></script>
+  </head>
+  <body>
+    <!-- Google Tag Manager (noscript)-->
+    <noscript>
+      <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MRWJL2" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+    </noscript>
+    <!-- End Google Tag Manager (noscript)-->
+    <div id="TOP-MENU">
+      <h4 id="LOGO_M">鼎新電腦</h4>
+      <h5 id="BTN">MENU</h5>
+    </div>
+    <div id="nav"><a href="https://www.digiwin.com/tw/" target="_blank"><img class="logo" src="https://www.digiwin.com/tw/dsc/Library/images/logo.png" alt="鼎新官網" width="90" height="29"></a>
+      <ul class="link">
+        <li class="line_L"><a href="https://www.digiwin.com/tw/activity.html" target="_blank">最新課程</a></li>
+        <li><a href="https://www.digiwin.com/tw/enewspaper.html" target="_blank">電子報</a></li>
+        <li><a href="javascript:;">解決方案<img src="https://www.digiwin.com/tw/dsc/Library/images/arr.png" width="9" height="7"></a>
+          <ul class="subLink">
+            <li><a href="https://www.digiwin.com/tw/case.html" target="_blank">E化案例</a></li>
+          </ul>
+        </li>
+        <li><a href="https://www.youtube.com/user/DSCTCE00" target="_blank">YouTube<img src="https://www.digiwin.com/tw/dsc/Library/images/arr.png" width="9" height="7"></a>
+          <ul class="subLink">
+            <li><a href="https://www.facebook.com/DSCmain" target="_blank">鼎新粉絲團</a></li>
+            <li><a href="https://www.digiwin.com/tw/dsc/service/WB002588/WB00258801.html" target="_blank">心服務新價值</a></li>
+            <li><a href="https://a1.digiwin.com/" target="_blank">商務應用雲</a></li>
+            <li><a href="https://www.digiwin.com/tw/dsc/service/WB002903/web/WB00290301_index.htm" target="_blank">鼎新服務雲</a></li>
+          </ul>
+        </li>
+        <li class="Phone"><a href="https://www.digiwin.com/tw/contact/eform.html"><img src="https://www.digiwin.com/tw/dsc/Library/images/phoneIcon.png" width="16" height="12"> 0800-888-162</a></li>
+      </ul>
+    </div>
+    <ul class="mbnav">
+      <li><a class="mbnav-link" href="tel:0800009890">直接來電</a></li>
+      <li><a class="mbnav-link cami_system_elasticity cami_system_dp_492096d1">線上客服</a></li>
+      <li><a class="mbnav-link js-nav" href="#contact">填寫表單</a></li>
+    </ul><article id="section1" class="section1">
+    <div class="container">
+        <img src="images/07/section1-bg-s.jpg" class="section1-bg-s" alt="">
+
+        <div class="section1-cover-wrap">
+            <div class="section1-cover">
+                <h1 class="section1-cover-title">
+                    製造現場一團亂<br>
+                    尋找<strong>一張訂單的旅程</strong><br>
+                    有如在黑暗中摸索前進
+                </h1>
+                <div class="spotlight"></div>
+            </div>
+        </div>
+
+        <div class="section1-content-wrap">
+            <ul id="section1-content" class="section1-content">
+                <li class="active" data-title="供應商送貨收料時間長，錯發與漏發頻繁，雖然還沒入庫但也只能趕送現場！"><a href="javascript:;"></a></li>
+                <li data-title="貨物資料獲取困難，人工盤點耗時還長，漏洞百出。"><a href="javascript:;"></a></li>
+                <li data-title="物料太多，領料發料節奏快，人工領料常出錯，物料過期報廢損失太大！"><a href="javascript:;"></a></li>
+                <li data-title="生產現場不透明，排程無法管控，人力成本與，生產成本高居不下。"><a href="javascript:;"></a></li>
+                <li data-title="帳實不符，貨物流轉慢，入庫耗時耗力，管控困難。"><a href="javascript:;"></a></li>
+                <li data-title="倉庫物料堆放雜亂，找貨理貨成難題，就算連夜加班也盤點不完！"><a href="javascript:;"></a></li>
+                <li data-title="出貨時間長，還經常錯發漏發，客戶等著收貨，貨物卻遲遲無法發出！"><a href="javascript:;"></a></li>
+            </ul>
+        </div>
+
+        <a href="javascript:;" id="section1-switch" class="section1-switch">開燈查看</a>
+        <a href="#section2" id="section1-next" class="section1-next js-nav"></a>
+    </div>
+</article>
+
+<article id="section2" class="section2">
+    <div class="container">
+        <h1 class="title">製造業現場面臨生產管理<strong>三不盲點</strong></h1>
+        <h2 class="subtitle">急單交期短、訂單變更频繁怎辦？<br>客戶驗廠，品質履歷怎麼追溯？<br>如何即時監控生產資訊?</h2>
+        <ul class="section2-problem">
+            <li>生產訂單不能完成，為什麼總是最後一個知道？</li>
+            <li>生產訂單為什麼沒有完成？</li>
+            <li>訂單變更什麼時候完成？</li>
+            <li>客戶反應產品問題，如何追溯品質問題？</li>
+            <li>成本有沒有控管？</li>
+        </ul>
+        <ul class="section2-solution">
+            <li>
+                <div class="section2-before">
+                    <p>不確定</p>
+                    <p>生產資訊不透明，紙本作業，不確定製程進度？訂單何時能交貨，客戶急單、抽插單頻繁，打亂原定生產計劃。</p>
+                    <p>+ 解決方案</p>
+                </div>
+                <div class="section2-after">
+                    <p>現場即時追蹤可視化管理</p>
+                    <p>電子看板提供訂單進度，工單生產狀況、製程進度、良率狀況、缺料資訊、機台狀態，各級人員接能輕易一鍵查詢現場進度。</p>
+                    <a class="js-nav" href="#contact">了解更多</a>
+                </div>
+            </li>
+            <li>
+                <div class="section2-before">
+                    <p>不知道</p>
+                    <p>不知道機台稼動狀況，混線生產是否原物料缺料，人員與機台的數量與時間配置狀況。</p>
+                    <p>+ 解決方案</p>
+                </div>
+                <div class="section2-after">
+                    <p>趕交期機台稼動不閒置、派工不重工</p>
+                    <p>即時監控機台生產狀態，改善產能利用率，追蹤人員調派履歷、派工狀態，降低過去人為錯誤，加快訂單交期。</p>
+                    <a class="js-nav" href="#contact">了解更多</a>
+                </div>
+            </li>
+            <li>
+                <div class="section2-before">
+                    <p>不清楚</p>
+                    <p>不清楚不良品問題原因，一旦追出有瑕疵的半成品或成品，無法及時掌握哪一機台、哪一道工序出問題。</p>
+                    <p>+ 解決方案</p>
+                </div>
+                <div class="section2-after">
+                    <p>快速立即的產品溯源</p>
+                    <p>客戶反應產品問題，透過批號立即回溯哪批原材料？走過幾道製程？經手那些機台生產？那報工的人員？快速找出產品異常原因。</p>
+                    <a class="js-nav" href="#contact">了解更多</a>
+                </div>
+            </li>
+        </ul>
+    </div>
+</article>
+
+<article class="section3">
+    <div class="container">
+        <h1 class="title">別人的工廠是如何做到的?</h1>
+        <div class="section3-video">
+            <div class="section3-iframe">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/bLHRvupqPHY?rel=0&amp;showinfo=0"
+                    frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            </div>
+        </div>
+        <ul class="section3-list">
+            <li>
+                <p>1.可以降低成本嗎？</p>
+                <p>庫存成本減少20%，營業額成長1.5倍</p>
+                <p>製造現場效率生產</p>
+            </li>
+            <li>
+                <p>2.可以追蹤不良品嗎？</p>
+                <p>品質良率提升50%</p>
+                <p>可視化現場，即時掌控良品數量、生產工時及完工比率 </p>
+            </li>
+            <li>
+                <p>3.減少繁複的人工作業</p>
+                <p>投入人力0</p>
+                <p>系統自動計算各產品的良率、不良率分析，減少Excel人工作業疏忽</p>
+            </li>
+            <li>
+                <p>4.生產有更大的彈性？</p>
+                <p>生產效率提升30%</p>
+                <p>透過電子看板，因應狀況調整機台稼動、人員派工以及停滯短缺異常管理</p>
+            </li>
+        </ul>
+    </div>
+</article>
+
+<article class="section4">
+    <div class="container">
+        <h1 class="title">工廠大作戰！解決您製造現場困擾！</h1>
+        <ul class="section4-nav">
+            <li><a href="" class="js-industry-nav" data-target="electronic" data-offset="10">電子業</a></li>
+            <li><a href="" class="js-industry-nav" data-target="mechanical" data-offset="10">機械業</a></li>
+            <li><a href="" class="js-industry-nav" data-target="plastic" data-offset="10">塑膠業</a></li>
+            <li><a href="" class="js-industry-nav" data-target="metal" data-offset="10">交通業</a></li>
+        </ul>
+
+        <!-- vue element(pc) -->
+        <div id="section4-industry" class="section4-industry">
+            <template v-for="(result, index) in results">
+                <section class="section4-tabs">
+                    <div :class="'section4-tabs-title js-' + result.type">
+                        <h1>{{result.name}}</h1>
+                    </div>
+                    <div class="section4-content js-tabs">
+                        <div class="section4-required">
+                            <p class="section4-required-title">產業需求</p>
+                            <ul class="section4-required-list">
+                                <li v-for="(solution, index) in result.solution">
+                                    <a class="js-tabs-anchor" :href="'#tabs-' + index">
+                                        <p v-html="solution.require"></p>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div v-for="(solution, index) in result.solution" :id="'tabs-' + index" class="section4-solution">
+                            <p class="section4-solution-title">解決方案</p>
+                            <p class="section4-solution-description">{{solution.description}}</p>
+                            <!-- carousel -->
+                            <div class="swiper-container">
+                                <div class="swiper-wrapper" :class="{disabled: isDisabled(solution.illust)}">
+                                    <figure v-for="(illust, key) in solution.illust" class="swiper-slide">
+                                        <img :src="'images/07/carousel/' + key + '.jpg'" :alt="illust">
+                                        <figcaption>▲{{illust}}</figcaption>
+                                    </figure>
+                                </div>
+                                <div v-show="Object.keys(solution.illust).length !== 1" class="swiper-pagination"></div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <ul class="section4-btns">
+                    <li><a class="section4-contact js-nav" href="#contact">想了解更多製造現場，詢問我們</a></li>
+                    <li><a class="section4-contact" :href="result.url" target="_blank">了解更多{{result.name}}</a></li>
+                </ul>
+            </template>
+        </div>
+
+        <!-- vue element(mobile) -->
+        <div id="section4-industry-mb" class="section4-industry-mb">
+            <template v-for="result in results">
+                <section :class="'section4-accordion js-' + result.type">
+                    <div class="section4-tabs-title">
+                        <h1>{{result.name}}</h1>
+                    </div>
+                    <div class="section4-required">
+                        <p class="section4-required-title">產業需求</p>
+                        <div class="js-accordion">
+                            <template v-for="solution in result.solution">
+                                <h2 class="section4-required-description">
+                                    <p v-html="solution.require"></p>
+                                </h2>
+                                <div class="section4-solution">
+                                    <p class="section4-solution-title">解決方案</p>
+                                    <p class="section4-solution-description">{{solution.description}}</p>
+                                    <!-- carousel -->
+                                    <div class="swiper-container">
+                                        <div class="swiper-wrapper" :class="{disabled: isDisabled(solution.illust)}">
+                                            <figure v-for="(illust, key) in solution.illust" class="swiper-slide">
+                                                <img :src="'images/07/carousel/' + key + '.jpg'" :alt="illust">
+                                                <figcaption>▲{{illust}}</figcaption>
+                                            </figure>
+                                        </div>
+                                        <div v-show="Object.keys(solution.illust).length !== 1" class="swiper-pagination"></div>
+                                    </div>
+                                </div>
+                            </template>
+                        </div>
+                    </div>
+                </section>
+                <ul class="section4-btns">
+                    <li><a class="section4-contact js-nav" href="#contact">想了解更多製造現場，詢問我們</a></li>
+                    <li><a class="section4-contact" :href="result.url" target="_blank">了解更多{{result.name}}</a></li>
+                </ul>
+            </template>
+        </div>
+    </div>
+</article>
+
+<div id="contact" class="section">
+    <div class="container">
+        <p class="title">未來不用走進工廠，就能隨時掌握生產狀況！</p>
+        <p class="sectionDesc-center">需要立即的支援與服務請直撥免付費專線 <a href="tel:0800009890">0800-009-890</a></p>
+        <div id="form">
+            <form>
+                <a id="fromSource" href="javascript:;">WB002838</a>
+                <div class="inforCheck">
+                    <div class="label-wrap">
+                        <label for="demand01"><input name="contact-demand" class="contact-demand" id="demand01" type="checkbox"
+                                value="我想知道，立即追蹤訂單生產進度的方案" /> 我想知道，立即追蹤訂單生產進度的方案</label>
+                    </div>
+                    <div class="outline">若您有其他建議或想法，歡迎與我們分享：</div>
+                    <div class="consult-cont">
+                        <p class="inputTitle"></p>
+                        <textarea id="contact-query" cols="40" rows="4" maxlength="500"></textarea>
+                        <p class="wordNum">可輸入 <span class="remaining">500</span> 字</p>
+                    </div>
+                </div>
+
+                <div class="basciInfo">
+                    <div class="outline">
+                        <input type="text" name="contact-company" id="contact-company" class="contact required">
+                        <p class="inputTitle"><span class="requiredHint">*</span>公司名稱 <span class="fillHint">
+                                (請填寫完整公司名稱)</span><i class="fa fa-exclamation-circle" aria-hidden="true"></i></p>
+                    </div>
+                    <div class="outline">
+                        <input type="text" name="telephone" id="telephone" class="contact required">
+                        <p class="inputTitle"><span class="requiredHint">*</span>聯絡電話<i class="fa fa-exclamation-circle"
+                                aria-hidden="true"></i></p>
+                    </div>
+                    <div class="outline">
+                        <input type="text" name="contact_person" id="contact_person" class="contact required">
+                        <p class="inputTitle"><span class="requiredHint">*</span>聯絡人<i class="fa fa-exclamation-circle"
+                                aria-hidden="true"></i></p>
+                    </div>
+                    <div class="outline">
+                        <input type="text" name="contact-dept" id="contact-dept" class="contact required">
+                        <p class="inputTitle"><span class="requiredHint">*</span>部門<i class="fa fa-exclamation-circle"
+                                aria-hidden="true"></i></p>
+                    </div>
+                    <div class="outline">
+                        <input type="text" name="contact-job" id="contact-job" class="contact required">
+                        <p class="inputTitle"><span class="requiredHint">*</span>職稱<i class="fa fa-exclamation-circle"
+                                aria-hidden="true"></i></p>
+                    </div>
+                    <div class="outline">
+                        <input type="text" name="contact-email" id="contact-email" class="contact required">
+                        <p class="inputTitle"><span class="requiredHint">*</span>E-mail<span class="fillHint">
+                                (例：example@digiwin.com)</span><i class="fa fa-exclamation-circle" aria-hidden="true"></i></p>
+                    </div>
+                    <div class="verifica clearfix">
+                        <div class="outline">
+                            <input type="text" name="" id="identCode" class="identCode" onBlur="validate()">
+                            <p class="inputTitle"><span class="requiredHint">*</span>請輸入驗證碼</p>
+                        </div>
+                        <input type="button" id="vericodePic" />
+                        <span class="renovCode" onClick="createCode()"></span>
+                        <span id="codeSuces"></span>
+                    </div>
+                </div>
+                <div class="btnBlock">
+                    <input type="button" id="submit" value="提交資料">
+                    <div class="agreeLabel">
+                        <label for="agree">
+                            <input type="checkbox" name="agree" value="" id="agree" checked> 我同意接受鼎新電腦<a class="links"
+                                href="http://tw.digiwin.biz/legal.html" target="_blank">隱私權聲明</a>
+                        </label>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<div id="toolbar"></div><!-- loading -->
+<div id="loading">
+<p><i></i>資料提交中，請稍後</p>
+</div>
+<!-- thx page -->
+<div id="thx">
+<div id="thxContent">
+<div class="close">X</div>
+<p class="title">資料己送出</p>
+<p class="thxparg"></p>
+<p class="suprtCall">
+<span>如需要立即的支援與服務，</span>
+<span>請直撥免付費專線 0800-888-162，謝謝！</span>
+</p>
+<p class="thxSourLoad1">
+<a id="SourLoadLink" href="" target="_blank">資料下載</a>
+</p>
+<p id="goIndex">
+<a href="javascript:;">繼續瀏覽網站</a>
+</p>
+</div>
+</div>
+    <div id="dgwFooter">
+      <div class="link01"><a href="https://www.digiwin.com/tw/portal/page/index/id/1202.html" target="_blank">隱私權聲明</a><span>│</span><a href="http://www.104.com.tw/jobbank/custjob/index.php?r=cust&amp;j=5060436d3c36402256583a1d1d1d1d5f2443a363189j48&amp;jobsource=checkc" target="_blank">人才招募</a><span>│</span><a href="https://www.facebook.com/DSCmain" target="_blank">粉絲團</a><span>│</span><a href="https://www.digiwin.com/tw/contact/eform.html" target="_blank">聯絡我們</a></div>
+      <div class="link02">
+        <ul>
+          <li><img src="https://www.digiwin.com/tw/dsc/Library/images/digiwinSoft.png" width="77" height="18" align="absmiddle"><span>│</span><span class="text01"><a href="/">鼎新電腦</a> ‧ <a href="http://www.digiwin.com" rel="nofollow nofollow" target="_blank">鼎捷軟件</a> ‧ <a href="http://vn.digiwin.biz" rel="nofollow nofollow" target="_blank">鼎捷軟件(越南)</a> ‧ <a href="http://vn.digiwin.biz/en/index.html" target="_blank">鼎捷軟件(馬來西亞)</a> ‧ 鼎華系統 ‧ <a href="http://www.zhilinktech.com/" target="_new">智互聯(深圳)科技</a></span></li>
+        </ul>
+      </div>
+      <p>Copyright ©  鼎新電腦股份有限公司. Copyright ©  Data Systems Consulting Co., Ltd. All rights reserved.</p>
+    </div>
+    <div id="toolbar"></div>
+  </body>
+</html>

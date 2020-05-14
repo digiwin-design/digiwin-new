@@ -1,0 +1,5 @@
+main .quality {
+    .header {
+        @include headerBg('quality/header-bg.jpg', 'quality/header-bg.jpg', 100% 0);
+    }
+}

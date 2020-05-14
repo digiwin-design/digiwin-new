@@ -1,0 +1,43 @@
+.main-small-navigation li {
+  position: relative;
+}
+.sub-toggle {
+  display: none;
+}
+.fa {color: #333; font-size: 22px;}
+@media screen and (max-width:768px) {
+  .menu-toggle {
+    display: block;
+    float: left;
+  }
+  .main-navigation ul {
+    display: none;
+  }
+  .main-navigation .home-icon a {
+   padding: 8px 10px;
+  }
+  .sub-toggle {
+    background: none repeat scroll 0 0;
+    color: #ffffff;
+    cursor: pointer;
+    display: block;
+    height: 24px;
+    line-height: 21px;
+    position: absolute;
+    right: 15px;
+    text-align: center;
+    top: 9px;
+    width: 24px;
+  }
+  .main-small-navigation li.current-menu-item > .sub-toggle {
+    background: #ffffff none repeat scroll 0 0;
+  }
+
+  .main-small-navigation li.current-menu-item > .sub-toggle i{
+    color: #d40234;
+  }
+  .menu-primary-container .sub-menu {
+    display: none;
+  }
+}
+

@@ -1,0 +1,106 @@
+main .banner {
+    position: relative;
+    overflow: hidden;
+    margin: 0 auto;
+    max-width: 1920px;
+    &.clickable {
+        cursor: pointer;
+    }
+    &-slide {
+        height: 470px;
+        background-position: 50% 0;
+        background-size: cover;
+        @media (min-width: $tablet-width + 1) {
+            height: 472px;
+        }
+    }
+    .container {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        justify-content: center;
+    }
+    &-title {
+        width: 100%;
+        color: #fff;
+        letter-spacing: getLetterSpacing(25);
+        font-weight: bold;
+        font-size: 36px;
+        line-height: 1.2;
+        @media (min-width: $tablet-width + 1) {
+            font-size: 48px;
+        }
+    }
+    &-desc {
+        margin-top: 1em;
+        max-width: 800px;
+        width: 100%;
+        color: #fff;
+        letter-spacing: getLetterSpacing(25);
+        font-size: 18px;
+        line-height: 1.6;
+    }
+    &-controls {
+        position: absolute;
+        top: 0;
+        left: 50%;
+        z-index: 1;
+        width: 100%;
+        height: 100%;
+        transform: translateX(-50%);
+        @media (min-width: $content-width) {
+            width: $content-width;
+        }
+    }
+    &-button-next,
+    &-button-prev {
+        position: absolute;
+        top: 50%;
+        width: 44px;
+        height: 77px;
+        cursor: pointer;
+        transform: translateY(-50%);
+    }
+    &-button-next {
+        right: 5px;
+        background: url('../../images/banner-btn-next.png') 100% 50%/contain no-repeat;
+    }
+    &-button-prev {
+        left: 5px;
+        background: url('../../images/banner-btn-prev.png') 0 50%/contain no-repeat;
+    }
+    &-pagination {
+        position: absolute;
+        bottom: 13px;
+        left: 50%;
+        display: flex;
+        transform: translateX(-50%);
+        align-items: center;
+        @media (min-width: $tablet-width + 1) {
+            right: 46px;
+            left: auto;
+            transform: translateX(0);
+        }
+        &-bullet {
+            width: 14px;
+            height: 14px;
+            border-radius: 50%;
+            background-color: #aeaeae;
+            cursor: pointer;
+            & + .banner-pagination-bullet {
+                margin-left: 13px;
+            }
+            &-active {
+                background-color: #fff;
+            }
+        }
+    }
+    &.disabled {
+        .swiper-wrapper {
+            transform: translate3d(0px, 0, 0) !important;
+        }
+        .banner-pagination {
+            display: none;
+        }
+    }
+}

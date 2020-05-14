@@ -1,0 +1,357 @@
+@charset "UTF-8";
+main *, main *:before, main *:after {
+    box-sizing: content-box;
+}
+
+main html,
+main body {
+    height: 100%;
+}
+
+main h3 {
+    text-align: center;
+    margin: 15px 0 5px;
+}
+
+main .mainTxt {
+    padding-top: 0;
+    background: url("../images/bg_indigo.jpg") no-repeat center top;
+    color: #fff;
+}
+
+main .mainTxt .content {
+    overflow: hidden;
+}
+
+main .mainTxt h2 {
+    position: relative;
+    text-align: left;
+}
+
+main .mainTxt h2:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-top: 130px solid #1e2779;
+    border-right: 220px solid transparent;
+    border-left: 100px solid transparent;
+}
+
+main .mainTxt h2:after {
+    content: "";
+    position: absolute;
+    top: 70px;
+    left: 88px;
+    width: 50px;
+    height: 60px;
+    background: url("../images/sales/icon_salesKeyPoint.png") no-repeat center 0;
+}
+
+main .mainTxt h2 span {
+    display: block;
+    position: relative;
+    z-index: 2;
+}
+
+main .mainTxt h2 .keyName {
+    padding: 25px 0 0 60px;
+    color: #fff;
+}
+
+main .mainTxt h2 .otherStyle {
+    margin-top: 10px;
+    padding-left: 200px;
+    font-size: 22px;
+    line-height: 30px;
+}
+
+main .mainTxt .boundary {
+    overflow: hidden;
+    position: relative;
+    width: 2000px;
+}
+
+main .mainTxt .left {
+    float: left;
+    width: 1000px;
+    background: url("../images/bg_problemDark.png") no-repeat center top;
+}
+
+main .mainTxt .left .imgStyle {
+    display: block;
+    position: relative;
+    margin-top: 15px;
+    z-index: 2;
+}
+
+main .mainTxt .left .des {
+    position: relative;
+    z-index: 1;
+    margin-top: -40px;
+    padding: 20px 0 60px;
+    border: 1px solid #a7b0ff;
+    border-radius: 10px;
+}
+
+main .mainTxt .left .des h3 {
+    font-size: 30px;
+    font-weight: normal;
+}
+
+main .mainTxt .left .des p {
+    position: relative;
+    margin-top: 20px;
+    padding: 0 100px 0 240px;
+    font-size: 20px;
+}
+
+main .mainTxt .left .des p:before {
+    content: "我希望";
+    position: absolute;
+    top: 50%;
+    left: 110px;
+    width: 100px;
+    height: 100px;
+    margin-top: -50px;
+    background-color: #a7b0ff;
+    border-radius: 100%;
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 100px;
+    text-align: center;
+}
+
+main .mainTxt .left .btn-changePage {
+    position: relative;
+    z-index: 2;
+    margin-top: -30px;
+}
+
+main .mainTxt .right {
+    display: none;
+    position: relative;
+    float: left;
+    width: 1000px;
+}
+
+main .mainTxt .right .part01,
+main .mainTxt .right .part02 {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+main .mainTxt .right .part02 {
+    display: none;
+}
+
+main .mainTxt .circle-group {
+    text-align: center;
+}
+
+main .mainTxt .circle-group span {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-right: 15px;
+    background-color: #ccc;
+    border-radius: 100%;
+    cursor: pointer;
+}
+
+main .mainTxt .circle-group span.now {
+    background-color: #ffff00;
+}
+
+main .mainTxt .circle-group span.end {
+    margin-right: 0;
+}
+
+main .mainTxt .btn-changePage {
+    display: block;
+    width: 300px;
+    line-height: 60px;
+    margin: 0 auto;
+    background-color: #1e2779;
+    border: none;
+    border-radius: 3px;
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    cursor: pointer;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+}
+
+main .mainTxt .btn-changePage span {
+    display: inline-block;
+    position: relative;
+    margin-left: 15px;
+    font-size: 24px;
+    letter-spacing: 2px;
+}
+
+main .mainTxt .btn-changePage span:before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: -30px;
+    width: 22px;
+    height: 22px;
+    margin-top: -11px;
+    background: url("../images/icon_arrowRight.png") no-repeat center center;
+}
+
+main .mainTxt .btn-changePage.end {
+    margin-right: 0;
+}
+
+main .mainTxt .btn-changePage:hover {
+    background-color: #ff9c00;
+}
+
+main .mainTxt .btn-group {
+    text-align: center;
+    margin-top: 25px;
+}
+
+main .mainTxt .btn-group p {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+main .sectionStyle {
+    background: url("../images/bg_grey.jpg") no-repeat center top;
+    color: #444;
+}
+
+main .sectionStyle .left {
+    background: url("../images/bg_problemLight.png") no-repeat center top;
+}
+
+main .sectionStyle .left .des {
+    border: 1px solid #ccc;
+}
+
+main .sectionStyle .left .des p:before {
+    background-color: #1e2779;
+}
+
+main .sectionStyle .circle-group span.now {
+    background-color: #ff9c00;
+}
+
+main .sectionStyle .btn-changePage {
+    background-color: #6f79d5;
+}
+
+main #pageTitle {
+    background: url("../images/sales/bg_sales.jpg") no-repeat center center;
+}
+
+main #pageTitle .sectionNote {
+    margin-bottom: 50px;
+    padding: 0;
+}
+
+main #pageTitle .sectionNote strong {
+    color: #ffff00;
+}
+
+main #pageTitle li {
+    float: left;
+    width: 14.28571%;
+    font-size: 18px;
+    text-align: center;
+    cursor: pointer;
+}
+
+main #pageTitle li:hover {
+    color: #ffff00;
+}
+
+main #pageTitle li:hover img {
+    background-color: #ffff00;
+}
+
+main #pageTitle li:hover span:before {
+    width: 100%;
+}
+
+main #pageTitle li img {
+    width: 100px;
+    height: 100px;
+    display: block;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 100%;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+}
+
+main #pageTitle li span {
+    display: inline-block;
+    position: relative;
+    margin-top: 15px;
+    font-size: 22px;
+}
+
+main #pageTitle li span:before {
+    content: "";
+    position: absolute;
+    top: 110%;
+    left: 50%;
+    width: 0;
+    height: 3px;
+    background-color: #ffff00;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+}
+
+main #brand .rightTxt {
+    height: 510px;
+}
+
+main #serialNum h2:after {
+    background-position: center -60px;
+}
+
+main #inventory h2:after {
+    background-position: center -120px;
+}
+
+main #contract h2:after {
+    background-position: center -180px;
+}
+
+main #contract .rightTxt {
+    height: 460px;
+}
+
+main #credit h2:after {
+    background-position: center -240px;
+}
+
+main #ship h2:after {
+    background-position: center -300px;
+}
+
+main #ship .rightTxt {
+    height: 550px;
+}
+
+main #installment h2:after {
+    background-position: center -360px;
+}
+
+main #installment .rightTxt {
+    height: 460px;
+}

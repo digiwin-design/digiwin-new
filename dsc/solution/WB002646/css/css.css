@@ -1,0 +1,79 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {font-family:"微軟正黑體", Arial, Helvetica, sans-serif;font-size: 18px;letter-spacing:1px; line-height:1.5;color:#333; background-color:#F5F3F4}
+a:link {	color:#900709;text-decoration:none;}
+a:visited {	color:#900709;text-decoration:none;}
+a:hover {	color:#900709;text-decoration:none;}
+a:active {	color:#900709;text-decoration:none;}
+
+
+.linedown_b {	border-bottom-width: 1px;	border-bottom-style:dotted;
+	border-bottom-color: #bebebe;}
+.txt13 a:link {	font-family: "微軟正黑體";	font-size: 13px;	line-height: 21px;	color:#464646;	text-decoration:none;}
+.txt13 {font-family: "微軟正黑體";	font-size: 13px;	line-height: 21px;	color:#464646;	text-decoration:none;}
+.txt15B {font-family: "微軟正黑體";	font-size: 1.1em;line-height: 1.8;	color:#333; font-weight:bold}
+
+.txt13w { font-family: "微軟正黑體"; font-size: 13px; line-height: 18px; color:#fff;}
+.txt16w { font-family: "微軟正黑體"; font-size: 1.2em; line-height: 18px; color:#fff;}
+.txt15w { font-family: "微軟正黑體"; font-size: 1.5em; line-height: 1.8; color:#F30; font-weight:bold;}
+.txt15bb {font-family: "微軟正黑體";	font-size:1.1em;line-height:1.8;	color:#333; font-weight:bold}
+.txt45r {
+	font-family: Arial, "微軟正黑體";
+	font-size: 40px;
+	line-height: 37px;
+	font-weight: normal;
+	color:#ff6600;
+}
+.txt25B {
+	font-family: Arial, "微軟正黑體";
+	font-size: 25px;
+	line-height: 1.8;
+	font-weight: normal;
+	color:#666;
+}
+
+.txt12g {
+	font-family: Arial, "微軟正黑體";
+	font-size: 0.9em;
+	line-height: 1.5;
+	font-weight: normal;
+	color:#666;
+}
+/*----------------------------*/
+
+.titleh3{
+		font-family:"微軟正黑體",Arial, Helvetica, sans-serif;
+	font-size:35px;
+	line-height:50px;
+	letter-spacing:2px;
+	color:#fff;
+	text-align:center;
+
+}
+.titleh4{
+	font-family:"微軟正黑體",Arial, Helvetica, sans-serif;
+	font-size:2em;
+	line-height:70px;
+	color:#fff;
+	text-align:center;
+
+}
+
+.WORD2{font-size:22px;color:#CCC; line-height:1.5; font-family:"微軟正黑體", Arial, Helvetica, sans-serif;}
+
+.WORD2 ul li{font-size:22px; color:#FC0; font-family:"微軟正黑體", Arial, Helvetica, sans-serif;}
+
+
+
+.WORD2p{font-size:24px; color:#CCC; line-height:1.5; font-family:"微軟正黑體", Arial, Helvetica, sans-serif;}
+.WORD2p p{font-size:1em; color:#CCC;font-family:"微軟正黑體", Arial, Helvetica, sans-serif;}
+
+.WORD2p ul li{font-size:1em; color:#FC0; font-family:"微軟正黑體", Arial, Helvetica, sans-serif;}
+
+
+.WORD3{font-family:"微軟正黑體", Arial, Helvetica, sans-serif;font-size:22px;width:100%;	line-height:1.5;}
+
+.WORD3 h3 {	font-size:1.2em;	font-family:"微軟正黑體", Arial, Helvetica, sans-serif;color:#C00;}
+	
+.WORD3 p{font-size:1.1em; letter-spacing:1px; color:#333;  }

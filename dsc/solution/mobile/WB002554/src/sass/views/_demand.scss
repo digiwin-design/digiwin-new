@@ -1,0 +1,18 @@
+main .demand {
+    .header {
+        @include headerBg('demand/header-bg.jpg', 'demand/header-bg.jpg', 100% 0);
+    }
+    .section1 {
+        &-pains {
+            @include bg('demand/section2-bg.jpg');
+            margin-top: 50px;
+            padding: 80px 0;
+            .hoverBox-title {
+                letter-spacing: normal;
+            }
+        }
+    }
+    .section2 {
+        background-color: #f5f5f5;
+    }
+}

@@ -1,0 +1,492 @@
+@charset "UTF-8";
+html,
+body {
+    height: 100%;
+    width: 100%;
+    background: #0c0500;
+    font-family: "Arial", "微軟正黑體";
+}
+h2{
+    font-size: 40px;
+    line-height: 1.6;
+}
+h3{
+    font-size: 26px;
+    line-height: 1.6;
+}
+h5{
+  font-size: 20px;
+    line-height: 1.6;
+}
+p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+a{
+    text-decoration: none;
+}
+.pc{
+    display: block;
+}
+.m-mobile{
+    display: none;
+}
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+section {
+    position: relative;
+    width: 100%;
+    min-width: 1200px;
+    max-width: 1920px;
+    font-size: 0;
+    margin: 0 auto;
+}
+.container {
+    position: relative;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+/*banner*/
+#banner{
+    position: relative;
+    height: 1080px;
+    background: url("../images/bannerbg.png") no-repeat center top;
+    background-size: cover;
+
+}
+.section1{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    font-size: 0;
+    text-align: center;
+    font-family: "微軟正黑體";
+}
+.l_co{
+    position: absolute;
+    right: 0;
+    top:45px;
+}
+.vContent{
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: 165px;
+}
+.pContent{
+    display: block;
+    color: #fff;
+    font-size: 28px;
+    margin-top: -130px;
+}
+.arrow {
+    width: 33px;
+    height: 25px;
+    position: fixed;
+    bottom:45px;
+    margin: 0 auto;
+    background: url("../images/arrow.png") no-repeat;
+    text-align: center;
+    left: 50%;
+    cursor: pointer;
+}
+
+#CREATE{
+    position: relative;
+    height:770px;
+    background: url("../images/create_your.png") no-repeat center center;
+    background-size: cover;
+}
+#CREATE h2,#CHOOSE h2,#MEET h2,#WISH h2{
+    display: block;
+    color: #000;
+    font-size: 38px;
+    text-align: center;
+    font-family: "Arial";
+    font-weight: bold;
+    padding-top: 70px;
+    margin: 0 auto;
+}
+#CREATE h2 span,#CHOOSE h2 span,#MEET h2 span,#WISH h2 span{
+    height: 61px;
+    line-height: 61px;
+    font-size: 50px;
+    color: #de0011;
+}
+.cFrame{
+    background: #de0011;
+    width: 550px;
+    height: 85px;
+    margin-top: 68px;
+}
+.cFrame>p{
+    color: #fff;
+    font-size: 34px;
+    font-weight: bold;
+    line-height: 85px;
+    text-align: center;
+}
+.pState{
+    display: block;
+    margin-top: 60px;
+    margin-left: 100px;
+    width: 480px;
+    color: #000;
+    font-size: 26px;
+    line-height: 1.8;
+    letter-spacing: -1px;
+}
+#CHOOSE{
+    position: relative;
+    height:820px;
+    background: url("../images/choose_your_future.png") no-repeat center center;
+    background-size: cover;
+    text-align: center;
+}
+
+#CHOOSE h3,#MEET h3,#WISH h3{
+    font-size: 34px;
+    padding-top: 10px;
+}
+.h4Style{
+    font-size: 28px;
+    padding-bottom: 40px;
+}
+#CHOOSE ul{
+    width: 999px;
+    margin: 0 auto;
+    overflow: hidden;
+
+}
+#CHOOSE ul li{
+    float: left;
+    width: 333px;
+    height: 480px;
+    position: relative;
+    box-sizing: border-box;
+}
+#CHOOSE ul li .fadeout{
+    width: 333px;
+    height: 480px;
+    background: url("../images/choosebg2.png");
+}
+#CHOOSE ul li:first-child .fadeout{
+    background: url("../images/choosebg1.png");
+}
+#CHOOSE ul li:last-child .fadeout{
+    background: url("../images/choosebg3.png");
+}
+.fadeout .topImg,.fadein .topImg{
+    margin-top: 92px;
+    margin-bottom: 10px;
+}
+.fadeout h3,.fadein h3{
+    font-size: 28px;
+    color: #fff;
+    font-weight: 700;
+}
+.fadeout p,.fadein p{
+    font-size: 20px;
+    color: #fff;
+    padding-bottom: 20px;
+}
+#CHOOSE ul li .fadein{
+    position: absolute;
+    width: 333px;
+    height: 480px;
+    background: #de0011;
+    top:130%;
+}
+#MEET{
+    position: relative;
+    height:670px;
+    background: url("../images/meet_your.png") no-repeat center center;
+    background-size: cover;
+    text-align: center;
+}
+.vfStyle{
+    position: relative;
+    margin-left: 15px;
+    margin-top: 35px;
+    text-align: center;
+}
+.vrStyle{
+    position: relative;
+    margin-right: 15px;
+    margin-top: 35px;
+    text-align: center;
+}
+.vfStyle iframe{
+     width: 560px;
+     height: 315px;
+ }
+.vrStyle iframe{
+    width: 560px;
+    height: 315px;
+}
+.box-txt{
+    position: absolute;
+    width: 390px;
+    height: 100px;
+    background: #fff8df;
+    margin-left: 84px;
+    margin-top: 260px;
+}
+.box-txt h5{
+    color: #ff2b49;
+    padding-top: 20px;
+    padding-left: 22px;
+    text-align: left;
+    font-weight: bold;
+}
+.box-txt p{
+    color: #000;
+    font-size: 26px;
+    padding-left: 22px;
+    text-align: left;
+}
+#WISH{
+    position: relative;
+    height:670px;
+    background: url("../images/wish_your.png") no-repeat center center;
+    background-size: cover;
+    text-align: center;
+}
+.uiStyle{
+    width: 1000px;
+    margin: 0 auto;
+    margin-top: 70px;
+    position: relative;
+}
+.liStyle{
+    width: 166px;
+    float: left;
+}
+.liImg{
+    float: left;
+    margin-left: 35px;
+    margin-right: 35px;
+    margin-top: 140px;
+}
+.liStyle p{
+    text-align: justify;
+    padding-top: 20px;
+}
+#contact{
+    background: #323232;
+    text-align: center;
+}
+#contact h2{
+    color: #fff;
+    padding-top: 70px;
+    padding-bottom: 30px;
+}
+.c_txt p{
+    display: inline-block;
+    color: #fff;
+    line-height: 1.8;
+    text-align: justify;
+    padding-right: 115px;
+    padding-bottom: 90px;
+}
+
+
+
+@media screen and (max-width: 768px) and (min-width: 321px){
+    body,
+    html {
+        overflow-x: hidden;
+    }
+    .pc{
+        display: none;
+    }
+    .m-mobile{
+        display: block;
+    }
+    section {
+        min-width: 100%;
+        max-width: 100%;
+    }
+    .container {
+        width: 100%;
+    }
+    #banner{
+        width: 100%;
+        height: 745px;
+        background: url("../images/bannerbg_h.png") no-repeat center center;
+        background-size: cover;
+    }
+    .l_co {
+        position: absolute;
+        right: 15px;
+        top: 25px;
+    }
+    .vContentm {
+         margin: 0 auto;
+         padding-top: 76px;
+    }
+    .pContentm {
+        display: block;
+        color: #fff;
+        font-size: 20px;
+    }
+    /*#banner .arrow{*/
+    /*   position: relative;*/
+    /*    margin-top: 15%;*/
+    /*    left: 0;*/
+    /*    bottom: 0;*/
+    /*}*/
+    #CREATE{
+        height: 651px;
+        background: url("../images/create_your_h.png") no-repeat center center;
+        background-size: cover;
+    }
+    #CREATE h2,#CHOOSE h2, #MEET h2, #WISH h2{
+        font-size: 22px;
+        padding-top: 10px;
+    }
+    #CREATE h2 span,#CHOOSE h2 span, #MEET h2 span, #WISH h2 span{
+        font-size: 28px;
+    }
+    .cFrame {
+        background: #de0011;
+        width: 90%;
+        height: 50px;
+        margin: 0 auto;
+        margin-bottom: 10px;
+    }
+    .cFrame>p {
+        font-size: 22px;
+        line-height: 50px;
+    }
+    .pState {
+        margin-top: 0;
+        margin-left: 0;
+        padding: 0 5%;
+        font-size: 20px;
+        line-height: 1.6;
+    }
+    #CHOOSE{
+        height:1720px;
+        background: url("../images/choose_your_future_h.png") no-repeat center center;
+        background-size: cover;
+    }
+    #CHOOSE h3, #MEET h3, #WISH h3 {
+        font-size: 22px;
+        padding-top: 0px;
+    }
+    .h4Style {
+        font-size: 20px;
+        padding-bottom: 20px;
+    }
+    #CHOOSE .Ust {
+        position: relative;
+        width: 90%;
+        margin: 0 auto;
+    }
+    #CHOOSE .Ust li {
+        float: none;
+        width: 100%;
+        position: relative;
+        margin: 0 auto;
+        margin-bottom: 25px;
+        overflow: hidden;
+    }
+    #CHOOSE .Ust li .fadeout{
+        /*width: 100%;*/
+        height: 480px;
+        margin: 0 auto;
+    }
+
+    #MEET{
+        height: 665px;
+        background: url("../images/meet_your_h.png") no-repeat center center;
+        background-size: cover;
+    }
+
+    .vfStyle {
+        position: relative;
+        width: 90%;
+        height: 230px;
+        margin: 0 auto;
+        text-align: center;
+        float: none;
+        margin-top: 10px;
+    }
+    .vrStyle {
+        position: relative;
+        width: 90%;
+        margin: 0 auto;
+        text-align: center;
+        float: none;
+        margin-top: 25px;
+        height: 230px;
+    }
+    .vfStyle iframe{
+        width: 100%;
+        height: auto;
+    }
+    .vrStyle iframe{
+        width: 100%;
+        height: auto;
+    }
+    .box-txt {
+        width: 100%;
+        height: 75px;
+        background: #fff8df;
+        margin: 0 auto;
+        margin-top: 150px;
+    }
+    .box-txt h5 {
+        font-size: 20px;
+        padding-top: 10px;
+        padding-left: 20px;
+    }
+    .box-txt p {
+        font-size: 20px;
+        padding-left: 20px;
+    }
+    #WISH{
+        background: #edebe5;
+        height: auto;
+    }
+    .uiStyle{
+        width: 100%;
+        background: #fff;
+        margin: 0 auto;
+        margin-top: 20px;
+        overflow: hidden;
+    }
+    .liStyle {
+        width: 90%;
+        margin: 0 auto;
+        margin-top: 30px;
+        margin-bottom: 20px;
+        float: none;
+    }
+    .liImg {
+        float: none;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+    .c_txt p {
+        display: inline-block;
+        color: #fff;
+        line-height: 1.8;
+        text-align: justify;
+        padding: 0 5%;
+        padding-bottom: 30px;
+    }
+    .c_txt img{
+        margin-bottom: 50px;
+    }
+}
+@media screen and (max-width: 320px){
+    #CHOOSE .Ust li .fadeout{
+        width: 100%;
+    }
+}

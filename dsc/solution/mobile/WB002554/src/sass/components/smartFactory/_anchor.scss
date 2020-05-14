@@ -1,0 +1,43 @@
+main .smartFactory {
+    .anchor {
+        display: block;
+        & + .anchor::before {
+            @include imgBg('smartFactory/arrow-down.png', true);
+            display: block;
+            margin: 0 auto;
+            content: '';
+        }
+        section {
+            display: flex;
+            flex-direction: column;
+            padding-top: 2em;
+            padding-bottom: 1.5em;
+            align-items: center;
+        }
+        span {
+            display: block;
+            margin-bottom: .5em;
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            background-color: #5aacd8;
+            background-position: 50%;
+            background-size: contain;
+            background-repeat: no-repeat;
+        }
+        h1 {
+            margin-bottom: .5em;
+            color: #0b6a9d;
+            letter-spacing: getLetterSpacing(75);
+            font-weight: bold;
+            font-size: 30px;
+        }
+        h2 {
+            @include btn(100%, 38px, #5aacd8, transparent, 20px);
+            margin-bottom: 1em;
+            border: 1px solid #5aacd8;
+            letter-spacing: getLetterSpacing(75);
+            font-weight: bold;
+        }
+    }
+}

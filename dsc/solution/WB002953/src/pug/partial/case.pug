@@ -1,0 +1,20 @@
+extends ../layout.pug
+
+block includes
+    link(rel="preload", href="images/case/header-bg.jpg" as="image")
+    link(rel="preload", href="images/case/header-bg-s.jpg" as="image")
+    link(rel="preload", href="images/case/section3-nav-1.jpg" as="image")
+    link(rel="preload", href="images/case/section3-nav-2.jpg" as="image")
+    link(rel="preload", href="images/case/section3-nav-3.jpg" as="image")
+    link(rel="preload", href="images/case/section3-nav-4.jpg" as="image")
+    link(rel="preload", href="images/case/section3-nav-5.jpg" as="image")
+    link(rel="preload", href="images/case/section3-nav-6.jpg" as="image")
+    link(rel='stylesheet', href='css/case/style.css')
+    link(rel='stylesheet', href='assets/swiper.min.css')
+    script(src="assets/swiper.min.js", defer)
+    script(src="assets/jquery.popupoverlay.js", defer)
+    script(src="assets/smartScroll.js", defer)
+    script(src='js/case.min.js', defer)
+
+block content
+    include case.html

@@ -1,0 +1,75 @@
+main .WB00247601_case {
+    .dark {
+        background-color: #028692;
+        .sectionTitle {
+            color: #fff;
+        }
+    }
+    .sectionTitle {
+        line-height: 1.2;
+    }
+    article {
+        padding-bottom: 50px;
+    }
+    .header {
+        @include bg('WB00247601_case/header-bg.jpg');
+        padding-top: 80px;
+        height: image-height('WB00247601_case/header-bg.jpg');
+        h1 {
+            margin-top: 10px;
+            margin-bottom: 13px;
+            color: #00e7f6;
+            font-weight: bold;
+            font-size: 30px;
+            line-height: 1;
+        }
+        h2 {
+            color: #fff;
+            font-size: 20px;
+            line-height: 1;
+        }
+    }
+    .section1 {
+        @include bg('WB00247601_case/section1-bg.jpg');
+        p {
+            line-height: 30px;
+        }
+    }
+    .section2 {
+        @include bg('WB00247601_case/section2-bg.jpg');
+    }
+    .section3 {
+        background-color: #ededed;
+        h2 {
+            margin-bottom: 12px;
+            color: #00a68d;
+        }
+        .collapse + h2 {
+            margin-top: 15px;
+        }
+    }
+    .section6 {
+        img + img {
+            margin-top: 20px;
+        }
+    }
+    .section7 {
+        background-color: #dadada;
+    }
+    .section9 {
+        .row + .row {
+            margin-top: 35px;
+        }
+        .video-container {
+            margin-bottom: 12px;
+        }
+        hgroup {
+            color: #fff;
+            text-align: center;
+        }
+        h2 {
+            margin-top: 5px;
+            font-size: 26px;
+        }
+    }
+}

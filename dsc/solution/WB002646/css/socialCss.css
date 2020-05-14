@@ -1,0 +1,80 @@
+﻿* {-webkit-box-sizing: initial; -moz-box-sizing: initial; -o-box-sizing: initial; -ms-box-sizing: initial; box-sizing: initial;}
+.clear{clear:both; font-size:0px; padding:0;height:0;line-height:0;  margin:0}
+.clearfix:before,.clearfix:after {display:table;line-height:0;content:"";}
+.clearfix:after {clear:both;}
+.clearfix {*zoom: 1;}
+
+#socialBlock {width: 100%; font-family: Arial, "微軟正黑體"; background-color: #f2f2f2; padding: 30px 0 50px;}
+#socialBlock #socialContent {width: 940px; margin: 0 auto; padding: 0 30px;}
+#socialBlock h1 {color: #333; font-size: 2em; line-height: 2; text-align: center; margin: 10px 0 20px;}
+#socialBlock h4 {color: #333; font-size: 1.2em; font-weight: bold; line-height: 1.5; border-bottom: 1px solid #dadada; margin-bottom: 10px;}
+#socialBlock #FB_Box {width: 525px; height:390px; float:left; margin-right: 20px; border-bottom: 1px solid #aaa;}
+#socialBlock #link_Box {width: 380px; float:right;}
+#socialBlock #link_Box h4 a {color: #d6492f; text-decoration: none; display: block;}
+#socialBlock #link_Box h4 a:hover {color: #FC0; }
+#socialBlock #link_Box .linkTxt {margin-bottom: 17px;}
+#socialBlock #link_Box .linkTxt p {font-size: 1em; line-height: 1.8;}
+#socialBlock #link_Box .imgRight, #socialBlock #link_Box .txtRight {float: right; margin-right: 5px;}
+#socialBlock #link_Box .imgLeft, #socialBlock #link_Box .txtLeft {float: left; margin-left: 5px;}
+#socialBlock #link_Box .imgRight { margin-right: 30px;}
+#socialBlock #link_Box .linkIcon li {float: left}
+#socialBlock a{ color: #000000; text-decoration: none;}
+#socialBlock a:hover{ text-decoration: underline;}
+
+@media screen and (max-width: 480px) {
+	* {-webkit-box-sizing: border-box; -moz-box-sizing: border-box; -o-box-sizing: border-box; -ms-box-sizing: border-box; box-sizing: border-box;}
+	#socialBlock #socialContent {width: 100%; margin: 0; padding: 0 10px; text-align: center;}
+	#socialBlock h1 {color: #333; font-size: 2em; line-height: 2; text-align: center; margin: 10px 0 20px;}
+	#socialBlock h4 {color: #333; font-size: 1.5em; font-weight: bold; line-height: 1.5; border-bottom: 1px solid #dadada; margin-bottom: 10px; text-align: center;}
+	#socialBlock #FB_Box {width: 100%; height:390px; float:none; margin-right: 15px; border-bottom: 1px solid #aaa;}
+	#socialBlock #link_Box {width: 100%; float:none;margin-top: 40px;}
+	#socialBlock .link_BoxL {width: 100%; float: none; margin: 0 0 40px;}
+	#socialBlock .link_BoxL .linkTxt {width: 100%; margin: 0 auto;}
+	#socialBlock .link_BoxR {width: 30%; float: right; display: none;}
+	#socialBlock #link_Box h4 a {color: #d6492f; text-decoration: none; display: block;}
+	#socialBlock #link_Box h4 a:hover {color: #FC0; }
+	#socialBlock #link_Box .linkTxt {margin-bottom: 17px;}
+	#socialBlock #link_Box .linkTxt p {font-size: 1.1em; line-height: 1.7;}
+	#socialBlock #link_Box .imgRight, #socialBlock #link_Box .txtRight {float: none;}
+	#socialBlock #link_Box .imgLeft {display: block; margin: 5px auto 10px;}
+	#socialBlock #link_Box .imgLeft, #socialBlock #link_Box .txtLeft {float: none;}
+	#socialBlock #link_Box .imgRight { margin-right: 0;}
+	#socialBlock #link_Box .linkIcon {margin: 0 auto; display: table;}
+	#socialBlock #link_Box .linkIcon li {float: left}
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px){
+	* {-webkit-box-sizing: border-box; -moz-box-sizing: border-box; -o-box-sizing: border-box; -ms-box-sizing: border-box; box-sizing: border-box;}
+	#socialBlock #socialContent {width: 100%; margin: 0; padding: 0 35px;}
+	#socialBlock h1 {color: #333; font-size: 2em; line-height: 2; text-align: center; margin: 10px 0 20px;}
+	#socialBlock h4 {color: #333; font-size: 1.5em; font-weight: bold; line-height: 1.5; border-bottom: 1px solid #dadada; margin-bottom: 10px; text-align: center;}
+	#socialBlock #FB_Box {width: 100%; height:390px; float:none; margin-right: 15px; border-bottom: 1px solid #aaa;}
+	#socialBlock #link_Box {width: 100%; float:none;margin-top: 40px;}
+	#socialBlock .link_BoxL {width: 100%; float: none; margin: 0 0 40px;}
+	#socialBlock .link_BoxL .linkTxt {width: 405px; margin: 0 auto;}
+	#socialBlock .link_BoxR {width: 30%; float: right; display: none;}
+	#socialBlock #link_Box h4 a {color: #d6492f; text-decoration: none; display: block;}
+	#socialBlock #link_Box h4 a:hover {color: #FC0; }
+	#socialBlock #link_Box .linkTxt {margin-bottom: 17px;}
+	#socialBlock #link_Box .linkTxt p {font-size: 1.1em; line-height: 1.7;}
+	#socialBlock #link_Box .imgRight, #socialBlock #link_Box .txtRight {float: right;}
+	#socialBlock #link_Box .imgLeft, #socialBlock #link_Box .txtLeft {float: left;}
+	#socialBlock #link_Box .imgRight { margin-right: 0;}
+	#socialBlock #link_Box .linkIcon {margin: 0 auto; display: table;}
+	#socialBlock #link_Box .linkIcon li {float: left}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

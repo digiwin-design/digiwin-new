@@ -1,0 +1,150 @@
+<link rel="stylesheet" type="text/css" href="https://www.digiwin.com/tw/dsc/Library/css/jquery-ui.min.css">
+<link rel="stylesheet" type="text/css" href="https://www.digiwin.com/tw/dsc/css/Eform/xcConfirm.css">
+<link rel="stylesheet" type="text/css" href="https://www.digiwin.com/tw/dsc/css/Eform/form.css">
+<link rel="stylesheet" href="https://www.digiwin.com/tw/dsc/solution/WB002742/css/WB002742_seminar.css" type="text/css">
+<script type="text/javascript" src="http://www.digiwin.com/Library/tw/dsc/js/jquery-ui.min.js"></script>
+
+<!-- submenu -->
+<link rel="stylesheet" href="https://www.digiwin.com/tw/dsc/assets/submenu/submenu.css">
+<script src="https://www.digiwin.com/tw/dsc/assets/submenu/submenu.min.js"></script>
+
+<main class="WB00274201_seminar">
+<div id="banner">
+<div class="box">
+<h1>研討會資訊</h1>
+</div>
+</div>
+<!--solution1 end-->
+<div id="event">
+<h2 class="DD">歷期研討會</h2>
+<div class="txtbox">
+<div class="txtbox_L">【2018年12月活動】<br>
+  <img src="https://www.digiwin.com/tw/dsc/solution/WB002742/images/3_3icon.png" width="177" height="176"></div>
+<div class="txtbox_R">
+  <h3>實施電子發票，鼎新電子發票完整因應方案說明會</h3>
+    <p>本說明會特別邀請財政部北區國稅局新店稽徵所講師，針對電子發票相關法規與實施要點逐一分析對企業之影響重點，並輔以鼎新電子發票專案團隊專家說明完整因應方案及企業案例說明，協助企業對電子發票之方案評估、即早擬定詳實工作計畫，落實財政部推動電子發票政策，讓企業可以快速因應電子發票的實施！</p>
+    <div id="button_R">
+      <div class="btnR"><a href="#contact">索取資料</a></div>
+<div class="btnR"><a href="https://www.digiwin.com/tw/dsc/activity/WB002916/WB00291601.htm" target="_blank">了解更多</a></div>
+<!--<div class="btnRR"><a href="#" target="_blank">我想收到下次研討會資訊</a></div>-->
+</div>
+</div>
+</div><!--txtbox end-->	
+<div class="txtbox">
+<div class="txtbox_L">【2018年8月活動】<br>
+  <img src="https://www.digiwin.com/tw/dsc/solution/WB002742/images/3_4icon.png" width="177" height="176"></div>
+<div class="txtbox_R">
+  <h3>酷訊搜索成功導入電子發票案例分享</h3>
+    <p>本研討會特別邀請酷訊搜索(股)公司執行長孟逸錤與財務經理洪雪玉，分享導入鼎新電子發票方案後的價值提升與效益，並輔以鼎新電子發票專案團隊專家說明電子發票法規對企業的影響、以及完整因應方案，望能協助企業降低營運成本、快速因應電子發票的轉換！</p>
+    <div id="button_R">
+      <div class="btnR"><a href="#contact">索取資料</a></div>
+<div class="btnR"><a href="https://www.digiwin.com/tw/dsc/activity/WB002873/WB00287302.htm" target="_blank">了解更多</a></div>
+<!--<div class="btnRR"><a href="#" target="_blank">我想收到下次研討會資訊</a></div>-->
+</div>
+</div>
+</div><!--txtbox end-->
+<div class="txtbox">
+<div class="txtbox_L">【2017年8月活動】<br>
+  <img src="https://www.digiwin.com/tw/dsc/solution/WB002742/images/3_2icon.png" width="177" height="176"></div>
+<div class="txtbox_R">
+  <h3>【企業案例分享】-設備代理業者-矽菱企業</h3>
+    <p>本研討會特別邀請矽菱企業(股)公司管理部黃進玉副理，說明導入鼎新電子發票方案後的價值提升與效益、B2B和B2C的差異，如何降低實施電子發票對公司的衝擊；並說明電子發票法規對企業的影響層面，及鼎新電子發票完整因應方案，希望能協助企業順利成功因應電子發票的轉換</p>
+    <div id="button_R">
+      <div class="btnR"><a href="#contact">索取資料</a></div>
+<div class="btnR"><a href="https://www.digiwin.com/tw/dsc/activity/WB002788/WB00278801.htm" target="_blank">了解更多</a></div>
+<!--<div class="btnRR"><a href="#" target="_blank">我想收到下次研討會資訊</a></div>-->
+</div>
+</div>
+</div><!--txtbox end-->
+<div class="txtbox">
+<div class="txtbox_L">【2017年2月活動】<br>
+  <img src="https://www.digiwin.com/tw/dsc/solution/WB002742/images/3_1icon.png" width="177" height="176"></div>
+<div class="txtbox_R">
+  <h3>實施電子發票對企業之衝擊與因應方案</h3>
+    <p>為落實節能減碳及推動電子發票政策，財政部自106年元旦起，停止核准營業人新申請使用電子計算機開立統一發票，現行已核准的營業人雖尚可使用，然而可能因為需配合部分大廠已推行電子發票相關作業，而須提前因應轉換。因此今年起，電子發票是企業必需重視的趨勢議題！</p>
+    <div id="button_R">
+      <div class="btnR"><a href="#contact">索取資料</a></div>
+<div class="btnR"><a href="https://www.digiwin.com/tw/dsc/activity/WB002737/WB00273701.htm" target="_blank">了解更多</a></div>
+
+</div>
+</div>
+</div><!--txtbox end-->
+</div>
+<div id="event1">
+<h2 class="EE">因應電子發票，問券調查</h2>
+<p>電子發票的實施，您該關注嗎?<br>
+我們的建議是!<br>
+<span>如果您日常發票量多且筆數也多，發票開立集中度高且公司內部無專職人員處理相關發票上傳事宜</span><br>
+那麼，您確實需要關注電子發票的導入是否會造成您日後工作量的負擔!</p>
+<h4>面對電子發票實施相關法規的要求，企業將採取下列何種方式獲得相關專業知識：</h4>
+<img src="https://www.digiwin.com/tw/dsc/solution/WB002742/images/3_2_1.png" width="874" height="195">
+
+<h4>企業開立發票需求為 </h4>
+<img src="https://www.digiwin.com/tw/dsc/solution/WB002742/images/3_2_2.png" width="896" height="195">
+
+<h4>企業改變目前開立統一發票方式，轉換開立電子發票，主要原因為：</h4>
+<img src="https://www.digiwin.com/tw/dsc/solution/WB002742/images/3_2_3.png" width="676" height="195">
+
+<h4>民國107年度起將停止電子計算機發票之使用，貴公司是否已有因應方案？</h4>
+<img src="https://www.digiwin.com/tw/dsc/solution/WB002742/images/3_2_4.png" width="664" height="196">
+</div>
+</main>
+<!-- 諮詢表單開始 -->
+<div id="contact">
+    <div id="contactTxt" class="clearfix">
+        <h2>資料索取與諮詢</h2>
+        <div id="info">
+            <p>請填寫下方資料便於盡快為您服務。<br>若您需要立即的支援與服務，請直撥免付費專線 <span class="highLight">0800-888-162</span>，謝謝！</p>
+            <ul>
+              <li class="mail"><a href="mailto:marketing01@digiwin.com"></a></li>
+              <li class="fb"><a href="https://www.facebook.com/DSCmain" target="_blank"></a></li>
+            </ul>
+        </div>
+        <div id="rightForm" class="form shortForm">
+            <a id="fromSource" href="javascript:;">WB002742</a>
+            <div id="contactInput" class="clearfix">
+                <span class="hideLabel ">*公司名稱：</span><input type="text" placeholder="*公司名稱" name="contact-company" id="contact-company" class="contact required"><span class="hideLabel perLabel">*姓名：</span><input type="text" placeholder="*姓名" name="contact_person" id="contact_person" class="contact required"><span class="hideLabel evenLable">*聯絡電話：</span><input type="text" placeholder="*聯絡電話" name="telephone" id="telephone" class="contact required end"><span class="hideLabel evenLable">*E-mail：</span><input type="text" placeholder="*E-mail" name="contact-email" id="contact-email" class="contact required"><span class="hideLabel">*部門：</span><input type="text" placeholder="*部門" name="contact-dept" id="contact-dept" class="contact required"><span class="hideLabel">*職稱：</span><input type="text" placeholder="*職稱" name="contact-job" id="contact-job" class="contact required end">
+            </div>
+            <div class="consult-cont">
+                <p class="hideLabel">請在這裡描述您的需求(最多500字)：</p>
+                <textarea id="contact-query" cols='40' placeholder="請在這裡描述您的需求(最多500字)：" rows='4' maxlength="500"></textarea>
+            </div>
+            <div class="inforCheck">
+                <label for="dm_ask" >
+                    <input name="information" class="information" id="dm_ask" type="checkbox" value="資料索取" /> 索取電子發票相關資料
+                </label>
+            </div>
+            <hr>
+            <div class="verifica">
+                <span class="veriSpan">＊請輸入驗證碼：</span>
+                <span class="veriSpan-m">驗證碼:</span>
+                <input type="text" name="" id="identCode" class="identCode" onblur= "validate()">
+                <input type="button" id="vericodePic" />
+                <span class="renovCode" onclick="createCode()"></span>
+                <span id = "codeSuces"></span>
+            </div>  
+            <input type="button" id="submit" value="送　　出">
+            <label for="agree" class="checAgree"><input type="checkbox" name="agree" value="" id="agree" checked=""> 我同意接受鼎新電腦<a href="/tw/portal/page/index/id/1202.html" target="_blank">隱私權聲明</a></label>
+        </div>
+    </div> 
+</div>
+
+<!-- loading -->
+<div id="loading"><p><i></i>資料處理中，請稍後...</p></div>
+
+<!-- thx page -->
+<div id="thx">
+    <div id="thxContent">
+        <div class="close">X</div>
+        <h3>資料己送出</h3>
+        <p class="thxparg"></p>
+        <p class="suprtCall">
+            <span>如需要立即的支援與服務，</span>
+            <span>請直撥免付費專線0800-888-162，謝謝！</span>
+        </p>
+        <p class="thxSourLoad1"><a id="SourLoadLink" href="" target="_blank">資料下載</a></p>
+        <p id="goIndex"><a href="javascript:;">繼續瀏覽網站</a></p>
+    </div>
+</div>
+<script type="text/javascript" src="https://www.digiwin.com/tw/dsc/js/Eform/xcConfirm.js"></script>
+<script type="text/javascript" src="https://www.digiwin.com/tw/dsc/js/Eform/form.js"></script>

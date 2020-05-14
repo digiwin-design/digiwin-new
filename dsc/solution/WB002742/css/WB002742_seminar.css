@@ -1,0 +1,202 @@
+@charset "UTF-8";
+main *, main *:before, main *:after {
+    box-sizing: content-box;
+}
+main.WB00274201_seminar {
+    /*--------研討會-------*/
+}
+
+main.WB00274201_seminar body {
+    font-family: "微軟正黑體", "新細明體", Arial, Helvetica, sans-serif;
+    background-color: #FFF;
+}
+
+main.WB00274201_seminar #banner {
+    width: 100%;
+    height: 500px;
+    background-image: url(https://www.digiwin.com/tw/dsc/solution/WB002742/images/banner_seminarbg.jpg);
+    background-repeat: no-repeat;
+    background-position: center top;
+}
+main.WB00274201_seminar #banner .box {
+    margin: 0 auto;
+    width: 1000px;
+}
+main.WB00274201_seminar #banner .box h1 {
+    color: #fffc00;
+	font-size: 40px;
+	line-height: 500px;
+}
+main.WB00274201_seminar h2 {
+    width: 100%;
+    font-size: 30px;
+    line-height: 50px;
+    margin: 30px 0px 10px 0px;
+    color: #1d7ca3;
+}
+
+main.WB00274201_seminar h3 {
+    font-size: 20px;
+    line-height: 1.6;
+    color: #e66d24;
+}
+
+main.WB00274201_seminar h2.DD {
+    text-align: left;
+    background: url(https://www.digiwin.com/tw/dsc/solution/WB002742/images/icon2.png) no-repeat 10px center;
+    padding-left: 45px;
+}
+
+main.WB00274201_seminar h2.EE {
+    text-align: left;
+    background: url(https://www.digiwin.com/tw/dsc/solution/WB002742/images/icon2.png) no-repeat 10px 40px;
+    padding-left: 45px;
+    padding-top: 30px;
+}
+
+main.WB00274201_seminar #event {
+    width: 1000px;
+    margin: 0 auto;
+    background-color: #FFF;
+    margin-top: 70px;
+    font-size: 16px;
+    line-height: 30px;
+    font-family: "微軟正黑體", "新細明體", Arial, Helvetica, sans-serif;
+}
+
+main.WB00274201_seminar .txtbox {
+    float: left;
+    width: 960px;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border-bottom: #CCC dotted 1px;
+}
+
+main.WB00274201_seminar .txtbox .txtbox_L {
+    float: left;
+    width: 175px;
+    margin-right: 15px;
+}
+
+main.WB00274201_seminar .txtbox .txtbox_R {
+    float: right;
+    width: 770px;
+}
+
+main.WB00274201_seminar .txtbox .txtbox_R h3 {
+    font-size: 20px;
+    line-height: 1.6;
+    color: #1d7ca3;
+}
+
+main.WB00274201_seminar .txtbox .txtbox_R h4 {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #900;
+    padding: 5px 0px;
+}
+
+main.WB00274201_seminar .txtbox .txtbox_R p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #202020;
+    padding-bottom: 20px;
+}
+
+main.WB00274201_seminar #button_R {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 70px;
+}
+
+main.WB00274201_seminar .btnR {
+    float: left;
+    font-size: 16px;
+    font-family: "微軟正黑體", "新細明體", Arial, Helvetica, sans-serif;
+    width: 140px;
+    height: 30px;
+    margin: 0 auto;
+    line-height: 30px;
+    letter-spacing: 1px;
+    margin-right: 15px;
+}
+
+main.WB00274201_seminar .btnR a {
+    display: block;
+    color: #1d7ca3;
+    text-decoration: none;
+    border: #1d7ca3 solid 1px;
+}
+
+main.WB00274201_seminar .btnR a:hover {
+    text-decoration: none;
+    color: #FFF;
+    background-color: #1d7ca3;
+    margin: 0 auto;
+    border-bottom: #1d7ca3 solid 1px;
+}
+
+main.WB00274201_seminar .btnRR {
+    float: left;
+    font-size: 16px;
+    font-family: "微軟正黑體", "新細明體", Arial, Helvetica, sans-serif;
+    width: 240px;
+    height: 30px;
+    margin: 0 auto;
+    line-height: 30px;
+    letter-spacing: 1px;
+    margin-right: 15px;
+}
+
+main.WB00274201_seminar .btnRR a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    background-color: #1d7ca3;
+    border: #1d7ca3 solid 1px;
+}
+
+main.WB00274201_seminar .btnRR a:hover {
+    text-decoration: none;
+    color: #FFF;
+    background-color: #e88136;
+    margin: 0 auto;
+    border: #e88136 solid 1px;
+}
+
+main.WB00274201_seminar #event1 {
+    clear: both;
+    width: 960px;
+    margin: 0 auto;
+    background-color: #FFF;
+    margin-top: 100px;
+    font-size: 16px;
+    line-height: 30px;
+    font-family: "微軟正黑體", "新細明體", Arial, Helvetica, sans-serif;
+    padding-bottom: 50px;
+}
+
+main.WB00274201_seminar #event1 p {
+    font-size: 18px;
+    height: 1.4;
+    padding-left: 45px;
+    padding-bottom: 30px;
+}
+
+main.WB00274201_seminar #event1 p span {
+    font-weight: bold;
+}
+
+main.WB00274201_seminar #event1 img {
+    padding-left: 45px;
+    margin-bottom: 30px;
+}
+
+main.WB00274201_seminar #event1 h4 {
+    padding-left: 45px;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}

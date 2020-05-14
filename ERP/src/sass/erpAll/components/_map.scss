@@ -1,0 +1,34 @@
+main .mapContainer {
+    .svg-container {
+        position: relative;
+        width: 100%;
+        height: 0;
+        @at-root {
+            main .mapContainer .map-s1 .svg-container {
+                padding-top: 59%;
+            }
+            main .mapContainer .map-s2 .svg-container {
+                padding-top: 92%;
+            }
+            main .mapContainer .map .svg-container {
+                padding-top: 41%;
+            }
+        }
+    }
+    svg {
+        position: absolute;
+        top: 0;
+        left: 0;
+        overflow: visible;
+    }
+    .map-s1 {
+        margin-bottom: 30px;
+    }
+    .caption {
+        margin-top: 5px;
+        text-align: center;
+    }
+    .bg {
+        display: none;
+    }
+}

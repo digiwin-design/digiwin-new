@@ -1,0 +1,402 @@
+@import '../common';
+@import 'components';
+
+main {
+    #indBanner {
+        background: url('../../images/business/bg_banner.jpg') no-repeat center center;
+        color: #fff;
+    }
+
+    #indBanner h1 {
+        color: #fff;
+        font-size: 30px;
+        line-height: 36px;
+    }
+
+    #foreword .jobProblem {
+        color: #fff;
+    }
+
+    #foreword .jobProblem:hover .handTop {
+        -webkit-animation-play-state: paused;
+           -moz-animation-play-state: paused;
+             -o-animation-play-state: paused;
+                animation-play-state: paused;
+    }
+
+    #foreword .txt {
+        float: left;
+        overflow: hidden;
+        padding: 15px 15px;
+        width: 25%;
+        cursor: pointer;
+    }
+
+    #foreword .txt .outline {
+        position: relative;
+        overflow: hidden;
+        padding: 30px 0;
+        border-radius: 2px;
+        background-color: #0482b7;
+    }
+
+    #foreword .txt .nameLayer {
+        position: relative;
+        z-index: 2;
+        text-align: center;
+    }
+
+    #foreword .txt .nameLayer p {
+        margin-top: 8px;
+        text-align: inherit;
+        font-weight: bold;
+        font-size: 24px;
+    }
+
+    #foreword .txt .txtLayer {
+        position: absolute;
+        top: 50%;
+        left: 0;
+        padding: 0 10px;
+        -webkit-transform: translateY(-50%);
+           -moz-transform: translateY(-50%);
+             -o-transform: translateY(-50%);
+                transform: translateY(-50%);
+    }
+
+    #foreword .txt .txtLayer p {
+        float: left;
+        padding: 0 20px;
+    }
+
+    #foreword .txt .handTop {
+        position: absolute;
+        top: 95%;
+        left: 50%;
+        font-size: 24px;
+        -webkit-transform: translateX(-50%);
+           -moz-transform: translateX(-50%);
+             -o-transform: translateX(-50%);
+                transform: translateX(-50%);
+        -webkit-animation: handTop 1.5s infinite;
+           -moz-animation: handTop 1.5s infinite;
+             -o-animation: handTop 1.5s infinite;
+                animation: handTop 1.5s infinite;
+        -webkit-animation-timing-function: ease-out;
+           -moz-animation-timing-function: ease-out;
+             -o-animation-timing-function: ease-out;
+                animation-timing-function: ease-out;
+    }
+
+    @-webkit-keyframes handTop {
+        0% {
+            top: 95%;
+        }
+        50% {
+            top: 87%;
+        }
+        100% {
+            top: 95%;
+        }
+    }
+
+    @-moz-keyframes handTop {
+        0% {
+            top: 95%;
+        }
+        50% {
+            top: 87%;
+        }
+        100% {
+            top: 95%;
+        }
+    }
+
+    @-o-keyframes handTop {
+        0% {
+            top: 95%;
+        }
+        50% {
+            top: 87%;
+        }
+        100% {
+            top: 95%;
+        }
+    }
+
+    @keyframes handTop {
+        0% {
+            top: 95%;
+        }
+        50% {
+            top: 87%;
+        }
+        100% {
+            top: 95%;
+        }
+    }
+
+    #foreword .txt .mask {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        z-index: 3;
+        width: 100%;
+        height: 100%;
+    }
+
+    #foreword .txt01 .outline {
+        background-color: #70c7ef;
+    }
+
+    #foreword .txt01 .txtLayer {
+        color: #7ccef4;
+    }
+
+    #foreword .txt01 .mask {
+        background-color: rgba(58, 128, 160, .9);
+    }
+
+    #foreword .txt02 .outline {
+        background-color: #88b9b0;
+    }
+
+    #foreword .txt02 .txtLayer {
+        color: #96c4bc;
+    }
+
+    #foreword .txt02 .mask {
+        background-color: rgba(70, 127, 116, .9);
+    }
+
+    #foreword .txt03 .outline {
+        background-color: #7cca70;
+    }
+
+    #foreword .txt03 .txtLayer {
+        color: #8dd581;
+    }
+
+    #foreword .txt03 .mask {
+        background-color: rgba(86, 143, 77, .9);
+    }
+
+    #foreword .txt04 .outline {
+        background-color: #7ccdc4;
+    }
+
+    #foreword .txt04 .txtLayer {
+        color: #88d8cf;
+    }
+
+    #foreword .txt04 .mask {
+        background-color: rgba(59, 122, 115, .9);
+    }
+
+    #foreword .txt05 .outline {
+        background-color: #db9e4a;
+    }
+
+    #foreword .txt05 .txtLayer {
+        color: #e3a652;
+    }
+
+    #foreword .txt05 .mask {
+        background-color: rgba(120, 88, 44, .9);
+    }
+
+    #foreword .txt06 .outline {
+        background-color: #975b96;
+    }
+
+    #foreword .txt06 .txtLayer {
+        color: #9e639d;
+    }
+
+    #foreword .txt06 .mask {
+        background-color: rgba(109, 63, 108, .9);
+    }
+
+    #foreword .txt07 .outline {
+        background-color: #fe6f6f;
+    }
+
+    #foreword .txt07 .txtLayer {
+        color: #fe7777;
+    }
+
+    #foreword .txt07 .mask {
+        background-color: rgba(175, 65, 65, .9);
+    }
+
+    #foreword .txt08 .outline {
+        background-color: #c94441;
+    }
+
+    #foreword .txt08 .txtLayer {
+        color: #d14c49;
+    }
+
+    #foreword .txt08 .mask {
+        background-color: rgba(99, 30, 30, .9);
+    }
+
+    #mainContent {
+        background-color: #f5f5f5;
+    }
+
+    #mainContent .group {
+        padding: 50px;
+    }
+
+    #mainContent .group .list {
+        float: left;
+        margin-top: 20px;
+        width: 20%;
+        text-align: center;
+        cursor: pointer;
+    }
+
+    #mainContent .group .left1 {
+        float: left;
+        margin-top: 20px;
+        margin-left: 100px;
+        width: 20%;
+        text-align: center;
+        cursor: pointer;
+    }
+
+    #mainContent .group .list img {
+        width: 120px;
+        height: 120px;
+        border-radius: 100%;
+        background-color: #ff5252;
+        -webkit-transition: .5s;
+           -moz-transition: .5s;
+             -o-transition: .5s;
+                transition: .5s;
+    }
+
+    #mainContent .group .list p {
+        position: relative;
+        margin-top: 10px;
+        text-align: center;
+        font-size: 20px;
+    }
+
+    #mainContent .group .list p:before {
+        position: absolute;
+        top: 110%;
+        left: 50%;
+        display: block;
+        width: 0;
+        height: 3px;
+        background-color: #ff64a2;
+        content: '';
+        -webkit-transition: .5s;
+           -moz-transition: .5s;
+             -o-transition: .5s;
+                transition: .5s;
+        -webkit-transform: translateX(-50%);
+           -moz-transform: translateX(-50%);
+             -o-transform: translateX(-50%);
+                transform: translateX(-50%);
+    }
+
+    #mainContent .group .list:hover img {
+        background-color: #ff64a2;
+    }
+
+    #mainContent .group .list:hover p {
+        color: #ff64a2;
+    }
+
+    #mainContent .group .list:hover p:before {
+        width: 60%;
+    }
+
+    #mainContent .fa {
+        display: block;
+        color: #ccc;
+        text-align: center;
+        font-size: 50px;
+        cursor: pointer;
+    }
+
+    #mainContent .issue {
+        display: table;
+        padding: 50px 0;
+        border-bottom: 1px solid #ccc;
+    }
+
+    #mainContent .issue.end {
+        border-bottom: none;
+    }
+
+    #mainContent .issue strong {
+        color: #ff5454;
+    }
+
+    #mainContent .issue .txtGroup {
+        position: relative;
+        position: relative;
+        display: table-cell;
+        width: 750px;
+        vertical-align: middle;
+    }
+
+    #mainContent .issue .txtGroup ul {
+        margin-left: 20px;
+    }
+
+    #mainContent .issue .txtGroup li {
+        margin-bottom: 4px;
+        list-style: disc outside;
+        line-height: 24px;
+    }
+
+    #mainContent .issue .imgGroup {
+        position: relative;
+        display: table-cell;
+        width: 350px;
+        vertical-align: middle;
+    }
+
+    #mainContent .issue .imgGroup > div {
+        float: left;
+        width: 310px;
+    }
+
+    #mainContent .issue .imgGroup > div:first-child {
+        margin-right: 30px;
+    }
+
+    #mainContent .issue .imgGroup p {
+        text-align: center;
+    }
+
+    #mainContent .issue:nth-of-type(odd) .txtGroup {
+        padding-right: 50px;
+    }
+
+    #mainContent .issue:nth-of-type(even) .txtGroup {
+        left: 350px;
+        padding-left: 50px;
+    }
+
+    #mainContent .issue:nth-of-type(even) .imgGroup {
+        right: 750px;
+    }
+
+    #mainContent .linkBtn {
+        display: block;
+        margin-top: 1em;
+        width: 297px;
+        height: 50px;
+        background-color: #ff6464;
+        color: #fff;
+        text-align: center;
+        letter-spacing: getLetterSpacing(75);
+        line-height: 50px;
+    }
+}

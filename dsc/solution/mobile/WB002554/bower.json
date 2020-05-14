@@ -1,0 +1,21 @@
+{
+  "name": "spa",
+  "authors": [
+    "Kenge <pgkusn@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "swiper": "^4.5.0",
+    "lodash": "^4.17.15"
+  }
+}

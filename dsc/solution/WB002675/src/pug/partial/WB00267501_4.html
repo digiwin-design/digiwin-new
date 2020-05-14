@@ -1,0 +1,19 @@
+<main-header>
+    <template slot="content">
+        <h1>經營觀光工廠<br>有沒有發生這些問題？</h1>
+        <p>接團前、接團中、接團後</p>
+    </template>
+</main-header>
+
+<component :is="componentId"></component>
+
+<article class="cases">
+    <div class="container">
+        <section-title title="輔導案例"></section-title>
+        <div class="cases-content">
+            <case v-bind:id="i" v-for="i in [13,14]"></case>
+        </div> 
+    </div>
+</article>
+
+<contact v-bind:multiple="false" source=""></contact>

@@ -1,0 +1,303 @@
+@charset "UTF-8";
+main.WB00247601_manufacture .linkALL_2 {
+    position: fixed;
+    top: 0;
+    background-color: #f9f9f9;
+}
+
+main.WB00247601_manufacture .section {
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    min-width: 1000px;
+    padding: 70px 0;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+main.WB00247601_manufacture .content {
+    position: relative;
+    width: 1000px;
+}
+
+main.WB00247601_manufacture .left {
+    float: left;
+}
+
+main.WB00247601_manufacture .right {
+    float: right;
+}
+
+main.WB00247601_manufacture .section p {
+    text-align: justify;
+}
+
+main.WB00247601_manufacture .section .sectionNote {
+    padding: 0 100px;
+    font-size: 19px;
+    line-height: 27px;
+    text-align: justify;
+}
+
+main.WB00247601_manufacture .section .imgNote {
+    text-align: center;
+}
+
+main.WB00247601_manufacture #problems {
+    padding-bottom: 0;
+    background: url(../images/manufacture/bg_problems.png) no-repeat center bottom;
+}
+
+main.WB00247601_manufacture #problems .highLight {
+    color: #00a2a5;
+    font-weight: bold;
+}
+
+main.WB00247601_manufacture #problems .chart {
+    position: relative;
+    height: 443px;
+    margin: 25px 0;
+    background: url(../images/manufacture/bg_chart.png) no-repeat left top;
+}
+
+main.WB00247601_manufacture #problems .chart .left {
+    position: absolute;
+    z-index: 5;
+    top: 22px;
+    left: 0;
+    width: 415px;
+    margin: 0 0 0 19px;
+    padding: 12px 38px 0 50px;
+    background: url(../images/manufacture/bg_chartDes.png) no-repeat left top;
+}
+
+main.WB00247601_manufacture #problems .chart .left li {
+    margin: 0 0 19px;
+    color: #fff;
+    font-size: 18px;
+    line-height: 23px;
+}
+
+main.WB00247601_manufacture #problems .chart .left li.highLight {
+    color: #ffff00;
+    font-weight: bold;
+}
+
+main.WB00247601_manufacture #problems .chart .right {
+    position: absolute;
+    z-index: 4;
+    top: 22px;
+    right: 5px;
+    width: 495px;
+    margin-top: 7px;
+    color: #fff;
+    text-align: right;
+}
+
+main.WB00247601_manufacture #problems .chart .right li {
+    width: 0;
+    height: 50px;
+    margin: 0 0 16px;
+    background-color: #57d1d2;
+    line-height: 50px;
+}
+
+main.WB00247601_manufacture #problems .chart .right .digital {
+    display: none;
+    margin-right: 15px;
+}
+
+main.WB00247601_manufacture #problems .chart .right .problem02,
+main.WB00247601_manufacture #problems .chart .right .problem03 {
+    background-color: #ffba00;
+}
+
+main.WB00247601_manufacture #problems .callIn {
+    margin-top: 60px;
+    background: url(../images/manufacture/bg_callIn.png) no-repeat center bottom;
+}
+
+main.WB00247601_manufacture #problems .callIn01 {
+    margin-left: 254px;
+}
+
+main.WB00247601_manufacture #problems .callIn02 {
+    margin: -40px 0 0 70px;
+}
+
+main.WB00247601_manufacture #problems .callIn03 {
+    margin: 10px 0 30px 98px;
+}
+
+main.WB00247601_manufacture #problemsBOM {
+    z-index: 5;
+    padding: 50px 0 0;
+    background: url(../images/manufacture/bg_problemsBOM.jpg) no-repeat center top;
+    color: #fff;
+}
+
+main.WB00247601_manufacture #problemsBOM .bomProcess {
+    margin-bottom: 5px;
+}
+
+main.WB00247601_manufacture #problemsBOM h2 {
+    color: #fff;
+    text-align: left;
+}
+
+main.WB00247601_manufacture #problemsBOM .highLight {
+    color: #ffff00;
+}
+
+main.WB00247601_manufacture #problemsBOM .left {
+    width: 460px;
+    margin-right: 70px;
+}
+
+main.WB00247601_manufacture #problemsBOM .left .imgNote {
+    margin-top: 50px;
+    text-align: right;
+}
+
+main.WB00247601_manufacture #problemsBOM .bomInfluence {
+    -moz-box-sizing: border-box;
+         box-sizing: border-box;
+    width: 100%;
+    max-width: 1366px;
+    min-width: 1000px;
+    margin: 0 auto;
+    padding: 0 25px;
+}
+
+main.WB00247601_manufacture #problemsBOM .bomInfluence img {
+    width: 25%;
+    height: auto;
+}
+
+main.WB00247601_manufacture #problemsBOM .bomInfluence .imgNote {
+    margin-left: 158px;
+    font-size: 21px;
+    font-weight: bold;
+    line-height: 35px;
+    text-align: left;
+}
+
+main.WB00247601_manufacture #bomIntro {
+    z-index: 4;
+    margin-top: -15px;
+    background: url(../images/manufacture/bg_bomIntro.jpg) no-repeat center top;
+}
+
+main.WB00247601_manufacture #bomIntro .content {
+    width: 1366px;
+}
+
+main.WB00247601_manufacture #bomIntro .sectionNote {
+    text-align: center;
+}
+
+main.WB00247601_manufacture #bomIntro .paragraph01 {
+    margin: 40px 0;
+    padding: 30px 640px 45px 183px;
+    background: url(../images/manufacture/bg_bomIntro_paragraph01.png) no-repeat center top;
+}
+
+main.WB00247601_manufacture #bomIntro .paragraph01 .highLight {
+    color: #ff9000;
+    font-weight: bold;
+}
+
+main.WB00247601_manufacture #bomIntro .paragraph02 {
+    margin-bottom: 60px;
+    padding: 40px 183px 60px 610px;
+    background: url(../images/manufacture/bg_bomIntro_paragraph02.png) no-repeat center top;
+}
+
+main.WB00247601_manufacture #bomIntro .imgStyle {
+    display: block;
+    margin: 0 auto;
+}
+
+main.WB00247601_manufacture #bomIntro .bomExplain {
+    margin-top: 60px;
+}
+
+main.WB00247601_manufacture #bomIntro .bomExplain .left {
+    width: 310px;
+    padding: 80px 40px 0 183px;
+}
+
+main.WB00247601_manufacture #bomIntro .bomExplain .left .imgNote {
+    margin-top: 35px;
+    text-align: right;
+}
+
+main.WB00247601_manufacture #lackMaterial {
+    z-index: 3;
+    margin-top: -90px;
+    background: url(../images/manufacture/bg_lackMaterial.jpg) no-repeat center top fixed;
+}
+
+main.WB00247601_manufacture #lackMaterial .content {
+    width: 1366px;
+}
+
+main.WB00247601_manufacture #lackMaterial .lackMaterialDes {
+    margin-top: 95px;
+    padding: 0 665px 50px 183px;
+    background: url(../images/manufacture/bg_lackMaterialDes.png) no-repeat center 30px;
+}
+
+main.WB00247601_manufacture #lackMaterial h2 {
+    text-align: left;
+}
+
+main.WB00247601_manufacture #lackMaterial .improveLack {
+    width: 1000px;
+    margin: -10px auto 0;
+}
+
+main.WB00247601_manufacture #lackMaterial .improveLack h3 {
+    margin-bottom: 20px;
+    font-size: 26px;
+    line-height: 24px;
+}
+
+main.WB00247601_manufacture #lackMaterial .improveLack h4 {
+    margin-bottom: 10px;
+    padding-left: 10px;
+    border-left: 5px solid #00a2a5;
+    color: #00a2a5;
+    font-size: 21px;
+    line-height: 24px;
+}
+
+main.WB00247601_manufacture #lackMaterial .improveLack .left,
+main.WB00247601_manufacture #lackMaterial .improveLack .right {
+    width: 50%;
+}
+
+main.WB00247601_manufacture #lackMaterial .improveLack .left .paragraph {
+    padding: 0 40px 0 15px;
+}
+
+main.WB00247601_manufacture #lackMaterial .improveLack .right h4 {
+    margin-left: 40px;
+}
+
+main.WB00247601_manufacture #lackMaterial .improveLack .right .paragraph {
+    padding: 0 0 0 55px;
+}
+
+main.WB00247601_manufacture #lackMaterial .improveLack .imgNote {
+    margin-top: 35px;
+    padding-left: 65px;
+    font-size: 19px;
+    font-weight: bold;
+    text-align: left;
+}
+
+main.WB00247601_manufacture #lackMaterial .improveLack .imgStyle {
+    display: block;
+    margin: 0 auto;
+}

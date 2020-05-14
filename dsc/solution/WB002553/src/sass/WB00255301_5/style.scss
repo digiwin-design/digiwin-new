@@ -1,0 +1,17 @@
+@import '../common';
+@import 'components';
+
+main {
+    .header {
+        @include headerBg('WB00255301_5/header-bg.jpg');
+        @media (max-width: $tablet-width) {
+            .mainTitle br {
+                display: none;
+            }
+        }
+    }
+    .desktop-nav a,
+    .mobile .accordion h2 {
+        background-color: #dbac07;
+    }
+}

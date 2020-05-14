@@ -1,0 +1,133 @@
+.main {
+    $theme-color: #1c5c7d, #42b7b8, #e46010, #54a83a, #dea10f, #ec5050;
+    @for $nth from 1 through 6 {
+        &.theme#{$nth} {
+            .columns {
+                &-title {
+                    background-color: darken(nth($theme-color, $nth), 13%);
+                }
+                &-content {
+                    border-color: nth($theme-color, $nth);
+                }
+            }
+            .checklistH {
+                &-highlight {
+                    color: nth($theme-color, $nth);
+                }
+            }
+            .privateCloud h1 {
+                color: nth($theme-color, $nth);
+            }
+        }
+    }
+    .checklist {
+        & > li {
+            position: relative;
+            padding-left: 37px;
+            letter-spacing: getLetterSpacing(75);
+            font-size: 18px;
+            line-height: 24px;
+            &:not(:last-child) {
+                margin-bottom: 26px;
+            }
+            &::before {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 21px;
+                height: 21px;
+                border: 1px solid #000;
+                content: '';
+            }
+            @for $nth from 1 through 20 {
+                &:nth-child(#{$nth}) i {
+                    animation-delay: #{$nth * .5}s;
+                }
+            }
+        }
+        i {
+            @include imgBg('01_3/check-icon.png', true);
+            position: absolute;
+            top: -14px;
+            left: -5px;
+            display: block;
+            line-height: 18px;
+            opacity: 0;
+        }
+    }
+    picture img {
+        display: block;
+        margin: 0 auto;
+    }
+    .lists {
+        display: flex;
+        margin: 0 auto;
+        padding-left: 1em;
+        list-style-type: disc;
+        flex-wrap: wrap;
+        & > li {
+            width: 100%;
+        }
+    }
+    .columns {
+        display: flex;
+        flex-wrap: wrap;
+        & > li {
+            width: 100%;
+            & > ul {
+                margin-top: 34px;
+            }
+            &:not(:last-child) {
+                margin-bottom: 34px;
+                @media (min-width: $content-width) {
+                    margin-bottom: 0;
+                }
+            }
+            @media (min-width: $content-width) {
+                &.cols .columns-content {
+                    height: auto;
+                }
+            }
+        }
+        &-title {
+            height: 57px;
+            color: #fff;
+            text-align: center;
+            font-weight: bold;
+            font-size: 20px;
+            line-height: 57px;
+        }
+        &-content {
+            border: 1px solid;
+            @media (min-width: $content-width) {
+                height: calc(100% - 57px);
+            }
+        }
+    }
+    .checklistH {
+        @media (min-width: $tablet-width) {
+            & > li {
+                line-height: inherit;
+            }
+            &-text {
+                font-size: 20px;
+            }
+        }
+        &-highlight {
+            margin-bottom: .2em;
+            font-weight: bold;
+            line-height: 1;
+            @media (min-width: $tablet-width) {
+                font-size: 24px;
+            }
+        }
+    }
+    .dlLists {
+        dt {
+            font-weight: bold;
+        }
+        dd:not(:last-of-type) {
+            margin-bottom: 1em;
+        }
+    }
+}

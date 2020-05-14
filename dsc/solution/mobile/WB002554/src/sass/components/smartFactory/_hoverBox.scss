@@ -1,0 +1,38 @@
+main .smartFactory {
+    .hoverBox {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 224px;
+        color: #fff;
+        justify-content: center;
+        & + .hoverBox {
+            margin-top: 20px;
+        }
+        img {
+            margin: 0 auto 1em;
+        }
+        &-title {
+            margin-bottom: .2em;
+            text-align: center;
+            letter-spacing: getLetterSpacing(200);
+            font-weight: bold;
+            font-size: 24px;
+            line-height: 1;
+        }
+        &-subtitle {
+            text-align: center;
+            letter-spacing: getLetterSpacing(200);
+            line-height: 1.3;
+        }
+        &-hover {
+            display: flex;
+            padding: 0 25px;
+            color: #fff;
+            text-align: justify;
+            line-height: 26px;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+}

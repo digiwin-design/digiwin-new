@@ -1,0 +1,70 @@
+main .videoSection {
+    margin: 0 auto;
+    padding-top: 50px;
+    padding-bottom: 40px;
+    max-width: 1920px;
+    background-position: 50% 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    @media (min-width: $tablet-width+1) {
+        padding-top: 90px;
+        padding-bottom: 90px;
+    }
+    &.typeA {
+        background-color: #27262a;
+        @media (min-width: $tablet-width+1) {
+            background-image: image-url('case/videoSection-bg1.jpg');
+        }
+    }
+    &.typeB {
+        background-color: #e2a52b;
+        @media (min-width: $tablet-width+1) {
+            background-image: image-url('case/videoSection-bg2.jpg');
+        }
+    }
+    .container {
+        display: flex;
+        flex-direction: column;
+        padding-right: 0;
+        padding-left: 0;
+        align-items: center;
+        @media (min-width: $tablet-width+1) {
+            flex-direction: row;
+            padding-right: 20px;
+            padding-left: 20px;
+        }
+        @media (min-width: $content-width) {
+            padding-right: 0;
+            padding-left: 0;
+        }
+    }
+    &-text {
+        margin-bottom: 40px;
+        padding: 0 5px;
+        color: #fff;
+        text-align: center;
+        letter-spacing: getLetterSpacing(75);
+        font-size: 24px;
+        line-height: 1.5;
+        @media (min-width: $tablet-width+1) {
+            margin-bottom: 0;
+            width: percentage(535 / 1200);
+            font-size: 30px;
+            line-height: 1.2;
+            @at-root {
+                main .videoSection.typeB .videoSection-text {
+                    order: 1;
+                }
+            }
+        }
+    }
+    &-video {
+        width: 100%;
+        @media (min-width: $tablet-width+1) {
+            width: percentage(665 / 1200);
+        }
+    }
+    .video-container {
+        @include youtubeIframe();
+    }
+}

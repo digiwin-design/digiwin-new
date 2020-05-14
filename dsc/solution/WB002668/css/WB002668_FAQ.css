@@ -1,0 +1,181 @@
+@charset "utf-8";
+h3 {
+	font-size: 24px;
+	font-weight: bold;
+}
+
+p {
+	line-height: 24px;
+}
+
+.FAQ h3 {
+	margin: 40px 0 0;
+	padding: 0 0 0 40px;
+	background: url(../images/FAQIcon.png) no-repeat left top;
+	line-height: 41px;
+}
+
+#interview h3 {
+	background-position: left -41px;
+}
+
+#train h3 {
+	background-position: left -82px;
+}
+
+.content {
+	counter-reset: decimalNum;
+}
+
+.questionList {
+	margin: 7px 0 0;
+}
+
+.question {
+	counter-increment: decimalNum;
+	position: relative;
+	padding: 15px 30px 15px 50px;
+	border: 1px solid #00b0c8;
+	border-left-width: 10px;
+	line-height: 24px;
+	cursor: pointer;
+}
+
+.question:before {
+	content: counter(decimalNum);
+	display: inline-block;
+	position: absolute;
+	top: 15px;
+	left: 15px;
+	width: 17px;
+	height: 25px;
+	margin: 0 10px 0 0;
+	padding: 0 0 0 8px;
+	border: 1px solid #333;
+	border-radius: 50%;
+	line-height: 25px;
+}
+
+.question.twoDigits:before {
+	width: 22px;
+	padding: 0 0 0 3px;
+}
+
+.answer {
+	display: none;
+	margin: 0 0 15px;
+	padding: 10px 30px 10px 60px;
+	border: 1px solid #00b0c8;
+	border-top: none;
+}
+
+#apply .questionList:nth-of-type(1) .answer{
+	display: block;
+}
+
+.now .question {
+	color: #fff;
+	background-color: #00b0c8;
+}
+
+.now .question:before {
+	border: 1px solid #fff;
+}
+
+#interview .question {
+	border: 1px solid #f79421;
+	border-left-width: 10px;
+}
+
+#interview .answer {
+	border: 1px solid #f79421;
+	border-top: none;
+}
+
+#interview .now .question {
+	background-color: #f79421;
+}
+
+/*contact style*/
+#contact {
+	margin: 20px 0 0;
+	padding: 50px 0;
+	background: url(../images/FAQ_contactBg.jpg) no-repeat center center #777777;
+	color: #ffffff;
+}
+
+#contact p {
+	width: 500px;
+	margin: 40px auto 0;
+	padding: 20px 0 40px 240px;
+	background: url(../images/telImage.png) no-repeat left top;
+	font-size: 21px;
+	line-height: 30px;
+}
+
+#contact p span {
+	font-weight: bold;
+}
+
+#contact a {
+	color: #ffffff;
+}
+
+#contact a:hover {
+	color: #ffff00;
+}
+
+
+
+@media screen and (max-width: 480px) {
+	.question {
+		counter-increment: decimalNum;
+		position: relative;
+		padding: 15px 15px 15px 45px;
+		border: 1px solid #00b0c8;
+		border-left-width: 10px;
+		line-height: 24px;
+		cursor: pointer;
+	}
+
+	.question:before {
+		content: counter(decimalNum);
+		display: inline-block;
+		position: absolute;
+		top: 15px;
+		left: 10px;
+		width: 17px;
+		height: 25px;
+		margin: 0 10px 0 0;
+		padding: 0 0 0 8px;
+		border: 1px solid #333;
+		border-radius: 50%;
+		line-height: 25px;
+	}
+
+	.answer {
+		display: none;
+		margin: 0 0 15px;
+		padding: 10px 15px 10px 55px;
+		border: 1px solid #00b0c8;
+		border-top: none;
+	}
+
+	/*contact style*/
+	#contact {
+		margin: 20px 0 0;
+		padding: 50px 0;
+		background: url(../images/FAQ_contactBg.jpg) no-repeat center center #777777;
+		color: #ffffff;
+	}
+
+	#contact p {
+		width: 100%;
+		margin: 40px auto 0;
+		padding: 0;
+		background: url() no-repeat left top;
+		font-size: 21px;
+		line-height: 30px;
+		text-align: center;
+	}
+}

@@ -1,0 +1,505 @@
+@import 'common/variable';
+@import 'common/helpers';
+@import 'common/family';
+@import 'common/reset';
+@import 'common/all';
+
+#WB002811.WB002811_index {
+    min-width: 320px;
+    .indBanner-inner {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-align: center;
+        margin: 0 auto;
+        max-width: 1230px;
+        height: 100%;
+        -webkit-box-align: center;
+        align-items: center;
+    }
+    a i.fa {
+        font-size: 16px;
+    }
+    #indBanner {
+        margin: 0 auto;
+        max-width: 1920px;
+        background-image: url('../images/index/bg_banner.jpg');
+        background-repeat: no-repeat;
+        background-position: 50%;
+        @media (max-width: 768px) {
+            background-image: linear-gradient(rgba(#0a3d6b, .7), rgba(#0a3d6b, .7)), url('../images/index/bg_banner.jpg');
+        }
+        h1 {
+            color: #ff9c00;
+        }
+    }
+    #foreword .newsGroup {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        .list {
+            padding: 0 15px;
+            width: 33.33333%;
+            height: auto;
+            .outline {
+                padding: 20px 30px;
+                height: 100%;
+                border: 1px solid #ccc;
+                border-radius: 2px;
+            }
+            h4 {
+                margin-bottom: 10px;
+                color: #05529a;
+                font-size: 20px;
+                &:hover {
+                    color: #2793f8;
+                }
+            }
+            .date {
+                margin-top: 20px;
+                text-align: right;
+                font-size: 16px;
+            }
+        }
+    }
+    .getOrder {
+        margin: 30px auto 70px;
+        padding: 30px;
+        max-width: 1170px;
+        border-radius: 2px;
+        background: url('../images/index/bg_getOrder.jpg') no-repeat center center;
+        font-size: 18px;
+        font-family: Arial, '微軟正黑體';
+        line-height: 27px;
+        h3 {
+            margin-bottom: 10px;
+            font-weight: normal;
+            font-size: 30px;
+            line-height: 30px;
+        }
+        ul {
+            float: left;
+            max-width: 670px;
+        }
+        li {
+            float: left;
+            width: 50%;
+            list-style: disc inside;
+        }
+        .pageLink-bgColor {
+            float: right;
+            max-width: 440px;
+            &::after {
+                content: '因應複雜多變的產業環境，您可以這樣作！';
+            }
+        }
+    }
+    #quality {
+        background: url('../images/index/bg_problems.jpg') no-repeat center center;
+        color: #fff;
+        .jobProblem:hover .handTop {
+            -webkit-animation-play-state: paused;
+                    animation-play-state: paused;
+        }
+        .txt {
+            float: left;
+            overflow: hidden;
+            padding: 0 15px;
+            cursor: pointer;
+            .outline {
+                position: relative;
+                overflow: hidden;
+                padding: 30px 0;
+                border-radius: 2px;
+                background-color: #0482b7;
+            }
+            .nameLayer {
+                position: relative;
+                z-index: 2;
+                text-align: center;
+                p {
+                    margin-top: 8px;
+                    text-align: inherit;
+                    font-weight: bold;
+                    font-size: 24px;
+                }
+            }
+            .txtLayer {
+                position: absolute;
+                top: 50%;
+                left: 0;
+                padding: 0 10px;
+                -webkit-transform: translateY(-50%);
+                        transform: translateY(-50%);
+                p {
+                    float: left;
+                    padding: 0 20px;
+                }
+            }
+            .handTop {
+                position: absolute;
+                top: 95%;
+                left: 50%;
+                font-size: 24px;
+                -webkit-transform: translateX(-50%);
+                        transform: translateX(-50%);
+                -webkit-animation: handTop 1.5s infinite;
+                        animation: handTop 1.5s infinite;
+                -webkit-animation-timing-function: ease-out;
+                        animation-timing-function: ease-out;
+            }
+            .mask {
+                position: absolute;
+                top: 100%;
+                left: 0;
+                z-index: 3;
+                width: 100%;
+                height: 100%;
+            }
+        }
+        .txt01 {
+            width: 40%;
+            .outline {
+                background-color: #0482b7;
+            }
+            .txtLayer {
+                color: #0489c1;
+                p {
+                    width: 50%;
+                }
+            }
+            .mask {
+                background-color: rgba(2, 59, 83, .9);
+            }
+        }
+        .txt02 {
+            width: 60%;
+            .outline {
+                background-color: #04a8b7;
+            }
+            .txtLayer {
+                color: #04b1c1;
+                p {
+                    width: 33.33333%;
+                }
+            }
+            .mask {
+                background-color: rgba(2, 76, 83, .9);
+            }
+        }
+        a.pageBtn-normal {
+            display: block;
+            margin: 30px auto 0;
+            background-color: transparent;
+            text-align: center;
+            &:hover {
+                color: #2793f8;
+            }
+        }
+    }
+    #case {
+        .caseGroup {
+            margin-top: 50px;
+        }
+        .list {
+            float: left;
+            padding: 0 15px;
+            width: 25%;
+        }
+        img {
+            display: block;
+            margin: 0 auto;
+            max-width: 100%;
+        }
+        .outline {
+            margin: 0 auto;
+            padding: 16px 16px 24px;
+            max-width: 270px;
+            height: 100%;
+            border: 1px solid #ccc;
+            border-top: none;
+        }
+        .type {
+            display: inline-block;
+            padding: 1px 8px;
+            background-color: #666;
+            color: #fff;
+            font-size: 16px;
+        }
+        .name {
+            margin: 10px 0;
+            color: #05529a;
+            font-weight: bold;
+            font-size: 24px;
+        }
+        .desc {
+            font-size: 17px;
+        }
+        a {
+            &:hover {
+                color: #2793f8;
+            }
+            &.pageLink-bgColor {
+                float: right;
+                margin-top: 20px;
+                padding: 2px 8px;
+                font-size: 18px;
+                line-height: 27px;
+                &:hover {
+                    color: #fff;
+                }
+            }
+        }
+    }
+    #solution {
+        background-color: #dbe4ea;
+        img {
+            display: block;
+            margin: 0 auto;
+            max-width: 100%;
+        }
+    }
+    .seminarInfo {
+        -webkit-box-sizing: border-box;
+                box-sizing: border-box;
+        background-color: #ebebeb;
+    }
+    .seminarInfo-content {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        margin-top: 2em;
+    }
+    .seminarInfo-illu {
+        margin-right: 20px;
+        -ms-flex-item-align: start;
+        align-self: flex-start;
+    }
+    .seminarInfo-text {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-direction: column;
+            flex-direction: column;
+        -ms-flex-pack: justify;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -webkit-box-pack: justify;
+        justify-content: space-between;
+        h3 {
+            color: #234e96;
+            line-height: 1.4;
+        }
+        p {
+            margin-top: -1em;
+        }
+    }
+    .seminarInfo-btn {
+        margin-top: 20px;
+        width: 316px;
+        line-height: 41px;
+    }
+    .swiper-button-next,
+    .swiper-button-prev {
+        display: none;
+        width: 20px;
+        height: 40px;
+        background-size: contain;
+    }
+    .swiper-button-next {
+        right: 0;
+        background-image: url('../images/swiper-button-next.png?1534121610');
+    }
+    .swiper-button-prev {
+        left: 0;
+        background-image: url('../images/swiper-button-prev.png?1534121610');
+    }
+    .swiper-pagination {
+        display: none;
+        @media (max-width: 768px) {
+            display: block;
+        }
+    }
+    .swiper-pagination-bullet {
+        margin: 0;
+        width: calc((100% - 40px) / 3 - 2px);
+        height: 3px;
+        border-radius: 0;
+        background-color: #ccc;
+        &:not(:last-child) {
+            margin-right: 1px;
+        }
+    }
+    .swiper-pagination-bullet-active {
+        background-color: #05529a;
+    }
+    .swiper-container-horizontal > .swiper-pagination-bullets {
+        bottom: 0;
+    }
+    html.flexboxtweener .seminarInfo-text p {
+        width: 900px;
+    }
+    .jobProblem-txtLayer-mb {
+        display: none;
+        margin: 0 auto;
+        padding: 30px 20px 0;
+        max-width: 730px;
+        p:not(:last-child) {
+            margin-bottom: .5em;
+        }
+    }
+}
+
+@-webkit-keyframes handTop {
+    0% {
+        top: 95%;
+    }
+
+    50% {
+        top: 87%;
+    }
+
+    100% {
+        top: 95%;
+    }
+}
+
+
+@keyframes handTop {
+    0% {
+        top: 95%;
+    }
+
+    50% {
+        top: 87%;
+    }
+
+    100% {
+        top: 95%;
+    }
+}
+
+
+@media (max-width: 1220px) {
+    #WB002811.WB002811_index {
+        br {
+            display: none;
+        }
+        #quality {
+            .txt {
+                padding: 0;
+                width: 100%;
+                cursor: default;
+            }
+            .txt01 {
+                margin-bottom: 20px;
+            }
+            .txt .nameLayer p {
+                margin-top: -25px;
+            }
+        }
+        .jobProblem-txtLayer-mb {
+            display: block;
+        }
+        .txtLayer,
+        .mask,
+        .handTop {
+            display: none !important;
+        }
+        .getOrder {
+            margin-bottom: 0;
+            padding-right: 20px;
+            padding-left: 20px;
+            h3 {
+                margin: 0 auto;
+                max-width: 545px;
+                max-width: 440px;
+                font-size: 24px;
+            }
+            ul {
+                float: none;
+                margin: 20px auto;
+                width: 300px;
+            }
+            li {
+                float: none;
+                width: auto;
+            }
+            .pageLink-bgColor {
+                display: block;
+                float: none;
+                clear: both;
+                margin: 0 auto;
+                padding-right: 10px;
+                padding-left: 10px;
+                line-height: 50px;
+                &::after {
+                    content: '如何因應複雜多變的產業環境？';
+                    font-size: 17px;
+                }
+            }
+        }
+        .seminarInfo-text p {
+            margin-top: 0;
+        }
+        #case .list {
+            width: 50%;
+            &:nth-child(-n + 2) {
+                margin-bottom: 30px;
+            }
+        }
+    }
+}
+
+@media (max-width: 640px) {
+    #WB002811.WB002811_index #case .list {
+        width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    #WB002811 {
+        &.WB002811_index {
+            #foreword .newsGroup .list {
+                padding-right: 0;
+                padding-left: 0;
+                .outline {
+                    border: none;
+                }
+            }
+            .swiper-button-next,
+            .swiper-button-prev {
+                display: block;
+            }
+        }
+        p.sectionDesc-center {
+            padding-right: 0;
+            padding-left: 0;
+        }
+        &.WB002811_index {
+            #quality {
+                background-color: #002655;
+                background-position-y: top;
+            }
+            .seminarInfo-content {
+                -ms-flex-direction: column;
+                    flex-direction: column;
+                -ms-flex-align: center;
+                -webkit-box-orient: vertical;
+                -webkit-box-direction: normal;
+                -webkit-box-align: center;
+                align-items: center;
+            }
+            .seminarInfo-illu {
+                margin-right: 0;
+                margin-bottom: 20px;
+                -ms-flex-item-align: auto;
+                align-self: auto;
+            }
+            .seminarInfo-btn {
+                margin-left: auto;
+                margin-right: auto;
+            }
+        }
+    }
+}

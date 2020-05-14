@@ -1,0 +1,16 @@
+extends ../layout.pug
+
+block includes
+    link(rel='stylesheet', href='assets/animate.css')
+    link(rel='stylesheet', href='assets/jquery.fancybox.min.css')
+    link(rel='stylesheet', href=`css/WB00291701_2.css?v=${Math.random()}`)
+    script(src='assets/modernizr-custom.js', defer)
+    script(src='assets/mobile-detect.js', defer)
+    script(src='assets/mobile-detect-modernizr.js', defer)
+    script(src='assets/picturefill.js', defer)
+    script(src='assets/lodash.js', defer)
+    script(src='assets/jquery.fancybox.min.js', defer)
+    script(src='js/WB00291701_2.min.js', defer)
+
+block content
+    include WB00291701_2.html

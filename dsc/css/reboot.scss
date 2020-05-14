@@ -1,0 +1,97 @@
+// 一頁式
+main,
+.popup_content {
+    display: block;
+    color: #000;
+    word-wrap: break-word;
+    font-size: 100%;
+    line-height: 1;
+    font-family: -apple-system, Roboto, Helvetica, Arial, "PingFang TC", "Microsoft JhengHei", sans-serif;
+    input, textarea, select, button {
+        font-family: -apple-system, Roboto, Helvetica, Arial, "PingFang TC", "Microsoft JhengHei", sans-serif;
+    }
+    .container {
+        padding: 0;
+        width: auto;
+    }
+    h1, h2, h3, h4, h5 {
+        padding: 0;
+        color: inherit;
+        font-weight: normal;
+        font-size: 100%;
+        line-height: inherit;
+    }
+    i {
+        font-style: normal;
+    }
+    table {
+        width: auto;
+        border-spacing: 0;
+    }
+    .slider-content {
+        position: static;
+    }
+    a {
+        transition: none;
+        &:hover {
+            color: initial;
+        }
+    }
+    textarea {
+        color: initial;
+    }
+    input {
+        &[type=email], &[type=date], &[type=password], &[type=text] {
+            color: initial;
+        }
+    }
+    .banner {
+        overflow: visible;
+        span {
+            display: inline;
+            position: static;
+            &::after {
+                display: none;
+            }
+        }
+    }
+    svg {
+        max-width: 100%;
+        vertical-align: top;
+    }
+    header {
+        position: static;
+        top: auto;
+        width: auto;
+        background-color: transparent;
+        z-index: auto;
+        animation: none;
+        border-bottom: none;
+    }
+    .fixed-block {
+        width: auto;
+        left: auto;
+        top: auto;
+        position: static;
+        z-index: auto;
+        animation: none;
+    }
+}
+
+// 一頁式二級選單下方間距
+html.production main {
+    @media (min-width: 1025px) {
+        padding-top: 38px !important;
+    }
+    @media (min-width: 1211px) {
+        padding-top: 0 !important;
+    }
+}
+
+// 文章
+.list-case-show {
+    main.top {
+        position: relative;
+        z-index: 99;
+    }
+}

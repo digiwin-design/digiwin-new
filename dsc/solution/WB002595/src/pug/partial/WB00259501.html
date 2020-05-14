@@ -1,0 +1,112 @@
+<div class="header">
+    <div class="container">
+        <div class="header-text">
+            <h1 class="mainTitle">一組人1個網購系統<br>管理多個電商平台</h1>
+            <p>
+                訂單少沒事只有不賺錢！<br>
+                訂單多整個作業就急忙很多事!稍有出錯罰款、抱怨接著來，若一桶能幫忙處理繁瑣的作業，整體運作就能效率化、訂單再多也不怕
+            </p>
+        </div>
+    </div>
+</div>
+
+<article id="section1" class="section1">
+    <div class="container">
+        <h1 class="sectionTitle">網購世界賣出一片天</h1>
+        <p class="section1-desc">十藝生技、第一化工、嚴購網、采妍國際、PG美人網、雅聞、森田藥妝等近３００多家企業使用</p>
+    </div>
+    <local-swiper v-if="content" ref="awesomeSwiperA" :options="swiperOptionA">
+        <local-slide v-for="slide in content.slides" class="section1-slide" :key="slide.title">
+            <div class="container">
+                <article class="section1-slideItem">
+                    <div v-if="slide.video" class="col">
+                        <div class="video-container">
+                            <iframe :src="slide.video" frameborder="0" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                    <div v-else class="section1-illust col">
+                        <img :src="slide.illust" alt="">
+                    </div>
+                    <div class="section1-content col">
+                        <h2 v-html="slide.title"></h2>
+                        <p>{{slide.content}}</p>
+                        <a :href="slide.url" class="section1-btn" target="_blank">閱讀案例</a>
+                    </div>
+                </article>
+            </div>
+        </local-slide>
+        <div class="swiper-pagination" slot="pagination"></div>
+    </local-swiper>
+</article>
+
+<article class="section2">
+    <div class="container">
+        <h1 class="sectionTitle">跨境電商要跨哪裡！ 中國大陸？歐盟美國？還是東南亞？</h1>
+        <picture>
+            <source srcset="images/index/section2-illust.png" media="(min-width:769px)">
+            <img src="images/index/section2-illust-s.png" alt="">
+        </picture>
+        <a href="#contact" class="js-nav">了解更多</a>
+    </div>
+</article>
+
+<article id="section3" class="section3">
+    <h1 class="sectionTitle">做網購有沒有發生這些問題？</h1>
+    <component :is="componentId"></component>
+</article>
+
+<article id="section4" class="section4">
+    <h1 class="sectionTitle container">網購生意其實您可以這樣管</h1>
+        
+    <slider id="s2" :nav="nav">
+        <template slot="s2-0">
+            <h2>接單零誤差、出貨搶時效</h2>
+            <ul class="slide1">
+                <li>平台訂單自動轉入、確認即可</li>
+                <li>自動產生對應的物流貨運</li>
+                <li>隨時掌握精確的商品庫存</li>
+                <li>降低平台扣款及缺貨罰款</li>
+            </ul>
+            <img src="images/index/section4-illust1.jpg" alt="">
+        </template>
+        <template slot="s2-1">
+            <h2>對帳快又準、損益即時瞭</h2>
+            <ul class="slide2">
+                <li>自動轉入交易對帳資料</li>
+                <li>有效處理大量對帳資料</li>
+                <li>提升對帳時效性與掌握度</li>
+            </ul>
+            <img src="images/index/section4-illust2.jpg" alt="">
+        </template>
+        <template slot="s2-2">
+            <h2>問題處理服務佳、客戶忠誠會高</h2>
+            <ul class="slide3">
+                <li>掌握客戶退換貨的原因</li>
+                <li>退換貨處理進度回報</li>
+                <li>提升退換貨處理時效</li>
+                <li>帳務、庫存自動拋轉</li>
+            </ul>
+            <img src="images/index/section4-illust3.jpg" alt="">
+        </template>
+        <template slot="s2-3">
+            <h2>平台費用項目多、期期比較不可少</h2>
+            <ul class="slide4">
+                <li>有效管理各平台合約資料</li>
+                <li>自動產生各平台通路費用</li>
+                <li>有效處理每期交易資料</li>
+            </ul>
+            <img src="images/index/section4-illust4.jpg" alt="">
+        </template>
+    </slider>
+</article>
+
+<article id="section5" class="section5">
+    <div class="container">
+        <div class="section5-content">
+            <h1>下載更完整資訊</h1>
+            <p>鼎新網購通路管理，全面結合您的網購生意從平台、接單、對帳、金流、退換貨、合約管理等作業，讓您接單再多也不困擾！</p>
+            <img src="images/index/section5-illust.png" alt="">
+            <a href="#contact" class="js-nav">資料索取</a>
+        </div>
+    </div>
+</article>

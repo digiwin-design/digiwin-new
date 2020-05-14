@@ -1,0 +1,133 @@
+@charset "utf-8";
+@media screen and (min-width: 501px) {
+	* {-webkit-box-sizing: border-box; -moz-box-sizing: border-box; -o-box-sizing: border-box; -ms-box-sizing: border-box; box-sizing: border-box;}
+	body {font-size: 100%; font-family: Arial, "微軟正黑體"; line-height: 1.875em; background-color: #000;}
+	h2 {color: #39ceff; font-size: 1.55em; text-align: center; line-height: 1.5em; margin-bottom: 7px;}
+	h3 {color: #00f6ed; font-size: 1.1875em;}
+	p, li {color: #fff; font-size: 1.0625em; text-align: justify;}
+	a {color:#fff; text-decoration: none;}
+	.clearFix:before,.clearFix:after {display:table; line-height:0; content:"";}
+	.clearFix:after {clear:both;}
+	.clearFix {*zoom: 1;}
+
+	.section {width: 100%; max-width: 768px; position: relative; padding: 0 50px; margin: 0 auto 80px;}
+	.section img {width: 100%;}
+	.des {font-size: 1.1875em; line-height: 1.7em; margin-bottom: 25px;}
+	.btn {width: 290px; height: 45px; font-size: 1.3125em; text-align: center; line-height: 45px; margin: 10px auto 0;}
+	.btn a {color: #fff; display: block; border: 1px solid #00acf6;}
+	.btn a:hover {background-color: #065280;}
+
+	#section0 {width: 768px; height:100%; padding-top: 135px; background: url(../images/m_topBg.jpg) no-repeat center top; position: relative; margin: 0 auto;}
+	#section0 #logo {position: absolute; top: 15px; left: 15px;} 
+	#section0 #logo img {width: 60%; height:auto;} 
+	#section0 h1 {text-align: center; }
+	#section0 #arrow {width: 69px; height: 69px; background: url(https://static.digiwin.com/tw/dsc/activity/WB002584/images/WB00258402/arrow.png) no-repeat left top; margin: 10px auto 0;}
+
+	#section01 {padding-top: 50px;}
+
+	#section02 ul {margin: 20px 0 0;}
+	#section02 li {margin-bottom:20px;}
+
+	#section03 .btn {margin-bottom: 35px;}
+	#section03 img {width: 150px; height: auto; display: block; margin: 0 auto 10px;}
+	#section03 li {margin-bottom: 40px;}
+	#section03 li.end {margin-bottom:0;}	
+	
+	#section04 h3 {font-size: 1.3em;}
+	#section04 img {width: 50%; display: block; margin: 20px auto 0;}
+	#section04 ul {margin: 30px 0 0;}
+	#section04 li {margin: 0 0 30px; padding-left: 60px;}
+	#section04 .icon01 {background:  url(../images/m_icon01.svg) no-repeat left top;}
+	#section04 .icon02 {background:  url(../images/m_icon02.svg) no-repeat left top;}
+	
+	#section05 ul {margin: 30px 0 0;}
+	#section05 li {margin: 0 0 30px;}
+
+	#section06 ul {margin: 20px 0;}
+	#section06 li {margin: 0 0 30px; padding-left: 60px;}
+	#section06 .icon01 {background:  url(../images/m_icon03.svg) no-repeat left top;}
+	#section06 .icon02 {background:  url(../images/m_icon04.svg) no-repeat left top;}
+	
+	#section07.section {margin-bottom: 50px;}
+	#section07 a {color: #fff;}
+	#section07 a:hover {color: #ffee00;}
+	#section07 #info {width: 100%;}
+	#section07 #iframeForm {width: 100%; height: 100%;}
+	#section07 ul {margin-top: 15px;}
+	#section07 ul li {line-height: 25px; margin-bottom: 10px; padding-left: 25px;}
+	#section07 .tel {background: url(https://static.digiwin.com/tw/dsc/images/contactIcon.png) no-repeat left top;}
+	#section07 .mail {background: url(https://static.digiwin.com/tw/dsc/images/contactIcon.png) no-repeat left -25px;}
+	#section07 .fb {background: url(https://static.digiwin.com/tw/dsc/images/contactIcon.png) no-repeat left -50px;}
+	iframe { width: 100%; border: none; display: block;}
+
+	#footer {width: 100%; padding: 20px 0; background-color: #404040;}
+	#footer p {font-size: 0.8125em; font-family: Arial, "新細明體"; line-height: 20px; text-align: center;}	
+}
+
+
+@media screen and (max-width: 500px) {
+	* {-webkit-box-sizing: border-box; -moz-box-sizing: border-box; -o-box-sizing: border-box; -ms-box-sizing: border-box; box-sizing: border-box;}
+	body {font-size: 100%; font-family: Arial, "微軟正黑體"; line-height: 1.875em; background-color: #000;}
+	h2 {color: #39ceff; font-size: 1.55em; text-align: center; line-height: 1.5em; margin-bottom: 7px;}
+	h3 {color: #00f6ed; font-size: 1.1875em;}
+	p, li {color: #fff; font-size: 1.0625em; text-align: justify;}
+	a {color:#fff; text-decoration: none;}
+	
+	.clearFix:before,.clearFix:after {display:table; line-height:0; content:"";}
+	.clearFix:after {clear:both;}
+	.clearFix {*zoom: 1;}
+
+	.section {width: 100%; position: relative; padding: 0 7%; margin-bottom: 80px;}
+	.section img {width: 100%;}
+	.des {font-size: 1.1875em; line-height: 1.7em; margin-bottom: 25px;}
+	.btn {width: 290px; height: 45px; font-size: 1.3125em; text-align: center; line-height: 45px; margin: 10px auto 0;}
+	.btn a {color: #fff; display: block; border: 1px solid #00acf6;}
+	.btn a:hover {background-color: #065280;}
+
+	#section0 {height:100%; padding-top: 135px; background: url(../images/m_topBg.jpg) no-repeat center top; position: relative;}
+	#section0 #logo {position: absolute; top: 15px; left: 15px;} 
+	#section0 #logo img {width: 60%; height:auto;} 
+	#section0 h1 {text-align: center; }
+	#section0 #arrow {width: 69px; height: 69px; background: url(https://static.digiwin.com/tw/dsc/activity/WB002584/images/WB00258402/arrow.png) no-repeat left top; margin: 10px auto 0;}
+
+	#section01 {padding-top: 50px;}
+
+	#section02 ul {margin: 20px 0 0;}
+	#section02 li {margin-bottom:20px;}
+
+	#section03 .btn {margin-bottom: 35px;}
+	#section03 img {width: 33%; height: auto; display: block; margin: 0 auto 10px;}
+	#section03 li {margin-bottom: 40px;}
+	#section03 li.end {margin-bottom:0;}	
+	
+	#section04 h3 {font-size: 1.3em;}
+	#section04 img {width: 75%; display: block; margin: 20px auto 0;}
+	#section04 ul {margin: 30px 0 0;}
+	#section04 li {margin: 0 0 30px; padding-left: 60px;}
+	#section04 .icon01 {background:  url(../images/m_icon01.svg) no-repeat left top;}
+	#section04 .icon02 {background:  url(../images/m_icon02.svg) no-repeat left top;}
+	
+	#section05 ul {margin: 30px 0 0;}
+	#section05 li {margin: 0 0 30px;}
+
+	#section06 ul {margin: 20px 0;}
+	#section06 li {margin: 0 0 30px; padding-left: 60px;}
+	#section06 .icon01 {background:  url(../images/m_icon03.svg) no-repeat left top;}
+	#section06 .icon02 {background:  url(../images/m_icon04.svg) no-repeat left top;}
+	
+	#section07.section {margin-bottom: 50px; font-size:100%;}
+	#section07 a {color: #fff;}
+	#section07 a:hover {color: #ffee00;}
+	#section07 #info {width: 100%;}
+	#section07 #iframeForm {width: 100%; height: 100%;}
+	#section07 ul {margin-top: 15px;}
+	#section07 ul li {line-height: 25px; margin-bottom: 10px; padding-left: 25px;}
+	#section07 .tel {background: url(https://static.digiwin.com/tw/dsc/images/contactIcon.png) no-repeat left top;}
+	#section07 .mail {background: url(https://static.digiwin.com/tw/dsc/images/contactIcon.png) no-repeat left -25px;}
+	#section07 .fb {background: url(https://static.digiwin.com/tw/dsc/images/contactIcon.png) no-repeat left -50px;}
+	iframe { width: 100%; border: none; display: block;}
+
+	#footer {width: 100%; padding: 20px 0; background-color: #404040;}
+	#footer p {font-size: 0.8125em; font-family: Arial, "新細明體"; line-height: 20px; text-align: center;}	
+}
+

@@ -1,0 +1,492 @@
+@charset "UTF-8";
+main.WB00247601_repair a i.fa {
+    font-size: 16px;
+}
+
+main.WB00247601_repair #repair #indBanner {
+    background: url("../images/repair/bg_banner.jpg") no-repeat center center;
+    color: #FFF;
+}
+
+main.WB00247601_repair #repair #indBanner h1 {
+    color: #00f0ff;
+}
+
+main.WB00247601_repair #repair #indBanner {
+    height: 450px;
+    margin-bottom: 0;
+    padding: 0;
+    color: #fff;
+}
+
+main.WB00247601_repair #repair #indBanner h1 {
+    margin-bottom: 4px;
+    font-size: 36px;
+    line-height: 54px;
+    text-align: left;
+}
+
+main.WB00247601_repair #repair #indBanner .pageDesc {
+    width: 500px;
+    font-size: 20px;
+    font-size: 30px;
+    line-height: 30px;
+    color: #FFF;
+}
+
+main.WB00247601_repair #screen {
+    overflow: hidden;
+    background: url("../images/repair/bg_screen.jpg") no-repeat center center;
+    height: 450px;
+}
+
+main.WB00247601_repair #screen .txtleft {
+    width: 600px;
+    display: block;
+    float: left;
+    clear: both;
+    height: 300px;
+    padding: 30px;
+    margin-top: 30px;
+}
+
+main.WB00247601_repair #howto {
+    background: url("../images/repair/bg_howto.jpg") no-repeat center center;
+    height: 650px;
+    color: #ffffff;
+    text-align: center;
+}
+
+main.WB00247601_repair #howto {
+    overflow: hidden;
+}
+
+main.WB00247601_repair #howto .boxs {
+    overflow: hidden;
+    width: 100%;
+}
+
+main.WB00247601_repair #issue {
+    background: #f5f5f5;
+}
+
+main.WB00247601_repair #issue {
+    overflow: hidden;
+}
+
+main.WB00247601_repair #issue .boxs {
+    width: 100%;
+    position: relative;
+}
+
+main.WB00247601_repair #issue .boxs .box {
+    float: left;
+    width: 30%;
+    height: 650px;
+    display: block;
+    background: #0b7377;
+    margin: 35px 15px;
+}
+
+main.WB00247601_repair #issue .boxs img {
+    display: block;
+}
+
+main.WB00247601_repair .issue-link.left {
+    position: absolute;
+    width: 168px;
+    height: 168px;
+}
+
+main.WB00247601_repair .issue-link.right {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+}
+
+main.WB00247601_repair .issue-link:nth-of-type(1) {
+    top: 21px;
+    left: 264px;
+}
+
+main.WB00247601_repair .issue-link:nth-of-type(2) {
+    top: 235px;
+    left: 364px;
+}
+
+main.WB00247601_repair .issue-link:nth-of-type(3) {
+    top: 438px;
+    left: 260px;
+}
+
+main.WB00247601_repair .issue-link:nth-of-type(4) {
+    top: 11px;
+    right: 142px;
+}
+
+main.WB00247601_repair .issue-link:nth-of-type(5) {
+    top: 117px;
+    right: 83px;
+}
+
+main.WB00247601_repair .issue-link:nth-of-type(6) {
+    top: 225px;
+    right: 39px;
+}
+
+main.WB00247601_repair .issue-link:nth-of-type(7) {
+    top: 330px;
+    right: 12px;
+}
+
+main.WB00247601_repair .issue-link:nth-of-type(8) {
+    top: 439px;
+    right: 80px;
+}
+
+main.WB00247601_repair .issue-link:nth-of-type(9) {
+    top: 551px;
+    right: 130px;
+}
+
+@-webkit-keyframes ripple-left {
+    from {
+        width: 168px;
+        height: 168px;
+        box-shadow: 0 0 0 8px #17bde1;
+    }
+    to {
+        width: 223px;
+        height: 223px;
+        box-shadow: 0 0 0 16px transparent;
+    }
+}
+
+@-moz-keyframes ripple-left {
+    from {
+        width: 168px;
+        height: 168px;
+        box-shadow: 0 0 0 8px #17bde1;
+    }
+    to {
+        width: 223px;
+        height: 223px;
+        box-shadow: 0 0 0 16px transparent;
+    }
+}
+
+@-o-keyframes ripple-left {
+    from {
+        width: 168px;
+        height: 168px;
+        box-shadow: 0 0 0 8px #17bde1;
+    }
+    to {
+        width: 223px;
+        height: 223px;
+        box-shadow: 0 0 0 16px transparent;
+    }
+}
+
+@keyframes ripple-left {
+    from {
+        width: 168px;
+        height: 168px;
+        box-shadow: 0 0 0 8px #17bde1;
+    }
+    to {
+        width: 223px;
+        height: 223px;
+        box-shadow: 0 0 0 16px transparent;
+    }
+}
+
+@-webkit-keyframes ripple-right {
+    from {
+        width: 60px;
+        height: 60px;
+        box-shadow: 0 0 0 8px #17bde1;
+    }
+    to {
+        width: 115px;
+        height: 115px;
+        box-shadow: 0 0 0 16px transparent;
+    }
+}
+
+@-moz-keyframes ripple-right {
+    from {
+        width: 60px;
+        height: 60px;
+        box-shadow: 0 0 0 8px #17bde1;
+    }
+    to {
+        width: 115px;
+        height: 115px;
+        box-shadow: 0 0 0 16px transparent;
+    }
+}
+
+@-o-keyframes ripple-right {
+    from {
+        width: 60px;
+        height: 60px;
+        box-shadow: 0 0 0 8px #17bde1;
+    }
+    to {
+        width: 115px;
+        height: 115px;
+        box-shadow: 0 0 0 16px transparent;
+    }
+}
+
+@keyframes ripple-right {
+    from {
+        width: 60px;
+        height: 60px;
+        box-shadow: 0 0 0 8px #17bde1;
+    }
+    to {
+        width: 115px;
+        height: 115px;
+        box-shadow: 0 0 0 16px transparent;
+    }
+}
+
+main.WB00247601_repair .issue-link::before,
+main.WB00247601_repair .issue-link::after {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border-radius: 50%;
+    background-color: transparent;
+    content: '';
+    -webkit-transform: translate(-50%, -50%);
+       -moz-transform: translate(-50%, -50%);
+         -o-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+}
+
+main.WB00247601_repair .issue-link.left::before,
+main.WB00247601_repair .issue-link.left::after {
+    -webkit-animation: ripple-left 2s ease-out infinite;
+       -moz-animation: ripple-left 2s ease-out infinite;
+         -o-animation: ripple-left 2s ease-out infinite;
+            animation: ripple-left 2s ease-out infinite;
+}
+
+main.WB00247601_repair .issue-link.right::before,
+main.WB00247601_repair .issue-link.right::after {
+    -webkit-animation: ripple-right 2s ease-out infinite;
+       -moz-animation: ripple-right 2s ease-out infinite;
+         -o-animation: ripple-right 2s ease-out infinite;
+            animation: ripple-right 2s ease-out infinite;
+}
+
+main.WB00247601_repair .issue-link.left::after,
+main.WB00247601_repair .issue-link.right::after {
+    -webkit-animation-delay: 1s;
+       -moz-animation-delay: 1s;
+         -o-animation-delay: 1s;
+            animation-delay: 1s;
+}
+
+main.WB00247601_repair .popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000000;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    font-family: Arial, '微軟正黑體';
+    opacity: 0;
+    -ms-filter: 'progid:DXImageTransform.Microsoft.Alpha(Opacity=0)';
+    -webkit-transition: opacity .4s;
+    -o-transition: opacity .4s;
+    -moz-transition: opacity .4s;
+    transition: opacity .4s;
+    pointer-events: none;
+}
+
+main.WB00247601_repair .popup.is-active {
+    opacity: 1;
+    -ms-filter: 'progid:DXImageTransform.Microsoft.Alpha(Opacity=100)';
+    pointer-events: auto;
+}
+
+main.WB00247601_repair .popup .content {
+    -moz-box-sizing: border-box;
+         box-sizing: border-box;
+    margin: auto;
+    padding: 60px 140px 50px;
+    width: 820px;
+    border: 2px solid #169da0;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+main.WB00247601_repair .popup .content:before {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    margin-left: -45px;
+    border: 35px solid transparent;
+    border-top-color: #169da0;
+    border-right-width: 45px;
+    border-bottom: none;
+    border-left-width: 45px;
+    content: '';
+}
+
+main.WB00247601_repair .popup .stageDetail {
+    display: none;
+}
+
+main.WB00247601_repair .popup h2 {
+    color: #169da0;
+    font-weight: bold;
+}
+
+main.WB00247601_repair .popup h3 {
+    text-align: left;
+    font-size: 18px;
+}
+
+main.WB00247601_repair .popup h3 strong {
+    color: #ef4036;
+}
+
+main.WB00247601_repair .popup hr {
+    margin: 20px 0 25px;
+    border-top: 1px solid #bbc5cf;
+}
+
+main.WB00247601_repair .popup .stageTxt {
+    float: left;
+    padding-left: 30px;
+    width: 320px;
+    text-align: center;
+}
+
+main.WB00247601_repair .popup .stageTxt img {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+main.WB00247601_repair .popup .stageTxt ul,
+main.WB00247601_repair .popup .stageTxt li {
+    list-style: disc outside;
+}
+
+main.WB00247601_repair .popup .stageTxt ul {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+main.WB00247601_repair .popup .stageTxt li {
+    margin-bottom: 10px;
+    text-align: left;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+main.WB00247601_repair .popup .ytvideo {
+    float: right;
+    padding-right: 30px;
+    width: 560px;
+}
+
+main.WB00247601_repair .popup-title {
+    margin-bottom: 5px;
+    color: #169da0;
+    text-align: center;
+    font-weight: normal;
+    font-size: 35px;
+    line-height: 43px;
+}
+
+main.WB00247601_repair .popup-close {
+    position: absolute;
+    top: -20px;
+    right: -20px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #169da0;
+    color: #fff;
+    text-align: center;
+    font-size: 28px;
+    line-height: 40px;
+    cursor: pointer;
+}
+
+main.WB00247601_repair .popup-close:hover {
+    background-color: #23c9cd;
+}
+
+main.WB00247601_repair .popup-video {
+    display: block;
+    width: 100%;
+    height: 301.5px;
+}
+
+main.WB00247601_repair .popup-text {
+    font-size: 16px;
+}
+
+main.WB00247601_repair .popup-text li {
+    padding-left: 1.4em;
+    text-indent: -1.4em;
+}
+
+main.WB00247601_repair .popup-text li:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+main.WB00247601_repair html.flexboxtweener .popup {
+    display: block;
+}
+
+main.WB00247601_repair html.flexboxtweener .popup .content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+       -moz-transform: translate(-50%, -50%);
+         -o-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+}
+
+main.WB00247601_repair #information {
+    background: #f5f5f5;
+}
+
+main.WB00247601_repair #information img {
+    display: block;
+    margin: 0 auto;
+}
+
+main.WB00247601_repair #information a.pageLink-outline {
+    display: block;
+    margin: 0 auto;
+    width: 500px;
+    background-color: #fff;
+    color: #289bd7;
+    margin-top: 60px;
+    margin-bottom: 20px;
+    border: #289bd7 1px solid;
+}
+
+main.WB00247601_repair #information a.pageLink-outline:hover {
+    color: #289bd7;
+}
+
+main.WB00247601_repair .font_yellow {
+    color: #FFF500;
+    font-size: 50px;
+}

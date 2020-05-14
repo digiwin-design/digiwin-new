@@ -1,0 +1,507 @@
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<script type="text/javascript">
+	$(document).ready(function () {
+
+		var mMnue = document.getElementById('popmenu');
+		var mOut = document.getElementById('win');
+		var timer = null;
+
+		mMnue.onmouseover = mOut.onmouseover = function () {
+			clearTimeout(timer);
+			mOut.style.display = "block";
+		};
+		mMnue.onmouseout = mOut.onmouseout = function () {
+			timer = setTimeout(function () {
+				mOut.style.display = "none";
+			}, 500)
+		};
+
+		$(".linkdes").hover(function () {
+			$(this).css("background-color", "Gray");
+			$(this).css("color", "White");
+			$(this).find("a").css("color", "White");
+		}, function () {
+			$(this).css("background-color", "White");
+			$(this).css("color", "Black");
+			$(this).find("a").css("color", "Black");
+		});
+
+
+		if ($.browser.msie) {
+			$("#win").attr("class", "menu_ie");
+		}
+		else {
+			$("#win").attr("class", "menu_not_ie");
+		}
+
+
+	});
+</script>
+
+<style type="text/css">
+	*
+	{
+		padding: 0;
+		margin: 0;
+		border: 0;
+	}
+	a
+	{
+		text-decoration: none;
+	}
+	#popmenu i
+	{
+		display: block;
+		min-height: 46px;
+	}
+	#overlay
+	{
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		background: #fff;
+		opacity: 0;
+		filter: alpha(opacity=0);
+		display: none;
+		z-index: 4;
+	}
+	
+	#win
+	{
+		position: absolute;
+		padding-top: 10px;
+		width: 200px;
+		z-index: 9999;
+		cursor: pointer;
+		display: none;
+		z-index: 5;
+	}
+	.linkdes
+	{
+		width: 200px;
+		border-bottom-width: 1px;
+		border-bottom-style: dotted;
+		border-bottom-color: #dedede;
+		color: #fff;
+	}
+			
+	.menu_ie
+	{
+		z-index: 9999;
+		margin-top: 10px;
+		width: 150px;
+		display: block;
+		height: 110px;
+		margin-left: -100px;
+	}
+	.menu_not_ie
+	{
+		display: none;
+		z-index: 9999;
+		width: 150px;
+		height: 110px;
+		margin-left: 260px;
+		margin-top: -10px;
+	}
+</style>
+<div id="header">
+    <div class="head">
+        <div class="logo">
+            <a href="http://www.digiwin.com/tw/">
+                <img itemprop="image" src="http://www.digiwin.com/tw/dsc/images/logo.png" alt="ERP系統,ERP軟體,企業管理軟體服務提供者-鼎新電腦" /></a>
+        </div>
+        <div class="righttext" style="width: 320px;">
+            <div class="tu">
+                <img src="http://www.digiwin.com/tw/dsc/images/index_1.jpg" alt="" />
+            </div>
+       <img src="http://www.digiwin.com/tw/dsc/images/tel.gif" style="float: left; padding-top: 3px" />
+                <a href="http://eservice.dsc.com.tw/callcenter.htm" target="_blank">客服專線</a><span>|</span>
+				<a href="http://www.digiwin.com/tw/tw/Contact.html" title="0800-888-162">產品諮詢</a><span>|</span>
+          <div id="popmenu" style="width: 50px; display: inline;">Language <img src="http://www.digiwin.com/tw/dsc/images/arr.png" /></div>
+            <div id="win">
+                    <table style="border: 1px solid #dfdfdf; position: absolute; width: 150px; padding: 0px;
+                        margin: 0px; background-color: White; right:150px">
+						<tr>
+                            <td class="linkdes" onclick="window.location='http://www.digiwin.com';">
+                                <a href="http://www.digiwin.com/tw/">台灣 - 繁體中文</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="linkdes" onclick="window.location='http://www.digiwin.com';">
+                                <a href="http://www.digiwin.com.cn" rel="nofollow nofollow">中国 - 简体中文</a>
+                            </td>
+                        </tr>
+						<tr>
+                            <td class="linkdes" onclick="window.location='http://en.digiwin.com';">
+                                <a href="http://en.digiwin.com" rel="nofollow nofollow">English</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="linkdes" onclick="window.location='http://vn.digiwin.com/';">
+                                <a href="http://vn.digiwin.biz/" rel="nofollow nofollow">Vietnam - Tiếng Việt</a>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+
+            <span>| </span><a target="_blank" href="https://www.facebook.com/DSCmain" rel="nofollow nofollow"><img src="http://www.digiwin.com/tw/dsc/images/fb.jpg" alt="鼎新粉絲團" />
+                粉絲團</a>
+        </div>
+        <!--menu 開始-->
+        <div id="menu">
+            <div class="nav">
+                <ul>
+                    <!--首頁 -->
+                    <li is="menuindex"><a href="http://www.digiwin.com/tw/" class="name"><span>首頁</span></a></li>
+                    <!--解決方案 -->
+                    <li is="menuindex"><a href="http://www.digiwin.com/tw/list.html" class="name"><span>解決方案</span></a>
+                            <div style="display: none;" class="menuitempanel">
+                                <div class="menucontentdiv">
+                                    <div class="menufillet_e">
+                                    </div>
+                                    <div class="name clearfix">
+                                        <ul class="list last">
+                                            <li class="left">
+                                                <ul>
+                                                    <h3>
+                                                        <a href="http://www.digiwin.com/tw/list.html">解決方案</a></h3>
+                                                    
+                                                    <li><a href="http://www.digiwin.com/tw/list.html">行業應用</a></li>
+                                                    <li><a href="http://www.digiwin.com/tw/list.html">管理方案</a></li>
+                                                    <li><a href="http://www.digiwin.com/tw/list.html">企業規模</a></li>
+                                                    <li><a href="http://www.digiwin.com/tw/dsc/solution/WB002521/WB00252103.htm1">新設公司</a></li>
+                                                    <li><a href="http://www.digiwin.com/tw/dsc/service/WB002736/WB00273601.htm1">資訊委外</a></li>
+                                                                                                   </ul>
+                                            </li>
+                                            <li class="left">
+                                                <ul>
+                                                    <h3>
+                                                        <a target="_blank" href="http://industry4.digiwin.biz/">工業4.0</a></h3>
+                                                    
+                                                    <li><a target="_blank" href="http://industry4.digiwin.biz/diagnosis.htm">評量健檢</a></li>
+                                                    <li><a target="_blank" href="http://industry4.digiwin.biz/activity.htm">產官學研討會</a></li>
+                                                    <li><a target="_blank" href="http://industry4.digiwin.biz/smartFactory.htm">方案規劃</a></li>
+                                                   </ul>
+                                            </li>
+                                            <li class="left">
+                                                <ul>
+                                                    <h3>
+                                                        <a href="http://www.digiwin.com/tw/dsc/solution/WB002639/WB00263901.html">EAS會計準則</a></h3>
+                                                    
+                                                    <li><a href="http://www.digiwin.com/tw/dsc/solution/WB002639/WB00263901_2.html">法則時程</a></li>
+                                                    <li><a href="http://www.digiwin.com/tw/dsc/solution/WB002639/WB00263901_3.html">衝擊影響</a></li>
+                                                    <li><a href="http://www.digiwin.com/tw/dsc/solution/WB002639/WB00263901_4.html">研討會</a></li>
+                                                    <li><a href="http://www.digiwin.com/tw/dsc/solution/WB002639/WB00263901_6.html">輔導案例</a></li>
+                                                    <li><a href="http://www.digiwin.com/tw/dsc/solution/WB002639/WB00263901_5.html">解決方案</a></li>
+                                                </ul>
+                                            </li>
+                                            <li class="left last">
+                                                <ul class="last">
+                                                    <h3>
+                                                        <a href="http://www.digiwin.com/tw/dsc/solution/WB002553/WB00255301.html">食品安全</a></h3>
+                                                    <li><a href="http://www.digiwin.com/tw/dsc/solution/WB002553/WB00255301_5.html">食安風暴</a></li>
+                                                    <li><a href="http://www.digiwin.com/tw/dsc/solution/WB002553/WB00255301_4.html">研討會</a></li>
+                                                    <li><a href="http://www.digiwin.com/tw/dsc/solution/WB002553/WB00255301.html#case">典範客戶</a></li>
+													 <li><a href="http://www.digiwin.com/tw/dsc/solution/WB002553/WB00255301.html#solution">解決方案</a></li>
+													  <li><a href="http://www.digiwin.com/tw/dsc/solution/WB002553/WB00255301.html#access">多通路管理</a></li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                        <div style="height: 250px;" class="verticalLine">
+                                        </div>
+                                        <ul class="m_box">
+                                            <li><a href="http://www.digiwin.com/tw/list.html">
+                                                <img src="http://www.digiwin.com/tw/dsc/images/pic1.jpg" /></a></li>
+                                            <div class="summary">
+                                                鼎新電腦專精戰略深耕於製造業、流通業兩大領域，以一體化產品體系支撐企業管理各應用層級智慧應用。
+                                            </div>
+                                        </ul>
+                                    </div>
+                                    <div class="shadow_b_layout">
+                                        <div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    <!--成功案例 -->
+                    <li is="menuindex"><a href="http://www.digiwin.com/tw/case.html" class="name"><span>成功案例</span></a>
+                        <div style="display: none;" class="menuitempanel">
+                            <div class="menucontentdiv">
+                                <div class="menufillet_e">
+                                </div>
+                                <div class="name clearfix">
+                                    <ul class="list last">
+                                        <li class="left">
+                                            <ul>
+                                                <h3>
+                                                    <a href="http://www.digiwin.com/tw/case.html">行業應用</a></h3>
+                                                
+                                                <li><a href="http://www.digiwin.com/tw/case.html">醫療生技產業</a></li>
+                                                <li><a href="http://www.digiwin.com/tw/case.html">塑化產業</a></li>
+                                                <li><a href="http://www.digiwin.com/tw/case.html">印刷產業</a></li>
+                                                <li><a href="http://www.digiwin.com/tw/case.html">電子光電與電力產業</a></li>
+                                                <li><a href="http://www.digiwin.com/tw/case.html">機械產業</a></li>
+                                                <li><a href="http://www.digiwin.com/tw/case.html">交通零件產業</a></li>
+                                                <li><a href="http://www.digiwin.com/tw/case.html">金屬五金產業</a></li>
+                                                <li><a href="http://www.digiwin.com/tw/case.html">休閒娛樂產業</a></li>
+                                                <li><a href="http://www.digiwin.com/tw/case.html">批發、零售流通產業</a></li>
+                                                <li><a href="http://www.digiwin.com/tw/case.html">更多</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="left">
+                                            <ul>
+                                                <h3>
+                                                    <a href="http://www.digiwin.com/tw/case.html">企業規模</a></h3>
+                                                
+                                                <li><a href="http://t100.digiwin.com/">智慧雲平台企業</a></li>
+                                                <li><a href="http://www.digiwin.com/tw/software/696.html">集團大型企業</a></li>
+                                                <li><a href="http://www.digiwin.com/tw/software/701.html">中型及大型製造</a></li>
+                                                <li><a href="http://www.digiwin.com/tw/software/702.html">中型及大型流通</a></li>
+                                                <li><a href="http://www.digiwin.com/tw/solution/WB002839/WB00283901.html" target="_blank">中小企業</a></li>
+												<li><a href="https://a1.digiwin.com/" target="_blank">小微型企業</a></li>
+                                                <li><a href="http://www.digiwin.com/tw/solution/WB002521/WB00252103.htm" target="_blank">新創新設公司</a></li>   
+											</ul>
+                                        </li>
+                                        <li class="left last">
+                                            <ul class="last">
+                                                <h3><a href="http://www.digiwin.com/tw/case.html">趨勢議題</a></h3>
+                                                <li><a href="http://www.digiwin.com/tw/dsc/solution/WB002639/WB00263901_6.html">EAS企業會計準則</a></li>	
+                                                <li><a href="http://www.digiwin.com/tw/dsc/solution/WB002742/WB00274201.html">電子發票</a></li>
+                                                <li><a href="http://www.digiwin.com/tw/dsc/solution/WB002741/WB00274101.html">一例一休</a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                    <div style="height: 240px;" class="verticalLine">
+                                    </div>
+                                    <ul class="m_box">
+                                        <li><a href="http://www.digiwin.com/tw/case.html">
+                                            <img src="http://www.digiwin.com/tw/dsc/images/pic2.jpg" /></a></li>
+                                        <div class="summary">
+                                            鼎新累計30年產業經驗，深悉機械、電子、汽配、家居、流通等行業管理重點以及常見困擾，協助30000家通過資訊化成功應用實現智慧管理。
+                                        </div>
+                                    </ul>
+                                </div>
+                                <div class="shadow_b_layout">
+                                    <div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <!--管理軟體 -->
+                    <!--<li is="menuindex"><a href="http://www.digiwin.com/tw/software.html" class="name"><span>管理軟體</span></a>-->
+                    <li is="menuindex"><a href="##" class="name"><span>管理軟體</span></a>
+                        <div style="display: none;" class="menuitempanel">
+                            <div class="menucontentdiv">
+                                <div class="menufillet_e">
+                                </div>
+                                <div class="name clearfix">
+                                    <ul class="list last">
+                                        <li class="left">
+                                            <ul>
+                                                <h3 style="color: #DE0010">ERP</h3>
+                                                <li><a href="http://t100.digiwin.com/" target="_blank" onclick="ga('send', 'event', 'T100專題網站', '鼎新官網主選單', 'http://t100.digiwn.biz');">T100 (企業智慧雲平台)</a></li>
+                                                <li><a href="http://www.digiwin.com/tw/software/696.html">TIPTOP GP(集團管控)</a></li>
+                                                <li><a href="http://www.digiwin.com/tw/software/701.html">WorkflowERP GP(中大型製造)</a></li>
+                                                <li><a href="http://www.digiwin.com/tw/software/702.html">Cosmos ERP(中大型流通)</a></li>
+                                                <li><a href="http://www.digiwin.com/tw/tw/solution/WB002839/solution.html">SmartERP(中小企業)</a></li>
+                                                <li><a href="https://a1.digiwin.com/" title="A1商務應用雲" target="_blank" onclick="ga('send', 'pageview', { 'page': '/pageview/DSCtoA1.htm', 'title': '鼎新A1商務應用雲'});">A1商務應用雲(中小微型企業)</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="left">
+                                            <ul>
+                                                <h3><font color="DE0010">ERPII</font></h3>
+                                                <li><a href="http://www.digiwin.com/tw/software/706.html">BPM(企業流程管理)</a></li>
+                                                <li><a href="http://www.digiwin.com/tw/software/708.html">CRM(客戶關係管理)</a></li>
+                                                <li><a href="http://www.digiwin.com/tw/software/710.html">POS(銷售點管理)</a></li>
+                                                <li><a href="http://www.digiwin.com/tw/software/715.html">Portal(企業應用入口)</a></li>
+                                                <li><a href="http://www.digiwin.com/tw/software/717.html">BI(商業智慧)</a></li>
+                                                <li><a href="http://www.digiwin.com/tw/software/719.html">HR(人力資源)</a></li>
+                                                <li><a href="http://www.digiwin.com/tw/software/720.html">EC(協同商務供應鏈)</a></li>
+												<h3><font color="DE0010">工業4.0應用</font></h3>
+												<li><a target="_blank" href="http://industry4.digiwin.com/smartFactory.htm">廠內智能物流</a></li>
+												<li><a href="http://www.digiwin.com/tw/software/733.html">MES(工廠營運管制系統)</a></li>
+                                                <li><a href="http://www.digiwin.com/tw/software/721.html">SFT(廠區生產追蹤)</a></li>
+                                                <li><a href="http://www.digiwin.com/tw/software/723.html">APS(先進規劃與排程)</a></li>
+                                                <li><a href="http://www.digiwin.com/tw/software/726.html">PLM(產品生命週期)</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="left last">
+                                            <ul class="last">
+                                                <h3 style="color: #DE0010">雲端及行動應用</h3>
+                                                <li><a href="https://iw.digiwin.com/" title="行業攻略雲" target="_blank" onclick="ga('send', 'pageview', { 'page': '/pageview/iwc_index.htm', 'title': '行業攻略雲' });">IWC(行業攻略雲)</a></li>
+                                                <li><a href="http://www.digiwin.com/tw/software/727.html">Mobile Solution</a></li>
+                                                <li><a href="https://a1.digiwin.com/" title="A1商務應用雲(中小微型企業)" target="_blank" onclick="ga('send', 'pageview', { 'page': '/pageview/DSCtoA1.htm', 'title': '鼎新A1商務應用雲'});">A1商務應用雲(中小微型企業)</a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                    <div style="height: 240px;" class="verticalLine">
+                                    </div>
+                                    <ul class="m_box">
+                                        <li><a href="http://www.digiwin.com/tw/case.html">
+                                            <img src="http://www.digiwin.com/tw/dsc/images/pic3.jpg" /></a></li>
+                                        <div class="summary">
+                                            鼎新累計30年產業經驗，深悉機械、電子、汽配、家居、流通等行業管理重點以及常見困擾，協助30000家通過資訊化成功應用實現智慧管理。
+                                        </div>
+                                    </ul>
+                                </div>
+                                <div class="shadow_b_layout">
+                                    <div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <!--服務 -->
+                    <li is="menuindex"><a href="http://www.digiwin.com/tw/dsc/service/WB002588/WB00258801.html" class="name"><span>服務</span></a>
+                    </li>
+                    <!--課程與培訓 -->
+                    <li is="menuindex"><a href="http://www.digiwin.com/tw/activity.html" class="name"><span>課程與培訓</span></a>
+                        <div class="menuitempanel" style="display: none; left: 212px;">
+                            <div class="menucontentdiv">
+                                <div class="menufillet_e">
+                                </div>
+                                <div class="name clearfix">
+                                    <ul class="taxonomy">
+                                        <li><a href="http://www.digiwin.com/tw/activity.html">課程活動</a></li>
+                                        <li><a href="hhttp://industry4.digiwin.com/">工業 4.0</a></li>
+                                        <li><a href="http://www.digiwin.com/tw/blog/index.html">專題報導</a></li>
+                                        <li><a href="http://www.digiwin.com/tw/blog/index.html">管理前瞻</a></li>
+                                        <li><a target="_blank" href="http://elearning.dsc.com.tw" rel="nofollow nofollow">線上學習</a>
+                                    </ul>
+                                    <div style="height: 290px;" class="verticalLine">
+                                    </div>
+                                    <ul class="m_box">
+                                        <li><a href="http://www.digiwin.com/tw/activity.html">
+                                            <img src="http://www.digiwin.com/tw/dsc/images/pic5.jpg" /></a></li>
+                                        <div class="summary">
+                                            前沿技術、產業趨勢、管理新知、同業案例、實體及網路活動資訊即時共用。
+                                        </div>
+                                    </ul>
+                                </div>
+                                <div class="shadow_b_layout">
+                                    <div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <!--SMB專區 -->
+                        <li is="menuindex"><a href="##" class="name"><span>中小企業</span></a>
+                            <div class="menuitempanel" style="display: none; left: 212px;">
+                                <div class="menucontentdiv">
+                                    <div class="menufillet_e">
+                                    </div>
+                                    <div class="name clearfix">
+                                        <ul class="taxonomy">
+                                            <li><a href="http://www.digiwin.com/tw/dsc/solution/WB002839/WB00283901.html">中小企業SmartERP</a></li>
+											<li><a href="https://a1.digiwin.com/" target="_blank">A1商務應用雲</a></li>
+                                           </ul>
+                                        <div style="height: 290px;" class="verticalLine">
+                                        </div>
+                                        <ul class="m_box">
+                                            <li><a href="http://www.digiwin.com/tw/dsc/solution/WB002839/WB00283901.html">
+                                                <img src="http://www.digiwin.com/tw/dsc/images/pic7.jpg" /></a></li>
+                                            <div class="summary">
+                                                為中小型與微型企業多樣化的經營模式，提供快速且彈性的解決方案。
+                                            </div>
+                                        </ul>
+                                    </div>
+                                    <div class="shadow_b_layout">
+                                        <div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    <li is="menuindex"><a href="http://dsa.dsc.com.tw/" rel="nofollow nofollow" class="name" target="_blank"><span>知識學院</span></a></li>
+                    <!--關於鼎新 -->
+                    <li is="menuindex"><a href="http://www.digiwin.com/tw/aboutdsc.html" class="name"><span>關於鼎新</span></a>
+                        <div class="menuitempanel" style="display: none; left: 360px;">
+                            <div class="menucontentdiv">
+                                <div class="menufillet_e">
+                                </div>
+                                <div class="name clearfix">
+                                    <ul class="taxonomy">
+                                        <li><a href="http://www.digiwin.com/tw/aboutdsc.html">公司簡介</a></li>
+                                        <li><a href="http://www.digiwin.com/tw/news.html">新聞資訊</a></li>
+                                        <li><a target="_blank" href="http://www.104.com.tw/jobbank/custjob/index.php?r=cust&j=5060436d3c36402256583a1d1d1d1d5f2443a363189j48&jobsource=checkc" rel="nofollow nofollow">
+                                            人才招募</a></li>
+                                        <li><a href="http://www.digiwin.com/tw/enewspaper.html">鼎新期刊</a></li>
+                                    </ul>
+                                    <div style="height: 290px;" class="verticalLine">
+                                    </div>
+                                    <ul class="m_box">
+                                        <li><a href="http://www.digiwin.com/tw/mag.html">
+                                            <img src="http://www.digiwin.com/tw/dsc/images/201807New.jpg" /></a></li>
+                                        <div class="summary">
+                                            《企業通》致力於傳達"贏在數位價值"理念，從行業發展及客戶應用需求角度，發掘優秀管理理念，分享資訊化實戰經驗，探索優秀商業模式！
+                                        </div>
+                                    </ul>
+                                </div>
+                                <div class="shadow_b_layout">
+                                    <div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <!--聯絡我們 -->
+                    <li is="menuindex"><a href="http://www.digiwin.com/tw/contact/eform.html" class="name"><span>聯絡我們</span></a></li>
+                </ul>
+            </div>
+        </div>
+        <!--menu 結束-->
+        <!--<div class="search">
+            <script type="text/javascript">
+                $(function () {
+                    textBoxDefault();
+                    $(".linkSearch").unbind("click");
+                    $(".linkSearch").bind("click", function () {
+                        var val = $(".txtSearch").val();
+                        if (val == '' || val == $(".txtSearch").attr("defaultVal")) {
+                            alert("請輸入搜索內容！");
+                        }
+                        else {
+                            $(this).click();
+                        }
+                        return false;
+                    });
+                });
+                function textBoxDefault() {
+                    var txt = $("input[defaultVal]");
+                    $("input[defaultVal]").each(function () {
+
+                        var defaultvalue = $(this).attr("defaultVal");
+
+                        if ($(this).val() == null || $(this).val() == "" || $(this).val() == defaultvalue) {
+                            $(this).val(defaultvalue);
+                            $(this).css("color", "#aaa");
+                        }
+                    });
+                    //textbox 聚焦事件
+                    txt.focus(function () {
+                        var defaultvalue = $(this).attr("defaultVal");
+                        if ($(this).val() == defaultvalue) {
+                            $(this).val("");
+                            $(this).css("color", "#000");
+                        }
+                    });
+                    txt.blur(function () {
+                        var defaultvalue = $(this).attr("defaultVal");
+                        if ($(this).val() == "") {
+                            $(this).val(defaultvalue);
+                            $(this).css("color", "#aaa");
+                        }
+                    });
+                }
+            </script>
+            <input name="ctl00$txtSearch" type="text" id="ctl00_txtSearch" value="搜尋..." class="input01 txtSearch" maxlength="20" defaultval="搜尋..." style="color: rgb(170, 170, 170);">
+                <a id="ctl00_linkSearch" class="linkSearch" href="javascript:__doPostBack('ctl00$linkSearch','')"></a>
+        </div>-->
+    </div>
+</div>
+<div class="clear"></div>

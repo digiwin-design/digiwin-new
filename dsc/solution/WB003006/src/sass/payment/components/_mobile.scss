@@ -1,0 +1,68 @@
+main .mobile {
+    $color: #f17e7e #ed3e3e #a20a0a;
+    .accordion {
+        h2 {
+            display: flex;
+            padding-right: 20px;
+            padding-left: 20px;
+            height: 84px;
+            background-color: #ed3e3e;
+            color: #fff;
+            font-weight: bold;
+            font-size: 24px;
+            line-height: 84px;
+            cursor: pointer;
+            justify-content: space-between;
+            align-items: center;
+            @for $i from 1 through 3 {
+                &:nth-of-type(#{$i}) {
+                    background-color: nth($color, $i);
+                }
+            }
+            &:not(:last-of-type) {
+                border-bottom: 1px solid #e8e8e8;
+            }
+            &:focus {
+                outline: none;
+            }
+            &::after {
+                @include imgBg('plus-icon.png');
+                content: '';
+                transition: transform .3s;
+            }
+            &.active::after {
+                @include imgBg('minus-icon.png');
+                content: '';
+                transform: rotate(90deg);
+            }
+            strong {
+                color: #fcff00;
+            }
+        }
+        &-content {
+            background-color: #aeaeae;
+            &:not(:first-of-type) {
+                display: none;
+            }
+            @for $i from 1 through 3 {
+                &:nth-of-type(#{$i}) {
+                    .tabs-tablist li.ui-tabs-active a {
+                        border-color: nth($color, $i);
+                        background-color: nth($color, $i);
+                    }
+                    .tabs-content {
+                        background-color: nth($color, $i);
+                    }
+                }
+            }
+        }
+        .container {
+            padding-top: 1.5em;
+            padding-bottom: 1.5em;
+        }
+        h3 {
+            margin-bottom: 1em;
+            color: #fff;
+        }
+    }
+}

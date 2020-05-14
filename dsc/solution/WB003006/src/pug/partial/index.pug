@@ -1,0 +1,11 @@
+extends ../layout.pug
+
+block includes
+    link(rel="preload", href="images/index/banner1.jpg", as="image")
+    link(rel="preload", href="images/index/banner1-s.jpg", as="image")
+    link(rel='stylesheet', href='css/index/style.css')
+    script(src="assets/d3.min.js", defer)
+    script(src='js/index.min.js', defer)
+
+block content
+    include index.html

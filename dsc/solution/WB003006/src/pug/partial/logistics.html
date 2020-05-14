@@ -1,0 +1,32 @@
+<slider-banner-s v-if="isMobile" v-bind:slides="result.logistics.banner" device="mobile"></slider-banner-s>
+<slider-banner v-else v-bind:slides="result.logistics.banner" device="desktop"></slider-banner>
+
+<article class="section1">
+    <div class="container">
+        <section-title title="物流精準，供應鏈才得以串連" desc="門店要貨、總店補貨、採購進貨、倉管揀貨、物流配貨，<br>環環相扣，要貨即時、到貨確實到底有多難？"></section-title>
+        <div class="section1-pains">
+            <pain :content="pain" v-for="pain in result.logistics.pains"></pain>
+        </div>
+    </div>
+</article>
+
+<article class="section2">
+    <div class="container">
+        <section-title title="鮮準價效是什麼" desc="就是要食材新鮮、要補貨精準、降缺減損、提高效率"></section-title>
+        <div class="section2-boxs">
+            <hover-box v-for="box in result.logistics.hoverBoxs" v-bind:color="box.color">
+                <template slot="content">
+                    <img v-bind:src="box.imgSrc" alt />
+                    <p class="hoverBox-title">{{box.text}}</p>
+                </template>
+                <template slot="hover">
+                    <p v-for="txt in box.hoverText" :key="txt" v-html="txt"></p>
+                </template>
+            </hover-box>
+        </div>
+    </div>
+
+    <component :is="componentId"></component>
+</article>
+
+<contact v-bind:multiple="false" source=""></contact>

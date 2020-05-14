@@ -1,0 +1,16 @@
+extends ../layout.pug
+
+block includes
+    link(rel="stylesheet", href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css")
+    
+    //- swiper
+    link(rel="stylesheet", href="assets/swiper.min.css")
+    script(src="assets/swiper.min.js", defer)
+    script(src="assets/vue-awesome-swiper.js", defer)
+    
+    link(rel='stylesheet', href='css/WB00283901/style.css')
+    script(src='js/common.js', defer)
+    script(src='js/WB00283901.min.js', defer)
+
+block content
+    include WB00283901.html

@@ -1,0 +1,93 @@
+@charset "UTF-8";
+main *, main *:before, main *:after {
+    box-sizing: content-box;
+}
+main #navLink {
+  width: 100%;
+  min-width: 1020px;
+  height: 80px;
+  padding: 10px 0;
+  background-color: #ffffff;
+  font-family: Arial, "微軟正黑體";
+  text-align: center;
+}
+main .navLink {
+  position: absolute;
+  z-index: 999;
+  top: 602px;
+}
+main .fixed {
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  background-color: #f7f7f7;
+}
+main #navLink > ul {
+  display: inline-block;
+}
+main #navLink > ul > li {
+  float: left;
+  width: 125px;
+  height: 80px;
+  border-left: 1px solid #CCC;
+  text-indent: -9999px;
+}
+main #navLink .link1 {
+  background: url(../images/link_01.png) no-repeat left top;
+}
+main #navLink .link2 {
+  background: url(../images/link_02.png) no-repeat left top;
+}
+main #navLink .link3 {
+  background: url(../images/link_03.png) no-repeat left top;
+}
+main #navLink .link4 {
+  background: url(../images/link_04.png) no-repeat left top;
+}
+main #navLink .link5 {
+  background: url(../images/link_05.png) no-repeat left top;
+}
+main #navLink .link6 {
+  background: url(../images/link_06.png) no-repeat left top;
+}
+main #navLink .link7 {
+  background: url(../images/link_07.png) no-repeat left top;
+}
+main #navLink .link8 {
+  background: url(../images/link_08.png) no-repeat left top;
+  border-right: 1px solid #CCC;
+}
+main #navLink > ul > li > a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+main #navLink .navLinks:hover {
+  background-position: right top;
+}
+main #navLink .selected {
+  background-position: right top;
+}
+main #navLink .subLink {
+  display: none;
+  text-align: center;
+  width: 100%;
+  margin-left: -1px;
+  padding-top: 10px;
+  border: 1px solid #CCC;
+  border-top: none;
+  background-color: #FFF;
+  text-indent: 0px;
+}
+main #navLink .subLink > li {
+  width: 100%;
+  line-height: 40px;
+  font-size: 15px;
+}
+main #navLink .subLink > li a {
+  display: block;
+}
+main #navLink .subLink > li a:hover {
+  background-color: #e94609;
+  color: #FFF;
+}

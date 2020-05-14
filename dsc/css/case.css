@@ -1,0 +1,8 @@
+@charset "utf-8";
+/* CSS Document */
+
+ul.list-paddingleft-2 { padding-top:10px; margin-bottom:10px; }
+ul.list-paddingleft-2 li { list-style:disc; line-height:1.6; padding-bottom:5px; text-align:justify; margin-left:25px;}
+
+ol.list-paddingleft-2 { padding-top:10px; margin-bottom:10px; }
+ol.list-paddingleft-2 li { line-height:1.6; padding-bottom:5px; text-align:justify; margin-left:20px;}

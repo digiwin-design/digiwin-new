@@ -1,0 +1,12 @@
+extends ../layout.pug
+
+block includes
+    link(rel="preload", href="images/banner.jpg", as="image")
+    link(rel="preload", href="images/banner_m.jpg", as="image")
+    link(rel='stylesheet', href='css/sFWR/style.css')
+    link(rel='stylesheet', href='assets/swiper.min.css')
+    script(src="assets/swiper.min.js", defer)
+    script(src='js/sFWR.min.js', defer)
+
+block content
+    include sFWR.html

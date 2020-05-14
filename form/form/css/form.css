@@ -1,0 +1,793 @@
+.clearfix:after { content: ''; display: block; height: 0; clear: both; }
+.clearfix { zoom: 1; }
+.clear { clear: both; }
+* {
+	margin:0;
+	padding:0;
+	list-style: none;
+}
+html, body {
+	width:100%;
+	height: 100%;
+	background:url(../images/bg.jpg) repeat-x top  #fff;
+	font-family: "微软雅黑";
+}
+
+.form {
+	width: 100%;
+	max-width: 960px;
+	margin:0 auto;
+	padding-left:30px;
+	box-sizing:border-box;
+	-moz-box-sizing:border-box; 
+	-webkit-box-sizing:border-box;
+	-ms-box-sizing:border-box;
+}
+/*必写：资料来源的样式开始*/
+#fromSource {
+	font-size: 0;
+	height: 0;
+	
+}
+/*资料来源的样式结束*/
+/*.hideLabel {
+	display: block;
+	width: 20%;
+}*/
+#header{
+	margin:0 auto;
+	width:100%;
+	position:relative;
+	z-index:2;
+	background:url(../images/bg.jpg) repeat-x top  #fff;
+}
+	
+.head{
+	margin:0 auto;
+	width:1000px;
+	height:100px;
+}
+.head .logo{
+	float:left;
+	height:60px;
+	width:260px;
+	padding:14px 0 10px 8px; 
+}
+
+.form h1{
+	color: #e21921;
+	font-size: 28px;
+	font-family: "微软雅黑";
+	margin-bottom: 5px;
+}
+.form p{
+	font-size: 20px;
+	font-family: "微软雅黑"; 
+	line-height: 1.6;
+	margin: 3px 0px 8px;
+}
+.txt12r{
+	color: #e40202;
+}
+
+
+
+
+/*公司名称、联系方式。。。。样式css开始*/
+#contactInput label {
+	display: block; 
+	float: left;
+	width: 120px;
+	font-size: 18px;
+	font-family: "微软雅黑"; 
+	text-align:right;
+	line-height: 40px;
+}
+#contactInput input {
+	font-size: 18px;
+	font-family: "微软雅黑"; 
+	/*color: #c1c1c1;*/
+	width:740px;
+	height: 40px;
+	margin: 0 0 20px 0px; 
+	padding-left: 10px; 
+	background-color: #fff; 
+	border: 1px solid #c1c1c1; 
+	border-radius: 3px;
+	/*border:none;*/
+	box-sizing:border-box;
+	-moz-box-sizing:border-box; 
+	-webkit-box-sizing:border-box;
+	-ms-box-sizing:border-box;
+}
+input#contact_person{
+	width: 180px;
+}
+
+.Selecte-Style{
+	width: 276px;
+	height: 40px;
+	font-family: "微软雅黑"; 
+	font-size: 18px;
+	color:#000;
+	background-color: #fff; 
+	padding:0;
+	margin-bottom:20px; 
+	border-radius: 3px;
+	border:1px solid #c1c1c1;
+}
+#contactInput span.hideLabel {
+ 	display: block;
+ 	
+ }
+ 
+/*#contactInput input#agree {
+	margin-right: 5px;
+}*/
+
+#contactInput input.noInput {
+	background-color: #e3f1ff; 
+	/*-moz-box-shadow: 0px 0px 3px 3px #ccc; 
+	-webkit-box-shadow: 0px 0px 3px 3px #ccc;
+		 box-shadow: 0px 0px 3px 3px #ccc;*/
+}
+.contact::-webkit-input-placeholder {
+	font-size: 18px; 
+	color: #a3a3a3;
+}
+.contact:-moz-placeholder {/* Firefox 18- */ 
+	font-size: 18px; 
+	color: #a3a3a3;
+}
+.contact::-moz-placeholder { /* Firefox 19+ */  
+	font-size: 18px; 
+	color: #a3a3a3;
+}
+.contact:-ms-input-placeholder {
+	font-size: 18px; 
+	color: #a3a3a3;
+}
+/*公司名称、联系方式。。。。样式css结束*/
+/*复选框等选项样式开始*/
+
+.demandCheck label {
+	display: block;
+	float: left;
+	font-size: 18px;
+	font-family: "微软雅黑"; 
+	width: 290px;
+	height: 30px;
+	line-height: 30px;
+	padding-left:10px; 
+	
+}
+.demandCheck input {
+	margin-right:10px; 
+	
+}
+
+
+.demandCheck p {
+	font-size: 20px;
+	font-family: "微软雅黑";
+	width:850px;
+	height: 40px;
+	padding-left: 8px;
+	color: #fff;
+	line-height: 40px;
+	background-color: #989898;
+}
+
+input#contact-other {
+	font-size: 17px;
+	font-family: "微软雅黑";
+}
+
+/*#scz_sys,#zzj_sys {
+	margin-left: 351px;
+}
+#sml_sys {
+	margin-left: 327px;
+}
+#csg_sys,#jcg_sys {
+	margin-left: 319px;
+}
+*/
+.noInput{
+	background-color: #e3f1ff;
+	/*-moz-box-shadow: 0px 0px 0px 0px #ccc;
+    -webkit-box-shadow: 0px 0px 3px 3px #ccc;
+    box-shadow: 0px 0px 3px 3px #ccc;*/
+}
+
+/*复选框样式结束*/
+
+
+/*索取资料的选框样式开始*/
+.agreeLabel {
+	display: inline-block;
+	width: 100%;
+	margin-bottom:20px; 
+}
+.agreeLabel input{
+	margin-right:10px; 
+}
+
+
+.inforCheck {
+	display: block;
+	width: 290px;
+	height: 30px;
+	line-height: 30px;
+	margin: 0 0 20px;
+}
+/*.inforCheck label{
+	padding-left:10px; 
+}*/
+.inforCheck input {
+	margin-right:10px; 
+	
+}
+/*索取资料的选框样式结束*/
+/*咨询内容样式开始*/
+
+#contact-query {
+	display: block;
+	width: 856px;
+	height: 250px;
+	border: 1px solid #ccc;
+	margin-bottom: 20px;
+}
+/*.consult-cont p {
+	display: block;
+	font-size: 20px;
+	width:850px;
+	height: 40px;
+	padding-left: 8px;
+	color: #fff;
+	line-height: 40px;
+	background-color: #ff7e00;
+}*/
+
+.consult-cont p{
+	font-family: "微软雅黑";
+	float: left;
+	font-size: 20px;
+	height: 40px;
+	width: 850px;
+	color: #fff;
+	line-height: 40px;
+	padding-left: 8px;
+	margin:20px 0 14px 0;
+	background-color: #989898;
+}
+.consult-cont textarea.noInput{
+	background-color: #e3f1ff;
+	/*-moz-box-shadow: 0px 0px 0px 0px #ccc;
+    -webkit-box-shadow: 0px 0px 0px 0px #ccc;
+    box-shadow: 0px 0px 3px 3px #ccc;*/
+}
+/*咨询内容样式结束*/
+/*其他内容样式开始*/
+/*#contact-other {
+	margin-bottom: 20px;
+}*/
+/*其他内容样式结束*/
+
+/*验证码样式开始*/
+.verifica {
+	margin-top: 40px;
+	height: 80px;
+	position: relative;
+}
+#identCode {
+	height: 40px;
+	width: 100px;
+	font-family: "微软雅黑"; 
+	font-size: 16px;
+	border: 1px solid #c1c1c1;
+	padding: 0;
+}
+#vericodePic {
+	position: absolute;
+	top:0;
+	left:190px;
+	height: 44px;
+	width: 120px;
+	border: 1px solid #E3E3E3;
+	background:url(../images/identCode.jpg) no-repeat;
+	padding: 0;
+    font-family: "微软雅黑";  
+    font-style:italic;  
+    font-weight:bold;  
+    letter-spacing:4px;  
+    color:#8D8D8D;  
+    font-size: 18px;      
+}
+.renovCode {
+	position: absolute;
+	top: 7px;
+	left:320px;
+	width: 28px;
+	height: 30px;
+	background: url(../images/renovCode.png) no-repeat;
+	cursor:pointer;
+
+}
+#codeSuces {
+	position: absolute;
+	top:50px;
+	left:10px;
+	bottom: 10px;
+	font-family: "微软雅黑";
+	font-size: 16px;
+	
+}
+/*验证码样式结束*/
+label#agree {
+    display: block;
+    width: 60%;
+    margin: 20px 0 20px 0px;
+}
+
+/*提交样式开始*/
+
+#submit {
+	display: block; 
+	width: 200px; 
+	height: 45px; 
+	border-radius: 3px; 
+	border: 1px solid #fff; 
+	background-color: #ff7e00; 
+	font-size: 21px; 
+	color: #fff; 
+	margin: auto;
+	cursor: pointer;
+}
+#submit:hover{
+	background-color: #f05050;
+}
+/*#submit.btnLf{
+	float: left;
+	margin-left: 80px;
+}
+#submit.btnRt{
+	float: left;
+	margin-left: 240px;
+}*/
+#loading {
+	color:#fff; 
+	background-color: rgba(0, 0, 0, 0.9); 
+	background-color: #000\9; 
+	height: 100%; 
+	width: 100%; 
+	position: fixed; 
+	top:0;
+	left: 0;
+	z-index: 999999; 
+	text-align: center;
+	display: none;
+}
+#loading:before {
+	content: ""; 
+	height: 100%; 
+	display: inline-block; 
+	vertical-align: middle;
+}
+#loading p {
+	width: 90%; 
+	margin: 0 auto; 
+	text-align: center; 
+	display: inline-block; 
+	vertical-align: middle; 
+	font-size: 1.25em;
+
+}
+#loading p i {
+	display: block; 
+	height: 24px;
+	background: url(../images/loading.gif) no-repeat center center;
+	margin-bottom: 15px;
+}
+
+/*thx page*/
+/*thx page*/
+#thx {
+	color:#fff; 
+	background-color: rgba(0, 0, 0, 0.9); 
+	background-color: #000\9; 
+	height: 100%; 
+	width: 100%;
+	position: fixed; 
+	top:0;
+	left: 0;
+	z-index: 999999; 
+	text-align: center; 
+	font-size: 21px; 
+	line-height: 36px; 
+	display: none;
+}
+#thx:before {
+	content: ""; 
+	height: 100%; 
+	display: inline-block; 
+	vertical-align: middle;
+	text-align: center; 
+}
+#thxContent {
+	width: 50%;
+	max-width: 500px; 
+	margin: 0 auto; 
+	background-color: #5A9BC6;
+	display: inline-block; 
+	vertical-align: middle; 
+	text-align: center; 
+	padding: 50px; 
+	border-radius: 5px; 
+	position: relative;
+}
+#thxparg span {
+	display: block;
+}
+.suprtCall span {
+	display: block;
+}
+#thxContent h3 {
+	text-align: center; 
+	margin-bottom: 30px;
+}
+#thxContent .thxSourLoad1 {
+	display: none;
+	display: inline-block;
+	*display:inline;
+	zoom:1;
+	width:150px;
+	height: 45px;
+	line-height: 45px;
+	background-color: #ff7e00; 
+	border-radius: 3px; 
+	margin: 30px auto 0; 
+	border: 1px solid #fff;
+}
+#thxContent .thxSourLoad1 a {
+	display: block; 
+	color: #fff;
+	text-decoration: none;
+}
+#thxContent .thxSourLoad2 {
+	display: inline-block;
+	*display:inline;
+	zoom:1;
+	width:150px;
+	height: 45px;
+}
+#goIndex {
+	width: 82%;
+	max-width: 300px; 
+	height: 45px; 
+	line-height: 45px; 
+	background-color: #ff7e00; 
+	border-radius: 3px; 
+	margin: 30px auto 0; 
+	border: 1px solid #fff;
+}
+#goIndex a {
+	display: block; 
+	color: #fff;
+	text-decoration: none;
+}
+.close {
+	width:40px; 
+	height: 40px; 
+	position: absolute; 
+	top: 0; 
+	right: 0; 
+	border-radius: 50px; 
+	background-color: #000; 
+	border: 3px solid #fff; 
+	margin: -20px -20px 0 0; 
+	line-height: 40px; 
+	font-weight: bold; 
+	cursor: pointer;
+}
+/*页尾样式*/
+
+#footer {
+	width: 100%;
+	height:80px; 
+	background-color: #747474;
+	margin: 40px 0 0 0;
+}
+.foot02 {
+    width: 1000px;
+    text-align: center;
+    margin: 25px auto 0;
+}
+.foot02 .text01 {
+    margin: 0 62px;
+    padding-top: 12px;
+    display: block;
+    line-height: 20px;
+    text-align: center;
+    color: #fff;
+}
+.foot02 .text01 a{
+	color: #fff;
+	text-decoration:none;
+}
+
+.foot02 .text01>img{
+	margin-bottom:-8px;
+}
+.foot02 .text02 {
+    width: 750px;
+    padding-top: 12px;
+    margin: 0 auto;
+    display: block;
+    line-height: 20px;
+    text-align: center;
+    color: #fff;
+}
+
+
+
+
+@media screen and (max-width: 640px) and (min-width: 320px){
+	.head .logo{
+		float:left;
+		padding:14px 0 10px 3px; 
+	}
+	
+	.form {
+	    width: 92%;
+	    padding: 0 3%;
+	  	
+	}
+	.form h1{
+	    font-size: 19px;
+	  	
+	}
+	.form p{
+	font-size: 16px;
+	line-height: 1.6;
+	margin: 3px 0px 8px;
+   }
+	
+	.demandCheck p,.consult-cont p{
+		width: 100%;
+		padding-left: 4px;
+		line-height: 38px;
+	}
+	.consult-cont p{
+		margin:20px 0 14px 0;
+	}
+	#thxContent {
+	    width: 73%;
+	    max-width: 500px;
+	    margin: 0 auto;
+	    background-color: #5A9BC6;
+	    display: inline-block;
+	    vertical-align: middle;
+	    text-align: center;
+	    padding: 20px;
+	    border-radius: 5px;
+	    position: relative;
+	    font-size: 15px;
+	}
+	#thxContent h3 {
+		margin-bottom: 10px;
+		line-height: 20px;
+	}
+	#goIndex {
+		margin: 15px auto 0;
+	}
+	.demandCheck label {
+	    height: 30px;
+	    line-height: 30px;
+	    font-size: 15px;
+	}
+	#submit {
+	display: block; 
+	width: 200px; 
+	height: 45px; 
+	border-radius: 3px; 
+	border: 1px solid #fff; 
+	background-color: #ff7e00; 
+	font-size: 21px; 
+	color: #fff; 
+	margin: auto;
+	cursor: pointer;
+}
+#submit:hover{
+	background-color: #f05050;
+}
+/*	#submit.btnLf{
+	float: left;margin-left: 0;
+}
+#submit.btnRt{
+	float: left;
+	margin-left:40px;
+}*/
+.foot02{
+	width: 100%;
+}
+.foot02 .text01{
+	font-size: 12px;
+	margin: 0 ;
+	padding-top: 0;
+}
+.foot02 .text02{
+	font-size: 12px;
+	width: 80%;
+	padding-top: 0;
+}
+}
+@media screen and (max-width: 950px) {
+	
+	.form {
+	    width: 90%;
+	    padding: 0 3%;
+	  	
+	}
+	.form h1{
+	    font-size: 20px;
+	  	
+	}
+	.form p{
+	font-size: 16px;
+	line-height: 1.6;
+	
+   }
+   .demandCheck p,.consult-cont p{
+		width: 100%;
+		padding-left: 4px;
+		line-height: 38px;
+	}
+
+
+	.formDepart {
+		width: 100%;
+	}
+	#contactInput {
+		width: 100%;
+	}
+	#contactInput label{
+		text-align:left;
+	}
+	#contactInput input {
+		 width: 100%;
+	}
+	.Selecte-Style{
+		width: 100%;
+	}
+	input#ininput{
+	width: 100%;
+ }
+ /*#submit{
+		width: 42%;
+	}
+ 		#submit.btnLf{
+	float: left;margin-left: 0;
+}
+#submit.btnRt{
+	float: left;
+	margin-left:40px;
+}*/
+	.chooseUlList {
+	    width: 49%;  
+	    margin-right: 0;
+	}
+	.departmetDiv {
+		float: left;
+	}
+	.professionDiv {
+		float: right;
+	}
+	#contact-query {
+		width: 100%;
+		box-sizing:border-box;
+		-moz-box-sizing:border-box; 
+		-webkit-box-sizing:border-box;
+		-mz-box-sizing:border-box;
+	}
+	
+}
+@media screen and (max-width:400px) {
+	
+.contact::-webkit-input-placeholder {
+	font-size: 16px; 
+	color: #c1c1c1;
+}
+.contact:-moz-placeholder {/* Firefox 18- */ 
+	font-size: 16px; 
+	color: #c1c1c1;
+}
+.contact::-moz-placeholder { /* Firefox 19+ */  
+	font-size: 16px; 
+	color: #c1c1c1;
+}
+.contact:-ms-input-placeholder {
+	font-size: 16px; 
+	color: #c1c1c1;
+}
+.demandCheck p,.consult-cont p{
+		width: 100%;
+		padding-left: 4px;
+		line-height: 38px;
+	}
+
+/*	#submit.btnLf{
+	float: left;margin-left: 0;
+}
+#submit.btnRt{
+	float: left;
+	margin-left:40px;
+}*/
+
+	#identCode{
+		width:30%; 
+	}
+	#vericodePic{
+		width:30%;
+		left: 60%;
+	}
+	.renovCode{
+		left:90%;
+	}
+	#submit{
+		width: 42%;
+	}
+	#submit:hover{
+	background-color: #f05050;
+}
+	.transnatArea h4 {
+		font-size: 18px;
+	}
+	.country h5 {
+		font-size: 16px;
+	}
+	.country {
+	    width: 100%;
+	    font-size: 16px;
+	    margin: 10px auto 0;
+	}
+	.country .partCount {
+		width: 90%;
+		padding-left: 10%;
+	}
+	.country .rightCount {
+	    width: 100%;
+		margin-top: 14px;
+	}
+	.listCheck label:nth-child(2){
+		margin-left: 3%;
+	}
+	.listCheck label:nth-child(5){
+		margin-left: 3%;
+	}
+	.listCheck label:nth-child(8){
+		margin-left: 3%;
+	}
+	.listCheck label:nth-child(11){
+		margin-left: 3%;
+	}
+
+	.listCheck label:nth-child(3n){
+		margin-left: 3%;
+	}	
+}
+@media screen and (max-width:371px) {
+	.country {
+	    width: 100%;
+	    font-size: 14px;
+	    margin: 10px auto 0;
+	}
+	.country .partCount {
+		width: 95%;
+		padding-left: 5%;
+	}
+	.country .rightCount {
+	    width: 100%;
+		margin-top: 14px;
+	}
+}

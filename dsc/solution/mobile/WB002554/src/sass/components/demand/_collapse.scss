@@ -1,0 +1,65 @@
+main .demand {
+    .el-icon-arrow-right:before {
+        display: block;
+        width: 20px;
+        height: 20px;
+        content: url(../images/plus-icon.png);
+    }
+    .el-icon-arrow-right.is-active::before {
+        content: url(../images/minus-icon.png);
+    }
+    .el-collapse-item__header {
+        padding-right: 15px;
+        padding-left: 15px;
+        height: 84px;
+        background-color: #5aacd8;
+        color: #fff;
+        letter-spacing: getLetterSpacing(75);
+        font-size: 20px;
+        line-height: 24px;
+        @media (min-width: 361px) {
+            padding-right: 20px;
+            padding-left: 20px;
+        }
+        .icon {
+            width: 73px;
+        }
+        img {
+            display: block;
+            margin: 0 auto;
+        }
+    }
+    .el-collapse-item__arrow {
+        margin-right: 6px;
+    }
+    .el-collapse-item__wrap {
+        background-color: #fff;
+    }
+    .el-collapse-item__content {
+        padding-top: 42px;
+        padding-bottom: 50px;
+        h3 {
+            color: #00a9d4;
+            font-weight: bold;
+            font-size: 22px;
+            br {
+                display: none;
+            }
+        }
+        p {
+            margin-bottom: 1em;
+        }
+        figcaption {
+            margin-top: 6px;
+            margin-bottom: 23px;
+            text-align: center;
+        }
+        a {
+            @include iconLink(#fff, #00a4cd, 20px, 1em) {
+                width: 100%;
+                border: 1px solid #28c6ee;
+                border-radius: 5px;
+            }
+        }
+    }
+}

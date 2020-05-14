@@ -1,0 +1,40 @@
+[v-cloak] {
+    display: none;
+}
+main {
+    min-width: 360px;
+    font-size: 18px;
+    line-height: 1.6;
+    .container {
+        margin: 0 auto;
+        padding: 0 20px;
+        max-width: $content-width;
+        @media (min-width: $content-width) {
+            padding-right: 0;
+            padding-left: 0;
+        }
+    }
+    .mainTitle {
+        font-weight: bold;
+        font-size: 36px;
+        @media (min-width: $tablet-width + 1) {
+            font-size: 48px;
+        }
+    }
+    .sectionTitle {
+        margin-bottom: 1em;
+        padding-top: 50px;
+        text-align: center;
+        font-size: 26px;
+        @media (min-width: $tablet-width + 1) {
+            font-size: 36px;
+        }
+    }
+    .sectionDesc {
+        margin-bottom: 2em;
+        text-align: center;
+        @media (min-width: $tablet-width + 1) {
+            font-size: 20px;
+        }
+    }
+}

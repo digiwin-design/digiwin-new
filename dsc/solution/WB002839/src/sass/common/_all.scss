@@ -1,0 +1,9 @@
+main {
+    min-width: 320px;
+    font-size: 18px;
+    line-height: 1.6;
+    .container {
+        margin: 0 auto;
+        max-width: $content-width;
+    }
+}

@@ -1,0 +1,17 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*adBanner*/
+#adBanner {
+ position: fixed;
+ z-index: 99999;
+ bottom: 105px;
+ right: 5px;
+}
+#adBanner2 {
+ display:none;
+ position: fixed;
+ z-index: 99999;
+ bottom: 210px;
+ right: 5px;
+}

@@ -1,0 +1,96 @@
+main .rightPart1 h6 {
+    margin-top: 18px;
+    margin-bottom: 5px;
+    width: 100%;
+    color: #35afc1;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 30px;
+}
+
+main .rightPart1_left {
+    margin-left: 35px;
+}
+
+main .rightPart1 p {
+    margin-top: 18px;
+    margin-bottom: 5px;
+    letter-spacing: 1px;
+    font-size: 17px;
+}
+
+main #box_t {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+main #box_t .leftimg {
+    display: block;
+    margin-top: .5em;
+    margin-left: 40px;
+    @media (max-width: $tablet-width) {
+        margin-left: 0;
+    }
+}
+
+main #box_t .rightP {
+    display: flex;
+    padding-left: 1em;
+    width: calc(100% - 145px);
+    align-items: flex-end;
+    @media (max-width: $tablet-width) {
+        width: calc(100% - 105px);
+    }
+}
+
+main #box_t .righttopP {
+    margin-top: 5px;
+}
+
+main #box_t .P_Blod {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+main .changeDIV h4 {
+    margin-bottom: 10px;
+    color: #00488c;
+    letter-spacing: 1px;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 26px;
+}
+
+main .changeDIV p {
+    color: #262626;
+    letter-spacing: 1px;
+    font-size: 17px;
+    line-height: 24px;
+}
+
+main .changeDIV h5 {
+    margin-top: 25px;
+    margin-bottom: 5px;
+    color: #f00;
+    letter-spacing: 1px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+main .changeDIV dl {
+    margin-bottom: 25px;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+main .changeDIV dt {
+    font-weight: bold;
+}
+
+main .changeDIV .last-dl {
+    margin-bottom: 0;
+}
+
+main .font_blackB {
+    font-weight: bold;
+}

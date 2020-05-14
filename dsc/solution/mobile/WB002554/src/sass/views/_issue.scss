@@ -1,0 +1,118 @@
+main .issue {
+    .header {
+        @include headerBg('issue/header-bg.jpg', 'issue/header-bg.jpg', 100% 0);
+    }
+    .section1 {
+        padding-bottom: 50px;
+        .hoverBox {
+            height: 440px;
+        }
+    }
+    .section2 {
+        padding-bottom: 50px;
+        background-color: #f7f7f7;
+        line-height: 24px;
+        .sectionTitle strong {
+            color: #3fabe5;
+        }
+        &-next {
+            display: block;
+            text-align: center;
+            i {
+                color: #ccc;
+                font-size: 50px;
+            }
+        }
+        h2 {
+            margin: 1em 0;
+            color: #2493cc;
+            text-align: center;
+            font-weight: bold;
+            font-size: 24px;
+            line-height: 1;
+        }
+        h3 {
+            margin-top: 1em;
+            margin-bottom: .5em;
+            color: #1c8eca;
+            font-size: 24px;
+            line-height: 30px;
+        }
+        ul {
+            padding-left: 1em;
+            list-style: disc;
+        }
+        figure {
+            margin-top: 1em;
+            & + figure {
+                margin-top: 0;
+            }
+        }
+        figcaption {
+            margin-top: 1em;
+            text-align: center;
+            line-height: 1;
+        }
+        .more {
+            @include iconLink(transparent, #333, 20px);
+            margin-top: 2em;
+            width: 100%;
+            border: 1px solid #187cc2;
+            strong {
+                color: #1b5a94;
+            }
+        }
+    }
+    .section3 {
+        @include bg('issue/section3-bg.jpg');
+        padding-bottom: 50px;
+        .sectionTitle {
+            color: #fff;
+            strong {
+                color: #f6ff00;
+            }
+        }
+        &-case {
+            $bgColor: #006797 #004768 #00344c;
+            padding: 1.5em 2em;
+            @for $nth from 1 through 3 {
+                &:nth-of-type(#{$nth}) {
+                    background-color: nth($bgColor, $nth);
+                }
+            }
+            h1 {
+                margin-bottom: .5em;
+                color: #f0ff01;
+                text-align: center;
+                font-size: 30px;
+            }
+            p {
+                color: #fff;
+            }
+            strong {
+                color: #fffc00;
+            }
+            & + .section3-case {
+                margin-top: 20px;
+            }
+        }
+        a {
+            @include btn(100%, 75px, #000, #fff);
+            margin-top: 30px;
+            font-size: 20px;
+            strong {
+                color: #0092da;
+            }
+        }
+    }
+    .section4 {
+        padding-bottom: 50px;
+        .sectionTitle strong {
+            color: #3fabe5;
+        }
+        a {
+            @include btn(100%, 75px, #fff, #11b6e7);
+            margin-top: 30px;
+        }
+    }
+}

@@ -1,0 +1,88 @@
+{
+    "links": {
+        "anchor": [
+            { "href": "#section1", "text": "講師" },
+            { "href": "#section2", "text": "議程" },
+            { "href": "#section3", "text": "場次" }
+        ],
+        "external": [
+            {
+                "desktop": {
+                    "href": "/tw/dsc/activity/WB002926/WB00292605.html",
+                    "text": "活動花絮"
+                },
+                "mobile": {
+                    "href": "/tw/dsc/activity/WB002926/WB00292605.html",
+                    "text": "活動<br>花絮"
+                }
+            },
+            {
+                "desktop": {
+                    "href": "http://acpms.digiwin.com/WebRegACT/onair.html?gNo=2019030003",
+                    "text": "線上研討會"
+                },
+                "mobile": {
+                    "href": "http://acpms.digiwin.com/WebRegACT/onair.html?gNo=2019030003",
+                    "text": "線上<br>研討會"
+                }
+            },
+            {
+                "desktop": {
+                    "href": "/tw/contact/eform.html",
+                    "text": "0800009890"
+                },
+                "mobile": {
+                    "href": "tel:0800009890",
+                    "text": ""
+                }
+            }
+        ]
+    },
+    "slides": {
+        "casts": [
+            {
+                "name": "徐重仁",
+                "desc": "早稲田大学商學研究科流通經濟學碩士畢業，現任職於總統府國策顧問、重仁塾塾長及筑誠創研董事⻑，曾任全聯福利中心總裁，財團法人商業發展研究院董事長、統一超商7-ELEVEn總經理、台灣連鎖暨加盟協會理事長、台灣美化協會創會理事長及台灣公益廣告協會理事長。統一超商與所屬的統一流通次集團在徐重仁的經營下，成為臺灣流通業的龍頭，遂有臺灣「流通教父」之名。",
+                "feature": "流通教父"
+            },
+            {
+                "name": "林惠君",
+                "position": "亞馬遜全球開店台灣區 總經理",
+                "desc": "現任職於亞馬遜全球開店台灣區總經理，曾任遠見雜誌採訪編輯，並曾獲金鼎獎雜誌寫作及公共服務獎項，從事電子商務十多年，包括B2C（PCHome線上購物 / GOHAPPY線上快樂購）、C2C（eBay台灣拍賣網站）、虛實整合O2O（誠品網路書店 / GOHAPPY線上快樂購）以及跨境電商（2009.03-2016.04擔任eBay跨境交易事業部台灣區總經理）等。持續協助台灣中小企業拓展跨境交易商機。",
+                "feature": "電商零售巨擘"
+            },
+            {
+                "name": "王智",
+                "position": "治略資訊 創辦人",
+                "desc": "治略資訊創辦人，擁有橫跨資訊科學、經濟學、心理認知科學的學術背景，專長於行為數據分析、決策科學、計算機建模、機器學習、問答系統、文字探勘，曾代表台灣中央研究院資訊所參國際問答系統競賽，獲得繁體中文第一名及簡體中文第二名。而後依憑基礎創立治略資訊，志在落實AI人工智慧的產業應用解決方案，多年大數據分析與機器智能的產業案例經驗，與國際⼤廠AWS,EMC,KPMG,研華等合作，完成多項企業數位轉型方案。",
+                "feature": "智能轉型推手"
+            }
+        ],
+        "reviews": [
+            {
+                "link": "http://www.digiwin.com/tw/dsc/activity/WB002230/index.html",
+                "year": 2013
+            },
+            {
+                "link": "http://www.digiwin.com/tw/dsc/activity/WB002412/WB00241202.html",
+                "year": 2014
+            },
+            {
+                "link": "http://www.digiwin.com/tw/dsc/activity/WB002542/WB00254202.htm",
+                "year": 2015
+            },
+            {
+                "link": "http://www.digiwin.com/tw/dsc/activity/WB002663/WB00266302.htm",
+                "year": 2016
+            },
+            {
+                "link": "http://www.digiwin.com/tw/dsc/activity/WB002739/WB00273901.htm",
+                "year": 2017
+            },
+            {
+                "link": "http://www.digiwin.com/tw/dsc/activity/WB002833/WB00283301.htm",
+                "year": 2018
+            }
+        ]
+    }
+}

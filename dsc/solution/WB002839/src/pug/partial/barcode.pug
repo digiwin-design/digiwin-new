@@ -1,0 +1,15 @@
+extends ../layout.pug
+
+block includes
+    link(rel='stylesheet', href='assets/animate.css')
+    link(rel='stylesheet', href=`css/barcode.css?v=${Math.random()}`)
+    script(src='assets/modernizr-custom.js', defer)
+    script(src='assets/mobile-detect.js', defer)
+    script(src='assets/mobile-detect-modernizr.js', defer)
+    script(src='assets/lodash.js', defer)
+    script(src='assets/jquery.touchSwipe.js', defer)
+    script(src='assets/wow.js', defer)
+    script(src=`js/barcode.min.js?v=${Math.random()}`, defer)
+
+block content
+    include barcode.html

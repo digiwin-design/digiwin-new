@@ -1,0 +1,11 @@
+<div class="popup-close js-popup-close">X</div>
+<h2 class="popup-title">{{title}}</h2>
+<hr>
+{{#if isVideo}}
+<video id="popup-video" class="popup-video" controls autoplay>
+    <source src="video/{{fileName}}.Ogg" type="video/ogg">
+    <source src="video/{{fileName}}.mp4" type="video/mp4">
+</video>
+{{else}}
+<div class="popup-text">{{{text}}}</div>
+{{/if}}

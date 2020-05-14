@@ -1,0 +1,235 @@
+@import 'common';
+@import 'components';
+
+main {
+    .section1 {
+        padding-top: 50px;
+        padding-bottom: 60px;
+        h1 {
+            padding-bottom: 1em;
+        }
+        &-content {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            .col {
+                width: 50%;
+                @media (max-width: $tablet-width) {
+                    width: 100%;
+                }
+                &:first-child {
+                    padding-right: percentage(68 / 1200);
+                    @media (max-width: $tablet-width) {
+                        padding-right: 0;
+                        padding-bottom: 2em;
+                    }
+                }
+                &:last-child {
+                    text-align: center;
+                }
+            }
+        }
+        ul {
+            padding-left: 1em;
+            list-style-type: disc;
+        }
+    }
+    .section2 {
+        @include bg('section2-bg.jpg');
+        padding-top: 5em;
+        padding-bottom: 140px;
+        @media (max-width: $content-width) {
+            padding-bottom: 390px;
+            background-color: #0a4684;
+            background-image: image-url('section2-bg-s.jpg');
+            background-position: 50% 100%;
+        }
+        h1 {
+            margin-bottom: 2.5em;
+            color: #fff;
+        }
+        h2 {
+            margin-bottom: 40px;
+            color: #fff;
+            text-align: center;
+            letter-spacing: getLetterSpacing(100);
+            font-weight: bold;
+            font-size: 24px;
+            line-height: 30px;
+        }
+        &-boxs {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            @media (max-width: $content-width) {
+                margin: 0 auto;
+                width: 596px;
+            }
+            @media (max-width: 640px) {
+                width: 295px;
+            }
+            .col {
+                width: 295px;
+                @media (min-width: 641px) and (max-width: $content-width) {
+                    &:nth-child(odd) {
+                        margin-right: 6px;
+                    }
+                    @include first(2) {
+                        margin-bottom: 80px;
+                    }
+                }
+                @media (max-width: 640px) {
+                    & + .col {
+                        margin-top: 80px;
+                    }
+                }
+                @for $i from 1 through 4 {
+                    &:nth-child(#{$i}) .hoverBox::before {
+                        width: image-width('hoverBox-icon#{$i}.png');
+                        height: image-height('hoverBox-icon#{$i}.png');
+                        background-image: image-url('hoverBox-icon#{$i}.png');
+                    }
+                }
+            }
+        }
+        .hoverBox {
+            display: flex;
+            flex-direction: column;
+            padding-right: 30px;
+            padding-left: 30px;
+            height: 220px;
+            color: #fff;
+            justify-content: center;
+            &-hover {
+                display: flex;
+                padding: 30px;
+                color: #fff;
+                letter-spacing: getLetterSpacing(25);
+                font-size: 22px;
+                justify-content: center;
+                align-items: center;
+            }
+            &::before {
+                display: block;
+                margin: 0 auto 9px;
+                width: 132px;
+                height: 102px;
+                background-position: 50%;
+                background-repeat: no-repeat;
+                content: '';
+            }
+            &-title {
+                text-align: center;
+                font-weight: bold;
+                font-size: 22px;
+                line-height: 1;
+            }
+        }
+    }
+    .section3 {
+        position: relative;
+        padding-top: 85px;
+        padding-bottom: 85px;
+        @media (min-width: $content-width) {
+            &::before {
+                position: absolute;
+                top: 0;
+                right: calc(50% + 320px);
+                bottom: 0;
+                left: 0;
+                background-color: #ededed;
+                content: '';
+            }
+        }
+        .container {
+            position: relative;
+            display: flex;
+            justify-content: flex-end;
+            @media (max-width: $content-width - 1) {
+                justify-content: center;
+            }
+        }
+        &-content {
+            max-width: 720px;
+            width: 100%;
+        }
+        .sectionTitle {
+            margin-bottom: 1.9em;
+            align-items: flex-start;
+            @media (max-width: $content-width - 1) {
+                align-items: center;
+            }
+        }
+        &-bg {
+            position: absolute;
+            top: 0;
+            right: calc(50% + 195px);
+            bottom: 0;
+            @media (max-width: $content-width) {
+                display: none;
+            }
+        }
+    }
+    .showcase {
+        padding-top: 85px;
+        padding-bottom: 85px;
+        @for $i from 4 through 7 {
+            &.section#{$i} {
+                @include bg('section#{$i}-bg.jpg');
+                @media (max-width: $tablet-width) {
+                    background-image: image-url('section#{$i}-bg-s.jpg');
+                }
+            }
+        }
+        @at-root {
+            main .section4,
+            main .section6 {
+                color: #fff;
+            }
+        }
+        @media (min-width: $tablet-width + 1) {
+            padding-bottom: 70px;
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        &-content {
+            margin-bottom: 50px;
+            width: 100%;
+            @media (min-width: $tablet-width + 1) {
+                margin-bottom: 0;
+                width: calc(100% - 407px);
+                @at-root {
+                    main .section4 .showcase-content,
+                    main .section6 .showcase-content {
+                        order: 1;
+                    }
+                }
+            }
+        }
+        .sectionTitle {
+            margin-bottom: 1.4em;
+            @media (min-width: $tablet-width + 1) {
+                align-items: flex-start;
+            }
+        }
+        img {
+            display: block;
+            margin: 0 auto;
+        }
+    }
+    @media (max-width: $tablet-width) {
+        .section5,
+        .section7 {
+            background-color: #ddf2fe;
+            background-position: 50% 100%;
+        }
+        .section4 {
+            background-color: #33a4d1;
+        }
+        .section6 {
+            background-color: #0061c5;
+        }
+    }
+}

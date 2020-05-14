@@ -1,0 +1,15 @@
+<slider-banner-s v-if="isMobile" v-bind:slides="result.payment.banner" device="mobile"></slider-banner-s>
+<slider-banner v-else v-bind:slides="result.payment.banner" device="desktop"></slider-banner>
+
+<article class="section1">
+    <div class="container">
+        <section-title title="<strong>便捷支付</strong>只是吸引消費者的入場券" desc="從消費者未消費時，就開始抓住消費者的眼睛，<br>消費者在消費前想的是最多的，如果能將消費門檻降到最低，促使的消費機率將會越高。"></section-title>
+        <div class="section1-boxs">
+            <anchor v-for="(anchor, idx) in result.payment.anchors" v-bind:key="anchor.imgSrc" v-bind:content="anchor" v-on:click.native="scrollTo(idx)"></anchor>
+        </div>
+    </div>
+
+    <component :is="componentId"></component>
+</article>
+
+<contact v-bind:multiple="false" source=""></contact>

@@ -1,0 +1,914 @@
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=10; IE=9; IE=8;" />
+<link rel="SHORTCUT ICON" href="http://service.digiwin.biz/_graphics/favicon.ico" /><title>電子報編輯</title>
+<style type="text/css">
+body {
+	font-family: "新細明體";
+	font-size: 13px;
+	line-height: 22px;
+	color: #4C4C4C;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: left top;
+	background-color: #f4f3f3;
+}
+td {
+	font-family: "新細明體";
+	font-size: 13px;
+	line-height: 24px;
+	letter-spacing:1px;
+	color: #464646;
+}
+.txt11w {
+	font-family: "新細明體";
+	font-size: 11px;
+	line-height: 15px;
+	color: #ffffff;
+}
+.txt13{
+	font-family: "新細明體";
+	font-size: 13px;
+	line-height: 24px;
+	letter-spacing:1px;
+	color: #464646;
+}
+.txt13w {
+	font-family: "新細明體";
+	font-size: 13px;
+	line-height: 18px;
+	color: #ffffff;
+}
+.txt13a {
+	font-family: "新細明體";
+	font-size: 13px;
+	line-height: 22px;
+	letter-spacing:1px;
+	color: #1382b6;
+}
+.txt13g1 {
+	font-family: "新細明體";
+	font-size: 13px;
+	line-height: 22px;
+	color: #458645;
+}
+.txt13R{
+	font-family: "新細明體";
+	font-size: 13px;
+	line-height: 22px;
+	letter-spacing:1px;
+	color: #e3185c;
+	font-weight: bold;
+}
+.txt13B{
+	font-family: "新細明體";
+	font-size: 13px;
+	line-height: 22px;
+	letter-spacing:1px;
+	color: #0e90c2;
+	font-weight: bold;
+}
+.txt13O{
+	font-family: "新細明體";
+	font-size: 13px;
+	line-height: 22px;
+	letter-spacing:1px;
+	color: #f05b26;
+	font-weight: bold;
+}
+.txt13p{
+	font-family: "新細明體";
+	font-size: 13px;
+	line-height: 22px;
+	letter-spacing:1px;
+	font-weight: bold;
+	color: #93C;
+}
+.txt13Oa{
+	font-family: "新細明體";
+	font-size: 13px;
+	line-height: 22px;
+	letter-spacing:1px;
+	color: #f05b26;
+}
+.txt13G{
+	font-family: "新細明體";
+	font-size: 13px;
+	line-height: 22px;
+	letter-spacing:1px;
+	color: #458645;
+	font-weight: bold;
+}
+.txt12 {
+	font-family: "新細明體";
+	font-size: 12px;
+	line-height: 1.5;
+	letter-spacing:1px;
+	color: #505050;
+}
+.txt15B {
+	font-family: "新細明體";
+	font-size: 15px;
+	line-height: 28px;
+	letter-spacing:1px;
+	font-weight: bold;
+	color: #505050;
+}
+.txt15Bule {
+	font-family: "新細明體";
+	font-size: 15px;
+	line-height: 28px;
+	letter-spacing:1px;
+	font-weight: bold;
+	color: #1A5BBD;
+}
+.txt15o {
+	font-family: "新細明體";
+	font-size: 15px;
+	line-height: 28px;
+	letter-spacing:1px;
+	font-weight: bold;
+	color: #F02C0F;
+}
+.txt15r {
+	font-family: "新細明體";
+	font-size: 15px;
+	line-height: 28px;
+	letter-spacing:1px;
+	font-weight: bold;
+	color: #E91237;
+}
+.txt15g {
+	font-family: "新細明體";
+	font-size: 15px;
+	line-height: 28px;
+	letter-spacing:1px;
+	font-weight: bold;
+	color: #74b64a;
+}
+
+.txt15{
+	font-family: "新細明體";
+	font-size: 15px;
+	line-height: 25px;
+    letter-spacing:1px;
+	color: #464646;
+}
+.txt22 {
+	font-family: "新細明體";
+	font-size: 22px;
+	line-height: 35px;
+	color: #505050;
+	font-weight: bold;
+}
+.txt18 {
+	font-family: Arial, "新細明體";
+	font-size: 18px;
+	line-height: 30px;
+	font-weight: bold;
+	color: #1B75BB;
+}
+.txt18B {
+	font-family: "新細明體";
+	font-size: 18px;
+	line-height: 25px;
+	font-weight: bold;
+	color: #505050;
+}
+.txt18c {
+	font-family: "新細明體";
+	font-size: 18px;
+	line-height: 30px;
+	font-weight: bold;
+	color: #E91237;
+}
+.txt19 {
+	font-family: "新細明體";
+	font-size: 19px;
+	line-height: 25px;
+	font-weight: bold;
+	color: #505050;
+}
+.txt20 {
+	font-family: Arial, "新細明體";
+	font-size: 20px;
+	line-height: 25px;
+	font-weight: bold;
+	color: #505050;
+}
+.txt20a {
+	font-family: "微軟正黑體";
+	font-size: 22px;
+	line-height: 31px;
+	font-weight: bold;
+	color: #db0505;
+}
+.txt20w {
+	font-family: "微軟正黑體";
+	font-size: 22px;
+	line-height: 31px;
+	font-weight: bold;
+	color: #FFFFFF;
+}
+.txt35b {
+	font-family: Arial, "新細明體";
+	font-size: 35px;
+	line-height: 37px;
+	font-weight: normal;
+	color: #1B75BB;
+}
+.txt35o {
+	font-family: Arial, "新細明體";
+	font-size: 35px;
+	line-height: 37px;
+	font-weight: normal;
+	color:#f05a22;
+}
+.txt35r {
+	font-family: Arial, "新細明體";
+	font-size: 35px;
+	line-height: 37px;
+	font-weight: normal;
+	color:#E3185C;
+}
+.txt35g {
+	font-family: Arial, "新細明體";
+	font-size: 35px;
+	line-height: 37px;
+	font-weight: normal;
+	color:#458645;
+}
+.topline {
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	border-top-color: #bebebe;
+}
+.topline_a {
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	border-top-color: #dcdbdb;
+}
+.lineLR {
+	border-left-width: 1px;
+	border-left-style: solid;
+	border-left-color: #dcdbdb;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #dcdbdb;
+}
+.lineLD {
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-bottom-color: #bebebe;
+	border-left-color: #bebebe;
+}
+.lineLDo {
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-bottom-color: #ffcb83;
+	border-left-color: #ffcb83;
+}
+.linedown {
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #bebebe;
+}
+.lineL {
+	border-left-width: 1px;
+	border-left-style: solid;
+	border-left-color: #bebebe;
+}
+.lineLR {
+	border-left-width: 1px;
+	border-left-style: solid;
+	border-left-color: #bebebe;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #bebebe;
+}
+.lineLa {
+	border-left-width: 1px;
+	border-left-style: solid;
+	border-left-color: #f6911d;
+}
+a:link {
+	font-family: "新細明體";
+	font-size: 13px;
+	line-height: 20px;
+	color: #505050;
+	text-decoration: none;
+}
+a:visited {
+	font-family: "新細明體";
+	font-size: 13px;
+	line-height: 20px;
+	color: #505050;
+	text-decoration: none;
+}
+a:hover {
+	font-family: "新細明體";
+	font-size: 13px;
+	line-height: 20px;
+	color: #f05a28;
+	text-decoration: none;
+}
+a:active {
+	font-family: "新細明體";
+	font-size: 13px;
+	line-height: 20px;
+	color: #B6B5B5;
+	text-decoration: none;
+}
+a.b:link {
+	font-family: "新細明體";
+	font-size: 13px;
+	line-height: 20px;
+	color: #505050;
+	text-decoration: underline;
+}
+a.b:visited {
+	font-family: "新細明體";
+	font-size: 13px;
+	line-height: 20px;
+	color: #505050;
+	text-decoration: underline;
+}
+a.b:hover {
+	font-family: "新細明體";
+	font-size: 13px;
+	line-height: 20px;
+	color: #f05a28;
+	text-decoration: underline;
+}
+a.b:active {
+	font-family: "新細明體";
+	font-size: 13px;
+	line-height: 20px;
+	color: #B6B5B5;
+	text-decoration: underline;
+}
+a.c:link {
+	font-family: "新細明體";
+	font-size: 15px;
+	line-height: 21px;
+	color: #f05a22;
+	text-decoration: underline;
+}
+a.c:visited {
+	font-family: "新細明體";
+	font-size: 15px;
+	line-height: 21px;
+	color: #f05a22;
+	text-decoration: underline;
+}
+a.c:hover {
+	font-family: "新細明體";
+	font-size: 15px;
+	line-height: 21px;
+	color: #990000;
+	text-decoration: none;
+}
+a.c:active {
+	font-family: "新細明體";
+	font-size: 15px;
+	line-height: 21px;
+	color: #f05a22;
+	text-decoration: underline;
+}
+a.d:link {
+	font-family: "新細明體";
+	font-size: 13px;
+	line-height: 18px;
+	color: #ffffff;
+	text-decoration: none;
+}
+a.d:visited {
+	font-family: "新細明體";
+	font-size: 13px;
+	line-height: 18px;
+	color: #ffffff;
+	text-decoration: none;
+}
+a.d:hover {
+	font-family: "新細明體";
+	font-size: 13px;
+	line-height: 18px;
+	color: #FF6;
+	text-decoration: underline;
+}
+
+
+
+a.e:link {
+	font-family: "新細明體";
+	font-size: 13px;
+	line-height: 21px;
+	color: #f05a22;
+	text-decoration: underline;
+}
+a.e:visited {
+	font-family: "新細明體";
+	font-size: 13px;
+	line-height: 21px;
+	color: #f05a22;
+	text-decoration: underline;
+}
+a.e:hover {
+	font-family: "新細明體";
+	font-size: 13px;
+	line-height: 21px;
+	color: #990000;
+	text-decoration: none;
+}
+a.e:active {
+	font-family: "新細明體";
+	font-size: 13px;
+	line-height: 21px;
+	color: #f05a22;
+	text-decoration: underline;
+}
+a.f:link {
+	font-family: "新細明體";
+	font-size: 15px;
+	line-height: 25px;
+	color: #464646;
+	text-decoration: none;
+}
+a.f:visited {
+	font-family: "新細明體";
+	font-size: 15px;
+	line-height: 25px;
+	color: #464646;
+	text-decoration: none;
+}
+a.f:hover {
+	font-family: "新細明體";
+	font-size: 15px;
+	line-height: 25px;
+	color: #990000;
+	text-decoration: underline;
+}
+a.f:active {
+	font-family: "新細明體";
+	font-size: 15px;
+	line-height: 25px;
+	color: #464646;
+	text-decoration: none;
+}
+a.g:link {
+	font-family: "新細明體";
+	font-size: 15px;
+	line-height: 26px;
+	color: #464646;
+	text-decoration: underline;
+}
+a.g:hover {
+	font-family: "新細明體";
+	font-size: 15px;
+	line-height: 26px;
+	color: #24a75f;
+	text-decoration: none;
+}
+.txt13sm{
+	font-family: "新細明體";
+	font-size: 13px;
+	line-height: 22px;
+	letter-spacing:1px;
+	color: #00a6ba;
+}
+.txt13smB{
+	font-family: "新細明體";
+	font-size: 13px;
+	line-height: 22px;
+	letter-spacing:1px;
+	color: #00a6ba;
+	font-weight: bold;
+}
+.txt13wf{
+	font-family: "新細明體";
+	font-size: 13px;
+	line-height: 22px;
+	letter-spacing:1px;
+	color: #4b6cb3;
+}
+.txt13wfB{
+	font-family: "新細明體";
+	font-size: 13px;
+	line-height: 22px;
+	letter-spacing:1px;
+	color: #4b6cb3;
+	font-weight: bold;
+}
+.txt13hr{
+	font-family: "新細明體";
+	font-size: 13px;
+	line-height: 22px;
+	letter-spacing:1px;
+	color: #df6d27;
+}
+.txt13hrB{
+	font-family: "新細明體";
+	font-size: 13px;
+	line-height: 22px;
+	letter-spacing:1px;
+	color: #df6d27;
+	font-weight: bold;
+}
+.cm {
+	font-size: 20px;
+	color: #F37020;
+	line-height: 28px;
+	font-family: Arial, "微軟正黑體", "新細明體";
+}
+.sm {
+	font-size: 20px;
+	color: #00a6ba;
+	line-height: 28px;
+	font-family: Arial, "微軟正黑體", "新細明體";
+    margin-bottom: 0px;
+margin-top: 10px;
+}
+.wf {
+	font-size: 20px;
+	color: #4b6cb3;
+	line-height: 28px;
+	font-family: Arial, "微軟正黑體", "新細明體";
+}
+.hr {
+	font-size: 20px;
+	color: #df6d27;
+	line-height: 28px;
+	font-family: Arial, "微軟正黑體", "新細明體";
+}
+
+img {
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+}
+.table{border:1px solid #999 ;border-collapse:collapse; margin-bottom:30px}
+.table td{border:1px; border-style:solid; border-color:#999 }
+
+.cls-underline {
+  border-bottom: 1px solid #dcdbdb;
+  padding-bottom: 10px;
+	line-height: 1px;
+}
+.cls-bottomspace {
+    padding-bottom: 6px;
+}
+
+.cls-bottomspace p {
+    margin-top: 0px;
+}
+</style> 
+</head>
+
+<body>
+<table width="900" border="0" align="center" cellpadding="0" cellspacing="0">
+<tr>
+   <td align="right"><a name="top"></a>※ 
+<a href="http://service.digiwin.biz/epaper/view/218260" target="_blank">若無法正常瀏覽，請點此連結 </a>  	※ </td>
+</tr>
+</table>
+<table width="900" border="0" align="center" cellpadding="0" cellspacing="0">
+<tr>
+   <td>
+   <table width="900" border="0" align="center" cellpadding="0" cellspacing="0">
+   <tr>
+      <td width="164" height="70" rowspan="2" valign="bottom" bgcolor="#F5F3F4"><a href="http://tw.digiwin.biz/" target="_blank"><img src="https://static.digiwin.com/tw/dsc/newspaper/BINP/images/dsc_out2013-1.jpg" width="163" height="55" border="0" /></a><a href="http://service.digiwin.biz" target="_blank"></a></td>
+      <td height="32" colspan="3" align="right" valign="bottom" bgcolor="#F5F3F4"><span class="txt13">｜<a href="http://www.dsc.com.tw/wb001838/index.html" target="_blank">行業解決方案網站</a>｜　</span><a href="http://www.facebook.com/DSCmain" target="_blank"><img src="http://www.dsc.com.tw/event/WB001837/images/fb-1.jpg" width="135" height="24" border="0" align="absmiddle" /></a></td>
+   </tr>
+   <tr>
+      <td width="329" height="38" valign="bottom" bgcolor="#FFFFFF"><img src="https://static.digiwin.com/tw/dsc/newspaper/BINP/images/dsc_out2013-2.jpg" width="329" height="40" /></td>
+      <td width="408" height="38" colspan="2" valign="bottom" bgcolor="#FFFFFF"><img src="https://static.digiwin.com/tw/dsc/newspaper/BINP/images/dsc_out2013-3.jpg" width="408" height="40" /></td>
+   </tr>
+   </table>
+   </td>
+</tr>
+<tr>
+   <td bgcolor="#FFFFFF" class="lineLR">
+   <table width="900" border="0" cellspacing="0" cellpadding="0">
+   <!--start-->
+   <tr>
+   	  <!--content-->
+      <td>
+      <table width="820" align="center" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+         <td>
+         <table align="center" border="0" cellspacing="0" cellpadding="0">
+         <tr>
+            <td class="txt15B">
+【2016.12 BI電子報】 BI Mobile 行動決策正夯、您行動了嗎           </td>
+         </tr>
+         <tr>
+            <td>
+            <table border="0" cellspacing="0" cellpadding="0">
+            <tr>
+               <td align="center" rowspan="2"><a href="http://service.digiwin.biz" target="_blank"><img src="http://service.digiwin.biz/_graphics/epaper/img1-1.jpg" width="389" alt="e-Sercice" border="0"></a></td>
+               <td width="9" rowspan="2">&nbsp;</td>
+               <td rowspan="2"><img src="https://static.digiwin.com/tw/dsc/newspaper/BINP/images/img2.jpg" width="41" height="154" alt="本期目錄"></td>
+               <td valign="top">
+               <table border="0" cellspacing="0" cellpadding="0">
+               <tr>
+                  <td><img src="https://static.digiwin.com/tw/dsc/newspaper/BINP/images/img3.jpg" width="370" height="16"></td>
+               </tr>
+               <tr>
+                  <td>
+                     <ul id="ul_currentissue">
+<li class="cls-epaper-currentissue" currentissue_guid="218162"><a href="#A218162">【BI技術應用分享】     BI Mobile 設計應用技巧</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li><li class="cls-epaper-currentissue" currentissue_guid="218179"><a href="#A218179">【BI成功案例分享】普詮電子由商業智慧即時監控毛利與庫存，依產品潛力分配銷售資源，以獲取最大利潤</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li>                     <li class="cls-epaper-currentissue" currentissue_guid="218740"><a href="#A218740">【BI熱門FAQ】</a>&nbsp;&nbsp;&nbsp;</li><li class="cls-epaper-currentissue" currentissue_guid="218231"><a href="#A218231">【BI 2017 01、02月面授/雲端課程訊息】</a>&nbsp;&nbsp;&nbsp;</li>                     </ul>
+                  </td>
+               </tr>
+               </table>
+               </td>
+            </tr>
+            </table>
+            </td>
+         </tr>
+         </table>
+         </td>
+      </tr>
+      <tr>
+      	 <td>&nbsp;</td>
+      </tr>
+      <tr>
+      	 <td>
+      	 	  <a name="c1"></a>
+            <img width="820" height="58" src="http://service.digiwin.biz/_graphics/epaper/sm01.jpg" />
+      	 </td>
+      </tr>
+      <tr>
+         <td>
+         <table align="center" width="760" border="0" cellspacing="0" cellpadding="0" id="table_article_focus">
+         
+            <tr class="cls-epaper-block-218162">
+                <td class="cls-bottomspace">
+            <h3 class="sm"><strong><a name="A218162"></a><a href="http://service.digiwin.biz/epaper/detail/218162" target="_blank" style="color: #00a6ba;font-family: Arial,微軟正黑體;font-size: 20px; line-height: 28px;" class="cls-epaper-title-218162" atag_guid="A218162">【BI技術應用分享】     BI Mobile 設計應用技巧</a></strong></h3>
+                <p><p><span style="font-size: 18pt; font-family: 微軟正黑體;"><strong><strong><span style="font-size: 18pt;">BI Mobile 設計應用技巧</span><br /><span style="font-size: 12pt;"></span></strong></strong></span></p>
+<p><strong><strong><span style="font-size: 12pt;">-----------------------------------------------<br />BI<strong>&nbsp;Mobile </strong><strong>行動決策正夯、您行動了嗎<br />-----------------------------------------------</strong></span></strong></strong></p>
+<p><span style="font-family: 微軟正黑體; font-size: 14pt; color: #339966;"><strong><strong>Anytime Anywhere Anyplace</strong></strong></span></p>
+<p><span style="font-family: 微軟正黑體; font-size: 12pt;">行動化裝置的普及化，讓資訊無處不在。而企業內部高階管理者利用行動裝置，取得管理資訊，協助分析與決策，已然是「不得不」的趨勢。隨著科技的進步，除了即時收發email外，BI Mobile app提供多維度的資訊，能再延伸至隨身的裝置上，無論身在何處，都能協助管理者迅速作出準確的決定，搶得先機。</span></p>
+<p><span style="font-size: 14pt;"><strong><span style="font-family: 微軟正黑體; color: #339966;">BI Mobile 化繁為簡</span></strong></span></p>
+<p><span style="font-family: 微軟正黑體; font-size: 12pt;">雖然由傳統的webi報表轉到BI Mobile是很輕易的一件事，但由於移動裝置的特殊性，過多的資訊並不適合有限的營幕；掌握幾個設計要點，適切的提供資訊，例如</span><br /><br /><span style="font-family: 微軟正黑體; font-size: 12pt;">一、訊息直覺化：簡化重點資訊，彙總及精準的資訊讓管理者能馬上關注的決策重點。</span></p>
+<p><img src="https://static.digiwin.com/tw/dsc/newspaper/BINP/images/NP01.png" border="0" /><span style="font-family: 微軟正黑體; font-size: 12pt;"><img border="0" /></span></p>
+<p><span style="font-family: 微軟正黑體; font-size: 12pt;">圖一：直覺化訊息示意圖</span><br /><span style="font-family: 微軟正黑體; font-size: 12pt;"><br /><br />二、欄位圖像化：過多的欄位資訊，並不利在手持裝置上閱讀，欄位與圖表的穿插輔助，讓使用者更容易了解重點資訊。</span></p>
+<p><span style="font-family: 微軟正黑體; font-size: 12pt;"><img src="https://static.digiwin.com/tw/dsc/newspaper/BINP/images/NP021.png" border="0" width="700" height="487" />&nbsp;</span></p>
+<p><span style="font-family: 微軟正黑體; font-size: 12pt;">圖二：欄位圖像化示意</span><br /><br /></p>
+<p><span style="font-family: 微軟正黑體; font-size: 12pt;">三、整合地理圖像資訊：以使用者體驗為主的設計，提供更人性化的使用方式</span></p>
+<p><img src="https://static.digiwin.com/tw/dsc/newspaper/BINP/images/NP03.png" border="0" /></p>
+<p>&nbsp;</p>
+<p><span style="font-family: 微軟正黑體; font-size: 12pt;">掌握以上幾個設計應用技巧，相信大家也可以在行動裝置上打造屬於自已的行動戰情室。</span></p>
+<p><span style="font-family: 微軟正黑體; font-size: 12pt;">&nbsp;&nbsp;&nbsp;&nbsp;</span></p></p>
+                </td>
+            </tr><tr><td class="cls-underline">&nbsp;</td></tr>
+            <tr class="cls-epaper-block-218179">
+                <td class="cls-bottomspace">
+            <h3 class="sm"><strong><a name="A218179"></a><a href="http://service.digiwin.biz/epaper/detail/218179" target="_blank" style="color: #00a6ba;font-family: Arial,微軟正黑體;font-size: 20px; line-height: 28px;" class="cls-epaper-title-218179" atag_guid="A218179">【BI成功案例分享】普詮電子由商業智慧即時監控毛利與庫存，依產品潛力分配銷售資源，以獲取最大利潤</a></strong></h3>
+                <p><p><a href="http://www.digiwin.com/tw/dsc/newspaper/BINP/BI20160126/index.html"><img src="https://static.digiwin.com/tw/dsc/newspaper/BINP/images/NP04.jpg" border="0" /></a><br /><span style="font-size: 12pt; font-family: 微軟正黑體;">貿易商的進貨價格幾乎隨時都會有變動，</span><br /><span style="font-size: 12pt; font-family: 微軟正黑體;">普詮導入BI後，每半個月系統便會將各產品的毛利報表寄送給負責單位主管，</span><br /><span style="font-size: 12pt; font-family: 微軟正黑體;"><span style="color: #ff0000;">只要是低於5%以下則主動報告檢討，立即調整策略，</span>避免可能的損失。</span></p>
+<p><span style="font-size: 14pt; font-family: 微軟正黑體;"><a href="http://www.digiwin.com/tw/dsc/newspaper/BINP/BI20160126/index.html">點我看普詮電子成功案例全文</a></span></p></p>
+                </td>
+            </tr><tr><td class="cls-underline">&nbsp;</td></tr>
+            <tr class="cls-epaper-block-218740">
+                <td class="cls-bottomspace">
+            <h3 class="sm"><strong><a name="A218740"></a><a href="http://service.digiwin.biz/epaper/detail/218740" target="_blank" style="color: #00a6ba;font-family: Arial,微軟正黑體;font-size: 20px; line-height: 28px;" class="cls-epaper-title-218740" atag_guid="A218740">【BI熱門FAQ】</a></strong></h3>
+                <p><p><strong><a href="http://service.digiwin.biz/epaper/detail/218213"><span style="font-family: '微軟正黑體'; color: #339966; font-size: 18px;">【BI熱門FAQ】日期相減運算範例</span></a> </strong><br /><strong><a href="http://service.digiwin.biz/epaper/detail/218340"><span style="font-family: '微軟正黑體'; color: #339966; font-size: 18px;">【BI熱門FAQ】相對位置</span></a> </strong><br /><strong><a href="http://service.digiwin.biz/epaper/detail/218370"><span style="font-family: '微軟正黑體'; color: #339966; font-size: 18px;">【BI熱門FAQ】除零錯誤</span></a></strong></p></p>
+                </td>
+            </tr><tr><td class="cls-underline">&nbsp;</td></tr>
+            <tr class="cls-epaper-block-218231">
+                <td class="cls-bottomspace">
+            <h3 class="sm"><strong><a name="A218231"></a><a href="http://service.digiwin.biz/epaper/detail/218231" target="_blank" style="color: #00a6ba;font-family: Arial,微軟正黑體;font-size: 20px; line-height: 28px;" class="cls-epaper-title-218231" atag_guid="A218231">【BI 2017 01、02月面授/雲端課程訊息】</a></strong></h3>
+                <p><p><span style="font-size: 12pt; font-family: 微軟正黑體;">報名一律採預約制，上課當天不開放現場報名，學員如需上課，請參考課表，並請務必完成報名程序。為避免影響您及他人的權益，請勿未經報名前往上課教室。</span><br />&nbsp;<a href="http://elearning.dsc.com.tw/ClassCourseList.asp?ProductID=BI">http://elearning.dsc.com.tw/ClassCourseList.asp?ProductID=BI</a></p>
+<table style="font-family: '微軟正黑體'; font-size: 16px;" border="0" width="700" cellspacing="1" cellpadding="5" bgcolor="#666666">
+<tbody>
+<tr>
+<td bgcolor="#666666" width="119" height="35"><span style="color: #fff; font-weight: bold;">代號</span></td>
+<td bgcolor="#666666" width="252" height="35"><span style="color: #fff; font-weight: bold;">課程名稱</span></td>
+<td bgcolor="#666666" width="112" height="35"><span style="color: #fff; font-weight: bold;">開課日期</span></td>
+<td bgcolor="#666666" width="101" height="35"><span style="color: #fff; font-weight: bold;">上課時間</span></td>
+<td bgcolor="#666666" width="64" height="35"><span style="color: #fff; font-weight: bold;">時數</span></td>
+<td bgcolor="#666666" width="63" height="35"><span style="color: #fff; font-weight: bold;">課程</span></td>
+<td bgcolor="#666666" width="95" height="35"><span style="color: #fff; font-weight: bold;">上課地點</span></td>
+</tr>
+<tr>
+<td bgcolor="#FFFFFF" width="119" height="35">170BI1714007</td>
+<td bgcolor="#FFFFFF" width="252" height="35">Web&nbsp;報表設計BI6</td>
+<td bgcolor="#FFFFFF" width="112" height="35">2017/1/5</td>
+<td bgcolor="#FFFFFF" width="101" height="35">09:00～17:00</td>
+<td bgcolor="#FFFFFF" width="64" height="35">6hr</td>
+<td bgcolor="#FFFFFF" width="63" height="35">台中</td>
+<td bgcolor="#FFFFFF" width="95" height="35">T901</td>
+</tr>
+<tr>
+<td bgcolor="#F3F7EE" width="119" height="35">170BI1714008</td>
+<td bgcolor="#F3F7EE" width="252" height="35">語意層設計BI6</td>
+<td bgcolor="#F3F7EE" width="112" height="35">2017/1/10</td>
+<td bgcolor="#F3F7EE" width="101" height="35">09:00～17:00</td>
+<td bgcolor="#F3F7EE" width="64" height="35">6hr</td>
+<td bgcolor="#F3F7EE" width="63" height="35">台中</td>
+<td bgcolor="#F3F7EE" width="95" height="35">T902</td>
+</tr>
+<tr>
+<td bgcolor="#FFFFFF" width="119" height="35">170BI1710001</td>
+<td bgcolor="#FFFFFF" width="252" height="35">Web&nbsp;報表設計BI6【雲端教室】</td>
+<td bgcolor="#FFFFFF" width="112" height="35">2017/1/13</td>
+<td bgcolor="#FFFFFF" width="101" height="35">08:45～17:00</td>
+<td bgcolor="#FFFFFF" width="64" height="35">6hr</td>
+<td bgcolor="#FFFFFF" width="63" height="35">雲端</td>
+<td bgcolor="#FFFFFF" width="95" height="35">雲端教室</td>
+</tr>
+<tr>
+<td bgcolor="#F3F7EE" width="119" height="35">170BI1711005</td>
+<td bgcolor="#F3F7EE" width="252" height="35">Web&nbsp;報表設計BI6</td>
+<td bgcolor="#F3F7EE" width="112" height="35">2017/1/17</td>
+<td bgcolor="#F3F7EE" width="101" height="35">09:00～17:00</td>
+<td bgcolor="#F3F7EE" width="64" height="35">6hr</td>
+<td bgcolor="#F3F7EE" width="63" height="35">台北</td>
+<td bgcolor="#F3F7EE" width="95" height="35">T302</td>
+</tr>
+<tr>
+<td bgcolor="#FFFFFF" width="119" height="35">170BI1710002</td>
+<td bgcolor="#FFFFFF" width="252" height="35">語意層設計BI6【雲端教室】</td>
+<td bgcolor="#FFFFFF" width="112" height="35">2017/1/18</td>
+<td bgcolor="#FFFFFF" width="101" height="35">08:45～17:00</td>
+<td bgcolor="#FFFFFF" width="64" height="35">6hr</td>
+<td bgcolor="#FFFFFF" width="63" height="35">雲端</td>
+<td bgcolor="#FFFFFF" width="95" height="35">雲端教室</td>
+</tr>
+<tr>
+<td bgcolor="#F3F7EE" width="119" height="35">170BI1711006</td>
+<td bgcolor="#F3F7EE" width="252" height="35">語意層設計BI6</td>
+<td bgcolor="#F3F7EE" width="112" height="35">2017/1/23</td>
+<td bgcolor="#F3F7EE" width="101" height="35">09:00～17:00</td>
+<td bgcolor="#F3F7EE" width="64" height="35">6hr</td>
+<td bgcolor="#F3F7EE" width="63" height="35">台北</td>
+<td bgcolor="#F3F7EE" width="95" height="35">T302</td>
+</tr>
+<tr>
+<td bgcolor="#FFFFFF" width="119" height="35">170BI1710004</td>
+<td bgcolor="#FFFFFF" width="252" height="35">超連結設計及合併維度報表運用<br /> 【雲端教室】</td>
+<td bgcolor="#FFFFFF" width="112" height="35">2017/1/23</td>
+<td bgcolor="#FFFFFF" width="101" height="35">13:15～17:00</td>
+<td bgcolor="#FFFFFF" width="64" height="35">3hr</td>
+<td bgcolor="#FFFFFF" width="63" height="35">雲端</td>
+<td bgcolor="#FFFFFF" width="95" height="35">雲端教室</td>
+</tr>
+<tr>
+<td bgcolor="#F3F7EE" width="119" height="35">170BI1710003</td>
+<td bgcolor="#F3F7EE" width="252" height="35">報表函數進階篇【雲端教室】</td>
+<td bgcolor="#F3F7EE" width="112" height="35">2017/1/23</td>
+<td bgcolor="#F3F7EE" width="101" height="35">08:45～12:00</td>
+<td bgcolor="#F3F7EE" width="64" height="35">3hr</td>
+<td bgcolor="#F3F7EE" width="63" height="35">雲端</td>
+<td bgcolor="#F3F7EE" width="95" height="35">雲端教室</td>
+</tr>
+<tr>
+<td bgcolor="#FFFFFF" width="119" height="35">170BI1710063</td>
+<td bgcolor="#FFFFFF" width="252" height="35">Web&nbsp;報表設計BI6【雲端教室】</td>
+<td bgcolor="#FFFFFF" width="112" height="35">2017/2/9</td>
+<td bgcolor="#FFFFFF" width="101" height="35">08:45～17:00</td>
+<td bgcolor="#FFFFFF" width="64" height="35">6hr</td>
+<td bgcolor="#FFFFFF" width="63" height="35">雲端</td>
+<td bgcolor="#FFFFFF" width="95" height="35">雲端教室</td>
+</tr>
+<tr>
+<td bgcolor="#F3F7EE" width="119" height="35">170BI1714067</td>
+<td bgcolor="#F3F7EE" width="252" height="35">Web&nbsp;報表設計BI6</td>
+<td bgcolor="#F3F7EE" width="112" height="35">2017/2/13</td>
+<td bgcolor="#F3F7EE" width="101" height="35">09:00～17:00</td>
+<td bgcolor="#F3F7EE" width="64" height="35">6hr</td>
+<td bgcolor="#F3F7EE" width="63" height="35">台中</td>
+<td bgcolor="#F3F7EE" width="95" height="35">T902</td>
+</tr>
+<tr>
+<td bgcolor="#FFFFFF" width="119" height="35">170BI1711066</td>
+<td bgcolor="#FFFFFF" width="252" height="35">Web&nbsp;報表設計BI6</td>
+<td bgcolor="#FFFFFF" width="112" height="35">2017/2/14</td>
+<td bgcolor="#FFFFFF" width="101" height="35">09:00～17:00</td>
+<td bgcolor="#FFFFFF" width="64" height="35">6hr</td>
+<td bgcolor="#FFFFFF" width="63" height="35">台北</td>
+<td bgcolor="#FFFFFF" width="95" height="35">T302</td>
+</tr>
+<tr>
+<td bgcolor="#F3F7EE" width="119" height="35">170BI1710064</td>
+<td bgcolor="#F3F7EE" width="252" height="35">語意層設計BI6【雲端教室】</td>
+<td bgcolor="#F3F7EE" width="112" height="35">2017/2/16</td>
+<td bgcolor="#F3F7EE" width="101" height="35">08:45～17:00</td>
+<td bgcolor="#F3F7EE" width="64" height="35">6hr</td>
+<td bgcolor="#F3F7EE" width="63" height="35">雲端</td>
+<td bgcolor="#F3F7EE" width="95" height="35">雲端教室</td>
+</tr>
+<tr>
+<td bgcolor="#FFFFFF" width="119" height="35">170BI1714068</td>
+<td bgcolor="#FFFFFF" width="252" height="35">語意層設計BI6</td>
+<td bgcolor="#FFFFFF" width="112" height="35">2017/2/17</td>
+<td bgcolor="#FFFFFF" width="101" height="35">09:00～17:00</td>
+<td bgcolor="#FFFFFF" width="64" height="35">6hr</td>
+<td bgcolor="#FFFFFF" width="63" height="35">台中</td>
+<td bgcolor="#FFFFFF" width="95" height="35">T901</td>
+</tr>
+<tr>
+<td bgcolor="#F3F7EE" width="119" height="35">170BI1711065</td>
+<td bgcolor="#F3F7EE" width="252" height="35">語意層設計BI6</td>
+<td bgcolor="#F3F7EE" width="112" height="35">2017/2/23</td>
+<td bgcolor="#F3F7EE" width="101" height="35">09:00～17:00</td>
+<td bgcolor="#F3F7EE" width="64" height="35">6hr</td>
+<td bgcolor="#F3F7EE" width="63" height="35">台北</td>
+<td bgcolor="#F3F7EE" width="95" height="35">T302</td>
+</tr>
+</tbody>
+</table></p>
+                </td>
+            </tr>         </table>
+         </td>
+      </tr>
+      <tr>
+         <td>&nbsp;</td>
+      </tr>
+<!--
+      <tr>
+         <td>
+         	  <a name="c3"></a>
+            <img width="820" height="58" src="http://service.digiwin.biz/_graphics/epaper/sm03.jpg" />
+         </td>
+      </tr>
+      <tr>
+         <td>
+         <table align="center" width="760" border="0" cellspacing="0" cellpadding="0" id="table_elearning_faq">
+                  </table>
+         </td>
+      </tr>
+      <tr>
+         <td>&nbsp;</td>
+      </tr>
+-->
+      <tr>
+         <td>
+         <table align="center" width="100%" border="0" cellspacing="0" cellpadding="0">
+         <tr align="center">
+            <td><a href="http://service.digiwin.biz" target="_blank"><img src="http://service.digiwin.biz/_graphics/epaper/img19-1.png" width="236" height="65" alt="e-Service" border="0"></a></td>
+            <td><a href="http://elearning.dsc.com.tw/#" target="_blank"><img src="https://static.digiwin.com/tw/dsc/newspaper/BINP/images/img20.jpg" width="236" height="65" alt="e-Learning" border="0"></a></td>
+            <td><a href="http://elearning.dsc.com.tw/DistanceCourse/Default.asp" target="_blank"><img src="https://static.digiwin.com/tw/dsc/newspaper/BINP/images/img21.jpg" width="236" height="65" alt="遠距互動式教學" border="0"></a></td>
+         </tr>
+         </table>
+         </td>
+      </tr>
+      </table>
+      </td>
+   </tr>
+   <!--content-->
+   <tr>
+      <td valign="top">&nbsp;</td>
+   </tr>
+   <tr>
+      <td align="center" valign="middle" bgcolor="#fafafa" class="topline_a">
+     	<table width="850" border="0" cellspacing="10" cellpadding="0">
+      <tr>
+         <td height="130" align="left" valign="middle"><p class="txt12">鼎捷(鼎新電腦股份有限公司、鼎誠資訊股份有限公司、鼎捷軟件股份有限公司及鼎捷軟件越南有限公司)向您蒐集之個人資料(包含個人姓名、公司名稱、職稱、地址、電話及電子郵件地址等得以直接或間接識別個人的相關資訊)，將僅限使用於本公司合於營業登記項目或章程所載及業務需要之客戶管理、行銷及營業範圍內相關服務使用，期限自聯繫起始日至特定目的終止日為止，並遵守「個人資料保護法」之規定妥善保護您的個人資訊。於此前提下，您同意本公司得於法律許可之範圍內處理及利用相關資料以提供資訊或服務，並得於本公司之營運地區向您提供行銷資訊，但您仍得依法律規定之相關個人資訊權利主張如下事項：查詢、閱覽、複製、補充、更正、處理、利用及刪除，請於上班時間以電話或電子郵件向本公司聯繫，電話：0800-009-890；Mail：<a href="mailto:dscmaz@digiwin.com">dscmaz@digiwin.com</a>。您亦可拒絕提供相關之個人資料，惟可能無法及時享有本公司提供之相關活動與獲取各項資訊之權利。若您不願意再收到相關訊息，<a href="http://www.digiwin.com/tw/enewspaper.html">請連結取消訂閱</a></p></td>
+      </tr>
+      </table>
+      </td>
+   </tr>
+   </table>
+   </td>
+   <!--end-->
+</tr>
+<tr>
+   <td>
+   <table width="902" border="0" align="center" cellpadding="0" cellspacing="0">
+   <tr>
+      <td width="16" align="left" valign="middle" class="txt13W"><img src="https://static.digiwin.com/tw/dsc/newspaper/BINP/images/down_T2013-2.jpg" width="16" height="35" /></td>
+      <td align="center" valign="middle" bgcolor="#9f9fa1" class="txt13w">鼎新電腦 版權所有 Copyright &copy; Data Systems Consulting Co., Ltd. All rights reserved.</td>
+      <td width="170" align="right" valign="top"><img src="https://static.digiwin.com/tw/dsc/newspaper/BINP/images/down_T2013-1.jpg" alt="" width="192" height="35" /></td>
+   </tr>
+   </table>
+   </td>
+</tr>
+</table>
+<br />
+
+
+<table width="900" border="0" align="center" cellpadding="0" cellspacing="0">
+<tr>
+   <td align="right">
+ <div><a href="http://service.digiwin.biz/epaper/owner" style="float:right; margin-left:8px; text-decoration: underline;">我的電子報</a></div>  </td>
+</tr>
+</table>
+
+</form>
+
+</body>
+</html>
+

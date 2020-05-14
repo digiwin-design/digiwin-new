@@ -1,0 +1,121 @@
+main .desktop {
+    .slider {
+        input[type=radio] {
+            display: none;
+            @for $nth from 1 through 4 {
+                &:nth-of-type(#{$nth}):checked {
+                    & ~ .slider-nav label:nth-of-type(#{$nth}) {
+                        background-color: #fff;
+                        color: $main-color;
+                    }
+                    & ~ .slider-content .slider-slides {
+                        transform: translateX(-($nth - 1) * 100%);
+                    }
+                }
+            }
+        }
+        &-nav {
+            display: flex;
+            margin-bottom: 2em;
+            justify-content: center;
+            align-items: center;
+            label {
+                @include btn(150px, 50px, #fff, transparent, 25px);
+                border: 1px solid #fff;
+                cursor: pointer;
+                & + label {
+                    margin-left: 30px;
+                }
+            }
+        }
+        &-content {
+            overflow: hidden;
+        }
+        &-slides {
+            display: flex;
+            transition: transform .4s;
+        }
+        &-slide {
+            width: 100%;
+            flex-shrink: 0;
+        }
+        &-desc {
+            margin: 0 auto;
+            max-width: 1083px;
+            text-align: center;
+            &:first-of-type {
+                color: #f6ff6b;
+                p:first-of-type {
+                    font-size: 24px;
+                }
+            }
+            &:last-of-type {
+                color: #fff;
+            }
+        }
+        .hoverBoxs {
+            display: flex;
+            flex-direction: column;
+            flex-direction: row;
+            margin-top: 2em;
+            margin-bottom: 2em;
+            align-items: center;
+            justify-content: center;
+        }
+        .hoverBox {
+            $bgColor: #ff6464, #c28d26, #3579a0, #247e8e, #238abf, #783a85, #305998, #71a526;
+            display: flex;
+            flex-direction: column;
+            padding-right: 30px;
+            padding-left: 30px;
+            max-width: 370px;
+            width: 100%;
+            height: 224px;
+            color: #fff;
+            justify-content: center;
+            & + .hoverBox {
+                margin-left: 45px;
+            }
+            &::before {
+                display: block;
+                margin: 0 auto 1em;
+                width: 150px;
+                height: 120px;
+                background-position: 50%;
+                background-repeat: no-repeat;
+                content: '';
+            }
+            &-title {
+                text-align: center;
+                font-weight: bold;
+                font-size: 24px;
+                line-height: 1;
+            }
+            &-hover {
+                display: flex;
+                padding: 0 30px;
+                color: #fff;
+                text-align: justify;
+                letter-spacing: getLetterSpacing(25);
+                align-items: center;
+            }
+            @for $nth from 1 through 8 {
+                &.hoverBox#{$nth} {
+                    background-color: nth($bgColor, $nth);
+                    &::before {
+                        background-image: image-url('index/hoverBox-icon#{$nth}.svg');
+                    }
+                    .hoverBox-hover {
+                        background-color: rgba(darken(nth($bgColor, $nth), 20%), .95);
+                    }
+                }
+            }
+            &.hoverBox6 .hoverBox-hover {
+                justify-content: space-between;
+                p {
+                    width: 48%;
+                }
+            }
+        }
+    }
+}

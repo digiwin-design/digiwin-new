@@ -1,0 +1,40 @@
+@charset "utf-8";
+/* CSS Document */
+
+<style type="text/css">
+.1 {
+	font-family: "微軟正黑體";
+	font-size: 28px;
+	color: #F60;
+	font-weight: bold;
+}
+.2 {
+	font-family: "微軟正黑體";
+	font-size: 16px;
+	color: #333;
+	line-height: 30px;
+}
+.3 {
+	font-family: "微軟正黑體";
+	font-size: 18px;
+	font-weight: bold;
+	color: #EF2D24;
+}
+.4 {
+	font-family: "微軟正黑體";
+	font-size: 18px;
+	font-weight: bold;
+	color: #333;
+}
+.5 {
+	font-family: "微軟正黑體";
+	font-size: 18px;
+	font-weight: bold;
+	color: #36C;
+}
+.6 {
+	font-family: "微軟正黑體";
+	font-size: 14px;
+	color: #333;
+	line-height: 25px;
+}

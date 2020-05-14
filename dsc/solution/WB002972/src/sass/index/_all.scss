@@ -1,0 +1,20 @@
+main {
+    .btn {
+        &.primary {
+            background-color: #ea3e27;
+        }
+        &.secondary {
+            background-color: #3a9494;
+        }
+    }
+
+    // section bgColor
+    $style: 4 5 6 7;
+    $bgColor: #dec8c8 #ebddc3 #dfe9d4 #cce7ef;
+    @for $i from 4 through 7 {
+        .section#{$i} {
+            $style-index: index($style, $i);
+            background-color: nth($bgColor, $style-index);
+        }
+    }
+}

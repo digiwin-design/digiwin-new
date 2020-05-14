@@ -1,0 +1,12 @@
+extends ../layout.pug
+
+block includes
+    link(rel="preload", href="images/mag201909/header-bg.png", as="image")
+    link(rel="preload", href="images/mag201909/header-m.png", as="image")
+    link(rel="preload", href="images/mag201909/header-s.png", as="image")
+    link(rel="preload", href="images/mag201909/header-title.svg", as="image")
+    link(rel='stylesheet', href='css/mag201909/style.css')
+    script(src='js/mag201909.min.js', defer)
+
+block content
+    include mag201909.html

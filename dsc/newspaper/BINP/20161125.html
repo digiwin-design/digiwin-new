@@ -1,0 +1,784 @@
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=10; IE=9; IE=8;" />
+<link rel="SHORTCUT ICON" href="http://service.digiwin.biz/_graphics/favicon.ico" /><title>電子報編輯</title>
+<style type="text/css">
+body {
+	font-family: "新細明體";
+	font-size: 13px;
+	line-height: 22px;
+	color: #4C4C4C;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: left top;
+	background-color: #f4f3f3;
+}
+td {
+	font-family: "新細明體";
+	font-size: 13px;
+	line-height: 24px;
+	letter-spacing:1px;
+	color: #464646;
+}
+.txt11w {
+	font-family: "新細明體";
+	font-size: 11px;
+	line-height: 15px;
+	color: #ffffff;
+}
+.txt13{
+	font-family: "新細明體";
+	font-size: 13px;
+	line-height: 24px;
+	letter-spacing:1px;
+	color: #464646;
+}
+.txt13w {
+	font-family: "新細明體";
+	font-size: 13px;
+	line-height: 18px;
+	color: #ffffff;
+}
+.txt13a {
+	font-family: "新細明體";
+	font-size: 13px;
+	line-height: 22px;
+	letter-spacing:1px;
+	color: #1382b6;
+}
+.txt13g1 {
+	font-family: "新細明體";
+	font-size: 13px;
+	line-height: 22px;
+	color: #458645;
+}
+.txt13R{
+	font-family: "新細明體";
+	font-size: 13px;
+	line-height: 22px;
+	letter-spacing:1px;
+	color: #e3185c;
+	font-weight: bold;
+}
+.txt13B{
+	font-family: "新細明體";
+	font-size: 13px;
+	line-height: 22px;
+	letter-spacing:1px;
+	color: #0e90c2;
+	font-weight: bold;
+}
+.txt13O{
+	font-family: "新細明體";
+	font-size: 13px;
+	line-height: 22px;
+	letter-spacing:1px;
+	color: #f05b26;
+	font-weight: bold;
+}
+.txt13p{
+	font-family: "新細明體";
+	font-size: 13px;
+	line-height: 22px;
+	letter-spacing:1px;
+	font-weight: bold;
+	color: #93C;
+}
+.txt13Oa{
+	font-family: "新細明體";
+	font-size: 13px;
+	line-height: 22px;
+	letter-spacing:1px;
+	color: #f05b26;
+}
+.txt13G{
+	font-family: "新細明體";
+	font-size: 13px;
+	line-height: 22px;
+	letter-spacing:1px;
+	color: #458645;
+	font-weight: bold;
+}
+.txt12 {
+	font-family: "新細明體";
+	font-size: 12px;
+	line-height: 1.5;
+	letter-spacing:1px;
+	color: #505050;
+}
+.txt15B {
+	font-family: "新細明體";
+	font-size: 15px;
+	line-height: 28px;
+	letter-spacing:1px;
+	font-weight: bold;
+	color: #505050;
+}
+.txt15Bule {
+	font-family: "新細明體";
+	font-size: 15px;
+	line-height: 28px;
+	letter-spacing:1px;
+	font-weight: bold;
+	color: #1A5BBD;
+}
+.txt15o {
+	font-family: "新細明體";
+	font-size: 15px;
+	line-height: 28px;
+	letter-spacing:1px;
+	font-weight: bold;
+	color: #F02C0F;
+}
+.txt15r {
+	font-family: "新細明體";
+	font-size: 15px;
+	line-height: 28px;
+	letter-spacing:1px;
+	font-weight: bold;
+	color: #E91237;
+}
+.txt15g {
+	font-family: "新細明體";
+	font-size: 15px;
+	line-height: 28px;
+	letter-spacing:1px;
+	font-weight: bold;
+	color: #74b64a;
+}
+
+.txt15{
+	font-family: "新細明體";
+	font-size: 15px;
+	line-height: 25px;
+    letter-spacing:1px;
+	color: #464646;
+}
+.txt22 {
+	font-family: "新細明體";
+	font-size: 22px;
+	line-height: 35px;
+	color: #505050;
+	font-weight: bold;
+}
+.txt18 {
+	font-family: Arial, "新細明體";
+	font-size: 18px;
+	line-height: 30px;
+	font-weight: bold;
+	color: #1B75BB;
+}
+.txt18B {
+	font-family: "新細明體";
+	font-size: 18px;
+	line-height: 25px;
+	font-weight: bold;
+	color: #505050;
+}
+.txt18c {
+	font-family: "新細明體";
+	font-size: 18px;
+	line-height: 30px;
+	font-weight: bold;
+	color: #E91237;
+}
+.txt19 {
+	font-family: "新細明體";
+	font-size: 19px;
+	line-height: 25px;
+	font-weight: bold;
+	color: #505050;
+}
+.txt20 {
+	font-family: Arial, "新細明體";
+	font-size: 20px;
+	line-height: 25px;
+	font-weight: bold;
+	color: #505050;
+}
+.txt20a {
+	font-family: "微軟正黑體";
+	font-size: 22px;
+	line-height: 31px;
+	font-weight: bold;
+	color: #db0505;
+}
+.txt20w {
+	font-family: "微軟正黑體";
+	font-size: 22px;
+	line-height: 31px;
+	font-weight: bold;
+	color: #FFFFFF;
+}
+.txt35b {
+	font-family: Arial, "新細明體";
+	font-size: 35px;
+	line-height: 37px;
+	font-weight: normal;
+	color: #1B75BB;
+}
+.txt35o {
+	font-family: Arial, "新細明體";
+	font-size: 35px;
+	line-height: 37px;
+	font-weight: normal;
+	color:#f05a22;
+}
+.txt35r {
+	font-family: Arial, "新細明體";
+	font-size: 35px;
+	line-height: 37px;
+	font-weight: normal;
+	color:#E3185C;
+}
+.txt35g {
+	font-family: Arial, "新細明體";
+	font-size: 35px;
+	line-height: 37px;
+	font-weight: normal;
+	color:#458645;
+}
+.topline {
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	border-top-color: #bebebe;
+}
+.topline_a {
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	border-top-color: #dcdbdb;
+}
+.lineLR {
+	border-left-width: 1px;
+	border-left-style: solid;
+	border-left-color: #dcdbdb;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #dcdbdb;
+}
+.lineLD {
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-bottom-color: #bebebe;
+	border-left-color: #bebebe;
+}
+.lineLDo {
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-bottom-color: #ffcb83;
+	border-left-color: #ffcb83;
+}
+.linedown {
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #bebebe;
+}
+.lineL {
+	border-left-width: 1px;
+	border-left-style: solid;
+	border-left-color: #bebebe;
+}
+.lineLR {
+	border-left-width: 1px;
+	border-left-style: solid;
+	border-left-color: #bebebe;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #bebebe;
+}
+.lineLa {
+	border-left-width: 1px;
+	border-left-style: solid;
+	border-left-color: #f6911d;
+}
+a:link {
+	font-family: "新細明體";
+	font-size: 13px;
+	line-height: 20px;
+	color: #505050;
+	text-decoration: none;
+}
+a:visited {
+	font-family: "新細明體";
+	font-size: 13px;
+	line-height: 20px;
+	color: #505050;
+	text-decoration: none;
+}
+a:hover {
+	font-family: "新細明體";
+	font-size: 13px;
+	line-height: 20px;
+	color: #f05a28;
+	text-decoration: none;
+}
+a:active {
+	font-family: "新細明體";
+	font-size: 13px;
+	line-height: 20px;
+	color: #B6B5B5;
+	text-decoration: none;
+}
+a.b:link {
+	font-family: "新細明體";
+	font-size: 13px;
+	line-height: 20px;
+	color: #505050;
+	text-decoration: underline;
+}
+a.b:visited {
+	font-family: "新細明體";
+	font-size: 13px;
+	line-height: 20px;
+	color: #505050;
+	text-decoration: underline;
+}
+a.b:hover {
+	font-family: "新細明體";
+	font-size: 13px;
+	line-height: 20px;
+	color: #f05a28;
+	text-decoration: underline;
+}
+a.b:active {
+	font-family: "新細明體";
+	font-size: 13px;
+	line-height: 20px;
+	color: #B6B5B5;
+	text-decoration: underline;
+}
+a.c:link {
+	font-family: "新細明體";
+	font-size: 15px;
+	line-height: 21px;
+	color: #f05a22;
+	text-decoration: underline;
+}
+a.c:visited {
+	font-family: "新細明體";
+	font-size: 15px;
+	line-height: 21px;
+	color: #f05a22;
+	text-decoration: underline;
+}
+a.c:hover {
+	font-family: "新細明體";
+	font-size: 15px;
+	line-height: 21px;
+	color: #990000;
+	text-decoration: none;
+}
+a.c:active {
+	font-family: "新細明體";
+	font-size: 15px;
+	line-height: 21px;
+	color: #f05a22;
+	text-decoration: underline;
+}
+a.d:link {
+	font-family: "新細明體";
+	font-size: 13px;
+	line-height: 18px;
+	color: #ffffff;
+	text-decoration: none;
+}
+a.d:visited {
+	font-family: "新細明體";
+	font-size: 13px;
+	line-height: 18px;
+	color: #ffffff;
+	text-decoration: none;
+}
+a.d:hover {
+	font-family: "新細明體";
+	font-size: 13px;
+	line-height: 18px;
+	color: #FF6;
+	text-decoration: underline;
+}
+
+
+
+a.e:link {
+	font-family: "新細明體";
+	font-size: 13px;
+	line-height: 21px;
+	color: #f05a22;
+	text-decoration: underline;
+}
+a.e:visited {
+	font-family: "新細明體";
+	font-size: 13px;
+	line-height: 21px;
+	color: #f05a22;
+	text-decoration: underline;
+}
+a.e:hover {
+	font-family: "新細明體";
+	font-size: 13px;
+	line-height: 21px;
+	color: #990000;
+	text-decoration: none;
+}
+a.e:active {
+	font-family: "新細明體";
+	font-size: 13px;
+	line-height: 21px;
+	color: #f05a22;
+	text-decoration: underline;
+}
+a.f:link {
+	font-family: "新細明體";
+	font-size: 15px;
+	line-height: 25px;
+	color: #464646;
+	text-decoration: none;
+}
+a.f:visited {
+	font-family: "新細明體";
+	font-size: 15px;
+	line-height: 25px;
+	color: #464646;
+	text-decoration: none;
+}
+a.f:hover {
+	font-family: "新細明體";
+	font-size: 15px;
+	line-height: 25px;
+	color: #990000;
+	text-decoration: underline;
+}
+a.f:active {
+	font-family: "新細明體";
+	font-size: 15px;
+	line-height: 25px;
+	color: #464646;
+	text-decoration: none;
+}
+a.g:link {
+	font-family: "新細明體";
+	font-size: 15px;
+	line-height: 26px;
+	color: #464646;
+	text-decoration: underline;
+}
+a.g:hover {
+	font-family: "新細明體";
+	font-size: 15px;
+	line-height: 26px;
+	color: #24a75f;
+	text-decoration: none;
+}
+.txt13sm{
+	font-family: "新細明體";
+	font-size: 13px;
+	line-height: 22px;
+	letter-spacing:1px;
+	color: #00a6ba;
+}
+.txt13smB{
+	font-family: "新細明體";
+	font-size: 13px;
+	line-height: 22px;
+	letter-spacing:1px;
+	color: #00a6ba;
+	font-weight: bold;
+}
+.txt13wf{
+	font-family: "新細明體";
+	font-size: 13px;
+	line-height: 22px;
+	letter-spacing:1px;
+	color: #4b6cb3;
+}
+.txt13wfB{
+	font-family: "新細明體";
+	font-size: 13px;
+	line-height: 22px;
+	letter-spacing:1px;
+	color: #4b6cb3;
+	font-weight: bold;
+}
+.txt13hr{
+	font-family: "新細明體";
+	font-size: 13px;
+	line-height: 22px;
+	letter-spacing:1px;
+	color: #df6d27;
+}
+.txt13hrB{
+	font-family: "新細明體";
+	font-size: 13px;
+	line-height: 22px;
+	letter-spacing:1px;
+	color: #df6d27;
+	font-weight: bold;
+}
+.cm {
+	font-size: 20px;
+	color: #F37020;
+	line-height: 28px;
+	font-family: Arial, "微軟正黑體", "新細明體";
+}
+.sm {
+	font-size: 20px;
+	color: #00a6ba;
+	line-height: 28px;
+	font-family: Arial, "微軟正黑體", "新細明體";
+    margin-bottom: 0px;
+margin-top: 10px;
+}
+.wf {
+	font-size: 20px;
+	color: #4b6cb3;
+	line-height: 28px;
+	font-family: Arial, "微軟正黑體", "新細明體";
+}
+.hr {
+	font-size: 20px;
+	color: #df6d27;
+	line-height: 28px;
+	font-family: Arial, "微軟正黑體", "新細明體";
+}
+
+img {
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+}
+.table{border:1px solid #999 ;border-collapse:collapse; margin-bottom:30px}
+.table td{border:1px; border-style:solid; border-color:#999 }
+
+.cls-underline {
+  border-bottom: 1px solid #dcdbdb;
+  padding-bottom: 10px;
+	line-height: 1px;
+}
+.cls-bottomspace {
+    padding-bottom: 6px;
+}
+
+.cls-bottomspace p {
+    margin-top: 0px;
+}
+</style> 
+</head>
+
+<body>
+<table width="900" border="0" align="center" cellpadding="0" cellspacing="0">
+<tr>
+   <td align="right"><a name="top"></a>※ 
+<a href="http://service.digiwin.biz/epaper/view/197161" target="_blank">若無法正常瀏覽，請點此連結 </a>  	※ </td>
+</tr>
+</table>
+<table width="900" border="0" align="center" cellpadding="0" cellspacing="0">
+<tr>
+   <td>
+   <table width="900" border="0" align="center" cellpadding="0" cellspacing="0">
+   <tr>
+      <td width="164" height="70" rowspan="2" valign="bottom" bgcolor="#F5F3F4"><a href="http://tw.digiwin.biz/" target="_blank"><img src="https://static.digiwin.com/tw/dsc/newspaper/BINP/images/dsc_out2013-1.jpg" width="163" height="55" border="0" /></a><a href="http://service.digiwin.biz" target="_blank"></a></td>
+      <td height="32" colspan="3" align="right" valign="bottom" bgcolor="#F5F3F4"><span class="txt13">｜<a href="http://www.dsc.com.tw/wb001838/index.html" target="_blank">行業解決方案網站</a>｜　</span><a href="http://www.facebook.com/DSCmain" target="_blank"><img src="http://www.dsc.com.tw/event/WB001837/images/fb-1.jpg" width="135" height="24" border="0" align="absmiddle" /></a></td>
+   </tr>
+   <tr>
+      <td width="329" height="38" valign="bottom" bgcolor="#FFFFFF"><img src="https://static.digiwin.com/tw/dsc/newspaper/BINP/images/dsc_out2013-2.jpg" width="329" height="40" /></td>
+      <td width="408" height="38" colspan="2" valign="bottom" bgcolor="#FFFFFF"><img src="https://static.digiwin.com/tw/dsc/newspaper/BINP/images/dsc_out2013-3.jpg" width="408" height="40" /></td>
+   </tr>
+   </table>
+   </td>
+</tr>
+<tr>
+   <td bgcolor="#FFFFFF" class="lineLR">
+   <table width="900" border="0" cellspacing="0" cellpadding="0">
+   <!--start-->
+   <tr>
+   	  <!--content-->
+      <td>
+      <table width="820" align="center" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+         <td>
+         <table align="center" border="0" cellspacing="0" cellpadding="0">
+         <tr>
+            <td class="txt15B">
+【2016.11 BI電子報】 如何透過商業智慧貫通產銷資訊、提升效率           </td>
+         </tr>
+         <tr>
+            <td>
+            <table border="0" cellspacing="0" cellpadding="0">
+            <tr>
+               <td align="center" rowspan="2"><a href="http://service.digiwin.biz" target="_blank"><img src="http://service.digiwin.biz/_graphics/epaper/img1-1.jpg" width="389" alt="e-Sercice" border="0"></a></td>
+               <td width="9" rowspan="2">&nbsp;</td>
+               <td rowspan="2"><img src="https://static.digiwin.com/tw/dsc/newspaper/BINP/images/img2.jpg" width="41" height="154" alt="本期目錄"></td>
+               <td valign="top">
+               <table border="0" cellspacing="0" cellpadding="0">
+               <tr>
+                  <td><img src="https://static.digiwin.com/tw/dsc/newspaper/BINP/images/img3.jpg" width="370" height="16"></td>
+               </tr>
+               <tr>
+                  <td>
+                     <ul id="ul_currentissue">
+<li class="cls-epaper-currentissue" currentissue_guid="191849"><a href="#A191849">【BI成功案例分享】全通科技  商業智慧貫通產銷資訊、提升企業效率與彈性</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li>                                          <li class="cls-epaper-currentissue" currentissue_guid="200829"><a href="#A200829">【BI技術應用分享】BI Workspace應用 -- 打造資訊互動的績效平台，提升營運效能</a>&nbsp;</li><li class="cls-epaper-currentissue" currentissue_guid="200779"><a href="#A200779">【BI熱門FAQ】BI 11月份FAQ</a>&nbsp;</li><li class="cls-epaper-currentissue" currentissue_guid="197271"><a href="#A197271">【BI 11月研討會花絮】「看著分析,走著管理」-雲端行動時代的決策支持 11月研討會圓滿落幕</a>&nbsp;</li><li class="cls-epaper-currentissue" currentissue_guid="197289"><a href="#A197289">【BI 11、12月份面授/雲端課程訊息】</a>&nbsp;</li>                     </ul>
+                  </td>
+               </tr>
+               </table>
+               </td>
+            </tr>
+            </table>
+            </td>
+         </tr>
+         </table>
+         </td>
+      </tr>
+      <tr>
+      	 <td>&nbsp;</td>
+      </tr>
+      <tr>
+      	 <td>
+      	 	  <a name="c1"></a>
+            <img width="820" height="58" src="http://service.digiwin.biz/_graphics/epaper/sm01.jpg" />
+      	 </td>
+      </tr>
+      <tr>
+         <td>
+         <table align="center" width="760" border="0" cellspacing="0" cellpadding="0" id="table_article_focus">
+         
+            <tr class="cls-epaper-block-191849">
+                <td class="cls-bottomspace">
+            <h3 class="sm"><strong><a name="A191849"></a><a href="http://service.digiwin.biz/epaper/detail/191849" target="_blank" style="color: #00a6ba;font-family: Arial,微軟正黑體;font-size: 20px; line-height: 28px;" class="cls-epaper-title-191849" atag_guid="A191849">【BI成功案例分享】全通科技  商業智慧貫通產銷資訊、提升企業效率與彈性</a></strong></h3>
+                <p><p class="MsoNormal" style="margin: 0pt;"><span style="font-family: 微軟正黑體; font-size: 12pt; mso-spacerun: 'yes'; mso-font-kerning: 1.0000pt;"><span style="color: #000000;">全通設立異常檢核點，以</span></span><span style="color: #ffc000; font-family: 微軟正黑體; font-size: 12pt; mso-spacerun: 'yes'; mso-font-kerning: 1.0000pt;">內控預警協助改善流程</span><span style="color: #000000;"><span style="font-family: 微軟正黑體; font-size: 12pt; mso-spacerun: 'yes'; mso-font-kerning: 1.0000pt;">，自動偵測回報缺 &nbsp;</span><span style="font-family: 微軟正黑體; font-size: 12pt; mso-spacerun: 'yes'; mso-font-kerning: 1.0000pt;"></span></span></p>
+<p class="MsoNormal" style="margin: 0pt;"><span style="color: #000000;"><span style="font-family: 微軟正黑體; font-size: 12pt; mso-spacerun: 'yes'; mso-font-kerning: 1.0000pt;">失，同時減少溝通成本的浪費。經強制維護訂單預交日、主動通報 &nbsp;</span><span style="font-family: 微軟正黑體; font-size: 12pt; mso-spacerun: 'yes'; mso-font-kerning: 1.0000pt;"></span></span></p>
+<p class="MsoNormal" style="margin: 0pt;"><span style="font-family: 微軟正黑體; font-size: 12pt; mso-spacerun: 'yes'; mso-font-kerning: 1.0000pt;"><span style="color: #000000;">逾期未交貨訂單後，已有效</span></span><span style="color: #ffc000; font-family: 微軟正黑體; font-size: 12pt; mso-spacerun: 'yes'; mso-font-kerning: 1.0000pt;">減少50%逾期交貨案件</span><span style="font-family: 微軟正黑體; font-size: 14pt; mso-spacerun: 'yes'; mso-font-kerning: 1.0000pt;"></span></p>
+<p class="MsoNormal" style="margin: 0pt;">&nbsp;</p>
+<!--EndFragment-->
+<p class="MsoNormal" style="margin: 0pt;"><span><a href="http://www.digiwin.com/tw/dsc/newspaper/BINP/BI20161111/index.html"><span class="15" style="color: #235ab6; font-family: 微軟正黑體; font-size: 12pt; mso-spacerun: 'yes';">點我看全通科技成功案例全文</span></a></span><span style="font-family: 微軟正黑體; font-size: 12pt; mso-spacerun: 'yes'; mso-font-kerning: 1.0000pt;"></span></p>
+<!--EndFragment--></p>
+                </td>
+            </tr><tr><td class="cls-underline">&nbsp;</td></tr>
+            <tr class="cls-epaper-block-200829">
+                <td class="cls-bottomspace">
+            <h3 class="sm"><strong><a name="A200829"></a><a href="http://service.digiwin.biz/epaper/detail/200829" target="_blank" style="color: #00a6ba;font-family: Arial,微軟正黑體;font-size: 20px; line-height: 28px;" class="cls-epaper-title-200829" atag_guid="A200829">【BI技術應用分享】BI Workspace應用 -- 打造資訊互動的績效平台，提升營運效能</a></strong></h3>
+                <p><p><span style="font-family: 微軟正黑體; font-size: 14pt;">什麼是Workspace??該怎麼用它??</span></p>
+<p><span style="font-family: 微軟正黑體; font-size: 14pt;"><span style="font-family: 微軟正黑體; font-size: 12pt;">Workspace工作區以積木式的概念，自由組合個人/企業之儀表板，便可快速產出互動式儀表板，將原本分散在各文件夾內的報表，快速集中於同一個畫面。讓各種維度的圖表與數字連動顯示，更能聚焦議題，展現戰情中心運籌帷幄的高度。</span></span></p>
+<p class="p" style="margin: 1em 0px 9pt; mso-pagination: widow-orphan; mso-margin-top-alt: auto;"><span><a href="http://service.digiwin.biz/epaper/detail/197120" target="_blank" title="workspace"><span class="15" style="color: #235ab6; font-family: 微軟正黑體; font-size: 12pt; mso-spacerun: 'yes';">點我</span><span class="15" style="color: #235ab6; font-family: 微軟正黑體; font-size: 12pt; mso-spacerun: 'yes';">看</span><span class="15" style="color: #235ab6; font-family: 微軟正黑體; font-size: 12pt; mso-spacerun: 'yes';">BI W</span><span class="15" style="color: #235ab6; font-family: 微軟正黑體; font-size: 12pt; mso-spacerun: 'yes';">orkspace</span><span class="15" style="color: #235ab6; font-family: 微軟正黑體; font-size: 12pt; mso-spacerun: 'yes';">應用--打造資訊互動的績效平台，提升營運效能</span><span class="15" style="color: #235ab6; font-family: 微軟正黑體; font-size: 12pt; mso-spacerun: 'yes';">全</span><span class="15" style="color: #235ab6; font-family: 微軟正黑體; font-size: 12pt; mso-spacerun: 'yes';">文</span></a></span><span style="font-family: 微軟正黑體; font-size: 12pt; mso-spacerun: 'yes'; mso-font-kerning: 1.0000pt;"></span></p>
+<p><span style="font-family: 微軟正黑體; font-size: 12pt;"></span>&nbsp;</p></p>
+                </td>
+            </tr><tr><td class="cls-underline">&nbsp;</td></tr>
+            <tr class="cls-epaper-block-200779">
+                <td class="cls-bottomspace">
+            <h3 class="sm"><strong><a name="A200779"></a><a href="http://service.digiwin.biz/epaper/detail/200779" target="_blank" style="color: #00a6ba;font-family: Arial,微軟正黑體;font-size: 20px; line-height: 28px;" class="cls-epaper-title-200779" atag_guid="A200779">【BI熱門FAQ】BI 11月份FAQ</a></strong></h3>
+                <p><p><span style="font-family: 微軟正黑體; font-size: 14pt;">你也常遇到以下問題嗎??教你如何正確使用這些功能...&nbsp;</span></p>
+<p class="MsoNormal" style="margin: 0pt; text-align: left; mso-pagination: widow-orphan;"><span><a href="http://service.digiwin.biz/epaper/detail/197221" target="_blank"><span class="15" style="color: #235ab6; font-family: 微軟正黑體; font-size: 12pt; mso-spacerun: 'yes'; mso-font-kerning: 1.0000pt;">點我看如何正確使用合併維度全文</span></a></span><span style="font-family: Calibri; font-size: 10.5pt; mso-bidi-font-family: 'Times New Roman'; mso-spacerun: 'yes'; mso-font-kerning: 1.0000pt; mso-fareast-font-family: 新細明體;"></span></p>
+<p class="MsoNormal" style="margin: 0pt; text-align: left; mso-pagination: widow-orphan;"><span><a href="http://service.digiwin.biz/epaper/detail/197248" target="_blank"><span class="15" style="color: #235ab6; font-family: 微軟正黑體; font-size: 12pt; mso-spacerun: 'yes'; mso-font-kerning: 1.0000pt;">點我看Webi報表的排序功能全文</span></a></span><span style="font-family: Calibri; font-size: 10.5pt; mso-bidi-font-family: 'Times New Roman'; mso-spacerun: 'yes'; mso-font-kerning: 1.0000pt; mso-fareast-font-family: 新細明體;"></span></p>
+<p class="MsoNormal" style="margin: 0pt;"><span><a href="http://service.digiwin.biz/epaper/detail/197259"><span class="15" style="color: #235ab6; font-family: 微軟正黑體; font-size: 12pt; mso-spacerun: 'yes'; mso-font-kerning: 1.0000pt;">點我看</span><span class="15" style="color: #235ab6; font-family: 微軟正黑體; font-size: 12pt; mso-spacerun: 'yes'; mso-font-kerning: 0.0000pt;">簡易函數教學--substr</span><span class="15" style="color: #235ab6; font-family: 微軟正黑體; font-size: 12pt; mso-spacerun: 'yes'; mso-font-kerning: 1.0000pt;">全文</span></a></span><span style="color: #235ab6; font-family: 微軟正黑體; font-size: 12pt; mso-spacerun: 'yes'; mso-font-kerning: 0.0000pt;">&nbsp;</span></p></p>
+                </td>
+            </tr><tr><td class="cls-underline">&nbsp;</td></tr>
+            <tr class="cls-epaper-block-197271">
+                <td class="cls-bottomspace">
+            <h3 class="sm"><strong><a name="A197271"></a><a href="http://service.digiwin.biz/epaper/detail/197271" target="_blank" style="color: #00a6ba;font-family: Arial,微軟正黑體;font-size: 20px; line-height: 28px;" class="cls-epaper-title-197271" atag_guid="A197271">【BI 11月研討會花絮】「看著分析,走著管理」-雲端行動時代的決策支持 11月研討會圓滿落幕</a></strong></h3>
+                <p><p><span style="font-family: 微軟正黑體; font-size: 12pt;">「看著分析，走著管理」老客交流活動報名熱烈，除台南場外，皆有超過130%以上的報名達成率，活動報到率近100%，台北場即使巧遇颱風前夕，電腦教室仍擠至爆滿，甚至必須三人共用一台電腦。因客戶迴響之熱烈，11月又再台北加碼一場。</span></p>
+<p class="p" style="margin: 1em 0px 9pt; mso-pagination: widow-orphan; mso-margin-top-alt: auto;"><span><a href="http://www.dsc.com.tw/SNS/BI2016event/report.html"><span class="15" style="color: #235ab6; font-family: 微軟正黑體; font-size: 12pt; mso-spacerun: 'yes';">點我看「看著分析、走著管理研討會」活動花絮全文</span></a></span><span style="font-family: 微軟正黑體; font-size: 12pt; mso-spacerun: 'yes'; mso-font-kerning: 1.0000pt;"></span></p>
+<p><span style="font-family: 微軟正黑體; font-size: 12pt;"><!--EndFragment--></span></p>
+<p><span style="font-family: 微軟正黑體; font-size: 12pt;"></span>&nbsp;</p></p>
+                </td>
+            </tr><tr><td class="cls-underline">&nbsp;</td></tr>
+            <tr class="cls-epaper-block-197289">
+                <td class="cls-bottomspace">
+            <h3 class="sm"><strong><a name="A197289"></a><a href="http://service.digiwin.biz/epaper/detail/197289" target="_blank" style="color: #00a6ba;font-family: Arial,微軟正黑體;font-size: 20px; line-height: 28px;" class="cls-epaper-title-197289" atag_guid="A197289">【BI 11、12月份面授/雲端課程訊息】</a></strong></h3>
+                <p><p><span style="font-family: 微軟正黑體; font-size: 12pt;">報名一律採預約制，上課當天不開放現場報名，學員如需上課，請參考課表，並請務必完成報名程序。為避免影響您及他人的權益，請勿未經報名前往上課教室。</span></p>
+<p><span><a href="http://elearning.dsc.com.tw/ClassCourseList.asp?ProductID=BI">http://elearning.dsc.com.tw/ClassCourseList.asp?ProductID=BI</a><a href="http://elearning.dsc.com.tw/ClassCourseList.asp?ProductID=BI"></a></span></p>
+<p><span><img src="http://service.digiwin.biz/mod/file/thumbnail.php?file_guid=197292&amp;size=master&amp;icontime=1479809316" border="0" /></span></p>
+<p><span style="font-family: 微軟正黑體; font-size: 12pt;">◎如果您對本郵件所提供的相關內容有興趣，歡迎來信&nbsp;bi@digiwin.biz</span></p></p>
+                </td>
+            </tr>         </table>
+         </td>
+      </tr>
+      <tr>
+         <td>&nbsp;</td>
+      </tr>
+<!--
+      <tr>
+         <td>
+         	  <a name="c3"></a>
+            <img width="820" height="58" src="http://service.digiwin.biz/_graphics/epaper/sm03.jpg" />
+         </td>
+      </tr>
+      <tr>
+         <td>
+         <table align="center" width="760" border="0" cellspacing="0" cellpadding="0" id="table_elearning_faq">
+                  </table>
+         </td>
+      </tr>
+      <tr>
+         <td>&nbsp;</td>
+      </tr>
+-->
+      <tr>
+         <td>
+         <table align="center" width="100%" border="0" cellspacing="0" cellpadding="0">
+         <tr align="center">
+            <td><a href="http://service.digiwin.biz" target="_blank"><img src="http://service.digiwin.biz/_graphics/epaper/img19-1.png" width="236" height="65" alt="e-Service" border="0"></a></td>
+            <td><a href="http://elearning.dsc.com.tw/#" target="_blank"><img src="https://static.digiwin.com/tw/dsc/newspaper/BINP/images/img20.jpg" width="236" height="65" alt="e-Learning" border="0"></a></td>
+            <td><a href="http://elearning.dsc.com.tw/DistanceCourse/Default.asp" target="_blank"><img src="https://static.digiwin.com/tw/dsc/newspaper/BINP/images/img21.jpg" width="236" height="65" alt="遠距互動式教學" border="0"></a></td>
+         </tr>
+         </table>
+         </td>
+      </tr>
+      </table>
+      </td>
+   </tr>
+   <!--content-->
+   <tr>
+      <td valign="top">&nbsp;</td>
+   </tr>
+   <tr>
+      <td align="center" valign="middle" bgcolor="#fafafa" class="topline_a">
+     	<table width="850" border="0" cellspacing="10" cellpadding="0">
+      <tr>
+         <td height="130" align="left" valign="middle"><p class="txt12">鼎捷(鼎新電腦股份有限公司、鼎誠資訊股份有限公司、鼎捷軟件股份有限公司及鼎捷軟件越南有限公司)向您蒐集之個人資料(包含個人姓名、公司名稱、職稱、地址、電話及電子郵件地址等得以直接或間接識別個人的相關資訊)，將僅限使用於本公司合於營業登記項目或章程所載及業務需要之客戶管理、行銷及營業範圍內相關服務使用，期限自聯繫起始日至特定目的終止日為止，並遵守「個人資料保護法」之規定妥善保護您的個人資訊。於此前提下，您同意本公司得於法律許可之範圍內處理及利用相關資料以提供資訊或服務，並得於本公司之營運地區向您提供行銷資訊，但您仍得依法律規定之相關個人資訊權利主張如下事項：查詢、閱覽、複製、補充、更正、處理、利用及刪除，請於上班時間以電話或電子郵件向本公司聯繫，電話：0800-009-890；Mail：<a href="mailto:dscmaz@digiwin.com">dscmaz@digiwin.com</a>。您亦可拒絕提供相關之個人資料，惟可能無法及時享有本公司提供之相關活動與獲取各項資訊之權利。若您不願意再收到相關訊息，<a href="http://www.digiwin.com/tw/enewspaper.html">請連結取消訂閱</a></p></td>
+      </tr>
+      </table>
+      </td>
+   </tr>
+   </table>
+   </td>
+   <!--end-->
+</tr>
+<tr>
+   <td>
+   <table width="902" border="0" align="center" cellpadding="0" cellspacing="0">
+   <tr>
+      <td width="16" align="left" valign="middle" class="txt13W"><img src="https://static.digiwin.com/tw/dsc/newspaper/BINP/images/down_T2013-2.jpg" width="16" height="35" /></td>
+      <td align="center" valign="middle" bgcolor="#9f9fa1" class="txt13w">鼎新電腦 版權所有 Copyright &copy; Data Systems Consulting Co., Ltd. All rights reserved.</td>
+      <td width="170" align="right" valign="top"><img src="https://static.digiwin.com/tw/dsc/newspaper/BINP/images/down_T2013-1.jpg" alt="" width="192" height="35" /></td>
+   </tr>
+   </table>
+   </td>
+</tr>
+</table>
+<br />
+
+
+<table width="900" border="0" align="center" cellpadding="0" cellspacing="0">
+<tr>
+   <td align="right">
+ <div><a href="http://service.digiwin.biz/epaper/owner" style="float:right; margin-left:8px; text-decoration: underline;">我的電子報</a></div>  </td>
+</tr>
+</table>
+
+</form>
+
+</body>
+</html>
+

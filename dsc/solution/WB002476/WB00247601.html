@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="/tw/static/css/public.css">
+    <link rel="stylesheet" href="/tw/static/css/style.css">
+    <script src="/tw/static/js/jquery-1.11.3.min.js"></script>
+    <script src="https://polyfill.io/v3/polyfill.js?features=default,fetch,HTMLPictureElement,Array.prototype.find,NodeList.prototype.forEach&amp;flags=gated"></script>
+    <script src="/tw/dsc/assets/modernizr-custom.js"></script>
+    <script src="/tw/dsc/assets/mobile-detect.js"></script>
+    <script src="/tw/dsc/assets/mobile-detect-modernizr.js" defer></script>
+    <script src="/tw/dsc/assets/smoothscroll.js" defer></script>
+    <script src="/tw/dsc/assets/axios.min.js"></script>
+    <script src="/tw/dsc/assets/vuejs/vue-all-dev.js"></script>
+    <script src="/tw/dsc/js/common.min.js"></script>
+  </head>
+  <body>
+    <!-- 以下為後台上稿內容-->
+    <link rel="stylesheet" href="/tw/dsc/css/Eform/xcConfirm.css">
+    <script src="/tw/dsc/js/Eform/xcConfirm.js" defer></script>
+    <link rel="stylesheet" href="../../assets/submenu/submenu.css">
+    <script src="../../assets/submenu/submenu.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/tw/dsc/css/reboot.css">
+    <script src="assets/color-converter.js" defer></script>
+    <script src="assets/jquery.actual.min.js" defer></script>
+    <script src="js/all.min.js" defer></script>
+    <script src="https://www.digiwin.com/tw/dsc/solution/WB002476/js/jquery-ui.min.js" defer></script>
+    <link rel="stylesheet" href="/tw/dsc/shadowbox/shadowbox.css">
+    <script src="/tw/dsc/shadowbox/shadowbox.js" defer></script>
+    <link rel="stylesheet" href="css/WB00247601/style.css">
+    <script src="js/WB00247601.min.js" defer></script>
+    <main v-cloak v-if="result"><div id="banner">
+    <div id="bannerCon" class="clearfix">
+        <div class="banner_01">
+            <h2>
+                <a href="/tw/dsc/solution/WB002476/WB00247601_3"> <img src="images/banner1.png" /></a>
+            </h2>
+            <div class="btns">
+                <a href v-on:click.prevent="scrollTo('#contact')">立即諮詢</a>
+                <a href="https://www.digiwin.com/tw/zlsq.html?id=1236" target="_blank">下載解決方案</a>
+            </div>
+        </div>
+        <!-- <div class="banner_02">
+            <h2>
+                <a href="/tw/dsc/solution/WB002476/WB00247601_5"> <img src="images/banner2.png" /></a>
+            </h2>
+        </div> -->
+    </div>
+    <div id="bannerOrder">
+        <ul>
+            <li class="now">
+                <img src="images/buttonS_01.jpg" alt="" />
+                <div class="bannerDes">
+                    <img src="images/button_01.jpg" alt="東毓油壓機械如何做到盡善盡美" />
+                    <p>
+                        <span class="bannerTitle">東毓油壓機械如何做到盡善盡美</span><br />
+                        魔鬼就在細節中~90%的訂單客製化！
+                    </p>
+                </div>
+            </li>
+            <!-- <li>
+                <img src="images/buttonS_02.jpg" alt="ECN頻繁" />
+                <div class="bannerDes">
+                    <img src="images/button_02.jpg" alt="" />
+                    <p>
+                        <span class="bannerTitle">ECN頻繁</span><br />
+                        造成設計與現場常吵架採購也常出狀況
+                    </p>
+                </div>
+            </li> -->
+        </ul>
+    </div>
+    <!-- bannerCon end -->
+</div>
+<!-- banner end -->
+<!-- 聚焦智慧开始 -->
+<div class="section1">
+    <div class="sectioncont">
+        <h2>經濟部落實台商回流衝智慧製造</h2>
+        <p><span>2019/11/24 中時電子報</span>經濟部投資業務處參事章遠智11/13在台商權益座談會上指出，受到中美貿易戰影響，台商今年返台投資金額大增，申請回流金額將突破7000億，預估到年底可以落實1900億；經濟部要求申請台商必須要有智慧化元素在內，不管是製造業或服務業，特別是「智慧製造」和「工業4.0」，經濟部都會詳細審閱及派人到現場了解，就是希望把台灣定位為高階產品製造中心，把台灣打造成為智慧製造的基地，重新建立台灣完整的產業供鏈鏈。</p>
+        <a href="https://www.chinatimes.com/newspapers/20191124000174-260301?chdtv" target="_blank"> <img src="images/index01.png" height="269" width="998" alt="" /></a>
+    </div>
+</div>
+<!-- 聚焦智慧结束 -->
+<!-- 业界对工具机械业发展之期许开始 -->
+<div class="section2">
+    <div class="sectioncont ">
+        <h2>業界對工具機產業發展之期許：發展中高階工具機 著眼客製化</h2>
+        <div class="section2Div clearfix">
+            <p><span>中時電子報</span>發展中高階工具機的客製化應用，應可以台灣內需的作為練兵的市場，例如：航太領域。以台中精機為例，公司投入多年研發與台灣航太發動機供應鏈合作，並且成立「顧客創值應用中心」，不斷以客戶需求為導向，強化應用技術的研發，現已打入漢翔、長亨等業者供應鏈之高階零件。</p>
+            <img src="images/index02.png" alt="" />
+        </div>
+        <a class="moreCase" href="/tw/dsc/solution/WB002476/WB00247601_2">影響與因應</a>
+    </div>
+</div>
+<!-- 业界对工具机械业发展之期许结束 -->
+<!-- 研讨会开始 -->
+<div id="seminar">
+    <div id="banner_bg2">
+        <h2>
+            研討會資訊
+        </h2>
+        <div class="txtbox">
+            <div class="txtbox_L">
+                <img src="http://www.digiwin.com/tw/dsc/solution/WB002476/images/seminar/activePic7.png" width="320" height="200" />
+            </div>
+            <div class="txtbox_R">
+                <h3>
+                    從市場參賽者到規則制定者，重塑產業競爭邊界－東野精機案例分享
+                </h3>
+                <p>
+                    成立超過二十年的東野精機，於「鋁擠型」產業中深耕技術與服務，逐漸累積業界知名度。
+                    面臨近年市場的激烈競爭，如何不落於紅海成為東野下一步策略佈局的重要關鍵，
+                    以優化產品與重整形象著手，東野精機展現蛻變決心，更結合從設計、加工、組裝到技術的 「一條龍」服務機制，從鋁擠加工商轉向OEM、ODM生產的專案設備解決方案，再創公司 營收新高！
+                    本次研討會邀請東野精機擁有從加工至專案設備的各類訂單，如何有效生產並達成與客戶的承諾「如期、如
+                    質」成為重要課題。透過資訊化建立創新「減法」管理，運用數據串聯做到有效監控，並打
+                    造出與傳產廠房有明顯差異的精緻生產模式，由內而外讓客戶見證東野獨到的生產樣貌。東
+                    野精機有了高效運營支持，未來便能挑戰更高營收動能，持續締造產業佳話
+                </p>
+                <div id="button_R">
+                    <div class="btnR">
+                        <a href="http://www.digiwin.com/tw/dsc/activity/WB002901/WB00290101.htm" target="_blank">了解更多</a>
+                    </div>
+                    <div class="btnR">
+                        <a href="http://www.digiwin.com/tw/dsc/solution/WB002476/WB00247601_4" target="_blank">看更多研討會資訊</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--txtbox end-->
+    </div>
+</div>
+<!-- 研讨会结束 -->
+<!-- 客户证言 开始 -->
+<div class="section4">
+    <div class="sectioncont">
+        <h2 id="words">客戶證言</h2>
+        <!-- wordTxt start -->
+        <div id="wordTxt">
+            <div id="wordAll" class="clearAll">
+                <div id="word1" class="wordTxt">
+                    <p>
+                        游董事長：「考慮業界口碑，我們只選擇最有名的品牌及持續成長的系統商！」<br />
+                        <span class="name bgColorNo"><a href="https://www.digiwin.com/tw/case/1507.html">─ 生產空氣壓自動化零組件&emsp;台灣氣立股份有限公司</a></span>
+                    </p>
+                    <p class="bgColorNo">
+                        林協理說：「別輕忽客戶維修履歷的重要性。」<br />
+                        <span class="name"><a href="https://www.digiwin.com/tw/case/1503.html">─ 工具母機&emsp;台灣瀧澤</a></span>
+                    </p>
+                    <p>
+                        林敏正執行長：「對鳳記來說，最重要的就是備料與報價。」<br />
+                        <span class="name bgColorNo"><a href="https://www.digiwin.com/tw/case/1509.html">─ 塑膠押出機設備製造商&emsp;鳳記國際機械</a></span>
+                    </p>
+                </div>
+                <!-- word1 -->
+                <div id="word2" class="wordTxt">
+                    <p class="bgColorNo">
+                        「高層說要讓製造工程師打單?? 這怎麼可能?? 」<br />
+                        <span class="name"><a href="https://www.digiwin.com/tw/case/1079.html">─ 半導體零組件加工生產&emsp;翔名科技</a></span>
+                    </p>
+                    <p>
+                        吳特助：「以前當榮富的主管或使用者提出需求時，總以為系統無法做到，只能認命的將ERP報表轉到Excel做加工。」<br />
+                        <span class="name"><a href="https://www.digiwin.com/tw/case/699.html">─ 鑽銑複合機和鋸床&emsp;榮富工業</a></span>
+                    </p>
+                    <p class="bgColorNo">
+                        紀總經理：「對品牌而言，維修服務部門是公司很重要的單位，我們希望維修師出任務時可自行解決大部份問題，無須再透過電話查詢庫存、確認需求，既無時效也耗費成本。<br />
+                        <span class="name"><a href="https://www.digiwin.com/tw/case/1089.html">─ 品牌銷售與售後維修子公司&emsp;奇美集團</a></span>
+                    </p>
+                </div>
+                <!-- word2 -->
+            </div>
+            <!-- wordAll -->
+            <div id="change" class="clearAll">
+                <ul id="page">
+                    <li class="pageNow">1</li>
+                    <li>2</li>
+                </ul>
+            </div>
+        </div>
+        <!-- wordTxt end -->
+    </div>
+</div>
+<!-- 客户证言结束 -->
+<!-- 影视视频开始 -->
+<div id="video">
+    <!-- <div class="sectioncont "> -->
+    <h2>影音視頻</h2>
+    <!-- videoTxt start -->
+    <div id="videoTxt">
+        <ul class="clearAll">
+            <li>
+                <a href="https://www.youtube.com/watch?v=48zNG2xA6jQ" target="_blank"> <img src="images/video1.jpg" width="305" height="195" /></a>
+                <p><span style="color:#00a2a5;">▲</span>機械交通圓夢計畫</p>
+            </li>
+            <li>
+                <a href="https://www.youtube.com/watch?v=qKmnB3UfArY" target="_blank"> <img src="images/video2.jpg" width="305" height="195" /></a>
+                <p><span style="color:#00a2a5;">▲</span>交期總是石沉大海？</p>
+            </li>
+            <li style="margin-right:0;">
+                <a href="https://www.youtube.com/watch?v=1qyxdQfzXtU" target="_blank"> <img src="images/video3.jpg" width="305" height="195" /></a>
+                <p><span style="color:#00a2a5;">▲</span>缺料生產就停擺？</p>
+            </li>
+        </ul>
+        <p class="moreCaseP"><a class="moreCase" href="https://www.youtube.com/user/DSCTCE00" target="_blank">更多精彩視頻</a></p>
+        <p align="center" class="bookRead">
+            歡迎訂閱鼎新 Youtube 頻道<br />
+            一手掌握最新活動及E化案例訊息
+        </p>
+    </div>
+    <!-- </div> -->
+</div>
+<!-- 影视视频结束 -->
+<!-- wrapper end -->
+
+<contact v-bind:multiple="false" source=""></contact>
+    </main>
+  </body>
+</html>

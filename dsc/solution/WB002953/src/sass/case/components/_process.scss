@@ -1,0 +1,71 @@
+main .process {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    @media (min-width: $content-width) {
+        flex-direction: row;
+        padding-top: 80px;
+        padding-bottom: 80px;
+        background: image-url('case/section3-bg.jpg') 50% 0;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    li {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        @media (min-width: $content-width) {
+            flex-direction: row;
+        }
+        & + li::before {
+            @include imgBg('case/arrow-down.png', true);
+            margin-top: 12px;
+            margin-bottom: 12px;
+            content: '';
+            @media (min-width: $content-width) {
+                margin: 0 15px;
+                width: 59px;
+                height: 41px;
+                background-image: inline-image('case/arrow-right.png');
+                @at-root {
+                    main .process.p4 li + li::before {
+                        margin-right: 5px;
+                        margin-left: 5px;
+                        width: 35px;
+                        height: 24px;
+                        background-size: contain;
+                    }
+                }
+            }
+        }
+    }
+    &-item {
+        display: flex;
+        padding-right: 5px;
+        padding-left: 5px;
+        width: 218px;
+        height: 143px;
+        border: 2px solid #fff;
+        border-radius: 5px;
+        background-color: rgba(#000, .3);
+        color: #fff;
+        text-align: justify;
+        letter-spacing: getLetterSpacing(75);
+        font-size: 20px;
+        line-height: 1.5;
+        justify-content: center;
+        align-items: center;
+        @media (min-width: $content-width) {
+            @at-root {
+                main .process.p4 .process-item {
+                    width: 131px;
+                    font-size: 18px;
+                }
+                main .process.p5 .process-item,
+                main .process.p6 .process-item {
+                    width: 297px;
+                }
+            }
+        }
+    }
+}

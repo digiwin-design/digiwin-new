@@ -1,0 +1,19 @@
+extends ../layout-tw.pug
+
+block includes
+    link(rel='stylesheet', href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css')
+    
+    //- swiper
+    link(rel='stylesheet', href='https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.7/css/swiper.min.css')
+    script(src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.7/js/swiper.min.js", defer)
+    script(src="https://cdn.jsdelivr.net/npm/vue-awesome-swiper@3.1.2/dist/vue-awesome-swiper.js", defer)
+    
+    link(rel="preload", href="images/tw/ad.jpg", as="image")
+    script(src="assets/lodash.min.js", defer)
+    script(src="https://unpkg.com/dayjs", defer)
+    script(src="https://unpkg.com/dayjs/plugin/isBetween", defer)
+    link(rel='stylesheet', href='css/index-tw.css')
+    script(src='js/index-tw.min.js', defer)
+
+block content
+    include tw.html

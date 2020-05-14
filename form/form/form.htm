@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>咨询表单</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/xcConfirm.css">
+	<link rel="stylesheet" href="css/form.css">
+	<script src="js/jquery-1.7.2.js"></script>
+	<script src = "js/xcConfirm.js"></script>
+	<!-- Google Analytics -->
+	<script>
+		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+		ga('create', 'UA-51282377-5', 'auto');
+		ga('require', 'displayfeatures');
+		ga('require', 'linkid', 'linkid.js');
+		ga('send', 'pageview');
+	</script>
+	<!-- End Google Analytics -->
+
+	<!--[if lte IE 9]> 
+	<script type="text/javascript" src="js/jquery.xdomainrequest.min.js"></script>
+	<style type="text/css"> 
+		#choiceIndustry span.hideLabel { 
+			position: absolute; 
+			top: -25px; 
+			left: 40px;
+		}
+		#contactInput span.hideLabel {
+			width: 120px; 
+			float: left; 
+			display: block; 
+			font-size: 19px;
+		}
+		#contactInput span.evenLable {
+			margin-left:50px;
+		}
+		#contactInput input {
+			font-size: 19px; 
+			color: #000; 
+			display: block; 
+			width: 300px; 
+			height: 30px; 
+			float: left; 
+			margin: 0 0 20px 0; 
+			padding-left: 10px; 
+			background-color: #C1E3F7; 
+			border: 1px solid #fff; 
+			border-radius: 3px;
+		}
+		.departmetDiv {
+			margin-left:45px;
+		}
+
+	</style> 
+
+<![endif]-->
+
+</head>
+<body>
+<div id="header">
+		<div class="head">
+			<div class="logo">
+                    <a href="">
+                        <img src="images/logo-1.png" alt="ERP系统,ERP软件,企业管理软件服务提供商-鼎捷软件"></a>
+            </div>
+		</div>
+	</div>
+<form class="form">
+
+	<!--必写： 写入页面的文宣编号，页面中看不到此栏位 后台用来辨识表格数据的来源 页面-->
+	<a id="fromSource" href="javascript:;">文宣编号</a>
+	
+	<h1>企业e化需求咨询 400-626-5858</h1>
+		<p>请详细填写以下信息<span class="txt12r">（*为必填栏位）</span>便于尽快为您服务。<br>若您需要立即的支援与服务，请直接联系 <a href="http://chat10.live800.com/live800/chatClient/chatbox.jsp?companyID=857124&configID=233557&jid=7115818955&lan=zh&subject=%E8%AB%AE%E8%A9%A2&prechatinfoexist=1
+" target="_blank"><font color="#FF6600">在线客服</font></a>或拨打免费热线400-626-5858，谢谢！
+		</p>
+	<!-- 公司名称、联系方式。。。。 -->
+
+	<!-- 公司名称、联系方式等 如果设置为必填项，请添加给input class 后面添加 required  如果不需要为必填写项，请删除class中的 required -->
+
+
+	<div id="contactInput" class="clearfix">
+
+		<label class="hideLabel">*公司名称：</label>
+		<input type="text" placeholder="*请填写完整公司名称" name="contact-company" id="contact-company" class="contact required">
+		
+		<label class="hideLabel  evenLable">*城市地区：</label>
+		<input type="text" placeholder="" name="address" id="address" class="contact required">
+
+		<label class="hideLabel perLabel">*联系人：</label>
+		<input type="text" placeholder="" name="contact_person" id="contact_person" class="contact required">
+		<select name="section" id="contact-dept" class="Selecte-Style"> 
+			<option value="部门" selected="selected">部门</option>  
+			<option value="总经办">总经办</option>
+			<option value="行政企管">行政企管</option>
+			<option value="人力资源">人力资源</option>
+			<option value="采购资材">采购资材</option>
+			<option value="法务智财">法务智财</option>
+			<option value="财务审计">财务审计</option>
+			<option value="IT技术">IT技术</option>
+			<option value="生产技术">生产技术</option>
+			<option value="研发设计">研发设计</option>
+			<option value="品管质量">品管质量</option>
+			<option value="业务销售">业务销售</option>
+			<option value="营销策划">营销策划</option>
+			<option value="门市人员">门市人员</option>
+			<option value="其他">其他</option>
+		</select> 
+	
+		<select name="position" id="contact-job" class="Selecte-Style"> 
+			<option value="职称" selected="selected">职称</option>  
+			<option value="法人">法人</option>
+			<option value="董（副）事长">董（副）事长</option>
+			<option value="总裁">总裁</option>
+			<option value="总经理">总经理</option>
+			<option value="总监">总监</option>
+			<option value="特别助理（秘书）">特别助理（秘书）</option>
+			<option value="主任">主任</option>
+			<option value="厂长">厂长</option>
+			<option value="经理">经理</option>
+			<option value="科长">科长</option>
+			<option value="工程师">工程师</option>
+			<option value="顾问">顾问</option>
+			<option value="专员">专员</option>
+			<option value="助理">助理</option>
+			<option value="其他">其他</option>
+		</select>  
+		<br>
+		<label class="hideLabel evenLable">*联系电话：</label>
+		<input type="text" placeholder="例：021 1234567(8)" name="telephone" id="telephone" class="contact required">
+
+	
+
+		<label class="hideLabel evenLable">E-mail：</label>
+		<input type="text" placeholder="请填写完整邮箱信息以便接收资料" name="contact-email" id="contact-email" class="contact ">
+
+
+	</div>
+
+<!-- 如果复选框添加为必选项 ，请在class为demandCheck 后面添加 class 为requiredCheck ，如果不需要请删除 requiredCheck-->
+
+	<!-- 复选框等选项 -->
+	<div class="demandCheck">
+		<p>需求内容：</p>
+		<label class="hideLabel" for="jgs_sys"> <input name="contact-demand" class="contact-demand"  id = "kjs_sys" type="checkbox" value="集团管控系统" />集团管控系统</label>
+		<label for="zzj_sys"><input name="contact-demand" class="contact-demand" id = "zzj_sys"  type="checkbox" value="智能制造解决方案" />智能制造解决方案</label>
+		<label for="scz_sys"><input name="contact-demand" class="contact-demand" id = "scz_sys" type="checkbox" value="生产制造管理系统" />生产制造管理系统  </label>
+		<label for="jcg_sys"><input name="contact-demand" class="contact-demand" id = "jcg_sys" type="checkbox" value="进销存管理系统" />进销存管理系统</label>
+		<label for="sml_sys"><input name="contact-demand" class="contact-demand" id = "sml_sys" type="checkbox" value="商贸流通管理系统" />商贸流通管理系统</label>		
+						
+		<label for="cy_sys"><input name="contact-demand" class="contact-demand" id = "cy_sys" type="checkbox" value="连锁零售管理系统"/>餐饮管理系统</label>	
+		<label for="OA_sys"> <input name="contact-demand" class="contact-demand" id = "OA_sys" type="checkbox" value="OA办公管理系统" />OA办公管理系统</label>					
+		<label for="hr_sys"><input name="contact-demand" class="contact-demand" id = "hr_sys" type="checkbox" value=" 人力资源管理系统" />人力资源管理系统</label>
+		<label for="csg_sys"><input name="contact-demand" class="contact-demand" id = "csg_sys" type="checkbox" value="产品生命周期管控系统" />产品生命周期管控系统</label>	
+		<label for="cg_sys"><input name="contact-demand" class="contact-demand" id = "cg_sys" type="checkbox" value="财务管理系统" />财务管理系统</label>
+
+		<!-- 其他内容 -->
+		<label for="othChecCont" class="othChecCont"><input name="demandOtherCont" class="demandOtherCont" id = "othChecCont" type="checkbox" value="" />其他 
+		<input type="text" placeholder="如：索阅资料" id="contact-other" disabled > 
+		</label>
+		
+
+	</div>
+	
+
+	
+
+	<!-- 咨询内容如果添加为必填写项
+	请给textarea标签添加class 为requiredConsu ，如果不需要请删除requiredConsu-->
+	<!-- 咨询内容开始 -->
+	<div class="consult-cont">
+		<p>咨询内容：</p>
+		<textarea id="contact-query" cols='80' rows='8' class=""></textarea>
+	</div>
+	<!-- 咨询内容结束 -->
+
+		<!-- 索取资料的选框 -->
+	<!-- <div class = "inforCheck">
+		<label for="dm_ask" >
+			<input name="information" class="information" id = "dm_ask" type="checkbox" value="资料索取" />资料索取
+		</label>
+	</div>	 -->
+	
+	<!-- 验证码 -->
+	<div class="verifica">
+		<span class="hideLabel">*验证码：</span>
+		<input type="text" placeholder="请输入验证码" name="" id="identCode" class="identCode" onblur= "validate()">
+		<input type = "button" id="vericodePic" />
+		<span class="renovCode" onclick="createCode()"></span>
+		<span id = "codeSuces"></span>
+	</div>
+<!-- 隐私权声明 -->
+	<div class="agreeLabel">
+		<label for="agree" >
+			<input type="checkbox" name="agree" value="" id="agree" checked >我同意接受鼎捷软件<a href="http://www.digiwin.com.cn/legal.html
+" target="_blank">隐私权申明</a>
+		</label>
+	</div>
+	
+
+	<!-- 提交按钮 -->
+		<input type="button" id="submit"  value="填写完成">
+		<!-- <input type="button" id="submit" value="填写完成" class="btnLf">
+		<input type="reset" id="submit" value="重填" class="btnRt"> -->
+</form>
+<div id="footer">
+	 <div class="foot02">
+             
+                <div class="text01">
+                <img src="http://www.digiwin.com.cn/zhongji/HEADFOOT/headFootImg/logofooter.png">
+               | <a href="http://www.digiwin.com.cn" target="_blank" rel="nofollow">鼎捷软件</a>
+                  ‧
+                    <a href="http://www.dsc.com.tw/" target="_blank" rel="nofollow">鼎新电脑</a>
+                 ‧
+                    <a href="http://vn.digiwin.biz/vn/index.html" target="_blank" rel="nofollow">鼎捷软件(越南)</a>
+                  ‧
+                    <a href="http://www.digichain.com.tw/" target="_blank" rel="nofollow">鼎捷软件(马来西亚)</a>
+                ‧
+                    <a href="#" target="_blank" rel="nofollow">鼎华系统</a>
+                ‧
+                    <a href="http://www.zhilinktech.com/" target="_blank" rel="nofollow">智互联(深圳)科技</a>
+                <div class="clear">
+                </div>
+                
+                <div class="text02">
+                    Copyright© 2012 鼎捷软件股份有限公司. All Rights Reserved. 沪ICP备10010150号
+                </div>
+            </div>
+        </div>	
+
+
+</div> 
+<!-- loading -->
+<div id="loading">
+	<p><i></i>数据提交中，请稍后</p>
+</div>
+
+<!-- thx page -->
+<div id="thx">
+	<div id="thxContent">
+		<div class="close">X</div>
+		<h3>资料己送出</h3>
+		<p class="thxparg"></p>
+		<p class="suprtCall">
+			<span>如需要立即的支援与服务，</span>
+			<span>请直拨免付费专线400-626-5858，谢谢!</span>
+		</p>
+		<p class="thxSourLoad1">
+			<a id = "SourLoadLink"  href="" target="_blank">资料下载</a>
+		</p>
+		<p id="goIndex">
+			<a href="http://www.digiwin.com.cn">继续浏览网页</a>
+		</p>
+
+	</div>
+</div> 	
+
+</body>
+
+</html>
+<script src="js/form-1.js"></script>
+<script type="text/javascript" src="//s.union.360.cn/174606.js" async defer></script>
+ <script type="text/javascript">
+        var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+        document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3F246853279196436857038e35c904bf29' type='text/javascript'%3E%3C/script%3E"));
+</script>

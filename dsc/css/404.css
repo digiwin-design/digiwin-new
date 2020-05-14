@@ -1,0 +1,12 @@
+@charset "utf-8";
+
+#wrap {max-width: 1000px; height: 650px; font-family: "微軟正黑體"; background: url(../images/404/bg.png) no-repeat center bottom; margin: 0 auto; position: relative;}
+#bug {position: absolute; top: 102px; left: calc(50% - 60px);}
+#text {font-size: 20px; font-weight: bold; line-height: 27px; text-align: center; padding-top: 215px;}
+.icon {width: 70px; height:70px; color: #fff; font-size: 18px; line-height:24px; text-align: center; background: url(../images/404/icon_Bg.png) no-repeat left top; position: absolute;}
+.icon:hover {background-position: right top;}
+.icon a {color: #fff; display: block; padding-top: 10px;}
+#icon1 {top:300px; left:calc(50% - 140px);}
+#icon2 {top:370px; left:calc(50% - 100px)}
+#icon3 {top:300px; left:calc(50% + 50px)}
+#icon4 {top:370px; left:calc(50% + 6px)}

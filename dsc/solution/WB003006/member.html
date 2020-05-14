@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="/tw/static/css/public.css">
+    <link rel="stylesheet" href="/tw/static/css/style.css">
+    <script src="/tw/static/js/jquery-1.11.3.min.js"></script>
+    <script src="https://polyfill.io/v3/polyfill.js?features=default,fetch,HTMLPictureElement,Array.prototype.find,NodeList.prototype.forEach&amp;flags=gated"></script>
+    <script src="/tw/dsc/assets/modernizr-custom.js"></script>
+    <script src="/tw/dsc/assets/mobile-detect.js"></script>
+    <script src="/tw/dsc/assets/mobile-detect-modernizr.js" defer></script>
+    <script src="/tw/dsc/assets/smoothscroll.js" defer></script>
+    <script src="/tw/dsc/assets/axios.min.js"></script>
+    <script src="/tw/dsc/assets/vuejs/vue-all-dev.js"></script>
+    <script src="/tw/dsc/js/common.min.js"></script>
+  </head>
+  <body>
+    <!-- 後台上稿內容開始-->
+    <link rel="stylesheet" href="/tw/dsc/css/Eform/xcConfirm.css">
+    <script src="/tw/dsc/js/Eform/xcConfirm.js" defer></script>
+    <link rel="stylesheet" href="/tw/dsc/assets/submenu/submenu.css">
+    <script src="/tw/dsc/assets/submenu/submenu.min.js"></script>
+    <link rel="stylesheet" href="assets/swiper.min.css">
+    <script src="assets/swiper.min.js" defer></script>
+    <script src="assets/vue-awesome-swiper.js" defer></script>
+    <link rel="stylesheet" href="https://unpkg.com/element-ui/lib/theme-chalk/index.css">
+    <script src="https://unpkg.com/element-ui/lib/index.js" defer></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="assets/animate.min.css">
+    <link rel="stylesheet" href="/tw/dsc/css/reboot.css">
+    <script src="assets/color-converter.js" defer></script>
+    <script src="assets/lodash.min.js" defer></script>
+    <script src="assets/jquery-ui-1.12.1.custom/jquery-ui.min.js" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TimelineMax.min.js" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/dat-gui/0.7.6/dat.gui.min.js" defer></script>
+    <script src="js/all.min.js" defer></script>
+    <link rel="preload" href="images/member/banner.jpg" as="image">
+    <link rel="stylesheet" href="css/member/style.css">
+    <script src="js/member.min.js" defer></script>
+    <main v-cloak v-if="result"><slider-banner-s v-if="isMobile" v-bind:slides="result.member.banner" device="mobile"></slider-banner-s>
+<slider-banner v-else v-bind:slides="result.member.banner" device="desktop"></slider-banner>
+
+<article class="section1">
+    <div class="container">
+        <section-title
+            title="會員營銷診斷清單"
+            desc="在你口袋的，是你真正的會員嗎？<br>會員經營與行銷專案的規劃執行，是否有所疑惑？"
+        ></section-title>
+        <checklist :lists="result.member.checklist"></checklist>
+    </div>
+</article>
+
+<div class="section2">
+    <slider-checkbox id="1">
+        <template slot="left">
+            <section>
+                <section-title
+                    title="為什麼無法掌握會員"
+                    desc="是什麼擋住了？"
+                ></section-title>
+                <img src="images/member/section2-left.png" alt="">
+                <label for="slider-toggle1">看該如何掌握<i class="material-icons">arrow_forward</i></label>
+            </section>
+        </template>
+        <template slot="right">
+            <section>
+                <section-title title="該如何掌握會員"></section-title>
+                <img src="images/member/section2-right.png" alt="">
+                <label for="slider-toggle1"><i class="material-icons">arrow_back</i>無法掌握的原因</label>
+            </section>
+        </template>
+    </slider-checkbox>
+</div>
+
+<div class="section3">
+    <slider-checkbox id="2">
+        <template slot="left">
+            <section>
+                <section-title
+                    title="導入會員經營機制"
+                    desc="針對不同階段的會員給予不同方案，讓顧客逐步往忠誠會員邁進。"
+                ></section-title>
+                <img src="images/member/section3-left.png" alt="">
+                <label for="slider-toggle2">看範例案例<i class="material-icons">arrow_forward</i></label>
+            </section>
+        </template>
+        <template slot="right">
+            <section>
+                <section-title
+                    title="案例分享一如何提升回購率，增加忠誠度"
+                    desc="ABC點距離近，不直接贈折價券，以免降低整單客單價，<br>D點顧客流失了三個月，需要贈送折價券刺激，<br>E點流失半年，前幾個喚醒都沒有效，只好加碼贈送折扣券的幅度，<br>若前5個喚醒點都失效，那麼就不再喚醒，會員已進入深度休眠"
+                ></section-title>
+                <img src="images/member/section3-right.png" alt="">
+                <label for="slider-toggle2"><i class="material-icons">arrow_back</i>回到提升效率之前</label>
+            </section>
+        </template>
+    </slider-checkbox>
+</div>
+
+<div class="section4">
+    <div class="container">
+        <section-title title="餐飲業會員管理<br>如何線下體驗引流線上"></section-title>
+        <img src="images/member/section4-illust.png" alt="">
+    </div>
+</div>
+
+<contact v-bind:multiple="false" source=""></contact>
+    </main>
+    <!-- 後台上稿內容結束-->
+  </body>
+</html>

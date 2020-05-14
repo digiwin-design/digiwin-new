@@ -1,0 +1,95 @@
+{
+    "links": {
+        "anchor": [
+            { "href": "#section1", "text": "講師" },
+            { "href": "#section2", "text": "議程" },
+            { "href": "#section3", "text": "場次" }
+        ],
+        "external": [
+            {
+                "desktop": {
+                    "href": "http://www.digiwin.com/tw/dsc/activity/WB002928/WB00292804.html",
+                    "text": "活動花絮"
+                },
+                "mobile": {
+                    "href": "http://www.digiwin.com/tw/dsc/activity/WB002928/WB00292804.html",
+                    "text": "活動<br>花絮"
+                }
+            },
+            {
+                "desktop": {
+                    "href": "http://bit.ly/2ULv4oA",
+                    "text": "線上研討會"
+                },
+                "mobile": {
+                    "href": "http://bit.ly/2ULv4oA",
+                    "text": "線上<br>研討會"
+                }
+            },
+            {
+                "desktop": {
+                    "href": "/tw/contact/eform.html",
+                    "text": "0800009890"
+                },
+                "mobile": {
+                    "href": "tel:0800009890",
+                    "text": ""
+                }
+            }
+        ]
+    },
+    "slides": {
+        "casts": [
+            {
+                "name": "鄭弘孟",
+                "company": "富士康工業互聯網股份有限公司FII",
+                "position": "首席執行官",
+                "desc": "富士康工業互聯網股份有限公司董事、首席執行官, 曾任鴻海富士康科技集團總經理、國基電子商務有限公司董事長，電子工程學士。其曾先後負責鴻海富士康科技集團雲網設備整體解決方案業務的研發、製造及銷售，作為核心決策者之一，參與富士康工業互聯網平臺的創建與早期發展，並推動科技服務業務完成了轉型的框架搭建及戰略佈局。"
+            },
+            {
+                "name": "陳冠棋",
+                "company": "富士康工業互聯網股份有限公司FII",
+                "position": "副總裁",
+                "desc": "富士康工業互聯網副總裁，畢業於台灣交通大學取得資訊工程博士，曾任方元電子股份有限公司協理及鴻海精密工業股份有限公司資深協理。 陳副總裁深刻參與鴻海集團數字化轉型過程，負責與主導集團內諸多人工智能與工業大數據等新技術引用等智能製造項目實踐，完成眾多自動化產線與實踐關燈工廠，成功助力富士康之實現降本提質增效減存目標。"
+            },
+            {
+                "name": "蘇斌雄",
+                "company": "鼎新電腦 智能+研究中心",
+                "position": "專家",
+                "desc": "現任鼎新電腦智能+研究中心專家，專精於智能製造頂層規劃、智能方案導入、營運總部規劃及流程改善、ERP系統規劃，擁有豐富的顧問輔導經驗。助力大中華客戶企業推動智慧化轉型專案。曾任鼎新電腦大型事業群副總經理、均豪精密工業(股)公司資訊/資材/管理部經理等。"
+            },
+            {
+                "name": "林志亮",
+                "company": "宇瞻科技 智慧應用處",
+                "position": "處長",
+                "desc": "現任宇瞻科技新創事業智慧應用處處長。宇瞻科技為全球工業用SSD、消費性數位產品與記憶體模組領導廠商。因應物聯網應用發展，成立智慧應用處，來滿足端到端的需求，林志亮處長正是主導宇瞻科技智慧應用策略的核心角色，對物聯網領域十分熟悉，帶領宇瞻科技發展IOT應用，並於大小活動中代表宇瞻科技受訪，擘劃數位化轉型發展藍圖。"
+            }
+        ],
+        "reviews": [
+            {
+                "link": "http://www.digiwin.com/tw/dsc/activity/WB002230/index.html",
+                "year": 2013
+            },
+            {
+                "link": "http://www.digiwin.com/tw/dsc/activity/WB002412/WB00241202.html",
+                "year": 2014
+            },
+            {
+                "link": "http://www.digiwin.com/tw/dsc/activity/WB002542/WB00254202.htm",
+                "year": 2015
+            },
+            {
+                "link": "http://www.digiwin.com/tw/dsc/activity/WB002663/WB00266302.htm",
+                "year": 2016
+            },
+            {
+                "link": "http://www.digiwin.com/tw/dsc/activity/WB002739/WB00273901.htm",
+                "year": 2017
+            },
+            {
+                "link": "http://www.digiwin.com/tw/dsc/activity/WB002833/WB00283301.htm",
+                "year": 2018
+            }
+        ]
+    }
+}

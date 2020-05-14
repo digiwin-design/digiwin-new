@@ -1,0 +1,158 @@
+main .desktop {
+    @function getWidth($itemNum, $itemWidth: 120px, $margin: 85px) {
+        @return calc(#{$itemWidth} * #{$itemNum} + #{$margin} * #{$itemNum - 1});
+    }
+    section {
+        background-color: #f5f5f5;
+        &:last-of-type {
+            padding-bottom: 60px;
+        }
+        &:not(:last-of-type)::after {
+            display: block;
+            margin: 55px auto 0;
+            max-width: 1200px;
+            height: 2px;
+            background-color: #bababa;
+            content: '';
+        }
+    }
+    .sectionTitle {
+        padding-top: 50px;
+        text-align: center;
+        font-size: 26px;
+        @media (min-width: $tablet-width + 1) {
+            font-size: 36px;
+        }
+    }
+    .slider {
+        input[type=radio] {
+            display: none;
+            @for $nth from 1 through 4 {
+                &:nth-of-type(#{$nth}):checked {
+                    & ~ .slider-nav label:nth-of-type(#{$nth}) {
+                        border: none;
+                        background-color: $main-color;
+                        color: #fff;
+                    }
+                    & ~ .slider-content .slider-slides {
+                        transform: translateX(-($nth - 1) * 100%);
+                    }
+                }
+            }
+        }
+        &-nav {
+            display: flex;
+            margin-bottom: 2em;
+            justify-content: center;
+            align-items: center;
+            label {
+                @include btn(150px, 50px, #888, transparent, 25px);
+                border: 1px solid #888;
+                cursor: pointer;
+                & + label {
+                    margin-left: 30px;
+                }
+            }
+        }
+        &-content {
+            overflow: hidden;
+        }
+        &-slides {
+            display: flex;
+            transition: transform .4s, height .4s;
+        }
+        &-slide {
+            display: flex;
+            width: 100%;
+            flex-wrap: wrap;
+            flex-shrink: 0;
+            align-items: center;
+            .container {
+                display: flex;
+                flex-direction: column;
+                width: 100%;
+                justify-content: center;
+                align-items: center;
+            }
+        }
+        &-boxs {
+            display: flex;
+            width: 100%;
+        }
+        &-box {
+            & + .slider-box {
+                margin-left: 30px;
+            }
+            &.fg1 {
+                flex-grow: 1;
+            }
+            &.fg2 {
+                flex-grow: 2;
+            }
+        }
+        .hoverBoxs {
+            display: flex;
+            flex-direction: column;
+            margin-top: 1.5em;
+            margin-bottom: 1.5em;
+            align-items: center;
+        }
+        .hoverBox {
+            display: flex;
+            flex-direction: column;
+            padding-right: 30px;
+            padding-left: 30px;
+            width: 100%;
+            height: 224px;
+            color: #fff;
+            justify-content: center;
+            & + .hoverBox {
+                margin-top: 25px;
+            }
+            &::before {
+                display: block;
+                margin: 0 auto 1em;
+                width: 150px;
+                height: 120px;
+                background-position: 50%;
+                background-repeat: no-repeat;
+                content: '';
+            }
+            &-title {
+                text-align: center;
+                font-weight: bold;
+                font-size: 24px;
+                line-height: 1;
+            }
+            &-hover {
+                display: flex;
+                padding: 0 30px;
+                color: #fff;
+                text-align: justify;
+                word-break: break-all;
+                letter-spacing: getLetterSpacing(25);
+                justify-content: center;
+                align-items: center;
+            }
+            &-hoverText {
+                display: flex;
+                flex-direction: column;
+                max-width: 100%;
+                @media (max-width: $content-width) {
+                    font-size: 16px;
+                }
+                p {
+                    width: 100%;
+                    flex-grow: 1;
+                    & + p {
+                        margin-top: 1em;
+                    }
+                }
+            }
+        }
+        &-illust {
+            width: 100%;
+            text-align: center;
+        }
+    }
+}

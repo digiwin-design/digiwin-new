@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://www.digiwin.com/tw/static/css/public.css">
+    <link rel="stylesheet" href="https://www.digiwin.com/tw/static/css/style.css">
+    <script src="https://www.digiwin.com/tw/static/js/jquery-1.11.3.min.js"></script>
+    <script src="https://polyfill.io/v3/polyfill.js?features=es5,es6,es7&amp;flags=gated"></script>
+    <script src="/tw/dsc/assets/fetch-polyfill.js"></script>
+    <script src="/tw/dsc/assets/modernizr-custom.js" defer></script>
+    <script src="/tw/dsc/assets/mobile-detect.js"></script>
+    <script src="/tw/dsc/assets/mobile-detect-modernizr.js" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.5.17/vue.js"></script>
+    <script src="https://unpkg.com/vue-router/dist/vue-router.js" defer></script>
+    <script src="https://unpkg.com/vuex" defer></script>
+    <script src="https://unpkg.com/http-vue-loader" defer></script>
+    <script src="/tw/dsc/js/common.js"></script>
+    <style>
+      .header-box {
+          height: auto;
+      }
+      .page-submenu {
+          position: fixed;
+          z-index: 28;
+          width: 100%;
+      }
+      main {
+          padding-top: 96px !important;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="header-box">
+      <header></header>
+    </div>
+    <!-- 以下為後台內容-->
+    <link rel="stylesheet" href="/tw/dsc/css/Eform/form-rwd.css">
+    <script src="/tw/dsc/js/Eform/form.js" defer></script>
+    <link rel="stylesheet" href="/tw/dsc/css/Eform/xcConfirm.css">
+    <script src="/tw/dsc/js/Eform/xcConfirm.js" defer></script>
+    <link rel="stylesheet" href="../../assets/submenu/submenu.css">
+    <script src="../../assets/submenu/submenu.min.js"></script>
+    <link rel="stylesheet" href="assets/animate.css">
+    <link rel="stylesheet" href="css/WB00291701_5.css?v=0.49129277811756444">
+    <script src="assets/modernizr-custom.js" defer></script>
+    <script src="assets/mobile-detect.js" defer></script>
+    <script src="assets/mobile-detect-modernizr.js" defer></script>
+    <script src="assets/picturefill.js" defer></script>
+    <script src="assets/lodash.js" defer></script>
+    <script src="js/common.min.js?v=0.6657186369591273" defer></script>
+    <script src="js/WB00291701_5.min.js?v=0.2945570473007153" defer></script>
+    <main><div class="header">
+    <div class="container">
+        <h2>憑藉在各產業豐富的傳承交流與經驗累積</h2>
+        <h1 class="mainTitle">鼎新為各行各業<br>規劃專屬的行業解決方案</h1>
+    </div>
+</div>
+
+<article class="section1">
+    <div class="container">
+        <h1 class="sectionTitle">各行各業獨到專精</h1>
+        <h2>鼎新電腦累積30多年產業輔導驗，50,000多家企業成功案例，提供完整行業解決方案；因應產業趨勢、法令制度的變化，提供最佳服務與支援！</h2>
+        <div id="app">
+            <Industry-list/>
+        </div>
+    </div>
+</article>
+    </main><div id="contact">
+    <div id="contactTxt" class="clearfix">
+        <h2>資料索取與諮詢</h2>
+        <div id="info">
+            <p>請填寫下方資料便於盡快為您服務。<br>若您需要立即的支援與服務，請直撥免付費專線 <span class="highLight">0800-888-162</span>，謝謝！</p>
+            <ul>
+                <li class="mail">
+                    <a href="mailto:marketing01@digiwin.com"></a>
+                </li>
+                <li class="fb">
+                    <a href="https://www.facebook.com/DSCmain" target="_blank"></a>
+                </li>
+            </ul>
+        </div>
+        <div id="formBlock" class="form">
+            <a id="fromSource" href="javascript:;">WB002917</a>
+            <div id="contactInput" class="clearfix">
+                <span class="hideLabel ">*公司名稱：</span><input type="text" placeholder="*完整公司名稱" name="contact-company" id="contact-company" class="contact required"><span class="hideLabel perLabel">*姓名：</span><input type="text" placeholder="*姓名" name="contact_person" id="contact_person" class="contact required"><span class="hideLabel evenLable">*聯絡電話：</span><input type="text" placeholder="*聯絡電話" name="telephone" id="telephone" class="contact required end"><span class="hideLabel evenLable">*E-mail：</span>
+                <input type="text" placeholder="*E-mail" name="contact-email" id="contact-email" class="contact required"><span class="hideLabel">*部門：</span><input type="text" placeholder="*部門" name="contact-dept" id="contact-dept" class="contact required"><span class="hideLabel">*職稱：</span><input type="text" placeholder="*職稱" name="contact-job" id="contact-job" class="contact required end">
+            </div>
+            <div class="consult-cont">
+                <p class="hideLabel">請在這裡描述您的需求：</p>
+                <textarea id="contact-query" cols='40' placeholder="請在這裡描述您的需求(500字以內)：" rows='4' class="" maxlength="500"></textarea>
+            </div>
+            <div class="inforCheck">
+                <label for="dm_ask"> <input name="information" class="information" id="dm_ask" type="checkbox" value="資料索取"> 索取資料 </label> 
+            </div>
+            <hr>
+            <div class="verifica">
+                <span class="veriSpan">＊請輸入驗證碼：</span>
+                <span class="veriSpan-m">驗證碼:</span>
+                <input type="text" name="" id="identCode" class="identCode" onblur="validate()">
+                <input type="button" id="vericodePic" />
+                <span class="renovCode" onclick="createCode()"></span>
+                <span id="codeSuces"></span>
+            </div>
+            <input type="button" id="submit" value="送　　出">
+            <label for="agree" class="checAgree"><input type="checkbox" name="agree" value="" id="agree" checked="">
+                我同意接受鼎新電腦<a href="/tw/portal/page/index/id/1202.html" target="_blank">隱私權聲明</a></label>
+        </div>
+    </div>
+</div><!-- loading -->
+<div id="loading">
+<p><i></i>資料提交中，請稍後</p>
+</div>
+<!-- thx page -->
+<div id="thx">
+<div id="thxContent">
+<div class="close">X</div>
+<p class="title">資料己送出</p>
+<p class="thxparg"></p>
+<p class="suprtCall">
+<span>如需要立即的支援與服務，</span>
+<span>請直撥免付費專線 0800-888-162，謝謝！</span>
+</p>
+<p class="thxSourLoad1">
+<a id="SourLoadLink" href="" target="_blank">資料下載</a>
+</p>
+<p id="goIndex">
+<a href="javascript:;">繼續瀏覽網站</a>
+</p>
+</div>
+</div>
+  </body>
+</html>

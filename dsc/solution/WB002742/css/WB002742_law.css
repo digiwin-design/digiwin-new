@@ -1,0 +1,532 @@
+@charset "UTF-8";
+@import url("reset.css");
+main *, main *:before, main *:after {
+    box-sizing: content-box;
+	font-family: "微軟正黑體", "新細明體", Arial, Helvetica, sans-serif;
+}
+main.WB00274201_law {
+    /*-----最新法規Banner-------*/
+    /*-----強制使用電子發票相關規定-------*/
+}
+
+main.WB00274201_law body {
+    font-family: "微軟正黑體", "新細明體", Arial, Helvetica, sans-serif;
+    background-color: #FFF;
+}
+
+main.WB00274201_law #indBanner {
+    padding: 0;
+    height: 500px;
+    color: #fff;
+	background: url('../images/banner_lawbg.jpg') no-repeat center center;
+}
+
+main.WB00274201_law #indBanner h1 {
+    width: 1200px;
+	margin: 0 auto;
+	margin-bottom: 4px;
+    text-align: left;
+    font-size: 36px;
+    line-height: 1.2;
+	color: #ff0;
+	padding-top: 70px;
+}
+
+main.WB00274201_law #indBanner .pageDesc {
+   	margin: 0 auto;
+	width: 1200px;
+	text-align: left;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+main.WB00274201_law #law1 {
+    margin: 0 auto;
+    width: 1000px;
+    padding-bottom: 120px;
+}
+
+main.WB00274201_law #law1 h2 {
+    font-size: 30px;
+    line-height: 1.6;
+    padding-top: 70px;
+    color: #1f7ca3;
+    text-indent: 70px;
+    background-image: url(https://www.digiwin.com/tw/dsc/solution/WB002742/images/icon1.png);
+    background-repeat: no-repeat;
+    background-position: 30px 82px;
+    padding-bottom: 10px;
+}
+
+main.WB00274201_law #law1 .box0 {
+    margin: 0 auto;
+    width: 930px;
+    border: 3px solid #682172;
+    position: relative;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+
+main.WB00274201_law #law1 .box0 h3 {
+    width: 630px;
+    height: 45px;
+    font-size: 20px;
+    color: #fff;
+    text-indent: 30px;
+    line-height: 45px;
+    position: absolute;
+    background-color: #682172;
+    border-radius: 8px;
+    top: -22px;
+    left: 48px;
+}
+
+main.WB00274201_law #law1 .box0 ul {
+    width: 830px;
+    margin: 50px 30px 20px 30px;
+    padding-left: 30px;
+}
+
+main.WB00274201_law #law1 .box0 li {
+    font-size: 18px;
+    line-height: 1.6;
+    padding-bottom: 10px;
+    text-indent: 18px;
+    background-image: url(https://www.digiwin.com/tw/dsc/solution/WB002742/images/Triangle_1.png);
+    background-repeat: no-repeat;
+    background-position: left 9px;
+    color: #333;
+}
+
+main.WB00274201_law #law1 .box1 {
+    margin: 0 auto;
+    width: 930px;
+    border: 3px solid #2D2773;
+    position: relative;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+
+main.WB00274201_law #law1 .box1 h3 {
+    width: 630px;
+    height: 45px;
+    font-size: 20px;
+    color: #fff;
+    text-indent: 30px;
+    line-height: 45px;
+    position: absolute;
+    background-color: #2D2773;
+    border-radius: 8px;
+    top: -22px;
+    left: 48px;
+}
+
+main.WB00274201_law #law1 .box1 ul {
+    width: 830px;
+    margin: 50px 30px 20px 30px;
+    padding-left: 30px;
+}
+
+main.WB00274201_law #law1 .box1 li {
+    font-size: 18px;
+    line-height: 1.6;
+    padding-bottom: 10px;
+    text-indent: 18px;
+    background-image: url(https://www.digiwin.com/tw/dsc/solution/WB002742/images/Triangle_2.png);
+    background-repeat: no-repeat;
+    background-position: left 9px;
+    color: #333;
+}
+
+main.WB00274201_law #law1 .box2 {
+    margin: 0 auto;
+    width: 930px;
+    height: 35px;
+    border: 3px solid #0F3D8B;
+    position: relative;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+
+main.WB00274201_law #law1 .box2 h3 {
+    width: 630px;
+    height: 45px;
+    font-size: 20px;
+    color: #fff;
+    text-indent: 30px;
+    line-height: 45px;
+    position: absolute;
+    background-color: #0F3D8B;
+    border-radius: 8px;
+    top: -22px;
+    left: 48px;
+}
+
+main.WB00274201_law #law1 .box2 ul {
+
+    width: 830px;
+    margin: 50px 30px 20px 30px;
+    padding-left: 30px;
+}
+
+main.WB00274201_law #law1 .box2 li {
+    font-size: 18px;
+    line-height: 1.6;
+    padding-bottom: 10px;
+    text-indent: 18px;
+    background-image: url(https://www.digiwin.com/tw/dsc/solution/WB002742/images/Triangle_3.png);
+    background-repeat: no-repeat;
+    background-position: left 9px;
+    color: #333;
+}
+
+main.WB00274201_law #law1 .box3 {
+    margin: 0 auto;
+    width: 930px;
+    border: 3px solid #1A9F9D;
+    position: relative;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+
+main.WB00274201_law #law1 .box3 h3 {
+    width: 630px;
+    height: 45px;
+    font-size: 20px;
+    color: #fff;
+    text-indent: 30px;
+    line-height: 45px;
+    position: absolute;
+    background-color: #1A9F9D;
+    border-radius: 8px;
+    top: -22px;
+    left: 48px;
+}
+
+main.WB00274201_law #law1 .box3 ul {
+    width: 830px;
+    margin: 50px 30px 20px 30px;
+    padding-left: 30px;
+}
+
+main.WB00274201_law #law1 .box3 li {
+    font-size: 18px;
+    line-height: 1.6;
+    padding-bottom: 10px;
+    text-indent: 18px;
+    background-image: url(https://www.digiwin.com/tw/dsc/solution/WB002742/images/Triangle_4.png);
+    background-repeat: no-repeat;
+    background-position: left 9px;
+    color: #333;
+}
+main.WB00274201_law #law1 .box4 {
+    margin: 0 auto;
+    width: 930px;
+    border: 3px solid #9f5c1a;
+    position: relative;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+
+main.WB00274201_law #law1 .box4 h3 {
+    width: 630px;
+    height: 45px;
+    font-size: 20px;
+    color: #fff;
+    text-indent: 30px;
+    line-height: 45px;
+    position: absolute;
+    background-color: #9f5c1a;
+    border-radius: 8px;
+    top: -22px;
+    left: 48px;
+}
+
+main.WB00274201_law #law1 .box4 ul {
+    width: 830px;
+    margin: 50px 30px 20px 30px;
+    padding-left: 30px;
+}
+
+main.WB00274201_law #law1 .box4 li {
+    font-size: 18px;
+    line-height: 1.6;
+    padding-bottom: 10px;
+    text-indent: 18px;
+    background-image: url(https://www.digiwin.com/tw/dsc/solution/WB002742/images/Triangle_5.png);
+    background-repeat: no-repeat;
+    background-position: left 9px;
+    color: #333;
+}
+
+main.WB00274201_law #law1 p {
+    font-size: 16px;
+    line-height: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+main.WB00274201_law #law1 p.L a {
+    display: block;
+    width: 240px;
+    font-size: 16px;
+    line-height: 30px;
+    text-decoration: underline;
+    background-image: url(https://www.digiwin.com/tw/dsc/solution/WB002742/images/star.png);
+    background-repeat: no-repeat;
+    background-position: right center;
+}
+
+main.WB00274201_law #law1 p.L a:hover {
+    color: #2b84a9;
+}
+
+main.WB00274201_law #law1 p.L {
+    float: left;
+}
+
+main.WB00274201_law #law1 p.R {
+    float: right;
+}
+
+main.WB00274201_law #law2 {
+    margin: 0 auto;
+    width: 100%;
+    background-color: #e4e7e0;
+    padding-bottom: 80px;
+}
+
+main.WB00274201_law #law2 #boxA {
+    margin: 0 auto;
+    width: 1000px;
+}
+
+main.WB00274201_law #law2 #boxA h2 {
+    font-size: 30px;
+    line-height: 1.6;
+    padding-top: 60px;
+    color: #1f7ca3;
+    text-indent: 70px;
+    background-image: url(https://www.digiwin.com/tw/dsc/solution/WB002742/images/icon1.png);
+    background-repeat: no-repeat;
+    background-position: 30px 70px;
+    padding-bottom: 10px;
+}
+
+main.WB00274201_law #law2 #boxA h3 {
+    font-size: 24px;
+    padding: 20px 0px 20px 30px;
+}
+
+main.WB00274201_law #law2 #boxA span {
+    color: #1d7ca3;
+}
+
+main.WB00274201_law #law2 #boxA ul {
+    margin: 0 auto;
+    font-size: 20px;
+    line-height: 1.5;
+    width: 950px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 20px;
+}
+
+main.WB00274201_law #law2 #boxA li {
+    padding-bottom: 10px;
+}
+
+main.WB00274201_law #law2 #boxA #from {
+    margin: 0 auto;
+    width: 960px;
+    height: 400px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 1px 5px 10px #999;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+main.WB00274201_law #law2 #boxA #from img {
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+main.WB00274201_law #law2 #boxA #from p {
+    font-size: 16px;
+    position: absolute;
+    top: 359px;
+    right: 25px;
+    color: #666;
+}
+
+main.WB00274201_law #law2 #boxB {
+    margin: 0 auto;
+    width: 1000px;
+}
+
+main.WB00274201_law #law2 #boxB .box {
+    margin: 0 auto;
+    width: 960px;
+    height: 1360px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 1px 5px 10px #999;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+main.WB00274201_law #law2 #boxB img {
+    margin: 20px 22px;
+}
+
+main.WB00274201_law #law2 #boxB .box p {
+    font-size: 16px;
+    position: absolute;
+    top: 1319px;
+    right: 33px;
+    color: #666;
+}
+
+main.WB00274201_law #law2 #boxB h2 {
+    font-size: 30px;
+    line-height: 1.6;
+    padding-top: 60px;
+    color: #1f7ca3;
+    text-indent: 70px;
+    background-image: url(https://www.digiwin.com/tw/dsc/solution/WB002742/images/icon1.png);
+    background-repeat: no-repeat;
+    background-position: 30px 70px;
+    padding-bottom: 10px;
+}
+
+main.WB00274201_law #law2 #boxC {
+    margin: 0 auto;
+    width: 1000px;
+}
+
+main.WB00274201_law #law2 #boxC .box {
+    margin: 0 auto;
+    width: 960px;
+    height: 760px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 1px 5px 10px #999;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+main.WB00274201_law #law2 #boxC .box p {
+    font-size: 16px;
+    position: absolute;
+    top: 715px;
+    right: 27px;
+    color: #666;
+}
+
+main.WB00274201_law #law2 #boxC img {
+    margin: 20px 22px;
+}
+
+main.WB00274201_law #law2 #boxC h2 {
+    font-size: 30px;
+    line-height: 1.6;
+    padding-top: 60px;
+    color: #1f7ca3;
+    text-indent: 70px;
+    background-image: url(https://www.digiwin.com/tw/dsc/solution/WB002742/images/icon1.png);
+    background-repeat: no-repeat;
+    background-position: 30px 70px;
+    padding-bottom: 10px;
+}
+
+main.WB00274201_law #law2 #boxD {
+    margin: 0 auto;
+    width: 1000px;
+}
+
+main.WB00274201_law #law2 #boxD .box {
+    margin: 0 auto;
+    width: 960px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 1px 5px 10px #999;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+main.WB00274201_law #law2 #boxD .box a {
+    display: block;
+    padding: 50px 45px;
+}
+
+main.WB00274201_law #law2 #boxD img {
+    max-width: 100%;
+}
+
+main.WB00274201_law #law2 #boxD h2 {
+    font-size: 30px;
+    line-height: 1.6;
+    padding-top: 60px;
+    color: #1d7ca3;
+    text-indent: 70px;
+    background-image: url(https://www.digiwin.com/tw/dsc/solution/WB002742/images/icon1.png);
+    background-repeat: no-repeat;
+    background-position: 30px 70px;
+    padding-bottom: 10px;
+}
+
+main.WB00274201_law #law2 #boxD .box p {
+    font-size: 16px;
+    position: absolute;
+    bottom: 30px;
+    right: 55px;
+    color: #666;
+}
+
+main.WB00274201_law #solution5 {
+    width: 100%;
+    background-image: url(https://www.digiwin.com/tw/dsc/solution/WB002742/images/4_3bg.png);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-color: #e5f4fc;
+    padding-top: 30px;
+    padding-bottom: 100px;
+}
+
+main.WB00274201_law #solution5 .box {
+    margin: 0 auto;
+    width: 1000px;
+}
+
+main.WB00274201_law #solution5 .box h2 {
+    font-size: 30px;
+    line-height: 1.6;
+    text-indent: 70px;
+    color: #1d7ca3;
+    background-image: url(https://www.digiwin.com/tw/dsc/solution/WB002742/images/icon1.png);
+    background-repeat: no-repeat;
+    background-position: 30px 60px;
+    padding-top: 50px;
+}
+
+main.WB00274201_law #solution5 .box h3 {
+    font-size: 24px;
+    line-height: 1.6;
+    padding-left: 70px;
+    color: #333;
+}
+
+main.WB00274201_law #solution5 .box p {
+    font-size: 16px;
+    float: right;
+}
+
+main.WB00274201_law #solution5 .box img {
+    padding: 20px 20px 10px 20px;
+}

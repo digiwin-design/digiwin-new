@@ -1,0 +1,39 @@
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!-- 手機版的LOGO+右上按鈕 -->
+
+<div id="TOP-MENU">
+	<h4 id="LOGO_M">鼎新電腦</h4><h5 id="BTN">MENU</h5>	
+</div>
+
+<!-- 主選單區 -->
+
+<div id="nav">
+
+    <a href="http://www.digiwin.com/tw/" target="_blank"><img class="logo" src="http://www.digiwin.com/tw/dsc/Library/images/logo.png" alt="鼎新官網" width="90" height="29" /></a>
+    <ul class="link">
+    	<li class="line_L"><a href="http://www.digiwin.com/tw/activity.html" target="_blank" >最新課程</a></li>
+      
+        <li><a href="http://www.digiwin.com/tw/enewspaper.html" target="_blank">電子報</a> </li>
+      
+        <li><a href="http://www.digiwin.com/tw/list.html">解決方案 <img src="http://www.digiwin.com/tw/dsc/Library/images/arr.png" width="9" height="7" /></a>
+          <ul class="subLink">
+          	<li><a href="http://www.digiwin.com/tw/case.html" target="_blank">E化案例</a></li>
+         </ul>
+        </li>
+        
+        <li><a href="https://www.youtube.com/user/DSCTCE00" target="_blank">YouTube <img src="http://www.digiwin.com/tw/dsc/Library/images/arr.png" width="9" height="7" /></a>
+         <ul class="subLink">
+            <li><a href="https://www.facebook.com/DSCmain" target="_blank">鼎新粉絲團</a></li>
+            <li><a href="http://www.digiwin.com/tw/dsc/service/WB002588/WB00258801.html" target="_blank">心服務新價值</a></li>
+            <li><a href="https://a1.digiwin.com/" target="_blank">商務應用雲</a></li>
+            <li><a href="http://www.digiwin.com/tw/dsc/service/WB002903/web/WB00290301_index.htm" target="_blank">鼎新服務雲</a></li>
+         </ul>
+        </li>
+       
+        <li class="Phone">
+          <a href="http://www.digiwin.com/tw/contact/eform.html"><img src="http://www.digiwin.com/tw/dsc/Library/images/phoneIcon.png" width="16" height="12"/> 
+          0800-009-890</a>
+        </li>
+    </ul>
+
+</div>

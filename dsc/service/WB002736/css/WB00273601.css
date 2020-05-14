@@ -1,0 +1,511 @@
+@charset "UTF-8";
+main *, main *:before, main *:after {
+    box-sizing: content-box;
+}
+main {
+    /*banner开始*/
+    /*banner结束*/
+    /*資訊委外優勢css开始*/
+    /*資訊委外優勢css结束*/
+    /*贴心服务内容css开始*/
+    /*贴心服务内容css结束*/
+    /*完整解決方案css开始*/
+    /*完整解決方案css结束*/
+    /*競爭優勢比較css开始*/
+    /*競爭優勢比較css结束*/
+    /*客戶證言css开始*/
+    /*客戶證言css结束*/
+    /*FQAcss开始*/
+    /*FQAcss结束*/
+}
+
+main body {
+    overflow-x: hidden;
+}
+
+main div.banner {
+    width: 100%;
+    height: 407px;
+    background: url(https://static.digiwin.com/tw/dsc/service/WB002736/images/bannerBg.jpg) no-repeat center;
+    text-align: center;
+}
+
+main div.banner img {
+    width: 995px;
+    height: 407px;
+    margin: 0 auto;
+}
+
+main .secCont {
+    font-family: "微軟正黑體" , "新細明體", Arial, Helvetica, sans-serif;
+    width: 1000px;
+    margin: 0 auto;
+    overflow: hidden;
+    display: block;
+    text-align: center;
+}
+
+main .sec1Stre {
+    width: 100%;
+    height: 656px;
+    background: url(https://static.digiwin.com/tw/dsc/service/WB002736/images/section1-bg.jpg) no-repeat;
+}
+
+main .secCont h2 {
+    font-size: 30px;
+    padding-top: 90px;
+    line-height: 40px;
+    text-align: center;
+}
+
+main .sec1Stre h2 {
+    color: #0d9ac9;
+}
+
+main .sec1StreP1 {
+    width: 690px;
+    color: #0d9ac9;
+    font-size: 18px;
+    margin: 10px auto 0;
+    text-align: left;
+}
+
+main .sec1StreDiv {
+    width: 690px;
+    margin: 30px auto 0;
+    text-align: center;
+}
+
+main .sec1StreDiv p {
+    margin-top: 15px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 35px;
+    color: #000;
+}
+
+main .sec1StreDiv img {
+    vertical-align: middle;
+}
+
+main .sec2Serv {
+    width: 100%;
+    height: 607px;
+    background: url(https://static.digiwin.com/tw/dsc/service/WB002736/images/section2-bg.jpg) no-repeat center;
+}
+
+main .sec2Serv h2 {
+    color: #fff;
+}
+
+main .sec2ServUl {
+    width: 945px;
+    margin: 30px auto 45px;
+}
+
+main .sec2ServUl li {
+    float: left;
+    margin-right: 18px;
+    width: 302px;
+    height: 271px;
+    overflow: hidden;
+    background: url(https://static.digiwin.com/tw/dsc/service/WB002736/images/sec2List1.png) no-repeat;
+    position: relative;
+}
+
+main .sec2ServUl li span {
+    margin-top: 42px;
+    width: 28px;
+    height: 18px;
+    background: url(../images/sec2Icon.png) no-repeat;
+    display: inline-block;
+    *display: inline;
+    zoom: 1;
+    cursor: pointer;
+}
+
+main .sec2ServUl li.sec2Licos {
+    margin-right: 0;
+}
+
+main .sec2ServUl li h3 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    line-height: 28px;
+    font-size: 24px;
+    color: #ff9000;
+}
+
+main .sec2ServUl li p {
+    font-size: 18px;
+    color: #000;
+}
+
+main .sec2ServUl li .hovDiv {
+    /*display: none;*/
+    position: absolute;
+    top: 275px;
+    left: 0;
+    width: 302px;
+    height: 206px;
+    background: url(../images/hovDivBg.png);
+}
+
+main .sec2ServUl li .hovDiv p {
+    font-size: 16px;
+    color: #fff;
+    padding-top: 18px;
+    line-height: 25px;
+}
+
+main .sec2ServBtn {
+    width: 195px;
+    height: 55px;
+    margin: 0 auto;
+    background: #f7c600;
+    border-radius: 10px;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -ms-border-radius: 10px;
+    font-size: 18px;
+    line-height: 55px;
+}
+
+main .sec2ServBtn a {
+    display: block;
+    color: #000;
+}
+
+main .sec2ServBtn:hover {
+    background: #ffcc66;
+}
+
+main .sec2ServCov {
+    display: none;
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+main .sec2CovBg {
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url(https://static.digiwin.com/tw/dsc/service/WB002736/images/hovDivBg.png);
+    text-align: center;
+}
+
+main .sec2ServWarp {
+    position: fixed;
+    width: 800px;
+    height: 500px;
+    left: 50%;
+    margin-left: -400px;
+    top: 50%;
+    margin-top: -250px;
+    text-align: center;
+    z-index: 1000;
+}
+
+main .sec2ServClose {
+    position: absolute;
+    top: -16px;
+    right: 38px;
+    width: 30px;
+    height: 30px;
+    background: url(https://static.digiwin.com/tw/dsc/service/WB002736/images/sec2Close.png) no-repeat;
+}
+
+main .sec3Case {
+    width: 100%;
+    height: 627px;
+    background: url(https://static.digiwin.com/tw/dsc/service/WB002736/images/section3-bg.jpg) no-repeat center;
+}
+
+main .sec3Case h2 {
+    color: #08602a;
+}
+
+main .sec3CaseUl {
+    width: 932px;
+    margin: 30px auto 0;
+}
+
+main .sec3CaseUl li {
+    float: left;
+    margin-right: 5px;
+    width: 128px;
+    height: 38px;
+    line-height: 38px;
+    font-size: 16px;
+    background: #bebebe;
+    cursor: pointer;
+}
+
+main .sec3CaseUl li.current {
+    background: #f4e60a;
+}
+
+main .sec3CaseOl {
+    width: 6000px;
+    height: 255px;
+    margin: 0 auto;
+    background: url(https://static.digiwin.com/tw/dsc/service/WB002736/images/sec3PartBg.png) no-repeat;
+}
+
+main .sec3CaseChag {
+    width: 937px;
+    overflow: hidden;
+}
+
+main .sec3CaseOl li {
+    display: none;
+    width: 937px;
+    height: 200px;
+    margin-top: 25px;
+    overflow: hidden;
+}
+
+main .sec3CaseOl li.chanNow {
+    display: block;
+}
+
+main .sec3CaseOl li img {
+    vertical-align: middle;
+    margin-left: 35px;
+}
+
+main .sec3Div1 {
+    width: 512px;
+    text-align: left;
+    margin-left: 25px;
+    vertical-align: middle;
+    display: inline-block;
+    *display: inline;
+    zoom: 1;
+}
+
+main .sec3Div1 h3 {
+    font-size: 20px;
+}
+
+main .sec3Div1 b {
+    font-size: 16px;
+}
+
+main .sec3Div1 p {
+    margin-top: 10px;
+    font-size: 16px;
+    line-height: 30px;
+}
+
+main .sec3CaseBtn {
+    width: 125px;
+    height: 50px;
+    margin-top: 45px;
+    line-height: 50px;
+    border-radius: 8px;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -ms-border-radius: 8px;
+    background: #0b8038;
+}
+
+main .sec3CaseBtn a {
+    color: #fff;
+}
+
+main .sec3CaseBtn:hover {
+    background: #009900;
+}
+
+main .sec4Compr {
+    width: 100%;
+    height: 741px;
+    background: url(https://static.digiwin.com/tw/dsc/service/WB002736/images/section4-bg.jpg) no-repeat;
+}
+
+main .sec4Compr h2 {
+    color: #fff;
+}
+
+main .sec4ComprUl {
+    width: 900px;
+    margin-left: 50px;
+    margin-top: 5px;
+}
+
+main .sec4Compr li {
+    float: left;
+    width: 207px;
+    height: 115px;
+    border-radius: 6px;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -ms-border-radius: 6px;
+    background: #fff;
+    margin-right: 20px;
+    margin-top: 35px;
+}
+
+main .sec4Compr li.sec4ComprUl4 {
+    margin-right: 0;
+}
+
+main .sec4Compr h4 {
+    width: 207px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 20px;
+    color: #fff;
+    background: #176c9b;
+    border-radius: 5px 5px 0 0;
+    -moz-border-radius: 5px 5px 0 0;
+    -webkit-border-radius: 5px 5px 0 0;
+    -ms-border-radius: 5px 5px 0 0;
+    margin-bottom: 10px;
+    padding: 0;
+}
+
+main .sec4Compr h4.moreWordH4 {
+    margin-bottom: 0;
+}
+
+main .sec4ComprUl p {
+    font-size: 16px;
+}
+
+main .sec4ComprUl p.oneParp {
+    margin-top: 24px;
+}
+
+main .sec5GuestUl {
+    margin-left: 50px;
+    margin-bottom: 125px;
+}
+
+main .sec5GuestUl li {
+    float: left;
+    width: 438px;
+    height: 267px;
+    position: relative;
+    margin: 35px 20px 0 0px;
+    overflow: hidden;
+}
+
+main #sec5Guest .hoverLi b {
+    font-weight: bold;
+}
+
+main .sec5GuestIdu {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 34px;
+    line-height: 34px;
+    background: #000;
+    filter: Alpha(opacity=80);
+    -moz-opacity: 0.8;
+    opacity: 0.8;
+    margin-bottom: 0;
+    font-size: 16px;
+    color: #fcff00;
+    z-index: 2;
+}
+
+main .yello {
+    color: #f0ff01;
+    display: block;
+}
+
+main .sec5Div {
+    position: absolute;
+    top: 267px;
+    left: 0;
+    z-index: 3;
+    width: 388px;
+    height: 217px;
+    background: #000;
+    filter: Alpha(opacity=80);
+    -moz-opacity: 0.8;
+    opacity: 0.8;
+    font-size: 15px;
+    text-align: left;
+    padding: 25px;
+}
+
+main .sec5Div p {
+    margin-top: 70px;
+    color: #fff;
+}
+
+main .sec5Div-3 p {
+    margin-top: 25px;
+}
+
+main .sec5Div p.seconParp {
+    color: #76cff0;
+}
+
+main .abgne-20110711 a {
+    display: block;
+    position: relative;
+    overflow: hidden;
+}
+
+main .sec6FQA {
+    width: 100%;
+    height: 768px;
+    background: url(https://static.digiwin.com/tw/dsc/service/WB002736/images/section6.jpg) no-repeat center;
+    font-size: 16px;
+    color: #000;
+}
+
+main .sec6FQA .secCont {
+    width: 935px;
+}
+
+main .sec6Q {
+    width: 935px;
+    height: 34px;
+    line-height: 34px;
+    text-align: left;
+    background: #fff;
+    padding-left: 20px;
+    cursor: pointer;
+}
+
+main .sec6QCur {
+    background: #efc20c;
+}
+
+main .sec6A {
+    display: none;
+    padding-left: 20px;
+    text-align: left;
+}
+
+main .sec6ACur {
+    display: block;
+}
+
+main .sec6Div {
+    margin-top: 15px;
+}
+
+main .sec6Div1 {
+    margin-top: 30px;
+}
+
+main .content {
+    width: 1000px;
+    margin: 0 auto;
+    position: relative;
+}

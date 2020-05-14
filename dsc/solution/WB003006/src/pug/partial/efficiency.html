@@ -1,0 +1,89 @@
+<slider-banner-s v-if="isMobile" v-bind:slides="result.efficiency.banner" device="mobile"></slider-banner-s>
+<slider-banner v-else v-bind:slides="result.efficiency.banner" device="desktop"></slider-banner>
+
+<article class="section1">
+    <div class="container">
+        <section-title
+            title="餐飲業各職能面臨的困擾"
+            desc="不同職能遇到的問題都不同，你是不是也遇到下列困擾？"
+        ></section-title>
+        <div class="section1-pains">
+            <pain :content="pain" v-for="pain in result.efficiency.pains"></pain>
+        </div>
+    </div>
+</article>
+
+<div class="section2">
+    <slider-checkbox id="1">
+        <template slot="left">
+            <section>
+                <section-title
+                    title="為什麼效率不好"
+                    desc="是什麼擋住了？"
+                ></section-title>
+                <img src="images/efficiency/section2-left.png" alt="">
+                <label for="slider-toggle1">該如何提升<i class="material-icons">arrow_forward</i></label>
+            </section>
+        </template>
+        <template slot="right">
+            <section>
+                <section-title title="該如何提升效率"></section-title>
+                <img src="images/efficiency/section2-right.png" alt="">
+                <label for="slider-toggle1"><i class="material-icons">arrow_back</i>效率不佳的原因</label>
+            </section>
+        </template>
+    </slider-checkbox>
+</div>
+
+<div class="section3">
+    <slider-checkbox id="2">
+        <template slot="left">
+            <section>
+                <section-title title="提昇總部效率之前"></section-title>
+                <img src="images/efficiency/section3-left.png" alt="">
+                <label for="slider-toggle2">看提昇效率之後<i class="material-icons">arrow_forward</i></label>
+            </section>
+        </template>
+        <template slot="right">
+            <section>
+                <section-title title="提昇總部效率之後"></section-title>
+                <img src="images/efficiency/section3-right.png" alt="">
+                <label for="slider-toggle2"><i class="material-icons">arrow_back</i>回到提昇效率之前</label>
+            </section>
+        </template>
+    </slider-checkbox>
+</div>
+
+<div class="section4">
+    <slider-checkbox id="3">
+        <template slot="left">
+            <section>
+                <section-title
+                    title="提昇門店效率之前"
+                    desc="繁雜過程多、服務速度慢"
+                ></section-title>
+                <img src="images/efficiency/section4-left.png" alt="">
+                <label for="slider-toggle3">看提昇效率之後<i class="material-icons">arrow_forward</i></label>
+            </section>
+        </template>
+        <template slot="right">
+            <section>
+                <section-title
+                    title="提昇門店效率之後"
+                    desc="減少繁雜過程、提升服務速度"
+                ></section-title>
+                <img src="images/efficiency/section4-right.png" alt="">
+                <label for="slider-toggle3"><i class="material-icons">arrow_back</i>回到提昇效率之前</label>
+            </section>
+        </template>
+    </slider-checkbox>
+</div>
+
+<div class="section5">
+    <div class="container">
+        <section-title title="鼎新在餐飲總部及門店給予的支持"></section-title>
+        <img src="images/efficiency/section5-illust.png" alt="">
+    </div>
+</div>
+
+<contact v-bind:multiple="false" source=""></contact>

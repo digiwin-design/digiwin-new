@@ -1,0 +1,387 @@
+﻿/* --電腦版型------------------------------------- */
+
+#WRAPPER {
+}
+#TOP-MENU {
+    display: none;
+}
+#TOP-MENU h4 {
+}
+#TOP-MENU h5 {
+}
+/* --------------------------------- */
+
+#nav {
+    position: relative;
+    z-index: 999995;
+    width: 100%;
+    height: 35px;
+    background-color: #f4f5f5;
+    font-family: Arial, '新細明體', '微軟正黑體';
+}
+#nav .logo {
+    position: absolute;
+    top: 3px;
+    left: 45px;
+    z-index: 999999;
+    float: left;
+}
+#nav .link {
+    float: right;
+    width: 600px;
+    height: 35px;
+    text-align: center;
+    letter-spacing: 1px;
+}
+#nav .link > li {
+    float: left;
+    width: 100px;
+    border-right: 1px solid #c4c4c4;
+    color: #757373;
+    font-size: 13px;
+    line-height: 35px;
+}
+#nav .link > li a {
+    display: block;
+    color: #757373;
+    text-decoration: none;
+}
+#nav .link > li:hover {
+    background-color: #e0e0e0;
+    color: #757373;
+    text-decoration: none;
+    line-height: 35px;
+}
+#nav .link .Phone {
+    width: 130px;
+    border-right: 0 solid #999;
+    font-weight: bold;
+}
+#nav .link .Phone:hover,
+#nav .link .line:hover {
+    background-color: #f4f5f5;
+}
+#nav .link .line_L {
+    border-left: 1px solid #c4c4c4;
+}
+#nav .link .subLink {
+    z-index: 999995;
+    display: none;
+    border-top: none;
+    border-left: 1px solid #c4c4c4;
+    background-color: #fff;
+}
+#nav .link .subLink li a {
+    display: block;
+    height: 35px;
+    color: #757373;
+    text-align: center;
+}
+#nav .link .subLink li a:hover {
+    background: #f4f5f5;
+}
+/*-------------------------------*/
+#dgwFooter {
+    padding-top: 17px;
+    padding-bottom: 17px;
+    width: 100%;
+    border-top: 1px solid #fff;
+    background-color: #d9d9d9;
+    color: #595757;
+    text-align: center;
+    font-size: 13px;
+    font-family: '新細明體', '微軟正黑體';
+    line-height: 1;
+}
+#dgwFooter .link01 a {
+    display: inline-block;
+    padding: 0 3px 0 0x;
+    color: #595757;
+    text-align: center;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+#dgwFooter .link01 a:hover {
+    display: inline-block;
+    padding: 0 3px 0 0x;
+    color: #595757;
+    text-align: center;
+    text-decoration: underline;
+    font-size: 13px;
+}
+
+#dgwFooter .link01 span {
+    display: inline-block;
+    text-align: center;
+    font-size: 9px;
+}
+
+#dgwFooter .link02 {
+    margin-bottom: 8px;
+    text-align: center;
+}
+
+#dgwFooter .link02 li {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -ms-flex-align: center;
+    -webkit-box-align: center;
+    align-items: center;
+}
+
+#dgwFooter .link02 ul li a {
+    display: inline-block;
+    padding: 0 4px 0 1px;
+    color: #595757;
+    text-align: center;
+    text-decoration: none;
+    font-size: 13px;
+}
+#dgwFooter .link02 ul li a:hover {
+    display: inline-block;
+    padding: 0 4px 0 1px;
+    color: #595757;
+    text-align: center;
+    text-decoration: underline;
+    font-size: 13px;
+}
+
+#dgwFooter .link02 ul li span {
+    display: inline-block;
+    text-align: center;
+    font-size: 13px;
+}
+
+#dgwFooter p {
+    clear: both;
+    margin: 0;
+    font-size: 13px;
+}
+
+.clear {
+    clear: both;
+    margin: 0;;
+    padding: 0;
+    height: 0;
+    font-size: 0;
+    line-height: 0;
+}
+
+
+/* --手機版型------------------------------------- */
+
+@media screen and (max-width: 768px) {
+    * {
+        -webkit-box-sizing: border-box;
+                box-sizing: border-box;
+    }
+    body,
+    html {
+        -webkit-text-size-adjust: none;
+    }
+    #WRAPPER {
+        min-width: 320px;
+    }
+
+    #TOP-MENU {
+        position: relative;
+        display: block;
+        width: 100%;
+        height: 50px;
+        background-color: #f4f5f5;
+    }
+    #TOP-MENU h4 {
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        display: block;
+        width: 150px;
+        height: 40px;
+        background-image: url(http://www.digiwin.com/tw/dsc/Library/images/DSClogo-cn.png);
+        background-size: 90px auto;
+        background-repeat: no-repeat;
+        text-indent: -9999px;
+    }
+    #TOP-MENU h5 {
+        position: absolute;
+        top: 10px;
+        right: 5px;
+        display: block;
+        width: 60px;
+        height: 40px;
+        background-image: url(http://www.digiwin.com/tw/dsc/Library/images/btn.png);
+        background-size: 60px auto;
+        background-repeat: no-repeat;
+        text-indent: -9999px;
+    }
+
+    /* --------------------------------- */
+
+    #nav {
+        position: relative;
+        z-index: 999995;
+        display: none;
+        width: 100%;
+        height: auto;
+        background-color: #e0e0e0;
+        font-family: '微軟正黑體', Arial, Helvetica, sans-serif;
+    }
+    #nav .logo {
+        display: none;
+    }
+    #nav .link {
+        float: none;
+        margin-right: 30px;
+        width: 100%;
+        height: auto;
+        text-align: center;
+        line-height: 45px;
+    }
+    #nav .link > li {
+        float: none;
+        width: 100%;
+        border-right: 0 solid #999;
+        border-bottom: #fff 1px solid;
+        color: #757373;
+        font-size: 18px;
+        line-height: 45px;
+    }
+    #nav .link > li a {
+        display: block;
+        color: #000;
+        text-decoration: none;
+        line-height: 45px;
+    }
+    #nav .link > li a:hover {
+        background-color: #666;
+        color: #fff;
+        text-decoration: none;
+        line-height: 45px;
+    }
+    #nav .link .Phone {
+        width: 100%;
+        font-weight: normal;
+    }
+    #nav .link .Phone:hover,
+    #nav .link .line:hover {
+        background-color: #f4f5f5;
+    }
+    #nav .link .line_L {
+        border-left: 0 solid #999;
+    }
+    #nav .link .subLink {
+        z-index: 999995;
+        display: none;
+        border: 0 solid #757373;
+        border-top: none;
+        background-color: #f4f5f5;
+    }
+    #nav .link .subLink li a {
+        display: block;
+        height: 45px;
+        border-bottom: #e0e0e0 1px solid;
+        color: #900;
+        text-align: center;
+    }
+    #nav .link .subLink li a:hover {
+        background-color: #900;
+        color: #fff;
+        line-height: 45px;
+    }
+
+    /*-------------------------------*/
+    #dgwFooter {
+        padding-top: 13px;
+        padding-bottom: 17px;
+        width: 100%;
+        border-top: 1px solid #fff;
+        background-color: #333;
+        color: #595757;
+        text-align: center;
+        font-size: 13px;
+        font-family: '微軟正黑體',Arial, Helvetica, sans-serif;
+
+        /*--固定下方----------
+	position:fixed;
+	bottom:0px;
+	z-index:888;------*/
+    }
+    #dgwFooter .link01 {
+        display: none;
+    }
+
+    #dgwFooter .link01 a {
+        display: none;
+        display: inline-block;
+        padding: 0 3px 0 0x;
+        color: #595757;
+        text-align: center;
+        text-decoration: none;
+        font-size: 13px;
+    }
+
+    #dgwFooter .link01 a:hover {
+        display: inline-block;
+        padding: 0 3px 0 0x;
+        color: #595757;
+        text-align: center;
+        text-decoration: underline;
+        font-size: 13px;
+    }
+
+    #dgwFooter .link01 span {
+        display: inline-block;
+        text-align: center;
+        font-size: 9px;
+    }
+
+    #dgwFooter .link02 {
+        display: none;
+        margin: 14px 0 8px 0;
+        text-align: center;
+    }
+
+
+    #dgwFooter .link02 ul li a {
+        display: inline-block;
+        padding: 0 4px 0 1px;
+        color: #595757;
+        text-align: center;
+        text-decoration: none;
+        font-size: 13px;
+    }
+    #dgwFooter .link02 ul li a:hover {
+        display: inline-block;
+        padding: 0 4px 0 1px;
+        color: #595757;
+        text-align: center;
+        text-decoration: underline;
+        font-size: 13px;
+    }
+
+    #dgwFooter .link02 ul li span {
+        display: inline-block;
+        text-align: center;
+        font-size: 13px;
+    }
+
+    #dgwFooter p {
+        clear: both;
+        margin: 0;
+        padding: 0 20px;
+        color: #ccc;
+        font-size: 13px;
+        line-height: 1.8;
+    }
+
+    .clear {
+        clear: both;
+        margin: 0;;
+        padding: 0;
+        height: 0;
+        font-size: 0;
+        line-height: 0;
+    }
+}

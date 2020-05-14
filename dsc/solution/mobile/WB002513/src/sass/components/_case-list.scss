@@ -1,0 +1,29 @@
+main .case-list {
+    letter-spacing: getLetterSpacing(25);
+    dt {
+        display: flex;
+        padding: 0 20px;
+        height: 76px;
+        background-color: #1b9acf;
+        justify-content: space-between;
+        align-items: center;
+        i {
+            color: #fff;
+            font-weight: bold;
+            font-size: 20px;
+        }
+        a {
+            position: relative;
+            color: #e4ff00;
+            &::before {
+                @include clickableArea(false, 18px);
+            }
+        }
+    }
+    dd {
+        padding: 1em;
+        background-color: #fff;
+        color: #2a2a2a;
+        line-height: 1.6;
+    }
+}

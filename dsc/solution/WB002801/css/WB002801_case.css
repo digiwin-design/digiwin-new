@@ -1,0 +1,99 @@
+@charset "UTF-8";
+main *, main *:before, main *:after {
+    box-sizing: content-box;
+}
+
+main #pageTitle {
+    background: url("../images/bg_case.jpg") no-repeat center center;
+    color: #444;
+}
+
+main #caseList h2 {
+    margin-bottom: -1px;
+    font-size: 18px;
+    text-align: left;
+}
+
+main #caseList h2 .otherStyle {
+    display: inline-block;
+    margin-right: 15px;
+    padding: 0 15px;
+    background-color: #6f79d5;
+    border-radius: 7px 7px 0 0;
+    color: #fff;
+    font-size: 30px;
+    line-height: 50px;
+}
+
+main #caseList .case {
+    position: relative;
+    margin-bottom: 50px;
+}
+
+main #caseList .case p.part01 {
+    padding: 20px 30px;
+    border: 1px solid #ccc;
+    border-bottom: none;
+}
+
+main #caseList .case p.part02 {
+    position: relative;
+    padding: 0 30px 20px 130px;
+    border: 1px solid #ccc;
+    border-top: none;
+}
+
+main #caseList .case p.part02:before {
+    content: "改善項目";
+    position: absolute;
+    left: 30px;
+    width: 80px;
+    line-height: 30px;
+    background-color: #ff9c00;
+    border-radius: 100px;
+    color: #fff;
+    font-size: 16px;
+    text-align: center;
+}
+
+main #caseList .case p.part02:after {
+    content: "▶";
+    position: absolute;
+    left: 103px;
+    line-height: 30px;
+    color: #ff9c00;
+    font-size: 18px;
+}
+
+main #caseList .case a {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 120px;
+    height: 60px;
+}
+
+main #caseList .case a:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    bottom: 0;
+    right: 0;
+    border-top: 30px solid transparent;
+    border-right: 60px solid #7c6fad;
+    border-bottom: 30px solid #7c6fad;
+    border-left: 60px solid transparent;
+}
+
+main #caseList .case a:after {
+    content: "more...";
+    position: absolute;
+    bottom: 7px;
+    right: 7px;
+    color: #fff;
+}
+
+main #caseList .case a:hover:before {
+    border-right-color: #ff9c00;
+    border-bottom-color: #ff9c00;
+}

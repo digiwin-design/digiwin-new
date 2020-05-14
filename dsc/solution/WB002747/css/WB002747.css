@@ -1,0 +1,1402 @@
+@charset "UTF-8";
+main *, main *:before, main *:after {
+    box-sizing: content-box;
+}
+
+main #banner {
+    width: 100%;
+    height: 470px;
+    min-width: 1000px;
+    font-size: 16px;
+    font-family: "微軟正黑體", "新細明體", Arial, Helvetica, sans-serif;
+    line-height: 30px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+
+main #banner #bannerCon {
+    width: 5760px;
+    height: 470px;
+    border-bottom: 1px solid #CCC;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+main #banner #bannerCon > div {
+    width: 1920px;
+    float: left;
+}
+
+main #banner h2 {
+    width: 1000px;
+    height: 470px;
+    margin: 0 auto;
+    padding: 0;
+    position: relative;
+    left: 0;
+}
+
+main #banner h2 #bannerButton {
+    position: absolute;
+    top: 321px;
+    left: 0px;
+    z-index: 9998;
+    width: 655px;
+    height: 72px;
+}
+
+main #banner h2 #bannerButton li {
+    text-indent: -9999px;
+    float: left;
+}
+
+main #banner h2 #bannerButton li a {
+    width: 174px;
+    height: 49px;
+    display: block;
+}
+
+main #banner h2 #bannerButton li.bottom1 {
+    background: url(../images/contact.png) no-repeat left top;
+}
+
+main #banner h2 #bannerButton li.bottom2 {
+    background: url(../images/more.png) no-repeat left top;
+    margin-left: 25px;
+}
+
+main #banner h2 #bannerButton li.bottom1:hover, main #banner h2 #bannerButton li.bottom2:hover, main #banner h2 #bannerButton li.bottom3:hover, main #banner h2 #bannerButton li.bottom4:hover,
+main #banner h2 #bannerButton li.bottom5:hover, main #banner h2 #bannerButton li.bottom6:hover, main #banner h2 #bannerButton li.bottom7:hover {
+    background-position: right top;
+}
+
+main #banner .banner_01 {
+    background: url(../images/banner_bg1.jpg) no-repeat center center;
+}
+
+main #banner .banner_02 {
+    background: url(../images/banner_bg2.jpg) no-repeat center center;
+}
+
+main #banner .banner_03 {
+    background: url(../images/banner_bg3.jpg) no-repeat center center;
+}
+
+main #banner #bannerOrder {
+    width: 100%;
+    height: 70px;
+    background: url(../images/buttonBg.png) repeat-x top left;
+    position: absolute;
+    top: 400px;
+    left: 0;
+    z-index: 9999;
+}
+
+main #banner #bannerOrder > ul {
+    width: 294px;
+    height: 70px;
+    padding-left: 806px;
+    margin: 0 auto;
+}
+
+main #banner #bannerOrder > ul > li {
+    width: 80px;
+    height: 45px;
+    float: left;
+    margin-left: 10px;
+    border: 4px solid #fff;
+    position: relative;
+    cursor: pointer;
+}
+
+main #banner #bannerOrder > ul > li.now {
+    margin-top: -10px;
+}
+
+main #banner #bannerOrder .bannerDes {
+    width: 285px;
+    height: 70px;
+    background: url(../images/bannerDes.png) no-repeat left top;
+    position: absolute;
+    top: -94px;
+    left: -220px;
+    padding: 10px;
+    display: none;
+}
+
+main #banner #bannerOrder .bannerDes img {
+    float: left;
+}
+
+main #banner #bannerOrder .bannerDes p {
+    width: 215px;
+    color: #fff;
+    font-family: "微軟正黑體", "新細明體", Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    text-align: justify;
+    line-height: 18px;
+    float: right;
+    margin-top: 5px;
+}
+
+main #banner #bannerOrder .bannerDes .bannerTitle {
+    color: #ffc001;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+main h2 {
+    width: 100%;
+    color: #676767;
+    font-family: "微軟正黑體", "新細明體", Arial;
+    font-size: 34px;
+    line-height: 1.5;
+    text-align: center;
+    margin: 60px 0px 20px 0px;
+    letter-spacing: 1px;
+}
+
+main .foreword {
+    font-size: 20px;
+    color: #000;
+    line-height: 1.5;
+    font-family: "微軟正黑體", "新細明體", Arial;
+    text-align: center;
+    margin: 20px 0px 30px 0px;
+    letter-spacing: 1px;
+}
+
+main #Foreword {
+    width: 100%;
+    background: url(../images/ForewordBg2.png) #eeeeee no-repeat top;
+    padding: 30px 0 70px;
+    margin-top: 0px;
+}
+
+main #Foreword p {
+    margin: 0 auto;
+    width: 950px;
+    padding: 20px 0 50px 0;
+    font-family: "微軟正黑體", "新細明體",Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    line-height: 1.8;
+    letter-spacing: 1px;
+    color: #FFF;
+    font-weight: bold;
+}
+
+main #EAS {
+    width: 100%;
+    background: url(../images/EASbg.png) #eeeeee no-repeat top;
+    padding: 0px 0 55px;
+}
+
+main #EAS #industryTxt {
+    position: relative;
+    margin-top: 40px;
+}
+
+main #EAS #industryTxt li {
+    width: 180px;
+    height: 180px;
+    color: #fff;
+    font-size: 19px;
+    text-align: center;
+    margin: 0 25px 25px 0;
+    overflow: hidden;
+    float: left;
+    position: relative;
+    background: url(../images/industry.png) no-repeat;
+    border-radius: 13px;
+    -moz-border-radius: 13px;
+    -webkit-border-radius: 13px;
+}
+
+main #EAS #industryTxt li.end {
+    margin-right: 0px;
+}
+
+main #EAS #industryTxt a {
+    color: #fff;
+}
+
+main #EAS #industryTxt .indName {
+    width: 180px;
+    height: 55px;
+    padding-top: 125px;
+}
+
+main #EASTAB {
+    width: 960px;
+    height: 1150px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+main #EASTAB h2 {
+    font-size: 28px;
+    color: #ffffff;
+    font-family: "微軟正黑體", "新細明體", Arial;
+    line-height: 1.5;
+    text-align: center;
+    margin: 0 auto;
+    letter-spacing: 2px;
+    text-align: left;
+    background: url(../images/Etopbg.png) no-repeat top left;
+    padding: 20px 0px 20px 110px;
+    margin-bottom: 20px;
+}
+
+main #EASTxt {
+    position: relative;
+}
+
+main #EASTxt #num1 {
+    cursor: pointer;
+    position: absolute;
+    left: 190px;
+    top: 800px;
+}
+
+main #EASTxt #num1b {
+    z-index: 1;
+    display: block;
+    text-align: center;
+    font-size: 28px;
+    color: #f1592a;
+    font-family: "微軟正黑體", "新細明體", Arial;
+    line-height: 1.5;
+    text-align: center;
+}
+
+main #EASTxt #num1b a {
+    text-align: center;
+    font-size: 24px;
+    color: #f1592a;
+    font-family: "微軟正黑體", "新細明體", Arial;
+    line-height: 70px;
+    text-align: center;
+    font-weight: bold;
+    display: block;
+    border: 1px #f1592a solid;
+    letter-spacing: 2px;
+}
+
+main #EASTxt #num1b a:hover {
+    background-color: #FFF;
+}
+
+main #EASTxt #num1 ul {
+    width: 960px;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    list-style: none;
+}
+
+main #EASTxt #num1 li {
+    position: relative;
+    display: inline-block;
+    width: 250px;
+    height: 60px;
+    float: left;
+    margin-left: 20px;
+    background-color: #fff;
+    text-align: center;
+    line-height: 60px;
+    font-size: 17px;
+    font-family: "微軟正黑體", "新細明體";
+    letter-spacing: 2px;
+}
+
+main #EASTxt #num1 li a {
+    position: relative;
+    z-index: 99;
+    display: inline-block;
+    width: 250px;
+    height: 60px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #999;
+}
+
+main #EASTxt #num1 li a.NOWTAB {
+    display: block;
+    background-color: #f1592a;
+    color: #fff;
+}
+
+main #EASTxt #blockCon1 {
+    clear: both;
+    width: 7680px;
+    height: 900px;
+    margin: 0 auto;
+    padding: 0;
+    position: relative;
+    padding-top: 20px;
+}
+
+main #EASTxt .box {
+    float: left;
+    z-index: 11;
+    width: 960px;
+    margin-top: 0px;
+    margin-bottom: 15px;
+    position: relative;
+}
+
+main #EASTxt .box img {
+    float: left;
+    padding: 5px;
+    padding-top: 30px;
+}
+
+main #EASTxt .box h3 {
+    font-size: 22px;
+    color: #eb5d5d;
+    text-align: center;
+    margin: 20px;
+    padding-bottom: 5px;
+    font-family: "微軟正黑體", "新細明體";
+}
+
+main #EASTxt .box ul {
+    width: 850px;
+    color: #1b1b1b;
+    font-family: "微軟正黑體" , Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    letter-spacing: 1px;
+    margin: 10px 20px 20px 80px;
+}
+
+main #EASTxt .box li {
+    list-style: disc outside none;
+    margin-bottom: 2px;
+}
+
+main #EASTxt #box1 {
+    display: block;
+    width: 950px;
+    height: 700px;
+    background: url(../images/EAS01.png) no-repeat left top;
+    position: relative;
+    color: #FFF;
+}
+
+main #EASTxt #box1 #easbtn {
+    color: #FFF;
+}
+
+main #EASTxt #box1 #easbtn a:link {
+    color: #FFF;
+    text-align: center;
+    display: block;
+    width: 180px;
+    height: 40px;
+    background-color: #F60;
+    position: absolute;
+    line-height: 40px;
+    font-family: "微軟正黑體" , Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    left: 740px;
+    top: 536px;
+}
+
+main #EASTxt #box1 #easbtn a:hover {
+    color: #FFF;
+    background: #000;
+}
+
+main #EASTxt #box1 #easbtn a:visited {
+    color: #FFF;
+}
+
+main #EASTxt #box1 #easbtn a:active {
+    color: #FFF;
+}
+
+main #EASTxt .now2 {
+    left: 0;
+}
+
+main #button {
+    width: 458px;
+    margin: 0 auto;
+}
+
+main #button p {
+    width: 174px;
+    height: 49px;
+    float: left;
+    text-indent: -9999px;
+}
+
+main #button #contactDSC {
+    background: url(../images/contact.png) no-repeat left top;
+}
+
+main #button #back {
+    background: url(../images/download.png) no-repeat left top;
+    margin-left: 30px;
+}
+
+main #button #contactDSC:hover, main #button #back:hover {
+    background-position: right top;
+}
+
+main #EASTxt .download5 {
+    width: 174px;
+    height: 49px;
+    display: block;
+    background: url(../images/download5.png) no-repeat left top;
+    margin: 0 auto;
+    text-indent: -9999px;
+}
+
+main #EASTxt .download5 a {
+    display: block;
+    height: 49px;
+    background: url(../images/download5.png) no-repeat left top;
+    margin: 0 auto;
+    text-indent: -9999px;
+}
+
+main #EASTxt .download5 a:hover {
+    background-position: right top;
+}
+
+main #case {
+    width: 100%;
+    background: url(../images/casebg.png) #eeeeee no-repeat top;
+    padding: 10px 0 55px;
+}
+
+main #case #industryTxt {
+    position: relative;
+    margin-top: 40px;
+}
+
+main #case #industryTxt li {
+    width: 180px;
+    height: 180px;
+    color: #fff;
+    font-size: 19px;
+    text-align: center;
+    margin: 0 25px 25px 0;
+    overflow: hidden;
+    float: left;
+    position: relative;
+    background: url(../images/industry.png) no-repeat;
+    border-radius: 13px;
+    -moz-border-radius: 13px;
+    -webkit-border-radius: 13px;
+}
+
+main #case #industryTxt li.end {
+    margin-right: 0px;
+}
+
+main #case #industryTxt a {
+    color: #fff;
+}
+
+main #case #industryTxt .indName {
+    width: 180px;
+    height: 55px;
+    padding-top: 125px;
+}
+
+main #caseTAB {
+    width: 960px;
+    height: 1150px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+main #caseTAB h2 {
+    font-size: 28px;
+    color: #ffffff;
+    font-family: "微軟正黑體", "新細明體", Arial;
+    line-height: 1.5;
+    text-align: center;
+    margin: 0 auto;
+    letter-spacing: 2px;
+    text-align: left;
+    background: url(../images/Ctopbg.png) no-repeat top left;
+    padding: 15px 0px 20px 110px;
+    margin-bottom: 20px;
+}
+
+main #caseTxt {
+    position: relative;
+}
+
+main #caseTxt #num2 {
+    cursor: pointer;
+    position: absolute;
+    left: 190px;
+    top: 800px;
+}
+
+main #caseTxt #num2 ul {
+    width: 960px;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    list-style: none;
+}
+
+main #caseTxt #num2 li {
+    position: relative;
+    display: inline-block;
+    width: 250px;
+    height: 60px;
+    float: left;
+    margin-left: 20px;
+    background-color: #fff;
+    text-align: center;
+    line-height: 60px;
+    font-size: 17px;
+    font-family: "微軟正黑體", "新細明體";
+    letter-spacing: 2px;
+}
+
+main #caseTxt #num2 li a {
+    position: relative;
+    z-index: 99;
+    display: inline-block;
+    width: 250px;
+    height: 60px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #999;
+}
+
+main #caseTxt #num2 li a.NOWTAB {
+    display: block;
+    background-color: #bc8354;
+    color: #fff;
+}
+
+main #caseTxt #blockCon2 {
+    clear: both;
+    width: 7680px;
+    height: 900px;
+    margin: 0 auto;
+    padding: 0;
+    position: relative;
+    padding-top: 20px;
+}
+
+main #caseTxt #num2b {
+    z-index: 1;
+    display: block;
+    text-align: center;
+    font-size: 28px;
+    color: #bc8354;
+    font-family: "微軟正黑體", "新細明體", Arial;
+    line-height: 1.5;
+    text-align: center;
+}
+
+main #caseTxt #num2b a {
+    text-align: center;
+    font-size: 24px;
+    color: #bc8354;
+    font-family: "微軟正黑體", "新細明體", Arial;
+    line-height: 70px;
+    text-align: center;
+    font-weight: bold;
+    display: block;
+    border: 1px #bc8354 solid;
+    letter-spacing: 2px;
+}
+
+main #caseTxt .box {
+    float: left;
+    z-index: 11;
+    width: 960px;
+    margin-top: 0px;
+    margin-bottom: 15px;
+    position: relative;
+}
+
+main #caseTxt .box img {
+    float: left;
+    padding: 5px;
+    padding-top: 30px;
+}
+
+main #caseTxt .box h3 {
+    font-size: 22px;
+    color: #eb5d5d;
+    text-align: center;
+    margin: 20px;
+    padding-bottom: 5px;
+    font-family: "微軟正黑體", "新細明體";
+}
+
+main #caseTxt .box ul {
+    width: 850px;
+    color: #1b1b1b;
+    font-family: "微軟正黑體" , Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    letter-spacing: 1px;
+    margin: 10px 20px 20px 80px;
+}
+
+main #caseTxt .box li {
+    list-style: disc outside none;
+    margin-bottom: 2px;
+}
+
+main #caseTxt #box1 {
+    display: block;
+    width: 950px;
+    height: 700px;
+    background: url(../images/case01.png) no-repeat left top;
+    position: relative;
+    color: #FFF;
+}
+
+main #caseTxt #box1 #casebtn a:link {
+    color: #FFF;
+    text-align: center;
+    display: block;
+    width: 180px;
+    height: 40px;
+    background: #d3ae77;
+    position: absolute;
+    line-height: 40px;
+    font-family: "微軟正黑體" , Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    left: 719px;
+    top: 515px;
+}
+
+main #caseTxt #box1 #casebtn a:hover {
+    color: #FFF;
+    background: #000;
+}
+
+main #caseTxt #box1 #casebtn a:visited {
+    color: #FFF;
+}
+
+main #caseTxt #box1 #casebtn a:active {
+    color: #FFF;
+}
+
+main #caseTxt .now2 {
+    left: 0;
+}
+
+main #button {
+    width: 458px;
+    margin: 0 auto;
+}
+
+main #button p {
+    width: 174px;
+    height: 49px;
+    float: left;
+    text-indent: -9999px;
+}
+
+main #button #contactDSC {
+    background: url(../images/contact.png) no-repeat left top;
+}
+
+main #button #back {
+    background: url(../images/download.png) no-repeat left top;
+    margin-left: 30px;
+}
+
+main #button #contactDSC:hover, main #button #back:hover {
+    background-position: right top;
+}
+
+main #caseTxt .download5 {
+    width: 174px;
+    height: 49px;
+    display: block;
+    background: url(../images/download5.png) no-repeat left top;
+    margin: 0 auto;
+    text-indent: -9999px;
+}
+
+main #caseTxt .download5 a {
+    display: block;
+    height: 49px;
+    background: url(../images/download5.png) no-repeat left top;
+    margin: 0 auto;
+    text-indent: -9999px;
+}
+
+main #caseTxt .download5 a:hover {
+    background-position: right top;
+}
+
+main #receipt {
+    width: 100%;
+    background: url(../images/receiptbg.png) #eeeeee no-repeat top;
+    padding: 10px 0 55px;
+}
+
+main #receipt #industryTxt {
+    position: relative;
+    margin-top: 40px;
+}
+
+main #receipt #industryTxt li {
+    width: 180px;
+    height: 180px;
+    color: #fff;
+    font-size: 19px;
+    text-align: center;
+    margin: 0 25px 25px 0;
+    overflow: hidden;
+    float: left;
+    position: relative;
+    background: url(../images/industry.png) no-repeat;
+    border-radius: 13px;
+    -moz-border-radius: 13px;
+    -webkit-border-radius: 13px;
+}
+
+main #receipt #industryTxt li.end {
+    margin-right: 0px;
+}
+
+main #receipt #industryTxt a {
+    color: #fff;
+}
+
+main #receipt #industryTxt .indName {
+    width: 180px;
+    height: 55px;
+    padding-top: 125px;
+}
+
+main #receiptTAB {
+    width: 960px;
+    height: 1150px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+main #receiptTAB h2 {
+    font-size: 28px;
+    color: #ffffff;
+    font-family: "微軟正黑體", "新細明體", Arial;
+    line-height: 1.5;
+    text-align: center;
+    margin: 0 auto;
+    letter-spacing: 2px;
+    text-align: left;
+    background: url(../images/rtopbg.png) no-repeat top left;
+    padding: 15px 0px 20px 110px;
+    margin-bottom: 20px;
+}
+
+main #receiptTxt {
+    position: relative;
+}
+
+main #receiptTxt #num3 {
+    cursor: pointer;
+    position: absolute;
+    left: 190px;
+    top: 800px;
+}
+
+main #receiptTxt #num3 ul {
+    width: 960px;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    list-style: none;
+}
+
+main #receiptTxt #num3 li {
+    position: relative;
+    display: inline-block;
+    width: 250px;
+    height: 60px;
+    float: left;
+    margin-left: 20px;
+    background-color: #fff;
+    text-align: center;
+    line-height: 60px;
+    font-size: 17px;
+    font-family: "微軟正黑體", "新細明體";
+    letter-spacing: 2px;
+}
+
+main #receiptTxt #num3 li a {
+    position: relative;
+    z-index: 99;
+    display: inline-block;
+    width: 250px;
+    height: 60px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #999;
+}
+
+main #receiptTxt #num3 li a.NOWTAB {
+    display: block;
+    background-color: #32b1b8;
+    color: #fff;
+}
+
+main #receiptTxt #num3b {
+    z-index: 1;
+    display: block;
+    text-align: center;
+    font-size: 28px;
+    color: #32b1b8;
+    font-family: "微軟正黑體", "新細明體", Arial;
+    line-height: 1.5;
+    text-align: center;
+}
+
+main #receiptTxt #num3b a {
+    text-align: center;
+    font-size: 24px;
+    color: #32b1b8;
+    font-family: "微軟正黑體", "新細明體", Arial;
+    line-height: 70px;
+    text-align: center;
+    font-weight: bold;
+    display: block;
+    border: 1px #32b1b8 solid;
+    letter-spacing: 2px;
+}
+
+main #receiptTxt #num3b a:hover {
+    background-color: #FFF;
+}
+
+main #receiptTxt #blockCon3 {
+    clear: both;
+    width: 7680px;
+    height: 900px;
+    margin: 0 auto;
+    padding: 0;
+    position: relative;
+    padding-top: 20px;
+}
+
+main #receiptTxt .box {
+    float: left;
+    z-index: 11;
+    width: 960px;
+    margin-top: 0px;
+    margin-bottom: 15px;
+    position: relative;
+}
+
+main #receiptTxt .box img {
+    float: left;
+    padding: 5px;
+    padding-top: 30px;
+}
+
+main #receiptTxt .box h3 {
+    font-size: 22px;
+    color: #eb5d5d;
+    text-align: center;
+    margin: 20px;
+    padding-bottom: 5px;
+    font-family: "微軟正黑體", "新細明體";
+}
+
+main #receiptTxt .box ul {
+    width: 850px;
+    color: #1b1b1b;
+    font-family: "微軟正黑體" , Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    letter-spacing: 1px;
+    margin: 10px 20px 20px 80px;
+}
+
+main #receiptTxt .box li {
+    list-style: disc outside none;
+    margin-bottom: 2px;
+}
+
+main #receiptTxt #box1 {
+    display: block;
+    width: 950px;
+    height: 700px;
+    background: url(../images/receipt01.png) no-repeat left top;
+    position: relative;
+    color: #FFF;
+}
+
+main #receiptTxt #box1 #receiptbtn a:link {
+    color: #FFF;
+    text-align: center;
+    display: block;
+    width: 180px;
+    height: 40px;
+    background: #41c1c8;
+    position: absolute;
+    line-height: 40px;
+    font-family: "微軟正黑體" , Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    left: 738px;
+    top: 534px;
+}
+
+main #receiptTxt #box1 #receiptbtn a:hover {
+    color: #FFF;
+    background: #000;
+}
+
+main #receiptTxt .now2 {
+    left: 0;
+}
+
+main #button {
+    width: 458px;
+    margin: 0 auto;
+}
+
+main #button p {
+    width: 174px;
+    height: 49px;
+    float: left;
+    text-indent: -9999px;
+}
+
+main #button #contactDSC {
+    background: url(../images/contact.png) no-repeat left top;
+}
+
+main #button #back {
+    background: url(../images/download.png) no-repeat left top;
+    margin-left: 30px;
+}
+
+main #button #contactDSC:hover, main #button #back:hover {
+    background-position: right top;
+}
+
+main #caseTxt .download5 {
+    width: 174px;
+    height: 49px;
+    display: block;
+    background: url(../images/download5.png) no-repeat left top;
+    margin: 0 auto;
+    text-indent: -9999px;
+}
+
+main #caseTxt .download5 a {
+    display: block;
+    height: 49px;
+    background: url(../images/download5.png) no-repeat left top;
+    margin: 0 auto;
+    text-indent: -9999px;
+}
+
+main #caseTxt .download5 a:hover {
+    background-position: right top;
+}
+
+main #programbg {
+    width: 100%;
+    background: #ffffff no-repeat top;
+    padding: 10px 0 55px;
+    height: 1100px;
+}
+
+main #programbg {
+    margin: 0 auto;
+    width: 960px;
+    padding: 10px 0 55px 0;
+    height: 1100px;
+}
+
+main #programbg p {
+    font-size: 20px;
+    color: #000;
+    line-height: 1.5;
+    font-family: "微軟正黑體", "新細明體", Arial;
+    text-align: center;
+    margin: 20px 0px 30px 0px;
+    letter-spacing: 1px;
+}
+
+main .solutionbg {
+    width: 100%;
+    overflow: hidden;
+    padding: 0px 0px 30px 0px;
+    background: #e8c899;
+    background-position: top center;
+    background-repeat: no-repeat;
+}
+
+main #solution {
+    width: 980px;
+    overflow: hidden;
+    margin: 0 auto;
+    padding-top: 30px;
+    font-family: "微軟正黑體", Arial, Helvetica, sans-serif;
+    padding-bottom: 30px;
+}
+
+main #solution .secLi1 a {
+    display: block;
+    float: left;
+    width: 150px;
+    overflow: hidden;
+    font-family: "微軟正黑體", "新細明體",Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 22px;
+    letter-spacing: 1px;
+    text-align: center;
+    padding-top: 110px;
+    background: url(../images/iconbtn.png) top left no-repeat;
+    margin: 0 40px 20px 30px;
+    color: #000;
+}
+
+main #solution .secLi1 a:hover {
+    box-sizing: border-box;
+    background-position: top right;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+main #solution .secLi2 a {
+    display: block;
+    float: left;
+    width: 150px;
+    overflow: hidden;
+    font-family: "微軟正黑體", "新細明體",Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 32px;
+    letter-spacing: 1px;
+    text-align: center;
+    padding-top: 110px;
+    background: url(../images/iconbtn.png) 0 -150px no-repeat;
+    margin: 0 40px 40px 0;
+    color: #000;
+}
+
+main #solution .secLi2 a:hover {
+    box-sizing: border-box;
+    background: url(../images/iconbtn.png) right -150px no-repeat;
+    overflow: hidden;
+}
+
+main #solution .secLi3 a {
+    display: block;
+    float: left;
+    width: 150px;
+    overflow: hidden;
+    font-family: "微軟正黑體", "新細明體",Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 22px;
+    letter-spacing: 1px;
+    text-align: center;
+    padding-top: 110px;
+    background: url(../images/iconbtn.png) 0 -300px no-repeat;
+    margin: 0 40px 20px 0;
+    color: #000;
+}
+
+main #solution .secLi3 a:hover {
+    box-sizing: border-box;
+    background: url(../images/iconbtn.png) right -300px no-repeat;
+    overflow: hidden;
+}
+
+main #solution .secLi4 a {
+    display: block;
+    float: left;
+    width: 150px;
+    overflow: hidden;
+    font-family: "微軟正黑體", "新細明體",Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 32px;
+    letter-spacing: 1px;
+    text-align: center;
+    padding-top: 110px;
+    background: url(../images/iconbtn.png) 0 -450px no-repeat;
+    margin: 0 40px 40px 0;
+    color: #000;
+}
+
+main #solution .secLi4 a:hover {
+    box-sizing: border-box;
+    background: url(../images/iconbtn.png) right -450px no-repeat;
+    overflow: hidden;
+}
+
+main #solution .secLi5 a {
+    display: block;
+    float: left;
+    width: 150px;
+    overflow: hidden;
+    font-family: "微軟正黑體", "新細明體",Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 32px;
+    letter-spacing: 1px;
+    text-align: center;
+    padding-top: 110px;
+    background: url(../images/iconbtn.png) 0 -600px no-repeat;
+    margin: 0 40px 40px 0;
+    color: #000;
+}
+
+main #solution .secLi5 a:hover {
+    box-sizing: border-box;
+    background: url(../images/iconbtn.png) right -600px no-repeat;
+    overflow: hidden;
+}
+
+main #solution .secLi6 a {
+    display: block;
+    float: left;
+    width: 150px;
+    overflow: hidden;
+    font-family: "微軟正黑體", "新細明體",Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 32px;
+    letter-spacing: 1px;
+    text-align: center;
+    padding-top: 110px;
+    background: url(../images/iconbtn.png) 0 -750px no-repeat;
+    margin: 0 40px 40px 30px;
+    color: #000;
+}
+
+main #solution .secLi6 a:hover {
+    box-sizing: border-box;
+    background: url(../images/iconbtn.png) right -750px no-repeat;
+    overflow: hidden;
+}
+
+main #solution .secLi7 a {
+    display: block;
+    float: left;
+    width: 150px;
+    overflow: hidden;
+    font-family: "微軟正黑體", "新細明體",Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 32px;
+    letter-spacing: 1px;
+    text-align: center;
+    padding-top: 110px;
+    background: url(../images/iconbtn.png) 0 -900px no-repeat;
+    margin: 0 40px 40px 0;
+    color: #000;
+}
+
+main #solution .secLi7 a:hover {
+    box-sizing: border-box;
+    background: url(../images/iconbtn.png) right -900px no-repeat;
+    overflow: hidden;
+}
+
+main #solution .secLi8 a {
+    display: block;
+    float: left;
+    width: 150px;
+    overflow: hidden;
+    font-family: "微軟正黑體", "新細明體",Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 32px;
+    letter-spacing: 1px;
+    text-align: center;
+    padding-top: 110px;
+    background: url(../images/iconbtn.png) 0 -1050px no-repeat;
+    margin: 0 40px 40px 0;
+    color: #000;
+}
+
+main #solution .secLi8 a:hover {
+    box-sizing: border-box;
+    background: url(../images/iconbtn.png) right -1050px no-repeat;
+    overflow: hidden;
+}
+
+main #solution .secLi9 a {
+    display: block;
+    float: left;
+    width: 150px;
+    overflow: hidden;
+    font-family: "微軟正黑體", "新細明體",Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 32px;
+    letter-spacing: 1px;
+    text-align: center;
+    padding-top: 110px;
+    background: url(../images/iconbtn.png) 0 -1200px no-repeat;
+    margin: 0 40px 40px 0;
+    color: #000;
+}
+
+main #solution .secLi9 a:hover {
+    box-sizing: border-box;
+    background: url(../images/iconbtn.png) right -1200px no-repeat;
+    overflow: hidden;
+}
+
+main #solution .secLi10 a {
+    display: block;
+    float: left;
+    width: 150px;
+    overflow: hidden;
+    font-family: "微軟正黑體", "新細明體",Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 32px;
+    letter-spacing: 1px;
+    text-align: center;
+    padding-top: 110px;
+    background: url(../images/iconbtn.png) 0 -1350px no-repeat;
+    margin: 0 40px 40px 0;
+    color: #000;
+}
+
+main #solution .secLi10 a:hover {
+    box-sizing: border-box;
+    background: url(../images/iconbtn.png) right -1350px no-repeat;
+    overflow: hidden;
+}
+
+main #solution .secLi11 a {
+    display: block;
+    float: left;
+    width: 150px;
+    overflow: hidden;
+    font-family: "微軟正黑體", "新細明體",Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 32px;
+    letter-spacing: 1px;
+    text-align: center;
+    padding-top: 110px;
+    background: url(../images/iconbtn.png) 0 -1500px no-repeat;
+    margin: 0 40px 40px 30px;
+    color: #000;
+}
+
+main #solution .secLi11 a:hover {
+    box-sizing: border-box;
+    background: url(../images/iconbtn.png) right -1500px no-repeat;
+    overflow: hidden;
+}
+
+main #solution .secLi12 a {
+    display: block;
+    float: left;
+    width: 150px;
+    overflow: hidden;
+    font-family: "微軟正黑體", "新細明體",Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 32px;
+    letter-spacing: 1px;
+    text-align: center;
+    padding-top: 110px;
+    background: url(../images/iconbtn.png) 0 -1650px no-repeat;
+    margin: 0 40px 40px 0;
+    color: #000;
+}
+
+main #solution .secLi12 a:hover {
+    box-sizing: border-box;
+    background: url(../images/iconbtn.png) right -1650px no-repeat;
+    overflow: hidden;
+}
+
+main #solution .secLi13 a {
+    display: block;
+    float: left;
+    width: 150px;
+    overflow: hidden;
+    font-family: "微軟正黑體", "新細明體",Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 32px;
+    letter-spacing: 1px;
+    text-align: center;
+    padding-top: 110px;
+    background: url(../images/iconbtn.png) 0 -1800px no-repeat;
+    margin: 0 40px 40px 0;
+    color: #000;
+}
+
+main #solution .secLi13 a:hover {
+    box-sizing: border-box;
+    background: url(../images/iconbtn.png) right -1800px no-repeat;
+    overflow: hidden;
+}
+
+main #solution .secLi14 a {
+    display: block;
+    float: left;
+    width: 150px;
+    overflow: hidden;
+    font-family: "微軟正黑體", "新細明體",Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 32px;
+    letter-spacing: 1px;
+    text-align: center;
+    padding-top: 110px;
+    background: url(../images/iconbtn.png) 0 -1950px no-repeat;
+    margin: 0 40px 40px 0;
+    color: #000;
+}
+
+main #solution .secLi14 a:hover {
+    box-sizing: border-box;
+    background: url(../images/iconbtn.png) right -1950px no-repeat;
+    overflow: hidden;
+}
+
+main #solution .secLi15 a {
+    display: block;
+    float: left;
+    width: 150px;
+    overflow: hidden;
+    font-family: "微軟正黑體", "新細明體",Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 32px;
+    letter-spacing: 1px;
+    text-align: center;
+    padding-top: 110px;
+    background: url(../images/iconbtn.png) 0 -2100px no-repeat;
+    margin: 0 40px 40px 0;
+    color: #000;
+}
+
+main #solution .secLi15 a:hover {
+    box-sizing: border-box;
+    background: url(../images/iconbtn.png) right -2100px no-repeat;
+    overflow: hidden;
+}

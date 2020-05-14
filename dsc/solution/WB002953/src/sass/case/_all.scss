@@ -1,0 +1,27 @@
+main {
+    min-width: 360px;
+    font-size: 18px;
+    line-height: 1.6;
+    .container {
+        margin: 0 auto;
+        padding: 0 20px;
+        max-width: $content-width;
+        @media (min-width: $content-width) {
+            padding-right: 0;
+            padding-left: 0;
+        }
+    }
+    .mainTitle {
+        font-weight: bold;
+        font-size: 30px;
+    }
+    .sectionTitle {
+        padding-top: 50px;
+        text-align: center;
+        letter-spacing: getLetterSpacing(75);
+        font-size: 26px;
+        @media (min-width: $tablet-width + 1) {
+            font-size: 36px;
+        }
+    }
+}

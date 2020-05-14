@@ -1,0 +1,16 @@
+工程業改CSS
+
+使用Visual 打開
+
+先在WB002899 按右鍵 > 終端機開啟 > 打gulp
+
+再更改資料夾 sass  相對應頁面的 .scss
+
+例如 case 頁面  就更改  _case.scss 
+
+存檔後CSS 裡的 style.css就會更新
+
+
+開啟FTP上傳CSS 裡的 style.css
+
+ 

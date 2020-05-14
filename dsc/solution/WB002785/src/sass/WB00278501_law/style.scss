@@ -1,0 +1,54 @@
+@import '../common';
+@import 'components';
+
+main {
+    .laws {
+        @include bg('../../images/WB00278501_law/laws-bg-s.jpg');
+        padding: 70px 0;
+        @media (min-width: $tablet-width + 1) {
+            background-image: url('../../images/WB00278501_law/laws-bg.jpg');
+        }
+        .container {
+            display: flex;
+            margin: -15px auto;
+            max-width: 360px;
+            flex-wrap: wrap;
+            @media (min-width: $tablet-width + 1) {
+                max-width: $content-width;
+            }
+        }
+        a {
+            display: flex;
+            margin: 15px 0;
+            width: 100%;
+            color: #ec9f0a;
+            letter-spacing: getLetterSpacing(25);
+            font-weight: bold;
+            font-size: 20px;
+            line-height: 30px;
+            align-items: center;
+            @media (min-width: $tablet-width + 1) {
+                width: 50%;
+            }
+            &::before {
+                margin-right: 5px;
+                width: 49px;
+                height: 49px;
+                background-image: url(../../images/WB00278501_law/law-icon.png);
+                content: '';
+            }
+        }
+        p {
+            margin-top: 20px;
+            width: 100%;
+            color: #5c5c5c;
+            letter-spacing: getLetterSpacing(25);
+            font-size: 18px;
+            line-height: 30px;
+            @media (min-width: $tablet-width + 1) {
+                margin-top: 60px;
+                font-size: 14px;
+            }
+        }
+    }
+}

@@ -1,0 +1,348 @@
+{
+    "index": {
+        "banner": [
+            {
+                "id": 1,
+                "title": [
+                    "民以食為天<br>餐飲業商機節節攀升，<br>你掌握了嗎？",
+                    "民以食為天<br>餐飲業商機節節攀升，你掌握了嗎？"
+                ],
+                "desc": [
+                    "107年餐飲營業額達到7,774億，創歷年新高<br>餐飲業看似門檻低，但隨著科技發展，營運及人力成本的增加，管理的難度變高。<br>餐飲業已經迎來一個全新的時代，大洗牌隨時上演，因循守舊，等待的只有淘汰。",
+                    "107年餐飲營業額達到7,774億，創歷年新高，餐飲業看似門檻低，但隨著科技發展，營運及人力成本的增加，管理的難度變高。<br>餐飲業已經迎來一個全新的時代，大洗牌隨時上演，因循守舊，等待的只有淘汰。"
+                ],
+                "imgSrc": [
+                    "images/index/banner1.jpg",
+                    "images/index/banner1-s.jpg"
+                ],
+                "url": "javascript:;"
+            },
+            {
+                "id": 2,
+                "title": ["消費升級，挑戰升級"],
+                "desc": ["消費者持續進化中！<br>不只要好價格，更要好食材、好味道、好體驗。<br>而企業也進化了嗎？<br>隨科技的發展，更需新技術、新工具、新模式。"],
+                "imgSrc": [
+                    "images/index/banner2.jpg",
+                    "images/index/banner2-s.jpg"
+                ],
+                "url": "javascript:;"
+            }
+        ],
+        "progressBars": [
+            {
+                "items": [
+                    {
+                        "text": "同業間競爭激烈",
+                        "percentage": 52.9
+                    },
+                    {
+                        "text": "營業成本上升",
+                        "percentage": 51.7
+                    },
+                    {
+                        "text": "食材成本波動大",
+                        "percentage": 51.7
+                    },
+                    {
+                        "text": "人事成本過高",
+                        "percentage": 49.4
+                    },
+                    {
+                        "text": "人員流動率高",
+                        "percentage": 49
+                    },
+                    {
+                        "text": "租金成本高",
+                        "percentage": 47.1
+                    },
+                    {
+                        "text": "人力短缺",
+                        "percentage": 33.7
+                    },
+                    {
+                        "text": "消費者喜好變化快速",
+                        "percentage": 31.8
+                    },
+                    {
+                        "text": "平價化，毛利降低",
+                        "percentage": 23
+                    },
+                    {
+                        "text": "食材品質不易控制",
+                        "percentage": 13.4
+                    },
+                    {
+                        "text": "找不到合適地點",
+                        "percentage": 11.5
+                    },
+                    {
+                        "text": "受其他業(無店鋪等)競爭",
+                        "percentage": 7.3
+                    },
+                    {
+                        "text": "其他",
+                        "percentage": 6.9
+                    },
+                    {
+                        "text": "海外業務控管困難",
+                        "percentage": 1.9
+                    }
+                ]
+            }
+        ],
+        "collapse": [
+            {
+                "title": "營運成本增加",
+                "desc": "成本持續攀升，如何降損提利",
+                "content": {
+                    "title": "營運成本大大的增加",
+                    "desc": "無法避免營運成本的上漲<br>該如何把成本效益最大化"
+                }
+            },
+            {
+                "title": "偏好瞬息萬變",
+                "desc": "同業競爭激烈，如何異軍突起",
+                "content": {
+                    "title": "瞬息萬變的消費者偏好",
+                    "desc": "一次消費，並不代表就會回購<br>唯有有體驗滿足消費才會再次上門"
+                }
+            },
+            {
+                "title": "管理系統零碎",
+                "desc": "分散管理困難，整合避免重工",
+                "content": {
+                    "title": "管理系統竟是如此零碎",
+                    "desc": "不同的需求對應不同的系統，但是片段及零散的管理<br>造成成本增加但效率並無提昇，整合力決定競爭力"
+                }
+            }
+        ]
+    },
+    "efficiency": {
+        "banner": [
+            {
+                "id": 1,
+                "title": ["效率從消費者體驗旅程開始"],
+                "desc": ["餐廳裝潢只能作為體驗基礎，決定餐廳的風格，<br>但能決定客流的，將是就餐體驗的服務與效率。"],
+                "imgSrc": [
+                    "images/efficiency/banner.jpg",
+                    "images/efficiency/banner-s.jpg"
+                ],
+                "url": "javascript:;"
+            }
+        ],
+        "pains": [
+            {
+                "imgSrc": "images/efficiency/hoverBox-icon1.png",
+                "text": "資訊",
+                "hoverText": "門店POS、電商通路、多元支付、外賣外送平台…一堆資訊軟體加上硬體都要IT管理，無暇顧及之外，資訊最終都還是片段跟散亂！",
+                "color": "#e33737"
+            },
+            {
+                "imgSrc": "images/efficiency/hoverBox-icon2.png",
+                "text": "行銷",
+                "hoverText": "花了一堆廣告錢在社群，但效益都不如預期，每一筆廣告費換來的營收也頂多曇花一現…",
+                "color": "#f26c22"
+            },
+            {
+                "imgSrc": "images/efficiency/hoverBox-icon3.png",
+                "text": "採購",
+                "hoverText": "沒有門店營收即時分析，常常多買或少買，尤其資訊錯誤造成買錯，特別是有效期的食材，所造成重大損失，賠都賠不起!",
+                "color": "#5e5e5e"
+            },
+            {
+                "imgSrc": "images/efficiency/hoverBox-icon4.png",
+                "text": "店長",
+                "hoverText": "除了門店還要經營電商、社群…太多通路都要人工彙總，造成有時供不應求，有時又閒置，越來越辛苦反而利潤更少。",
+                "color": "#d8a136"
+            },
+            {
+                "imgSrc": "images/efficiency/hoverBox-icon5.png",
+                "text": "督導",
+                "hoverText": "店長店員來來去去，人力跟能力都是瓶頸，更別提巡店資料不即時。",
+                "color": "#afb825"
+            },
+            {
+                "imgSrc": "images/efficiency/hoverBox-icon6.png",
+                "text": "老闆",
+                "hoverText": "直營店營收起落，加盟店開幕閉幕，如何有效經營才能穩定執行，門店/市場/品牌等相關的拓展計劃",
+                "color": "#15c5b2"
+            }
+        ]
+    },
+    "member": {
+        "banner": [
+            {
+                "id": 1,
+                "title": ["精準，行銷才能到位。<br>顧客，才會提早就位。"],
+                "desc": ["企業如果不懂精準，將面臨極其危險的窘境。<br>危險在於被動等待、投入大量時間、人力及費用，但回收卻是遙遙無期！<br>唯有精準，配上完善的系統支持，能使顧客體驗滿意，才有核心競爭力！"],
+                "imgSrc": [
+                    "images/member/banner.jpg",
+                    "images/member/banner-s.jpg"
+                ],
+                "url": "javascript:;"
+            }
+        ],
+        "checklist": [
+            [
+                "會員行銷方案帶來多大的效益難計算！",
+                "有一堆會員，但資料不齊全，有等於沒有！",
+                "被動等待客戶下一次的消費！",
+                "缺乏自有會員經營管道！",
+                "越花越多的廣告行銷費用！"
+            ],
+            [
+                "優惠券都有發，但是使用的消費者很少！",
+                "引客的平台很多，但真正變成會員的很少！",
+                "個資問題多，消費者留資料都很保留！",
+                "不用經營會員，靠多年的口碑行銷就夠了！"
+            ]
+        ]
+    },
+    "logistics": {
+        "banner": [
+            {
+                "id": 1,
+                "title": ["精準物流  全面增效<br>打造 <strong>鮮、準、價、效</strong><br>全管道供應鏈"],
+                "desc": [
+                    "食材供應配送的完善，完整供應鏈系統的升級，<br>效率都是驅動餐飲新零售的重要動力",
+                    "食材供應配送的完善，完整供應鏈系統的升級，效率都是驅動餐飲新零售的重要動力"
+                ],
+                "imgSrc": [
+                    "images/logistics/banner.jpg",
+                    "images/logistics/banner-s.jpg"
+                ],
+                "url": "javascript:;"
+            }
+        ],
+        "pains": [
+            {
+                "color": "#9c5454",
+                "imgSrc": "images/logistics/pain-icon1.png",
+                "text": "採購",
+                "hoverText": "每種食材配合的廠商有3家左右，要記得廠商有無固定送貨日、休假日，並跟價格低的廠商叫貨。"
+            },
+            {
+                "color": "#f26c22",
+                "imgSrc": "images/logistics/pain-icon2.png",
+                "text": "物流",
+                "hoverText": "亂無章法的堆放，貨送到門店時還要翻找，食材都不新鮮了。"
+            },
+            {
+                "color": "#ea6a6a",
+                "imgSrc": "images/logistics/pain-icon3.png",
+                "text": "倉管",
+                "hoverText": [
+                    "食材種類多又雜，人腦記憶倉庫位置，揀貨沒效率。",
+                    "進貨與生產入庫皆無登記有效期限，只能靠人為管控避免出快過期的食材給門市。"
+                ]
+            },
+            {
+                "color": "#afb825",
+                "imgSrc": "images/logistics/pain-icon4.png",
+                "text": "門店",
+                "hoverText": [
+                    "賣不夠顧客抱怨，甚至不再上門消費。備太多又擔心賣不好",
+                    "用紙本跟央廚貨總部叫貨，有時會忘記或重複叫貨。"
+                ]
+            },
+            {
+                "color": "#15c5b2",
+                "imgSrc": "images/logistics/pain-icon5.png",
+                "text": "總部",
+                "hoverText": "央廚與門店的預估依據不一樣，而且又重工。用excel做報表，也還要人員經驗判斷，經驗傳承不易。"
+            }
+        ],
+        "hoverBoxs": [
+            {
+                "imgSrc": "images/logistics/hoverBox-icon1.png",
+                "text": "鮮",
+                "hoverText": [
+                    "新鮮",
+                    "食材品質<br>配送效率"
+                ]
+            },
+            {
+                "imgSrc": "images/logistics/hoverBox-icon2.png",
+                "text": "準",
+                "hoverText": [
+                    "準確",
+                    "智能預測<br>以需定供"
+                ]
+            },
+            {
+                "imgSrc": "images/logistics/hoverBox-icon3.png",
+                "text": "價",
+                "hoverText": [
+                    "價值",
+                    "降低成本<br>減少浪費"
+                ]
+            },
+            {
+                "imgSrc": "images/logistics/hoverBox-icon4.png",
+                "text": "效",
+                "hoverText": [
+                    "效率",
+                    "標準化<br>數據化"
+                ]
+            }
+        ]
+    },
+    "payment": {
+        "banner": [
+            {
+                "id": 1,
+                "title": [
+                    "便捷支付，成交快速<br>支付有門道，回購看利道",
+                    "便捷支付，成交快速支付有門道，回購看利道"
+                ],
+                "desc": ["電子支付普及率節節升高，<br>便利與紅利是消費者選擇主因，<br>當消費者習慣已改變，<br>跟上潮流才能吸引人流，轉換金流！"],
+                "imgSrc": [
+                    "images/payment/banner.jpg",
+                    "images/payment/banner-s.jpg"
+                ],
+                "url": "javascript:;"
+            }
+        ],
+        "anchors": [
+            {
+                "text": ["消費<strong>前</strong>", "提高意願<br>促進消費"],
+                "imgSrc": "images/payment/anchor-illust1.png",
+                "bgColor": "#f17e7e"
+            },
+            {
+                "text": ["結帳<strong>中</strong>", "優化體驗<br>降低錯誤"],
+                "imgSrc": "images/payment/anchor-illust2.png",
+                "bgColor": "#ed3e3e"
+            },
+            {
+                "text": ["消費<strong>後</strong>", "提高忠誠<br>促動回購"],
+                "imgSrc": "images/payment/anchor-illust3.png",
+                "bgColor": "#a20a0a"
+            }
+        ],
+        "checklist": {
+            "section2": [
+                [
+                    "支付方式的服務費用(如年費及開通費用)成本越低越好",
+                    "結帳中的導購做的好，消費者買更多",
+                    "每筆交易手續費越低越好",
+                    "讓消費者更方便的付款",
+                    "縮短排隊結帳等待時間，優化消費體驗",
+                    "消費者付款資料安全有保障"
+                ]
+            ],
+            "section3": [
+                [
+                    "支付方式多，才能接觸到更多的消費者",
+                    "要如何留下這些消費者，讓他們變成會員",
+                    "不同支付的金流，該如何整合管理",
+                    "不同支付配合的優惠不同，該如何計算損益",
+                    "要如何避免顧客取消訂單，減少退貨成本",
+                    "減少人員對帳時間，提升作業效率與正確性",
+                    "售後服務做的好，客戶才留的住",
+                    "運用紅利回饋機制，促動回購意願並提高會員忠誠度"
+                ]
+            ]
+        }
+    }
+}

@@ -1,0 +1,127 @@
+main .hoverBox {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    overflow-y: hidden;
+    padding-right: 30px;
+    padding-left: 30px;
+    width: 100%;
+    height: 310px;
+    color: #fff;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    @at-root {
+        $light-color: #8ca5fa #69b4fa;
+        $heavy-color: #7265ed #3987f9;
+        @for $i from 1 through 2 {
+            main .section#{$i+1} .hoverBox {
+                background-color: nth($light-color, $i);
+                &-hover {
+                    background-color: rgba(darken(nth($light-color, $i), 20%), .95);
+                }
+            }
+            main .section#{$i+1} .swiper-slide:nth-child(2n+2) .hoverBox,
+            main .section#{$i+1} .hoverBox:nth-child(2n+2) {
+                background-color: nth($heavy-color, $i);
+            }
+            main .section#{$i+1} .swiper-slide:nth-child(2n+2) .hoverBox .hoverBox-hover,
+            main .section#{$i+1} .hoverBox:nth-child(2n+2) .hoverBox-hover {
+                background-color: rgba(darken(nth($heavy-color, $i), 20%), .95);
+            }
+        }
+    }
+    @media (min-width: $tablet-width+1) {
+        margin: 15px;
+    }
+    @keyframes fadeIn {
+        from {
+            opacity: 0;
+        }
+        to {
+            opacity: 1;
+        }
+    }
+    @keyframes arrow {
+        50% {
+            transform: translate(-50%, 100%);
+        }
+    }
+    @at-root {
+        html.no-mobile main .hoverBox:hover [class$=-hover] {
+            top: 0 !important;
+        }
+    }
+    @media (min-width: $tablet-width+1) {
+        width: 380px;
+    }
+    & [class$=-hover] {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        z-index: 1;
+        width: 100%;
+        height: inherit;
+        @at-root {
+            html.no-mobile main .hoverBox [class$=-hover] {
+                transition: top .4s;
+            }
+        }
+    }
+    &.fadeIn [class$=-hover] * {
+        opacity: 0;
+    }
+    &.fadeIn:hover [class$=-hover] * {
+        animation: fadeIn 1s .4s forwards;
+    }
+    &.arrow::after {
+        position: absolute;
+        top: calc(100% - 24px);
+        left: 50%;
+        color: #fff;
+        content: '\f106';
+        font: normal normal normal 24px/1 FontAwesome;
+        transform: translate(-50%, 0);
+        animation: arrow 1.5s infinite ease-out;
+    }
+    img {
+        margin-bottom: 1em;
+    }
+    &-title {
+        text-align: center;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 1;
+    }
+    &-hover {
+        display: flex;
+        flex-direction: column;
+        padding: 40px 40px 20px 40px;
+        color: #fff;
+        text-align: justify;
+        letter-spacing: getLetterSpacing(25);
+        align-items: center;
+        @media (min-width: $tablet-width+1) {
+            padding-top: 35px;
+            padding-right: 30px;
+            padding-left: 30px;
+        }
+        p {
+            width: 100%;
+            font-size: 16px;
+            line-height: 1.5;
+            flex-grow: 1;
+            @media (min-width: $tablet-width+1) {
+                font-size: 18px;
+                line-height: 1.3;
+            }
+        }
+        strong {
+            color: #fff45c;
+        }
+        a {
+            @include btn(230px, 40px, #000, #fff45c, 5px);
+            font-size: 24px;
+        }
+    }
+}

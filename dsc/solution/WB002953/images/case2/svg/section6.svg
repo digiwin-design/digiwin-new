@@ -1,0 +1,75 @@
+<svg data-name="圖層 3" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 658">
+  <path fill="none" stroke="#7f7f7f" stroke-miterlimit="8" stroke-width="1.501" d="M841.98 295.39h356.1v163.16h-356.1V295.39z"/>
+  <path fill="#5b9bd5" fill-rule="evenodd" d="M.5 494.85h356.52v162.7H.5v-162.7z"/>
+  <path fill="none" stroke="#0065b9" stroke-miterlimit="8" d="M.5 494.32h356.1v163.16H.5V494.32zM.5 40.29h356.1V265.7H.5V40.29z"/>
+  <path d="M43.1 13.47C42.65 6.19 48.83 0 56.56 0h244.4c7.11 0 13.3 6.19 13.46 13.47v56.1A14.07 14.07 0 0 1 300.96 83H56.56c-7.73-.12-13.91-6.3-13.46-13.47V13.47z" fill="#10619e" fill-rule="evenodd"/>
+  <text transform="translate(89.25 49.08)" font-size="29.72" fill="#fff">
+    儲位管理能力
+  </text>
+  <path fill="none" stroke="#dba909" stroke-miterlimit="8" stroke-width="1.501" d="M420.92 40.29h356.03V265.7H420.92V40.29z"/>
+  <path d="M463.5 13.47A13.72 13.72 0 0 1 476.98 0h244.4c7.56 0 13.74 6.19 13.46 13.47v56.1c.28 7.17-5.9 13.35-13.46 13.47h-244.4a13.88 13.88 0 0 1-13.48-13.47v-56.1z" fill="#c1880a" fill-rule="evenodd"/>
+  <text transform="translate(512.22 49.08)" font-size="29.72" fill="#fff">
+    單據即時輸入
+  </text>
+  <path fill="none" stroke="#7f7f7f" stroke-miterlimit="8" stroke-width="1.501" d="M841.98 40.29h356.03V265.7H841.98V40.29z"/>
+  <path d="M883.95 13.47A14.26 14.26 0 0 1 898.5 0h243.29c7.76 0 14 6.19 13.45 13.47v56.1c.5 7.17-5.69 13.35-13.45 13.47H898.5c-8.14-.12-14.32-6.3-14.57-13.47v-56.1z" fill="#636363" fill-rule="evenodd"/>
+  <text transform="translate(934.97 49.08)" font-size="29.72" fill="#fff">
+    降低人力成本
+  </text>
+  <path fill="none" stroke="#0065b9" stroke-miterlimit="8" d="M.5 295.39h356.1v163.16H.5V295.39z"/>
+  <path fill="#eaa732" fill-rule="evenodd" d="M420.92 494.85h356.52v162.7H420.92v-162.7z"/>
+  <path fill="none" stroke="#dba909" stroke-miterlimit="8" stroke-width="1.501" d="M420.92 494.32h356.1v163.16h-356.1V494.32zM420.92 295.39h356.1v163.16h-356.1V295.39z"/>
+  <path fill="#a5a5a5" fill-rule="evenodd" d="M841.98 494.85h356.52v162.7H841.98v-162.7z"/>
+  <path fill="none" stroke="#7f7f7f" stroke-miterlimit="8" stroke-width="1.501" d="M841.98 494.32h356.1v163.16h-356.1V494.32z"/>
+  <text transform="translate(40.9 128.6)" font-size="27.597" fill="#545454">
+    物料倉位以標籤管理，<tspan x="0" y="33.12">系統快速查找，採不定</tspan><tspan x="0" y="66.23">位的架櫃共用，節省空</tspan><tspan x="0" y="99.35">間。</tspan>
+  </text>
+  <text transform="translate(460.83 128.6)" font-size="27.597" fill="#545454">
+    PDA掃馬即時輸入，<tspan x="0" y="33.12">不需人員倉庫及辦公室</tspan><tspan x="0" y="66.23">來回登打。</tspan>
+  </text>
+  <text transform="translate(883.97 128.6)" font-size="27.597" fill="#545454">
+    供應商協同作業平台，<tspan x="0" y="33.12">倉儲作業即時行動化。</tspan>
+  </text>
+  <text transform="translate(40.9 349.02)" font-size="27.597" fill="#545454">
+    物料固定人員管控，找<tspan x="0" y="33.12">不到料。</tspan><tspan x="0" y="66.23">FIFO比率：無。</tspan>
+  </text>
+  <text transform="translate(460.83 349.02)" font-size="27.597" fill="#545454">
+    單據資訊延遲三天以上。<tspan x="0" y="33.12">即時輸入率平均11%。</tspan>
+  </text>
+  <text transform="translate(883.97 349.02)" font-size="27.597" fill="#545454">
+    進料、上架、查找物料、<tspan x="0" y="33.12">打單費時。</tspan>
+  </text>
+  <text transform="translate(40.9 547.2)" font-size="29.72" fill="#fff">
+    百分之百的批號管理<tspan x="0" y="35.66">及用料管控。</tspan><tspan x="0" y="71.33">FIFO比率：100%</tspan>
+  </text>
+  <text transform="translate(464.05 552.02)" font-size="29.72" fill="#fff">
+    單據即時輸入率平均<tspan x="0" y="35.66">90%以上。</tspan>
+  </text>
+  <text transform="translate(883.97 547.2)" font-size="29.72" fill="#fff">
+    減少30人天工時/月<tspan x="0" y="35.66">成本。</tspan>
+  </text>
+  <path fill="#10619e" fill-rule="evenodd" d="M60.64 474.65h60.54v-32.54h119.96v32.54h60.54l-119.96 31.42-121.08-31.42z"/>
+  <path fill="#c1880a" fill-rule="evenodd" d="M479.22 474.65h60.54v-32.54h119.96v32.54h60.54L600.3 506.07l-121.08-31.42z"/>
+  <path fill="#636363" fill-rule="evenodd" d="M903.01 278.28h60.54v-31.42h119.96v31.42h60.54l-119.96 32.54-121.08-32.54z"/>
+  <path fill="#10619e" fill-rule="evenodd" d="M60.64 278.28h59.42v-31.42h121.08v31.42h59.42L180.6 310.82 60.64 278.28z"/>
+  <text transform="translate(139.82 278.61)" font-size="26.931" fill="#fff">
+    B<tspan x="17.36" y="0" letter-spacing="-.011em">e</tspan><tspan x="32.46" y="0" letter-spacing="-.021em">f</tspan><tspan x="41.72" y="0">o</tspan><tspan x="59.02" y="0" letter-spacing="-.012em">r</tspan><tspan x="69.32" y="0" letter-spacing="0em">e</tspan>
+  </text>
+  <text transform="translate(147.14 474.04)" font-size="26.931" fill="#fff">
+    Af<tspan x="29.18" y="0" letter-spacing="-.009em">t</tspan><tspan x="39.31" y="0">er</tspan>
+  </text>
+  <path fill="#c1880a" fill-rule="evenodd" d="M479.22 278.28h60.54v-31.42h119.96v31.42h60.54l-121.08 32.54-119.96-32.54z"/>
+  <text transform="translate(561.26 278.61)" font-size="26.931" fill="#fff">
+    B<tspan x="17.36" y="0" letter-spacing="-.011em">e</tspan><tspan x="32.46" y="0" letter-spacing="-.021em">f</tspan><tspan x="41.72" y="0">o</tspan><tspan x="59.02" y="0" letter-spacing="-.012em">r</tspan><tspan x="69.32" y="0">e</tspan>
+  </text>
+  <text transform="translate(566.43 474.04)" font-size="26.931" fill="#fff">
+    Af<tspan x="29.18" y="0" letter-spacing="-.009em">t</tspan><tspan x="39.31" y="0" letter-spacing="0em">er</tspan>
+  </text>
+  <text transform="translate(983.5 278.61)" font-size="26.931" fill="#fff">
+    B<tspan x="17.36" y="0" letter-spacing="-.011em">e</tspan><tspan x="32.46" y="0" letter-spacing="-.021em">f</tspan><tspan x="41.72" y="0">o</tspan><tspan x="59.02" y="0" letter-spacing="-.012em">r</tspan><tspan x="69.32" y="0">e</tspan>
+  </text>
+  <path fill="#636363" fill-rule="evenodd" d="M903.01 474.65h59.42v-32.54h121.08v32.54h59.42l-119.96 31.42-119.96-31.42z"/>
+  <text transform="translate(990.82 474.04)" font-size="26.931" fill="#fff">
+    Af<tspan x="29.18" y="0" letter-spacing="-.009em">t</tspan><tspan x="39.31" y="0" letter-spacing="0em">er</tspan>
+  </text>
+</svg>

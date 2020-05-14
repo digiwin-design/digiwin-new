@@ -1,0 +1,117 @@
+main.operation {
+    .header {
+        @include bg('operation/banner-s.jpg', 50% 0);
+        @media (min-width: $min-width) {
+            background-image: image-url('operation/banner.jpg');
+        }
+        .container {
+            height: 398px;
+            @media (min-width: $min-width) {
+                height: 500px;
+            }
+        }
+        h2 {
+            font-size: 20px;
+            line-height: 30px;
+        }
+    }
+    .section1 {
+        background-color: #d8d8d8;
+        @media (min-width: $min-width) {
+            &-text {
+                width: 55%;
+            }
+        }
+        .container {
+            @include bg('operation/section1-illust-s.png', -145px 48px);
+            padding-bottom: 55px;
+            @media (min-width: $min-width) {
+                display: flex;
+                min-height: 642px;
+                background-image: image-url('operation/section1-illust.png');
+                background-position: calc(50% - 360px) 40px;
+                justify-content: flex-end;
+            }
+            @media (min-width: $content-width) {
+                background-position: calc(50% - 360px) -36px;
+            }
+        }
+        h1 {
+            margin-bottom: 37px;
+            @media (min-width: $min-width) {
+                margin-bottom: 70px;
+                padding-top: 75px;
+                text-align: left;
+            }
+        }
+        &-list {
+            margin-bottom: 2em;
+            @media (min-width: $min-width) {
+                margin-bottom: 4em;
+            }
+            li {
+                $delay: 0, .5, 1, 1.5, 2, 2.5, 3;
+                position: relative;
+                padding-left: 1em;
+                letter-spacing: getLetterSpacing(75);
+                font-size: 18px;
+                line-height: 24px;
+                &:not(:last-child) {
+                    margin-bottom: 1em;
+                }
+                &::before {
+                    position: absolute;
+                    top: 0;
+                    left: -3px;
+                    width: 1em;
+                    height: 1em;
+                    border: 1px solid #000;
+                    content: '';
+                }
+                i {
+                    position: absolute;
+                    top: 0;
+                    left: -3px;
+                    line-height: 18px;
+                    opacity: 0;
+                }
+                @for $var from 1 through 7 {
+                    &:nth-child(#{$var}) i {
+                        animation-delay: #{nth($delay, $var)}s;
+                    }
+                }
+            }
+        }
+        &-ask {
+            padding-left: 18px;
+            letter-spacing: getLetterSpacing(75);
+            font-size: 20px;
+            line-height: 30px;
+            @media (min-width: $min-width) {
+                font-size: 24px;
+                line-height: 36px;
+            }
+        }
+    }
+    .section2 {
+        section:nth-child(2) {
+            background-color: #e7e7e7;
+        }
+        .container {
+            padding-bottom: 69px;
+        }
+        h1 {
+            margin-bottom: 30px;
+        }
+        strong {
+            color: #ce920d;
+        }
+        img {
+            display: block;
+            margin: 0 auto 42px;
+        }
+        .learnMoreBtn {
+            margin: 0 auto;
+        }
+    }
+}

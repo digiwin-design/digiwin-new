@@ -1,0 +1,32 @@
+[
+    {
+        "id": "1901_index",
+        "title": "企業通電子報 / 數位轉型",
+        "menus": [
+            {
+                "text": "訂閱",
+                "url": "https://www.digiwin.com/tw/enewspaper.html"
+            }
+        ]
+    },
+    {
+        "id": "1902_index",
+        "title": "企業通數位專題 / 二代接班",
+        "menus": [
+            {
+                "text": "訂閱",
+                "url": "https://www.digiwin.com/tw/enewspaper.html"
+            }
+        ]
+    },
+    {
+        "id": "1903_index",
+        "title": "數位轉型專題報 / 美中貿易戰搶商機！產線回流關鍵解析",
+        "menus": [
+            {
+                "text": "訂閱",
+                "url": "https://www.digiwin.com/tw/enewspaper.html"
+            }
+        ]
+    }
+]

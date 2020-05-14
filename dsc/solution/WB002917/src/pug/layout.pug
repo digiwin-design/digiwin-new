@@ -1,0 +1,54 @@
+doctype html
+html(lang='zh-Hant-TW')
+    head
+        meta(charset='UTF-8')
+        meta(name='viewport', content='width=device-width, initial-scale=1.0')
+        meta(http-equiv='X-UA-Compatible', content='ie=edge')
+
+        //- 全站共用
+        link(rel='stylesheet', href='/tw/static/css/public.css')
+        link(rel='stylesheet', href='/tw/static/css/style.css')
+        script(src='/tw/static/js/jquery-1.11.3.min.js')
+
+        //- 全站共用(自定義)
+        script(src='https://polyfill.io/v3/polyfill.js?features=default,fetch,HTMLPictureElement,Array.prototype.find,NodeList.prototype.forEach&flags=gated')
+        script(src='/tw/dsc/assets/modernizr-custom.js')
+        script(src='/tw/dsc/assets/mobile-detect.js')
+        script(src='/tw/dsc/assets/mobile-detect-modernizr.js', defer='')
+        script(src="/tw/dsc/assets/smoothscroll.js", defer)
+        script(src="/tw/dsc/assets/axios.min.js")
+        script(src="/tw/dsc/assets/vuejs/vue-all-dev.js")
+        script(src='/tw/dsc/js/common.min.js')
+
+        //- submenu
+        style.
+            .header-box {
+                height: auto;
+            }
+            .page-submenu {
+                position: fixed;
+                z-index: 28;
+                width: 100%;
+            }
+    body
+        .header-box
+            header
+
+        // 以下為後台內容
+        //- form
+        link(rel='stylesheet', href='/tw/dsc/css/Eform/form-rwd.css')
+        script(src='/tw/dsc/js/Eform/form.js', defer)
+        link(rel='stylesheet', href='/tw/dsc/css/Eform/xcConfirm.css')
+        script(src='/tw/dsc/js/Eform/xcConfirm.js', defer)
+
+        //- submenu
+        link(rel='stylesheet', href='../../assets/submenu/submenu.css')
+        script(src='../../assets/submenu/submenu.min.js')
+
+        block includes
+        
+        main
+            block content
+            
+        include partial/contact_v2.html
+        include ../../../../template/pug/form_component

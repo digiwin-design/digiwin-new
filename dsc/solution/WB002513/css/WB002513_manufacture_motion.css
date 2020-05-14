@@ -1,0 +1,181 @@
+main *, main *:before, main *:after {
+    box-sizing: content-box;
+}
+main #manufacture00 .manufacture00_a {
+  width: 930px;
+  height: 580px;
+  position: relative;
+}
+main .manufacture00_p {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -162px;
+  margin-top: -140px;
+  display: block;
+  width: 324px;
+  height: 254px;
+  background: ;
+}
+main .manufacture00_a img {
+  position: absolute;
+}
+main .manufacture00_a1 {
+  left: 0px;
+  top: 31px;
+}
+main .manufacture00_a2 {
+  right: 0px;
+  top: 15px;
+}
+main .manufacture00_a3 {
+  left: 308px;
+  top: 260px;
+}
+main #manufacture01 .manufacture01_a {
+  width: 950px;
+  height: 505px;
+  position: relative;
+}
+main .manufacture01_p {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -162px;
+  margin-top: -140px;
+  display: block;
+  width: 324px;
+  height: 254px;
+  background: ;
+}
+main .manufacture01_a img {
+  position: absolute;
+}
+main .manufacture01_a1 {
+  left: 2px;
+  top: 17px;
+}
+main .manufacture01_a2 {
+  right: 517px;
+  top: 113px;
+}
+main .manufacture01_a3 {
+  left: 449px;
+  top: 20px;
+}
+main .manufacture01_a4 {
+  right: 15px;
+  top: 96px;
+}
+main .manufacture01_a5 {
+  left: 100px;
+  bottom: -20px;
+}
+main .manufacture05bg_ul {
+  width: 1000px;
+  height: 570px;
+  position: relative;
+  overflow: hidden;
+}
+main .manufacture05bg_a {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 4000px;
+  height: 540px;
+  overflow: hidden;
+  zoom: 1;
+}
+main .manufacture05bg_a li {
+  float: left;
+  height: 540px;
+  width: 1000px;
+}
+main .manufacture05bg_a div.manufacture05bg_b1 {
+  display: inline-block;
+  /*margin-left: 55px;*/
+  width: 580px;
+  color: #fff;
+}
+main .manufacture05bg_a .manufacture05bg_b1 p {
+  line-height: 200%;
+  /*height: 30px;*/
+  font-size: 20px;
+}
+main .manufacture05bg_b1 p.manufacture05bg_c1 {
+  height: 65px;
+  line-height: 65px;
+  padding-left: 48px;
+  font-size: 24px;
+}
+main .manufacture05bg_a div.manufacture05bg_b1 h4 {
+  font-size: 28px;
+  color: #ffde00;
+  /*margin-left:-55px;*/
+}
+main .manufacture05bg_b1 h4 i {
+  font-size: 60px;
+}
+main .manufacture05bg_b1 span {
+  display: inline-block;
+  background: url(../images/issue/span_bg.png);
+  width: 47px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+}
+main .manufacture05bg_b1 p.manufacture05bg_d1 {
+  padding-left: 55px;
+}
+main .manufacture05bg_b1 i.manufacture05bg_e1 {
+  margin-left: 69px;
+  font-style: normal;
+}
+main .manufacture05bg_a2 i.manufacture05bg_e1 {
+  margin-left: 18px;
+  font-style: normal;
+}
+main .manufacture05bg_a2 img {
+  margin-right: 75px;
+  margin-top: 120px;
+}
+main .manufacture05bg_a3 {
+  color: #ffde00;
+}
+main .manufacture05bg_a3 i {
+  font-size: 60px;
+}
+main .manufacture05bg_a .manufacture05bg_a3 {
+  margin-top: 20px;
+}
+main .manufacture05bg_a .manufacture05bg_a3 p {
+  font-size: 28px;
+  line-height: 200%;
+  margin-left: 45px;
+}
+main .manufacture05bg_a3 div.manufacture05bg_b3 {
+  margin-left: 275px;
+  margin-top: 10px;
+}
+main .manufacture05bg ol {
+  position: absolute;
+  top: 508px;
+  left: 50%;
+  margin-left: -75px;
+  height: 23px;
+  width: 150px;
+  text-align: center;
+}
+main .manufacture05bg ol li {
+  display: inline-block;
+  *display: inline;
+  zoom: 1;
+  width: 23px;
+  height: 23px;
+  margin-right: 18px;
+  background: url(../images/issue/icon_bg.png) -40px 0 no-repeat;
+  cursor: pointer;
+}
+main .manufacture05bg ol li.current {
+  background: url(../images/issue/icon_bg.png) 0 0 no-repeat;
+}

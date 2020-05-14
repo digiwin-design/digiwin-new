@@ -1,0 +1,10 @@
+extends ../layout.pug
+
+block includes
+    link(rel="preload", href="images/barcode/header-bg.jpg", as="image")
+    link(rel='stylesheet', href='css/barcode/style.css')
+    script(src="assets/jquery.touchSwipe.js", defer)
+    script(src='js/barcode.min.js', defer)
+
+block content
+    include barcode.html

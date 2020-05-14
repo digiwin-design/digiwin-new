@@ -1,0 +1,861 @@
+@charset "utf-8";
+html, body {
+	height: 100%;
+	background-color: #f5f5f5;
+}
+
+h2 {
+	margin-bottom: 40px;
+	font-size: 48px;
+	font-weight: bold;
+	line-height: 53px;
+}
+
+h3{
+	font-weight: bold;
+}
+
+strong {
+	font-weight: bold;
+}
+
+/*通用*/
+.content{
+	position: relative;
+	width: 1000px;
+	margin: 0 auto;
+	font-size: 18px;
+	font-family: "微軟正黑體";
+	line-height: 28px;
+}
+
+.section-1, .section-2, .section-3{
+	position: relative;
+	width: 100%;
+	min-width: 1000px;
+	font-size: 0;
+	font-family: "微軟正黑體";
+	text-align: center;
+}
+
+.section-3{
+	padding: 70px 0;
+} 
+
+.section-1, .section-2 {
+	height: 100%;
+}
+
+.section-1:before, .section-2:before{
+	content: ""; 
+	display: inline-block; 
+	height: 100%; 
+	vertical-align: middle;
+}
+
+.section-1 .content, .section-2 .content{
+	display: inline-block; 
+	vertical-align: middle; 
+}
+
+.cursor {
+	cursor: pointer;
+}
+
+.wordLeft, .wordRight {
+	width: 450px;
+	text-align: justify;
+}
+
+.applyBtn {
+	width: 400px;
+	border: 1px solid #fff;
+	font-weight: bold;
+	line-height: 50px;
+}
+
+.applyBtn, .applyPhone {
+	margin: 10px auto;
+	font-size: 24px;
+}
+
+.borderT-solid {
+	border-top: 1px solid #cccccc;
+}
+
+
+/*各區塊CSS*/
+#mainVisual {
+	background: url(../images/mainVisualBg.jpg) no-repeat center top fixed;
+}
+
+#mainVisual .btnGroup {
+	position: absolute;
+	top: 400px;
+	left: 13px;
+	width: 455px;
+}
+
+#mainVisual .btnGroup .btn {
+	position: relative;
+	float: left;
+	margin-right: 13px;
+	padding: 15px;
+	background-color: #ffb400;
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	font-size: 24px;
+}
+
+#mainVisual .btnGroup .btn a {
+	color: #ffffff;
+	display: block;
+}
+
+#mainVisual .btnGroup .btn:hover {
+	background-color: #ff8a00;
+}
+
+#mainVisual .btnGroup .btn a:before {
+	content: "";
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 84px;
+	height: 84px;
+	margin: -43px 0 0 -43px;
+	border-radius: 50%;
+	border: 1px solid #ffb400;
+}
+
+#mainVisual .btnGroup .btn.end {
+	margin-right: 0;
+}
+
+#mainVisual .moreInfo {
+	position: absolute;
+	bottom: 40px;
+	left: 50%;
+	width: 64px;
+	height: 35px;
+	margin-left: -32px;
+	background: url(../images/arrow.png) no-repeat center bottom;
+	color: #28aafa;
+	font-size: 16px;
+}
+
+
+/*花絮*/
+#hightLight a {
+	display: block;
+	width: 100%;
+	height: 100%;
+	color: #ffffff;
+}
+
+#hightLight p {
+	position: relative;
+	margin-top: 75px;
+	padding: 15px 30px 15px 50px;
+	width: 700px;
+	background-color: rgba(0,0,0,0.5);
+	font-size: 26px;
+	font-weight: bold;
+	line-height: 35px;
+	text-align: justify;
+}
+
+#hightLight p:before {
+	content: "";
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	width: 100%;
+	height: 100%;
+	background: url(../images/quoteLeft.png) left top no-repeat;
+}
+
+#hightLight p:after {
+	content: "";
+	position: absolute;
+	bottom: 10px;
+	right: 10px;
+	width: 100%;
+	height: 100%;
+	background: url(../images/quoteRight.png) right bottom no-repeat;
+}
+
+#hightLight .hightLight01 {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: url(../images/highLight01.jpg) no-repeat center center;
+}
+
+#hightLight .hightLight02 {
+	position: absolute;
+	display: none;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: url(../images/highLight02.jpg) no-repeat right center;
+}
+
+/*活動回顧*/
+#agendaReview {
+	color: #333333;
+	background: url(../images/agendaBg.png) no-repeat center top fixed #ffffff;
+}
+
+#agendaReview i {
+	padding: 3px 7px;
+	border-radius: 3px;
+	color: #ffffff;
+	font-size: 15px;
+}
+
+#agendaReview i.detOpen {
+	background-color: #ffffff;
+	color: #888888;
+}
+
+#agendaReview i.detClose {
+	background-color: #ffb400;
+}
+
+#agendaReview i span{
+	font-family: Arial, "微軟正黑體";
+}
+
+.agendaContent { 
+	position: relative;
+	display: table;
+	width: 950px;
+	margin: 30px auto 75px;
+	padding: 0 0 65px;
+	border-collapse: collapse;
+}
+
+#agendaReview .agendaContent:before {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 156px;
+	width: 4px;
+	height: 100%;
+	background-color: #3da5e4;
+}
+
+.agendaList, .agendaDet {
+	display: table-row;
+}
+
+.agendaDet {
+	display: none;
+}
+
+.openDet {
+	display: table-row;
+}
+
+.agendaList:last-child {
+	border-bottom:  none;
+}
+
+.time, .agendaName, .speecher, .space, .speecherImg, .speecherDet {
+	display: table-cell;
+	padding: 10px 0;
+}
+
+.time, .space {
+	position: relative;
+	width: 150px;
+	padding-right: 25px;
+	text-align: center;
+}
+
+.time:before {
+	content: "";
+	position: absolute;
+	top: 16px;
+	right: 9px;
+	width: 17px;
+	height: 17px;
+	border-radius: 100%;
+	background-color: #3da5e4;
+}
+
+.agendaName, .speecherImg {
+	width: 240px;
+	color: #0075bb;
+	font-weight: bold;
+	text-align: left;
+}
+
+.speecherImg {
+	color: #333333;
+	font-size: 15px;
+	font-weight: normal;
+	line-height: 20px;
+	text-align: center;
+}
+
+.speecherImg img{
+	display: block;
+	margin: 0 auto;
+}
+
+#agenda .speecherImg strong {
+	font-size: 15px;
+}
+
+.speecher, .speecherDet {
+	text-align: left;
+	vertical-align: middle;
+}
+
+.speecherDet p{
+	margin-bottom: 10px;
+	text-align: justify;
+}
+
+.speecher .speecherName {
+	display: block;
+}
+
+#agendaReview .btn a {
+	float: right;
+	margin: 0 10px 0 0;
+	padding: 0 10px;
+	border-radius: 1px;
+	border: 1px solid #29a8a8;
+	background-color: #29a8a8;
+	color: #fff;
+	font-size: 15px;
+	font-weight: bold;
+}
+
+#agendaReview .btn a:hover {
+	border: 1px solid #29a8a8;
+	background-color: #ffffff;
+	color: #29a8a8;
+}
+
+/*youtube*/
+#youtube {
+	background-color: #29a8a8;
+	color: #fff;
+}
+
+#particles-js {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-image: url('');
+	background-size: cover;
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+}
+
+#youtube li {
+	float: left;
+	width: 33%;
+	text-align: center;
+}
+
+#youtube li img {
+	border: 4px solid #fff;
+}
+
+#youtube li p {
+	padding: 0 20px;
+}
+
+#youtube li a {
+	color: #fff;
+}
+
+#youtube li a:hover {
+	color: #fffbb9;
+}
+
+/*精彩回顧*/
+#photo ul {
+	margin: 45px 0 60px;
+}
+
+#photo .photoLink li:nth-of-type(1) a {
+	color: #0075bb;
+}
+
+#photo .photoLink li:nth-of-type(2) a {
+	color: #29a8a8;
+}
+
+#photo .photoLink li:nth-of-type(3) a {
+	color: #28aafa;
+}
+
+#photo .photoLink li a:hover {
+	color: #ff7e4b;
+}
+
+#photo .photoLink li {
+	float: left;
+	width: 33%;
+}
+
+#photo .btn {
+	width: 150px;
+	margin: 10px auto 0;
+	border-radius: 3px;
+}
+
+#photo .photoLink li:nth-of-type(1) .btn {
+	border: 1px solid #0075bb;
+}
+
+#photo .photoLink li:nth-of-type(2) .btn {
+	border: 1px solid #29a8a8;
+}
+
+#photo .photoLink li:nth-of-type(3) .btn {
+	border: 1px solid #28aafa;
+}
+
+#photo .photoLink li .btn:hover {
+	border: 1px solid #ff7e4b;
+}
+
+#photo .photoSlider li {
+	float: left;
+	width: 192px;
+	margin-right: 10px; 
+}
+
+#photo .photoSlider li.end {
+	margin-right: 0; 
+}
+
+/*健檢區塊*/
+#diagnosis {
+	background-color: #e2e2e2;
+}
+
+#diagnosis .content {
+	width: 925px;
+	padding: 0 0 40px 75px;
+	background: url(../images/diagnosisBg.png) no-repeat right -15px;
+}
+
+#diagnosis h2 {
+	margin: 10px 0;
+	font-size: 30px;
+}
+
+#diagnosis h3 {
+	margin-bottom: 25px;
+}
+
+#diagnosis .wordLeft p {
+	width: 410px;
+}
+
+#diagnosis .diagnosis {
+	display: none;
+}
+
+/*聯絡表單*/
+#contactTxt {
+	padding: 15px 0 0; 
+	width: 100%; 
+	min-width: 1000px; 
+	background-color: #555; 
+	font-size: 16px; 
+	font-family: Arial, "微軟正黑體", "新細明體";
+	line-height: 30px; 	
+}
+
+#contactTxt a {
+	color: #fff;
+}
+
+#contactTxt a:hover {
+	color: #ffee00;
+}
+
+#contactTxt #contactText {
+	margin: 0 auto;
+	width: 960px; 
+}
+
+#contactTxt #info {
+	float: left;
+	width: 500px;
+	color: #fff;
+	font-size: 17px;
+	line-height: 30px;
+	text-align: left;
+}
+
+#contactTxt h2 {
+	margin: 0 0 15px; 
+	padding-top: 70px;
+	width: 100%; 
+	color: #fff;
+	font-size: 36px; 
+	line-height: 36px; 	
+	text-align: left;
+}
+
+#contactTxt ul {
+	margin-top: 35px;
+}
+
+#contactTxt ul li {
+	margin-bottom: 20px;
+	padding-left: 30px;
+	line-height: 25px;
+}
+
+#contactTxt .tel {
+	background: url(https://static.digiwin.com/tw/dsc/images/solutionPage/icons.png) no-repeat left top;
+}
+
+#contactTxt .mail {
+	background: url(https://static.digiwin.com/tw/dsc/images/solutionPage/icons.png) no-repeat left -25px;
+}
+
+#contactTxt .fb {
+	background: url(https://static.digiwin.com/tw/dsc/images/solutionPage/icons.png) no-repeat left -50px;
+}
+
+#contactTxt #iframeForm {
+	float: right;
+	width: 410px;
+}
+
+iframe {
+	margin: 0 0 -10px;
+	width: 100%;
+	border: none;
+}
+@media screen and (max-width: 480px) {
+	* {
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+	}
+
+	html, body {
+		width: 100%;
+		height: auto;
+	}
+
+	h2 {
+		margin-bottom: 20px;
+		font-size: 30px;
+		line-height: 40px;
+	}
+
+	/*通用*/
+	.content{
+		width: 100%;
+		padding: 0 10px;
+	}
+
+	.section-1, .section-2, .section-3{
+		width: 100%;
+		min-width: 100%;
+	}
+
+	.section-3{
+		padding: 40px 0;
+	} 
+
+	.section-1, .section-2 {
+		height: auto;
+	}
+
+	.wordLeft, .wordRight {
+		width: 100%;
+		text-align: justify;
+	}
+
+	.borderT-solid {
+		border-top: none;
+	}
+
+
+	/*各區塊CSS*/
+	#mainVisual {
+		background: url() no-repeat center top fixed;
+	}
+
+	#mainVisual .content{
+		padding: 0;		
+		font-size: 0;
+		line-height: 0;
+	}
+
+	#mainVisual img {
+		width: 100%;
+	}
+
+	#mainVisual .btnGroup {
+		position: fixed;
+		top: auto;
+		bottom: 0;
+		left: 0;
+		z-index: 2;
+		width: 100%;
+	}
+
+	#mainVisual .btnGroup .btn {
+		float: left;
+		margin-right: 0;
+		padding: 3px;
+		width: 20%;
+		height: auto;
+		border-radius: 0;
+		border-right: 1px solid #ffffff;
+		font-size: 14px;
+		line-height: 30px;
+	}
+
+	#mainVisual .btnGroup .btn a:before {
+		width: 0;
+		height: 0;
+		margin: 0;
+		border-radius: 0;
+		border: none;
+	}
+
+	#mainVisual .btnGroup .btn.end {
+		border-right: none;
+	}
+
+	#mainVisual .moreInfo {
+		display: none;
+	}
+
+
+	/*花絮*/
+
+	#hightLight{
+		display: none;
+	}
+
+	/*活動回顧*/
+
+	.agendaContent { 
+		display: block;
+		width: 100%;
+		margin: 0 auto;
+		padding: 0 0 20px;
+	}
+
+	#agendaReview .agendaContent:before {
+		top: 0;
+		left: 10px;
+	}
+
+	.agendaList, .agendaDet {
+		display: block;
+	}
+
+	.agendaDet {
+		display: none;
+	}
+
+	.openDet {
+		display: block;
+	}
+
+	.time, .agendaName, .speecher, .space, .speecherImg, .speecherDet {
+		display: block;
+		padding: 0 0 0 25px;
+	}
+
+	.time, .space {
+		width: 100%;
+		padding: 10px 0 0 25px;
+		text-align: left;
+	}
+
+	.time {
+		border-top: 1px solid #3da5e4;
+	}
+
+	.time.end {
+		border-top: none;
+	}
+
+	.time:before {
+		top: 50%;
+		right: auto;
+		left: 10px;
+		margin: -8px 0 0 -7px;
+	}
+
+	.agendaName, .speecherImg {
+		width: 100%;
+		padding: 0 0 10px 25px;
+	}
+
+	.speecherImg {
+		font-size: 17px;
+		margin-bottom: 10px;
+	}
+
+	.speecher, .speecherDet {
+		text-align: justify;
+	}
+
+	.speecher {
+		padding-bottom: 10px;
+	}
+
+	.speecherDet {
+		text-align: center;
+	}
+
+	#agendaReview .btn a {
+		float: right;
+		margin: 0 10px 20px 0;
+		padding: 0 10px;
+	}
+
+	#agendaReview .btn a:hover {
+		border: 1px solid #29a8a8;
+		background-color: #ffffff;
+		color: #29a8a8;
+	}
+
+	#youtube li {
+		float: none;
+		width: 100%;
+		margin-bottom: 30px;
+	}
+
+	#youtube li p {
+		width: 75%;
+		margin: 0 auto;
+	}
+
+	/*精彩回顧*/
+	#photo ul {
+		margin: 30px 0 15px;
+	}
+
+	#photo .photoLink li {
+		position: relative;
+		float: none;
+		width: 100%;
+		margin-bottom: 30px;
+	}
+
+	#photo .photoLink li img{
+		float: left;
+		width: 50%;
+	}
+
+	#photo .btn {
+		position: absolute;
+		float: right;
+		top: 50%;
+		right: 10px;
+		width: 40%;
+		margin: -10px 0 0;
+		padding: 5px;
+	}
+
+	#photo .photoSlider li {
+		float: left;
+		width: 50%;
+		margin-right: 0; 
+		border-right: 3px solid #fff;
+	}
+
+	#photo .photoSlider li img {
+		width: 100%;
+	}
+
+	#photo .photoSlider li:nth-child(even) {
+		float: right;
+		border-right: none;
+		border-left: 3px solid #fff;
+	}
+
+	/*健檢區塊*/
+	#diagnosis .content {
+		width: 100%;
+		padding: 0 30px;
+		background: url() no-repeat right -15px;
+	}
+
+	#diagnosis h2 {
+		margin: 10px 0;
+		font-size: 30px;
+		text-align: center;
+	}
+
+	#diagnosis h3 {
+		margin-bottom: 10px;
+	}
+
+	#diagnosis .wordLeft p {
+		width: 100%;
+	}	
+
+	#diagnosis .diagnosis {
+		display: block;
+		width: 300px;
+		padding: 15px 0;
+		margin: 35px auto 0;
+		background-color: #29a8a8;
+		color: #fff;
+		font-size: 21px;
+		font-weight: bold;
+		border: 1px solid #fff;
+	}
+
+
+	/*聯絡表單*/
+	#contactTxt {
+		min-width: 100%;
+	}
+
+	#contactTxt #contactText {
+		padding: 0 10px;
+		width: 100%; 
+	}
+
+	#contactTxt #info {
+		float: none;
+		width: 100%;
+	}
+
+	#contactTxt #iframeForm {
+		float: none;
+		width: 100%;
+		margin-top: -30px;
+	}
+
+	iframe {
+		margin: 0 auto -10px;
+		width: 100%;
+		border: none;
+	}
+
+	iframe form #check #submit {
+		float: none;
+	}
+
+}

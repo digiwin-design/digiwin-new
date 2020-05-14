@@ -1,0 +1,219 @@
+<main-header>
+    <template slot="content">
+        <h1>買賣流通業<br>行動條碼解決方案</h1>
+        <p>Mobile Barcode Solution<br>從採購進貨、倉儲管理、訂單銷貨、庫存盤點<br>嗶一聲就搞定!!</p>
+    </template>
+</main-header>
+
+<article class="section1">
+    <h1 class="sectionTitle">每天都要作的事，<br>您還在依賴人工輸入嗎?</h1>
+    <tabs v-if="isMobile"></tabs>
+    <div v-else class="section1-cols">
+        <div class="section1-col">
+            <img src="images/barcode/section1-before.png" alt="">
+            <p class="section1-col-title">商品種類這麼多，處理起來費時耗力！<br>這些問題你有沒有遇過？</p>
+            <div class="section1-list before">
+                <ul>
+                    <li data-text="慢">
+                        <p><strong>收貨</strong>每天進貨多又雜，系統打單太花時間，門口都大塞車！</p>
+                    </li>
+                    <li data-text="亂">
+                        <p><strong>理貨</strong>每次理貨找貨出貨，都耗費心力，倉庫管理好沒效率！</p>
+                    </li>
+                    <li data-text="慢">
+                        <p><strong>出貨</strong>有時候收到客戶的退貨通知，才發現又出錯貨了。</p>
+                    </li>
+                    <li data-text="錯">
+                        <p><strong>盤點</strong>每次盤點總會花很多時間和人力、而且資料老是有誤差。</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="section1-col">
+            <img src="images/barcode/section1-after.png" alt="">
+            <p class="section1-col-title">簡化程序，降低出錯率，快速提升效率</p>
+            <div class="section1-list after">
+                <ul>
+                    <li data-text="快速">
+                        <p><strong>收貨</strong>減少單據處理時間，提升時效和正確性。</p>
+                    </li>
+                    <li data-text="迅速">
+                        <p><strong>理貨</strong>庫存異動自動轉撥，出庫入庫即時正確。</p>
+                    </li>
+                    <li data-text="神準">
+                        <p><strong>出貨</strong>有強化理貨處理時效，大幅降低人員負荷。</p>
+                    </li>
+                    <li data-text="無誤">
+                        <p><strong>盤點</strong>降低作業錯誤風險，庫存零盤差。</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</article>
+
+<article class="section2">
+    <h1 class="sectionTitle">條碼方案可以協助你處理更多的事</h1>
+    <div class="container">
+        <div class="section2-feature">
+            <ul>
+                <li>依條碼取入資料，無輸入錯誤之風險</li>
+                <li>依品項順序刷入條碼，無需耗時查找紙本資料</li>
+                <li>撿貨現場無需配置電腦站台，人到即刷，無時間差</li>
+            </ul>
+            <ul>
+                <li>人到即盤，無需耗時翻找紙本</li>
+                <li>可同時多人盤點，提升效率</li>
+            </ul>
+        </div>
+        <ul class="section2-items">
+            <li class="section2-item">
+                <div class="section2-item-box">
+                    <p>銷貨單</p>
+                    <ul class="section2-item-hover">
+                        <li>快速建立銷貨單</li>
+                        <li>單一訂單同時僅單人執行，避免重覆銷貨</li>
+                        <li>可合併相同客戶之多張訂單</li>
+                    </ul>
+                </div>
+            </li>
+            <li class="section2-item">
+                <div class="section2-item-box">
+                    <p>入庫單</p>
+                    <ul class="section2-item-hover">
+                        <li>快速建立進貨單</li>
+                        <li>單一採購單可多次執行</li>
+                        <li>各別產生進貨單</li>
+                        <li>依相同廠商合併產生進貨單</li>
+                    </ul>
+                </div>
+            </li>
+            <li class="section2-item">
+                <div class="section2-item-box">
+                    <p>庫存異動</p>
+                    <ul class="section2-item-hover">
+                        <li>快速建立庫存異動單</li>
+                        <li>支持同時多人多次執行異動</li>
+                    </ul>
+                </div>
+            </li>
+            <li class="section2-item">
+                <div class="section2-item-box">
+                    <p>庫存轉發</p>
+                    <ul class="section2-item-hover">
+                        <li>快速建立轉撥單</li>
+                        <li>同筆轉撥單</li>
+                        <li>同時僅可一人執行此轉撥作業</li>
+                    </ul>
+                </div>
+            </li>
+            <li class="section2-item">
+                <div class="section2-item-box">
+                    <p>庫存盤點</p>
+                    <ul class="section2-item-hover">
+                        <li>快速更新盤點清單</li>
+                        <li>同一盤點底稿可多人多次執行</li>
+                    </ul>
+                </div>
+            </li>
+        </ul>
+    </div>
+</article>
+
+<div class="section4-rows">
+    <div class="section4-row">
+        <div class="container">
+            <div class="section4-text">
+                <h1>條碼應用介紹</h1>
+                <p>條碼是看似簡單的黑白線條，黑白相間的線條按特定格式與間距組合起來，可代替各種文字信息，且透過設備隨時讀取數據。而這些神奇的小線條，從採購、進貨、理貨、備貨、出貨、庫存盤點等各環節都能幫大忙，Barcode輸入大大提高準確性及效率！</p>
+            </div>
+        </div>
+        <div class="section4-illust"></div>
+    </div>
+    <div class="section4-row">
+        <div class="container">
+            <div class="section4-text">
+                <h1>看成功案例怎麼說</h1>
+                <p>小檔案：台中某商場約50人<br>XX商場以前在盤點前，都必須要先擬定盤點計畫做預盤準備動作，上萬筆品項每次皆需要全公司員工花費約一週的時間才有辦法盤點完，現今透過條碼直接刷入，只需要10名員工1個工作天即可快速順利完成..</p>
+            </div>
+        </div>
+        <div class="section4-illust"></div>
+    </div>
+</div>
+
+<article class="section3">
+    <h1 class="sectionTitle">條碼方案還有更多好處</h1>
+    <div class="container">
+        <section>
+            <h1>即時整合</h1>
+            <ul>
+                <li>ERP與PDA端的設定同步，資料同步零時差</li>
+                <li>ERP基本資料新增或修改，PDA端立即顯示</li>
+            </ul>
+        </section>
+        <section>
+            <h1>歷程記錄</h1>
+            <ul>
+                <li>在PDA端記錄輸入之資料，可查詢工作歷程</li>
+                <li>未上傳前可刪除資料，減少後續在ERP修改</li>
+            </ul>
+        </section>
+        <section>
+            <h1>無線傳輸</h1>
+            <ul>
+                <li>下載單據儲存於PDA內，避免受網路傳輸限制無法作業</li>
+                <li>PDA端執行完畢後整批單據完整上傳，確保資料完整性</li>
+            </ul>
+        </section>
+    </div>
+</article>
+
+<article class="section4">
+    <h1 class="sectionTitle">行動條碼操作容易</h1>
+    <div class="section4-demo container">
+        <demo :result="result.barcode.section4[0]"></demo>
+        <demo :result="result.barcode.section4[1]"></demo>
+    </div>
+</article>
+
+<article class="section5">
+    <h1 class="sectionTitle">條碼PDA(AIDA HC-353A)介紹</h1>
+    <div class="section5-row wow fadeInLeft">
+        <div class="container">
+            <div class="section5-text">
+                <h2>單手握持操作容易</h2>
+                <p>為所有需要長時間操作的使用者量身設計，機身大小適合單手握持，實體鍵盤單手輸入操作方便，較大的按鍵間距，即使戴著較厚棉質沾膠手套的使用者也能無障礙操作。</p>
+            </div>
+            <div class="section5-illust"></div>
+        </div>
+    </div>
+    <div class="section5-row wow fadeInRight">
+        <div class="container">
+            <div class="section5-text">
+                <h2>背光鍵盤夜間清晰顯示</h2>
+                <p>除兩側設置條碼掃描鍵外，螢幕下方亦增加掃碼觸發鍵，單手即可完成掃描，鍵盤採用壓克力模內印刷技術，數字不脫落同時兼具字體放大效果，鍵盤的背光功能，即使夜間也可清晰的進行操作。</p>
+            </div>
+            <div class="section5-illust"></div>
+        </div>
+    </div>
+    <div class="section5-row wow fadeInLeft">
+        <div class="container">
+            <div class="section5-text">
+                <h2>斜角式掃碼符合人體工學</h2>
+                <p>不同於一般掃碼器配置於前方，此PDA掃碼器設計於背面且為仰角傾斜，更符合人體工學，使用者在讀取條碼時不需刻意調整手腕角度即可掃描，且同時可清楚觀看螢幕與確認寫入之訊息。</p>
+            </div>
+            <div class="section5-illust"></div>
+        </div>
+    </div>
+    <div class="section5-row wow fadeInRight">
+        <div class="container">
+            <div class="section5-text">
+                <h2>IP64工業級認證/1.5米摔落防護認證</h2>
+                <p>通過嚴格防水、防震、防摔及耐低溫的IP64認證，將最容易因摔落造成損壞的觸控螢幕及主機板，固定在鋁合金承載架構上，絕佳緩衝提供1.5米的摔落直接衝擊防護，讓使用者更安心使用。</p>
+            </div>
+            <div class="section5-illust"></div>
+        </div>
+    </div>
+</article>
+
+<contact v-bind:multiple="false" source=""></contact>

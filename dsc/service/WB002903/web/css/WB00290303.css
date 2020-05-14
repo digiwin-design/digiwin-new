@@ -1,0 +1,783 @@
+@charset "UTF-8";
+/* ==================== tags ==================== */
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+}
+
+body {
+  min-width: 320px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: normal;
+  line-height: 1.2;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+h2 {
+  font-size: 46px;
+  text-align:center;letter-spacing: 2px;
+	padding-bottom: 30px;
+}
+
+h3,
+h4 {
+  font-size: 30px;
+}
+
+p {
+  line-height: 1.5;
+}
+
+/* ==================== section ==================== */
+.section {
+  position: relative;
+  width: 100%;
+  max-width: 1920px;
+  margin: 0 auto;
+  padding: 70px 0;
+  color: #333;
+  font-family: Arial, "微軟正黑體";
+  font-size: 18px;
+  line-height: 1.5;
+	background: url("../images/web/webbg.jpg") no-repeat center center;
+}
+
+.content {
+  position: relative;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.vAlignMiddle {
+  text-align: center;
+  font-size: 0;
+}
+
+.vAlignMiddle:before {
+  content: "";
+  height: 100%;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.vAlignMiddle .vAlignContent {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.sectionDesc,
+.sectionDesc-center {
+  margin: 20px auto 30px;
+  padding: 0 140px;
+  font-size: 24px;
+  line-height: 1.5;
+}
+
+.sectionDesc-center {
+  text-align: center;
+}
+
+.imgNote {
+  font-size: 19px;
+  text-align: center;
+}
+
+.imgCenter {
+  display: block;
+  margin: 0 auto;
+}
+
+/* ==================== pageLink ==================== */
+.linkleft{ float:left;}
+.link {
+  display: inline-block;
+  padding: 20px;
+  border-radius: 2px;
+  font-size: 20px;
+  line-height: 1.5;
+  text-align: center;
+	margin: 0 auto;
+  cursor: pointer;
+  -webkit-transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out;
+  transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out;
+}
+
+.link-normal {
+  background-color: #05acc7;
+  color: #fff;
+}
+.link-normal a {
+
+  color: #fff;
+}
+.link-normal:hover {
+  background-color: #048195;
+}
+
+.link-normal2 {
+  background-color: #fc8c29;
+  color: #fff;
+}
+.link-normal2 a {
+
+  color: #fff;
+}
+.link-normal2:hover {
+  background-color: #ec7103;
+}
+
+
+
+.link-outline {
+  background-color: transparent;
+  border: 1px solid #05acc7;
+  color: #05acc7;
+}
+.link-outline a{
+  color: #05acc7;
+}
+.link-outline :hover {
+	display: block;
+  background-color: #05acc7;
+  color: #fff;
+}
+
+.link-block {
+  display: block;
+  margin: 0 auto;
+}
+
+.linkGroup {
+  text-align: center;
+}
+
+.highLight {
+  color: #ffff00;
+}
+
+.highLight2 {
+  color: #0d8fcb;
+}
+
+
+/* ==================== banner ==================== */
+#banner {
+  height: 400px;
+  padding: 0;
+}
+@media (max-width: 640px) {
+  #banner {
+    height: auto;
+  }
+}
+
+#banner .txtLayer {
+  float: left;
+  width: 700px;
+  margin-top: 130px;
+}
+
+#banner h1,
+#banner h2,
+#banner p {
+  text-align: left;
+}
+
+#banner h1{ text-indent:-9999px}
+
+#banner h2 {
+		  margin-top:50px;
+  font-size: 28px;
+}
+
+#banner h2 strong {
+  color: #ffff00;
+  font-weight: normal;
+}
+
+#banner .sectionDesc {
+  padding: 0;
+  font-size: 24px;
+}
+
+#banner .imgStyle {
+	display:none;
+	
+  float: right;
+}
+
+#banner .arrow {
+	position: absolute;
+	top: 28px;
+	left: -5px;
+}
+
+.banner-controls {
+  width: 1200px;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 2;
+}
+@media (max-width: 1200px) {
+  .banner-controls {
+    width: 100%;
+  }
+}
+.banner-pagination {
+  position: absolute;
+  bottom: 55px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 100%;
+}
+.banner-pagination-bullet {
+  width: 31px;
+  height: 11px;
+  background-color: #00fcff;
+  cursor: pointer;
+}
+.banner-pagination-bullet {
+  margin-right: 8px;
+}
+.banner-pagination-bullet-active {
+  background-color: #fff;
+  border: 3px solid #00fcff;
+  box-sizing: content-box;
+}
+
+/* swiper */
+.swiper-button-next {
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHZpZXdCb3g9JzAgMCAyNyA0NCc+PHBhdGggZD0nTTI3LDIyTDI3LDIyTDUsNDRsLTIuMS0yLjFMMjIuOCwyMkwyLjksMi4xTDUsMEwyNywyMkwyNywyMnonIGZpbGw9JyNmZmYnLz48L3N2Zz4=);
+}
+.swiper-button-prev {
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHZpZXdCb3g9JzAgMCAyNyA0NCc+PHBhdGggZD0nTTAsMjJMMjIsMGwyLjEsMi4xTDQuMiwyMmwxOS45LDE5LjlMMjIsNDRMMCwyMkwwLDIyTDAsMjJ6JyBmaWxsPScjZmZmJy8+PC9zdmc+);
+}
+.swiper-button-next:focus,
+.swiper-button-prev:focus {
+  outline: none;
+}
+.swiper-container > .banner-pagination {
+  bottom: 60px;
+  left: auto;
+  right: 180px;
+  height: 16px;
+  width: 37px;
+  background-color: #db2c2c;
+  position: absolute;
+  z-index: 2;
+}
+.swiper-slide {
+  background-position: 50% 0;
+  background-repeat: no-repeat;
+}
+.swiper-slide.slide1 {
+  background-image: url(../images/web/bg_banner.jpg);
+}
+.swiper-slide.slide2 {
+  background-image: url(../images/web/bg_banner2.jpg);
+}
+@media (max-width: 1100px) {
+  .swiper-slide.slide1 {
+    background-position-x: 33.5%;
+  }
+  .swiper-slide.slide2 {
+    background-position-x: 31.5%;
+  }
+}
+@media (max-width: 640px) {
+  .swiper-wrapper {
+    height: auto;
+  }
+  .swiper-slide {
+    height: auto;
+    background-position-x: 50%;
+    padding-bottom: calc((1140 / 640) * 100%);
+    background-size: contain;
+  }
+  .swiper-slide.slide1 {
+    background-image: url(../images/web/bg_mobile_banner.png);
+  }
+  .swiper-slide.slide2 {
+    background-image: url(../images/web/bg_mobile_banner02.png);
+  }
+}
+
+/* ==================== foreword ==================== */
+#foreword {
+  padding-bottom: 40px;
+}
+#foreword h3 { text-align: center; margin: 20px; color: #0d8fcb
+ }
+
+#foreword .txtLayer {
+  float: left;
+  width:100%;
+  margin-bottom: 18px;
+	padding:0px 50px;
+	clear: both;
+ 
+}
+#foreword .txtLayer p{
+  margin-bottom: 18px;
+  text-align: justify;
+}
+
+#foreword p.pcenter {
+    font-size: 18px;text-align:center;
+  }
+/*#foreword .txtLayer h2 br {
+  display: none;
+}*/
+
+#foreword .Focus{width:100%; margin: 0 auto; clear: both; display: block; padding: 30px; clear: both; display: flex; align-items: center;}
+
+#foreword .Focuss  {width:238px; height: 238px; float: left; display: block; border-radius: 250px; font-size: 26px; text-align: center; padding-top: 40px;}
+
+#foreword .Focuss2  {width:160px; height: 238px; float: left; display: block; border-radius: 250px; font-size: 26px; text-align: center; padding-top: 40px;}
+#foreword .bg1{background: url("../images/web/01.png") no-repeat center center; }
+#foreword .bg2{background: url("../images/web/02.png") no-repeat center center; }
+#foreword .iconX{background: url("../images/web/iconX.png") no-repeat center center; }
+#foreword .bg3{background: url("../images/web/03.png") no-repeat center center; }
+#foreword .linkA {
+	text-align: center;
+	margin: 0 auto;
+
+}
+#foreword .link{
+	width: 360px;border-radius: 5px;
+}
+
+@media (max-width: 1200px) {
+  .Focus {
+    flex-direction: column;
+  }
+}
+
+/* ==================== loading ==================== */
+#loading {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999999;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.9);
+  background-color: #000\9;
+  color: #fff;
+  font-family: Arial, "微軟正黑體", "新細明體";
+  text-align: center;
+}
+
+#loading:before {
+  content: "";
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+}
+
+#loading p {
+  display: inline-block;
+  width: 90%;
+  margin: 0 auto;
+  font-size: 21px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+#loading p i {
+  display: block;
+  height: 24px;
+  background: url("http://www.digiwin.com/images/Eform/loading.gif") no-repeat center center;
+  margin-bottom: 15px;
+}
+
+
+
+
+/*自主應用，智享服務--------------------------------------------*/
+
+
+.TABMD{ width:100%; margin:0 auto; font-size:18px; margin-top: 70px; }
+.TABMD ul{ list-style:none; margin:0; padding-left:50px; }
+
+
+ 
+.TABMD li{display:block; width:120px; height:60px; background:#ffffff ;float:left; margin-right:1px; position:relative; border-bottom-color: #ffffff;border-radius:5px 5px 0px 0px; /*border:1px solid #0d8fcb; */  }
+.TABMD li a{ display:block; width:120px; text-align:center; line-height:60px;color:#000000; text-decoration:none; font-family:微軟正黑體, Arial, Helvetica, sans-serif; font-size: 18px; letter-spacing:1px;border-radius:5px 5px 0px 0px; }
+/*.TABMD li a:hover{ color:#ffffff;}*/
+
+
+
+.NOWTAB{ color:#ffffff; background:#0d8fcb ; height:60px; position:absolute;border-radius:5px 5px 0px 0px; }
+a.NOWTAB:link{ color:#ffffff; background:#0d8fcb ; height:60px; position:absolute; }
+a.NOWTAB:hover{ color:#ffffff; background:#0d8fcb ;height:60px; position:absolute;}
+
+
+
+#BOX2, #BOX3, #BOX4, #BOX5, #BOX6, #BOX7, #BOX8{ display:none;}
+
+.BOXS{ clear:both; width:100%; /* [disabled]height:600px; */ overflow:auto; padding:40px; position:relative; background-repeat:no-repeat; background-color:#FFF; border-radius:5px; border:1px solid #0d8fcb; }
+
+.contentA{overflow: hidden; display:block; float: left; width: 100%; height: auto;clear: both;}
+	
+.contentB{overflow: hidden; display:block; float: left; width: 100%; height: auto;clear: both;margin-top: 0px; border-top:#ffffff 0px solid; padding-top: 0px; }
+
+
+#TAB1, #TAB2, #TAB3, #TAB4{border:1px solid #0d8fcb;}
+
+
+#TAB5, #TAB6, #TAB7, #TAB8{background:#e8e8e8 ;border:1px solid #afafaf;color:#afafaf;}
+
+.tabMenu::before {
+  display: table;
+  content: '';
+}
+.tabMenu::after {
+  display: table;
+  clear: both;
+  content: '';
+}
+
+
+/*自主應用，智享服務--------------------------------------------*/
+
+.title{ font-size: 30px; padding: 10px 30px;}
+.blocks h4{font-weight: bold}
+.blocks{width: 100% ; height: auto; float: left; display: block;overflow: hidden;  }
+.blocks_line{background: url("../images/web/bg.png") no-repeat top center;} 
+.block{ width: 100% ;height: auto; overflow: hidden; float: left; display: block;}
+.block50{ width: 46% ;height: auto; overflow: hidden; float: left; display: block;}
+
+.block60{ width: 50% ;height: auto; overflow: hidden; float: left; display: block;}
+.block_left{margin-right:0px; padding: 0px 10px 0px 60px; }
+.block_left60{margin-right:0px; padding: 0px 0px 0px 60px; }
+.block_right{ padding-left: 0px;}
+
+.block h4, .block50 h4, .block60 h4{ font-size: 24px;color:#0d8fcb; padding-bottom: 10px;margin-top: 20px; }
+
+.block p, .block50 p, .block60 p{ font-size: 18px; }
+
+
+
+.block img{ margin-bottom: 40px; max-width: 100%; margin-right: 60px;}
+.block60 img{ margin-bottom: 40px; max-width: 100%; margin-right: 0px;}
+.block50 img { margin-bottom: 40px; max-width: 100%; margin-right: 10px;}
+.fontbold {font-weight: bold}
+.fontbold2 {font-weight: bold;font-size: 15px;}
+.block .link2{
+	max-width: 310px; border-radius: 5px; line-height: 60px; text-align: center; 
+}
+
+
+
+@media (max-width: 1200px) {
+  .block {
+    width: 100%;
+    float: none;
+  }
+}
+
+/* ==================== header/footer ==================== */
+#nav {
+  position: relative;
+  z-index: 999995;
+  width: 100%;
+  height: 35px;
+  background-color: #f4f4f4;
+  font-family: Arial, "新細明體", "微軟正黑體";
+}
+
+#nav .logo {
+  float: left;
+  position: absolute;
+  top: 3px;
+}
+
+#dgwFooter {
+  width: 100%;
+  padding: 13px 0 17px;
+  background-color: #d9d9d9;
+  border-top: 1px solid #fff;
+  color: #595757;
+  font-size: 13px;
+  font-family: "新細明體", "微軟正黑體";
+  text-align: center;
+}
+
+#dgwFooter .link01 a {
+  font-size: 13px;
+  color: #595757;
+  text-decoration: none;
+  text-align: center;
+  display: inline-block;
+  padding: 0 3px 0 0x;
+}
+
+#dgwFooter .link01 a a:hover {
+  display: inline-block;
+  padding: 0 3px 0 0;
+  text-decoration: underline;
+  text-align: center;
+}
+
+#dgwFooter .link01 a span {
+  display: inline-block;
+  font-size: 9px;
+  text-align: center;
+}
+
+#dgwFooter .link02 {
+  margin: 14px 0px 8px 0px;
+  text-align: center;
+}
+
+#dgwFooter .link02 ul li a {
+  display: inline-block;
+  padding: 0 4px 0 1px;
+  text-decoration: none;
+  text-align: center;
+}
+
+#dgwFooter .link02 ul li a:hover {
+  display: inline-block;
+  padding: 0 4px 0 1px;
+  text-decoration: underline;
+  text-align: center;
+}
+
+#dgwFooter .link02 ul li span {
+  display: inline-block;
+  text-align: center;
+}
+
+#dgwFooter p {
+  font-size: 13px;
+  margin: 0;
+  clear: both;
+}
+
+
+
+
+
+
+@media (max-width:1024px) {
+.blocks_line{background: url("../images/web/bgspace.jpg") repeat;} 
+
+.block50{ width: 100% ;height: auto; overflow: hidden; float: left; display: block;}
+.block p, .block50 p{ font-size: 18px; }
+.block50 img { margin-bottom: 40px; max-width: 100%; margin-right: 10px;}	
+.block h4, .block50 h4{ font-size: 22px;color:#0d8fcb; padding-bottom: 10px; }
+.block img{ margin-bottom: 40px; max-width: 100%; margin-right: 60px;}
+
+.block60{ width: 100% ;height: auto; overflow: hidden; float: left; display: block;}
+}
+.block60 img{ margin-bottom: 40px; max-width: 100%; margin-right: 0px;}
+.block_left60{margin-right:0px; padding: 0px 0px 0px 60px; }
+
+
+@media (max-width: 480px) {
+  h1 {
+    font-size: 50px;
+  }
+  h2 {
+    font-size: 45px;padding-bottom: 0px;
+  }
+ h3 {padding-top: 30px;
+    font-size: 30px;
+  }
+  /* ==================== section ==================== */
+  .section {
+    min-width: 100%;
+    max-width: 100%;background: url("../images/web/webbgs.jpg")  center center;
+  }
+  .content {
+    width: 100%;
+    padding: 0 5%;
+  }
+  .sectionDesc,
+  .sectionDesc-center {
+    padding: 0;
+  }
+ /* ==================== banner ==================== */
+  #banner {
+    height: auto;
+    /* padding: 0 0 50px; */
+    background-image: url("../images/web/bg_mobile_banner.jpg");
+  }
+  #banner .txtLayer {
+    float: none;
+    width: 100%;
+    margin-top: 0;
+  }
+  #banner h1 {
+    margin-bottom: 10px; text-indent:0px
+  }
+
+  #banner h1 br {
+    display: none;
+  }
+  #banner h2 {
+	  margin-top:0px;
+	  
+    font-size: 26px;
+    margin-bottom: 4px;
+  }
+  #banner .sectionDesc {
+    font-size: 20px;
+  }
+  #banner .imgStyle {
+    float: none;
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+    margin-top: 30px;
+  }
+  #banner .arrow {
+    display: none;
+  }
+  #banner .titleA {
+    display: none;
+  }
+  /* ==================== foreword ==================== */
+  #foreword {
+     
+    
+  }
+#foreword .txtLayer {
+    float: none;
+    width: 100%;
+  margin-bottom: 18px;
+	padding:0px;
+  text-align: justify;
+	
+}
+	
+
+  #foreword .txtLayer h2 {
+   
+  }
+  #foreword .txtLayer h2 br {
+    display: block;
+  }
+  #foreword .sectionDesc {
+    font-size: 20px;
+  }
+  #foreword .link {
+    float: none;
+    width: 100%;
+    margin: 30px auto 0;
+  }
+
+#foreword .Focus{width:100%; height: 100%; margin: 0 auto; clear: both; display: block; padding: 30px; clear: both; margin: 0 auto; margin-bottom: 50px; }
+
+#foreword .Focuss  {width:100%; height: 238px; float: left; display: block; border-radius: 250px; font-size: 26px; text-align: center; padding-top: 40px;}
+
+#foreword .Focuss2  {width:100%; height: 180px; float: left; display: block; border-radius: 250px; font-size: 26px; text-align: center; padding-top: 40px;}
+#foreword .bg1{background: url("../images/web/01.png") no-repeat center center; background-size: contain;}
+#foreword .bg2{background: url("../images/web/02.png") no-repeat center center; background-size: contain;}
+#foreword .bg3{background: url("../images/web/03.png") no-repeat center center; background-size: contain;}
+#foreword .iconX{background: url("../images/web/iconX.png") no-repeat center center; }	
+	
+	
+  /* ==================== header/footer ==================== */
+  #nav {
+    height: 50px;
+  }
+  #nav .logo {
+    top: 10px;
+  }
+  #dgwFooter {
+    background-color: #333;
+    color: #fff;
+  }
+  #dgwFooter .link01 {
+    display: none;
+  }
+  #dgwFooter .link02 {
+    display: none;
+  }
+
+
+/*自主應用，智享服務--------------------------------------------*/
+
+
+.TABMD{ width:100%; margin:0 auto; font-size:13px; margin-top: 70px; }
+.TABMD ul{ list-style:none; margin:0; padding-left:0px; }
+
+
+ 
+.TABMD li {display:block; width:100%; height:60px; background:#ffffff ;float:left; margin-right:1px; position:relative; border-bottom-color: #ffffff;border-radius:5px 5px 0px 0px; /*border:1px solid #0d8fcb; */  }
+.TABMD li.dis {display: none;}
+.TABMD li a { display:block; width:100%; text-align:center; line-height:60px;color:#000000; text-decoration:none; font-family:微軟正黑體, Arial, Helvetica, sans-serif; font-size: 16px; letter-spacing:1px;border-radius:5px 5px 0px 0px; }
+/*.TABMD li a:hover{ color:#ffffff;}*/
+
+
+
+.NOWTAB{ color:#ffffff; background:#0d8fcb ; height:60px; position:absolute;border-radius:5px 5px 0px 0px; }
+a.NOWTAB:link{ color:#ffffff; background:#0d8fcb ; height:60px; position:absolute; }
+a.NOWTAB:hover{ color:#ffffff; background:#0d8fcb ;height:60px; position:absolute;}
+
+
+
+#BOX2, #BOX3, #BOX4, #BOX5, #BOX6, #BOX7, #BOX8{ display:none;}
+
+.BOXS{ clear:both; width:100%; /* [disabled]height:600px; */ overflow:auto; padding:20px; position:relative; background-repeat:no-repeat; background-color:#FFF; border-radius:5px; border:1px solid #0d8fcb; }
+
+
+
+
+#TAB1, #TAB2, #TAB3, #TAB4 {border:1px solid #0d8fcb;}
+
+
+#TAB5, #TAB6, #TAB7, #TAB8{background:#e8e8e8 ;border:1px solid #afafaf;color:#afafaf;}
+
+
+.title{ font-size: 28px; padding: 10px 0px;}
+.blocks{width: 100% ; height: auto; float: left; display: block;overflow: hidden;}
+.blocks_line{background: url("../images/web/bgspace.jpg") repeat;} 
+.block{ width: 100% ;height: auto; overflow: hidden; float: left; display: block;}
+	
+.block_left{margin-right: 30px; padding: 0px 0px 0px 0px; }
+.block_right{ margin-right: 0px; padding-left:0px; }
+		
+.block50{ width: 100% ;height: auto; overflow: hidden; float: left; display: block;}
+.block p, .block50 p{ font-size: 18px; }
+.block50 img { margin-bottom: 40px; max-width: 100%; margin-right: 10px;}	
+.block h4, .block50 h4{ font-size: 22px;color:#0d8fcb; padding-bottom: 10px; }
+.block img{ margin-bottom: 40px;}
+.block .link2{
+	border-radius: 5px; line-height: 60px; text-align: center; 
+}
+
+
+
+/*自主應用，智享服務--------------------------------------------*/
+}
+
+@media (max-width: 360px) {
+
+	
+}

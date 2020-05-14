@@ -1,0 +1,61 @@
+main .multichannel .tabs {
+    $nav-color: #ff6464;
+    .el-tabs__header {
+        margin-bottom: 25px;
+        border: none;
+    }
+    .el-tabs__nav {
+        width: 100%;
+        border: none;
+        text-align: center;
+    }
+    .el-tabs__item {
+        width: 154px;
+        height: 52px;
+        border: 1px solid $nav-color !important;
+        border-radius: 26px;
+        color: $nav-color;
+        text-align: center;
+        font-size: 24px;
+        line-height: 52px;
+        &:first-child {
+            margin-right: 20px;
+        }
+        &.is-active {
+            background-color: $nav-color;
+            color: #fff;
+        }
+    }
+    .el-tabs__content {
+        h3 {
+            font-size: 24px;
+            line-height: 1.3;
+        }
+        .desc {
+            margin: 1em 0;
+            line-height: 1.6;
+        }
+        ul {
+            padding-left: 1em;
+            list-style-type: disc;
+        }
+        figure > img {
+            margin-bottom: .5em;
+            border: 1px solid #c0c0c0;
+        }
+        .pain + .pain {
+            margin-top: 10px;
+        }
+        .hoverBox {
+            display: flex;
+            height: 400px;
+            justify-content: center;
+            align-items: center;
+            &-hover {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+        }
+    }
+}

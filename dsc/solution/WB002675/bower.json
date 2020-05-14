@@ -1,0 +1,26 @@
+{
+  "name": "WB00267501",
+  "authors": [
+    "Kenge <pgkusn@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "lodash": "^4.17.10",
+    "swiper": "^4.5.0",
+    "wow": "^1.1.2",
+    "animate.css": "^3.7.2",
+    "d3": "^5.9.7",
+    "jquery.actual": "^1.0.19",
+    "jQuery.dotdotdot": "^4.0.9"
+  }
+}

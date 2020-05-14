@@ -1,0 +1,15 @@
+extends ../layout.pug
+
+block includes
+    link(rel="preload", href="images/WB00251301_Issue03/hero-bg.jpg", as="image")
+
+    //- jquery ui
+    link(rel="stylesheet", href="/tw/dsc/Library/css/jquery-ui.min.css")
+    script(src="/tw/dsc/solution/WB002513/js/jquery-ui.min.js", defer)
+
+    link(rel="stylesheet", href="css/WB002513_common.css")
+    link(rel='stylesheet', href='css/WB00251301_Issue03/style.css')
+    script(src='js/WB00251301_Issue03.min.js', defer)
+
+block content
+    include WB00251301_Issue03.html

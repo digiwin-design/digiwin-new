@@ -1,0 +1,146 @@
+/* #region function */
+/* #endregion function */
+/* #region mixin */
+/* #endregion mixin */
+/* #region extend */
+@-webkit-keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+/* #endregion extend */
+main {
+  color: #000;
+  font-size: 100%;
+  line-height: initial;
+}
+main .container {
+  padding: 0;
+  width: auto;
+}
+main h1, main h2, main h4, main h5 {
+  padding: 0;
+  color: inherit;
+  font-weight: normal;
+  font-size: 100%;
+  line-height: inherit;
+}
+main i {
+  font-style: normal;
+}
+
+main {
+  min-width: 360px;
+  font-size: 18px;
+  line-height: 1.6;
+}
+main .container {
+  margin: 0 auto;
+  padding-right: 20px;
+  padding-left: 20px;
+  max-width: 1200px;
+}
+@media (min-width: 1250px) {
+  main .container {
+    padding-right: 0;
+    padding-left: 0;
+  }
+}
+main .mainTitle {
+  font-weight: bold;
+  font-size: 30px;
+}
+main .sectionTitle {
+  padding-top: 50px;
+  letter-spacing: 0.075em;
+  font-size: 26px;
+}
+@media (min-width: 768px) {
+  main .sectionTitle {
+    text-align: center;
+    font-size: 36px;
+  }
+}
+
+main .header {
+  background-position: 100% 0;
+  background-repeat: no-repeat;
+  background-image: url('../images/01_5/header-bg-s.jpg?1546499567');
+  height: 351px;
+}
+@media (min-width: 769px) {
+  main .header {
+    background-position: 50% 0;
+    background-repeat: no-repeat;
+    background-image: url('../images/01_5/header-bg.jpg?1546499902');
+    height: 475px;
+  }
+}
+main .header .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+main .header h1 {
+  color: #fff008;
+  font-weight: normal;
+  line-height: 1.25;
+}
+@media (min-width: 768px) {
+  main .header h1 {
+    font-size: 48px;
+  }
+}
+main .header h2 {
+  color: #fff;
+}
+@media (min-width: 768px) {
+  main .header h2 {
+    font-size: 24px;
+  }
+}
+main .section1 {
+  background-color: #61a5df;
+  color: #fff;
+}
+main .section1 .container {
+  padding-bottom: 65px;
+}
+main .section1 h1 {
+  margin-bottom: 8px;
+  text-align: center;
+}
+@media (min-width: 768px) {
+  main .section1 h1 {
+    margin-bottom: 0;
+  }
+}
+main .section1 h2 {
+  margin: 0 auto 33px;
+  max-width: 832px;
+}
+
+
+
+
+
+/*# sourceMappingURL=WB00291701_5.css.map */

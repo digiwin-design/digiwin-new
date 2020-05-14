@@ -1,0 +1,16 @@
+<main-header>
+    <template slot="content">
+        <h1 class="mainTitle">零售、經銷、批發、網購通路<br>怎麼多到底要怎麼管</h1>
+        <p>
+            經銷代理的通路管理、應收帳款、業務巡捕<br>
+            連鎖賣場的產品促銷、允收效期、合約條件<br>
+            門市管理的預購促銷、會員經營、要貨補貨<br>
+            網購生意的接單出貨、銷貨對帳、退貨換貨<br>
+            不同經營通路要用不同管理方式來因應
+        </p>
+    </template>
+</main-header>
+
+<component :is="componentId"></component>
+
+<contact v-bind:multiple="false" source=""></contact>

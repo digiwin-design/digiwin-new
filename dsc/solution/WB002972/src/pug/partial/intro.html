@@ -1,0 +1,80 @@
+<main-header>
+    <template slot="content">
+        <p>什麼是新零售？<br>零售業經歷了什麼變化，<br>面對了哪些挑戰？</p>
+        <p>而你該思考：<strong>如何因應</strong></p>
+    </template>
+</main-header>
+
+<article-component section="section1">
+    <template slot="title">零售業的演變</template>
+    <template slot="svg">
+        <section1-svg></section1-svg>
+    </template>
+</article-component>
+
+<article-component section="section2" v-bind:desc="true">
+    <template slot="title">零售業的進化</template>
+    <template slot="desc-s">零售進化到新零售，已經突破傳統門市消費到網路購物，消費者更在乎的是速度、方便、資訊安全、縮小地域限制、24小時客戶服務及可提供更多服務</template>
+    <template slot="desc">零售進化到新零售，已經突破傳統門市消費到網路購物，<br>消費者更在乎的是速度、方便、資訊安全、縮小地域限制、24小時客戶服務及可提供更多服務</template>
+    <template slot="svg">
+        <section2-svg></section2-svg>
+    </template>
+</article-component>
+
+<article-component section="section3" v-bind:desc="true">
+    <template slot="title">什麼是新零售<br><span class="highlight">以消費者體驗為中心的零售型態</span></template>
+    <template slot="desc-s">
+        <strong>傳統零售</strong>是：商品送到通路，<br>
+        然後由消費者選擇購買<br>
+        <strong>新零售</strong>是：消費者選擇購買商品，<br>
+        然後才選擇通路 <br>
+        <p class="highlight">
+            <strong>無時無刻為了消費者提供超出期望的內容</strong><br>
+            以人為主就是以消費者體驗為中心<br>
+            以心為本就是掌握數據（人心）<br>
+            就是掌握消費者需求
+        </p>
+    </template>
+    <template slot="desc">
+        <strong>傳統零售</strong>是：商品送到通路，然後由消費者選擇購買<br>
+        <strong>新零售</strong>是：消費者選擇購買商品，然後才選擇通路<br>
+        <p class="highlight">
+            <strong class="mark">無時無刻為了消費者提供超出期望的內容</strong><br>
+            以人為主就是以消費者體驗為中心<br>
+            以心為本就是掌握數據（人心）就是掌握消費者需求
+        </p>
+    </template>
+    <template v-if="isMobile" slot="picture">
+        <img src="images/intro/section3-illust-s.png" alt="">
+    </template>
+    <template v-else slot="svg">
+        <img v-if="isIE" src="images/intro/section3-illust.png" alt="">
+        <section3-svg v-else></section3-svg>
+    </template>
+</article-component>
+
+<article-component section="section4" v-bind:desc="true">
+    <template slot="title">新零售帶來的挑戰</template>
+    <!-- <template slot="desc-s">零售進化到新零售，已經突破傳統門市消費到網路購物，消費者更在乎的是速度、方便、資訊安全、縮小地域限制、24小時客戶服務及可提供更多服務</template> -->
+    <!-- <template slot="desc">零售進化到新零售，已經突破傳統門市消費到網路購物，<br>消費者更在乎的是速度、方便、資訊安全、縮小地域限制、24小時客戶服務及可提供更多服務</template> -->
+    <template v-if="isMobile" slot="picture">
+        <img src="images/intro/section4-illust-s.png" alt="">
+    </template>
+    <template v-else slot="svg">
+        <section4-svg></section4-svg>
+    </template>
+</article-component>
+
+<article-component section="section5" v-bind:desc="true">
+    <template slot="title">面對新挑戰，該如何因應</template>
+    <!-- <template slot="desc-s">零售進化到新零售，已經突破傳統門市消費到網路購物，消費者更在乎的是速度、方便、資訊安全、縮小地域限制、24小時客戶服務及可提供更多服務</template> -->
+    <!-- <template slot="desc">零售進化到新零售，已經突破傳統門市消費到網路購物，<br>消費者更在乎的是速度、方便、資訊安全、縮小地域限制、24小時客戶服務及可提供更多服務</template> -->
+    <template v-if="isMobile" slot="picture">
+        <img src="images/intro/section5-illust-s.png" alt="">
+    </template>
+    <template v-else slot="svg">
+        <section5-svg></section5-svg>
+    </template>
+</article-component>
+
+<contact v-bind:multiple="false" source=""></contact>

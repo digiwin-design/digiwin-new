@@ -1,0 +1,768 @@
+@charset "UTF-8";
+main *, main *:before, main *:after {
+    box-sizing: content-box;
+}
+
+main.WB002588 #banner {
+    width: 100%;
+    min-width: 1000px;
+    background: url(https://static.digiwin.com/tw/dsc/service/WB002588/WB002588/images/bannerBg.jpg) no-repeat center top;
+    text-align: center;
+    position: relative;
+    font-size: 16px;
+    line-height: 30px;
+    font-family: Arial, "微軟正黑體", "新細明體";
+}
+
+main.WB002588 #banner #bannerCon {
+    width: 1000px;
+    position: relative;
+    margin: 0 auto;
+}
+
+main.WB002588 #banner #bannerButton {
+    position: absolute;
+    top: 275px;
+    left: 0px;
+}
+
+main.WB002588 #banner #bannerButton li {
+    text-indent: -9999px;
+    float: left;
+}
+
+main.WB002588 #banner #bannerButton li a {
+    width: 174px;
+    height: 49px;
+    display: block;
+}
+
+main.WB002588 #banner #bannerButton li.contact {
+    background: url(https://static.digiwin.com/tw/dsc/service/WB002588/WB002588/images/contact.png) no-repeat left top;
+}
+
+main.WB002588 #banner #bannerButton li.download {
+    background: url(https://static.digiwin.com/tw/dsc/service/WB002588/WB002588/images/download.png) no-repeat left top;
+    margin-left: 25px;
+}
+
+main.WB002588 #banner #bannerButton li.contact:hover, main.WB002588 #banner #bannerButton li.download:hover {
+    background-position: right top;
+}
+
+main.WB002588 #wrapper {
+    width: 100%;
+    padding: 80px 0 0;
+    position: relative;
+    margin: 0 auto;
+    font-size: 16px;
+    line-height: 30px;
+    font-family: Arial, "微軟正黑體", "新細明體";
+}
+
+main.WB002588 #block1 {
+    width: 100%;
+    min-width: 1000px;
+    overflow: hidden;
+    margin: 0 auto;
+    background-image: url(https://static.digiwin.com/tw/dsc/service/WB002588/images/bg1.png);
+}
+
+main.WB002588 .content {
+    width: 1000px;
+    overflow: hidden;
+    margin: 0 auto;
+    padding: 40px 0;
+}
+
+main.WB002588 #block1 .content h2 {
+    color: #835eb0;
+    font-family: "微軟正黑體", Arial, Helvetica, sans-serif;
+    font-size: 42px;
+    letter-spacing: 4px;
+    margin: 30px;
+    text-align: center;
+    font-weight: normal;
+}
+
+main.WB002588 #block1 .content .text1 {
+    color: #000;
+    font-family: "微軟正黑體", Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    letter-spacing: 1px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+main.WB002588 #block1 h4 {
+    width: 100%;
+    margin: 0 auto;
+    line-height: 36px;
+    font-size: 18px;
+    color: #FFF;
+    background-color: #835eb0;
+    text-align: center;
+    font-weight: normal;
+}
+
+main.WB002588 #guideTxt {
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    overflow: hidden;
+    width: 900px;
+}
+
+main.WB002588 #guideTxt li {
+    width: 290px;
+    height: 230px;
+    margin: 0 10px 10px 0;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    transform: translate(0, 0);
+    transition: transform 0.2s linear;
+}
+
+main.WB002588 #guideTxt #moreCase {
+    width: 470px;
+}
+
+main.WB002588 #guideTxt li .guideDes {
+    width: 290px;
+    height: 140px;
+    color: #fff;
+    position: absolute;
+    top: 230px;
+    background-color: rgba(0, 0, 0, 0.7);
+    background-color: #000 \9;
+    padding: 7px 7px;
+}
+
+main.WB002588 #guideTxt li .guideDes p {
+    font-size: 15px;
+    text-align: left;
+    color: #FFF;
+    line-height: 1.8;
+    padding-left: 70px;
+    letter-spacing: 1px;
+}
+
+main.WB002588 #guideTxt li .guideDes p a {
+    color: #fff;
+}
+
+main.WB002588 #guideTxt li .guideDes p a:hover {
+    color: #FC0;
+}
+
+main.WB002588 #guideTxt li h3 {
+    font-size: 18px;
+}
+
+main.WB002588 #guideTxt li p {
+    font-size: 13px;
+}
+
+main.WB002588 #block2 {
+    width: 100%;
+    min-width: 1000px;
+    overflow: hidden;
+    margin: 0 auto;
+    background-image: url(https://static.digiwin.com/tw/dsc/service/WB002588/images/bg2.png);
+}
+
+main.WB002588 .content {
+    width: 1000px;
+    overflow: hidden;
+    margin: 0 auto;
+    padding: 40px 0;
+}
+
+main.WB002588 #block2 .content h2 {
+    color: #4da4b1;
+    font-family: "微軟正黑體", Arial, Helvetica, sans-serif;
+    font-size: 42px;
+    letter-spacing: 4px;
+    margin: 36px;
+    text-align: center;
+    font-weight: normal;
+}
+
+main.WB002588 #block2 .content .text1 {
+    color: #000;
+    font-family: "微軟正黑體", Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    letter-spacing: 1px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+main.WB002588 #block2 h4 {
+    width: 100%;
+    margin: 0 auto;
+    line-height: 45px;
+    font-size: 18px;
+    color: #FFF;
+    background-color: #4da4b1;
+    margin-top: 0px;
+    text-align: center;
+    font-weight: normal;
+}
+
+main.WB002588 #caseTxt .end, main.WB002588 #upgradeTxt .end {
+    margin-right: 0;
+}
+
+main.WB002588 #upgradeTxt li {
+    width: 295px;
+    height: 420px;
+    margin: 0 15px 20px 15px;
+    float: left;
+    overflow: hidden;
+    display: block;
+    position: relative;
+    /* margin-top: 100px; opacity: 0; transition: margin 1s linear, opacity 1s linear; */
+}
+
+main.WB002588 #upgradeTxt li img {
+    margin: 0 auto;
+    position: absolute;
+    top: 1px;
+    left: 82px;
+}
+
+main.WB002588 #upgradeTxt #up_img1 a {
+    display: block;
+    background-image: url(https://static.digiwin.com/tw/dsc/service/WB002588/images/block2_icon1.png);
+    width: 150px;
+    height: 180px;
+    margin: 0 auto;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-position: top center;
+    line-height: 300px;
+    color: #4da4b1;
+}
+
+main.WB002588 #upgradeTxt #up_img1 a:hover {
+    background-image: url(https://static.digiwin.com/tw/dsc/service/WB002588/images/block2_icon1b.png);
+    color: #e04611;
+}
+
+main.WB002588 #upgradeTxt #up_img2 a {
+    display: block;
+    background-image: url(https://static.digiwin.com/tw/dsc/service/WB002588/images/block2_icon2.png);
+    width: 150px;
+    height: 180px;
+    margin: 0 auto;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-position: top center;
+    line-height: 300px;
+    color: #4da4b1;
+}
+
+main.WB002588 #upgradeTxt #up_img2 a:hover {
+    background-image: url(https://static.digiwin.com/tw/dsc/service/WB002588/images/block2_icon2b.png);
+    color: #e04611;
+}
+
+main.WB002588 #upgradeTxt #up_img3 a {
+    display: block;
+    background-image: url(https://static.digiwin.com/tw/dsc/service/WB002588/images/block2_icon3.png);
+    width: 150px;
+    height: 180px;
+    margin: 0 auto;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-position: top center;
+    line-height: 300px;
+    color: #4da4b1;
+}
+
+main.WB002588 #upgradeTxt #up_img3 a:hover {
+    background-image: url(https://static.digiwin.com/tw/dsc/service/WB002588/images/block2_icon3b.png);
+    color: #e04611;
+}
+
+main.WB002588 #upgradeTxt li h3 {
+    text-align: center;
+    margin: 0 auto;
+    position: absolute;
+    top: 0px;
+    left: 66px;
+    font-size: 22px;
+    font-family: "微軟正黑體", Arial, Helvetica, sans-serif;
+    color: #4da4b1;
+    width: 164px;
+    height: 180px;
+}
+
+main.WB002588 #upgradeTxt li h5 {
+    margin: 0 auto;
+    position: absolute;
+    top: 185px;
+    left: 17px;
+    font-size: 15px;
+    font-family: "微軟正黑體", Arial, Helvetica, sans-serif;
+    color: #000;
+    width: 277px;
+    height: 91px;
+}
+
+main.WB002588 #upgradeTxt li p {
+    letter-spacing: 1px;
+    margin: 0 auto;
+    position: absolute;
+    top: 299px;
+    left: 17px;
+    font-size: 15px;
+    font-family: "微軟正黑體", Arial, Helvetica, sans-serif;
+    color: #000;
+    width: 259px;
+    height: 130px;
+}
+
+main.WB002588 #upgradeTxt li p a {
+    color: #098193;
+}
+
+main.WB002588 #upgradeTxt li p a:hover {
+    color: #e21a22;
+}
+
+main.WB002588 #block3 {
+    width: 100%;
+    min-width: 1000px;
+    overflow: hidden;
+    margin: 0 auto;
+    background-image: url(https://static.digiwin.com/tw/dsc/service/WB002588/images/bg3.png);
+}
+
+main.WB002588 .content {
+    width: 1000px;
+    overflow: hidden;
+    margin: 0 auto;
+    padding: 40px 0;
+}
+
+main.WB002588 #block3 .content h2 {
+    color: #6eb14d;
+    font-family: "微軟正黑體", Arial, Helvetica, sans-serif;
+    font-size: 42px;
+    letter-spacing: 4px;
+    margin: 36px;
+    text-align: center;
+    font-weight: normal;
+}
+
+main.WB002588 #block3 .content .text1 {
+    color: #000;
+    font-family: "微軟正黑體", Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    letter-spacing: 1px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+main.WB002588 #block3 h4 {
+    width: 100%;
+    margin: 0 auto;
+    line-height: 45px;
+    font-size: 18px;
+    color: #FFF;
+    background-color: #6eb14d;
+    margin-top: 0px;
+    text-align: center;
+    font-weight: normal;
+}
+
+main.WB002588 #ITTxt {
+    overflow: hidden;
+    height: 500px;
+}
+
+main.WB002588 #ITTxt .box1 {
+    position: relative;
+    width: 235px;
+    height: 470px;
+    overflow: hidden;
+    float: left;
+    overflow: hidden;
+}
+
+main.WB002588 #ITTxt .box1 a {
+    width: 235px;
+    height: 470px;
+    overflow: hidden;
+    display: block;
+    background-image: url(https://static.digiwin.com/tw/dsc/service/WB002588/images/block3_img_06.png);
+    background-repeat: no-repeat;
+}
+
+main.WB002588 #ITTxt .box1 a:hover {
+    width: 235px;
+    height: 470px;
+    overflow: hidden;
+    display: block;
+    background-image: url(https://static.digiwin.com/tw/dsc/service/WB002588/images/block3_imgb_06.png);
+    background-repeat: no-repeat;
+}
+
+main.WB002588 #ITTxt .boxTxt1 {
+    font-family: "微軟正黑體", Arial, Helvetica, sans-serif;
+    position: absolute;
+    top: 264px;
+    left: 44px;
+    width: 168px;
+    height: 181px;
+}
+
+main.WB002588 #ITTxt .boxTxt1 h3 {
+    font-family: "微軟正黑體", Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+main.WB002588 #ITTxt .boxTxt1 p {
+    font-family: "微軟正黑體", Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 30px;
+}
+
+main.WB002588 #ITTxt .boxTxt1 a {
+    background-image: none;
+    width: 90px;
+    height: 35px;
+    overflow: hidden;
+    display: block;
+    background-repeat: no-repeat;
+    background-color: #F60;
+    line-height: 35px;
+    font-size: 16px;
+    text-align: center;
+    color: #FFF;
+    border-radius: 5px 5px 5px 5px;
+}
+
+main.WB002588 #ITTxt .boxTxt1 a:hover {
+    background-image: none;
+    width: 90px;
+    height: 35px;
+    overflow: hidden;
+    display: block;
+    background-repeat: no-repeat;
+    background-color: #ff8522;
+    line-height: 35px;
+    font-size: 16px;
+    text-align: center;
+    color: #FFF;
+    border-radius: 5px 5px 5px 5px;
+}
+
+main.WB002588 #ITTxt .box2 {
+    position: relative;
+    width: 235px;
+    height: 470px;
+    overflow: hidden;
+    float: left;
+    overflow: hidden;
+}
+
+main.WB002588 #ITTxt .box2 a {
+    width: 235px;
+    height: 470px;
+    overflow: hidden;
+    display: block;
+    background-image: url(https://static.digiwin.com/tw/dsc/service/WB002588/images/block3_img_07.png);
+    background-repeat: no-repeat;
+}
+
+main.WB002588 #ITTxt .box2 a:hover {
+    width: 235px;
+    height: 470px;
+    overflow: hidden;
+    display: block;
+    background-image: url(https://static.digiwin.com/tw/dsc/service/WB002588/images/block3_imgb_07.png);
+    background-repeat: no-repeat;
+}
+
+main.WB002588 #ITTxt .boxTxt2 {
+    font-family: "微軟正黑體", Arial, Helvetica, sans-serif;
+    position: absolute;
+    top: 18px;
+    left: 30px;
+    width: 205px;
+    height: 204px;
+}
+
+main.WB002588 #ITTxt .boxTxt2 h3 {
+    font-family: "微軟正黑體", Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+main.WB002588 #ITTxt .boxTxt2 p {
+    font-family: "微軟正黑體", Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 30px;
+}
+
+main.WB002588 #ITTxt .boxTxt2 a {
+    background-image: none;
+    width: 90px;
+    height: 35px;
+    overflow: hidden;
+    display: block;
+    background-repeat: no-repeat;
+    background-color: #F60;
+    line-height: 35px;
+    font-size: 16px;
+    text-align: center;
+    color: #FFF;
+    border-radius: 5px 5px 5px 5px;
+}
+
+main.WB002588 #ITTxt .boxTxt2 a:hover {
+    background-image: none;
+    width: 90px;
+    height: 35px;
+    overflow: hidden;
+    display: block;
+    background-repeat: no-repeat;
+    background-color: #ff8522;
+    line-height: 35px;
+    font-size: 16px;
+    text-align: center;
+    color: #FFF;
+    border-radius: 5px 5px 5px 5px;
+}
+
+main.WB002588 #ITTxt .box3 {
+    position: relative;
+    width: 235px;
+    height: 470px;
+    overflow: hidden;
+    float: left;
+    overflow: hidden;
+}
+
+main.WB002588 #ITTxt .box3 a {
+    width: 235px;
+    height: 470px;
+    overflow: hidden;
+    display: block;
+    background-image: url(https://static.digiwin.com/tw/dsc/service/WB002588/images/block3_img_08.png);
+    background-repeat: no-repeat;
+}
+
+main.WB002588 #ITTxt .box3 a:hover {
+    width: 235px;
+    height: 470px;
+    overflow: hidden;
+    display: block;
+    background-image: url(https://static.digiwin.com/tw/dsc/service/WB002588/images/block3_imgb_08.png);
+    background-repeat: no-repeat;
+}
+
+main.WB002588 #ITTxt .boxTxt3 {
+    font-family: "微軟正黑體", Arial, Helvetica, sans-serif;
+    position: absolute;
+    top: 266px;
+    left: 33px;
+    width: 196px;
+    height: 210px;
+}
+
+main.WB002588 #ITTxt .boxTxt3 h3 {
+    font-family: "微軟正黑體", Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+main.WB002588 #ITTxt .boxTxt3 p {
+    font-family: "微軟正黑體", Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 30px;
+}
+
+main.WB002588 #ITTxt .boxTxt3 a {
+    background-image: none;
+    width: 90px;
+    height: 35px;
+    overflow: hidden;
+    display: block;
+    background-repeat: no-repeat;
+    background-color: #F60;
+    line-height: 35px;
+    font-size: 16px;
+    text-align: center;
+    color: #FFF;
+    border-radius: 5px 5px 5px 5px;
+    float: left;
+    margin-left: 5px;
+}
+
+main.WB002588 #ITTxt .boxTxt3 a:hover {
+    background-image: none;
+    width: 90px;
+    height: 35px;
+    overflow: hidden;
+    display: block;
+    background-repeat: no-repeat;
+    background-color: #ff8522;
+    line-height: 35px;
+    font-size: 16px;
+    text-align: center;
+    color: #FFF;
+    border-radius: 5px 5px 5px 5px;
+}
+
+main.WB002588 #ITTxt .boxTxt3 a.c2 {
+    background-image: none;
+    width: 90px;
+    height: 35px;
+    overflow: hidden;
+    display: block;
+    background-repeat: no-repeat;
+    background-color: #017817;
+    line-height: 35px;
+    font-size: 16px;
+    text-align: center;
+    color: #FFF;
+    border-radius: 5px 5px 5px 5px;
+    float: left;
+    margin-left: 5px;
+}
+
+main.WB002588 #ITTxt .boxTxt3 a.c2:hover {
+    background-image: none;
+    width: 90px;
+    height: 35px;
+    overflow: hidden;
+    display: block;
+    background-repeat: no-repeat;
+    background-color: #4b8e2a;
+    line-height: 35px;
+    font-size: 16px;
+    text-align: center;
+    color: #FFF;
+    border-radius: 5px 5px 5px 5px;
+}
+
+main.WB002588 #ITTxt .boxTxt4 a.c3 {
+    background-image: none;
+    width: 90px;
+    height: 35px;
+    overflow: hidden;
+    display: block;
+    background-repeat: no-repeat;
+    background-color: #f32111;
+    line-height: 35px;
+    font-size: 16px;
+    text-align: center;
+    color: #FFF;
+    border-radius: 5px 5px 5px 5px;
+    float: left;
+    margin-left: 5px;
+}
+
+main.WB002588 #ITTxt .boxTxt4 a.c3:hover {
+    background-image: none;
+    width: 90px;
+    height: 35px;
+    overflow: hidden;
+    display: block;
+    background-repeat: no-repeat;
+    background-color: #ef594e;
+    line-height: 35px;
+    font-size: 16px;
+    text-align: center;
+    color: #FFF;
+    border-radius: 5px 5px 5px 5px;
+}
+
+main.WB002588 #ITTxt .box4 {
+    position: relative;
+    width: 235px;
+    height: 470px;
+    overflow: hidden;
+    float: left;
+    overflow: hidden;
+}
+
+main.WB002588 #ITTxt .box4 a {
+    width: 235px;
+    height: 470px;
+    overflow: hidden;
+    display: block;
+    background-image: url(https://static.digiwin.com/tw/dsc/service/WB002588/images/block3_img_09.png);
+    background-repeat: no-repeat;
+}
+
+main.WB002588 #ITTxt .box4 a:hover {
+    width: 235px;
+    height: 470px;
+    overflow: hidden;
+    display: block;
+    background-image: url(https://static.digiwin.com/tw/dsc/service/WB002588/images/block3_imgb_09.png);
+    background-repeat: no-repeat;
+}
+
+main.WB002588 #ITTxt .boxTxt4 {
+    font-family: "微軟正黑體", Arial, Helvetica, sans-serif;
+    position: absolute;
+    top: 18px;
+    left: 30px;
+    width: 205px;
+    height: 204px;
+}
+
+main.WB002588 #ITTxt .boxTxt4 h3 {
+    font-family: "微軟正黑體", Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+main.WB002588 #ITTxt .boxTxt4 p {
+    font-family: "微軟正黑體", Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 30px;
+}
+
+main.WB002588 #ITTxt .boxTxt4 a {
+    background-image: none;
+    width: 90px;
+    height: 35px;
+    overflow: hidden;
+    display: block;
+    background-repeat: no-repeat;
+    background-color: #F60;
+    line-height: 35px;
+    font-size: 16px;
+    text-align: center;
+    color: #FFF;
+    border-radius: 5px 5px 5px 5px;
+}
+
+main.WB002588 #ITTxt .boxTxt4 a:hover {
+    background-image: none;
+    width: 90px;
+    height: 35px;
+    overflow: hidden;
+    display: block;
+    background-repeat: no-repeat;
+    background-color: #F33;
+    line-height: 35px;
+    font-size: 16px;
+    text-align: center;
+    color: #FFF;
+    border-radius: 5px 5px 5px 5px;
+}
+
+main.WB002588 #ITImg {
+    display: block;
+    margin: 0 auto 20px;
+}
+

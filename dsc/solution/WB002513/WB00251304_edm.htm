@@ -1,0 +1,471 @@
+﻿<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>活动邀约</title>
+
+<!------CSS Style写于html内，字级颜色设定同台湾活动edm模板 + reset.css----------> 
+
+<style>
+@charset "utf-8";
+/* CSS Document */
+
+body, div, dl, dt, dd, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, p, blockquote, th, td {
+	margin:0;
+	padding:0;}
+table {
+	border-collapse:collapse;
+	border-spacing:0;}
+fieldset, img {
+	border:0;}
+address, caption, cite, code, dfn, em, strong, th, var {
+	font-style:normal;
+	font-weight:normal;
+}
+caption, th {
+	text-align:left;}
+q:before, q:after {
+	content:'';}
+abbr, acronym {
+	border:0;}
+
+body {
+	font-family: "宋体";
+	font-size: 13px;
+
+	color: #4C4C4C;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: left top;
+	background-color: #ECEBED;}
+/*td {
+	font-family: "宋体";
+	font-size: 13px;
+	line-height: 24px;
+	letter-spacing:1px;
+	color: #464646;}*/
+.textp {
+	font-family: "宋体";
+	font-size: 13px;
+	line-height: 24px;
+	letter-spacing:1px;
+	color: #464646;}
+#txt12{
+	font-family: "宋体";
+	font-size: 11px;
+	line-height: 17px;
+	color:#505050;
+	letter-spacing: 0.5;
+}
+.txt13{
+	font-family: "宋体";
+	font-size: 13px;
+	line-height: 24px;
+	letter-spacing:1px;
+	color: #464646;}
+.txt13_bold{
+	font-family: "宋体";
+	font-size: 13px;
+	font-weight:bold;
+	line-height: 24px;
+	letter-spacing:1px;
+	color: #464646;}
+.txt13w {
+	font-family: "宋体";
+	font-size: 13px;
+	line-height: 18px;
+	color: #ffffff;}
+.txt13a {
+	font-family: "宋体";
+	font-size: 13px;
+	line-height: 24px;
+	letter-spacing:1px;
+	color: #1382b6;}
+.txt13R{
+	font-family: "宋体";
+	font-size: 13px;
+	line-height: 24px;
+	letter-spacing:1px;
+	color: #e3185c;
+	font-weight: bold;}
+.txt13B{
+	font-family: "宋体";
+	font-size: 13px;
+	line-height: 24px;
+	letter-spacing:1px;
+	color: #0e90c2;
+	font-weight: bold;}
+.txt13O{
+	font-family: "宋体";
+	font-size: 13px;
+	line-height: 24px;
+	letter-spacing:1px;
+	color: #f05b26;
+	font-weight: bold;
+	text-align:left;}
+.txt13G{
+	font-family: "宋体";
+	font-size: 13px;
+	line-height: 24px;
+	letter-spacing:1px;
+	color: #458645;
+	font-weight: bold;}
+.txt12 {
+	font-family: "宋体";
+	font-size: 12px;
+	line-height: 1.5;
+	letter-spacing:1px;
+	color: #505050;}
+.txt15B {
+	font-family: "宋体";
+	font-size: 15px;
+	line-height: 24px;
+	letter-spacing:1px;
+	font-weight: bold;
+	color: #505050;}
+.txt15Bule {
+	font-family: "宋体";
+	font-size: 15px;
+	line-height: 24px;
+	letter-spacing:1px;
+	font-weight: bold;
+	color: #1A5BBD;}
+.txt15o {
+	font-family: "宋体";
+	font-size: 15px;
+	line-height: 28px;
+	letter-spacing:1px;
+	font-weight: bold;
+	color: #F02C0F;}
+.txt15r {
+	font-family: "宋体";
+	font-size: 15px;
+	line-height: 28px;
+	letter-spacing:1px;
+	font-weight: bold;
+	color: #E91237;}
+.txt15g {
+	font-family: "宋体";
+	font-size: 15px;
+	line-height: 28px;
+	letter-spacing:1px;
+	font-weight: bold;
+	color: #74b64a;}
+.txt15{
+	font-family: "宋体";
+	font-size: 15px;
+	line-height: 25px;
+    letter-spacing:1px;
+	color: #464646;}
+.txt22 {
+	font-family: "宋体";
+	font-size: 22px;
+	line-height: 35px;
+	color: #505050;
+	font-weight: bold;}	
+.txt18 {
+	font-family: Arial, "宋体";
+	font-size: 18px;
+	line-height: 30px;
+	font-weight: bold;
+	color: #1B75BB;}	
+.txt18B {
+	font-family: "宋体";
+	font-size: 18px;
+	line-height: 25px;
+	font-weight: bold;
+	color: #505050;}
+.txt19 {
+	font-family: "宋体";
+	font-size: 19px;
+	line-height: 25px;
+	font-weight: bold;
+	color: #505050;}	
+.txt20 {
+	font-family: Arial, "宋体";
+	font-size: 20px;
+	line-height: 25px;
+	font-weight: bold;
+	color: #505050;}
+.txt20a {
+	font-family: "宋体";
+	font-size: 22px;
+	line-height: 31px;
+	font-weight: bold;
+	color: #db0505;}
+.txt35b {
+	font-family: Arial, "宋体";
+	font-size: 35px;
+	line-height: 37px;
+	font-weight: normal;
+	color: #1B75BB;}
+.txt35o {
+	font-family: Arial, "宋体";
+	font-size: 35px;
+	line-height: 37px;
+	font-weight: normal;
+	color:#f05a22;}
+.txt35r {
+	font-family: Arial, "宋体";
+	font-size: 35px;
+	line-height: 37px;
+	font-weight: normal;
+	color:#E3185C;}
+.txt35g {
+	font-family: Arial, "宋体";
+	font-size: 35px;
+	line-height: 37px;
+	font-weight: normal;
+	color:#458645;}
+.topline {
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	border-top-color: #bebebe;}
+.topline_a {
+	BORDER-BOTTOM-STYLE: none; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; BORDER-TOP: #dcdbdb 1px solid
+}
+.lineLD {
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-bottom-color: #bebebe;
+	border-left-color: #bebebe;}
+.lineLDo {
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-bottom-color: #ffcb83;
+	border-left-color: #ffcb83;}
+.lineLR {
+	BORDER-LEFT: #dcdbdb 1px solid; BORDER-RIGHT: #dcdbdb 1px solid
+}
+.linedown {
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #bebebe;}
+.linedown2 {
+	border-left-width: 1px;
+	border-left-style: solid;
+	border-left-color: #ffffff;
+		border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #bebebe;}
+.lineL {
+	border-left-width: 1px;
+	border-left-style: solid;
+	border-left-color: #bebebe;}
+.lineLa {
+	border-left-width: 1px;
+	border-left-style: solid;
+	border-left-color: #f6911d;}
+a:link {
+	font-family: "宋体";
+	font-size: 13px;
+	line-height: 20px;
+	color: #505050;
+	text-decoration: none;}
+a:visited {
+	font-family: "宋体";
+	font-size: 13px;
+	line-height: 20px;
+	color: #505050;
+	text-decoration: none;}
+a:hover {
+	font-family: "宋体";
+	font-size: 13px;
+	line-height: 20px;
+	color: #f05a28;
+	text-decoration: none;}
+a:active {
+	font-family: "宋体";
+	font-size: 13px;
+	line-height: 20px;
+	color: #B6B5B5;
+	text-decoration: none;}
+.txt13Ra{
+	font-family: "宋体";
+	font-size: 13px;
+	line-height: 24px;
+	letter-spacing:1px;
+	color: #e3185c;
+	font-weight: bold;}
+.txt13Ra a:link {
+	font-family: "宋体";
+	font-size: 13px;
+	line-height: 24px;
+	letter-spacing:1px;
+	color: #e3185c;
+	font-weight: bold;
+	text-decoration: none;}
+.txt13Ra a:visited {
+	font-family: "宋体";
+	font-size: 13px;
+	line-height: 24px;
+	letter-spacing:1px;
+	color: #e3185c;
+	font-weight: bold;
+	text-decoration: none;}
+.txt13Ra a:hover {
+	font-family: "宋体";
+	font-size: 13px;
+	line-height: 20px;
+	color: #f05a28;
+	text-decoration: none;}
+.txt13Ra a:active {
+	font-family: "宋体";
+	font-size: 13px;
+	line-height: 24px;
+	letter-spacing:1px;
+	color: #e3185c;
+	font-weight: bold;
+	text-decoration: none;}
+.textpa {
+	font-family: "宋体";
+	font-size: 13px;
+	line-height: 24px;
+	letter-spacing:1px;
+	color: #464646;}
+.textpa a:link {
+	font-family: "宋体";
+	font-size: 13px;
+	line-height: 20px;
+	color: #464646;
+	text-decoration: none;}
+.textpa a:visited {
+	font-family: "宋体";
+	font-size: 13px;
+	line-height: 20px;
+	color: #464646;
+	text-decoration: none;}
+.textpa a:hover {
+	font-family: "宋体";
+	font-size: 13px;
+	line-height: 20px;
+	color: #f05a28;
+	text-decoration: none;}
+.textpa a:active {
+	font-family: "宋体";
+	font-size: 13px;
+	line-height: 20px;
+	color: #464646;
+	text-decoration: none;}
+
+.txt15B1 {font-family: "微軟正黑體";
+	font-size: 15px;
+	line-height: 24px;
+	letter-spacing:1px;
+	font-weight: bold;
+	color: #505050;}
+</style>
+<!-------CSS Style结束-------------->
+</head>
+<body>
+<table width="900" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td class="txt15B1">&nbsp;</td>
+  </tr>
+  <tr>
+    <td class="txt15B1">亲爱的企业伙伴您好：<br>
+      <br>
+有一家连接器企业的总经理告诉我们&quot;我们大量的采用自动化设备，看似生产效率有了大幅的提升，然而久而久之，却发现大部分生产的产品成了废料、呆滞品。当我们真正按照订单进行生产的时候，却往往因为缺料，导致停工而无法准时达交。&quot;这些正是大多数中国制造企业面临的问题，没有在智能制造完整布局的前提下盲目的引进大量的自动化设备，往往看似生产效率提升了却无法为企业带来盈利。<br>&lt;齐料控料怎么做&gt; 请关注鼎捷软件智能制造整体解决方案应用。</td>
+  </tr>
+  <tr>
+    <td class="txt15B1">&nbsp;</td>
+  </tr>
+</table>
+<table width="900" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td align="right"><a href="http://www.digiwin.com/solution/WB002513/WB00251304_edm.htm"><a href="http://www.digiwin.com/solution/WB002513/WB00251304_edm.htm"> ※若无法正常浏览，请点此连结※ </a></td>
+  </tr>
+</table>
+<TABLE id="Table_01" height="62" cellSpacing="0" cellPadding="0" width="900" align="center" border="0">
+  <TBODY>
+    <TR>
+      <TD width="163" rowSpan="2"><A href="http://www.digiwin.com.cn/" target="_blank"><IMG border="0" alt="" src="http://www.digiwin.com.cn/yqh/2013090009/image/logo.jpg" width="163" height="62"></A></TD>
+      <TD width="572" height="27" align="right" bgColor="#f5f3f4"><span class="textpa"><a href="http://www.digiwin.com.cn/" target="_blank">鼎捷官网：www.digiwin.com.cn</a></span><span class="textp">│客户专线：</span><span class="txt13Ra"><a href="http://www.digiwin.com.cn/selfProducts.aspx?Type=Get&id=1.12.01" target="_blank">400-626-5858</a></span><A href="http://www.digiwin.com.cn/solution.html" target="_blank">│解决方案│</A><A href="http://www.digiwin.com.cn/case.html" target="_blank">成功案例│</A></TD>
+      <TD width="100" height="27" align="center" bgColor="#f5f3f4"><a href="http://i.youku.com/u/UNjA1Njk5MTg4" target="_blank"><img src="http://www.digiwin.com.cn/zhongji/WB00251302/images/youku.jpg" width="90" height="21"></a></TD>
+      <TD width="65" height="27" align="right" bgColor="#f5f3f4"><A href="http://widget.weibo.com/dialog/follow.php?fuid=1893386220&refer=open.weibo.com&language=zh_cn&type=widget_page&vsrc=app_followbutton&backurl=http%3A//open.weibo.com/widget/followbutton.php&rnd=1366706740790" target="_blank"><IMG border="0" src="http://www.digiwin.com.cn/edm_top/images/followbtn.gif" width="62" height="22"></A></TD>
+    </TR>
+    <TR>
+      <TD colSpan="3"><IMG alt="" src="http://www.digiwin.com.cn/edm_top/images/Digiwinsoft_top_a_03.gif" width="737" height="35"></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+
+<table width="900" border="0" align="center" cellpadding="0" cellspacing="0" class="lineLR">
+  <tr>
+  
+    <td height="181" colspan="3" bgcolor="#FFFFFF"><table id="Table_" width="900" height="2146" border="0" cellpadding="0" cellspacing="0">
+      <tr>
+        <td><img src="https://www.digiwin.com/tw/dsc/solution/WB002513/images/251304_01.jpg" width="900" height="326" alt=""></td>
+      </tr>
+      <tr>
+        <td><img src="https://www.digiwin.com/tw/dsc/solution/WB002513/images/251304_02.jpg" width="900" height="288" alt=""></td>
+      </tr>
+      <tr>
+        <td><p><img src="https://www.digiwin.com/tw/dsc/solution/WB002513/images/251304_04_01.jpg" width="900" height="272" alt=""><br>
+          <a href="http://cn.mikecrm.com/MuOEcp1" target="_blank"><img src="https://www.digiwin.com/tw/dsc/solution/WB002513/images/251304_04_02.jpg" alt="" width="449" height="102" border="0"></a><a href="http://crm2.qq.com/page/portalpage/wpa.php?uin=4006265858&aty=0&a=0&curl=&ty=1" target="_blank"><img src="https://www.digiwin.com/tw/dsc/solution/WB002513/images/251304_04_03.jpg" alt="" width="451" height="102" border="0"></a><a href="http://tw.digiwin.biz/solution/WB002513/WB00251301_Manufacture.htm"></a></p></td>
+      </tr>
+      <tr>
+        <td><a href="http://www.digiwin.com.cn/caseListDetail.aspx?id=10066" target="_blank"><img src="https://www.digiwin.com/tw/dsc/solution/WB002513/images/2513041_01.jpg" alt="" width="900" height="234" border="0"></a></td>
+      </tr>
+      <tr>
+        <td><a href="http://www.digiwin.com.cn/caseListDetail.aspx?id=7073" target="_blank"><img src="https://www.digiwin.com/tw/dsc/solution/WB002513/images/2513041_02.jpg" alt="" width="900" height="163" border="0"></a></td>
+      </tr>
+      <tr>
+        <td><a href="http://www.digiwin.com.cn/caseListDetail.aspx?id=9611" target="_blank"><img src="https://www.digiwin.com/tw/dsc/solution/WB002513/images/2513041_03.jpg" alt="" width="900" height="202" border="0"></a></td>
+      </tr>
+      <tr>
+        <td><p><img src="https://www.digiwin.com/tw/dsc/solution/WB002513/images/251304_077.jpg" width="900" height="112"><a href="http://www.digiwin.com.cn/caseDetail_2.1.3.01.html" target="_blank"><br>
+          <img src="https://www.digiwin.com/tw/dsc/solution/WB002513/images/251304_07.jpg" alt="" width="900" height="284" border="0"></a><a href="http://www.digiwin.com/solution/WB002513/WB00251301_seminar.htm?utm_source=direct&utm_medium=email&utm_content=WB00251302&utm_campaign=WB00251302"><br>
+            <img src="https://www.digiwin.com/tw/dsc/solution/WB002513/images/251304_078.jpg" alt="" width="900" height="43" border="0"><br>
+          </a></p></td>
+      </tr>
+      <tr>
+        <td><img src="https://www.digiwin.com/tw/dsc/solution/WB002513/images/251304_1_01.png" width="900" height="75"><br>
+          <a href="http://win.digiwin.com.cn/?p=1891" target="_blank"><img src="https://www.digiwin.com/tw/dsc/solution/WB002513/images/251304_1_02.png" width="323" height="292" border="0"></a><a href="http://win.digiwin.com.cn/?p=1878" target="_blank"><img src="https://www.digiwin.com/tw/dsc/solution/WB002513/images/251304_1_03.png" width="236" height="292" border="0"></a><a href="http://win.digiwin.com.cn/?p=678" target="_blank"><img src="https://www.digiwin.com/tw/dsc/solution/WB002513/images/251304_1_04.png" width="204" height="292" border="0"></a><a href="http://win.digiwin.com.cn/?p=631" target="_blank"><img src="https://www.digiwin.com/tw/dsc/solution/WB002513/images/251304_1_05.png" width="137" height="292" border="0"></a></td>
+      </tr>
+      <tr>
+        <td valign="top"><table id="Table_2" width="900" height="437" border="0" cellpadding="0" cellspacing="0">
+          <tr>
+            <td colspan="2"><img src="https://www.digiwin.com/tw/dsc/solution/WB002513/images/251304_2_01.png" width="900" height="92" alt=""></td>
+          </tr>
+          <tr>
+            <td><a href="http://mp.weixin.qq.com/s/uVZxD1x0xeeeIxW1DzGA7w" target="_blank"><img src="https://www.digiwin.com/tw/dsc/solution/WB002513/images/251304_2_02.png" alt="" width="594" height="77" border="0"></a></td>
+            <td rowspan="5"><img src="https://www.digiwin.com/tw/dsc/solution/WB002513/images/251304_2_03.png" width="306" height="345" alt=""></td>
+          </tr>
+          <tr>
+            <td><a href="http://mp.weixin.qq.com/s/4JFU7cjlRrYYIMLH0qAAhQ" target="_blank"><img src="https://www.digiwin.com/tw/dsc/solution/WB002513/images/251304_2_04.png" alt="" width="594" height="50" border="0"></a></td>
+          </tr>
+          <tr>
+            <td><a href="http://mp.weixin.qq.com/s/4h2OALCK3oanmHefRxgL3w" target="_blank"><img src="https://www.digiwin.com/tw/dsc/solution/WB002513/images/251304_2_05.png" alt="" width="594" height="58" border="0"></a></td>
+          </tr>
+          <tr>
+            <td><a href="http://mp.weixin.qq.com/s/RristpZdFkOXiqvlYVamJg" target="_blank"><img src="https://www.digiwin.com/tw/dsc/solution/WB002513/images/251304_2_06.png" alt="" width="594" height="60" border="0"></a></td>
+          </tr>
+          <tr>
+            <td><a href="http://mp.weixin.qq.com/s/5_x7es1nvMX5GfAD4gJY4Q" target="_blank"><img src="https://www.digiwin.com/tw/dsc/solution/WB002513/images/251304_2_07.png" alt="" width="594" height="100" border="0"></a></td>
+          </tr>
+        </table></td>
+      </tr>
+    </table></td>
+  </tr>
+<tr><td width="26" height="140" class=topline_a bgcolor="#FFFFFF"></td>
+    <td width="850" height="140" class=topline_a bgcolor="#FFFFFF"><span id="txt12">鼎捷(鼎捷软件、鼎新电脑、鼎捷软件(越南)、鼎捷软件(马来西亚)、鼎华系统(鼎诚資息‧艾码科技)、智互联(深圳)科技) 向您搜集之个人资料(包含个人姓名、公司名称、职称、地址、电话及电子邮件地址等得以直接或间接识别个人的相关信息)，将仅限使用于本公司合于营业登记项目或章程所载及业务需要之客户管理、营销及营业范围内相关服务使用，期限自联系起始日至特定目的终止日为止，并遵守“个人资料保护法”之规定妥善保护您的个人信息。于此前提下，您同意本公司得于法律许可之范围内处理及利用相关数据以提供信息或服务，并得于本公司之营运地区向您提供营销信息，但您仍得依法律规定之相关个人信息权利主张如下事项：查询、阅览、复制、补充、更正、处理、利用及删除，请于上班时间以电话或电子邮件向本公司联系，电话：400-626-5858;Mail：<a href="mailto:info@digiwin.com.cn" style="font-size:14px">info@digiwin.com.cn</a>。您亦可拒绝提供相关之个人资料，惟可能无法及时享有本公司提供之相关活动与获取各项信息之权利。若您不愿意再收到相关讯息，<a href="http://www.digiwin.com.cn/selfOrder.aspx?id=3.12.01" style="font-size:13px">请连结取消订阅</a>。</span></td>
+    <td width="26" height="130" class="topline_a" bgcolor="#FFFFFF"></td>
+  </tr>
+  <tr>
+    <td colspan="3"><table width="900" border="0" align="center" cellpadding="0" cellspacing="0">
+      <tr>
+        <td align="left" valign="middle" class="txt13W"><img alt="" src="http://www.digiwin.com.cn/edm_top/images/down_C2013.jpg" width="900" height="35" /></td>
+      </tr>
+    </table></td>
+  </tr>
+</table>
+<p>&nbsp;</p>
+</body>
+</html>

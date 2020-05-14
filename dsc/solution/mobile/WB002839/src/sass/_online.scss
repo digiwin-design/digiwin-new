@@ -1,0 +1,131 @@
+main > .online {
+    .subtitle {
+        color: #00b0bd;
+        font-weight: bold;
+    }
+    .header {
+        @include bg('../images/online/header-bg.jpg');
+        height: image-height('online/header-bg.jpg');
+        .container {
+            display: flex;
+            flex-direction: column;
+            max-width: 568px;
+            height: 100%;
+            justify-content: center;
+            @media (max-width: $tablet-width - 1) {
+                padding-top: 2em;
+            }
+        }
+    }
+    .section1 {
+        .container {
+            padding-bottom: 50px;
+        }
+        img {
+            display: block;
+            margin: .5em auto 1em;
+        }
+        section + section {
+            margin-top: 2em;
+        }
+        ul {
+            padding-left: 1.3em;
+            list-style-type: disc;
+        }
+    }
+    .section2 {
+        background-color: #dbeaeb;
+        .container {
+            padding-bottom: 50px;
+        }
+        &-table {
+            overflow-x: auto;
+            -webkit-overflow-scrolling: touch;
+            table {
+                margin-top: 30px;
+                font-size: 16px;
+            }
+            th,
+            td {
+                padding: 5px;
+                border: 1px solid #fff;
+            }
+            th {
+                $th-width: (140px, 70px, 70px, 200px);
+                background-color: #00b0bd;
+                color: #fff;
+                text-align: center;
+                font-weight: bold;
+                @for $nth from 1 through 4 {
+                    &:nth-child(#{$nth}) {
+                        min-width: nth($th-width, $nth);
+                    }
+                }
+            }
+            tr {
+                &:nth-child(odd) {
+                    background-color: #eed9a3;
+                }
+                &:nth-child(even) {
+                    background-color: #f3f3f3;
+                }
+            }
+            ol,
+            li {
+                list-style: decimal outside;
+            }
+            ol {
+                padding-left: 18px;
+            }
+        }
+    }
+    .section3 {
+        & > h1 {
+            margin-bottom: 1em;
+        }
+        & > h2 {
+            position: relative;
+            display: flex;
+            margin-bottom: 1em;
+            color: #333;
+            text-align: center;
+            font-weight: bold;
+            line-height: 1;
+            align-items: center;
+            &::before,
+            &::after {
+                height: 1px;
+                background-color: #a8a8a8;
+                content: '';
+                flex-grow: 1;
+            }
+            span {
+                padding-right: 10px;
+                padding-left: 10px;
+            }
+        }
+    }
+    .section4 {
+        padding-bottom: 50px;
+        & > h1 {
+            margin-bottom: 1em;
+        }
+        p + p {
+            margin-top: 1em;
+            margin-bottom: 1em;
+            font-weight: bold;
+        }
+        a {
+            display: flex;
+            margin: 0 auto;
+            padding: 8px 5px;
+            max-width: 480px;
+            border: 1px solid #00b0bd;
+            color: #00b0bd;
+            text-align: center;
+            line-height: 1.3;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+}

@@ -1,0 +1,344 @@
+@charset "UTF-8";
+main *, main *:before, main *:after {
+    box-sizing: content-box;
+}
+
+main html,
+main body {
+    height: 100%;
+}
+
+main h3 {
+    text-align: center;
+    margin: 15px 0 5px;
+}
+
+main .mainTxt {
+    padding-top: 0;
+    background: url("../images/bg_dotWhite.png") no-repeat center center #6f79d5;
+    color: #fff;
+}
+
+main .mainTxt .content {
+    overflow: hidden;
+}
+
+main .mainTxt h2 {
+    position: relative;
+    text-align: left;
+}
+
+main .mainTxt h2:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-top: 130px solid #1e2779;
+    border-right: 220px solid transparent;
+    border-left: 100px solid transparent;
+}
+
+main .mainTxt h2:after {
+    content: "";
+    position: absolute;
+    top: 70px;
+    left: 88px;
+    width: 50px;
+    height: 60px;
+    background: url("../images/service/icon_allKeyPoint.png") no-repeat center 0;
+}
+
+main .mainTxt h2 span {
+    display: block;
+    position: relative;
+    z-index: 2;
+}
+
+main .mainTxt h2 .keyName {
+    padding: 25px 0 0 60px;
+    color: #fff;
+}
+
+main .mainTxt h2 .otherStyle {
+    margin-top: 20px;
+    padding-left: 200px;
+}
+
+main .mainTxt .boundary {
+    overflow: hidden;
+    position: relative;
+    width: 2000px;
+}
+
+main .mainTxt .left {
+    float: left;
+    width: 1000px;
+}
+
+main .mainTxt .left .des {
+    position: relative;
+    margin: 25px 0 50px;
+    color: #ffff00;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+main .mainTxt .left .des span {
+    position: relative;
+}
+
+main .mainTxt .left .des span:before {
+    content: "“";
+    position: absolute;
+    top: 25px;
+    left: -50px;
+    line-height: 0;
+    font-family: 'Playfair Display SC', serif;
+    font-size: 100px;
+}
+
+main .mainTxt .left .des span:after {
+    content: "”";
+    position: absolute;
+    bottom: -40px;
+    right: -50px;
+    line-height: 0;
+    font-family: 'Playfair Display SC', serif;
+    font-size: 100px;
+}
+
+main .mainTxt .right {
+    display: none;
+    position: relative;
+    float: left;
+    width: 1000px;
+}
+
+main .mainTxt .right .part01,
+main .mainTxt .right .part02 {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+main .mainTxt .right .part02 {
+    display: none;
+}
+
+main .mainTxt .circle-group {
+    text-align: center;
+}
+
+main .mainTxt .circle-group span {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-right: 15px;
+    background-color: #ccc;
+    border-radius: 100%;
+    cursor: pointer;
+}
+
+main .mainTxt .circle-group span.now {
+    background-color: #ffff00;
+}
+
+main .mainTxt .circle-group span.end {
+    margin-right: 0;
+}
+
+main .mainTxt .btn-changePage {
+    display: block;
+    width: 300px;
+    line-height: 60px;
+    margin: 0 auto;
+    background-color: #1e2779;
+    border: none;
+    border-radius: 3px;
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    cursor: pointer;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+}
+
+main .mainTxt .btn-changePage.end {
+    margin-right: 0;
+}
+
+main .mainTxt .btn-changePage:hover {
+    background-color: #ff9c00;
+}
+
+main .mainTxt .btn-group {
+    text-align: center;
+    margin-top: 25px;
+}
+
+main .mainTxt .btn-group p {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+main .sectionStyle {
+    background: url("../images/bg_dotGrey.png") no-repeat center center;
+    color: #444;
+}
+
+main .sectionStyle h2 {
+    color: #6f79d5;
+}
+
+main .sectionStyle .left .des {
+    color: #ff9c00;
+}
+
+main .sectionStyle .circle-group span.now {
+    background-color: #ff9c00;
+}
+
+main .sectionStyle .btn-changePage {
+    background-color: #6f79d5;
+}
+
+main #pageTitle {
+    height: 370px;
+    padding: 0;
+    background: url("../images/service/bg_service.jpg") no-repeat center center;
+}
+
+main #pageTitle h1 {
+    line-height: 50px;
+    text-align: left;
+}
+
+main #pageTitle h1 strong {
+    color: #ffff00;
+}
+
+main #pageTitle .sectionNote {
+    margin-bottom: 0;
+    padding: 0 360px 0 0;
+}
+
+main #problem {
+    padding-bottom: 0;
+    background: url("../images/bg_dotGrey.png") no-repeat center center;
+}
+
+main #keyPoint {
+    padding: 200px 0 250px;
+    background: url("../images/service/bg_keyPoint.jpg") no-repeat center bottom;
+}
+
+main #keyPoint h3 {
+    font-size: 24px;
+    font-weight: normal;
+}
+
+main #keyPoint p {
+    margin: 70px 0 40px;
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+}
+
+main #keyPoint li {
+    float: left;
+    width: 20%;
+    font-size: 18px;
+    text-align: center;
+    cursor: pointer;
+}
+
+main #keyPoint li:hover {
+    color: #ff9c00;
+}
+
+main #keyPoint li:hover img {
+    background-color: #ff9c00;
+}
+
+main #keyPoint li:hover span:before {
+    width: 100%;
+}
+
+main #keyPoint li img {
+    width: 130px;
+    height: 130px;
+    display: block;
+    margin: 0 auto;
+    background-color: #7c6fad;
+    border-radius: 100%;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+}
+
+main #keyPoint li span {
+    display: inline-block;
+    position: relative;
+    margin-top: 15px;
+    font-size: 22px;
+}
+
+main #keyPoint li span:before {
+    content: "";
+    position: absolute;
+    top: 110%;
+    left: 50%;
+    width: 0;
+    height: 3px;
+    background-color: #ff9c00;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+}
+
+main #onlineService h2:after {
+    background-position: center -60px;
+}
+
+main #onlineService .rightTxt {
+    height: 580px;
+}
+
+main #repair h2:after {
+    background-position: center -120px;
+}
+
+main #repair .rightTxt {
+    height: 530px;
+}
+
+main #device h2:after {
+    background-position: center -180px;
+}
+
+main #device h2 .otherStyle {
+    text-align: center;
+    margin-top: 0;
+    padding-left: 0;
+}
+
+main #device .left .btn-changePage {
+    margin-top: 50px;
+}
+
+main #device .rightTxt {
+    height: 530px;
+}
+
+main #finance h2:after {
+    background-position: center -240px;
+}
+
+main #finance .rightTxt {
+    height: 550px;
+}

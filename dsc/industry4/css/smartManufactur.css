@@ -1,0 +1,1118 @@
+@charset "UTF-8";
+/* #region function */
+/* #endregion function */
+/* #region mixin */
+/* #endregion mixin */
+/* #region extend */
+/* #endregion extend */
+main {
+  color: #000;
+  font-size: 100%;
+  line-height: initial;
+}
+main .container {
+  padding: 0;
+  width: auto;
+}
+main h1, main h2, main h4, main h5 {
+  padding: 0;
+  color: inherit;
+  font-weight: normal;
+  font-size: 100%;
+  line-height: inherit;
+}
+
+main {
+  color: #333;
+  font-family: Arial, '微軟正黑體';
+  /*color style*/
+  /*ad style*/
+}
+main h3 {
+  text-align: center;
+  font-size: 45px;
+}
+main h4 {
+  text-align: center;
+  font-size: 19px;
+}
+main p {
+  text-align: justify;
+  font-size: 17px;
+  line-height: 24px;
+}
+main a.btn {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 24px;
+}
+main .section {
+  position: relative;
+  padding: 70px 0;
+  min-width: 1000px;
+  max-width: 1920px;
+  width: 100%;
+}
+main .content {
+  position: relative;
+  margin: 0 auto;
+  width: 1000px;
+}
+main .vAlignMiddle {
+  text-align: center;
+  font-size: 0;
+}
+main .vAlignMiddle:before {
+  display: inline-block;
+  height: 100%;
+  content: '';
+  vertical-align: middle;
+}
+main .vAlignMiddle .vAlignContent {
+  display: inline-block;
+  vertical-align: middle;
+}
+main .sectionNote {
+  text-align: center;
+  font-size: 19px;
+}
+main .imgStyle {
+  display: block;
+  margin: 0 auto;
+}
+main .cursor {
+  cursor: pointer;
+}
+main .cursorMove {
+  cursor: move;
+}
+main .yellow {
+  color: #ff0;
+}
+main .gray {
+  color: #bbb;
+}
+main .lineBreakPC {
+  display: block;
+}
+main #rightIcon {
+  position: fixed;
+  right: 5%;
+  bottom: 20px;
+  z-index: 998;
+  display: none;
+}
+main #rightIcon .rightIcon {
+  width: 50px;
+  height: 50px;
+  border-radius: 5px;
+  background-color: rgba(0, 0, 0, 0.7);
+  background-color: #333 \9;
+  color: #fff;
+  text-align: center;
+  font-size: 18px;
+}
+main #rightIcon .rightIcon:hover {
+  background-color: #00c0ff;
+  background-color: #00c0ff \9;
+}
+main #rightIcon .adIcon,
+main #rightIcon .adIconMobile,
+main #rightIcon .serviceIcon {
+  position: relative;
+  margin-bottom: 7px;
+  padding-top: 2px;
+  line-height: 24px;
+}
+main #rightIcon .adIcon a,
+main #rightIcon .adIconMobile a {
+  display: block;
+  color: #fff;
+}
+main #rightIcon .adIconMobile {
+  display: none;
+}
+main #rightIcon .rightIcon i {
+  color: #fff;
+  font-size: 27px;
+  line-height: 50px;
+}
+main #adBox {
+  position: fixed;
+  right: -270px;
+  bottom: -500px;
+  z-index: 999;
+  padding: 10px;
+  width: 270px;
+  border: 1px solid #aaa;
+  background-color: #fff;
+}
+main #adBox .adImg {
+  width: 100%;
+}
+main #adBox .adTxt {
+  margin-top: 10px;
+  padding: 0 10px;
+  font-size: 16px;
+}
+main #adBox .readMore {
+  display: block;
+  margin: 10px auto 0;
+  width: 100px;
+  border: 1px solid #ff7200;
+  color: #ff7200;
+  text-align: center;
+  line-height: 30px;
+}
+main #adBox .readMore:hover {
+  background-color: #ff7200;
+  color: #fff;
+}
+main #adBox .closeBox {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 30px;
+  background-color: rgba(0, 0, 0, 0.7);
+  background-color: #333 \9;
+  color: #fff;
+  text-align: center;
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 30px;
+}
+@media screen and (max-width: 768px) {
+  main {
+    /*聯絡表單*/
+  }
+  main .section {
+    position: relative;
+    padding: 50px 10px;
+    min-width: 100%;
+    width: 100%;
+  }
+  main .content {
+    position: relative;
+    margin: 0 auto;
+    width: 100%;
+  }
+  main .vAlignMiddle {
+    text-align: center;
+    font-size: 0;
+  }
+  main .vAlignMiddle:before {
+    display: block;
+    height: 0;
+    content: '';
+    vertical-align: middle;
+  }
+  main .vAlignMiddle .vAlignContent {
+    display: block;
+    vertical-align: middle;
+  }
+  main .sectionNote {
+    text-align: center;
+    font-size: 19px;
+  }
+  main .lineBreak {
+    display: block;
+  }
+  main .lineBreakPC {
+    display: inline;
+  }
+  main #contactTxt {
+    min-width: 100%;
+  }
+  main #contactTxt #contactText {
+    padding: 0 10px;
+    width: 100%;
+  }
+  main #contactTxt #info {
+    float: none;
+    width: 100%;
+  }
+  main #contactTxt #iframeForm {
+    float: none;
+    margin-top: -30px;
+    width: 100%;
+  }
+  main iframe {
+    margin: 0 auto -10px;
+    width: 100%;
+    border: none;
+  }
+  main iframe form #check #submit {
+    float: none;
+  }
+}
+@media screen and (max-width: 480px) {
+  main h3 {
+    text-align: center;
+    font-size: 30px;
+  }
+  main #rightIcon {
+    right: 10px;
+    bottom: 0px;
+  }
+  main #rightIcon .goTop,
+  main #rightIcon .adIcon,
+  main #adBox {
+    display: none;
+  }
+  main #rightIcon .adIconMobile {
+    display: block;
+  }
+}
+
+main {
+  /* ==================== common ==================== */
+  /* ==================== mainVisual ==================== */
+  /* ==================== smartScene ==================== */
+  /* ==================== keyApp ==================== */
+  /* ==================== KMI ==================== */
+  /* ==================== video ==================== */
+  /* ==================== recommend ==================== */
+  /* ========================================================================== */
+  /* case */
+  /* ========================================================================== */
+}
+main p {
+  line-height: 30px;
+}
+main .sectionNote {
+  margin: 15px 0 30px;
+  font-size: 21px;
+}
+main #mainVisual {
+  padding: 30px 0 0;
+  height: calc(100vh - 136px);
+  background: url("../images/WB002760/bg_mainVisual.jpg") no-repeat center center;
+  color: #fff;
+}
+@media (max-height: 768px) {
+  main #mainVisual {
+    height: auto;
+  }
+}
+main #mainVisual .content {
+  padding-bottom: 70px;
+}
+main #mainVisual .right {
+  float: right;
+  margin-top: 70px;
+  width: 450px;
+}
+main #mainVisual .right h2 {
+  position: relative;
+  margin-bottom: 30px;
+  padding-bottom: 30px;
+  text-align: left;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 64px;
+}
+main #mainVisual .right h2:before {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 50px;
+  height: 3px;
+  background-color: #fff;
+  content: '';
+}
+main #mainVisual .right .highLight {
+  color: #ff0;
+  font-weight: bold;
+  font-size: 60px;
+  line-height: 64px;
+}
+main #mainVisual .right .lineBreak {
+  display: block;
+}
+main #mainVisual .right .sectionNote {
+  display: block;
+  text-align: justify;
+  line-height: 30px;
+}
+main #mainVisual .left {
+  float: left;
+  width: 502px;
+}
+main #mainVisual .left .imgStyle {
+  width: 100%;
+}
+main #mainVisual .scrollDown {
+  position: absolute;
+  bottom: 10%;
+  left: 50%;
+  margin-left: -10px;
+  font-size: 18px;
+  line-height: 30px;
+  cursor: pointer;
+}
+main #mainVisual .scrollDown i {
+  width: 20px;
+  height: 20px;
+  border-radius: 100%;
+  background-color: #fff;
+  color: #00a3c8;
+  text-align: center;
+  font-size: 16px;
+  line-height: 20px;
+}
+main #smartScene {
+  padding-bottom: 0;
+  background: url("../images/WB002760/bg_smartScene.jpg") no-repeat center center;
+}
+main #smartScene .right {
+  float: right;
+  margin: 30px 0 0 -100px;
+  width: 500px;
+}
+main #smartScene .right .highLight {
+  color: #00a5b2;
+  font-weight: bold;
+}
+main #smartScene .right .p-type {
+  color: #005279;
+}
+main #smartScene .right .p-type01 {
+  margin: 20px 0 0 20px;
+  font-weight: bold;
+  font-size: 19px;
+}
+main #smartScene .right .p-type02 {
+  margin-left: 20px;
+}
+main #smartScene .left {
+  position: relative;
+  float: left;
+  margin-left: -60px;
+}
+main #smartScene .left .imgStyle {
+  width: 100%;
+}
+main #smartScene .kmiArrow {
+  position: absolute;
+  top: 140px;
+  left: 485px;
+}
+main #keyApp .keyAppList li {
+  float: left;
+  margin: 30px 0;
+  width: 33.33%;
+  color: #998586;
+  text-align: center;
+  font-size: 19px;
+  line-height: 40px;
+  cursor: pointer;
+}
+main #keyApp .keyAppList li:hover {
+  color: #ff6e00;
+}
+main #keyApp .keyAppList li:nth-of-type(2) {
+  border-right: 1px solid #ccc;
+  border-left: 1px solid #ccc;
+}
+main #keyApp .keyAppDetail {
+  margin-bottom: 45px;
+}
+main #keyApp .keyAppDetail .left {
+  float: left;
+  width: 460px;
+  height: 290px;
+  border-radius: 3px;
+}
+main #keyApp #keyApp01 .left {
+  background: url("../images/WB002760/img_keyApp01.jpg") no-repeat center center;
+}
+main #keyApp #keyApp02 .left {
+  background: url("../images/WB002760/img_keyApp02.jpg") no-repeat center center;
+}
+main #keyApp #keyApp03 .left {
+  background: url("../images/WB002760/img_keyApp03.jpg") no-repeat center center;
+}
+main #keyApp .keyAppDetail .right {
+  float: right;
+  padding-left: 20px;
+  width: 540px;
+}
+main #keyApp .keyAppDetail .right h4 {
+  margin: 15px 0;
+  color: #005279;
+  text-align: left;
+  font-size: 20px;
+}
+main #keyApp .keyAppDetail .right > ul {
+  margin-left: 25px;
+}
+main #keyApp .keyAppDetail .right > ul > li {
+  margin-bottom: 15px;
+}
+main #keyApp .keyAppDetail .right > ul > li ul {
+  display: table-cell;
+  padding-left: 30px;
+  width: 435px;
+  list-style: disc outside;
+  font-size: 17px;
+}
+main #keyApp .keyAppDetail .right > ul > li ul li {
+  line-height: 30px;
+}
+main #keyApp .keyAppDetail .right h5 {
+  display: table-cell;
+  width: 60px;
+  height: 60px;
+  border: 1px solid #666;
+  border-radius: 3px;
+  color: #666;
+  vertical-align: middle;
+  text-align: center;
+  font-size: 17px;
+}
+main #keyApp .keyAppDetail .right p {
+  display: table-cell;
+  padding-left: 7px;
+  width: 435px;
+  vertical-align: middle;
+  line-height: 24px;
+}
+main #keyApp .keyAppDetail .right .highLight h5 {
+  border-color: #ff6e00;
+  color: #ff6e00;
+}
+main #keyApp .keyAppDetail .right .highLight p {
+  color: #ff6e00;
+}
+main #keyApp .btn-contact {
+  margin: 0 auto;
+  width: 400px;
+  border: 1px solid #005279;
+  border-radius: 3px;
+  color: #005279;
+  text-align: center;
+  font-size: 24px;
+  line-height: 50px;
+  cursor: pointer;
+}
+main #keyApp .btn-contact:hover {
+  border: 1px solid #ff7200;
+  background-color: #ff7200;
+  color: #fff;
+}
+main #KMI {
+  background: url("../images/WB002760/bg_kmi.png") no-repeat center top #eeeee9;
+}
+main .kmiContent {
+  display: table;
+  height: 100%;
+}
+main #KMI .kmiDetail {
+  display: table-row;
+  height: 100%;
+}
+main #KMI .kmiDetail > li {
+  display: table-cell;
+  padding: 0 15px;
+  width: 33.33%;
+  height: 100%;
+}
+main #KMI .kmiDetail > li > div {
+  padding: 35px 25px 25px;
+  height: 100%;
+  border: 1px solid #fff;
+  background-color: rgba(255, 255, 255, 0.7);
+  font-size: 17px;
+  line-height: 27px;
+}
+main #KMI .imgStyle {
+  margin-bottom: 25px;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: #a99092;
+}
+main #KMI .kmiDetail > li > div h4 {
+  margin-bottom: 10px;
+  color: #005279;
+  font-size: 20px;
+}
+main #KMI .kmiDetail > li > div h4 .lineBreak {
+  display: block;
+}
+main #KMI .kmiDetail > li > div p {
+  margin-bottom: 10px;
+  line-height: 27px;
+}
+main #KMI .kmiDetail > li > div li {
+  margin: 0 0 10px 20px;
+  list-style: disc outside;
+}
+main #video {
+  position: relative;
+  height: calc(100vh - 136px);
+}
+main #video .mask {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+  background-color: rgba(0, 73, 108, 0.9);
+  color: #fff;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+main #video .mask p {
+  text-align: center;
+}
+main #video .playVideo {
+  cursor: pointer;
+}
+main #video .btn-play {
+  position: relative;
+  margin: 50px auto 10px;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background-color: #23edff;
+  color: #0c4c6c;
+  text-align: center;
+  font-size: 30px;
+  line-height: 70px;
+}
+main #video .btn-play:before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: -9px 0 0 -9px;
+  width: 86px;
+  height: 86px;
+  border: 1px solid #23edff;
+  border-radius: 50%;
+  content: '';
+}
+main #video .btn-play i {
+  margin-left: 7px;
+}
+main #video .btn-play + p {
+  color: #23edff;
+}
+main #video .playVideo:hover .btn-play {
+  background-color: #ff0;
+}
+main #video .playVideo:hover .btn-play:before {
+  border-color: #ff0;
+}
+main #video .playVideo:hover .btn-play + p {
+  color: #ff0;
+}
+main #video .postscript {
+  margin-top: 15px;
+  color: #ff0;
+  font-size: 15px;
+  line-height: 20px;
+}
+main #recommend {
+  padding: 0;
+}
+main #recommend .content {
+  min-width: 1000px;
+  width: 100%;
+  font-size: 0;
+}
+main #recommend .content h3 {
+  margin-bottom: 30px;
+  color: #fff;
+  font-weight: normal;
+}
+main #recommend .recommendList {
+  position: relative;
+  display: inline-block;
+  width: 25%;
+}
+main #recommend .recommendList .imgStyle {
+  width: 100%;
+}
+main #recommend .recommendList .name {
+  position: absolute;
+  right: 8%;
+  bottom: 6%;
+  color: #fff;
+  text-align: right;
+  font-size: 30px;
+}
+main #recommend .recommendList .name .lineBreak {
+  display: block;
+}
+main #recommend .recommendList .mask {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  -webkit-transition: .5s ease-out;
+  transition: .5s ease-out;
+}
+main #recommend .recommendList a,
+main #recommend .recommendList .imgStyle {
+  display: block;
+}
+main #recommend .recommendList:before, main #recommend .recommendList:after {
+  position: absolute;
+  z-index: 100;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 0;
+  height: 0;
+  background-color: #fff;
+  content: '';
+}
+main #recommend .recommendList a:before, main #recommend .recommendList a:after {
+  position: absolute;
+  z-index: 100;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 0;
+  height: 0;
+  background-color: #fff;
+  content: '';
+}
+main #recommend .recommendList:before,
+main #recommend .recommendList a:before {
+  height: 2px;
+}
+main #recommend .recommendList:after,
+main #recommend .recommendList a:after {
+  width: 2px;
+}
+main #recommend .recommendList:hover:before {
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #fff;
+  -webkit-transition: width .5s ease-out;
+  transition: width .5s ease-out;
+}
+main #recommend .recommendList:hover:after {
+  bottom: 0;
+  left: 0;
+  height: 100%;
+  background-color: #fff;
+  -webkit-transition: height .5s ease-out;
+  transition: height .5s ease-out;
+}
+main #recommend .recommendList a:hover:before {
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #fff;
+  -webkit-transition: width .5s ease-out;
+  transition: width .5s ease-out;
+}
+main #recommend .recommendList a:hover:after {
+  top: 0;
+  right: 0;
+  height: 100%;
+  background-color: #fff;
+  -webkit-transition: height .5s ease-out;
+  transition: height .5s ease-out;
+}
+main #recommend .recommendList a:hover .mask {
+  background-color: transparent;
+}
+main #recommend .recommendList a:hover .name {
+  color: #ff0;
+}
+@media screen and (max-width: 480px) {
+  main {
+    /* ==================== mainVisual ==================== */
+    /* ==================== smartScene ==================== */
+    /* ==================== keyApp ==================== */
+    /* ==================== KMI ==================== */
+    /* ==================== video ==================== */
+    /* ==================== recommend ==================== */
+  }
+  main #mainVisual {
+    padding: 70px 0;
+    height: auto;
+  }
+  main #mainVisual .content {
+    padding: 0 10px;
+  }
+  main #mainVisual .right {
+    float: none;
+    margin-top: 0;
+    width: 100%;
+  }
+  main #mainVisual .right h2 {
+    text-align: center;
+    font-size: 30px;
+  }
+  main #mainVisual .right h2:before {
+    left: 50%;
+    margin-left: -25px;
+  }
+  main #mainVisual .right .highLight {
+    font-size: 50px;
+    line-height: 56px;
+  }
+  main #mainVisual .right .sectionNote {
+    margin-bottom: 0;
+  }
+  main #mainVisual .left {
+    float: none;
+    width: 100%;
+  }
+  main #mainVisual .scrollDown {
+    bottom: 20px;
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+  }
+  main #mainVisual .scrollDown i {
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    background-color: #fff;
+    color: #00a3c8;
+    text-align: center;
+    font-size: 16px;
+    line-height: 20px;
+  }
+  main #smartScene {
+    padding: 50px 0 0;
+    background: url("../images/WB002760/bg_smartScene.jpg") no-repeat top center;
+  }
+  main #smartScene h3 {
+    padding: 0 10px;
+  }
+  main #smartScene br {
+    display: none;
+  }
+  main #smartScene .sectionNote {
+    padding: 0 10px;
+    text-align: justify;
+  }
+  main #smartScene .right {
+    float: none;
+    margin: 30px 0 0 0;
+    padding: 0 10px;
+    width: 100%;
+  }
+  main #smartScene .right .p-type01 {
+    margin: 20px 0 0 0;
+    text-align: center;
+  }
+  main #smartScene .right .p-type02 {
+    margin-left: 0;
+    text-align: center;
+  }
+  main #smartScene .left {
+    float: none;
+    overflow: hidden;
+    margin-left: 0;
+    padding-bottom: 65%;
+    height: 0;
+  }
+  main #smartScene .left .imgStyle {
+    margin-left: -25%;
+    width: 150%;
+  }
+  main #smartScene .kmiArrow {
+    display: none;
+  }
+  main #keyApp .keyAppList li {
+    line-height: 24px;
+  }
+  main #keyApp .keyAppDetail {
+    margin-bottom: 25px;
+  }
+  main #keyApp .keyAppDetail .left {
+    position: relative;
+    float: none;
+    padding: 0 10px;
+    width: 100%;
+    height: 100px;
+  }
+  main #keyApp .keyAppDetail .left:before {
+    position: absolute;
+    top: 0;
+    height: 100px;
+    color: #fff;
+    content: attr(data-title);
+    font-size: 40px;
+    line-height: 100px;
+  }
+  main #keyApp #keyApp01 .left {
+    background: url("../images/WB002760/img_mobile_keyApp01.png") no-repeat center center #005279;
+  }
+  main #keyApp #keyApp01 .left:before {
+    right: 0;
+    padding-right: 20px;
+    background: url("../images/WB002760/img_mobile_keyAppDot01.png") no-repeat center right;
+  }
+  main #keyApp #keyApp02 .left {
+    background: url("../images/WB002760/img_mobile_keyApp02.png") no-repeat center center #005279;
+  }
+  main #keyApp #keyApp02 .left:before {
+    left: 0;
+    padding-left: 20px;
+    background: url("../images/WB002760/img_mobile_keyAppDot02.png") no-repeat center left;
+  }
+  main #keyApp #keyApp03 .left {
+    background: url("../images/WB002760/img_mobile_keyApp03.png") no-repeat center center #005279;
+  }
+  main #keyApp #keyApp03 .left:before {
+    right: 0;
+    padding-right: 20px;
+    background: url("../images/WB002760/img_mobile_keyAppDot03.png") no-repeat center right;
+  }
+  main #keyApp .keyAppDetail .right {
+    float: none;
+    padding-left: 0;
+    width: 100%;
+  }
+  main #keyApp .keyAppDetail .right h4 {
+    display: none;
+  }
+  main #keyApp .keyAppDetail .right > ul {
+    margin-top: 15px;
+    margin-left: 0;
+  }
+  main #keyApp .keyAppDetail .right > ul > li ul {
+    width: calc(100% - 60px);
+  }
+  main #keyApp .keyAppDetail .right p {
+    width: calc(100% - 60px);
+  }
+  main #keyApp .btn-contact {
+    width: 80%;
+  }
+  main #KMI {
+    background: url("../images/WB002760/bg_kmi.png") no-repeat center center #eeeee9;
+  }
+  main .kmiContent {
+    display: block;
+    height: auto;
+  }
+  main #KMI .kmiDetail {
+    display: block;
+    height: auto;
+  }
+  main #KMI .kmiDetail > li {
+    display: block;
+    margin-bottom: 25px;
+    padding: 0;
+    width: 100%;
+    height: auto;
+  }
+  main #KMI .kmiDetail > li > div {
+    padding: 25px 25px 10px;
+    height: auto;
+  }
+  main #KMI .kmiDetail > li > div h4 {
+    margin-bottom: 10px;
+  }
+  main #KMI .kmiDetail > li > div h4 .lineBreak {
+    display: inline;
+  }
+  main #KMI .kmiDetail > li > div li {
+    margin: 0 0 10px 20px;
+  }
+  main #video br {
+    display: none;
+  }
+  main #video .mask .sectionNote {
+    margin-bottom: 15px;
+  }
+  main #video .mask p:nth-of-type(2) {
+    text-align: justify;
+    line-height: 27px;
+  }
+  main #video .btn-play {
+    margin: 30px auto 10px;
+  }
+  main #video .postscript {
+    display: none;
+  }
+  main #recommend {
+    padding: 0;
+    /* margin-top: -140px; */
+  }
+  main #recommend .content {
+    min-width: 320px;
+    width: 100%;
+    /* font-size: 0; */
+  }
+  main #recommend .recommendList {
+    display: block;
+    padding-bottom: 40%;
+    width: 100%;
+  }
+  main #recommend .recommendList:nth-of-type(1) {
+    background: url("../images/WB002760/img_mobile_recommend01.jpg") no-repeat center center;
+    background-size: cover;
+  }
+  main #recommend .recommendList:nth-of-type(2) {
+    background: url("../images/WB002760/img_mobile_recommend02.jpg") no-repeat center center;
+    background-size: cover;
+  }
+  main #recommend .recommendList:nth-of-type(3) {
+    background: url("../images/WB002760/img_mobile_recommend03.jpg") no-repeat center center;
+    background-size: cover;
+  }
+  main #recommend .recommendList:nth-of-type(4) {
+    background: url("../images/WB002760/img_mobile_recommend04.jpg") no-repeat center center;
+    background-size: cover;
+  }
+  main #recommend .recommendList .imgStyle {
+    display: none;
+  }
+  main #recommend .recommendList .name {
+    position: absolute;
+    right: 0;
+    width: 100%;
+    color: #fff;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 30px;
+  }
+  main #recommend .recommendList:nth-of-type(1) .name, main #recommend .recommendList:nth-of-type(3) .name {
+    bottom: 10%;
+    padding-left: 5%;
+    text-align: left;
+  }
+  main #recommend .recommendList:nth-of-type(2) .name, main #recommend .recommendList:nth-of-type(4) .name {
+    bottom: 10%;
+    padding-right: 5%;
+    text-align: right;
+  }
+  main #recommend .recommendList .name .lineBreak {
+    display: block;
+  }
+  main #recommend .recommendList .mask, main #recommend .recommendList:before, main #recommend .recommendList:after {
+    display: none;
+  }
+  main #recommend .recommendList a:before, main #recommend .recommendList a:after {
+    display: none;
+  }
+}
+@media screen and (max-width: 420px) {
+  main #keyApp .keyAppList i {
+    display: block;
+    margin-bottom: 5px;
+  }
+}
+main .case {
+  padding-top: 50px;
+  padding-bottom: 70px;
+  background-color: #ccd7e1;
+  background-image: url('../images/WB002760/case-bg-s.png?1558758740');
+  background-position: 0 50px;
+  background-repeat: no-repeat;
+}
+main .case h3 {
+  margin-bottom: 30px;
+}
+@media (min-width: 769px) {
+  main .case h3 {
+    margin-bottom: 0;
+  }
+}
+main .case img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+}
+main .case-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-right: 10px;
+  padding-left: 10px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+@media (min-width: 769px) {
+  main .case-container {
+    padding-right: 0;
+    padding-left: 0;
+  }
+}
+main .case-content {
+  margin-bottom: 26px;
+  width: 100%;
+}
+@media (min-width: 769px) {
+  main .case-content {
+    margin-right: 18px;
+    margin-bottom: 0;
+    width: 582px;
+  }
+  main .case-content map {
+    display: none;
+  }
+}
+main .case-text {
+  padding: 15px 20px;
+  background-color: rgba(255, 255, 255, 0.7);
+}
+main .case-text p {
+  font-size: 17px;
+  line-height: 26px;
+}
+main .case-text p:first-child {
+  margin-bottom: 1em;
+}
+main .case-text a {
+  color: #ff6c00;
+  text-decoration: underline;
+}
+main .case-videos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+@media (min-width: 769px) {
+  main .case-videos {
+    width: 383px;
+  }
+}
+main .case-video {
+  position: relative;
+  overflow: hidden;
+  padding-top: 56.25%;
+  /* 16:9 */
+  width: 100%;
+  height: 0;
+}
+main .case-video iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+main .case-video:first-child {
+  margin-bottom: 25px;
+}
+
+
+
+/*# sourceMappingURL=smartManufactur.css.map */

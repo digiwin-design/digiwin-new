@@ -1,0 +1,83 @@
+@charset "big5";
+/* CSS Document */
+body {
+	font-family: "微軟正黑體";
+	font-size: 18px;	
+	line-height: 30px;
+}
+
+p {
+	padding: 0;
+	margin: 0;
+}
+
+.txt18b {
+	font-family: "微軟正黑體";
+	font-size: 18px;	
+	line-height: 30px;
+}
+
+.txt18g {
+	color: #009ab1;
+	font-family: "微軟正黑體";
+	font-size: 18px;	
+	line-height: 30px;
+}
+
+ul {
+	margin: 0	
+}
+
+table {
+	border-collapse: collapse;
+	font-family: "微軟正黑體";
+}
+
+a:link {
+	color: #333;
+	font-family: "微軟正黑體";
+	text-decoration: none
+}
+
+a:hover {
+	color: #ff6000;
+}
+
+a.link:link {
+	color: #ff6000;
+	font-family: "微軟正黑體";
+	text-decoration: none
+}
+
+.txt14{
+	font-size: 14px;
+	font-family: "微軟正黑體";
+}
+
+.txt24 {
+	color: #009ab1;
+	font-size: 24px; 
+	font-family: "微軟正黑體";
+	font-weight: bold;
+}
+
+.txt24o {
+	color: #ff6000;
+	font-family: "微軟正黑體";
+	font-size: 20px;
+}
+
+.txt30o {
+	color: #ff8a00;
+	font-family: "微軟正黑體";
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.info td {
+	padding: 4px 6px;
+	border: 1px solid #ccc;
+	font-family: "微軟正黑體";
+	font-size: 16px;
+	line-height: 24px;
+}

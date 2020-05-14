@@ -1,0 +1,469 @@
+@import "helpers/_variables"
+@import "mixin/_mixins"
+
+@charset "utf-8"
+/* ========== common style ========== */
+*
+	box-sizing: border-box
+
+body
+	background: url('../images/bg_unitedDay.jpg') no-repeat center top fixed #0b0c1e
+	// background-size: cover
+	color: #fff
+	font-family: Arial, "微軟正黑體"
+	font-size: 18px
+	line-height: 1.5
+
+h2
+	overflow: hidden
+	margin-bottom: 20px
+	font-size: 36px
+	line-height: 1.2
+	text-align: center
+
+	span
+		position: relative
+
+		&:before,
+		&:after
+			content: ""
+			display: block
+			position: absolute
+			top: 50%
+			width: 500%
+			border-top: 1px solid rgba(255, 255, 255, 0.5)
+		
+		&:before
+			right: 100%
+			margin-right: 10px
+		&:after
+			left: 100%
+			margin-left: 10px
+a
+	color: #fff
+
+.imgStyle
+	width: 100%
+
+.highlight
+	color: $color-highLight
+
+.section
+	width: 100%
+	max-width: 640px
+	margin: 0 auto
+	padding: 35px 0 
+
+.content
+	width: 100%
+	padding: 0 5%
+
+/* ========== nav style ========== */
+#nav
+	max-width: 640px
+	margin: 0 auto
+	padding: 5px 0 0 5px
+	background-color: #f4f5f5
+
+/* ========== mainVisual style ========== */
+#mainVisual.section
+	padding: 0
+
+	img
+		width: 100%
+
+/* ========== agenda style ========== */
+#agenda
+	li
+		margin-bottom: 30px
+
+		&:first-child
+			br
+				display: none
+	p
+		font-size: 20px
+		text-align: center
+
+	.btn
+		margin-left: 10px
+		padding: 4px 10px
+		background-color: $color-main
+		border-radius: 50px
+		font-size: 15px
+		line-height: 1.5
+		transition: .5s
+
+		&:active
+			background-color: darken($color-main, 40%)
+
+	.highLight
+		margin-right: 10px
+		color: $color-highLight
+		font-weight: bold
+		font-style: italic
+
+@media (max-width: 380px) 
+	#agenda
+		li
+			&:first-child
+				br
+					display: block
+
+		.btn
+			margin-left: 0
+
+		.highLight
+			display: block
+			margin-right: 0
+
+/* ========== search style ========== */
+#search
+	p
+		text-align: center
+
+	.inputCol
+		position: relative
+		width: 100%
+		margin: 10px auto
+		text-align: center
+
+		&:after
+			content: ""
+			border-right: 1px solid rgba(255, 255, 255, 0.5)
+			position: absolute
+			height: 30px
+			top: 50%
+			right: 46px
+			transform: translateY(-50%)
+
+	.hint
+		margin: 10px 0 50px
+		color: #fff
+		font-size: 16px
+		text-align: justify
+
+	.imgStyle
+		margin-top: 20px
+
+#searchValue
+	width: 100%
+	height: 45px
+	padding: 0 0 0 15px
+	background-color: rgba(255, 255, 255, 0.2)
+	border: 1px solid #fff
+	border-radius: 2px
+	color: #fff
+	font-size: 20px
+	font-family: Arial, "微軟正黑體"
+
+	&:focus
+		outline: none
+		border-color: $color-main
+
+#submit
+	display: block
+	position: absolute
+	top: 0
+	right: 0
+	width: 45px
+	height: 45px
+	background: url('../images/icon_search.svg') no-repeat center center
+	background-size: 50% auto
+	border: none
+	cursor: pointer
+
+	&:focus
+		outline: none
+		border-color: $color-main
+
+
+.loading
+	display: none
+	position: absolute
+	top: 0
+	left: 0
+	width: 100%
+	background-color: rgba(0,0,0,0.5)
+	font-size: 20px
+	text-align: center
+	line-height: 45px
+	z-index: 999
+
+	i
+		margin-left: -25px
+
+#result
+	width: 100%
+	border: 1px solid $color-main
+	border-bottom: none
+	border-radius: 2px
+
+	th
+		background-color: $color-main
+		color: #fff
+		height: 45px
+		font-weight: bold
+		text-align: center
+
+	td
+		padding: 10px 5px 10px
+		border-bottom: 1px solid $color-main
+		text-align: center
+
+	.shortCol
+		width: 17%
+
+	.mediumCol
+		width: 20%
+
+	.nameDep
+		width: 43%
+		padding: 10px 25px 10px 15px
+		text-align: left
+
+	.name
+		margin-right: 15px
+		font-weight: bold
+
+	.dept
+		display: block
+		font-size: 17px
+
+	.noData
+		height: 65px
+		background-color: $color-main
+		color: #fff
+		text-align: center
+		vertical-align: center
+
+		td
+			padding: 10px 0 10px
+
+#searchResult
+	display: none
+
+.noInput
+	display: none
+	margin: 0 0 50px
+	padding: 20px 0
+	background-color: $color-main
+	color: #fff
+	text-align: center
+	line-height: 24px
+
+/* ========== notice style ========== */
+#notice
+	h3
+		margin-top: 24px
+		font-size: 20px
+
+	p
+		margin-left: 25px
+		text-align: justify
+
+	ul.list
+		margin-left: 47px
+		list-style: disc
+		text-align: justify
+
+#carTime
+	width: 100%
+	margin: 25px auto 0
+
+	.tableName
+		font-size: 20px
+		font-weight: bold
+		line-height: 40px
+		text-align: center
+
+		.fa
+			font-size: 15px
+
+	p
+		margin-left: 0
+
+	table
+		width: 100%
+		border: 1px solid $color-main
+		border-top: 0
+
+		td:nth-of-type(odd)
+			border-right: 1px dashed $color-main
+
+		td
+			&.special
+				border-right: none
+				border-left: 1px dashed $color-main
+
+			&.special2
+				border-right: none
+				border-top: 1px dashed $color-main
+
+			&.special3
+				border-right: 1px dashed $color-main
+
+			&.special4
+				border-right: none
+
+	th
+		background-color: $color-main
+		color: #fff
+		font-size: 20px
+		line-height: 40px
+		text-align: center
+
+		&.hc
+			padding: 10px 0
+			line-height: 1.2
+
+	td
+		line-height: 40px
+		text-align: center
+
+	a.btn
+		display: block
+		width: 100%
+		line-height: 50px
+		margin-top: 30px
+		border: 1px solid $color-highLight
+		border-radius: 2px
+		color: $color-highLight
+		text-align: center
+		transition: .5s
+
+		&:active
+			background-color: $color-highLight
+			color: #fff
+
+#taipei
+	float: none
+	margin-bottom: 10px
+
+	td
+		border-bottom: 1px dashed $color-main
+		line-height: 45px
+
+	tr:last-child
+		td
+			border-bottom: none
+
+#other table
+	margin-bottom: 11px
+
+#service
+	margin-top: 15px
+
+	li
+		width: 100%
+		margin: 0 0 30px 0
+		text-align: center
+
+		&:last-child
+			margin-bottom: 0
+
+		.imgStyle
+			float: left
+			width: 30%
+
+		.contentDetail
+			float: right
+			width: 70%
+			padding: 10px 3% 0
+
+			h4
+				text-align: left
+
+			p
+				margin: 0
+				text-align: justify
+
+/* ========== palceInfo style ========== */
+#palceInfo
+	.list
+		li
+			position: relative
+			margin-bottom: 10px
+			padding-left: 30px
+
+	.icon:before
+		position: absolute
+		top: 0
+		left: 0
+		width: 25px
+		height: 25px
+		font-family: FontAwesome
+		text-align: center
+
+	.icon01:before
+		content: "\f041" 
+
+	.icon02:before
+		content: "\f207" 
+
+	.icon03:before
+		content: "\f1b9" 
+
+	#map
+		width: 100%
+		margin: 20px 0 0
+
+		iframe
+			width: 100%
+
+	#backcar
+		margin-top: 30px
+
+		ul
+			margin: 10px 0 10px 20px
+			list-style: disc
+			text-align: justify
+
+/* ========== contact style ========== */
+#contact
+	.outline
+		display: flex
+		flex-direction: column
+		align-item: flex-start
+
+	.icon
+		display: flex
+		flex-direction: row
+		justify-content: center
+		width: 100%
+		margin-bottom: 30px
+
+		&:last-child
+			margin-bottom: 0
+
+		.imgStyle
+			width: 30%
+			display: inline-block
+			align-self: flex-start
+
+		.contentDetail
+			padding-left: 3%
+			align-self: flex-start
+
+/* ========== dgwFooter style ========== */
+#dgwFooter
+	width: 100%
+	padding-top: 13px
+	padding-bottom: 17px
+	background-color: #333
+	border-top: 1px solid #FFF
+	color: #595757
+	font-size: 13px
+	font-family: "新細明體", "微軟正黑體"
+	text-align: center
+
+	p
+		margin: 0
+		padding: 0 20px
+		color: #CCC
+		font-size: 13px
+		line-height: 1.8
+		clear: both
+
+@media screen and (max-width: 350px)
+	#search .lineBreak
+		display: block

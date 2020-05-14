@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="/tw/static/css/public.css">
+    <link rel="stylesheet" href="/tw/static/css/style.css">
+    <script src="/tw/static/js/jquery-1.11.3.min.js"></script>
+    <link rel="stylesheet" href="/tw/dsc/css/all.css">
+    <script src="https://polyfill.io/v3/polyfill.js?features=default,fetch,HTMLPictureElement,Array.prototype.find,NodeList.prototype.forEach&amp;flags=gated"></script>
+    <script src="/tw/dsc/assets/modernizr-custom.js"></script>
+    <script src="/tw/dsc/assets/mobile-detect.js"></script>
+    <script src="/tw/dsc/assets/mobile-detect-modernizr.js" defer></script>
+    <script src="/tw/dsc/assets/smoothscroll.js" defer></script>
+    <script src="/tw/dsc/assets/axios.min.js"></script>
+    <script src="/tw/dsc/assets/axios-mock-adapter.min.js"></script>
+    <script src="/tw/dsc/assets/vuejs/vue-all-dev.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.2.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.0.1/firebase-database.js"></script>
+    <script src="/tw/dsc/js/common.min.js"></script>
+  </head>
+  <body>
+    <!-- 以下為後台上稿內容-->
+    <link rel="stylesheet" href="/tw/dsc/css/Eform/xcConfirm.css">
+    <script src="/tw/dsc/js/Eform/xcConfirm.js" defer></script>
+    <link rel="stylesheet" href="/tw/dsc/assets/submenu/submenu.css">
+    <script src="/tw/dsc/assets/submenu/submenu.min.js"></script>
+    <link rel="stylesheet" href="assets/swiper.min.css">
+    <script src="assets/swiper.min.js" defer></script>
+    <script src="assets/vue-awesome-swiper.js" defer></script>
+    <link rel="stylesheet" href="/tw/dsc/solution/WB002513/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/tw/dsc/css/reboot.css">
+    <script src="js/all.min.js" defer></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css">
+    <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js" defer></script>
+    <link rel="stylesheet" href="/tw/dsc/Library/css/jquery-ui.min.css">
+    <script src="/tw/dsc/solution/WB002513/js/jquery-ui.min.js" defer></script>
+    <link rel="stylesheet" href="css/WB002513_common.css">
+    <link rel="stylesheet" href="css/WB00251301/style.css">
+    <script src="js/WB00251301.min.js" defer></script>
+    <main v-cloak v-if="result"><slider-banner v-bind:slides="result.banner" device="desktop" :nav="true"></slider-banner>
+
+<div id="wrapper1_bg">
+    <h2 id="problems"><span class="title">專為特定產業研發的解決方案</span></h2>
+    <h3 class="foreword">電子業涵蓋範圖廣大，光電光學半導體各自擁有不同產業特性與挑戰，<br>
+        鼎新針對各行業特性開發專用模組，提供業界更適合的系統應用。</h3>
+    <div id="problemsTxt">
+        <div id="wrapper1">
+            <div id="boxs"><a class="boxa" href="/tw/dsc/solution/WB002513/WB00251301_solution01"></a>
+                <p>電子零組件</p>
+            </div>
+            <div id="boxs"><a class="boxb" href="/tw/dsc/solution/WB002513/WB00251301_solution02"></a>
+                <p>電子組裝業</p>
+            </div>
+            <div id="boxs"><a class="boxc" href="/tw/dsc/solution/WB002513/WB00251301_solution03"></a>
+                <p>連接器</p>
+            </div>
+            <div id="boxs"><a class="boxd" href="/tw/dsc/solution/WB002513/WB00251301_solution04"></a>
+                <p>電池製造</p>
+            </div>
+            <div id="boxs"><a class="boxe" href="/tw/dsc/solution/WB002513/WB00251301_solution05"></a>
+                <p>太陽能</p>
+            </div>
+            <div id="boxs"><a class="boxf" href="/tw/dsc/solution/WB002513/WB00251301_solution06"></a>
+                <p>LED</p>
+            </div>
+            <div id="boxs"><a class="boxg" href="/tw/dsc/solution/WB002513/WB00251301_solution07"></a>
+                <p>PCB</p>
+            </div>
+            <div id="boxs"><a class="boxh" href="/tw/dsc/solution/WB002513/WB00251301_solution08"></a>
+                <p>IC設計</p>
+            </div>
+
+
+
+
+        </div>
+        <!--wrapper1 end-->
+    </div>
+    <!--newTxt end-->
+</div>
+<!--wrapper1_bg end-->
+
+
+
+<!--wrapper2-->
+<div id="wrapper2_bg">
+    <div id="wrapper2">
+        <h2 id="ERP"><span class="title1">ERP不再只是ERP</span></h2>
+        <h3 class="foreword">依據企業各階段所面臨的挑戰、組織能力與階段性任務<br>
+            發展出所需的服務以支撐客戶各階段需求</h3>
+        <div id="ERPTxt">
+            <p align="center">
+                <div id="ERPbox"><a class="icon1" href="http://www.digiwin.com/softwareDetail_P201211123807.html" target="_blank">電子表單(ASP版)</a> </div>
+                <div id="ERPbox"><a class="icon2" href="http://www.digiwin.com/softwareDetail_P201211123807.html" target="_blank">企業流程管理BPM</a> </div>
+                <div id="ERPbox"><a class="icon3" href="http://www.digiwin.com/softwareDetail_P2012111250711.html" target="_blank">商業智慧BI</a> </div>
+                <div id="ERPbox"><a class="icon4" href="http://www.digiwin.com/softwareDetail_P201211123618.html" target="_blank">客戶關係管理CRM</a> </div>
+                <div id="ERPbox"><a class="icon5" href="http://www.digiwin.com/softwareDetail_P201402131102.html" target="_blank">人力資源HR)</a> </div>
+                <div id="ERPbox"><a class="icon6" href="http://www.digiwin.com/softwareDetail_P201402133996.html" target="_blank">先進規劃與排程APS</a> </div>
+                <div id="ERPbox"><a class="icon7" href="http://www.digiwin.com/softwareDetail_P201404098942.html" target="_blank">產品生命週期PLM</a> </div>
+                <div id="ERPbox"><a class="icon8" href="http://www.digiwin.com/softwareDetail_P201510069182.html" target="_blank">MES</a> </div>
+                <div id="ERPbox"><a class="icon9" href="http://www.digiwin.com/softwareDetail_P201402135005.html" target="_blank">廠區生產追蹤SFT</a> </div>
+                <div id="ERPbox"><a class="icon10" href="http://www.digiwin.com/softwareDetail_P2012111241110.html" target="_blank">Portal</a> </div>
+                <div id="ERPbox"><a class="icon11" href="http://www.digiwin.com/softwareDetail_P201404149431.html" target="_blank">Mobile Solution</a> </div>
+                <div id="ERPbox"><a class="icon12" href="http://www.digiwin.com/softwareDetail_P201402139004.html" target="_blank">供應鏈管理EC</a> </div>
+                <div id="ERPbox"><a class="icon13" href="http://www.dsc.com.tw/event/WB002323/WB00232301.html" target="_blank">專案成本</a> </div>
+                <div id="ERPbox"><a class="icon14" href="?tag#contact">廠務管理</a> </div>
+                <div id="ERPbox"><a class="icon15" href="?tag#contact">產品溯源</a> </div>
+                <div id="ERPbox"><a class="icon16" href="?tag#contact">CQA</a> </div>
+
+
+
+
+            </p>
+
+        </div>
+    </div>
+    <!--wrapper2 end-->
+</div>
+<!--wrapper2_bg end-->
+
+<!--inCase-->
+<div id="inCase_bg">
+    <div id="inCase">
+        <h2 id="case"><span class="title">行業深耕，獨到專精</span></h2>
+        <h3 class="foreword">鼎新電腦累積 30 多年產業輔導驗，50,000 多家企業成功案例，提供完整行業解決方案；<br>
+            因應產業趨勢、法令制度的變化，提供專業服務與支援！</h3>
+        <div id="caseTxt">
+            <p align="center"><img src="https://www.digiwin.com/tw/dsc/solution/WB002513/images/WB002513_case.png" width="960" height="455"></p>
+            <p class="Btn2"><a href="https://www.digiwin.com/tw/dsc/solution/WB002513/WB00251301_wall" target="_blank">瀏覽更多案例</a></p>
+        </div>
+    </div>
+    <!--wrapper3 end-->
+</div>
+<!--wrapper3_bg end-->
+
+<!--wrapper5-->
+<div id="wrapper5">
+    <h2 id="solution"><span class="titleLeft">-</span><span class="title">我們給您規劃的e化藍圖</span><span class="titleRight">-</span></h2>
+    <div id="solutionTxt">
+        <div id="plan1"><a style="cursor: pointer;" data-fancybox="gallery" href="https://www.digiwin.com/tw/dsc/solution/WB002513/images/blueprint.jpg" class="examplelink" title="智慧工廠整合資訊系統架構"><img src="https://www.digiwin.com/tw/dsc/solution/WB002513/images/blueprint_s.png" width="450" height="349" title="點圖放大"></a><br>
+            <p>▲智慧工廠整合資訊系統架構</p>
+        </div>
+        <div id="plan2"><a style="cursor: pointer;" data-fancybox="gallery" href="https://www.digiwin.com/tw/dsc/solution/WB002513/images/structure.jpg" class="examplelink" title="資通訊科技產業解決方案藍圖"><img src="https://www.digiwin.com/tw/dsc/solution/WB002513/images/structure_s.jpg" width="450" height="349" title="點圖放大"></a><br>
+            <p>▲資通訊科技產業解決方案藍圖</p>
+        </div>
+    </div>
+    <!--solutionTxt end-->
+    <p class="contactBtn"><a href="#contact">索取解決方案</a></p>
+</div>
+<!--wrapper5 end-->
+
+
+<!--industry-->
+
+
+<div class="section" id="industry">
+    <h2><span class="title">成就客戶創造應用價值</span></h2>
+    <h3><strong>迎向工業4.0，對抗紅色供應鏈<br>
+            企業先進如何推動管理變革與轉型升級?</strong></h3>
+    <div class="content" id="industryTxt">
+        <ul id="caseOrder">
+            <li class="tabNow">1</li>
+            <li>2</li>
+            <li>3</li>
+        </ul>
+        <div class="case now" id="case_1">
+            <div class="caseContent">
+                <div class="video">
+                    <iframe id="video_1" width="500" height="281" src="https://www.youtube.com/embed/H_XO3fwT0F8?enablejsapi=1&wmode=opaque" frameborder="0" allowfullscreen></iframe>
+                </div>
+                <p><span class="caseName">王紹新 董事長</span><br>轉型創新沒有捷徑，因為機會只留給準備好的人！時存危機感將引領企業邁向成功，且最重要的關鍵就是：要能夠捨得！</p>
+                <!--                <a href="http://www.digiwin.com/caseListDetail_6858.html" class="caseRead" target="_blank">閱讀案例</a>-->
+            </div>
+        </div>
+
+        <div class="case" id="case_2">
+            <div class="caseContent">
+                <div class="video">
+                    <iframe id="video_2" width="500" height="281" src="https://www.youtube.com/embed/0dPtb5mFa8Y?enablejsapi=1&wmode=opaque" frameborder="0" allowfullscreen></iframe>
+                </div>
+                <p><span class="caseName">應國良 總經理</span><br>系統上線第二個月系統版和人工版的數據幾乎完全一致，生管負擔減少許多；人均產值、生產效率和訂單達交率更有明顯提升！</p>
+                <!--                <a href="http://www.digiwin.com/caseListDetail_6191.html" class="caseRead" target="_blank">閱讀案例</a>-->
+            </div>
+        </div>
+
+        <div class="case" id="case_3">
+            <div class="caseContent">
+                <div class="video">
+                    <iframe id="video_3" width="500" height="281" src="https://www.youtube.com/embed/0U0kU-CSEGo?enablejsapi=1&wmode=opaque" frameborder="0" allowfullscreen></iframe>
+                </div>
+                <p><span class="caseName">薛聰義 經理</span><br>採購物料計劃改用APS系統後，生管在八小時內就能夠完成原本的工作項目。寧茂企業 快速回應機制提升客戶服務滿意度！</p>
+                <!--                <a href="http://www.digiwin.com/caseListDetail_6003.html" class="caseRead" target="_blank">閱讀案例</a>-->
+            </div>
+        </div>
+    </div>
+</div>
+<!--industry-->
+
+<div id="seminar">
+    <div id="banner_bg2">
+        <h2>
+            研討會資訊
+        </h2>
+        <div class="txtbox">
+            <div class="txtbox_L">
+                <img src="http://www.digiwin.com/tw/dsc/solution/WB002513/images/seminar/activePic9.png" width="320" height="246" />
+            </div>
+            <div class="txtbox_R">
+                <h3>
+                    跨越疆界與文化，管理在彈指之間達成目標
+                </h3>
+                <p>
+                    雅得電池南向佈建，發揮生產基地優勢創造利潤空間，營收破 10%持續成長!
+                    安全與舒適是當今的車子不間斷地要求，身為傳統二輪車用鉛酸電池大廠的雅得電池，成立於 1989 年，百分之百外銷的商業模式。在面臨環保議題以及科技的衝擊和挑戰，仍持續不斷堅守本質、發展電池技術。2011 年南向佈局，將生產基地遷移至越南，形成台灣總部、全球銷售(主要在歐美)、越南生產的多國營運模式。面對市場激烈競爭下，雅得積極投入創新的技術、改善生產流程、降低成本減低風險，滿足經營策略下的管理機制，讓營收持續成長，奠定未來成功的基石。本活動邀請雅得電池李美宜執行副總、黃慧玲財務長及陳燕如生管課長，為您深入剖析雅得電池成功關鍵。
+                </p>
+                <div id="button_R">
+                    <div class="btnR">
+                        <a href="http://www.digiwin.com/tw/dsc/activity/WB002862/WB00286201.htm" target="_blank">了解更多</a>
+                    </div>
+                    <div class="btnR">
+                        <a href="http://www.digiwin.com/tw/dsc/solution/WB002513/WB00251301_seminar" target="_blank">看更多研討會資訊</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<contact v-bind:multiple="false" source=""></contact>
+    </main>
+    <!-- 後台上稿內容結束-->
+  </body>
+</html>

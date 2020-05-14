@@ -1,0 +1,79 @@
+main {
+    .smartFactory-collapse-and-tabs {
+        .accordion {
+            &-content {
+                background-color: #c9c9c9;
+                &:not(:first-of-type) {
+                    display: none;
+                }
+                &-detail {
+                    padding: 30px 0;
+                    & > div {
+                        display: flex;
+                        flex-direction: column;
+                        padding: 55px 25px;
+                        background-color: #fff;
+                        justify-content: center;
+                    }
+                    figcaption {
+                        @include btn(264px, 37px, #fff, #5aacd8, 18.5px);
+                        margin: 0 auto 20px;
+                        font-size: 20px;
+                    }
+                }
+            }
+            h2 {
+                display: flex;
+                padding-right: 20px;
+                padding-left: 20px;
+                height: 84px;
+                background-color: #5aacd8;
+                color: #fff;
+                font-weight: bold;
+                font-size: 24px;
+                line-height: 84px;
+                cursor: pointer;
+                justify-content: space-between;
+                align-items: center;
+                &:not(:last-of-type) {
+                    border-bottom: 1px solid #e8e8e8;
+                }
+                &:focus {
+                    outline: none;
+                }
+                &::after {
+                    @include imgBg('plus-icon.png');
+                    content: '';
+                    transition: transform .3s;
+                }
+                &.active::after {
+                    @include imgBg('minus-icon.png');
+                    content: '';
+                    transform: rotate(90deg);
+                }
+            }
+            h3 {
+                text-align: center;
+                font-weight: bold;
+                font-size: 22px;
+                line-height: 1;
+            }
+            &-desc {
+                margin-top: 1em;
+                margin-bottom: 1.5em;
+                font-size: 16px;
+                line-height: 24px;
+            }
+            &-nav {
+                padding-bottom: 30px;
+                text-align: center;
+                a {
+                    @include iconLink(#fff, #5aacd8, 20px, 1em);
+                    width: 100%;
+                    border: 1px solid #5aacd8;
+                    font-weight: bold;
+                }
+            }
+        }
+    }
+}

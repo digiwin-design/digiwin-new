@@ -1,0 +1,35 @@
+@charset "utf-8";
+
+h2 {color: #ff2c46; font-size: 30px; padding-left: 50px; background: url(../images/maple.png) no-repeat left center; margin: 50px 0 15px;}
+.section {width: 100%; min-width: 1000px; font-family: Arial, "微軟正黑體";}
+.content {width: 1000px; margin:0 auto; position: relative;}
+
+#game {background: url(../images/gameBg.jpg) no-repeat center top;}
+#game .content {height:763px; background: url(../images/gameBg2.png) no-repeat center top; padding-top: 365px;}
+#game #wheelSection {width: 600px; height: 600px; margin: 0 auto ; background: url(../images/wheelBg.png) no-repeat center center; position: relative;}
+#game #wheel {width: 600px; height: 600px; background: url(../images/wheel.png) no-repeat center center;}
+#game #clickBtn {position: absolute; top:150px; left: 154px; cursor: pointer;}
+#game #click {position: absolute; top:243px; left: 166px;}
+#game #arrow {position: absolute; top:-10px; left: 270px;}
+
+#des {background: url(../images/desBg.jpg) repeat-y center top;}
+#des .content {background: url(../images/desBg2.png) no-repeat center top; padding: 40px 0 25px;}
+#des #left {width: 580px;float: left;}
+#des #right {width: 420px; float: right;}
+#des #right img {margin-left: 50px;}
+#des ul, #des li {list-style: disc inside;}
+#des ul {margin: -15px 0 0 7px; background: url(../images/presents.png) no-repeat right top; padding: 30px 0 40px;}
+#des li {font-size: 18px; line-height: 33px;}
+#des #notice {width: 930px; height: 75px; color: #fff; border-radius: 7px;  background-color: #ffa13d; margin: 50px auto 0;}
+#des #notice h2{width: 20%; color: #fff; background-image: url(); text-align: center; line-height: 75px; display: inline-block; margin: 0; padding: 0; border-radius: 7px 0 0 7px; background-color: #ffb464;}
+#des #notice p {width: 70%; font-size: 19px; line-height: 75px; display: inline-block; margin-left: 30px;}
+#des #noticeDes {width: 930px; font-size: 17px; line-height: 30px; text-align: justify; margin: 15px auto;}
+#des #noticeDes span, #des #noticeDes a {color:#ff2c46;}
+
+#eggchar {text-align:center; font-family:"微軟正黑體"; line-height:1.6; }
+#eggchar a.btn {text-decoration:none; font-weight: bold; color:#fff; font-size:22px; background:#ff495e; padding: 5px 35px; float:right; margin: 455px 90px 0 0; border-radius:7px; box-shadow:4px 4px 0 0 #ce0018;}
+#eggchar a.btn:hover {background:#ed1212; box-shadow: none; margin: 503px 36px 0 0;}
+.popBg {width:100%; height:100%; position: fixed; z-index:99999999; left:0; top:0; z-index:888; margin:0 auto; background-color:rgba(0,0,0,0.5); display: none; background: #999 \9;}
+#XX {display:block; position:absolute; right:-15px; top:-15px; width:50px; height:50px; background: #000; border-radius:50%; z-index:99999999; text-align:center; line-height:50px; cursor:pointer; font-family:Helvetica, sans-serif; color: #FFF; font-weight:bold; font-size:20px;}
+#XX:hover {background: #F60;}
+.popBox {width:770px; height:550px; text-align:center; background: url(../images/result_02.png) no-repeat center center #f1d4af; border-radius:15px; margin:auto; position:absolute !important; left:0; top:0; right:0; bottom:0; z-index:999999; display:block;}

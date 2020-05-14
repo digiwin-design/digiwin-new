@@ -1,0 +1,340 @@
+main .factoryManage {
+    .caption {
+        display: flex;
+        margin-bottom: .5em;
+        align-items: baseline;
+        &::before {
+            margin-right: 5px;
+            width: 0;
+            height: 0;
+            border-width: 7.5px 0 7.5px 12px;
+            border-style: solid;
+            border-color: transparent transparent transparent #000;
+            content: '';
+            @at-root {
+                main .factoryManage .caption.white::before {
+                    border-left-color: #fff;
+                }
+            }
+        }
+    }
+    article:nth-of-type(even) {
+        background-color: #006c9f;
+        color: #fff;
+    }
+    .header {
+        @include headerBg('factoryManage/header-bg.jpg', 'factoryManage/header-bg.jpg', 100% 0);
+        h1 {
+            color: #fff;
+        }
+    }
+    .section1 {
+        @include bg('factoryLogistics/section1-bg.jpg');
+        padding-top: 43px;
+        background-size: cover;
+        color: #fff;
+        .container {
+            max-width: 374px;
+        }
+        ul {
+            display: flex;
+            flex-direction: column;
+            margin-bottom: 14px;
+        }
+        li {
+            $bgColor: #134258 #005d81 #2f508e #134258 #2f508e #2f508e #005d81;
+            padding: .8em;
+            width: 286px;
+            border-radius: 5px;
+            color: #fff;
+            text-align: justify;
+            font-weight: bold;
+            line-height: 24px;
+            @for $i from 1 through 7 {
+                &:nth-child(#{$i}) {
+                    background-color: nth($bgColor, $i);
+                }
+            }
+            &:nth-child(odd) {
+                margin-left: auto;
+            }
+            & + li {
+                margin-top: 15px;
+            }
+        }
+    }
+    .section2 {
+        padding-bottom: 50px;
+        .sectionTitle p {
+            text-align: center;
+            font-weight: bold;
+        }
+        &-content {
+            margin-bottom: 2em;
+            strong {
+                color: #ff7000;
+            }
+        }
+        &-illusts {
+            margin: 0 auto;
+            max-width: 475px;
+        }
+        section + section {
+            margin-top: 1em;
+        }
+        .video-container {
+            @include youtubeIframe();
+        }
+    }
+    .section3 {
+        padding-bottom: 40px;
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        p {
+            font-size: 22px;
+        }
+    }
+    .section4 {
+        padding-bottom: 60px;
+        a {
+            @include btn(100%, 54px, #0194aa, transparent, 5px);
+            margin-top: 55px;
+            border: 1px solid #0194aa;
+            font-weight: bold;
+            font-size: 24px;
+        }
+    }
+    .section5 {
+        padding-bottom: 45px;
+        h2 {
+            margin-bottom: 1em;
+            font-weight: bold;
+            &::before {
+                display: inline-block;
+                margin-right: 7px;
+                width: 0;
+                height: 0;
+                border-width: 12.5px 0 12.5px 21px;
+                border-style: solid;
+                border-color: transparent transparent transparent #fff;
+                content: '';
+                vertical-align: middle;
+            }
+        }
+        &-list {
+            margin-bottom: 2em;
+            li {
+                display: flex;
+                @for $i from 1 through 3 {
+                    &:nth-child(#{$i})::before {
+                        margin-right: 14px;
+                        padding-top: 3px;
+                        content: url(../images/factoryManage/section5-no#{$i}.png);
+                    }
+                }
+                & + li {
+                    margin-top: .5em;
+                }
+            }
+            p {
+                font-weight: bold;
+                font-size: 13px;
+                line-height: 20px;
+                &::first-line {
+                    color: #ff0;
+                }
+            }
+        }
+        figcaption {
+            height: 46px;
+            border-radius: 23px;
+            background-color: #00c2eb;
+            color: #fff;
+            text-align: center;
+            font-weight: bold;
+            line-height: 46px;
+            transform: translateY(6px);
+        }
+        img {
+            margin-bottom: 23px;
+            margin-left: 15px;
+        }
+        &-quote {
+            position: relative;
+            padding: 5px 40px 23px;
+            &::before,
+            &::after {
+                @include imgBg('factoryManage/quote.png', true);
+                position: absolute;
+                content: '';
+            }
+            &::before {
+                top: 0;
+                left: 0;
+            }
+            &::after {
+                right: 0;
+                bottom: 0;
+                transform: rotate(180deg);
+            }
+            strong {
+                color: #ff0;
+            }
+        }
+    }
+    .section6 {
+        padding-bottom: 50px;
+        &-desc {
+            margin-bottom: 2em;
+            line-height: 27px;
+        }
+        &-lists {
+            display: flex;
+            margin-bottom: 2em;
+            justify-content: space-around;
+            &::before,
+            &::after {
+                content: '';
+            }
+            li {
+                line-height: 27px;
+            }
+        }
+        &-list {
+            padding-left: 1em;
+            list-style-type: disc;
+        }
+        img {
+            display: block;
+            margin: 0 auto 2.5em;
+        }
+        table {
+            width: 100%;
+            border-spacing: 2px;
+            border-collapse: separate;
+        }
+        th {
+            height: 40px;
+            background-color: #ccc;
+        }
+        td {
+            padding: 5px;
+            height: 67px;
+        }
+        tbody tr:nth-child(odd) td {
+            background-color: #fffcf0;
+        }
+        tbody tr:nth-child(even) td {
+            background-color: #f5f5f5;
+        }
+    }
+    .section7 {
+        padding-bottom: 60px;
+        &-desc {
+            margin-bottom: 1.5em;
+            line-height: 27px;
+        }
+        img {
+            display: block;
+            margin: 0 auto;
+        }
+    }
+    .section8 {
+        padding-bottom: 60px;
+        &-desc {
+            margin-bottom: 1em;
+            line-height: 27px;
+        }
+        &-list {
+            margin-bottom: 1.5em;
+            padding-left: 1em;
+            list-style-type: disc;
+        }
+        img {
+            display: block;
+            margin: 0 auto;
+        }
+    }
+    .section9 {
+        padding-bottom: 60px;
+        &-desc {
+            &:nth-of-type(1) {
+                margin-bottom: 1em;
+                text-align: center;
+                font-size: 22px;
+                line-height: 1.3;
+            }
+            &:nth-of-type(2) {
+                margin-bottom: 2em;
+                line-height: 27px;
+            }
+        }
+        figure + figure {
+            margin-top: 1em;
+        }
+    }
+    .section10 {
+        padding-bottom: 60px;
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        &-desc {
+            margin-bottom: 2em;
+        }
+        figure {
+            font-weight: bold;
+            & + figure {
+                margin-top: 2em;
+            }
+        }
+        figcaption {
+            margin-bottom: 2em;
+        }
+    }
+    .section11 {
+        padding-bottom: 50px;
+        &-desc {
+            &:nth-of-type(1) {
+                margin-bottom: 1em;
+                text-align: center;
+                font-size: 22px;
+                line-height: 1.3;
+            }
+            &:nth-of-type(2) {
+                margin-bottom: 2em;
+                line-height: 27px;
+            }
+        }
+        img {
+            display: block;
+            margin: 0 auto;
+        }
+    }
+    .section12 {
+        padding-bottom: 60px;
+        background-color: #002d45;
+        color: #fff;
+        .container {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+            &::before,
+            &::after {
+                content: '';
+            }
+        }
+        a {
+            @include btn(300px, 37px, #ff0, transparent);
+            border: 1px solid #ff0;
+            border-radius: 5px;
+            font-weight: bold;
+            font-size: 16px;
+        }
+    }
+}

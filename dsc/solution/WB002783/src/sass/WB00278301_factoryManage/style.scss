@@ -1,0 +1,287 @@
+@import '../common';
+@import '../WB002783_subPage';
+
+main {
+    .section {
+        background-color: #fff;
+        color: #333;
+        h2 {
+            text-align: center;
+        }
+        h3 {
+            text-align: center;
+            font-weight: normal;
+            font-size: 22px;
+        }
+    }
+    .sectionLight {
+        background: url('../../images/bg_manufacture.jpg') no-repeat center center;
+        color: #fff;
+    }
+    .otherLink {
+        display: block;
+        margin: 50px auto 0;
+        width: 300px;
+        border: 1px solid #0092b1;
+        border-radius: 5px;
+        color: #0092b1;
+        text-align: center;
+        font-weight: bold;
+        font-size: 22px;
+        line-height: 50px;
+        &:hover {
+            background-color: #0092b1;
+            color: #fff;
+        }
+    }
+    .header {
+        @include headerBg('bg_factoryManageBanner.jpg');
+        p {
+            width: 592px;
+        }
+    }
+    #transparency {
+        padding-top: 40px;
+        padding-bottom: 0;
+        background: url('../../images/bg_transparency.jpg') no-repeat center center;
+        color: #fff;
+        h1 {
+            color: #fff;
+            text-align: center;
+            font-weight: normal;
+        }
+        .sectionNote {
+            text-align: center;
+        }
+        strong {
+            color: #ff0;
+        }
+    }
+    #customerCase {
+        h2 {
+            font-weight: bold;
+        }
+    }
+    #transTxt {
+        position: relative;
+        height: 458px;
+        background: url('../../images/factoryManage/bg_worker.png') no-repeat center center;
+        .imgStyle {
+            position: absolute;
+        }
+        .word01 {
+            top: 79px;
+            left: 76px;
+        }
+        .word02 {
+            top: 177px;
+            left: 103px;
+        }
+        .word03 {
+            top: 295px;
+            left: 0px;
+        }
+        .word04 {
+            top: 11px;
+            left: 381px;
+        }
+        .word05 {
+            top: 100px;
+            left: 618px;
+        }
+        .word06 {
+            top: 192px;
+            left: 628px;
+        }
+        .word07 {
+            top: 313px;
+            left: 665px;
+        }
+    }
+    #customerCase .part01 {
+        margin-bottom: 50px;
+        .floatLeft {
+            width: 275px;
+            h2,
+            h3 {
+                text-align: left;
+            }
+        }
+        .floatRight {
+            width: 700px;
+            strong {
+                color: #ff7000;
+            }
+        }
+    }
+    #system {
+        padding-bottom: 0;
+        .imgStyle {
+            display: block;
+            margin: -25px auto 0;
+        }
+    }
+    #productionSchedule {
+        h2 {
+            text-align: left;
+        }
+        .sectionNote {
+            padding-left: 0;
+        }
+    }
+    #esop {
+        li {
+            position: relative;
+            -webkit-box-sizing: border-box;
+                    box-sizing: border-box;
+            margin-top: 10px;
+            padding-left: 60px;
+            width: 50%;
+            h3 {
+                color: #ff0;
+                text-align: left;
+                font-weight: bold;
+                font-size: 18px;
+            }
+            &:before {
+                position: absolute;
+                top: -10px;
+                left: 0;
+                color: #00c2eb;
+                content: '';
+                font-weight: bold;
+                font-style: italic;
+                font-size: 60px;
+                font-family: Arial;
+            }
+        }
+        .num01 {
+            padding-right: 40px;
+            &:before {
+                content: '1.';
+            }
+        }
+        .num02:before {
+            content: '2.';
+        }
+        .num03 {
+            margin-top: 20px;
+            &:before {
+                content: '3.';
+            }
+        }
+        .part02 {
+            .floatRight {
+                position: relative;
+                margin: 50px 0 0 -25px;
+                padding: 0 45px;
+                width: 300px;
+                &:before,
+                &:after {
+                    position: absolute;
+                    width: 34px;
+                    height: 30px;
+                    background: url('../../images/icon_quote_white.png') no-repeat left top;
+                    content: '';
+                }
+                &:before {
+                    top: -7px;
+                    left: 0;
+                }
+                &:after {
+                    right: 0;
+                    bottom: -7px;
+                    background-position-x: right;
+                }
+                strong {
+                    color: #ff0;
+                }
+            }
+        }
+        p {
+            margin-bottom: 2em;
+        }
+    }
+    #ekb {
+        .floatLeft {
+            width: 360px;
+            h2 {
+                text-align: left;
+            }
+            ul {
+                margin: 20px 0 0;
+            }
+            li {
+                float: left;
+                width: 50%;
+                list-style: disc inside;
+            }
+        }
+        .floatRight {
+            margin-bottom: 25px;
+        }
+        table {
+            margin-top: 15px;
+            border-collapse: collapse;
+            tr:nth-of-type(odd) {
+                background-color: #eee;
+            }
+            th {
+                padding: 10px 0;
+                width: 39%;
+                border: 1px solid #555;
+                background-color: #0092b1;
+                color: #fff;
+                text-align: center;
+                font-weight: bold;
+                &.num01 {
+                    width: 22%;
+                }
+            }
+            td {
+                padding: 5px 15px;
+                border: 1px solid #555;
+                font-size: 17px;
+            }
+        }
+    }
+    #replyWork .imgStyle {
+        display: block;
+        margin: 0 auto;
+    }
+    #outsourcing {
+        .floatLeft {
+            width: 360px;
+            h2 {
+                text-align: left;
+            }
+            li {
+                margin: 10px 0 0 25px;
+                list-style: disc outside;
+            }
+        }
+        .floatRight {
+            margin-top: 35px;
+        }
+    }
+    #productRecall img {
+        display: block;
+        margin: 0 auto;
+    }
+    #factoryCase {
+        padding-bottom: 120px;
+        background: url('../../images/bg_boxs.jpg') no-repeat center center;
+        color: #fff;
+        h2 {
+            color: #fff;
+        }
+        .sectionNote {
+            text-align: center;
+        }
+        .otherLink {
+            margin-top: 20px;
+            border-color: #ff0;
+            color: #ff0;
+        }
+    }
+}

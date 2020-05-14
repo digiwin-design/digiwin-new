@@ -1,0 +1,81 @@
+main .solution {
+    .container {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+    .header {
+        @include headerBg('solution/header-bg.jpg', 'solution/header-bg.jpg', 100% 0);
+        h1 {
+            color: #fff;
+        }
+    }
+    article {
+        padding-bottom: 35px;
+        &.aps,
+        &.sft {
+            background-color: #dadada;
+            color: #03537c;
+        }
+        &.mes {
+            background-color: #41aec5;
+            color: #fff;
+        }
+    }
+    .sectionTitle h1 {
+        text-align: center;
+        line-height: 36px;
+        @at-root {
+            main .solution .mes .sectionTitle h1 {
+                color: #ff0;
+            }
+        }
+    }
+    .list {
+        display: flex;
+        flex-wrap: wrap;
+        li {
+            display: flex;
+            padding: 15px;
+            width: 50%;
+            justify-content: center;
+        }
+        a {
+            display: block;
+            text-align: center;
+            font-weight: bold;
+            font-size: 20px;
+            line-height: 1;
+            @at-root {
+                main .solution .aps .list a,
+                main .solution .sft .list a {
+                    color: #03537c;
+                }
+                main .solution .mes .list a {
+                    color: #fff;
+                }
+            }
+            &::before {
+                display: block;
+                margin-bottom: 14px;
+                border-radius: 50%;
+                content: '';
+                @at-root {
+                    @for $i from 1 through 5 {
+                        main .solution .list li:nth-of-type(#{$i}) a::before {
+                            @include imgBg('solution/icon#{$i}.png');
+                        }
+                    }
+                    main .solution .aps .list a::before {
+                        background-color: #00c2eb;
+                    }
+                    main .solution .mes .list a::before {
+                        background-color: #00c0d1;
+                    }
+                    main .solution .sft .list a::before {
+                        background-color: #00a8ff;
+                    }
+                }
+            }
+        }
+    }
+}

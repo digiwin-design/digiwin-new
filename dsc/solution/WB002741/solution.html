@@ -1,0 +1,763 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!-- 全站共用 -->
+    <link rel="stylesheet" href="https://www.digiwin.com/tw/static/css/public.css">
+    <link rel="stylesheet" href="https://www.digiwin.com/tw/static/css/style.css">
+    <script src="https://www.digiwin.com/tw/static/js/jquery-1.11.3.min.js"></script>
+
+    <!-- 全站共用(自定義) -->
+    <link rel="stylesheet" href="https://www.digiwin.com/tw/dsc/css/all.css">
+    <script src="https://polyfill.io/v3/polyfill.js?features=default,fetch,HTMLPictureElement,Array.prototype.find,NodeList.prototype.forEach&flags=gated"></script>
+    <script src="https://www.digiwin.com/tw/dsc/assets/modernizr-custom.js"></script>
+    <script src="https://www.digiwin.com/tw/dsc/assets/mobile-detect.js"></script>
+    <script src="https://www.digiwin.com/tw/dsc/assets/mobile-detect-modernizr.js" defer></script>
+    <script src="https://www.digiwin.com/tw/dsc/assets/smoothscroll.js" defer></script>
+    <script src="https://www.digiwin.com/tw/dsc/assets/axios.min.js"></script>
+    <script src="https://www.digiwin.com/tw/dsc/assets/axios-mock-adapter.min.js"></script>
+    <script src="https://www.digiwin.com/tw/dsc/assets/vuejs/vue-all.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.2.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.0.1/firebase-database.js"></script>
+    <script src="https://www.digiwin.com/tw/dsc/js/common.min.js"></script>
+</head>
+
+<body>
+    <!-- 後台上稿內容開始-->
+    <!-- form -->
+    <link rel="stylesheet" href="https://www.digiwin.com/tw/dsc/css/Eform/form-rwd.css">
+    <script src="https://www.digiwin.com/tw/dsc/js/Eform/form.js" defer></script>
+    <link rel="stylesheet" href="https://www.digiwin.com/tw/dsc/css/Eform/xcConfirm.css">
+    <script src="https://www.digiwin.com/tw/dsc/js/Eform/xcConfirm.js" defer></script>
+
+    <!-- submenu -->
+    <link rel="stylesheet" href="https://www.digiwin.com/tw/dsc/assets/submenu/submenu.css">
+    <script src="https://www.digiwin.com/tw/dsc/assets/submenu/submenu.min.js"></script>
+
+    <link rel="stylesheet" href="https://www.digiwin.com/tw/dsc/css/reboot.css">
+    
+    <main>
+        <!-- 從此處新增內容 -->
+
+		<link href="css/action4.css" rel="stylesheet" >
+		<link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.css">
+		<script src="https://unpkg.com/swiper/js/swiper.min.js"></script>
+		
+		
+		<section class="a1_p1">
+		
+			<div class="a1_header_warp">
+			
+				<div class="a1_title">
+				<div class="a1_title_main"><span>鼎新人力資源管理</span><br class="br_hide">解決方案</div>
+				<div class="a1_title_content">不管是中小企業、製造業或流通業<br>各行各業， 懂您所想，給您所需</div>
+				</div>
+
+			</div>
+		
+		</section>
+		
+		
+		<section class="a1_p2">
+		
+			<div class="a1_warp">
+			
+				<div class="a1_title">
+				<div class="a1_title_main">HRM產品應用架構</div>
+				</div>
+			
+				<div class="a1_p2_content">
+					<img src="images/solution/p2_main.png" class="a1_ver_web">
+					<img src="images/solution/phone/p2_main.png" class="a1_ver_phone">
+					<a href="#contact" class="orange_block">了解更多鼎新HR系統內容</a>
+				
+				</div>
+				
+				
+				
+			</div>
+		
+		</section>
+		
+		<section class="a1_p3">
+		
+			<div class="a1_warp">
+			
+				<div class="a1_title">
+				<div class="a1_title_main">HRM產品功能</div>
+		
+				</div>
+
+				
+				<div class="a1_p3_content">
+				<div class="p3_block_wrap">
+					<div class="p3_block"><img src="images/solution/p3_icon01.png"><p>考勤時間管理</p></div>
+					<div class="p3_block"><img src="images/solution/p3_icon02.png"><p>經理員工自助</p></div>
+					<div class="p3_block"><img src="images/solution/p3_icon03.png"><p>招聘甄選管理</p></div>
+					<div class="p3_block"><img src="images/solution/p3_icon04.png"><p>人事跟蹤管理</p></div>
+				</div>
+					
+				<div class="p3_block_wrap">
+					<div class="p3_block"><img src="images/solution/p3_icon05.png"><p>培訓開發管理</p></div>
+					<div class="p3_block"><img src="images/solution/p3_icon06.png"><p>績效考核管理</p></div>
+					<div class="p3_block"><img src="images/solution/p3_icon07.png"><p>薪資福利管理</p></div>
+					<div class="p3_block"><img src="images/solution/p3_icon08.png"><p>員工滿意度調查</p></div>
+				</div>	
+					
+					
+				</div>
+				
+				<a href="#contact" class="orange_block">我想了解系統，填寫諮詢單，將有專人為您解答</a>
+				
+			</div>
+		
+		</section>
+		
+		
+		
+		<section class="a1_p4">
+		
+			<div class="a1_warp">
+			
+				<div class="a1_title">
+				<div class="a1_title_main">行業HRM</div>
+					<div class="a1_title_content">各行各業的需求都有所不同<br>鼎新給您最貼近的支援服務</div>
+
+		
+				</div>
+
+				
+					<div  class="p4-phone-wrap a1_ver_phone" >
+
+
+<!--QA  -->
+<div class="p4-phone-block">
+<div class="p4-phone-title open">中小企業</div>
+
+<div class="p4-phone-content">
+	
+	<div class="a1_warp">
+			
+				<div class="a1_title">
+				<div class="a1_title_main">中小企業</div>
+					<div class="a1_title_content">最需要的人資系統支援</div>
+
+		
+				</div>
+
+				
+				
+			  <!-- Slider main container -->
+				<div class="swiper-container swiper1">
+			  <!-- Additional required wrapper -->
+			  <div class="swiper-wrapper">
+			  <!-- Slides -->
+			<div class="swiper-slide">
+		
+		
+				<div class="a1_p41_content">
+				
+				<div class="a1_p41_left">
+					
+				<p>可用薪等薪級表或彈性敘薪。</p>
+				<p>支援單一月份多次發薪。</p>
+				<p>可獨立發放獎金操作。</p>
+				<p>支援計件工資的計算。</p>
+				<p>支援多銀行帳號格式。</p>
+				<p>可分別制定不同公司或單位的薪酬項目。</p>
+				<p>考勤計算區間與薪資計算區間各自獨立。</p>
+				<p>可計算勞健退保險的公司及員工費用。</p>
+
+					</div>
+				
+					<div class="a1_p41_right"><img src="images/solution/p41_main01.png">
+					</div>
+
+				</div>
+						
+			</div>
+			<!--		slide01 end-->
+		   <div class="swiper-slide">
+		
+
+			   <div class="a1_p41_content">	<img src="images/solution/p41_main02.png"></div>
+		
+		   </div>
+      
+						
+    </div>
+    <!-- If we need pagination -->
+    <div class="swiper-pagination swiper-pagination1"></div>
+    </div>
+				
+
+			<a href="https://www.digiwin.com/tw/dsc/solution/WB002839/WB00283901.html" class="p4_link" target="_blank">了解更多中小企業其他議題>>></a>	
+			</div>
+
+	
+	</div>
+	
+	
+	</div>
+
+
+<!--QA end -->
+
+
+<!--QA  -->
+<div class="p4-phone-block">
+<div class="p4-phone-title p4_phone_title2">製造業</div>
+
+<div class="p4-phone-content">
+	
+	
+	<div class="a1_warp">
+			
+				<div class="a1_title">
+				<div class="a1_title_main">製造業</div>
+					<div class="a1_title_content">最需要的人資系統支援</div>
+
+		
+				</div>
+
+				
+				
+			  <!-- Slider main container -->
+				<div class="swiper-container swiper2">
+			  <!-- Additional required wrapper -->
+			  <div class="swiper-wrapper">
+			  <!-- Slides -->
+			<div class="swiper-slide">
+		
+		
+				<div class="a1_p41_content">
+				
+				<div class="a1_p41_left">
+					
+					<p>員工加班時數可預警及限制，以防超時加班情況。</p>
+					<p>加班時數可依平日、假日、節日彈性設定計算倍率，並做為加班費發放或依比例轉為補休，符合法令。</p>
+					<p>系統提供涵蓋適用於多數客戶的加班控管流程，可依企業情況做選擇。</p>
+
+					</div>
+				
+					<div class="a1_p41_right"><img src="images/solution/p42_main01.png">
+					</div>
+
+				</div>
+						
+			</div>
+			<!--		slide01 end-->
+		   <div class="swiper-slide">
+		
+
+			   <div class="a1_p41_content">	<img src="images/solution/p42_main02.png"></div>
+		
+		   </div>
+      
+						
+    </div>
+    <!-- If we need pagination -->
+    <div class="swiper-pagination swiper-pagination2"></div>
+    </div>
+				
+<a href="https://www.digiwin.com/tw/dsc/solution/WB002783/WB00278301.html" class="p4_link" target="_blank">了解更多製造業其他議題>>></a>	
+				
+			</div>
+	
+	
+	
+	
+	</div>
+	
+	
+	</div>
+
+
+<!--QA end -->
+
+
+<!--QA  -->
+<div class="p4-phone-block">
+<div class="p4-phone-title p4_phone_title3">流通業</div>
+
+<div class="p4-phone-content">
+	
+	
+	<div class="a1_warp">
+			
+				<div class="a1_title">
+				<div class="a1_title_main">流通業</div>
+					<div class="a1_title_content">最需要的人資系統支援</div>
+
+		
+				</div>
+
+				
+				
+			  <!-- Slider main container -->
+				<div class="swiper-container swiper3">
+			  <!-- Additional required wrapper -->
+			  <div class="swiper-wrapper">
+			  <!-- Slides -->
+			<div class="swiper-slide">
+		
+		
+				<div class="a1_p41_content">
+				
+				<div class="a1_p41_left p4_phone_2">
+		
+					<p>班次設定可細分至每一個時段。</p>
+					<p>可設定跨日班次及彈性上下班班次。</p>
+					<p>可設定各時段上下班、休息、加班時間。</p>
+					<p>不同類型班次判斷員工出勤及計算薪資。</p>
+					<p>不同輪班組的管理。</p>
+					<p>輪班日期調整安排。</p>
+					<p>輪班津貼計算。</p>
+
+
+					</div>
+				
+					<div class="a1_p41_right p4_phone_2"><img src="images/solution/p43_main01.png">
+					</div>
+
+				</div>
+						
+			</div>
+			<!--		slide01 end-->
+		   <div class="swiper-slide">
+		
+
+			   <div class="a1_p43_content">	<img src="images/solution/p43_main02.png"></div>
+		
+		   </div>
+      
+						
+    </div>
+    <!-- If we need pagination -->
+    <div class="swiper-pagination swiper-pagination3"></div>
+    </div>
+				
+<a href="https://www.digiwin.com/tw/dsc/solution/WB002675/WB00267501.html" class="p4_link" target="_blank">了解更多流通業其他議題>>></a>	
+				
+			</div>
+
+	</div>
+
+	</div>
+
+
+<!--QA end -->
+
+</div>
+
+				<div class="a1_p4_menu a1_p4_web">
+				
+					<a href="#a1_p41">
+					<div class="a1_tab1">
+						<div class="tab1_circle circle01"><img src="images/solution/p4_icon01.png"></div>
+					
+					<p>中小企業</p>
+					</div></a>
+				
+					<a href="#a1_p42">
+					<div class="a1_tab1">
+						<div class="tab1_circle circle02"><img src="images/solution/p4_icon02.png"></div>
+					
+					<p>製造業</p>
+					</div></a>
+					
+					<a href="#a1_p43">
+					<div class="a1_tab1">
+						<div class="tab1_circle circle03"><img src="images/solution/p4_icon03.png"></div>
+					
+					<p>流通業</p>
+					</div></a>
+				
+				
+				</div>
+				
+			</div>
+		
+		</section>
+		
+		<a id="a1_p41"></a>
+		<section class="a1_p41 a1_p4_web">
+		
+			<div class="a1_warp">
+			
+				<div class="a1_title">
+				<div class="a1_title_main">中小企業</div>
+					<div class="a1_title_content">最需要的人資系統支援</div>
+
+		
+				</div>
+
+				
+				
+			  <!-- Slider main container -->
+				<div class="swiper-container swiper1">
+			  <!-- Additional required wrapper -->
+			  <div class="swiper-wrapper">
+			  <!-- Slides -->
+			<div class="swiper-slide">
+		
+		
+				<div class="a1_p41_content">
+				
+				<div class="a1_p41_left">
+					
+				<p>可用薪等薪級表或彈性敘薪。</p>
+				<p>支援單一月份多次發薪。</p>
+				<p>可獨立發放獎金操作。</p>
+				<p>支援計件工資的計算。</p>
+				<p>支援多銀行帳號格式。</p>
+				<p>可分別制定不同公司或單位的薪酬項目。</p>
+				<p>考勤計算區間與薪資計算區間各自獨立。</p>
+				<p>可計算勞健退保險的公司及員工費用。</p>
+
+					</div>
+				
+					<div class="a1_p41_right"><img src="images/solution/p41_main01.png">
+					</div>
+
+				</div>
+						
+			</div>
+			<!--		slide01 end-->
+		   <div class="swiper-slide">
+		
+
+			   <div class="a1_p41_content">	<img src="images/solution/p41_main02.png"></div>
+		
+		   </div>
+      
+						
+    </div>
+    <!-- If we need pagination -->
+    <div class="swiper-pagination swiper-pagination1"></div>
+    </div>
+				
+
+			<a href="#" class="p4_link">了解更多中小企業其他議題>>></a>	
+			</div>
+		
+		</section>
+		
+		<a id="a1_p42"></a>
+				<section class="a1_p42 a1_p4_web">
+		
+			<div class="a1_warp">
+			
+				<div class="a1_title">
+				<div class="a1_title_main">製造業</div>
+					<div class="a1_title_content">最需要的人資系統支援</div>
+
+		
+				</div>
+
+				
+				
+			  <!-- Slider main container -->
+				<div class="swiper-container swiper2">
+			  <!-- Additional required wrapper -->
+			  <div class="swiper-wrapper">
+			  <!-- Slides -->
+			<div class="swiper-slide">
+		
+		
+				<div class="a1_p41_content">
+				
+				<div class="a1_p41_left">
+					
+					<p>員工加班時數可預警及限制，以防超時加班情況。</p>
+					<p>加班時數可依平日、假日、節日彈性設定計算倍率，並做為加班費發放或依比例轉為補休，符合法令。</p>
+					<p>系統提供涵蓋適用於多數客戶的加班控管流程，可依企業情況做選擇。</p>
+
+					</div>
+				
+					<div class="a1_p41_right"><img src="images/solution/p42_main01.png">
+					</div>
+
+				</div>
+						
+			</div>
+			<!--		slide01 end-->
+		   <div class="swiper-slide">
+		
+
+			   <div class="a1_p41_content">	<img src="images/solution/p42_main02.png"></div>
+		
+		   </div>
+      
+						
+    </div>
+    <!-- If we need pagination -->
+    <div class="swiper-pagination swiper-pagination2"></div>
+    </div>
+				
+<a href="#" class="p4_link">了解更多製造業其他議題>>></a>	
+				
+			</div>
+		
+		</section>
+		<a id="a1_p43"></a>
+		<section class="a1_p43 a1_p4_web">
+		
+			<div class="a1_warp">
+			
+				<div class="a1_title">
+				<div class="a1_title_main">流通業</div>
+					<div class="a1_title_content">最需要的人資系統支援</div>
+
+		
+				</div>
+
+				
+				
+			  <!-- Slider main container -->
+				<div class="swiper-container swiper3">
+			  <!-- Additional required wrapper -->
+			  <div class="swiper-wrapper">
+			  <!-- Slides -->
+			<div class="swiper-slide">
+		
+		
+				<div class="a1_p41_content">
+				
+				<div class="a1_p41_left">
+		
+					<p>班次設定可細分至每一個時段。</p>
+					<p>可設定跨日班次及彈性上下班班次。</p>
+					<p>可設定各時段上下班、休息、加班時間。</p>
+					<p>不同類型班次判斷員工出勤及計算薪資。</p>
+					<p>不同輪班組的管理。</p>
+					<p>輪班日期調整安排。</p>
+					<p>輪班津貼計算。</p>
+
+
+					</div>
+				
+					<div class="a1_p41_right"><img src="images/solution/p43_main01.png">
+					</div>
+
+				</div>
+						
+			</div>
+			<!--		slide01 end-->
+		   <div class="swiper-slide">
+		
+
+			   <div class="a1_p43_content">	<img src="images/solution/p43_main02.png"></div>
+		
+		   </div>
+      
+						
+    </div>
+    <!-- If we need pagination -->
+    <div class="swiper-pagination swiper-pagination3"></div>
+    </div>
+				
+<a href="#" class="p4_link">了解更多流通業其他議題>>></a>	
+				
+			</div>
+		
+		</section>
+		
+		
+		
+		
+		
+		<section class="a1_p5">
+		
+			<div class="a1_warp">
+			
+				<div class="a1_title">
+				<div class="a1_title_main">輔助企業戰略決策的HR新利器</div>
+				
+				</div>
+
+				
+				<div class="a1_p5_content">
+				<div class="p5_left">
+					<div class="p5_left_title">決策分析模組</div>
+					<div class="p5_left_text">決策分析模組於 HR 系統後端提供<span>資料源設計、報表設計</span>和<span>自動化運算</span>，搭配<span>智慧分析引擎</span>，對人事、考勤及薪資資料進行過濾與重組，達到深度分析的目的。支援 <span>Web 端</span>與<span>行動端介面 ( APP )</span>，提供高階管理者從資源到成本，從收益到趨勢等人力戰略分析。</div>
+					
+					<img src="images/solution/p5_fivemodel.png" class="a1_ver_web">
+					<img src="images/solution/phone/p5_fivemodel.png" class="a1_ver_phone">
+				</div>
+					
+				<div class="p5_right a1_ver_web">
+					
+					<img src="images/solution/p5_main.png">
+					
+					
+				</div>	
+					
+					
+				</div>
+
+				
+			</div>
+		
+		</section>
+		
+		<section class="a1_p6">
+		
+			<div class="a1_warp">
+			
+				<div class="a1_title">
+				<div class="a1_title_main">鼎新輔導機制的優勢</div>
+				
+				</div>
+
+				
+				<div class="a1_p6_content">
+				
+				
+					
+					<img src="images/solution/p6_main.png" class="a1_ver_web">
+					<img src="images/solution/phone/p6_main.png" class="a1_ver_phone">
+					
+				</div>	
+					
+					
+				</div>
+
+
+		
+		</section>
+		
+		
+		
+		<script src="https://a1.digiwin.com/js/common/wow.js"></script>	
+		<script src="js/solution/animate.js"></script>
+		<script>
+
+$(function() {
+
+
+	/*▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃ FAQ ▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃*/
+
+		$(".p4-phone-block .p4-phone-content").hide();
+		
+	   //-------------單一開關-------------
+		$(".p4-phone-block .p4-phone-title ").click(function(){	
+			
+			$(this).parent().siblings().find(".p4-phone-content").slideUp();
+			$(this).parent().siblings().find(".p4-phone-title").removeClass("p4closea1");
+			
+			$(this).next(".p4-phone-content").slideToggle(300);
+			$(this).toggleClass("p4closea1");
+		
+			
+		});
+	
+	
+	$(".p4-phone-block .open").click(); // 預設開啟哪一個
+
+	
+
+
+
+
+	});
+
+
+</script>		
+		
+		
+		
+        <!-- 聯絡表單 -->
+        <div id="contact">
+            <div id="contactTxt" class="clearfix">
+                <h2>資料索取與諮詢</h2>
+                <div id="info">
+                    <p>請填寫下方資料便於盡快為您服務。<br>若您需要立即的支援與服務，請直撥免付費專線 <span class="highLight">0800-888-162</span>，謝謝！</p>
+                    <ul>
+                        <li class="line">
+                            <a href="https://acho.tw/acho/f/aB6q9" target="_blank"></a>
+                        </li>
+                        <li class="mail">
+                            <a href="mailto:marketing01@digiwin.com"></a>
+                        </li>
+                        <li class="fb">
+                            <a href="https://www.facebook.com/DSCmain" target="_blank"></a>
+                        </li>
+                    </ul>
+                </div>
+                <div id="formBlock" class="form">
+                    <a id="fromSource" href="javascript:;">WB002741</a> <!-- 文宣編號 -->
+                    <div id="contactInput" class="clearfix">
+                        <span class="hideLabel ">*公司名稱：</span><input type="text" placeholder="*完整公司名稱" name="contact-company" id="contact-company" class="contact required"><span class="hideLabel perLabel">*姓名：</span><input type="text" placeholder="*姓名" name="contact_person" id="contact_person" class="contact required"><span class="hideLabel evenLable">*聯絡電話：</span><input type="text" placeholder="*聯絡電話" name="telephone" id="telephone" class="contact required end"><span class="hideLabel evenLable">*E-mail：</span>
+                        <input type="text" placeholder="*E-mail" name="contact-email" id="contact-email" class="contact required"><span class="hideLabel">*部門：</span><input type="text" placeholder="*部門" name="contact-dept" id="contact-dept" class="contact required"><span class="hideLabel">*職稱：</span><input type="text" placeholder="*職稱" name="contact-job" id="contact-job" class="contact required end">
+                    </div>
+                    <div class="consult-cont">
+                        <p class="hideLabel">請在這裡描述您的需求：</p>
+                        <textarea id="contact-query" cols='40' placeholder="請在這裡描述您的需求(500字以內)：" rows='4' class="" maxlength="500"></textarea>
+                    </div>
+
+                    <!-- 複選 -->
+                    <!-- <div class="demandCheck clearfix">
+                        <label for="contact-demand01"><input name="contact-demand" class="contact-demand" id="contact-demand01" type="checkbox" value="預算管控資訊" /> 預算管控資訊</label>
+                        <label for="contact-demand02"><input name="contact-demand" class="contact-demand" id="contact-demand02" type="checkbox" value="準確成本估算" /> 準確成本估算</label>
+                        <label for="contact-demand03"><input name="contact-demand" class="contact-demand" id="contact-demand03" type="checkbox" value="確實掌握工程進度" /> 確實掌握工程進度</label>
+                        <label for="contact-demand04"><input name="contact-demand" class="contact-demand" id="contact-demand04" type="checkbox" value="估驗計價及請款" /> 估驗計價及請款</label>
+                        <label for="contact-demand05"><input name="contact-demand" class="contact-demand" id="contact-demand05" type="checkbox" value="帳務結算及分析" /> 帳務結算及分析</label>
+                        <label for="contact-demand06"><input name="contact-demand" class="contact-demand" id="contact-demand06" type="checkbox" value="發包及採購流程" /> 發包及採購流程</label>
+                        <label for="contact-demand07"><input name="contact-demand" class="contact-demand" id="contact-demand07" type="checkbox" value="合約管控" /> 合約管控</label>
+                        <label for="contact-demand08"><input name="contact-demand" class="contact-demand" id="contact-demand08" type="checkbox" value="其他" /> 其他</label>
+                    </div> -->
+
+                    <!-- 單選 -->
+                    <div class="inforCheck">
+                        <label for="dm_ask"> <input name="information" class="information" id="dm_ask" type="checkbox" value="資料索取">索取相關資料</label>
+                    </div>
+
+                    <hr>
+                    <div class="verifica">
+                        <span class="veriSpan">＊請輸入驗證碼：</span>
+                        <span class="veriSpan-m">驗證碼:</span>
+                        <input type="text" name="" id="identCode" class="identCode" onblur="validate()">
+                        <input type="button" id="vericodePic" />
+                        <span class="renovCode" onclick="createCode()"></span>
+                        <span id="codeSuces"></span>
+                    </div>
+                    <input type="button" id="submit" value="送　　出">
+                    <label for="agree" class="checAgree"><input type="checkbox" name="agree" value="" id="agree" checked="">
+                        我同意接受鼎新電腦<a href="/tw/portal/page/index/id/1202.html" target="_blank">隱私權聲明</a></label>
+                </div>
+            </div>
+        </div>
+
+        <!-- loading -->
+        <div id="loading">
+            <p><i></i>資料提交中，請稍後</p>
+        </div>
+
+        <!-- thx page -->
+        <div id="thx">
+            <div id="thxContent">
+                <div class="close">X</div>
+                <p class="title">資料己送出</p>
+                <p class="thxparg"></p>
+                <p class="suprtCall">
+                    <span>如需要立即的支援與服務，</span>
+                    <span>請直撥免付費專線 0800-888-162，謝謝！</span>
+                </p>
+                <p class="thxSourLoad1">
+                    <a id="SourLoadLink" href="" target="_blank">資料下載</a>
+                </p>
+                <p id="goIndex">
+                    <a href="javascript:;">繼續瀏覽網站</a>
+                </p>
+            </div>
+        </div>
+    </main>
+    <!-- 後台上稿內容結束-->
+</body>
+
+</html>

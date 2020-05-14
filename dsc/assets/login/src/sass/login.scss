@@ -1,0 +1,50 @@
+@import 'bootstrap/custom';
+@import 'common';
+@import 'loginForm';
+@import 'subscribe';
+
+[v-cloak] {
+    display: none;
+}
+
+// transition
+.fade-enter-active,
+.fade-leave-active {
+    transition: opacity .2s;
+}
+.fade-enter,
+.fade-leave-to {
+    opacity: 0;
+}
+
+.list-case-show {
+    position: relative;
+}
+.articleCover {
+    position: absolute;
+    top: 0;
+    right: -50px;
+    bottom: 0;
+    left: -50px;
+    z-index: 1;
+    display: none;
+    background-image: linear-gradient(rgba(255,255,255,0), rgba(255,255,255,0) 30%, #fff 40%, #fff 0);
+    pointer-events: none;
+    @at-root {
+        .list-case-show.no-login .articleCover {
+            display: block;
+        }
+    }
+    a {
+        position: absolute;
+        top: calc(40% + 2em);
+        left: calc(50% - 107.5px);
+        width: 215px;
+        height: 44px;
+        background-color: #ed7d31;
+        color: #fff;
+        text-align: center;
+        line-height: 44px;
+        pointer-events: auto;
+    }
+}

@@ -1,0 +1,68 @@
+<slider-banner-s v-if="isMobile" v-bind:slides="result.member.banner" device="mobile"></slider-banner-s>
+<slider-banner v-else v-bind:slides="result.member.banner" device="desktop"></slider-banner>
+
+<article class="section1">
+    <div class="container">
+        <section-title
+            title="會員營銷診斷清單"
+            desc="在你口袋的，是你真正的會員嗎？<br>會員經營與行銷專案的規劃執行，是否有所疑惑？"
+        ></section-title>
+        <checklist :lists="result.member.checklist"></checklist>
+    </div>
+</article>
+
+<div class="section2">
+    <slider-checkbox id="1">
+        <template slot="left">
+            <section>
+                <section-title
+                    title="為什麼無法掌握會員"
+                    desc="是什麼擋住了？"
+                ></section-title>
+                <img src="images/member/section2-left.png" alt="">
+                <label for="slider-toggle1">看該如何掌握<i class="material-icons">arrow_forward</i></label>
+            </section>
+        </template>
+        <template slot="right">
+            <section>
+                <section-title title="該如何掌握會員"></section-title>
+                <img src="images/member/section2-right.png" alt="">
+                <label for="slider-toggle1"><i class="material-icons">arrow_back</i>無法掌握的原因</label>
+            </section>
+        </template>
+    </slider-checkbox>
+</div>
+
+<div class="section3">
+    <slider-checkbox id="2">
+        <template slot="left">
+            <section>
+                <section-title
+                    title="導入會員經營機制"
+                    desc="針對不同階段的會員給予不同方案，讓顧客逐步往忠誠會員邁進。"
+                ></section-title>
+                <img src="images/member/section3-left.png" alt="">
+                <label for="slider-toggle2">看範例案例<i class="material-icons">arrow_forward</i></label>
+            </section>
+        </template>
+        <template slot="right">
+            <section>
+                <section-title
+                    title="案例分享一如何提升回購率，增加忠誠度"
+                    desc="ABC點距離近，不直接贈折價券，以免降低整單客單價，<br>D點顧客流失了三個月，需要贈送折價券刺激，<br>E點流失半年，前幾個喚醒都沒有效，只好加碼贈送折扣券的幅度，<br>若前5個喚醒點都失效，那麼就不再喚醒，會員已進入深度休眠"
+                ></section-title>
+                <img src="images/member/section3-right.png" alt="">
+                <label for="slider-toggle2"><i class="material-icons">arrow_back</i>回到提升效率之前</label>
+            </section>
+        </template>
+    </slider-checkbox>
+</div>
+
+<div class="section4">
+    <div class="container">
+        <section-title title="餐飲業會員管理<br>如何線下體驗引流線上"></section-title>
+        <img src="images/member/section4-illust.png" alt="">
+    </div>
+</div>
+
+<contact v-bind:multiple="false" source=""></contact>

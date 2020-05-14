@@ -1,0 +1,126 @@
+main .industry {
+    .title {
+        text-align: center;
+        font-size: 26px;
+    }
+    .header {
+        @include bg('industry/header-bg.png', 50% 110%);
+        padding-top: 72px;
+        height: 530px;
+        background-color: #127d7e;
+        h2 {
+            margin-bottom: 117px;
+            color: #fff;
+            text-align: center;
+            letter-spacing: getLetterSpacing(30);
+            font-size: 30px;
+        }
+        h1 {
+            text-align: center;
+        }
+    }
+    .section1 {
+        padding-top: 40px;
+        background-color: #f5f3f3;
+        h1 {
+            margin-bottom: 70px;
+            font-weight: bold;
+        }
+        img {
+            display: block;
+            margin: 0 auto;
+        }
+        &-1 {
+            margin-top: 1.5em;
+            padding: 40px 0;
+            background-color: #179e9f;
+            color: #fff;
+            h2 {
+                margin-bottom: 1em;
+            }
+            p {
+                line-height: 24px;
+                & + p {
+                    margin-top: 1em;
+                }
+            }
+        }
+        &-2 {
+            padding: 40px 0;
+            background-color: #0a3d5f;
+            color: #fff;
+            img {
+                display: block;
+                margin: 0 auto 1.5em;
+            }
+            h2 {
+                margin-bottom: 1em;
+                & + ul {
+                    margin-bottom: 2em;
+                    padding-left: 1em;
+                    list-style-type: disc;
+                    font-size: 17px;
+                    line-height: 22px;
+                }
+            }
+            ul {
+                margin-right: 5px;
+                flex-grow: 1;
+            }
+            li {
+                margin-top: 5px;
+            }
+            a {
+                display: flex;
+                padding: 15px;
+                color: #fff;
+                line-height: 24px;
+                align-items: center;
+                &:nth-of-type(1) {
+                    background-color: #00a2a5;
+                }
+                &:nth-of-type(2) {
+                    background-color: #ff7514;
+                }
+                &::after {
+                    width: 30px;
+                    height: 30px;
+                    background-image: image-url('industry/link-icon.png');
+                    background-size: contain;
+                    content: '';
+                    flex-shrink: 0;
+                }
+                & + a {
+                    margin-top: 23px;
+                }
+            }
+        }
+    }
+    .section2 {
+        padding: 40px 0;
+        background-color: #ebeded;
+        h1 {
+            margin-bottom: 1em;
+            letter-spacing: getLetterSpacing(25);
+            font-weight: bold;
+        }
+        &-links {
+            display: grid;
+            margin-top: 10px;
+            grid-template-rows: repeat(2, 25px);
+            grid-template-columns: repeat(4, 1fr);
+            gap: 3px;
+            a {
+                background-color: #179e9f;
+                color: #fff;
+                text-align: center;
+                font-weight: bold;
+                font-size: 16px;
+                line-height: 25px;
+                &:nth-child(5) {
+                    font-size: 15px;
+                }
+            }
+        }
+    }
+}

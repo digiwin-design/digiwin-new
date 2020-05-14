@@ -1,0 +1,93 @@
+doctype html
+html(lang='zh-Hant-TW')
+    head
+        meta(charset='UTF-8')
+        meta(name='viewport', content='width=device-width, initial-scale=1.0')
+        meta(http-equiv='X-UA-Compatible', content='ie=edge')
+
+        //- 全站共用
+        link(rel='stylesheet', href='/tw/static/css/public.css')
+        link(rel='stylesheet', href='/tw/static/css/style.css')
+        script(src='/tw/static/js/jquery-1.11.3.min.js')
+
+        //- 全站共用(自定義)
+        script(src='https://polyfill.io/v3/polyfill.js?features=default,fetch,HTMLPictureElement,Array.prototype.find,NodeList.prototype.forEach&flags=gated')
+        script(src='/tw/dsc/assets/modernizr-custom.js')
+        script(src='/tw/dsc/assets/mobile-detect.js')
+        script(src='/tw/dsc/assets/mobile-detect-modernizr.js', defer)
+        script(src="/tw/dsc/assets/smoothscroll.js", defer)
+        script(src="/tw/dsc/assets/axios.min.js")
+        script(src="/tw/dsc/assets/vuejs/vue-all-dev.js")
+        script(src='/tw/dsc/js/common.min.js')
+    body
+        section.page-content.page-content02.clearfix(style='min-height: 904px;')
+            .container
+                .leftbox.leftbox01
+                    .list-case-show
+                        h1.font32
+                            strong 標題
+                        h2.font24
+                            strong 副標題
+                        p.tag
+                            span
+                                a(href='javascript:;') 標籤
+
+                        // 後台上稿內容開始
+                        //- swiper
+                        link(rel="stylesheet", href="/tw/article/assets/swiper.min.css")
+                        script(src="/tw/article/assets/swiper.min.js", defer)
+                        script(src="/tw/article/assets/vue-awesome-swiper.js", defer)
+
+                        //- link(rel='stylesheet', href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css')
+                        //- script(src="/tw/article/assets/color-converter.js", defer)
+                        link(rel='stylesheet', href='/tw/dsc/css/reboot.css')
+                        script(src="/tw/article/assets/lodash.min.js", defer)
+                        script(src='/tw/article/js/all.min.js', defer)
+
+                        block includes
+
+                        main(v-cloak, v-if="result", v-bind:class="{top:!fixedHeader}")
+                            block content
+                        // 後台上稿內容結束
+
+                aside.rightbox
+                    div(style='background:#fff;padding-bottom:10px;')
+                        p.pic
+                            a(target='_blank', href='https://a1.digiwin.com/action/20190702/index.php?utm_source=DGW&utm_medium=banner&utm_content=DGW_Vicky_0717_A1移動辦公無限可能&utm_campaign=DGW_Vicky_0717_CPL')
+                                img(src='https://static.digiwin.com/tw/upload/portal/20190708/dc8a6eae0ac0e6580602c0b8a1515086.jpg')
+                        br
+                        p.pic
+                            a(target='_blank', href='https://www.digiwin.com/tw/dsc/solution/WB002972/index?utm_source=DGW&utm_medium=banner&utm_content=DGW_Vicky_0708_新零售&utm_campaign=DGW_Vicky_0708_CPL')
+                                img(src='https://static.digiwin.com/tw/upload/portal/20190708/5baa9f4033555c7b0c7ee41024ed42dc.jpg')
+                    .list-box.pinned
+                        ul.tab-menu
+                            li.active 最新發佈
+                            li 熱門文章
+                        .clearfix.releatedbox
+                            .tab-content(style='display: block;')
+                                ul
+                                    li
+                                        a(href='/tw/case/1941.html') 鴻福製革e化打通全廠數據 精進管理更省力
+                                    li
+                                        a(href='/tw/case/1933.html') 致力數據E化分析　宏致越南精密經營管理撥雲見日
+                                    li
+                                        a(href='/tw/case/1932.html') 二代接班思維變革　惠傑E化轉型與時俱進
+                                    li
+                                        a(href='/tw/case/1930.html') 整合資訊數位化　承育精密無懼新挑戰
+                                    li
+                                        a(href='/tw/case/1864.html') I.B.O強化資訊整合　搶先落實E化管理
+                            .tab-content
+                                ul
+                                    li
+                                        a(href='/tw/case/981.html') 美而快實業 PAZZO 跨境經營 打造網購品牌帝國
+                                    li
+                                        a(href='/tw/case/537.html') 俊益鋼鐵─工廠管理結合QRcode條碼化改變傳統鋼材廠
+                                    li
+                                        a(href='/tw/case/626.html') 記銘工業穩健向前，逐步實現智能化工廠
+                                    li
+                                        a(href='/tw/case/1689.html') 揮別盲眼管理 大井泵浦與數據同行           
+                                    li
+                                        a(href='/tw/case/1277.html') 立德飯店ERP電腦化上線成功案例
+                        p.pic
+                            a(href='https://pse.is/H78BX', target='_blank')
+                                img(src='https://static.digiwin.com/tw/upload/default/20190531/f0b20124464559a1e2c538e705e042d0.jpg', alt='WB00296701_300x600.jpg')

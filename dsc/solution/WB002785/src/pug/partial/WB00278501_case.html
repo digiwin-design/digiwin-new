@@ -1,0 +1,17 @@
+<slider-banner-s v-if="isMobile" v-bind:slides="result.banner" device="mobile"></slider-banner-s>
+<slider-banner v-else v-bind:slides="result.banner" device="desktop"></slider-banner>
+
+<article class="cases">
+    <div class="container">
+        <section-title title="輔導案例"></section-title>
+        <ul>
+            <li v-for="item in result.cases" :key="item.company">
+                <h2 :data-type="item.type">{{item.company}}</h2>
+                <p>{{item.content}}</p>
+                <a :href="item.link" target="_blank">more</a>
+            </li>
+        </ul>
+    </div>
+</article>
+
+<contact v-bind:multiple="false" source=""></contact>

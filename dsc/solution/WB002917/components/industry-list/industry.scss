@@ -1,0 +1,71 @@
+$tablet-width: 768px;
+$content-width: 1200px;
+
+main .industryList {
+    display: flex;
+    margin: 0 auto;
+    max-width: 1100px;
+    max-width: 304px;
+    text-align: center;
+    flex-wrap: wrap;
+    @media (min-width: $tablet-width) {
+        max-width: 524px;
+    }
+    @media (min-width: $content-width) {
+        max-width: 990px;
+    }
+    li {
+        margin-bottom: 20px;
+        width: 84px;
+        @media (min-width: $content-width) {
+            width: 126px;
+        }
+        @media (max-width: $tablet-width - 1) {
+            margin-right: 26px;
+            &:nth-child(3n + 3) {
+                margin-right: 0;
+            }
+        }
+        @media (min-width: $tablet-width) {
+            margin-right: 26px;
+            &:nth-child(5n + 5) {
+                margin-right: 0;
+            }
+        }
+        @media (min-width: $content-width) {
+            margin-right: 90px;
+            margin-bottom: 30px;
+        }
+        @for $var from 1 through 20 {
+            &:nth-child(#{$var}) a::before {
+                background-image: url('images/icon-#{$var}.png');
+            }
+        }
+    }
+    a {
+        display: block;
+        color: #fff;
+        text-align: center;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 1.2;
+        @media (min-width: $content-width) {
+            font-size: 21px;
+        }
+        &::before {
+            display: block;
+            margin-bottom: 8px;
+            width: 84px;
+            height: 84px;
+            background-position: 50%;
+            background-size: contain;
+            background-repeat: no-repeat;
+            content: '';
+            @media (min-width: $content-width) {
+                margin-bottom: 17px;
+                width: 126px;
+                height: 126px;
+            }
+        }
+    }
+}

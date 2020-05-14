@@ -1,0 +1,471 @@
+@charset "UTF-8";
+main *, main *:before, main *:after {
+    box-sizing: content-box;
+}
+
+main {
+    padding-bottom: 50px;
+}
+
+main #navLink,
+main #navLink .subLink {
+    background-color: #f9f9f9;
+}
+
+main .section h3 {
+    margin-bottom: 30px;
+    font-size: 36px;
+}
+
+main .section h4 {
+    font-size: 21px;
+    margin: 20px 0 7px 40px;
+    text-align: left;
+    color: #0584dd;
+}
+
+main .section h6 {
+    font-size: 17px;
+    margin: 40px 0px 0px 40px;
+    text-align: left;
+    color: #004a9d;
+}
+
+main .section p {
+    margin: 20px 0 7px 40px;
+    padding: 0;
+    font-size: 17px;
+    line-height: 30px;
+    text-align: justify;
+    letter-spacing: 1px;
+}
+
+main .section p.left60 {
+    margin: 20px 0 7px 60px;
+    padding: 0;
+    font-size: 17px;
+    line-height: 30px;
+    text-align: justify;
+}
+
+main .section {
+    width: 100%;
+    min-width: 1000px;
+    padding: 100px 0;
+    color: #444444;
+    font-family: Arial, "微軟正黑體";
+    letter-spacing: 1px;
+}
+
+main .content {
+    position: relative;
+    width: 1000px;
+    margin: 0 auto;
+}
+
+main .font_mainColor {
+    color: #0bb580;
+}
+
+main .font_orange {
+    color: #ff6600;
+}
+
+main .font_blue {
+    color: #058fa8;
+}
+
+main .font_blue2 {
+    color: #b5e6ff;
+}
+
+main .font_green {
+    color: #4fcc6a;
+}
+
+main .font_yellow1 {
+    color: #fffc00;
+}
+
+main .font_yellow {
+    color: #ffb400;
+}
+
+main .font_yellowLight {
+    color: #feffc1;
+}
+
+main .font_yellowDark {
+    color: #ff8d00;
+}
+
+main .font_redLight {
+    color: #ff5454;
+}
+
+main .font_white {
+    color: #ffffff;
+}
+
+main .font_gray {
+    color: #bbbbbb;
+}
+
+main .font_blackB {
+    color: #000000;
+    font-weight: bold;
+}
+
+main .font_green2 {
+    color: #eaff01;
+}
+
+main .bg_mainColor {
+    background-color: #0bb580;
+}
+
+main .bg_green {
+    background-color: #4fcc6a;
+}
+
+main .bg_yellow {
+    background-color: #ffb400;
+}
+
+main .bg_yellowDark {
+    background-color: #ff8d00;
+}
+
+main .bg_gray {
+    background-color: #bbbbbb;
+}
+
+main .bg_greenImg {
+    background: url(../images/bgGreen.jpg) no-repeat center center;
+}
+
+main .bg_ {
+    background: url(../images/bgGreen.jpg) no-repeat center center;
+}
+
+main .hover_yellow:hover h4 {
+    color: #ffb400;
+}
+
+main .circle {
+    margin: 0 auto;
+    border-radius: 50%;
+}
+
+main p.imgNote {
+    font-size: 19px;
+    font-weight: bold;
+    text-align: center;
+}
+
+main p.sectionNote {
+    width: 800px;
+    margin: 0 auto;
+    font-size: 19px;
+}
+
+main p.pageBtn {
+    width: 400px;
+    line-height: 60px;
+    margin: 50px auto 0;
+    border: 1px solid #ffffff;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+}
+
+main .Block01bg {
+    width: 100%;
+}
+
+main h3.Block01_icon {
+    text-align: center;
+    padding-left: 40px;
+    color: #0c53aa;
+    line-height: 1;
+}
+
+main #Block01 .P_center {
+    text-align: center;
+}
+
+main #Block01 {
+    width: 950px;
+    overflow: hidden;
+    margin: 0 auto;
+    display: block;
+    padding-top: 0px;
+}
+
+main #Block01 #icons {
+    width: 900px;
+    display: block;
+    overflow: hidden;
+    padding: 10px;
+}
+
+main #Block01 #icons ul li {
+    float: left;
+    display: block;
+    line-height: 50px;
+    margin: 10px 10px 10px 30px;
+    padding-left: 50px;
+}
+
+main .iconA {
+    background: url(../images/seminar/icon2.png) no-repeat left 0px;
+}
+
+main .iconB {
+    background: url(../images/seminar/icon2.png) no-repeat left -50px;
+}
+
+main .iconC {
+    background: url(../images/seminar/icon2.png) no-repeat left -100px;
+}
+
+main #Block01 a {
+    color: #1172a4;
+}
+
+main #Block01 a:hover {
+    color: #F60;
+}
+
+main .section {
+    padding-bottom: 0;
+}
+
+main .section1 {
+    display: block;
+    width: 1000px;
+    height: 100%;
+    margin: 0 auto;
+    font-family: Arial, "微軟正黑體";
+}
+
+main .section1 .sec-header {
+
+    margin-top: 20px;
+    /*margin-bottom: 26px;*/
+    height: 51px;
+    width: 1000px;
+    /*padding: 14px 12px 10px 13px;*/
+    background: url(../images/seminar/section1_h.png) no-repeat;
+    font-size: 18px;
+    color: #fff;
+    position: relative;
+    cursor: pointer;
+}
+
+main .section1 .sec-header .secIcon-1 {
+    display: inline-block;
+    margin-left: 14px;
+    margin-top: 12px;
+    height: 25px;
+    line-height: 25px;
+    padding-left: 28px;
+    background: url(../images/seminar/section1_icon1.png) 0 center no-repeat;
+}
+
+main .section1 .sec-header p {
+    display: inline-block;
+    margin-left: 44px;
+    /*width: 700px;*/
+}
+
+main .sec-header .secIconMore {
+    position: absolute;
+    top: -4px;
+    right: 10px;
+    height: 51px;
+    width: 50px;
+    line-height: 36px;
+    background: url(../images/seminar/secIconMore.png) center 33px no-repeat;
+    font-size: 16px;
+    text-align: center;
+    cursor: pointer;
+}
+
+main .changeDIV {
+    width: 100%;
+    height: 98%;
+    padding-top: 2%;
+    position: relative;
+}
+
+main .leftPart1 {
+    float: left;
+    padding-left: 20px;
+    width: 300px;
+    height: 500px;
+    padding-bottom: 3%;
+}
+
+main .leftPart1 a {
+    display: inline-block;
+}
+
+main .turna {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    margin-bottom: 33px;
+    text-align: center;
+    width: 336px;
+}
+
+main .turna a {
+    margin-top: 25px;
+    width: 297px;
+    height: 39px;
+    line-height: 39px;
+    border: 1px solid #0294aa;
+    color: #0294aa;
+}
+
+main .turna a:hover {
+    background: #0294aa;
+    color: #fff;
+}
+
+main .rightPart1 {
+    float: right;
+    margin-right: 20px;
+    width: 628px;
+    height: 97%;
+    padding-bottom: 3%;
+}
+
+main .rightPart1 h6 {
+    color: #35afc1;
+    font-size: 17px;
+    font-weight: bold;
+    margin-top: 18px;
+    margin-bottom: 5px;
+    line-height: 30px;
+}
+
+main .rightPart1_left {
+    margin-left: 35px;
+}
+
+main .rightPart1 p {
+    font-size: 17px;
+    margin-top: 18px;
+    margin-bottom: 5px;
+    letter-spacing: 1px;
+}
+
+main #box_t {
+    font: "微軟正黑體",Arial, Helvetica, sans-serif;
+    width: 620px;
+    height: 180px;
+    float: left;
+    position: relative;
+    overflow: hidden;
+    display: block;
+}
+
+main #box_t .leftimg {
+    display: block;
+    position: absolute;
+    top: 40px;
+    left: 40px;
+}
+
+main #box_t .rightP {
+    display: block;
+    position: absolute;
+    top: 95px;
+    left: 160px;
+}
+
+main #box_t .righttopP {
+    display: block;
+    position: absolute;
+    width: 442px;
+    top: 39px;
+    left: 160px;
+    height: 47px;
+    font-size: 16px;
+}
+
+main #box_t .P_Blod {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+main .changeDIV h4 {
+    font-family: "微軟正黑體",Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    line-height: 26px;
+    color: #00488c;
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+}
+
+main .changeDIV p {
+    color: #262626;
+    font-size: 17px;
+    line-height: 24px;
+    letter-spacing: 1px;
+}
+
+main .changeDIV h5 {
+    color: #ff0000;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 25px;
+    margin-bottom: 5px;
+    letter-spacing: 1px;
+}
+
+main .changeDIV dl {
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 25px;
+}
+
+main .changeDIV dt {
+    font-weight: bold;
+}
+
+main .changeDIV .last-dl {
+    margin-bottom: 0;
+}
+
+main .section2 .changeDIV {
+    display: none;
+}
+
+main .section2 .sec-header {
+    background: url(../images/seminar/section2_h.png) no-repeat;
+}
+
+main .section2 .sec-header .secIcon-1 {
+    /*margin-top:10px;*/
+    background: url(../images/seminar/section2_icon1.png) 0 center no-repeat;
+}
+
+main .section3 .changeDIV {
+    display: none;
+}
+
+main .section3 .sec-header {
+    background: url(../images/seminar/section3_h.png) no-repeat;
+}
+
+main .section3 .sec-header .secIcon-1 {
+    /*margin-top:10px;*/
+    background: url(../images/seminar/section3_icon1.png) 0 center no-repeat;
+}
+
+main #contact {
+    margin-top: 100px;
+}

@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="/tw/static/css/public.css">
+    <link rel="stylesheet" href="/tw/static/css/style.css">
+    <script src="/tw/static/js/jquery-1.11.3.min.js"></script>
+    <script src="https://polyfill.io/v3/polyfill.js?features=default,fetch,HTMLPictureElement,Array.prototype.find,NodeList.prototype.forEach&amp;flags=gated"></script>
+    <script src="/tw/dsc/assets/modernizr-custom.js"></script>
+    <script src="/tw/dsc/assets/mobile-detect.js"></script>
+    <script src="/tw/dsc/assets/mobile-detect-modernizr.js" defer=""></script>
+    <script src="/tw/dsc/assets/axios.min.js"></script>
+    <script src="/tw/dsc/assets/vuejs/vue-all-dev.js"></script>
+    <script src="/tw/dsc/js/common.min.js"></script>
+  </head>
+  <body>
+    <div class="header-box">
+      <header>
+        <div id="navigationBar" data-type="cn_zh" style="position:relative ">
+          <div class="c-nav-inner">
+            <div class="search-bob">
+              <div class="page-search clearfix" style="top: 0px;">
+                <div class="search-main1">
+                  <form action="/tw/search.html">
+                    <div class="top">
+                      <div class="container clearfix classify">
+                        <div class="ty">
+                          <input class="inputfrom" id="search_input" type="" name="keyword" value="" autocomplete="off" placeholder="搜尋..."><span class="button-box"><a href="">
+                              <input class="button-1" type="submit" id="" value="搜尋"></a>
+                            <!-- <input type="button" id="" value="重置"  onclick="location=location" class="button-2" />-->
+                            <!-- <input type="button" id="" value="重置"  onclick="$('.inputfrom').val('')" class="button-2" />--></span>
+                          <div class="search-jl" style="display: none;"></div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="container keywords">
+                      <div class="user-sex user-sex01">
+                        <div class="sex sex01">
+                          <div class="radio_sm-blue checked" style="position: relative;">
+                            <input id="sex-man" type="radio" name="searchtype" value="0" checked="" style="position: absolute; visibility: hidden;"><ins class="iCheck-helper" style="position: absolute; top: 0%; left: 0%; display: block; width: 100%; height: 100%; margin: 0px; padding: 0px; background: rgb(255, 255, 255); border: 0px; opacity: 0;"></ins>
+                          </div>全部類型
+                        </div>
+                        <div class="sex sex01">
+                          <div class="radio_sm-blue" style="position: relative;">
+                            <input type="radio" name="searchtype" value="1" style="position: absolute; visibility: hidden;"><ins class="iCheck-helper" style="position: absolute; top: 0%; left: 0%; display: block; width: 100%; height: 100%; margin: 0px; padding: 0px; background: rgb(255, 255, 255); border: 0px; opacity: 0;"></ins>
+                          </div>近期活動
+                        </div>
+                        <div class="sex sex01">
+                          <div class="radio_sm-blue" style="position: relative;">
+                            <input type="radio" name="searchtype" value="3" style="position: absolute; visibility: hidden;"><ins class="iCheck-helper" style="position: absolute; top: 0%; left: 0%; display: block; width: 100%; height: 100%; margin: 0px; padding: 0px; background: rgb(255, 255, 255); border: 0px; opacity: 0;"></ins>
+                          </div>典範案例
+                        </div>
+                        <div class="sex sex01">
+                          <div class="radio_sm-blue" style="position: relative;">
+                            <input type="radio" name="searchtype" value="7" style="position: absolute; visibility: hidden;"><ins class="iCheck-helper" style="position: absolute; top: 0%; left: 0%; display: block; width: 100%; height: 100%; margin: 0px; padding: 0px; background: rgb(255, 255, 255); border: 0px; opacity: 0;"></ins>
+                          </div>最新下載
+                        </div>
+                        <div class="sex sex01">
+                          <div class="radio_sm-blue" style="position: relative;">
+                            <input type="radio" name="searchtype" value="42" style="position: absolute; visibility: hidden;"><ins class="iCheck-helper" style="position: absolute; top: 0%; left: 0%; display: block; width: 100%; height: 100%; margin: 0px; padding: 0px; background: rgb(255, 255, 255); border: 0px; opacity: 0;"></ins>
+                          </div>解決方案
+                        </div>
+                        <div class="sex sex01">
+                          <div class="radio_sm-blue" style="position: relative;">
+                            <input type="radio" name="searchtype" value="10,11,12,59" style="position: absolute; visibility: hidden;"><ins class="iCheck-helper" style="position: absolute; top: 0%; left: 0%; display: block; width: 100%; height: 100%; margin: 0px; padding: 0px; background: rgb(255, 255, 255); border: 0px; opacity: 0;"></ins>
+                          </div>專欄文章
+                        </div>
+                        <div class="sex sex01">
+                          <div class="radio_sm-blue" style="position: relative;">
+                            <input type="radio" name="searchtype" value="9" style="position: absolute; visibility: hidden;"><ins class="iCheck-helper" style="position: absolute; top: 0%; left: 0%; display: block; width: 100%; height: 100%; margin: 0px; padding: 0px; background: rgb(255, 255, 255); border: 0px; opacity: 0;"></ins>
+                          </div>影片觀賞
+                        </div>
+                      </div>
+                      <p class="clearfix"></p>
+                      <div class="hot" style="padding-top:15px;"><span>熱門關鍵字：</span><a href="/tw/search.html?keyword=智慧製造" title="智慧製造">智慧製造</a>										<a href="/tw/search.html?keyword=MES" title="MES">MES</a>										<a href="/tw/search.html?keyword=廠內智能物流" title="廠內智能物流">廠內智能物流</a></div>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+            <div class="container clearfix">
+              <div class="logo"><a href="/tw"><img src="https://static.digiwin.com/tw/upload/admin/20180427/cf47d2848e1fbe331fbf04234d8c65a6.png" title="鼎新電腦" alt="鼎新電腦"></a></div><a class="phone-nav" href="#mmenu"></a>
+              <!--
+              <div class="user">
+              <a href=""><i class="iconfont icon-wode"></i></a>
+              </div>
+              <div class="top-email">
+              <div class="email">
+              <a href="">
+              <i class="iconfont icon-youxiang"></i>
+              <span>99+</span>
+              </a>
+              </div>
+              </div>
+              -->
+              <div class="search">
+                <div class="search-title"><a class="sbtn" href="javascript:;"><i class="iconfont icon-sousuo"></i></a></div>
+              </div>
+              <div id="qcTopNav">
+                <div class="nav">
+                  <ul class="J-qcTopNavList">
+                    <li class="presentation J-qcTopNavItem" data-action="expand" data-id="m47" data-path="0-47"><a target="" href="javascript:;">方案<i class="iconfont icon-xiangxia"></i></a></li>
+                    <li class="presentation J-qcTopNavItem" data-action="expand" data-id="m4" data-path="0-4"><a target="" href="javascript:;">行業<i class="iconfont icon-xiangxia"></i></a></li>
+                    <li data-path="0-3"><a target="" href="/tw/case.html">案例</a></li>
+                    <li class="presentation J-qcTopNavItem" data-action="expand" data-id="m5" data-path="0-5"><a target="" href="javascript:;">服務<i class="iconfont icon-xiangxia"></i></a></li>
+                    <li class="presentation J-qcTopNavItem mf" data-action="expand" data-id="m57" data-path="0-57"><a target="" href="/tw/activity.html">活動<i class="iconfont icon-xiangxia"></i></a></li>
+                    <li class="presentation J-qcTopNavItem mf" data-action="expand" data-id="m40" data-path="0-40"><a target="" href="javascript:;">資源<i class="iconfont icon-xiangxia"></i></a></li>
+                    <li class="presentation J-qcTopNavItem mf" data-action="expand" data-id="m6" data-path="0-6"><a target="" href="/tw/aboutdsc.html">關於<i class="iconfont icon-xiangxia"></i></a></li>
+                    <li class="presentation J-qcTopNavItem mf" data-action="expand" data-id="m7" data-path="0-7"><a target="" href="/tw/blog/4/757.html">聯盟夥伴<i class="iconfont icon-xiangxia"></i></a></li>
+                    <li class="presentation J-qcTopNavItem mf" data-action="expand" data-id="m2" data-path="0-2"><a target="" href="javascript:;">聯繫我們<i class="iconfont icon-xiangxia"></i></a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <!-- 操作区域 start-->
+            <div class="c-nav-operation" id="qcTopNavOpera" style="visibility: visible;"></div>
+          </div>
+          <div class="c-bubble c-bubble-top p-all" id="qcTopNavSheetWrapper" style="display:none;">
+            <div class="c-bubble-inner J-qcTopNavBubbleInner c-scrollbar" data-parent="m47" style="max-height: 676px;">
+              <div class="nav-dropdown-menu-all">
+                <div class="subnav-two">
+                  <div class="container">
+                    <div class="left-box">
+                      <div class="menu menu01"><span class="active"><a target="" data-path="0-47-54" href="javascript:;">智能+應用</a></span><span><a target="" data-path="0-47-89" href="/tw/ERP/erp-all.html">產品與軟體</a></span><span><a target="" data-path="0-47-132" href="javascript:;">企業規模</a></span><span><a target="" data-path="0-47-69" href="javascript:;">關注管理議題</a></span><span><a target="" data-path="0-47-331" href="javascript:;">職能應用領域</a></span><span><a target="" data-path="0-47-48" href="/tw/ERP/erp-all.html">了解完整方案</a></span></div>
+                    </div>
+                    <div class="box">
+                      <div class="tabcontent tabcontent01" id="tabcontent01" style="display:block;">
+                        <div class="middbox">
+                          <dl>
+                            <dt><a target="" data-path="0-47-54-304" href="javascript:;">智能+賦能企業</a></dt>
+                            <dd><a target="" data-path="" href="/tw/dsc/project/WB002940/index.html">企業數位化轉型</a><a target="_blank" data-path="0-47-54-304-76" href="http://industry4.digiwin.com/">智慧製造</a><a target="" data-path="0-47-54-304-60" href="/tw/blog/1/index/880.html">智慧零售</a><a target="_blank" data-path="" href="http://industry4.digiwin.com/diagnosis.htm">智慧成熟度評量</a><a target="_blank" data-path="0-47-54-304-504" href="http://industry4.digiwin.com/diagnosis2.htm">企業管理目標調查</a></dd>
+                          </dl>
+                          <dl>
+                            <dt><a target="" data-path="0-47-54-322" href="javascript:;">智能+應用方案</a></dt>
+                            <dd><a target="_blank" data-path="0-47-54-322-584" href="https://www.digiwin.com/tw/dsc/marketing/WB002838/WB00283808.htm">數智工廠全流程</a><a target="" data-path="0-47-54-322-131" href="/tw/dsc/industry4/smartFactory.html">廠內智能物流</a><a target="" data-path="0-47-54-322-320" href="/tw/dsc/industry4/smartManufactur.html">智能現場管理</a><a target="" data-path="0-47-54-322-586" href="/tw/software/iiappcbe/index.html">工業APP-設備水晶球</a><a target="" data-path="0-47-54-322-326" href="/tw/software/723.html">APS排程管理系統</a><a target="" data-path="0-47-54-322-324" href="/tw/software/721.html">SFT廠區生產追蹤</a><a target="" data-path="0-47-54-322-323" href="/tw/software/733.html">MES工廠營運管制系統</a><a target="" data-path="" href="/tw/software/1832.html">sMES智能現場執行系統</a><a target="" data-path="0-47-54-322-325" href="/tw/software/726.html">PLM產品生命週期管理</a></dd>
+                          </dl>
+                        </div>
+                        <div class="rightbox">
+                          <figure class="pic"><img class="vcenter" src="https://static.digiwin.com/tw/upload/admin/20180612/79fb222ca3a024206eda3ebe749ac068.jpg"></figure>
+                          <p>讓數據趨動企業營運動能，助您跟隨產業脈動，激發創新新動能，共贏智慧未來。</p>
+                        </div>
+                      </div>
+                      <div class="tabcontent tabcontent01" id="tabcontent02">
+                        <div class="middbox">
+                          <dl>
+                            <dt><a target="" data-path="0-47-89-302" href="javascript:;">ERP滿足企業各成長階段 </a></dt>
+                            <dd><a target="_blank" data-path="0-47-89-302-111" href="http://t100.digiwin.com/">T100 ERP</a><a target="" data-path="0-47-89-302-112" href="/tw/software/696.html">TIPTOP GP ERP</a><a target="" data-path="0-47-89-302-113" href="/tw/software/701.html">Workflow ERP GP</a><a target="" data-path="0-47-89-302-114" href="/tw/software/702.html">Cosmos ERP</a><a target="" data-path="0-47-89-302-115" href="/tw/dsc/solution/WB002839/WB00283901.html">SmartERP</a><a target="_blank" data-path="0-47-89-302-116" href="https://a1.digiwin.com/">A1商務應用雲</a></dd>
+                          </dl>
+                          <dl>
+                            <dt><a target="" data-path="0-47-89-303" href="javascript:;">ERPⅡ 管理需求延展應用</a></dt>
+                            <dd><a target="" data-path="" href="/tw/software/723.html">APS排程管理系統</a><a target="" data-path="0-47-89-303-311" href="/tw/software/706.html">BPM企業流程管理</a><a target="" data-path="0-47-89-303-313" href="/tw/software/717.html">BI商業智慧</a><a target="" data-path="0-47-89-303-314" href="/tw/software/708.html">CRM客戶關係管理</a><a target="" data-path="0-47-89-303-315" href="/tw/software/719.html">HR人力資源管理</a><a target="" data-path="" href="/tw/software/733.html">MES工廠營運管制系統</a><a target="" data-path="" href="/tw/software/1832.html">sMES智能現場執行系統</a><a target="" data-path="0-47-89-303-316" href="/tw/software/710.html">POS 銷售點管理</a><a target="" data-path="0-47-89-303-317" href="/tw/software/726.html">PLM產品生命週期管理</a><a target="" data-path="" href="/tw/software/721.html">SFT廠區生產追蹤</a><a target="" data-path="0-47-89-303-318" href="/tw/software/720.html">EC 協同商務供應鏈</a><a target="" data-path="0-47-89-303-319" href="/tw/software/731.html">EAI 整合應用解決方案</a><a target="_blank" data-path="" href="https://iw.digiwin.com/">IWC行業攻略雲</a></dd>
+                          </dl>
+                        </div>
+                        <div class="rightbox">
+                          <figure class="pic"><img class="vcenter" src="https://static.digiwin.com/tw/upload/admin/20180612/37b987bff1522ec6ec4af4623bf6bb3b.jpg"></figure>
+                          <p>鼎新致力實現客戶數位應用價值，針對企業各成長階段的管理需求延展應用，提供一體化解決方案。</p>
+                        </div>
+                      </div>
+                      <div class="tabcontent tabcontent01" id="tabcontent03">
+                        <div class="middbox">
+                          <dl>
+                            <dt><a target="" data-path="0-47-132-305" href="javascript:;">一次託付永遠責任的全程服務</a></dt>
+                            <dd><a target="_blank" data-path="0-47-132-305-379" href="http://t100.digiwin.com/">智慧雲平台企業</a><a target="" data-path="0-47-132-305-133" href="/tw/software/696.html">集團大型企業</a><a target="" data-path="0-47-132-305-134" href="/tw/software/701.html">中型及大型製造</a><a target="" data-path="0-47-132-305-380" href="/tw/software/702.html">中型及大型流通</a><a target="" data-path="0-47-132-305-535" href="/tw/dsc/solution/WB002839/WB00283901.html">中小企業SmartERP</a><a target="_blank" data-path="0-47-132-305-135" href="https://a1.digiwin.com/">小微型企業</a><a target="" data-path="0-47-132-305-136" href="/tw/dsc/solution/WB002521/WB00252103.html">新創新設公司</a></dd>
+                          </dl>
+                        </div>
+                        <div class="rightbox">
+                          <figure class="pic"><img class="vcenter" src="https://static.digiwin.com/tw/upload/admin/20180612/b616ee637d43825e70ab154017ca847b.jpg"></figure>
+                          <p>不同發展階段與運作規模的企業管理特性，提供配套應用的ERP產品和解決方案。</p>
+                        </div>
+                      </div>
+                      <div class="tabcontent tabcontent01" id="tabcontent04">
+                        <div class="middbox">
+                          <dl>
+                            <dt><a target="" data-path="0-47-69-306" href="javascript:;">管理重點</a></dt>
+                            <dd><a target="" data-path="0-47-69-306-555" href="/tw/erp/manufacture.html">生產製造管理</a><a target="" data-path="0-47-69-306-70" href="/tw/ERP/inventory.html">進銷存管理</a><a target="" data-path="0-47-69-306-79" href="/tw/ERP/financial.html">財務會計管理</a><a target="_blank" data-path="0-47-69-306-78" href="https://www.digiwin.com/tw/dsc/marketing/WB002838/WB00283807.htm">訂單交付</a><a target="_blank" data-path="" href="https://a1.digiwin.com">公有雲</a><a target="" data-path="0-47-69-306-81" href="/tw/software/729.html">私有雲</a><a target="" data-path="0-47-69-306-82" href="/tw/software/727.html">行動應用</a><a target="_blank" data-path="0-47-69-306-83" href="https://iw.digiwin.com/">IWC行業攻略雲</a><a target="" data-path="" href="/tw/dsc/solution/WB002917/WB00291701.html">IT 編列預算</a></dd>
+                          </dl>
+                          <dl>
+                            <dt><a target="" data-path="" href="javascript:;">時勢議題</a></dt>
+                            <dd><a target="_blank" data-path="-553" href="https://www.digiwin.com/tw/dsc/activity/WB002879/WB00287906.htm">AI思維</a><a target="" data-path="-554" href="/tw/dsc/solution/WB002553/WB00255301.html">食品安全</a><a target="_blank" data-path="-556" href="https://www.digiwin.com/tw/dsc/marketing/WB002838/WB00283809.htm">會計快速結算</a><a target="_blank" data-path="-557" href="https://www.digiwin.com/tw/dsc/marketing/WB002838/WB00283806.htm">人資勞動檢查</a><a target="" data-path="-328" href="/tw/dsc/solution/WB002742/WB00274201.html">電子發票</a><a target="" data-path="-329" href="/tw/dsc/solution/WB002741/WB00274101.html">勞基法新修法</a><a target="" data-path="-330" href="/tw/dsc/solution/WB002639/WB00263901.html">EAS企業會計準則</a><a target="" data-path="" href="https://www.digiwin.com/tw/dsc/marketing/WB002838/web/05/">勞動事件法</a></dd>
+                          </dl>
+                        </div>
+                        <div class="rightbox">
+                          <figure class="pic"><img class="vcenter" src="https://static.digiwin.com/tw/upload/admin/20180612/31891e473533084ed31bbac682d7f41f.jpg"></figure>
+                          <p>聚焦管理目標效益的價值服務手法，助企業強化管理本質提升企業營運的核心競爭能力。</p>
+                        </div>
+                      </div>
+                      <div class="tabcontent tabcontent01" id="tabcontent05">
+                        <div class="middbox">
+                          <dl>
+                            <dt><a target="" data-path="-332" href="javascript:;">職能應用</a></dt>
+                            <dd><a target="" data-path="-332-336" href="/tw/dsc/solution/WB002783/WB00278301.html">生產製造</a><a target="" data-path="-332-337" href="/tw/dsc/solution/WB002675/WB00267501_3.html">流通業 / 門市專櫃</a><a target="_blank" data-path="-332-339" href="https://www.digiwin.com/tw/dsc/marketing/WB002838/WB00283805.htm">人力資源管理</a><a target="" data-path="-332-340" href="/tw/portal/article/index/id/726/cid/42.html">協同研發</a><a target="" data-path="-332-341" href="/tw/ERP/financial.html">財務管理</a><a target="" data-path="-332-342" href="/tw/portal/article/index/id/706/cid/42.html">企業流程管理</a><a target="" data-path="-332-343" href="/tw/portal/article/index/id/720/cid/42.html">供應鏈管理</a><a target="_blank" data-path="-332-344" href="http://industry4.digiwin.com/smartFactory.htm">倉儲物流管理</a></dd>
+                          </dl>
+                        </div>
+                        <div class="rightbox">
+                          <figure class="pic"><img class="vcenter" src="https://static.digiwin.com/tw/upload/admin/20180612/12ac7c0b08ef146400b108f7d380db64.jpg"></figure>
+                          <p>以效益為導向的關鍵職能作業流程規劃，提供對應的管理系統與諮詢服務。</p>
+                        </div>
+                      </div>
+                      <div class="tabcontent tabcontent01" id="tabcontent06">
+                        <div class="middbox"><a target="" data-path="" href="/tw/ERP/erp-all.html">了解完整方案</a></div>
+                        <div class="rightbox">
+                          <figure class="pic"><img class="vcenter" src="https://static.digiwin.com/tw/upload/admin/20180612/0dcbbad4f7896e9315c3a7fe0220f6e4.jpg"></figure>
+                          <p>累積30多年產業輔導經驗，50,000 多家企業e化成功案例，轉化成行業解決方案，提供您最佳服務與支援。</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div><a class="sbutton" href="javascript:;"><i class="iconfont icon-xiangshang"></i></a>
+                </div>
+              </div>
+            </div>
+            <div class="c-bubble-inner J-qcTopNavBubbleInner c-scrollbar" data-parent="m4" style="max-height: 676px;">
+              <div class="nav-dropdown-menu-all">
+                <div class="subnav-two">
+                  <div class="container">
+                    <div class="left-box">
+                      <div class="menu menu02"><span class="active"><a target="" data-path="0-4-16" href="javascript:;">製造業</a></span><span><a target="" data-path="0-4-17" href="javascript:;">流通業</a></span></div>
+                    </div>
+                    <div class="box">
+                      <div class="tabcontent tabcontent02" style="display:block;">
+                        <div class="middbox middbox03 middbox04">
+                          <dl>
+                            <dt><a target="" data-path="0-4-16-18" href="/tw/dsc/solution/WB002783/WB00278301.html">製造業總覽</a></dt>
+                            <dd><a target="" data-path="0-4-16-18-27" href="/tw/dsc/solution/WB002513/WB00251301.html">電子業</a><a target="" data-path="0-4-16-18-28" href="/tw/dsc/solution/WB002476/WB00247601.html">機械業</a><a target="" data-path="0-4-16-18-30" href="/tw/dsc/solution/WB002811/WB00281101.html">交通業</a><a target="" data-path="0-4-16-18-559" href="/tw/dsc/solution/WB002899/WB00289901.html">工程業</a><a target="" data-path="0-4-16-18-179" href="/tw/dsc/solution/WB002554/WB00255401.html">塑膠業</a><a target="" data-path="0-4-16-18-180" href="/tw/dsc/solution/WB002785/WB00278501.html">醫材業</a><a target="" data-path="0-4-16-18-181" href="/tw/dsc/solution/WB002543/WB00254301.html">生技業</a><a target="" data-path="0-4-16-18-182" href="/tw/solution/ListDetail5945.html">化工業</a><a target="" data-path="0-4-16-18-183" href="/tw/dsc/solution/WB002553/WB00255301.html">食品業</a><a target="" data-path="0-4-16-18-185" href="/tw/dsc/solution/WB002953/WB00295301.html">金屬業</a><a target="" data-path="0-4-16-18-186" href="/tw/solution/ListDetail5983.html">紡織成衣</a><a target="" data-path="0-4-16-18-187" href="/tw/solution/ListDetail5982.html">金融保險</a><a target="" data-path="0-4-16-18-188" href="/tw/solution/ListDetail5947.html">印刷產業</a></dd>
+                          </dl>
+                        </div>
+                        <div class="rightbox">
+                          <figure class="pic"><img class="vcenter" src="https://static.digiwin.com/tw/upload/admin/20180612/76f1e22c725aa28e950b3d812f3b2cc8.jpg"></figure>
+                          <p>客製化時代的機會與挑戰，鼎新助企業規劃轉型路徑，以軟硬融合打通資訊價值鏈，擁抱智造未來。</p>
+                        </div>
+                      </div>
+                      <div class="tabcontent tabcontent02">
+                        <div class="middbox middbox03 middbox04">
+                          <dl>
+                            <dt><a target="" data-path="0-4-17-26" href="/tw/dsc/solution/WB002675/WB00267501.html">流通業總覽</a></dt>
+                            <dd><a target="" data-path="0-4-17-26-55" href="/tw/dsc/solution/WB002595/WB00259501.html">網購業</a><a target="" data-path="0-4-17-26-368" href="/tw/dsc/solution/WB002675/WB00267501_1.html">經銷批發</a><a target="" data-path="0-4-17-26-56" href="/tw/dsc/solution/WB002675/WB00267501_2.html">連鎖通路</a><a target="" data-path="0-4-17-26-194" href="/tw/dsc/solution/WB002675/WB00267501_3.html">門市專櫃</a><a target="" data-path="0-4-17-26-195" href="/tw/dsc/solution/WB002675/WB00267501_4.html">觀光工廠</a><a target="" data-path="0-4-17-26-196" href="/tw/solution/ListDetail5967.html">休閒娛樂</a><a target="" data-path="0-4-17-26-29" href="/tw/dsc/solution/WB002711/WB00271101.html">美妝業</a><a target="" data-path="" href="/tw/dsc/solution/WB002850/WB00285001.html">醫美業</a><a target="" data-path="0-4-17-26-338" href="/tw/dsc/solution/WB002752/WB00275201.html">接案管理</a><a target="" data-path="0-4-17-26-184" href="/tw/dsc/solution/WB002801/WB00280101.html">設備代理業</a></dd>
+                          </dl>
+                        </div>
+                        <div class="rightbox">
+                          <figure class="pic"><img class="vcenter" src="https://static.digiwin.com/tw/upload/admin/20180612/117f252fd9019a8a21007e3a61c5c667.jpg"></figure>
+                          <p>在新零售佈局下，提供完善的資訊化解決方案，助力企業提升O2O全通路營運能力。</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div><a class="sbutton" href="javascript:;"><i class="iconfont icon-xiangshang"></i></a>
+                </div>
+              </div>
+            </div>
+            <div class="c-bubble-inner J-qcTopNavBubbleInner c-scrollbar" data-parent="m5" style="max-height: 676px;">
+              <div class="nav-dropdown-menu-all">
+                <div class="subnav-two">
+                  <div class="container">
+                    <div class="left-box">
+                      <div class="menu menu02"><span class="active"><a target="" data-path="0-5-348" href="javascript:;">價值服務</a></span></div>
+                    </div>
+                    <div class="box">
+                      <div class="tabcontent tabcontent02" style="display:block;">
+                        <div class="middbox middbox03 middbox04">
+                          <dl>
+                            <dt><a target="" data-path="0-5-348-561" href="javascript:;">價值服務</a></dt>
+                            <dd><a target="" data-path="0-5-348-561-354" href="/tw/dsc/service/WB002736/WB00273601.html">資訊委外</a><a target="" data-path="0-5-348-561-353" href="/tw/service.html">客服中心</a><a target="" data-path="0-5-348-561-355" href="/tw/userservice.html">服務合約</a><a target="_blank" data-path="0-5-348-561-350" href="http://dsa.dsc.com.tw/">知識學院</a><a target="_blank" data-path="0-5-348-561-560" href="https://www.digiwin.com/tw/dsc/service/WB002903/web/WB00290301_index.htm">服務雲</a><a target="_blank" data-path="0-5-348-561-349" href="http://elearning.dsc.com.tw/">e-learning</a><a target="_blank" data-path="0-5-348-561-352" href="http://service.digiwin.com/login">e-service</a><a target="_blank" data-path="0-5-348-561-351" href="http://dsa.dsc.com.tw/Cert/Default.aspx">認證中心</a></dd>
+                          </dl>
+                        </div>
+                        <div class="rightbox">
+                          <figure class="pic"><img class="vcenter" src="https://static.digiwin.com/tw/upload/admin/20180919/192b2fb0d647fbfa93d9073149afa52d.jpg"></figure>
+                          <p>鼎新全程價值服務，以效益導向的咨詢診斷，助力企業全面提升營運效能。</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div><a class="sbutton" href="javascript:;"><i class="iconfont icon-xiangshang"></i></a>
+                </div>
+              </div>
+            </div>
+            <div class="c-bubble-inner J-qcTopNavBubbleInner c-scrollbar" data-parent="m57" style="width: 200px; max-height: 676px; margin-left: -112px;">
+              <div>
+                <div class="subnav m57"><a target="_blank" data-path="0-57-564" href="/tw/course.html">精選課程</a><a target="" data-path="0-57-58" href="/tw/activity.html">近期活動</a><a target="" data-path="0-57-59" href="/tw/activity_report.html">活動報導</a></div>
+              </div>
+            </div>
+            <div class="c-bubble-inner J-qcTopNavBubbleInner c-scrollbar" data-parent="m40" style="width: 200px; max-height: 676px; margin-left: -112px;">
+              <div>
+                <div class="subnav m40"><a target="" data-path="0-40-536" href="/tw/enewspaper.html">電子報</a><a target="" data-path="0-40-42" href="/tw/blog/index.html">專欄文章</a><a target="" data-path="0-40-45" href="/tw/mag.html">期刊雜誌</a><a target="" data-path="0-40-43" href="/tw/video.html">影音中心</a><a target="" data-path="0-40-41" href="/tw/resources.html">資料下載</a><a target="_blank" data-path="" href="http://industry4.digiwin.com/diagnosis.htm">邁向工業4.0健檢</a></div>
+              </div>
+            </div>
+            <div class="c-bubble-inner J-qcTopNavBubbleInner c-scrollbar" data-parent="m6" style="width: 200px; max-height: 676px; margin-left: -112px;">
+              <div>
+                <div class="subnav m6"><a target="" data-path="0-6-10" href="/tw/aboutdsc.html">公司簡介</a><a target="" data-path="0-6-11" href="/tw/about/prizes.html">企業榮譽</a><a target="" data-path="0-6-35" href="/tw/news.html">新聞中心</a><a target="_blank" data-path="0-6-36" href="http://career.digiwin.com/">人才招募</a></div>
+              </div>
+            </div>
+            <div class="c-bubble-inner J-qcTopNavBubbleInner c-scrollbar" data-parent="m7" style="width: 200px; max-height: 676px; margin-left: -112px;">
+              <div>
+                <div class="subnav m7"><a target="" data-path="0-7-38" href="/tw/blog/4/757.html">智慧製造整合聯盟</a><a target="" data-path="0-7-39" href="/tw/portal/page/index/id/1191.html">媒體合作</a></div>
+              </div>
+            </div>
+            <div class="c-bubble-inner J-qcTopNavBubbleInner c-scrollbar" data-parent="m2" style="width: 200px; max-height: 676px; margin-left: -112px;">
+              <div>
+                <div class="subnav m2"><a target="" data-path="0-2-8" href="/tw/contact/eform.html">需求諮詢</a><a target="" data-path="0-2-24" href="/tw/servicepoint.html">服務據點</a></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+    </div>
+    <!-- 後台上稿內容開始-->
+    <link rel="stylesheet" href="/tw/dsc/css/Eform/form-rwd.css">
+    <script src="/tw/dsc/js/Eform/form.js" defer></script>
+    <link rel="stylesheet" href="/tw/dsc/css/Eform/xcConfirm.css">
+    <script src="/tw/dsc/js/Eform/xcConfirm.js" defer></script>
+    <link rel="stylesheet" href="../../../assets/submenu-spa/submenu.css">
+    <script src="../../../assets/submenu-spa/submenu.min.js"></script>
+    <script src="/tw/dsc/assets/sass.js" defer></script>
+    <script src="assets/jquery.rwdImageMaps.min.js" defer></script>
+    <script src="assets/jquery-ui.min.js" defer></script>
+    <script src="assets/lodash.js" defer></script>
+    <link rel="stylesheet" href="assets/swiper.css">
+    <script src="assets/swiper.js" defer></script>
+    <script src="assets/vue-awesome-swiper.js" defer></script>
+    <link rel="preload" href="images/WB00283901/header-bg.jpg" as="image">
+    <link rel="preload" href="images/manufacture/header-bg.jpg" as="image">
+    <link rel="preload" href="images/merchandise/header-bg.jpg" as="image">
+    <link rel="preload" href="images/solution/header-bg.jpg" as="image">
+    <link rel="preload" href="images/case/header-bg.jpg" as="image">
+    <link rel="preload" href="images/online/header-bg.jpg" as="image">
+    <link rel="preload" href="images/iso/header-bg.jpg" as="image">
+    <link rel="preload" href="images/eform/header-bg.jpg" as="image">
+    <link rel="preload" href="images/inventory/header-bg.jpg" as="image">
+    <link rel="stylesheet" href="css/style.css?v=0.6134857935510023">
+    <script src="js/common.min.js?v=0.9253294948630213" defer></script>
+    <script src="js/script.min.js?v=0.7344935447610501" defer></script>
+    <main>
+      <router-view></router-view>
+    </main><div id="contact">
+    <div id="contactTxt" class="clearfix">
+        <h2>資料索取與諮詢</h2>
+        <div id="info">
+            <p>請填寫下方資料便於盡快為您服務。<br>若您需要立即的支援與服務，請直撥免付費專線 <span class="highLight">0800-888-162</span>，謝謝！</p>
+            <ul>
+                <li class="mail">
+                    <a href="mailto:marketing01@digiwin.com"></a>
+                </li>
+                <li class="fb">
+                    <a href="https://www.facebook.com/DSCmain" target="_blank"></a>
+                </li>
+            </ul>
+        </div>
+        <div id="formBlock" class="form">
+            <a id="fromSource" href="javascript:;">WB002476</a>
+            <div id="contactInput" class="clearfix">
+                <span class="hideLabel ">*公司名稱：</span><input type="text" placeholder="*完整公司名稱" name="contact-company" id="contact-company" class="contact required"><span class="hideLabel perLabel">*姓名：</span><input type="text" placeholder="*姓名" name="contact_person" id="contact_person" class="contact required"><span class="hideLabel evenLable">*聯絡電話：</span><input type="text" placeholder="*聯絡電話" name="telephone" id="telephone" class="contact required end"><span class="hideLabel evenLable">*E-mail：</span>
+                <input type="text" placeholder="*E-mail" name="contact-email" id="contact-email" class="contact required"><span class="hideLabel">*部門：</span><input type="text" placeholder="*部門" name="contact-dept" id="contact-dept" class="contact required"><span class="hideLabel">*職稱：</span><input type="text" placeholder="*職稱" name="contact-job" id="contact-job" class="contact required end">
+            </div>
+            <div class="consult-cont">
+                <p class="hideLabel">請在這裡描述您的需求：</p>
+                <textarea id="contact-query" cols='40' placeholder="請在這裡描述您的需求(500字以內)：" rows='4' class="" maxlength="500"></textarea>
+            </div>
+            <div class="inforCheck">
+                <label for="dm_ask"> <input name="information" class="information" id="dm_ask" type="checkbox" value="資料索取"> 索取中小企業SmartERP相關資料 </label> 
+            </div>
+            <hr>
+            <div class="verifica">
+                <span class="veriSpan">＊請輸入驗證碼：</span>
+                <span class="veriSpan-m">驗證碼:</span>
+                <input type="text" name="" id="identCode" class="identCode" onblur="validate()">
+                <input type="button" id="vericodePic" />
+                <span class="renovCode" onclick="createCode()"></span>
+                <span id="codeSuces"></span>
+            </div>
+            <input type="button" id="submit" value="送　　出">
+            <label for="agree" class="checAgree"><input type="checkbox" name="agree" value="" id="agree" checked="">
+                我同意接受鼎新電腦<a href="/tw/portal/page/index/id/1202.html" target="_blank">隱私權聲明</a></label>
+        </div>
+    </div>
+</div><!-- loading -->
+<div id="loading">
+<p><i></i>資料提交中，請稍後</p>
+</div>
+<!-- thx page -->
+<div id="thx">
+<div id="thxContent">
+<div class="close">X</div>
+<p class="title">資料己送出</p>
+<p class="thxparg"></p>
+<p class="suprtCall">
+<span>如需要立即的支援與服務，</span>
+<span>請直撥免付費專線 0800-888-162，謝謝！</span>
+</p>
+<p class="thxSourLoad1">
+<a id="SourLoadLink" href="" target="_blank">資料下載</a>
+</p>
+<p id="goIndex">
+<a href="javascript:;">繼續瀏覽網站</a>
+</p>
+</div>
+</div>
+    <!-- 後台上稿內容結束-->
+  </body>
+</html>

@@ -1,0 +1,24 @@
+main {
+    .section-btns {
+        display: flex;
+        justify-content: center;
+        a {
+            @include btn(230px, 50px, #fff, #3987f9, 5px);
+            border: 1px solid #3987f9;
+            font-size: 24px;
+            @media (max-width: $tablet-width) {
+                font-size: 22px;
+            }
+            @at-root {
+                html.no-mobile main .section-btns a:hover {
+                    border: 1px solid #3987f9;
+                    background-color: transparent;
+                    color: #3987f9;
+                }
+            }
+            & + a {
+                margin-left: 20px;
+            }
+        }
+    }
+}

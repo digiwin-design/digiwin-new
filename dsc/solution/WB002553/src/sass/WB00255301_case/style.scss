@@ -1,0 +1,29 @@
+@import '../common';
+@import '../case';
+@import 'components';
+
+main {
+    .header {
+        @include headerBg('WB00255301_case/header-bg.jpg');
+    }
+    .section1 {
+        padding-bottom: 93px;
+        .sectionTitle {
+            margin-bottom: calc(1.5em - 15px);
+        }
+        &-content {
+            display: flex;
+            margin: 0 auto;
+            flex-wrap: wrap;
+            @media (max-width: $content-width + 20) {
+                width: 900px;
+            }
+            @media (max-width: 960px) {
+                width: 600px;
+            }
+            @media (max-width: $tablet-width) {
+                width: 300px;
+            }
+        }
+    }
+}

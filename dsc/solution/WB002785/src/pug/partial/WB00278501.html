@@ -1,0 +1,101 @@
+<slider-banner-s v-if="isMobile" v-bind:slides="result.banner" device="mobile"></slider-banner-s>
+<slider-banner v-else v-bind:slides="result.banner" device="desktop"></slider-banner>
+
+<article class="section1">
+    <div class="container">
+        <div class="title">
+            <img src="images/WB00278501/section1-logo.png" alt="" class="logo">
+            <section-title
+                title="無論是身處醫材產業的您，<br>或是即將進入醫材產業的電子業與機械業，<br>完成ISO13485、GMP、GDP認證已經是基本門鑑"
+                padding-top="0px"
+            ></section-title>
+        </div>
+        <div class="sections">
+            <section v-for="section in result.section1" :key="section.title" v-on:click="linkTo(section.link)">
+                <h1 v-html="section.title"></h1>
+                <p v-html="section.content"></p>
+                <p>{{section.source}}</p>
+            </section>
+        </div>
+    </div>
+</article>
+
+<article class="section2">
+    <div class="container">
+        <section-title title="ISO13485:2016版已於2016年2月25日出版<br>轉版內容與內部作業程序規劃建議如下"></section-title>
+        <picture>
+            <source srcset="images/WB00278501/section2-illust.png" media="(min-width:769px)">
+            <img src="images/WB00278501/section2-illust-s.png" alt="">
+        </picture>
+    </div>
+</article>
+
+<article class="section3">
+    <div class="container">
+        <section-title title="ISO 13485 :2016重點簡介與轉版時機新舊版條款差異"></section-title>
+        <a href="#contact" class="nav js-nav">資料索取</a>
+        <p>申請ISO 13485 :2016<br>研發、品管、生管...各部門之間如何運作?</p>
+        <div class="section3__dept">
+            <a href="WB00278501_research.html">研發</a>
+            <a href="WB00278501_control.html">品管</a>
+            <a href="WB00278501_produce.html">生管</a>
+            <a href="WB00278501_service.html">維修</a>
+        </div>
+    </div>
+</article>
+
+<article class="section4">
+    <div class="container">
+        <section-title title="ISO13485:2016之電腦化確效<br>電腦確效模式示意圖"></section-title>
+        <figure>
+            <img src="images/WB00278501/section4-illust.png" alt="">
+            <figcaption>IQ、OQ、PQ<br>各階段說明文件與作法</figcaption>
+        </figure>
+        <a href="WB00278501_verify.html" class="main-btn">立即前往</a>
+    </div>
+</article>
+
+<article class="section5">
+    <div class="container">
+        <section-title title="申請 ISO 13485 :2016<br>企業內部各部門運作關係圖"></section-title>
+        <picture>
+            <source srcset="images/WB00278501/section5-illust.png" media="(min-width:768px)">
+            <img src="images/WB00278501/section5-illust-s.png" alt="">
+        </picture>
+    </div>
+</article>
+
+<article class="section6">
+    <div class="container">
+        <section-title title="輔導案例"></section-title>
+        <div class="content">
+            <a href="/tw/case/1513.html" target="_blank">
+                <figure>
+                    <img src="images/WB00278501/section6-case1.png" alt="">
+                    <figcaption>台灣生醫<br>高階醫材</figcaption>
+                </figure>
+            </a>
+            <a href="/tw/case/1514.html" target="_blank">
+                <figure>
+                    <img src="images/WB00278501/section6-case2.png" alt="">
+                    <figcaption>醫百科技<br>植牙相關</figcaption>
+                </figure>
+            </a>
+            <a href="/tw/case/1516.html" target="_blank">
+                <figure>
+                    <img src="images/WB00278501/section6-case3.png" alt="">
+                    <figcaption>泰博科技<br>血糖機、血壓計...</figcaption>
+                </figure>
+            </a>
+            <a href="/tw/case/1521.html" target="_blank">
+                <figure>
+                    <img src="images/WB00278501/section6-case4.png" alt="">
+                    <figcaption>顏氏齒模<br>精密假牙</figcaption>
+                </figure>
+            </a>
+        </div>
+        <a href="WB00278501_case.html" class="main-btn">更多醫材產業成功案例</a>
+    </div>
+</article>
+
+<contact v-bind:multiple="false" source=""></contact>

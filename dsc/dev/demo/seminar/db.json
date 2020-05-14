@@ -1,0 +1,78 @@
+{
+    "seminar": {
+        "title": "研討會",
+        "section1Title": "第一區塊標題",
+        "section2Title": "第二區塊標題",
+        "section2Desc": "第二區塊描述",
+        "accordion": [
+            {
+                "title": "標題1",
+                "contents": [
+                    {
+                        "title": "標題1-1",
+                        "subtitle": "次標題1-1",
+                        "html": "<p>段落文字</p>"
+                    },
+                    {
+                        "title": "標題1-2",
+                        "subtitle": "次標題1-2",
+                        "html": "<ul><li>列表文字</li><li>列表文字</li></ul>"
+                    }
+                ],
+                "links": [
+                    {
+                        "href": "",
+                        "text": "了解更多"
+                    },
+                    {
+                        "href": "#contact",
+                        "text": "索取資料"
+                    }
+                ]
+            },
+            {
+                "title": "標題2",
+                "contents": [
+                    {
+                        "title": "標題2-1",
+                        "subtitle": "次標題2-1",
+                        "html": "<p>段落文字</p>"
+                    },
+                    {
+                        "title": "標題2-2",
+                        "subtitle": "次標題2-2",
+                        "html": "<ul><li>列表文字</li><li>列表文字</li></ul>"
+                    }
+                ],
+                "links": [
+                    {
+                        "href": "",
+                        "text": "了解更多"
+                    },
+                    {
+                        "href": "#contact",
+                        "text": "索取資料"
+                    }
+                ]
+            }
+        ],
+        "progressBar": [
+            {
+                "text": "長條圖文字1-1",
+                "percentage": 10
+            },
+            {
+                "text": "長條圖文字1-2",
+                "percentage": 20
+            },
+            {
+                "text": "長條圖文字1-3",
+                "percentage": 30
+            },
+            {
+                "text": "長條圖文字1-4",
+                "percentage": 40
+            }
+        ]
+    }
+}

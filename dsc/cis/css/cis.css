@@ -1,0 +1,464 @@
+/* ---reset.css--- */
+/*html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+ HTML5 display-role reset for older browsers 
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+ ---reset.css--- 
+
+html {	
+	font-family:Helvetica, sans-serif;
+	-webkit-text-size-adjust:none;
+}
+*/
+/*body {
+    font-family: Arial, Helvetica, "微軟正黑體", sans-serif;
+    color: #2b2b00;
+}
+
+.clearfix:before,.clearfix:after {display:table;line-height:0;content:"";}
+.clearfix:after {clear:both;}
+.clearfix {*zoom: 1;}
+p{font-size:17px; line-height: 2.2; color: #343434; text-align: justify; padding-bottom: 20px;}*/
+
+/* --電腦版型------------------------------------- */
+
+#WRAPPER{
+	width:100%;
+	padding-right: 100px;
+	min-width: 960px; /*限定最小寬度*/
+	position:relative;
+	padding-bottom:10px;
+	font-family: Arial, Helvetica, "微軟正黑體", sans-serif;
+	font-size:17px; line-height: 2.2; color: #343434;text-align: justify; padding-bottom: 20px;
+}
+
+#TOP-MENU{
+	display:none;
+}
+#TOP-MENU h4{}
+
+/*--上方企業識別NAV--*/
+#dgwNAV{ width:833px; height:35px; margin:0 auto; background-color:#FFFFFF;display:block; position:relative; font-family:Arial, Helvetica, "微軟正黑體", sans-serif; font-size:16px; color:#555; position:fixed; z-index:0; overflow:hidden; position:relative;
+	border: 1px solid #e9e7e7; margin-bottom: 50px;}
+#dgwNAV ul{ height:35px; float:right; padding-top:3px; }
+#dgwNAV li{background-image:url(../images/line.png); background-repeat:no-repeat; background-position:left;	float:left; padding:0 35px;}
+#dgwNAV li:hover{ background-color:#eaeaea;}
+#dgwNAV li.Company{ background-image:none;}
+#dgwNAV li a{display:block; height:35px;color:#555; text-align:center;line-height:35px; font-size:16px;text-decoration:none;}
+
+
+
+/*===內容CONTENT===*/ 
+#CONTENT{
+	width:833px;
+	margin:0 auto;
+	position:relative;
+} 
+
+/*===我們是鼎新電腦link1===*/
+#CONTENT #link1{
+	width:833px;
+	margin:0 auto;
+	position:relative; clear:both;
+	padding-bottom:60px;
+}
+
+#CONTENT #link1 h2{
+	font-size: 36px;
+	line-height: 50px;
+	font-weight: 700;
+	padding-left: 10px;
+	text-align:left;
+	background: url(../images/color265.png) left top no-repeat ;
+	margin-bottom: 20px;
+}
+
+#CONTENT #link1 .G1A{ width:833px; height: 1285px; margin-bottom:20px; }
+
+
+
+/*===我們的時代印記link2===*/
+#CONTENT #link2{
+	width:833px;
+	margin:0 auto;
+	padding-bottom:60px;
+	position:relative;
+}
+
+#CONTENT #link2 h2{
+	font-size: 36px;
+	line-height: 50px;
+	font-weight: 700;
+	padding-left: 10px;
+	text-align:left;
+	background: url(../images/color265.png) left top no-repeat ;
+	margin-bottom:10px;
+}
+#CONTENT #link2 .G2A{ width:833px; height:572px; margin-bottom:20px;}
+
+
+/*===我們的優勢link3===*/
+#CONTENT #link3{
+	width:833px;
+	margin:0 auto;
+	padding-bottom:60px;
+	position:relative;
+}
+
+#CONTENT #link3 h2{
+	font-size: 36px;
+	line-height: 50px;
+	font-weight: 700;
+	padding-left: 10px;
+	text-align:left;
+	background: url(../images/color195.png) left top no-repeat ;
+	margin-bottom:20px;
+}
+#CONTENT #link3 h3{
+	font-size: 24px;
+	line-height: 40px;
+	font-weight: 700;
+	margin-bottom: 10px;
+	margin-top: 20px;
+}
+#CONTENT #link3 .G3-1{ width:833px; height: 572px; margin-bottom:10px; }
+#CONTENT #link3 .G3-2{ width:833px; height: 353px; margin-bottom:0px; }
+
+
+/*===我們的表現link4===*/
+#CONTENT #link4{
+	width:833px;
+	margin:0 auto;
+	padding-bottom:60px;
+	position:relative;
+}
+
+#CONTENT #link4 h2{
+	font-size: 36px;
+	line-height: 50px;
+	font-weight: 700;
+	padding-left: 10px;
+	text-align:left;
+	background: url(../images/color195.png) left top no-repeat ;
+	margin-bottom:10px;
+}
+#CONTENT #link4 ul{padding-top:24px; color:#3a8ece; font-size:20px;margin-bottom:20px; }
+#CONTENT #link4 ul li{list-style:disc; line-height:1.5; padding-bottom:10px; text-align:justify; margin-left:20px;}
+#CONTENT #link4 span{color: #343434;font-size:17px;}
+#CONTENT #link4 .G4_1{ display: block; width:825px; height: 348px; margin-bottom:10px; }
+#CONTENT #link4 .G4_2{ display: block; width:825px; height: 270px; margin-bottom:10px; }
+#CONTENT #link4 .G4_3{ display: block; width:825px; height: 251px; margin-bottom:10px; }
+
+
+/*===我們的展望link5===*/
+#CONTENT #link5{
+	width:833px;
+	margin:0 auto;
+	padding-bottom:60px;
+	position:relative;
+}
+
+#CONTENT #link5 h2{
+	font-size: 36px;
+	line-height: 50px;
+	font-weight: 700;
+	padding-left: 10px;
+	text-align:left;
+	background: url(../images/color195.png) left top no-repeat ;
+	margin-bottom:10px;
+}
+#CONTENT #link5 .G5{ width:833px; height: 502px; margin-bottom:20px; }
+
+
+
+/* --手機版型------------------------------------- */
+
+@media screen and (max-width: 736px) {
+	
+	*{
+		-webkit-box-sizing:border-box;
+		box-sizing:border-box;
+	}
+	
+	html,body{
+		-webkit-text-size-adjust:none;
+	}
+	
+	#WRAPPER{
+		width:100%;
+		padding-right:0px;
+		min-width:320px; /*限定最小寬度*/
+		position:relative;
+		padding-bottom:0px;
+		
+	}
+	
+	#TOP-MENU{
+		display:block;
+		width:100%;
+		height:40px;
+		position:relative;
+	}
+	
+	#TOP-MENU h4{
+		display:block;
+		width:30px;
+		height:30px;
+		background-image:url(../images/btn.png);
+		position:absolute;
+		right:5px;
+		top:10px;
+		text-indent:-9999px;
+	}
+	p{font-size:16px; line-height: 2; color: #343434; text-align: justify; padding-bottom: 20px;}
+
+		
+	/*===選單dgwNAV===*/
+
+	#dgwNAV{
+		width:100%;
+		height:auto;		
+		display:none;
+		border:none; margin-bottom: 10px;
+	}
+	
+	#dgwNAV ul{
+		width:100%;
+		padding-right:0px;
+		height:auto;
+	}
+	#dgwNAV li{
+		width:100%;
+		float:none;background-color:#bae7f6;		
+		border-bottom:1px solid #fff;
+	}
+	#dgwNAV li:hover{background-color:#e9f7fc;}
+	#dgwNAV li a{
+		display:block;
+		width:100%;
+		height:50px;
+		font-size: 16px;
+		line-height:50px;
+		text-align:center;
+		text-decoration:none;
+		color:#555;
+	}
+
+	#dgwNAV li a:hover{
+		color:#555;
+	}
+
+	/*===內容CONTENT===*/
+	#CONTENT{
+		width:90%;
+		margin:0 auto;
+		position:relative;
+		border-left:none; border-right:none;
+		
+	}
+	
+	/*===我們是鼎新電腦link1===*/
+	#CONTENT #link1{
+		width:100%;
+		margin:0 auto;
+		position:relative; clear:both;
+		padding-top: 30px;
+		padding-bottom:30px;
+	}
+
+	/*===link1 TOP===*/
+	#CONTENT #link1 ul.TOP{ width:40px;  
+	border-radius:50%;
+		position:absolute;
+		left: 45%;
+		bottom:20px;
+	}
+	#CONTENT #link1 ul.TOP li{list-style-type:none;}
+	#CONTENT #link1 ul.TOP li a{display:block;width:35px; height:35px;background:url(../images/topA.png) no-repeat center; border:none; background-position: center top;}
+	#CONTENT #link1 ul.TOP li a:hover{background:url(../images/topB.png) no-repeat center;  border:1px solid #ccc; border-radius:50%; }
+	/*===link1 end===*/
+
+
+	#CONTENT #link1 h2{
+		font-size: 30px;
+		line-height: 40px;
+		font-weight: 700;
+		padding-left: 10px;
+		text-align:left;
+		background: url(../images/color221.png) left top no-repeat ;
+		margin-bottom: 20px;
+	}
+
+	#CONTENT #link1 .G1A{ width:100%; height: auto; margin-bottom:20px; }
+
+
+
+	/*===我們的時代印記link2===*/
+	#CONTENT #link2{
+		width:100%;
+		margin:0 auto;
+		padding-bottom:30px;
+		position:relative;
+	}
+
+	/*===link2 TOP===*/
+	#CONTENT #link2 ul.TOP{ width:40px;  
+	border-radius:50%;
+		position:absolute;
+		left: 50%;
+		bottom:80px;
+	}
+	#CONTENT #link2 ul.TOP li{list-style-type:none;}
+	#CONTENT #link2 ul.TOP li a{display:block;width:35px; height:35px;background:url(../images/topA.png) no-repeat center; border:none;background-position: center top;}
+	#CONTENT #link2 ul.TOP li a:hover{background:url(../images/topB.png) no-repeat center; border:1px solid #ccc; border-radius:50%;}
+	/*===link2 end===*/
+
+
+	#CONTENT #link2 h2{
+		font-size: 30px;
+		line-height: 40px;
+		font-weight: 700;
+		padding-left: 10px;
+		text-align:left;
+		background: url(../images/color221.png) left top no-repeat ;
+		margin-bottom:10px;
+	}
+	#CONTENT #link2 .G2A{ width:100%; height:auto; margin-bottom:20px;}
+
+
+	/*===我們的優勢link3===*/
+	#CONTENT #link3{
+		width:100%;
+		margin:0 auto;
+		padding-bottom:30px;
+		position:relative;
+	}
+
+	#CONTENT #link3 h2{
+		font-size: 30px;
+		line-height: 40px;
+		font-weight: 700;
+		padding-left: 10px;
+		text-align:left;
+		background: url(../images/color159.png) left top no-repeat ;
+		margin-bottom:20px;
+	}
+	#CONTENT #link3 h3{
+		font-size: 20px;
+		line-height: 30px;
+		font-weight: 700;
+		margin-bottom: 10px;
+		margin-top: 10px;
+	}
+	#CONTENT #link3 .G3-1{ width:100%; height:auto; margin-bottom:10px; }
+	#CONTENT #link3 .G3-2{ width:100%; height:auto; margin-bottom:0px; }
+
+
+	/*===我們的表現link4===*/
+	#CONTENT #link4{
+		width:100%;
+		margin:0 auto;
+		padding-bottom:30px;
+		position:relative;
+	}
+
+	/*===link4 TOP===*/
+	#CONTENT #link4 ul.TOP{ width:40px;  
+	border-radius:50%;
+		position:absolute;
+		left: 50%;
+		bottom:20px;
+	}
+	#CONTENT #link4 ul.TOP li{list-style-type:none;}
+	#CONTENT #link4 ul.TOP li a{display:block;width:35px; height:35px;background:url(../images/topA.png) no-repeat center;  background-position: center top;border:none;}
+	#CONTENT #link4 ul.TOP li a:hover{background:url(../images/topB.png) no-repeat center; border:1px solid #ccc; border-radius:50%;}
+	/*===link4 end===*/
+
+	#CONTENT #link4 h2{
+		font-size: 30px;
+		line-height: 40px;
+		font-weight: 700;
+		padding-left: 10px;
+		text-align:left;
+		background: url(../images/color159.png) left top no-repeat ;
+		margin-bottom:10px;
+	}
+	#CONTENT #link4 ul{padding-top:24px; color:#3a8ece; font-size:18px;margin-bottom:18px; }
+	#CONTENT #link4 ul li{list-style:disc; line-height:1.5; padding-bottom:10px; text-align:justify; margin-left:20px;}
+	#CONTENT #link4 span{color: #343434;font-size:16px;}
+	#CONTENT #link4 span{color: #343434;font-size:17px;}
+	#CONTENT #link4 .G4_1{display: block; width:100%; height: auto; margin-bottom:10px;}
+	#CONTENT #link4 .G4_2{display: block; width:100%; height: auto; margin-bottom:10px;}
+	#CONTENT #link4 .G4_3{display: block; width:100%; height: auto; margin-bottom:10px;}
+	
+
+	/*===我們的展望link5===*/
+	#CONTENT #link5{
+		width:100%;
+		margin:0 auto;
+		padding-bottom:30px;
+		position:relative;
+	}
+
+	/*===link5 TOP===*/
+	#CONTENT #link5 ul.TOP{ width:40px;  
+	border-radius:50%;
+		position:absolute;
+		left: 50%;
+		bottom:20px;
+	}
+	#CONTENT #link5 ul.TOP li{list-style-type:none;}
+	#CONTENT #link5 ul.TOP li a{display:block;width:35px; height:35px;background:url(../images/topA.png) no-repeat center;  background-position: center top;border:none;}
+	#CONTENT #link5 ul.TOP li a:hover{background:url(../images/topB.png) no-repeat center; border:1px solid #ccc; border-radius:50%;}
+	/*===link5 end===*/
+
+
+	#CONTENT #link5 h2{
+		font-size: 30px;
+		line-height: 40px;
+		font-weight: 700;
+		padding-left: 10px;
+		text-align:left;
+		background: url(../images/color159.png) left top no-repeat ;
+		margin-bottom:10px;
+	}
+	#CONTENT #link5 .G5{ width:100%; height:auto; margin-bottom:20px; }

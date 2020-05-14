@@ -1,0 +1,606 @@
+[
+    {
+        "id": "01",
+        "title": "電子光電",
+        "contents": {
+            "main": {
+                "title": "電子行業解決方案",
+                "url": "/tw/dsc/solution/WB002513/WB00251301.html",
+                "content": "光電光學半導體各自擁有不同產業特性，因應少量多樣生產模式對採購、外包政策與作業程式，存貨、達交的控制以及成本的核算的挑戰……"
+            },
+            "details": [
+                {
+                    "title": "行業案例",
+                    "url": "/tw/dsc/solution/WB002513/WB00251301.html#inCase_bg",
+                    "target": "_self",
+                    "content": "嘉聯益、群聯電子、中美矽晶、長華電材、億威電子…等"
+                },
+                {
+                    "title": "影音報導",
+                    "url": "http://youtu.be/x0PCzThqlkE",
+                    "target": "_blank",
+                    "content": "電子光電業ERPII系統導入案例"
+                },
+                {
+                    "title": "資料索取",
+                    "url": "/tw/dsc/solution/WB002513/WB00251301.html#contact",
+                    "target": "_self",
+                    "content": "點擊諮詢電子行業解決方案"
+                }
+            ]
+        }
+    },
+    {
+        "id": "02",
+        "title": "機械",
+        "contents": {
+            "main": {
+                "title": "機械行業解決方案",
+                "url": "/tw/dsc/solution/WB002476/WB00247601.html",
+                "content": "因應【訂單客製化】生產趨勢，單一訂單為回應客戶需求而進行超過百次的設計變更也已成為常態，如何讓變更資訊使得生產、採購等各個部門快速回應……"
+            },
+            "details": [
+                {
+                    "title": "行業案例",
+                    "url": "/tw/dsc/solution/WB002476/WB00247601_3.html",
+                    "target": "_self",
+                    "content": "90%的訂單客製化！東毓油壓如何做到盡善盡美？更多客戶證言…"
+                },
+                {
+                    "title": "影音報導",
+                    "url": "https://goo.gl/sdDazC",
+                    "target": "_blank",
+                    "content": "機械業ERPII系統導入案例"
+                },
+                {
+                    "title": "資料索取",
+                    "url": "/tw/dsc/solution/WB002476/WB00247601.html#contact",
+                    "target": "_self",
+                    "content": "點擊諮詢機械行業解決方案"
+                }
+            ]
+        }
+    },
+    {
+        "id": "04",
+        "title": "製造",
+        "contents": {
+            "main": {
+                "title": "製造行業解決方案",
+                "url": "/tw/dsc/solution/WB002783/WB00278301.html",
+                "content": "少量多樣成市場趨勢，生產週期更短，需求變動頻繁，連帶影響研發速度、庫存備料、訂單進度、生產效率、換線換模、交期承諾、品質要求…等，企業的挑戰正開始......"
+            },
+            "details": [
+                {
+                    "title": "行業案例",
+                    "url": "/tw/dsc/solution/WB002783/WB00278301_case.html",
+                    "target": "_self",
+                    "content": "伯鑫工具、昱盛工業、北鉅精機、品茂塑膠…等"
+                },
+                {
+                    "title": "影音報導",
+                    "url": "http://youtu.be/bLHRvupqPHY",
+                    "target": "_blank",
+                    "content": "困擾製造業的共同課題，採訪企業現身說法"
+                },
+                {
+                    "title": "資料索取",
+                    "url": "/tw/dsc/solution/WB002783/WB00278301.html#contact",
+                    "target": "_self",
+                    "content": "點擊諮詢製造業相關資料"
+                }
+            ]
+        }
+    },
+    {
+        "id": "08",
+        "title": "交通",
+        "contents": {
+            "main": {
+                "title": "交通行業解決方案",
+                "url": "/tw/dsc/solution/WB002811/WB00281101.html",
+                "content": "搶單就像打戰，考驗供應鏈協同、產線的資訊化、智慧化與自動化程度，對於汽車製造業，無論是整車製造廠商還是零部件配套廠商，都面臨更大的挑戰…"
+            },
+            "details": [
+                {
+                    "title": "行業案例",
+                    "url": "/tw/dsc/solution/WB002811/WB00281101_case.html",
+                    "target": "_self",
+                    "content": "一個值得與您分享的案例-記銘工業、漢育工業、詠勝昌、越南第一精密…等"
+                },
+                {
+                    "title": "影音報導",
+                    "url": "http://youtu.be/vIwGiWro_Ws",
+                    "target": "_blank",
+                    "content": "交通零件業ERPII系統導入案例"
+                },
+                {
+                    "title": "資料索取",
+                    "url": "/tw/dsc/solution/WB002811/WB00281101.html#contact",
+                    "target": "_self",
+                    "content": "點擊諮詢交通行業解決方案"
+                }
+            ]
+        }
+    },
+    {
+        "id": "12",
+        "title": "塑膠",
+        "contents": {
+            "main": {
+                "title": "塑橡膠行業解決方案",
+                "url": "/tw/dsc/solution/WB002554/WB00255401.html",
+                "content": "從上游原料供應到成品製造，塑膠產業少量多樣接單，以往次料成本、模具妥善、訂單排程、製造現場等管理議題，又該如何隨著少量多樣作調整?"
+            },
+            "details": [
+                {
+                    "title": "行業案例",
+                    "url": "/tw/dsc/solution/WB002554/WB00255401_case.html",
+                    "target": "_self",
+                    "content": "品茂塑膠、統奕包裝、中勤實業、億薈塑膠、勤龍塑膠、至陽塑膠、達鴻精工…等"
+                },
+                {
+                    "title": "影音報導",
+                    "url": "http://youtu.be/Sp19pkQB5S8",
+                    "target": "_blank",
+                    "content": "塑膠橡膠產業 ERPII系統導入案例"
+                },
+                {
+                    "title": "資料索取",
+                    "url": "/tw/dsc/solution/WB002554/WB00255401.html#contact",
+                    "target": "_self",
+                    "content": "點擊諮詢塑橡膠行業解決方案"
+                }
+            ]
+        }
+    },
+    {
+        "id": "22",
+        "title": "餐飲",
+        "contents": {
+            "main": {
+                "title": "餐飲業解決方案",
+                "url": "/tw/dsc/solution/WB003006/index.html",
+                "content": "實現餐飲業線上及線下諮詢、候位、預訂、外賣、點餐、 收銀、會員、營銷活動及進銷存等平台資訊整合。"
+            },
+            "details": [
+                {
+                    "title": "會員營銷",
+                    "url": "/tw/dsc/solution/WB003006/member.html",
+                    "target": "_self",
+                    "content": "線下體驗引流線上，針對不同會員，給予不同優惠，讓顧客逐步成為忠誠會員。"
+                },
+                {
+                    "title": "精準物流",
+                    "url": "/tw/dsc/solution/WB003006/logistics.html",
+                    "target": "_self",
+                    "content": "門店要貨、總店補貨、採購進貨、倉管揀貨、物流配貨，打造全管道供應鏈。"
+                },
+                {
+                    "title": "資料索取",
+                    "url": "/tw/contact/eform.html",
+                    "target": "_self",
+                    "content": "點擊諮詢餐飲行業相關資料"
+                }
+            ]
+        }
+    },
+    {
+        "id": "05",
+        "title": "流通",
+        "contents": {
+            "main": {
+                "title": "批發零售流通行業",
+                "url": "/tw/dsc/solution/WB002675/WB00267501.html",
+                "content": "通路經營首重獲利，不同通路銷售型態管理與作業方式皆有差異，有效聚焦在『通路、商品、庫存、促銷』的銷售決策考量上，才是通路管理營收關鍵"
+            },
+            "details": [
+                {
+                    "title": "管理需求",
+                    "url": "/tw/dsc/solution/WB002675/WB00267501_14.html",
+                    "target": "_self",
+                    "content": "流通業因為營運成長、新增多通路經營、網購電子商務等，而產生的管理需求與解決方案…"
+                },
+                {
+                    "title": "資料索取",
+                    "url": "/tw/dsc/solution/WB002675/WB00267501.html#contact",
+                    "target": "_self",
+                    "content": "點擊諮詢流通行業相關資料"
+                }
+            ]
+        }
+    },
+    {
+        "id": "21",
+        "title": "新零售",
+        "contents": {
+            "main": {
+                "title": "新零售解決方案",
+                "url": "/tw/dsc/solution/WB002972/index.html",
+                "content": "傳統零售的轉型，與電商的全面融合，打破渠道限制，建構全渠道零售模式，有效利用會員大數據，實現精準行銷，優化消費者購物體驗，提高顧客忠誠度與購買力，開創企業品牌新契機。"
+            },
+            "details": [
+                {
+                    "title": "新零售介紹",
+                    "url": "/tw/dsc/solution/WB002972/intro.html",
+                    "target": "_self",
+                    "content": "零售業的進化與發展趨勢"
+                },
+                {
+                    "title": "新零售應用",
+                    "url": "/tw/dsc/solution/WB002972/case.html",
+                    "target": "_self",
+                    "content": "餐飲業、食品業、一般零售業等"
+                },
+                {
+                    "title": "資料索取",
+                    "url": "/tw/contact/eform.html",
+                    "target": "_self",
+                    "content": "諮詢或索取新零售相關資訊"
+                }
+            ]
+        }
+    },
+    {
+        "id": "10",
+        "title": "食品",
+        "contents": {
+            "main": {
+                "title": "食品行業解決方案",
+                "url": "/tw/dsc/solution/WB002553/WB00255301.html",
+                "content": "因為營運成長、轉型與食安法規要求而衍生的管理需求，以多通路管理、食品追蹤追溯、作業管控、成本分析等議題最受重視…"
+            },
+            "details": [
+                {
+                    "title": "行業案例",
+                    "url": "/tw/dsc/solution/WB002553/WB00255301_case.html",
+                    "target": "_self",
+                    "content": "有機園、金豐盛、生態綠、鬍鬚張、西雅圖咖啡、味王、乖乖、繼光香香雞…等"
+                },
+                {
+                    "title": "資料索取",
+                    "url": "/tw/dsc/solution/WB002553/WB00255301.html#contact",
+                    "target": "_self",
+                    "content": "點擊諮詢食品行業解決方案"
+                }
+            ]
+        }
+    },
+    {
+        "id": "09",
+        "title": "美妝",
+        "contents": {
+            "main": {
+                "title": "美妝保養品業解決方案",
+                "url": "/tw/dsc/solution/WB002711/WB00271101.html",
+                "content": "除了代工生產、還有自創品牌？從研發生產、複雜的行銷佈局與銷售通路多多管理，兼具製造與買賣流通特性的化妝品產業，有那些經營重點需要關注?"
+            },
+            "details": [
+                {
+                    "title": "行業案例",
+                    "url": "/tw/dsc/solution/WB002711/WB00271101_case.html",
+                    "target": "_self",
+                    "content": "第一化工、桑緹亞、森田藥妝、耐斯企業、屈臣氏、雅聞…等"
+                },
+                {
+                    "title": "資料索取",
+                    "url": "/tw/dsc/solution/WB002711/WB00271101.html#contact",
+                    "target": "_self",
+                    "content": "點擊諮詢美妝行業解決方案"
+                }
+            ]
+        }
+    },
+    {
+        "id": "03",
+        "title": "網購",
+        "contents": {
+            "main": {
+                "title": "網購電商解決方案",
+                "url": "/tw/dsc/solution/WB002595/WB00259501.html",
+                "content": "網購通路管理，全面結合您的網購生意從平台、接單、對帳、金流、退換貨、合約管理等作業，讓您接單再多、平台再多也不困擾"
+            },
+            "details": [
+                {
+                    "title": "行業案例",
+                    "url": "/tw/dsc/solution/WB002595/WB00259501.html#industry",
+                    "target": "_self",
+                    "content": "十藝生技、第一化工、嚴購網、采妍國際、PG美人網、 雅聞、森田藥妝等近３００多家企業使用"
+                },
+                {
+                    "title": "資料索取",
+                    "url": "/tw/dsc/solution/WB002595/WB00259501.html#contact",
+                    "target": "_self",
+                    "content": "點擊諮詢網購行業解決方案"
+                }
+            ]
+        }
+    },
+    {
+        "id": "06",
+        "title": "醫材",
+        "contents": {
+            "main": {
+                "title": "醫材行業解決方案",
+                "url": "/tw/dsc/solution/WB002785/WB00278501.html",
+                "content": "身處醫材產業的您，亦或是即將進入醫材產業的電子業與機械業，完成ISO13485、GMP、GDP認證已經是基本門鑑，提早因應…"
+            },
+            "details": [
+                {
+                    "title": "行業案例",
+                    "url": "/tw/dsc/solution/WB002785/WB00278501_case.html",
+                    "target": "_self",
+                    "content": "杏合生醫、愛派司生技、泰博科技、台灣植體…等"
+                },
+                {
+                    "title": "資料索取",
+                    "url": "/tw/dsc/solution/WB002785/WB00278501.html#contact",
+                    "target": "_self",
+                    "content": "點擊諮詢醫材行業解決方案"
+                }
+            ]
+        }
+    },
+    {
+        "id": "20",
+        "title": "醫美",
+        "contents": {
+            "main": {
+                "title": "醫美行業解決方案",
+                "url": "/tw/dsc/solution/WB002850/WB00285001.html",
+                "content": "經營醫美產業就從創造服務差異，從新拉緊顧客關係開始"
+            },
+            "details": [
+                {
+                    "title": "奠定口碑",
+                    "url": "/tw/dsc/solution/WB002850/brand",
+                    "target": "_self",
+                    "content": "服務優化培養客群，輕鬆傳遞好口碑"
+                },
+                {
+                    "title": "快速展店",
+                    "url": "/tw/dsc/solution/WB002850/store",
+                    "target": "_self",
+                    "content": "打造專業營運體系，從穩固發展基礎開始"
+                }
+            ]
+        }
+    },
+    {
+        "id": "07",
+        "title": "生技",
+        "contents": {
+            "main": {
+                "title": "生技行業解決方案",
+                "url": "/tw/dsc/solution/WB002543/WB00254301.html",
+                "content": "全面完成藥廠符合PIC/S GMP，積極推動藥品「源頭」與「運銷」管理，讓系統集成各類文件與監控，讓企業管理流程與法規最同步因應…"
+            },
+            "details": [
+                {
+                    "title": "行業案例",
+                    "url": "/tw/dsc/solution/WB002543/WB00254301.html#case",
+                    "target": "_self",
+                    "content": "愛派司生技、晟德大藥廠、寶齡富錦、新萬仁製藥、三帆製藥、雅祥生技…等"
+                },
+                {
+                    "title": "影音報導",
+                    "url": "http://youtu.be/QFWxK-fhpZk",
+                    "target": "_blank",
+                    "content": "醫療生技ERPII系統導入案例"
+                },
+                {
+                    "title": "資料索取",
+                    "url": "/tw/dsc/solution/WB002543/WB00254301.html#contact",
+                    "target": "_self",
+                    "content": "點擊諮詢生技行業解決方案"
+                }
+            ]
+        }
+    },
+    {
+        "id": "19",
+        "title": "工程",
+        "contents": {
+            "main": {
+                "title": "工程行業解決方案",
+                "url": "/tw/dsc/solution/WB002899/WB00289901.html",
+                "content": "如何達成如期(On time)、如預算(On budget)及如質(On quality)專案目標。包含設備安裝工程、電信工程、消防工程、空調工程、其他專業工程"
+            },
+            "details": [
+                {
+                    "title": "行業案例",
+                    "url": "/tw/dsc/solution/WB002899/case.html",
+                    "target": "_self",
+                    "content": "台灣迅聯通信、信紘科技…等"
+                },
+                {
+                    "title": "資料索取",
+                    "url": "/tw/dsc/solution/WB002899/WB00289901.html#contact",
+                    "target": "_self",
+                    "content": "點擊諮詢工程行業相關資料"
+                }
+            ]
+        }
+    },
+    {
+        "id": "15",
+        "title": "設備代理",
+        "contents": {
+            "main": {
+                "title": "設備代理行業解決方案",
+                "url": "/tw/dsc/solution/WB002801/WB00280101.html",
+                "content": "設備代理是極度競爭的市場，雖然原廠、品牌、客戶、經銷商、服務、維修、品質，成就了設備代理業的一片天，但管理困擾不斷，外部關係與內部流程該如何管理…？"
+            },
+            "details": [
+                {
+                    "title": "行業案例",
+                    "url": "/tw/dsc/solution/WB002801/WB00280101_case.html",
+                    "target": "_self",
+                    "content": "辛耘企業、矽菱企業、伍全企業、台灣瀧澤、喬越實業、惠眾股份…等"
+                },
+                {
+                    "title": "資料索取",
+                    "url": "/tw/dsc/solution/WB002801/WB00280101.html#contact",
+                    "target": "_self",
+                    "content": "點擊諮詢設備代理行業解決方案"
+                }
+            ]
+        }
+    },
+    {
+        "id": "13",
+        "title": "金屬",
+        "contents": {
+            "main": {
+                "title": "金屬行業解決方案",
+                "url": "/tw/dsc/solution/WB002953/WB00295301.html",
+                "content": "金屬業技術多臻成熟，未來發展依賴設計創新和非標產品的應對,普遍管控難點在回應詢價效率、生產進度與設備稼動管理、庫存帳料一致、成本精算…等"
+            },
+            "details": [
+                {
+                    "title": "行業案例",
+                    "url": "/tw/case.html",
+                    "target": "_self",
+                    "content": "彩富電子、財榮實業、千里眼精密、鴻藏工業、技航科技、銳泰精密、偉全…等"
+                },
+                {
+                    "title": "資料索取",
+                    "url": "/tw/dsc/solution/WB002953/WB00295301.html#contact",
+                    "target": "_blank",
+                    "content": "點擊諮詢金屬業相關資料"
+                }
+            ]
+        }
+    },
+    {
+        "id": "11",
+        "title": "化工",
+        "contents": {
+            "main": {
+                "title": "化工行業解決方案",
+                "url": "/tw/solution/ListDetail5945.html",
+                "content": "化工業具有連續性生產、物料儲存型態多樣化、批號追縱等管理特性，提升技術能力與研發能量，整合產銷體系建立e化系統，才能及時掌握商機"
+            },
+            "details": [
+                {
+                    "title": "行業案例",
+                    "url": "/tw/case.html",
+                    "target": "_self",
+                    "content": "德勝企業、宏櫂實業、俊馬材料、國成工業…等"
+                },
+                {
+                    "title": "資料索取",
+                    "url": "/tw/contact/eform.html",
+                    "target": "_self",
+                    "content": "點擊諮詢化工業相關資料"
+                }
+            ]
+        }
+    },
+    {
+        "id": "14",
+        "title": "紡織成衣",
+        "contents": {
+            "main": {
+                "title": "紡織成衣行業解決方案",
+                "url": "/tw/solution/ListDetail5983.html",
+                "content": "台灣紡織業結構與風光不再應立即調整市場的走向，將價值鏈延伸擴大結合市場需求，該如何運用資訊化結合供應鏈管理、提高營運效率，滿足客戶…"
+            },
+            "details": [
+                {
+                    "title": "行業案例",
+                    "url": "/tw/case.html",
+                    "target": "_self",
+                    "content": "南六企業、蒂巴蕾、得豪企業、富雅樂、新光紡織…等"
+                },
+                {
+                    "title": "影音報導",
+                    "url": "http://youtu.be/_Zw5pB2L22o",
+                    "target": "_blank",
+                    "content": "聚紡讓數據說話，傾聽C2B需求掌握市場脈動，IT資訊佈局如何支撐？"
+                },
+                {
+                    "title": "資料索取",
+                    "url": "/tw/contact/eform.html",
+                    "target": "_self",
+                    "content": "點擊諮詢紡織成衣業相關資料"
+                }
+            ]
+        }
+    },
+    {
+        "id": "16",
+        "title": "金融保險",
+        "contents": {
+            "main": {
+                "title": "金融保險業解決方案",
+                "url": "/tw/solution/ListDetail5982.html",
+                "content": "專為金融與服務產業提供全方位的應用，協助企業在不同的營運階段發展出最符合需求的解決方案，專案服務可完全符合國際CMMI Level 4標準與PMP管理程序"
+            },
+            "details": [
+                {
+                    "title": "行業案例",
+                    "url": "/tw/case.html",
+                    "target": "_self",
+                    "content": "金融保險典範客戶"
+                },
+                {
+                    "title": "資料索取",
+                    "url": "/tw/contact/eform.html",
+                    "target": "_self",
+                    "content": "點擊諮詢金融保險行業相關資料"
+                }
+            ]
+        }
+    },
+    {
+        "id": "17",
+        "title": "休憩",
+        "contents": {
+            "main": {
+                "title": "休閒娛樂行業解決方案",
+                "url": "/tw/solution/ListDetail5967.html",
+                "content": "休憩產業包含遊樂園、旅館、餐飲、購物中心…等範圍，而遊樂園的團務管理，購物中心的招商管理，以及餐飲的總部管理，都是複雜且核心的重點，要如何有效管理…"
+            },
+            "details": [
+                {
+                    "title": "行業案例",
+                    "url": "/tw/case.html",
+                    "target": "_self",
+                    "content": "寒舍、星聚點、清境農場、國際百貨、立德飯店…等"
+                },
+                {
+                    "title": "資料索取",
+                    "url": "/tw/contact/eform.html",
+                    "target": "_self",
+                    "content": "點擊諮詢休憩行業相關資料"
+                }
+            ]
+        }
+    },
+    {
+        "id": "18",
+        "title": "印刷",
+        "contents": {
+            "main": {
+                "title": "印刷行業解決方案",
+                "url": "/tw/solution/ListDetail5947.html",
+                "content": "印刷管理特色性包含少樣多量、網路數位化下單、遠距化生產、外包分工細緻…等，可運用資訊化及顧客關係管理同步整合廠區生產追蹤(SFT)串起內部管理價值鍊"
+            },
+            "details": [
+                {
+                    "title": "行業案例",
+                    "url": "/tw/case.html",
+                    "target": "_self",
+                    "content": "彩力染整、強勝達…等"
+                },
+                {
+                    "title": "資料索取",
+                    "url": "/tw/contact/eform.html",
+                    "target": "_self",
+                    "content": "點擊諮詢印刷行業相關資料"
+                }
+            ]
+        }
+    }
+]

@@ -1,0 +1,22 @@
+{
+  "name": "index",
+  "authors": [
+    "Kenge <pgkusn@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "lodash": "^4.17.10",
+    "swiper": "^4.5.0",
+    "lazysizes": "^5.1.1"
+  }
+}

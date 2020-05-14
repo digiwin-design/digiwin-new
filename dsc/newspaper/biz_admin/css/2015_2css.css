@@ -1,0 +1,622 @@
+@charset "utf-8";
+/* CSS Document */
+* {
+	-webkit-box-sizing:border-box;
+}
+html {
+	font-family:"微軟正黑體", Arial, Helvetica, sans-serif;
+	-webkit-text-size-adjust:none;
+	font-size:18px;
+	background-color:#F5F3F4
+}
+body {
+	margin:0 auto;
+	font-family:"微軟正黑體", Arial, Helvetica, sans-serif;
+	font-size:18px;
+}
+.lineLR {
+	border-left: 1px solid #999;
+	border-right: 1px solid #999
+}
+.linedown_b {
+	border-bottom-width: 1px;
+	border-bottom-style:dotted;
+	border-bottom-color: #bebebe;
+}
+p {
+	color:#333;
+	font-size:18px;
+	line-height:1.6;
+	text-align:justify
+}
+#top_T {
+	color:#333;
+	font-size:15px;
+	line-height:1.6;
+	letter-spacing:1px;
+}
+#top_T p {
+	color:#333;
+	font-size:15px;
+	line-height:1.6;
+	letter-spacing:1px;
+}
+#top_T a {
+	color:#F60;
+	font-size:15px;
+	line-height:1.6;
+	letter-spacing:1px;
+	text-decoration:none
+}
+#top_T a {
+	color:#F30;
+	font-size:15px;
+	line-height:1.6;
+	letter-spacing:1px;
+	text-decoration:none
+}
+a {
+	color:#333;
+	text-decoration:none
+}
+a:hover {
+	color:#999;
+}
+
+.more1 {
+	color:#ec0c0c;
+	font-weight:bold;	
+}
+
+.txtB13 {
+	color:#333;
+	font-size:13px;
+}
+.txtB13 a {
+	color:#333;
+	text-decoration:none
+}
+.txtB13 a:hover {
+	color:#999;
+}
+.btn {
+	color:#FFF;
+	font-size:18px;
+	letter-spacing:1px;
+	line-height:40px;
+}
+.btn a {
+	color:#FFF;
+	font-size:18px;
+	letter-spacing:1px;
+	display:block;
+	text-decoration:none;
+}
+.btn a:hover {
+	color:#FFF;
+	font-size:18px;
+	letter-spacing:1px;
+	background-color:#000
+}
+.more {
+	color:#FFF;
+	text-align:center;
+	font-size:14px;
+	line-height:40px;
+}
+.more a {
+	color:#FFF;
+	text-align:center;
+	font-size:14px;
+	text-decoration:none;
+	display:block
+}
+.more a:hover {
+	color:#FF0;
+	text-align:center;
+	font-size:14px;
+	background-color:#333;
+	line-height:40px;
+}
+
+#article {
+	margin:0px;
+	padding:0px
+}
+#article h1 {
+	color:#FFF;
+	font-size:18px;
+	letter-spacing:1px;
+	display:block;
+	margin:0px;
+	padding:0px;
+	line-height:40px;
+}
+/* =====本期焦點==================== */
+
+
+#content p {
+	color:#333;
+	font-size:18px;
+	line-height:1.6
+}
+#content h3 {
+	color:#06C;
+	font-size:18px;
+	line-height:1.6;
+	text-decoration:none;
+	font-weight:bold
+}
+#content #link1 {
+	color:#06C;
+	font-size:16px;
+	line-height:1.8;
+	text-decoration:none;
+	font-weight:bold;
+	letter-spacing:1px;
+	display:block;
+	margin:0px;
+}
+#content #link1 a {
+	color:#06C;
+	font-size:16px;
+	line-height:1.8;
+	text-decoration:none;
+	font-weight:bold;
+}
+#content #link1 a:hover {
+	color:#F30;
+}
+/* =====行業前瞻====================== */
+
+
+#BLOCK1 td {
+	padding:15px 0 15px 15px;
+	border-bottom:#FFF 2px solid;
+	border-top:#FFF 2px solid;
+	background-color:#EFEFEF
+}
+#BLOCK1 h3 {
+	color:#000;
+	font-size:18px;
+	padding :10px 0px 5px 0px;
+	margin:0px;
+}
+#BLOCK1 h3 a {
+	color:#C60;
+	font-size:18px;
+	text-decoration:none;
+	margin:0px;
+	display:block
+}
+#BLOCK1 h3 a:hover {
+	color:#F30;
+	font-size:18px;
+	text-decoration:none;
+	margin:0px;
+	display:block
+}
+#BLOCK1 p {
+	color:#333;
+	font-size:16px;
+	line-height:1.8;
+	padding:0px;
+	margin:0px;
+}
+#BLOCK1 img {
+	border:1px solid #CCC
+}
+/* ====精進管理====================== */
+#BLOCK2 td {
+	padding:15px 0 15px 15px;
+	border-bottom:#FFF 2px solid;
+	border-top:#FFF 2px solid;
+	background-color:#EFEFEF;
+}
+#BLOCK2 h3 {
+	color:#C60;
+	font-size:18px;
+	padding-bottom:5px;
+	margin:0px;
+	color:#C33;
+}
+#BLOCK2 h3 a {
+	display:block;
+	color:#C60;
+	font-size:18px;
+	line-height:1.8;
+	text-decoration:none;
+	padding:0px;
+	margin:0px;
+}
+#BLOCK2 h4 {
+	color:#000;
+	font-size:16px;
+	color:#333;
+	padding-bottom:5px;
+	margin:0px;
+}
+#BLOCK2 p {
+	color:#333;
+	font-size:16px;
+	line-height:1.8;
+	margin:0px;
+	padding-bottom:15px;
+}
+#BLOCK2 #link a {
+	color:#03C;
+	font-size:16px;
+	line-height:1.8;
+	padding:10px;
+	font-weight:bold;
+}
+#BLOCK2 img {
+	border:1px solid #CCC
+}
+
+/* ====近期活動====================== */
+#BLOCK3 td {
+	padding:15px 0 15px 15px;
+	border-bottom:#FFF 2px solid;
+	border-top:#FFF 2px solid;
+	background-color:#EFEFEF
+}
+#BLOCK3 h3 {
+	color:#000;
+	font-size:18px;
+	padding :10px 0px 5px 0px;
+	margin:0px;
+}
+#BLOCK3 h3 a {
+	color:#C60;
+	font-size:18px;
+	text-decoration:none;
+	margin:0px;
+	display:block
+}
+#BLOCK3 h3 a:hover {
+	color:#F30;
+	font-size:18px;
+	text-decoration:none;
+	margin:0px;
+	display:block
+}
+#BLOCK3 p {
+	color:#333;
+	font-size:16px;
+	line-height:1.8;
+	padding:0px;
+	margin:0px;
+}
+#BLOCK3 img {
+	border:1px solid #CCC}
+	
+#BLOCK3 #link a {
+	color:#03C;
+	font-size:16px;
+	line-height:1.8;
+	padding:10px 10px 10px 0px;
+	font-weight:bold;
+}
+
+	
+/* ====footer===================== */
+
+.footer {
+	color:#FFF;
+	text-align:center;
+	font-size:14px;
+}
+.footer p {
+	color:#FFF;
+	text-align:center;
+	font-size:14px;
+	line-height:1.2
+}
+.footer .copy {
+	color:#FFF;
+	text-align:center;
+	font-size:12px;
+	line-height:1.2
+}
+.footer p a {
+	display:block;
+	color:#FFF;
+	text-align:center;
+	font-size:14px;
+}
+.footer p a:hover {
+	color:#FFF;
+	text-align:center;
+	font-size:14px;
+}
+
+
+/* =====首頁JS========================= */
+
+#wrap {
+	width: 630px;
+	height: 350px;
+	position: relative;
+	overflow: hidden;
+	margin:0px auto;
+
+}
+#wrap_b {
+	width: 630px;
+	height: 540px;
+	position: relative;
+	overflow: hidden;
+	margin:0px auto;
+
+}
+
+#wrap_c {
+	width: 630px;
+	height: 450px;
+	position: relative;
+	overflow: hidden;
+	margin:0px auto;
+
+}
+
+
+.slider { margin: 0px!important;}
+
+/* Layout
+***********************/
+
+#main {	
+	overflow: hidden;
+	margin:0 auto;}
+	
+/* =====以下是手機版css========================= */
+@media screen and (max-width: 600px) {
+.btn {
+color:#FFF;
+font-size:1.2em;
+letter-spacing:1px;
+line-height:40px;
+}
+.btn a {
+color:#FFF;
+font-size:1.2em;
+letter-spacing:1px;
+display:block;
+text-decoration:none;
+}
+.btn a:hover {
+color:#FFF;
+font-size:1.2em;
+letter-spacing:1px;
+background-color:#000
+}
+.more {
+color:#FFF;
+text-align:center;
+font-size:0.8em;
+line-height:40px;
+}
+.more a {
+color:#FFF;
+text-align:center;
+font-size:0.8em;
+text-decoration:none;
+display:block
+}
+.more a:hover {
+color:#FF0;
+text-align:center;
+font-size:0.8em;
+background-color:#333;
+line-height:40px;
+}
+ #article {
+margin:0px;
+padding:0px
+}
+#article h1 {
+color:#FFF;
+font-size:1.2em;
+letter-spacing:1px;
+display:block;
+margin:0px;
+padding:0px;
+line-height:40px;
+}
+
+
+/* =====本期焦點==================== */
+
+
+#content p {
+color:#333;
+font-size:1.2em;
+line-height:1.6
+}
+ #content h3 {
+color:#06C;
+font-size:1.2em;
+line-height:1.6;
+text-decoration:none;
+font-weight:bold
+}
+#content #link1 {
+color:#06C;
+font-size:1.2em;
+line-height:1.8;
+text-decoration:none;
+font-weight:bold;
+letter-spacing:1px;
+display:block;
+margin:0px;
+}
+#content #link1 a {
+color:#06C;
+font-size:1.2em;
+line-height:1.8;
+text-decoration:none;
+font-weight:bold;
+}
+#content #link1 a:hover {
+color:#F30;
+}
+
+/* =====行業前瞻====================== */
+
+
+#BLOCK1 td {
+padding:15px 0 15px 15px;
+border-bottom:#FFF 3px solid;
+border-top:#FFF 3px solid;
+background-color:#EFEFEF
+}
+#BLOCK1 h3 {
+color:#000;
+font-size:1.2em;
+padding :10px 0px 5px 0px;
+margin:0px;
+}
+#BLOCK1 h3 a {
+color:#C60;
+font-size:1.2em;
+text-decoration:none;
+margin:0px;
+display:block
+}
+#BLOCK1 h3 a:hover {
+color:#F30;
+font-size:1.2em;
+text-decoration:none;
+margin:0px;
+display:block
+}
+#BLOCK1 p {
+color:#333;
+font-size:1.2em;
+line-height:1.8;
+padding:0px;
+margin:0px;
+}
+#BLOCK1 img {
+border:1px solid #CCC
+}
+
+/* ====精進管理====================== */
+#BLOCK2 td {
+padding:15px 0 15px 15px;
+border-bottom:#FFF 3px solid;
+border-top:#FFF 3px solid;
+background-color:#EFEFEF;
+}
+ #BLOCK2 h3 {
+color:#C60;
+font-size:1.2em;
+padding-bottom:5px;
+margin:0px;
+color:#C33;
+}
+#BLOCK2 h3 a {
+color:#C60;
+font-size:1.2em;
+line-height:1.8;
+text-decoration:none;
+padding:0px;
+margin:0px;
+}
+#BLOCK2 h4 {
+color:#000;
+font-size:1.2em;
+color:#333;
+padding-bottom:15px;
+margin:0px;
+}
+#BLOCK2 p {
+color:#333;
+font-size:1.2em;
+line-height:1.8;
+margin:0px;
+padding-bottom:15px;
+border-bottom:1px dotted #CCC;
+}
+ #BLOCK2 #link a {
+color:#03C;
+font-size:1.2em;
+line-height:1.8;
+padding:10px;
+font-weight:bold;
+}
+/* ====近期活動====================== */
+#BLOCK3 td {
+	padding:15px 0 15px 15px;
+	border-bottom:#FFF 2px solid;
+	border-top:#FFF 2px solid;
+	background-color:#EFEFEF
+}
+#BLOCK3 h3 {
+	color:#000;
+	font-size:1.2em;
+	padding :10px 0px 5px 0px;
+	margin:0px;
+}
+#BLOCK3 h3 a {
+	color:#C60;
+	font-size:1.2em;
+	text-decoration:none;
+	margin:0px;
+	display:block
+}
+#BLOCK3 h3 a:hover {
+	color:#F30;
+	font-size:1.2em;
+	text-decoration:none;
+	margin:0px;
+	display:block
+}
+#BLOCK3 p {
+	color:#333;
+	font-size:1.2em;
+	line-height:1.8;
+	padding:0px;
+	margin:0px;
+}
+#BLOCK3 img {
+	border:1px solid #CCC}
+	
+#BLOCK3 #link a {
+	color:#03C;
+	font-size:1.2em;
+	line-height:1.8;
+	padding:10px 10px 10px 0px;
+	font-weight:bold;
+}
+
+/* ====footer===================== */
+
+.footer {
+color:#FFF;
+text-align:center;
+font-size:0.9em;
+}
+.footer p {
+color:#FFF;
+text-align:center;
+font-size:0.9em;
+}
+.footer p a {
+color:#FFF;
+text-align:center;
+font-size:0.9em;
+}
+.footer p a:hover {
+color:#FFF;
+text-align:center;
+font-size:0.9em;
+}
+.footer .copy {
+color:#FFF;
+text-align:center;
+font-size:0.7em;
+line-height:1.2;
+}
+}

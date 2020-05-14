@@ -1,0 +1,244 @@
+@charset "UTF-8";
+main *, main *:before, main *:after {
+    box-sizing: content-box;
+}
+main.solution2850 a {
+    color: inherit;
+}
+
+main.solution2850 table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+main.solution2850 .col-2 {
+    width: 50%;
+}
+
+main.solution2850 .col-3 {
+    width: 33.33333%;
+}
+
+main.solution2850 .col-4 {
+    width: 25%;
+}
+
+main.solution2850 .col-5 {
+    width: 20%;
+}
+
+main.solution2850 .section {
+    position: relative;
+    width: 100%;
+    min-width: 1200px;
+    padding: 70px 0;
+    font-family: Arial, "微軟正黑體";
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+main.solution2850 .section * {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+main.solution2850 .section h2 {
+    margin-bottom: 5px;
+    font-size: 36px;
+    line-height: 1.2;
+    font-weight: normal;
+    text-align: center;
+}
+
+main.solution2850 .section h3 {
+    margin-bottom: 10px;
+    font-size: 30px;
+    font-weight: normal;
+    line-height: 1.2;
+}
+
+main.solution2850 .section .title-line {
+    overflow: hidden;
+    margin-bottom: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+
+main.solution2850 .section .title-line span {
+    display: inline-block;
+    position: relative;
+}
+
+main.solution2850 .section .title-line span:before, main.solution2850 .section .title-line span:after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 50%;
+    width: 1000%;
+    border-bottom: 1px solid #aeaeae;
+}
+
+main.solution2850 .section .title-line span:before {
+    left: 100%;
+    margin-left: 10px;
+}
+
+main.solution2850 .section .title-line span:after {
+    right: 100%;
+    margin-right: 10px;
+}
+
+main.solution2850 .section p {
+    margin: 0;
+    text-align: justify;
+}
+
+main.solution2850 .content {
+    position: relative;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+main.solution2850 .vAlignMiddle {
+    text-align: center;
+    font-size: 0;
+}
+
+main.solution2850 .vAlignMiddle:before {
+    content: "";
+    height: 100%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+main.solution2850 .vAlignMiddle .vAlignContent {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+main.solution2850 .circle {
+    margin: 0 auto;
+    border-radius: 50%;
+}
+
+main.solution2850 .floatLeft {
+    float: left;
+}
+
+main.solution2850 .floatRight {
+    float: right;
+}
+
+main.solution2850 .imgCenter {
+    display: block;
+    margin: 0 auto;
+}
+
+main.solution2850 p.imgNote {
+    font-size: 19px;
+    text-align: center;
+}
+
+main.solution2850 p.sectionDesc, main.solution2850 p.sectionDesc-center {
+    margin: 0 auto 30px;
+    padding: 0 140px;
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+main.solution2850 p.sectionDesc-center {
+    text-align: center;
+}
+
+main.solution2850 .link {
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 2px;
+    font-size: 20px;
+    line-height: 1.5;
+    text-align: center;
+    cursor: pointer;
+    -webkit-transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out;
+}
+
+main.solution2850 .link-normal {
+    background-color: #53cfd9;
+    color: #fff;
+}
+
+main.solution2850 .link-normal:hover {
+    background-color: #2dc0cc;
+}
+
+main.solution2850 .link-outline {
+    background-color: transparent;
+    border: 1px solid #53cfd9;
+    color: #53cfd9;
+}
+
+main.solution2850 .link-outline:hover {
+    background-color: #53cfd9;
+    color: #fff;
+}
+
+main.solution2850 .link-block {
+    display: block;
+    margin: 0 auto;
+}
+
+main.solution2850 .linkGroup {
+    text-align: center;
+}
+
+main.solution2850 .highLight {
+    color: #ffff00;
+}
+
+main.solution2850 .pageName {
+    width: 1200px;
+    line-height: 48px;
+    margin: 0 auto;
+    font-family: Arial, "微軟正黑體";
+}
+
+main.solution2850 #indBanner {
+    height: 500px;
+    margin-bottom: 60px;
+    padding: 0;
+    color: #fff;
+}
+
+main.solution2850 #indBanner h1 {
+    margin-bottom: 4px;
+    font-size: 44px;
+    line-height: 1.2;
+    text-align: left;
+    color: #fff;
+}
+
+main.solution2850 #indBanner .pageDesc {
+    width: 700px;
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+main.solution2850 #indBanner {
+    background: url("https://www.digiwin.com/tw/dsc/solution/WB002850/images/solution/bg_banner.jpg") no-repeat center center;
+}
+
+main.solution2850 .section h2 {
+    text-align: left;
+    margin-bottom: 30px;
+    padding-left: 115px;
+}
+
+main.solution2850 .section.bgColor {
+    background-color: #f5f5f5;
+}
+
+main.solution2850 .section .txtStyle {
+    margin: 30px 0;
+    padding: 0 115px;
+    font-size: 20px;
+}

@@ -1,0 +1,32 @@
+<main-header small="其它流通業">
+    <template slot="content">
+        <h1>{{result.others.electronics.industry}}</h1>
+    </template>
+</main-header>
+
+<article class="section1">
+    <div class="container">
+        <section-title title="管理要點"></section-title>
+        <section v-for="item in result.others.electronics.section1" :key="item.title">
+            <h1>{{item.title}}</h1>
+            <p>{{item.content}}</p>
+        </section>
+        <figure v-if="result.others.electronics.figure">
+            <img v-bind:src="result.others.electronics.figure.img" alt="">
+            <figcaption>▲{{result.others.electronics.figure.figcaption}}</figcaption>
+        </figure>
+    </div>
+</article>
+
+<article v-if="result.others.electronics.section2" class="section2">
+    <div class="container">
+        <section-title title="案例客戶"></section-title>
+        <ul>
+            <li v-for="item in result.others.electronics.section2">
+                <a v-bind:href="item.url" target="_blank">{{item.text}}</a>
+            </li>
+        </ul>
+    </div>
+</article>
+
+<contact v-bind:multiple="false" source=""></contact>

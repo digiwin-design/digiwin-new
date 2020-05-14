@@ -1,0 +1,221 @@
+body,html {
+	background: #fff;
+	width: 100%;
+	max-width: 640px;
+	min-width: 320px;
+	margin: 0 auto;
+	font-family: "微軟正黑體";
+	text-align: center;
+
+}
+
+.section {
+	width: 100%;
+	padding: 20px 0;
+	margin: 0 auto;
+}
+
+
+/*banner开始*/
+.mBan {
+	width: 100%;
+
+}
+.mBan img {
+	width: 100%;
+	
+}
+/*banner结束*/
+/*活动介绍开始*/
+.sectActi {
+	padding: 20px 0;
+}
+
+.secH1 {
+	height: 50px;
+	line-height: 60px;
+	font-size: 28px;
+	color: #01A4B7;
+	font-weight: bold;
+
+}
+.secp2 {	
+	font-size: 16px;
+	line-height: 2;
+	color: #333;	
+	padding:0 16px;
+	text-align: left;
+}
+.secp2 p{		
+	font-size: 16px;
+	line-height: 1.8;
+	color: #333;
+	line-height: 30px;
+	padding:0 18px;
+}
+.secp3 {
+	line-height: 40px;
+	font-size: 18px;
+	font-weight: bold;
+	color: #F60;
+}
+.secActi2 {
+	padding:0 18px;
+	line-height: 1.5;
+}
+.secp4{
+	font-size: 18px;
+	line-height: 1.8;
+	font-weight: bold;
+	color: #333;
+}
+
+.secStro5 {
+	font-family: "微軟正黑體";
+	font-size: 18px;
+	font-weight: bold;
+	color: #01A4B7;
+}
+/*活动介绍结束*/
+/*课程重点开始*/
+.secCour {	
+	width: 100%;
+	background: #F9F3E3;	
+}
+.secCour .secH1 {
+	height: 50px;
+	line-height: 50px;
+} 
+.secCour .secp3 {
+	width: 95%;
+	margin: 0 auto;
+	text-align: left;
+}
+.secCour ul {
+	width: 77%;
+	margin: 0 auto;
+}
+@media screen and (max-width: 360px) {
+.secCour ul {
+	width: 74%;
+	margin: 0 auto;
+}
+}
+.secCour ul li {
+	list-style: disc;
+	text-align: left;
+	padding: 0;
+}
+/*课程重点结束*/
+/*讲师介绍开始*/
+.secTeaBr {
+	display: block;
+}
+.secPeo .secp3 {
+	line-height: 25px;
+}
+.secTeac ul {
+	width: 85%;
+	margin: 20px auto;
+	text-align: left;
+}
+.secTeac ul li {
+	list-style: disc;
+}
+.secp6 {
+	font-size: 14px;
+	color: #333;
+	line-height: 25px;
+}
+/*讲师介绍结束*/
+/*场次资讯开始*/
+.secSencn {
+	background: #F9F3E3;	
+	margin: 0 auto;
+}
+.secSencImg {
+	width: 100%;
+	font-family: "微軟正黑體"; 
+}
+.secSencLeft {
+	width: 85%;
+	margin: 0 auto 22px;
+	display: block;
+	position: relative;
+
+}
+.secSencLeft p {
+	margin-bottom: 10px;
+	font-size: 28px;
+	font-weight: bold;
+	text-align: left;
+}
+
+.secdata1 {
+	/*width: 80%;*/
+	height: 55px;
+	/*position: relative;*/
+	display: inline-block;
+
+}
+
+.secdata1 span {
+	position: absolute;
+	top:0;
+	left:0;
+	color: #333;
+	font-size: 45px;
+	font-weight: bold;
+}
+.secdata1  i {
+	position: absolute;
+	top:10px;
+	left:139px;
+	font-size: 25px;
+	color: #fff;
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
+	background: #EE3223;
+	border-radius: 50%;
+	font-weight: bold;
+	text-align: center;
+	font-style: normal;
+	background-color: #FF6633;
+}
+.secdata1 b {
+	position: absolute;
+	top:10px;
+	left:194px;
+	width: 98px;
+}
+.secSencLeft .secWhere1 {
+	font-size: 22px;
+}
+.secHto1 {
+	font-weight: bold;
+}
+.secSencLeft .secWhere1 {
+	font-weight: normal;
+}
+.secSencLeft .secTime1 {
+	font-size: 16px;
+	font-weight: normal;
+	height: 30px;
+	background: #EE3223;
+	border-radius: 10px;
+	color: #fff;
+	line-height: 30px;
+	text-align: center;
+}
+
+
+/*场次资讯结束*/
+.secLinkSOP {
+	width: 90%;
+	margin: 0 auto;
+}
+.secLinkSOP img {
+	width: 100%;
+}

@@ -1,0 +1,40 @@
+/* 服務據點地圖 */
+#allmap {
+    background-size: cover;
+}
+
+/* 電子報訂閱按鈕+表單(僅手機上可見) */
+@media (max-width: 767px) {
+    .enewspaper .home-ad {
+        bottom: 60px;
+    }
+}
+
+/* 電子報訂閱表單(僅電腦上可見) */
+/* @media (max-width: 1210px) {
+    .enewspaper .page-banner {
+        display: block;
+    }
+}
+@media (max-width: 1270px) {
+    .enewspaper .page-message {
+        display: block;
+    }
+}
+@media (max-width: 414px) {
+    .enewspaper .page-banner .container {
+        height: 100%;
+    }
+    .enewspaper .page-message {
+        width: auto;
+        height: 470px;
+        max-width: 370px;
+        top: 0;
+        right: 10px;
+        bottom: 0;
+        left: 10px;
+        margin: auto;
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+} */

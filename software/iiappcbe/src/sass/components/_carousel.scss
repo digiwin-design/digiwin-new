@@ -1,0 +1,44 @@
+main .carousel {
+    margin: 0 auto;
+    width: image-width('section5-carousel-bg.png');
+    text-align: center;
+    &-slider {
+        position: relative;
+        height: image-height('section5-carousel-bg.png');
+        background-image: image-url('section5-carousel-bg.png');
+        &::after {
+            @include imgBg('section5-carousel-bg2.png');
+            position: absolute;
+            top: 100%;
+            left: 0;
+            content: '';
+        }
+    }
+    .swiper-container {
+        top: 65px;
+        left: 15px;
+        margin: 0;
+        width: 235px;
+    }
+    &-caption {
+        position: relative;
+        display: inline-block;
+        margin-top: 20px;
+        color: #000;
+        text-align: center;
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 1;
+        &::before {
+            position: absolute;
+            bottom: 0;
+            left: -22px;
+            width: 0;
+            height: 0;
+            border-width: 0 9.5px 13px 9.5px;
+            border-style: solid;
+            border-color: transparent transparent #fa8140 transparent;
+            content: '';
+        }
+    }
+}

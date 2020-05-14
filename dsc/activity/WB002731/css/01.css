@@ -1,0 +1,20 @@
+@charset "utf-8";
+/* CSS Document */
+
+.fax table td{ border-bottom:#000 solid 1px; font-size:17px; font-family:"微軟正黑體", Arial, Helvetica, sans-serif; color:#000}
+.fax .FlineL{ border-left:#000 solid 1px}
+
+.txt15W{ color:#FFF; font-size:15px;}
+.txt15WB{ color:#FFF; font-size:15px;
+font-weight:bold}
+.txt50{ color:#F60; font-size:50px;font-family:"微軟正黑體", Arial, Helvetica, sans-serif; font-weight:bold  ; line-height:60px;}
+.txt30{ color:#F60; font-size:30px;font-family:"微軟正黑體", Arial, Helvetica, sans-serif; font-weight:bold  ; line-height:60px;}
+.txt50r{ color:#C00; font-size:50px;font-family:"微軟正黑體", Arial, Helvetica, sans-serif; font-weight:bold  ; line-height:60px;}
+.txt30r{ color:#C00; font-size:30px;font-family:"微軟正黑體", Arial, Helvetica, sans-serif; font-weight:bold  ; line-height:60px;}
+.AA {font-size:15px;
+	font-family: "微軟正黑體";
+	font-weight:bold}
+.BB {font-size:15px;
+	font-family: "微軟正黑體";
+	font-weight:bold;
+	color:#FFF}

@@ -1,0 +1,449 @@
+@charset "UTF-8";
+main *, main *:before, main *:after {
+    box-sizing: content-box;
+}
+main.WB00263901 *, main.WB00263901 *:before, main.WB00263901 *:after {
+    box-sizing: content-box;
+}
+
+main.WB00263901 #banner {
+    width: 100%;
+    height: 470px;
+    min-width: 1000px;
+    font-size: 16px;
+    font-family: "微軟正黑體", "新細明體", Arial, Helvetica, sans-serif;
+    line-height: 30px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+
+main.WB00263901 #banner #bannerCon {
+    width: 5760px;
+    height: 470px;
+    border-bottom: 1px solid #CCC;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+main.WB00263901 #banner #bannerCon > div {
+    width: 1920px;
+    float: left;
+}
+
+main.WB00263901 #banner h2 {
+    width: 1000px;
+    height: 470px;
+    margin: 0 auto;
+    padding: 0;
+    position: relative;
+    left: 0;
+}
+
+main.WB00263901 #banner h2 #bannerButton {
+    position: absolute;
+    top: 321px;
+    left: 0px;
+    width: 655px;
+    height: 72px;
+}
+
+main.WB00263901 #banner h2 #bannerButton li {
+    text-indent: -9999px;
+    float: left;
+}
+
+main.WB00263901 #banner h2 #bannerButton li a {
+    width: 174px;
+    height: 49px;
+    display: block;
+}
+
+main.WB00263901 #banner h2 #bannerButton li.bottom1 {
+    background: url(https://www.digiwin.com/tw/dsc/solution/WB002639/images/bottom10.png) no-repeat left top;
+}
+
+main.WB00263901 #banner h2 #bannerButton li.bottom2 {
+    background: url(https://www.digiwin.com/tw/dsc/solution/WB002639/images/bottom2.png) no-repeat left top;
+    margin-left: 25px;
+}
+
+main.WB00263901 #banner h2 #bannerButton li.bottom3 {
+    background: url(https://www.digiwin.com/tw/dsc/solution/WB002639/images/bottom1.png) no-repeat left top;
+}
+
+main.WB00263901 #banner h2 #bannerButton li.bottom4 {
+    background: url(https://www.digiwin.com/tw/dsc/solution/WB002639/images/bottom4.png) no-repeat left top;
+    margin-left: 25px;
+}
+
+main.WB00263901 #banner h2 #bannerButton li.bottom1:hover, main.WB00263901 #banner h2 #bannerButton li.bottom2:hover, main.WB00263901 #banner h2 #bannerButton li.bottom3:hover, main.WB00263901 #banner h2 #bannerButton li.bottom4:hover,
+main.WB00263901 #banner h2 #bannerButton li.bottom5:hover, main.WB00263901 #banner h2 #bannerButton li.bottom6:hover, main.WB00263901 #banner h2 #bannerButton li.bottom7:hover {
+    background-position: right top;
+}
+
+main.WB00263901 #banner .banner_01 {
+    background: url(https://www.digiwin.com/tw/dsc/solution/WB002639/images/banner_bg1.jpg) no-repeat center center;
+}
+
+main.WB00263901 #banner .banner_02 {
+    background: url(https://www.digiwin.com/tw/dsc/solution/WB002639/images/banner_bg2.jpg) no-repeat center center;
+}
+
+main.WB00263901 #banner #bannerOrder {
+    width: 100%;
+    height: 70px;
+    background: url(https://www.digiwin.com/tw/dsc/solution/WB002639/images/buttonBg.png) repeat-x top left;
+    position: absolute;
+    top: 400px;
+    left: 0;
+}
+
+main.WB00263901 #banner #bannerOrder > ul {
+    width: 294px;
+    height: 70px;
+    padding-left: 905px;
+    margin: 0 auto;
+}
+
+main.WB00263901 #banner #bannerOrder > ul > li {
+    width: 80px;
+    height: 45px;
+    float: left;
+    margin-left: 10px;
+    border: 4px solid #fff;
+    position: relative;
+    cursor: pointer;
+}
+
+main.WB00263901 #banner #bannerOrder > ul > li.now {
+    margin-top: -10px;
+}
+
+main.WB00263901 #banner #bannerOrder .bannerDes {
+    width: 285px;
+    height: 70px;
+    background: url(https://www.digiwin.com/tw/dsc/solution/WB002639/images/bannerDes.png) no-repeat left top;
+    position: absolute;
+    top: -94px;
+    left: -220px;
+    padding: 10px;
+    display: none;
+}
+
+main.WB00263901 #banner #bannerOrder .bannerDes img {
+    float: left;
+}
+
+main.WB00263901 #banner #bannerOrder .bannerDes p {
+    width: 215px;
+    color: #fff;
+    font-family: "微軟正黑體", "新細明體", Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    text-align: justify;
+    line-height: 18px;
+    float: right;
+    margin-top: 5px;
+}
+
+main.WB00263901 #banner #bannerOrder .bannerDes .bannerTitle {
+    color: #ffc001;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+main.WB00263901 h2 {
+    width: 100%;
+    color: #e93030;
+    font-family: "微軟正黑體", "新細明體", Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    line-height: 1.4;
+    text-align: center;
+    margin: 40px 0px;
+}
+
+main.WB00263901 #wrapper0 {
+    width: 1000px;
+    height: 600px;
+    padding-top: 30px;
+    padding-bottom: 80px;
+    margin: 0 auto;
+    position: relative;
+}
+
+main.WB00263901 #wrapper0 h3 {
+    color: #2f2f2f;
+    font-family: "微軟正黑體", "新細明體", Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    line-height: 25px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+main.WB00263901 #wrapper0 p {
+    font-family: "微軟正黑體", "新細明體",Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    line-height: 19px;
+    letter-spacing: 1px;
+}
+
+main.WB00263901 #wrapper0 .tcL {
+    float: left;
+    width: 175px;
+    height: 350px;
+    margin: 8px 10px 8px 0px;
+}
+
+main.WB00263901 #wrapper0 .tc {
+    float: left;
+    width: 175px;
+    height: 350px;
+    margin: 10px;
+}
+
+main.WB00263901 #wrapper0 .tcR {
+    float: left;
+    width: 175px;
+    height: 350px;
+    margin: 8px 0px 8px 10px;
+}
+
+main.WB00263901 #wrapper0 .tc img {
+    width: 175px;
+    height: 175px;
+}
+
+main.WB00263901 #wrapper_bg {
+    width: 100%;
+    height: 800px;
+    background-color: #fad5d2;
+    padding: 30px 0px;
+}
+
+main.WB00263901 #wrapper {
+    width: 960px;
+    height: auto;
+    padding: 2px 20px 0;
+    margin: 0 auto;
+    font-size: 16px;
+    line-height: 30px;
+    font-family: "微軟正黑體", "新細明體", Arial, Helvetica, sans-serif;
+}
+
+main.WB00263901 #wrapper .txtbox {
+    float: left;
+    width: 960px;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+main.WB00263901 #wrapper .txtbox .txtbox_L {
+    float: left;
+    width: 175px;
+    margin-right: 15px;
+}
+
+main.WB00263901 #wrapper .txtbox .txtbox_R {
+    float: right;
+    width: 770px;
+}
+
+main.WB00263901 #wrapper .txtbox .txtbox_R h3 {
+    font-size: 20px;
+    line-height: 1.6;
+    color: #000;
+}
+
+main.WB00263901 #wrapper .txtbox .txtbox_R p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+main.WB00263901 .txt13 {
+    font-size: 13px;
+    color: #6e6e6e;
+}
+
+main.WB00263901 #buttonCase {
+    width: 174px;
+    margin: 20px auto;
+}
+
+main.WB00263901 #buttonCase p {
+    width: 174px;
+    height: 49px;
+    float: left;
+    text-indent: -9999px;
+}
+
+main.WB00263901 #buttonCase #DO1 {
+    background: url(https://www.digiwin.com/tw/dsc/solution/WB002639/images/bottom8.png) no-repeat left top;
+}
+
+main.WB00263901 #buttonCase #DO1:hover {
+    background-position: right top;
+}
+
+main.WB00263901 #button_R {
+    text-align: center;
+    margin-top: 10px;
+}
+
+main.WB00263901 .btnR {
+    float: left;
+    font-size: 16px;
+    font-family: "微軟正黑體", "新細明體", Arial, Helvetica, sans-serif;
+    width: 140px;
+    height: 30px;
+    margin: 0 auto;
+    line-height: 30px;
+    letter-spacing: 1px;
+    margin-right: 15px;
+}
+
+main.WB00263901 .btnR a {
+    display: block;
+    color: #e93030;
+    text-decoration: none;
+    border: #e93030 solid 1px;
+    background-color: #fad5d2;
+}
+
+main.WB00263901 .btnR a:hover {
+    text-decoration: none;
+    color: #FFF;
+    background-color: #e93030;
+    margin: 0 auto;
+    border-bottom: #e93030 solid 1px;
+}
+
+main.WB00263901 #wrapper2 {
+    width: 1000px;
+    height: 800px;
+    margin: 0 auto;
+    overflow: hidden;
+    margin-top: 10px;
+}
+
+main.WB00263901 #buttonCase1 {
+    width: 174px;
+    margin: 20px auto;
+}
+
+main.WB00263901 #buttonCase1 p {
+    width: 174px;
+    height: 49px;
+    float: left;
+    text-indent: -9999px;
+}
+
+main.WB00263901 #buttonCase1 #DO2 {
+    background: url(https://www.digiwin.com/tw/dsc/solution/WB002639/images/bottom9.png) no-repeat left top;
+}
+
+main.WB00263901 #buttonCase1 #DO2:hover {
+    background-position: right top;
+}
+
+main.WB00263901 #wrapper3 {
+    width: 100%;
+    height: 700px;
+    margin: 0 auto;
+    background-color: #fad5d2;
+    padding-top: 5px;
+}
+
+main.WB00263901 #wrapper3 h2 {
+    margin-top: 40px;
+    line-height: 30px;
+}
+
+main.WB00263901 #wrapper3 p {
+    font-family: "微軟正黑體", "新細明體",Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    line-height: 1.5;
+    letter-spacing: 1px;
+}
+
+main.WB00263901 .txt {
+    color: #1b1b1b;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+main.WB00263901 #benefitTxt {
+    width: 960px;
+    height: 450px;
+    margin: 0 auto;
+    padding: 0;
+    overflow: hidden;
+    position: relative;
+}
+
+main.WB00263901 #benefitTxt .scale {
+    float: left;
+    width: 180px;
+    margin: 30px;
+}
+
+main.WB00263901 #benefitTxt .scale img {
+    width: 180px;
+    height: 180px;
+}
+
+main.WB00263901 #benefitTxt .scale p {
+    font-family: "微軟正黑體", "新細明體", Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 1px;
+}
+
+main.WB00263901 .txtR {
+    color: #ea3939;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+main.WB00263901 #wrapper4 {
+    width: 1000px;
+    height: 300px;
+    margin: 0 auto;
+    padding-bottom: 40px;
+}
+
+main.WB00263901 #wrapper4 #solutionTxt {
+    width: 500px;
+    margin: 0 auto;
+}
+
+main.WB00263901 #wrapper4 #solutionTxt #read_L {
+    float: left;
+    width: 180px;
+}
+
+main.WB00263901 #wrapper4 #solutionTxt #read_R {
+    float: right;
+    width: 300px;
+}
+
+main.WB00263901 #read_R li {
+    background: url(https://www.digiwin.com/tw/dsc/solution/WB002639/images/item.png) no-repeat left top;
+    margin-bottom: 4px;
+}
+
+main.WB00263901 #read_R li a {
+    font-family: "微軟正黑體", "新細明體", Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 15px;
+    padding-left: 20px;
+    letter-spacing: 1px;
+    color: #1b1b1b;
+    text-decoration: none;
+}
+
+main.WB00263901 #read_R li a:hover {
+    text-decoration: underline;
+    color: #ea3939;
+}

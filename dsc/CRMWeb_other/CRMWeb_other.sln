@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CRMWeb_other", "http://localhost/CRMWeb_other/CRMWeb_other.csproj", "{165C62FC-A18A-41DB-88C4-35D03A8CAF3A}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{165C62FC-A18A-41DB-88C4-35D03A8CAF3A}.Debug.ActiveCfg = Debug|.NET
+		{165C62FC-A18A-41DB-88C4-35D03A8CAF3A}.Debug.Build.0 = Debug|.NET
+		{165C62FC-A18A-41DB-88C4-35D03A8CAF3A}.Release.ActiveCfg = Release|.NET
+		{165C62FC-A18A-41DB-88C4-35D03A8CAF3A}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

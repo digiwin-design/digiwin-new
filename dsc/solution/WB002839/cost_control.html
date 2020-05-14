@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!-- 全站共用 -->
+    <link rel="stylesheet" href="https://www.digiwin.com/tw/static/css/public.css">
+    <link rel="stylesheet" href="https://www.digiwin.com/tw/static/css/style.css">
+    <script src="https://www.digiwin.com/tw/static/js/jquery-1.11.3.min.js"></script>
+
+    <!-- 全站共用(自定義) -->
+    <link rel="stylesheet" href="https://www.digiwin.com/tw/dsc/css/all.css">
+    <script src="https://polyfill.io/v3/polyfill.js?features=default,fetch,HTMLPictureElement,Array.prototype.find,NodeList.prototype.forEach&flags=gated"></script>
+    <script src="https://www.digiwin.com/tw/dsc/assets/modernizr-custom.js"></script>
+    <script src="https://www.digiwin.com/tw/dsc/assets/mobile-detect.js"></script>
+    <script src="https://www.digiwin.com/tw/dsc/assets/mobile-detect-modernizr.js" defer></script>
+    <script src="https://www.digiwin.com/tw/dsc/assets/smoothscroll.js" defer></script>
+    <script src="https://www.digiwin.com/tw/dsc/assets/axios.min.js"></script>
+    <script src="https://www.digiwin.com/tw/dsc/assets/axios-mock-adapter.min.js"></script>
+    <script src="https://www.digiwin.com/tw/dsc/assets/vuejs/vue-all.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.2.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.0.1/firebase-database.js"></script>
+    <script src="https://www.digiwin.com/tw/dsc/js/common.min.js"></script>
+</head>
+
+<body>
+    <!-- 後台上稿內容開始-->
+    <!-- form -->
+    <link rel="stylesheet" href="https://www.digiwin.com/tw/dsc/css/Eform/form-rwd.css">
+    <script src="https://www.digiwin.com/tw/dsc/js/Eform/form.js" defer></script>
+    <link rel="stylesheet" href="https://www.digiwin.com/tw/dsc/css/Eform/xcConfirm.css">
+    <script src="https://www.digiwin.com/tw/dsc/js/Eform/xcConfirm.js" defer></script>
+
+    <!-- submenu -->
+    <link rel="stylesheet" href="https://www.digiwin.com/tw/dsc/assets/submenu/submenu.css">
+    <script src="https://www.digiwin.com/tw/dsc/assets/submenu/submenu.min.js"></script>
+
+    <link rel="stylesheet" href="https://www.digiwin.com/tw/dsc/css/reboot.css">
+    
+    <main>
+        <!-- 從此處新增內容 -->
+
+		
+		<link href="css/cost_control.css" rel="stylesheet">
+		
+		
+		
+			 <section class="header">
+		
+			<div class="header_wrap">
+			
+				<div class="title_wrap">
+				<div class="title">企業費用控管</div>
+				<div class="content">費用支出像關不緊的水龍頭？<br>從現在開始改變費用報銷模式</div>
+			
+				</div>
+		
+			</div>
+		
+		</section>
+		
+		 <section class="a1_p2">
+		
+			<div class="a1_wrap">
+			
+				<div class="a1_title">
+				<div class="a1_title_main">費用報銷總在事後遇到這些情形</div>
+				</div>
+			
+				<div class="a1_p2_content">
+				
+					
+					
+					<div class="a1_p2_block_wrap">				
+				
+			<div class="a1_p2_block block_number1">
+			
+			<div class="p2_block_content">
+				<img src="images/cost/p2_icon01.png">
+				<p>員工</p>
+			</div>
+			 
+			<div class="p2_block_hover">
+				
+	
+				<p class="move_arrow wow slideInUp" data-wow-duration="1s" data-wow-delay="0" data-wow-iteration="infinite">︿</p>  	
+			<div class="mask">
+				   <div class="p2_mask_text">交際、交通、住宿等費用繁多，如何第一時間確認符合公司規範？</div>
+				   
+             
+                </div>	
+				</div>
+				
+			</div>
+			
+			
+			<div class="a1_p2_block block_number2">
+			
+			
+			<div class="p2_block_content">
+				<img src="images/cost/p2_icon02.png">
+				<p>主管</p>
+			</div>
+			 
+			<div class="p2_block_hover"><p class="move_arrow wow slideInUp" data-wow-duration="1s" data-wow-delay="0" data-wow-iteration="infinite">︿</p>  	
+			<div class="mask">
+				   <div class="p2_mask_text">費用是否超過類別金額？費用是否合理？這張好像申報過了？</div>
+				   
+             
+                </div>
+				</div>		
+			
+			</div>
+			
+			
+			<div class="a1_p2_block block_number3">
+			
+			<div class="p2_block_content">
+				<img src="images/cost/p2_icon03.png">
+				<p>財會</p>
+			</div>
+			 
+			<div class="p2_block_hover"><p class="move_arrow wow slideInUp" data-wow-duration="1s" data-wow-delay="0" data-wow-iteration="infinite">︿</p>  	
+			<div class="mask">
+				   <div class="p2_mask_text">憑證是否核實？費用量是否合理？開支是否符合公司規定？</div>
+				   
+             
+                </div>
+				</div>		
+			
+			</div>
+			
+			
+			
+			</div>
+			
+			
+						
+						
+			</div>
+					
+								
+					
+									
+					
+				</div>
+				
+				
+				
+		
+		</section>
+		
+		
+		 <section class="a1_p3">
+		
+			<div class="a1_wrap">
+			
+				<div class="a1_title">
+				<div class="a1_title_main">費用控管其實在事前就可以管理</div>
+				</div>
+			
+				<div class="a1_p3_content">
+				
+					
+					<div class="block b01">
+						<div class="stamp wow bounceIn" data-wow-duration=".3s" data-wow-delay="1s"><img src="images/cost/p3_stamp01.png"></div>
+					<div class="block_img">
+						<img src="images/cost/p3_icon01.png"></div>
+						<p class="title">員工申請</p>
+					<div class="block_text">
+						<div class="text_title">事前控管警示</div>
+						<div class="text_content"><p>當違反規範時，主動事前提報主管(同時系統自動加簽核關卡)</p></div>
+						
+						
+						</div>	
+						
+					
+					</div>
+					
+					<div class="block b02">
+						<div class="stamp wow bounceIn" data-wow-duration=".3s" data-wow-delay="1.5s"><img src="images/cost/p3_stamp02.png"></div>
+					<div class="block_img">
+						<img src="images/cost/p3_icon02.png"></div>
+						<p class="title">主管審核</p>
+					<div class="block_text">
+						<div class="text_title">費用超支預警</div>
+						<div class="text_content"><p>主管即時掌握費用異常發生狀況<br>當發生不合理費用時，提供線索讓管理職掌握員工行程，判斷費用發生合理性。</p></div>
+						
+						
+						</div>		
+						
+					
+					</div>
+					
+					
+					<div class="block b03">
+						<div class="stamp wow bounceIn" data-wow-duration=".3s" data-wow-delay="2s"><img src="images/cost/p3_stamp03.png"></div>
+					<div class="block_img">
+						<img src="images/cost/p3_icon03.png"></div>
+						<p class="title">財會管理</p>
+					<div class="block_text">
+						<div class="text_title">簡化財務費用管理</div>
+						<div class="text_content"><p>簡化費用報銷單據追蹤，有效即時管理費用流程。</p>
+						<p>簡化檢核費用報銷項目，減少財務核對費用會科及人工輸入至財務系統。</p></div>
+						
+						
+						</div>		
+						
+					
+					</div>
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+				</div>
+				
+				
+				
+			</div>
+		
+		</section>
+		
+		
+		
+		 <section class="a1_p4">
+		
+			<div class="a1_wrap">
+			
+				<div class="a1_title">
+				<div class="a1_title_main">費用核銷管控，助您有效防漏</div>
+				</div>
+			
+				<div class="a1_p4_content">
+				<p>為企業關緊費用水龍頭！<br>透過「費用核銷管理」電子化流程，<br>確保錢花在刀口上，違規請款馬上通報，<br>財會結帳沒煩腦！<br>隨時簽核，更能隨心管理！<br>花錢更是CP值高！
+</p>
+				</div>
+				
+				
+				
+			</div>
+		
+		</section>
+		
+		
+		
+		
+		
+		
+		 <section class="a1_p5">
+		
+			<div class="a1_wrap">
+			
+				<div class="a1_title">
+				<div class="a1_title_main">費用核銷管理方案</div>
+				<div class="a1_title_content">額度事前管控、異常有效預警<br>支援行動裝置、遠距辦公便捷</div>
+				</div>
+			
+				<div class="a1_p5_content">
+				<img src="images/cost/p5_main.png" class="a1_ver_web">
+				<img src="images/cost/phone/p5_main.png" class="a1_ver_phone">	
+				</div>
+				
+				
+				
+			</div>
+		
+		</section>
+		
+		
+		
+		
+		
+			
+		
+
+<script src="https://a1.digiwin.com/js/common/jquery.min.js"></script>
+<script src="https://a1.digiwin.com/js/common/jquery-ui.min.js"></script>
+<script src="https://a1.digiwin.com/js/common/SmoothScroll.js"></script> 
+<script src="https://a1.digiwin.com/js/common/wow.js"></script>		
+<script src="js/animate.js"></script>
+		
+		
+<script>
+document.body.addEventListener('touchstart',function(){});
+	
+	/*-------------- 滑到內容才顯現------------------*/
+	 wow = new WOW(
+    {
+      boxClass:     'wow',      // default
+      animateClass: 'animated', // default
+      offset:       0,          // default
+      mobile:       false,       // default
+      live:         true        // default
+    }
+  )
+  wow.init();
+
+	
+		
+	
+	
+</script>
+
+		
+		
+		
+		
+        <!-- 聯絡表單 -->
+        <div id="contact">
+            <div id="contactTxt" class="clearfix">
+                <h2>資料索取與諮詢</h2>
+                <div id="info">
+                    <p>請填寫下方資料便於盡快為您服務。<br>若您需要立即的支援與服務，請直撥免付費專線 <span class="highLight">0800-888-162</span>，謝謝！</p>
+                    <ul>
+                        <li class="line">
+                            <a href="https://acho.tw/acho/f/aB6q9" target="_blank"></a>
+                        </li>
+                        <li class="mail">
+                            <a href="mailto:marketing01@digiwin.com"></a>
+                        </li>
+                        <li class="fb">
+                            <a href="https://www.facebook.com/DSCmain" target="_blank"></a>
+                        </li>
+                    </ul>
+                </div>
+                <div id="formBlock" class="form">
+                    <a id="fromSource" href="javascript:;">WB002839</a> <!-- 文宣編號 -->
+                    <div id="contactInput" class="clearfix">
+                        <span class="hideLabel ">*公司名稱：</span><input type="text" placeholder="*完整公司名稱" name="contact-company" id="contact-company" class="contact required"><span class="hideLabel perLabel">*姓名：</span><input type="text" placeholder="*姓名" name="contact_person" id="contact_person" class="contact required"><span class="hideLabel evenLable">*聯絡電話：</span><input type="text" placeholder="*聯絡電話" name="telephone" id="telephone" class="contact required end"><span class="hideLabel evenLable">*E-mail：</span>
+                        <input type="text" placeholder="*E-mail" name="contact-email" id="contact-email" class="contact required"><span class="hideLabel">*部門：</span><input type="text" placeholder="*部門" name="contact-dept" id="contact-dept" class="contact required"><span class="hideLabel">*職稱：</span><input type="text" placeholder="*職稱" name="contact-job" id="contact-job" class="contact required end">
+                    </div>
+                    <div class="consult-cont">
+                        <p class="hideLabel">請在這裡描述您的需求：</p>
+                        <textarea id="contact-query" cols='40' placeholder="請在這裡描述您的需求(500字以內)：" rows='4' class="" maxlength="500"></textarea>
+                    </div>
+
+                    <!-- 複選 -->
+                    <!-- <div class="demandCheck clearfix">
+                        <label for="contact-demand01"><input name="contact-demand" class="contact-demand" id="contact-demand01" type="checkbox" value="預算管控資訊" /> 預算管控資訊</label>
+                        <label for="contact-demand02"><input name="contact-demand" class="contact-demand" id="contact-demand02" type="checkbox" value="準確成本估算" /> 準確成本估算</label>
+                        <label for="contact-demand03"><input name="contact-demand" class="contact-demand" id="contact-demand03" type="checkbox" value="確實掌握工程進度" /> 確實掌握工程進度</label>
+                        <label for="contact-demand04"><input name="contact-demand" class="contact-demand" id="contact-demand04" type="checkbox" value="估驗計價及請款" /> 估驗計價及請款</label>
+                        <label for="contact-demand05"><input name="contact-demand" class="contact-demand" id="contact-demand05" type="checkbox" value="帳務結算及分析" /> 帳務結算及分析</label>
+                        <label for="contact-demand06"><input name="contact-demand" class="contact-demand" id="contact-demand06" type="checkbox" value="發包及採購流程" /> 發包及採購流程</label>
+                        <label for="contact-demand07"><input name="contact-demand" class="contact-demand" id="contact-demand07" type="checkbox" value="合約管控" /> 合約管控</label>
+                        <label for="contact-demand08"><input name="contact-demand" class="contact-demand" id="contact-demand08" type="checkbox" value="其他" /> 其他</label>
+                    </div> -->
+
+                    <!-- 單選 -->
+                    <div class="inforCheck">
+                        <label for="dm_ask"> <input name="information" class="information" id="dm_ask" type="checkbox" value="資料索取">索取相關資料</label>
+                    </div>
+
+                    <hr>
+                    <div class="verifica">
+                        <span class="veriSpan">＊請輸入驗證碼：</span>
+                        <span class="veriSpan-m">驗證碼:</span>
+                        <input type="text" name="" id="identCode" class="identCode" onblur="validate()">
+                        <input type="button" id="vericodePic" />
+                        <span class="renovCode" onclick="createCode()"></span>
+                        <span id="codeSuces"></span>
+                    </div>
+                    <input type="button" id="submit" value="送　　出">
+                    <label for="agree" class="checAgree"><input type="checkbox" name="agree" value="" id="agree" checked="">
+                        我同意接受鼎新電腦<a href="/tw/portal/page/index/id/1202.html" target="_blank">隱私權聲明</a></label>
+                </div>
+            </div>
+        </div>
+
+        <!-- loading -->
+        <div id="loading">
+            <p><i></i>資料提交中，請稍後</p>
+        </div>
+
+        <!-- thx page -->
+        <div id="thx">
+            <div id="thxContent">
+                <div class="close">X</div>
+                <p class="title">資料己送出</p>
+                <p class="thxparg"></p>
+                <p class="suprtCall">
+                    <span>如需要立即的支援與服務，</span>
+                    <span>請直撥免付費專線 0800-888-162，謝謝！</span>
+                </p>
+                <p class="thxSourLoad1">
+                    <a id="SourLoadLink" href="" target="_blank">資料下載</a>
+                </p>
+                <p id="goIndex">
+                    <a href="javascript:;">繼續瀏覽網站</a>
+                </p>
+            </div>
+        </div>
+    </main>
+    <!-- 後台上稿內容結束-->
+</body>
+
+</html>

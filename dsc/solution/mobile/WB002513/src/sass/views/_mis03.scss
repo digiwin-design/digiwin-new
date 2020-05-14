@@ -1,0 +1,49 @@
+main .mis03 {
+    .section1 {
+        padding-bottom: 50px;
+        .sectionTitle > h1 {
+            color: #165aa7;
+        }
+        p {
+            line-height: 1.6;
+            &:first-of-type {
+                color: #1b92c4;
+                letter-spacing: getLetterSpacing(20);
+                font-weight: bold;
+            }
+            &:not(:first-of-type) {
+                text-indent: 2em;
+            }
+            + p {
+                margin-top: 1em;
+            }
+        }
+    }
+    .section2 {
+        padding-bottom: 55px;
+        background-color: #e7e7e7;
+        .sectionTitle > h1 {
+            color: #0a51a1;
+        }
+        h2,
+        ul {
+            letter-spacing: getLetterSpacing(20);
+            line-height: 36px;
+        }
+        h2 {
+            color: #165aa7;
+            font-weight: bold;
+            font-size: 24px;
+        }
+        ul {
+            margin-bottom: 1em;
+            padding-left: 1em;
+            color: #363636;
+            list-style-type: disc;
+        }
+        img {
+            display: block;
+            margin: 0 auto;
+        }
+    }
+}

@@ -1,0 +1,44 @@
+main .index .tabs {
+    li {
+        @extend %clearfix;
+        padding: 30px 25px 10px;
+        @at-root {
+            main .index .tabs.tab1 li:nth-of-type(even) {
+                background-color: #fff;
+            }
+        }
+        @at-root {
+            main .index .tabs.tab2 li:nth-of-type(odd) {
+                background-color: #fff;
+            }
+        }
+        p {
+            line-height: 28px;
+        }
+        a {
+            float: right;
+            color: #da2d2f;
+            font-size: 12px;
+            line-height: 2.3;
+            @media (min-width: $mobile-width) {
+                font-size: 14px;
+            }
+        }
+    }
+    &-nav {
+        display: flex;
+        margin-top: 20px;
+        justify-content: center;
+        a {
+            @include btn(27px, 27px, #78c2c7, #fff, 50%);
+            box-shadow: 0 0 0 2px #78c2c7, 0 0 0 3px #fff;
+            &.active {
+                background-color: #d6494a;
+                color: #fff;
+            }
+            & + a {
+                margin-left: 16px;
+            }
+        }
+    }
+}

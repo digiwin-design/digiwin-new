@@ -1,0 +1,83 @@
+{
+    "links": {
+        "anchor": [
+            { "href": "#section1", "text": "講師" },
+            { "href": "#section2", "text": "議程" },
+            { "href": "#section3", "text": "場次" }
+        ],
+        "external": [
+            {
+                "desktop": {
+                    "href": "http://www.digiwin.com/tw/dsc/activity/WB002941/WB00294102_EDM.html",
+                    "text": "會後花絮"
+                },
+                "mobile": {
+                    "href": "http://www.digiwin.com/tw/dsc/activity/WB002941/WB00294102_EDM.html",
+                    "text": "會後<br>花絮"
+                }
+            },
+            {
+                "desktop": {
+                    "href": "http://acpms.digiwin.com/WebRegACT/index.html?gNo=2019030009",
+                    "text": "我要報名"
+                },
+                "mobile": {
+                    "href": "http://acpms.digiwin.com/WebRegACT/index.html?gNo=2019030009",
+                    "text": "我要<br>報名"
+                }
+            },
+            {
+                "desktop": {
+                    "href": "/tw/contact/eform.html",
+                    "text": "0800009890"
+                },
+                "mobile": {
+                    "href": "tel:0800009890",
+                    "text": ""
+                }
+            }
+        ]
+    },
+    "slides": {
+        "casts": [
+            {
+                "name": "王緒斌 博士",
+                "position": "美國喬治亞<br>理工學院首席製造 執行長"
+            },
+            {
+                "name": "周忠信 博士",
+                "position": "東海大學<br>數位創新碩士學位 學程主任"
+            },
+            {
+                "name": "王智 博士",
+                "position": "治略資訊 創辦人"
+            }
+        ],
+        "castsPopup": [
+            {
+                "name": "王緒斌 博士",
+                "position": [
+                    "美國喬治亞理工學院首席製造執行長",
+                    "美國國家科學院、美國工程和<br>醫學院國家材料和製造 委員會主席"
+                ],
+                "desc": "王緒斌教授目前擔任美國喬治亞理工學院首席製造執行長與製造研究院院長。美國喬治亞理工學院製造研究院(Georgia Tech. Manufacturing Institute, GTMI)是整合基礎科學，工程科學，創新政策，自動化機器人，以及管理科學等不同領域之頂尖研究者與思想領導者; 並致力於解決當前製造業最艱難挑戰之新領域開拓者。他目前也擔任美國國家科學院、國家工程院及國家醫學院三院（National Academies of Sciences, Engineering and Medicine）聯合成立的美國國家材料與製造委員會(NMMB)的主席。王教授本次演講旨在通過檢視不同的觀點,視角與相關挑戰，提供一些較少被談論但非常重要範例為主題, 來說明所謂的智慧製造與智慧製造之未來. 例如混合系統，並重新定義先進製造，智慧製造系統的基本構建，總體製造生態系統準備與其技術的可擴展性。"
+            },
+            {
+                "name": "周忠信 博士",
+                "position": [
+                    "東海大學數位創新碩士學位學程主任",
+                    "東海大學軟體工程與技術中心主任",
+                    "亞洲物聯網聯盟理事長"
+                ],
+                "desc": "周忠信教授畢業於台灣大學機械工程系，在加入富士通電腦公司工作多年後，赴美獲得奧克拉荷馬大學(University of Oklahoma)計算機科學碩士與博士學位。周教授曾任職浙江大學計算機學院教授，也曾擔任鼎新電腦公司技術長。周教授並於2014至2017三年期間，擔任台灣軟體工程學會理事長。周教授目前主要專注於企業AI思維的推廣，並協助企業進行AI轉型。"
+            },
+            {
+                "name": "王智 博士",
+                "position": [
+                    "治略資訊 創辦人"
+                ],
+                "desc": "治略資訊的創辦人，治略資訊專精於機器學習、自然語言處理、大數據運算、與人工智能等領域，累積豐富的AI案例經驗，領先市場並開發出強大的產品模塊與解決方案，以科技化資訊服務整合者的定位和格局，擘劃未來企業AI藍圖。"
+            }
+        ]
+    }
+}

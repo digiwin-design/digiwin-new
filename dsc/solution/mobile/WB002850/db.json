@@ -1,0 +1,198 @@
+{
+    "index": {
+        "banner": [
+            {
+                "id": 1,
+                "title": "經營醫美產業就從<strong>創造服務差異</strong><br>從心拉緊顧客關係開始",
+                "desc": "據衛服部統計，醫美診所家數全省近2,000家，並持續展店中，經營醫美產業除了需不斷專注於專業技術的提昇，更需要提高診所的服務品質，以精緻客戶服務作為訴求，在治療過程中感受貼心週到的醫療品質，創造出差異化的品牌優勢，才能在眾多競爭者當中脫穎而出。",
+                "imgSrc": "images/index/hero-bg.jpg",
+                "url": "javascript:;"
+            }
+        ]
+    },
+    "brand": {
+        "banner": [
+            {
+                "id": 1,
+                "title": "服務優化培養客群，輕鬆傳遞好口碑",
+                "desc": "醫美產品各家商品與課療程看起來大同小異，消費者常搞不清楚差異在那裡？市面上只要出現新品牌或新廣告，沒有忠誠度的客戶很容易就被拉走，因此醫美診所發展獨特且完善的顧客服務流程，穩定課療程服務品質，才是留住優質好顧客，吸引更多顧客的基礎之道。",
+                "imgSrc": "images/brand/hero-bg.jpg",
+                "url": "javascript:;"
+            }
+        ],
+        "hoverBoxs": [
+            {
+                "imgSrc": "images/brand/icon-hoverbox1.png",
+                "title": "術後關懷",
+                "hoverText": "術後追蹤沒有落實聯繫，都是等到出了狀況，才知道沒有做好術後關懷與衛教...",
+                "color": "#ffac70"
+            },
+            {
+                "imgSrc": "images/brand/icon-hoverbox2.png",
+                "title": "服務流程",
+                "hoverText": "員工素質不高，連SOP是甚麼都不知道...也不依照規定確實執行療(課)程，執行不到位...",
+                "color": "#ff8f3d"
+            },
+            {
+                "imgSrc": "images/brand/icon-hoverbox3.png",
+                "title": "服務品質",
+                "hoverText": "員工流動率高，沒時間進行教育訓練，能力落差大，店長得額外花更多時間檢查或修正新人的錯誤，無法擁有穩定的服務品質，造成顧客流失...",
+                "color": "#ff720a"
+            },
+            {
+                "imgSrc": "images/brand/icon-hoverbox4.png",
+                "title": "預約場控",
+                "hoverText": "搞錯客戶預約日期，人來到現場才發現沒床位沒醫師？",
+                "color": "#bcc900"
+            },
+            {
+                "imgSrc": "images/brand/icon-hoverbox5.png",
+                "title": "客戶記錄",
+                "hoverText": "顧客來的時候，光找病歷就要花不少時間，顧客只能在現場等...",
+                "color": "#a4af00"
+            },
+            {
+                "imgSrc": "images/brand/icon-hoverbox6.png",
+                "title": "影像記錄",
+                "hoverText": "客戶不滿意作完雷射的結果， 想找出她術前、術後照片，卻不小心被同事刪掉了...",
+                "color": "#747c00"
+            }
+        ],
+        "caseTab": [
+            {
+                "title": "服務品質",
+                "subtitle": "預約、課療程SOP、服務記錄單",
+                "desc": "從預約、諮詢到訂購建立完善顧客服務流程，完整記錄顧客履歷及反應，確實解決顧客問題，提升顧客滿意度。",
+                "imgSrc": ["images/brand/case1.jpg"]
+            },
+            {
+                "title": "顧客關懷",
+                "subtitle": "系統設定簡訊、手機簡訊畫面",
+                "desc": "從預約提醒到術後追蹤，透過手機簡訊主動傳遞關懷心意。",
+                "imgSrc": ["images/brand/case2.jpg"]
+            },
+            {
+                "title": "影像管理",
+                "subtitle": "術前、術後影像歸檔調閱",
+                "desc": "影像統一歸檔至集團管理後，可調閱特定時間與特定顧客的術前、術後影像進行比對，呈現療程使用後的改變，促成顧客再次下單機會。",
+                "imgSrc": ["images/brand/case3.jpg"]
+            }
+        ]
+    },
+    "store": {
+        "banner": [
+            {
+                "id": 1,
+                "title": "打造最佳營運體系，從穩固發展基礎開始",
+                "desc": "經營醫美產業除了仰賴醫師的名氣與技術，內部經營管理同樣不可忽視，舉凡<strong>門店、顧客、課療程管理、服務品質、成本控制到耗材庫存</strong>，每一個環節均關係到利潤達成與否，兼具技術與服務特性的醫美產業，有那些經營重點需要關注？",
+                "imgSrc": "images/store/hero-bg.jpg",
+                "url": "javascript:;"
+            }
+        ],
+        "hoverBoxs": [
+            {
+                "imgSrc": "images/store/icon-hoverbox1.png",
+                "title": "快速展店",
+                "hoverText": "原有的診所營收都滿穩定的，怎麼開了新診所之後，反而赚的錢不如想像中的多...",
+                "color": "#ffac70"
+            },
+            {
+                "imgSrc": "images/store/icon-hoverbox2.png",
+                "title": "分店經營",
+                "hoverText": "新開診所內的前台、服務、結帳程序都沒標準化，急需要重新建置標準作業流程...",
+                "color": "#ff8f3d"
+            },
+            {
+                "imgSrc": "images/store/icon-hoverbox3.png",
+                "title": "分店財務",
+                "hoverText": "明明兩家店規定的流程與格式都一樣，為什麼每天報表都要拖到這麼晚才給，兩家店的資料也對不起來？",
+                "color": "#ff862e"
+            },
+            {
+                "imgSrc": "images/store/icon-hoverbox4.png",
+                "title": "退換課療程",
+                "hoverText": "買促銷組合的客戶說要退換課療程，但她已經用掉5堂，才說要換新推出的課療程，到底要補多少價差才不會虧錢？怎麼算阿？",
+                "color": "#ff6c00"
+            },
+            {
+                "imgSrc": "images/store/icon-hoverbox5.png",
+                "title": "轉分管理",
+                "hoverText": "總店的客戶要將已經購買的療程轉到其它分店的好友使用，轉分帳務好難處理...",
+                "color": "#bcc900"
+            },
+            {
+                "imgSrc": "images/store/icon-hoverbox6.png",
+                "title": "沙貨耗用",
+                "hoverText": "每天都叫人好好盤點了還是會錯，不是要用的時侯沒貨，不然就是放到過期...",
+                "color": "#a4af00"
+            },
+            {
+                "imgSrc": "images/store/icon-hoverbox7.png",
+                "title": "庫存效期",
+                "hoverText": "庫存和效期資料全依據現場回報的數字，來判斷什麼時候該進貨、進哪些、進多少？常常不準？",
+                "color": "#8c9600"
+            },
+            {
+                "imgSrc": "images/store/icon-hoverbox8.png",
+                "title": "營運分析",
+                "hoverText": "老闆想了解最近的客戶屬性與消費習慣分析，還要作成本與營收分析，但這些資料都用紙本記錄，怎麼分析啊？",
+                "color": "#6b7200"
+            },
+            {
+                "imgSrc": "images/store/icon-hoverbox9.png",
+                "title": "管理報表",
+                "hoverText": "每天光是整理當天的銷售、收款、退款、療程各項明細資料就花費超多時間...",
+                "color": "#ffac70"
+            },
+            {
+                "imgSrc": "images/store/icon-hoverbox10.png",
+                "title": "成本掌控",
+                "hoverText": "客戶買了課療程之後換來換去，當時買的是多少錢沒人知道，明明是促銷價(低價)最後卻換成了最新產品(高價)，損失的成本誰來負責？",
+                "color": "#ff8f3d"
+            }
+        ],
+        "caseTab": [
+            {
+                "title": "顧客管理",
+                "subtitle": "",
+                "desc": "從顧客踏入店內，透過諮詢師細心的接待過程，便逐步蒐集顧客喜好、行銷來源...等，可用來引導、推薦適合課療程或產品，也可作為行銷活動設計的有效參考資料。",
+                "imgSrc": ["images/store/case1-1.jpg", "images/store/case1-2.jpg"]
+            },
+            {
+                "title": "銷售管理",
+                "subtitle": "",
+                "desc": "提供預付消費模式與課療程退換轉分管理，客戶在購買課療程後，若有轉換需求，可選擇等值兌換其他產品或課療程，也可將已購買療程轉分給親朋好友使用。系統自動計算課療程剩餘價值，顧客剩餘課療程與價值一目了然。",
+                "imgSrc": ["images/store/case2.jpg"]
+            },
+            {
+                "title": "服務管理",
+                "subtitle": "",
+                "desc": "用「管理標準化」達成快速展店目標，透過建立現場服務流程可以有效引導現場人員依照標準操作，確保新診所的營運可以快速進入穩定期，達成業績目標。",
+                "imgSrc": ["images/store/case3.jpg"]
+            },
+            {
+                "title": "庫存管理",
+                "subtitle": "",
+                "desc": "針對庫存安全量、庫存效期作管理，主動提醒安全庫存，提供採購建議(補貨點/預測)，預警哪些產品快要到期，請美容師趕快用掉，避免不必要的損失。",
+                "imgSrc": ["images/store/case4.jpg"]
+            },
+            {
+                "title": "營收管理",
+                "subtitle": "",
+                "desc": "透過平台收集顧客喜好、年齡、性別、收入、活動區域、諮詢紀錄、消費紀錄、課後回饋，作為下次促銷活動定價與產品組合的參考依據。",
+                "imgSrc": ["images/store/case5.jpg"]
+            }
+        ]
+    },
+    "solution": {
+        "banner": [
+            {
+                "id": 1,
+                "title": "以「創造顧客幸福」為核心價值，建立有效的營運機制",
+                "desc": "近年全球醫美服務市場急速成長，亞洲地區也由韓國開始延燒到兩岸三地，據BCC市調機構資料指出，全球醫學美容市場至少有470億美元（約1.4兆元台幣）以上的規模；國內研究專家則估計台灣市場約為台幣800億元，但想在眾多的競爭者中脫穎而出，除了具備專業醫療技術，更需要提供穩定的服務品質，甚至可以依照顧客提供個人化的定製服務，以「創造顧客幸福」為核心價值，建立有效的營運機制，將是醫美服務能夠在現今的競爭者中，脫穎而出的關鍵。",
+                "imgSrc": "images/solution/hero-bg.jpg",
+                "url": "javascript:;"
+            }
+        ]
+    }
+}

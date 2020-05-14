@@ -1,0 +1,104 @@
+#navLink {
+	width: 100%;
+	min-width: 1000px;
+	height: 80px;
+	padding: 10px 0;
+	background-color: #ffffff;
+	font-family: Arial, "微軟正黑體";
+	text-align: center;	
+}
+
+.navLink {
+	position: absolute;
+	z-index: 999;
+	top: 602px;
+}
+
+.fixed {
+	position: fixed;
+	top: 0px;
+	width: 100%;
+	background-color: #f7f7f7;
+}
+
+#navLink > ul {
+	display: inline-block;
+}
+
+#navLink > ul > li{
+	float: left;
+	width: 140px;
+	height: 80px;
+	border-left: 1px solid #CCC;
+	text-indent: -9999px;
+}
+
+#navLink .link1 {
+	background: url(../images/link_01.png) no-repeat left top;
+}
+
+#navLink .link2 {
+	background: url(../images/link_02.png) no-repeat left top;
+}
+
+#navLink .link3 {
+	background: url(../images/link_03.png) no-repeat left top;
+}
+
+#navLink .link4 {
+	background: url(../images/link_04.png) no-repeat left top;
+}
+
+#navLink .link5 {
+	background: url(../images/link_05.png) no-repeat left top;
+}
+
+#navLink .link6 {
+	background: url(../images/link_06.png) no-repeat left top;
+}
+
+#navLink .link7 {
+	background: url(../images/link_07.png)  no-repeat left top;
+	border-right: 1px solid #CCC;
+}
+
+#navLink > ul > li > a {
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+
+#navLink .navLinks:hover {
+	background-position: right top;
+}
+
+#navLink .selected {
+	background-position: right top;
+}
+
+#navLink .subLink {
+	display: none;
+	text-align: center;
+	width: 140px;
+	margin-left: -1px;
+	padding-top: 10px;
+	border: 1px solid #CCC;
+	border-top: none;
+	background-color: #FFF;
+	text-indent: 0px;
+}
+
+#navLink .subLink > li {
+	width: 140px;
+	line-height: 40px;
+	font-size: 17px;
+}
+
+#navLink .subLink > li a {
+	display: block;
+}
+
+#navLink .subLink > li a:hover {
+	background-color: #1db580;
+	color: #FFF;
+}

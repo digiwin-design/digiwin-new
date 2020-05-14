@@ -1,0 +1,94 @@
+body {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+ul , li{
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+}
+img {
+	border: none;
+}
+
+
+#barNav {
+	font-family:Arial; 
+	width: 100%;
+	min-width: 1000px;
+	height: 35px;
+	background-color: #f4f5f5;
+	position: relative;
+	font-family: Arial, "新細明體", "微軟正黑體";
+	z-index:999995;
+}
+
+#barNav .logo {
+	float: right;
+	position: absolute;
+	top: 3px;
+	right: 45px;
+	z-index:999999;
+}
+
+#barNav .link {
+	float: left;
+	width: 465px;
+	text-align: center;
+	height: 35px;
+	margin-left: 30px;
+}
+
+#barNav .link>li {
+	float: left;
+	font-size: 13px;
+	color: #757373;
+	line-height: 35px;
+	text-align: center;
+}
+
+#barNav .link>li a {
+	font-size: 13px;
+	text-decoration: none;
+	color: #757373;
+	display: block;
+}
+#barNav .link>li:hover {
+	text-decoration: none;
+	color: #757373;
+	background-color: #e0e0e0;
+	line-height: 35px;
+}
+
+#barNav .link .Phone {
+	width: 120px;
+	font-weight: bold;
+}
+
+#barNav .link .Phone:hover , #nav .link .line:hover{
+	background-color: #f4f5f5;
+}
+
+#barNav .link .subLink {
+	display: none;
+	border:1px solid #757373;
+	border-top:none;
+	background-color:#FFF;
+	z-index:999995;
+}
+
+#barNav .link .subLink li a{
+	display:block;  
+	height:35px; 
+	padding-left:10px; 
+	color:#757373; 
+	text-align:left; 
+}
+
+#barNav .link .subLink li a:hover{
+	background:#f4f5f5;
+}

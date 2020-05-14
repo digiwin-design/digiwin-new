@@ -1,0 +1,56 @@
+<svg data-name="圖層 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1171 489">
+  <defs>
+    <linearGradient id="a" x1="430.73" y1="109.63" x2="718.52" y2="181.99" gradientUnits="userSpaceOnUse">
+      <stop offset=".17" stop-color="#1e61ae"/>
+      <stop offset=".74" stop-color="#a7d7f4"/>
+      <stop offset=".97" stop-color="#72c1b8"/>
+    </linearGradient>
+    <linearGradient id="b" x1="304.87" y1="341.67" x2="601.62" y2="341.67" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#b99217"/>
+      <stop offset=".64" stop-color="#cbc119"/>
+    </linearGradient>
+    <linearGradient id="c" x1="579.29" y1="271.93" x2="827.14" y2="434.86" gradientUnits="userSpaceOnUse">
+      <stop offset=".01" stop-color="#f4e038"/>
+      <stop offset=".24" stop-color="#bbdbc8"/>
+      <stop offset="1" stop-color="#008ea8"/>
+    </linearGradient>
+  </defs>
+  <g data-name="group1">
+    <path d="M570.16 0c-81.79 0-148.25 64.87-148.25 144.7 0 72.93 55.26 133 127.07 143.25a156 156 0 0 0 21.18 1.42 150.39 150.39 0 0 0 71.57-17.81c1.46-.95 3.17-1.67 4.63-2.62a146.76 146.76 0 0 0 61.34-69.84 140.29 140.29 0 0 0 11-54.4C718.66 64.87 652.2 0 570.16 0zm40.17 218.1a87 87 0 0 1-40.17 9.74c-47 0-85-37.29-85-83.14s38-82.92 85-82.92 85.2 37.07 85.2 82.92c0 29.93-16.31 56.06-40.41 70.79-1.46.95-3.16 1.66-4.62 2.61" transform="translate(0 -.02)" fill-rule="evenodd" fill="url(#a)"/>
+    <path d="M453.12 197c-81.79 0-148.25 64.86-148.25 144.68 0 80.06 66.46 144.68 148.25 144.68 82 0 148.5-64.62 148.5-144.68 0-79.82-66.46-144.68-148.5-144.68zm0 227.83c-47 0-85-37.3-85-83.15s38-82.91 85-82.91 85.2 37.06 85.2 82.91-38.22 83.15-85.2 83.15" transform="translate(0 -.02)" fill-rule="evenodd" fill="url(#b)"/>
+    <path d="M707.67 199.12A146.78 146.78 0 0 1 646.35 269a86.71 86.71 0 0 1 39.91-9.75c47.2 0 85.16 37.3 85.16 83.16s-38 82.91-85.16 82.91c-47 0-84.92-37.06-84.92-82.91v-.72h-63.26v.72c0 79.82 66.42 144.68 148.18 144.68 82 0 148.42-64.86 148.42-144.68 0-72.94-55.23-133.28-127-143.26" transform="translate(0 -.02)" fill-rule="evenodd" fill="url(#c)"/>
+    <text transform="translate(537.98 126.94)" font-size="33.882" font-family="MicrosoftJhengHeiBold,Microsoft JhengHei">
+      帳料<tspan x="-33.88" y="40.66">精準一致</tspan>
+    </text>
+    <text transform="translate(419.26 331.89)" font-size="33.882" font-family="MicrosoftJhengHeiBold,Microsoft JhengHei">
+      庫存<tspan x="-33.88" y="40.66">管理透明</tspan>
+    </text>
+    <text transform="translate(646.71 331.89)" font-size="33.882" font-family="MicrosoftJhengHeiBold,Microsoft JhengHei">
+      降低<tspan x="-33.88" y="40.66">人力負荷</tspan>
+    </text>
+  </g>
+  <g data-name="group2">
+    <text transform="translate(790.72 84.64)" font-size="33.882" fill="#2192e8" font-family="MicrosoftJhengHeiBold,Microsoft JhengHei" letter-spacing="-.009em">
+      如何達<tspan x="100.73" y="0" letter-spacing="0em">到</tspan>
+    </text>
+    <text transform="translate(793.58 129.42)" font-size="30.117" font-family="MicrosoftJhengHeiRegular,Microsoft JhengHei">
+      以行動工具串接系統，<tspan x="0" y="36.14">達到即時過帳</tspan>
+    </text>
+  </g>
+  <g data-name="group2">
+    <text transform="translate(.09 366.41)" font-size="33.882" fill="#af8f0b" font-family="MicrosoftJhengHeiBold,Microsoft JhengHei">
+      <tspan letter-spacing="-.009em">如何管</tspan><tspan x="100.73" y="0">理</tspan>
+    </text>
+    <text transform="translate(0 413.95)" font-size="29.681" font-family="MicrosoftJhengHeiRegular,Microsoft JhengHei">
+      <tspan letter-spacing=".015em">降低存貨成本，以採購</tspan><tspan x="0" y="35.62" letter-spacing=".015em">規劃與齊</tspan><tspan x="120.51" y="35.62">料，</tspan><tspan x="179.87" y="35.62" letter-spacing=".015em">管理減少</tspan><tspan x="0" y="71.24" letter-spacing=".015em">缺料對生產衝</tspan><tspan x="180.76" y="71.24">擊</tspan>
+    </text>
+  </g>
+  <g data-name="group2">
+    <text transform="translate(870.68 366.41)" font-size="33.882" fill="#4ca3a8" font-family="MicrosoftJhengHeiBold,Microsoft JhengHei" letter-spacing="-.009em">
+      如何降<tspan x="100.73" y="0" letter-spacing="0em">低</tspan>
+    </text>
+    <text transform="translate(869.81 413.95)" font-size="29.681" font-family="MicrosoftJhengHeiRegular,Microsoft JhengHei">
+      <tspan letter-spacing=".015em">引進自動化設備快速查</tspan><tspan x="0" y="35.62" letter-spacing=".015em">找料件</tspan><tspan x="90.38" y="35.62">，</tspan><tspan x="120.06" y="35.62" letter-spacing=".015em">降低人力成</tspan><tspan x="270.69" y="35.62">本</tspan>
+    </text>
+  </g>
+</svg>

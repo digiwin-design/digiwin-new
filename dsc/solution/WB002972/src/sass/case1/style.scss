@@ -1,0 +1,91 @@
+@import '../common';
+@import 'components';
+
+main {
+    $bg: (
+        section2: #efefef,
+        section4: #efefef,
+        section5: #e94545,
+        section6: #7a93d2,
+        section7: #faa746,
+    );
+    @each $key, $color in $bg {
+        .#{$key} {
+            background-color: $color;
+        }
+    }
+    article:not(.section1):not(.section4):not(.section5) {
+        padding-bottom: 60px;
+    }
+    .section1 {
+        padding-top: 2em;
+        padding-bottom: 25px;
+        @media (min-width: $content-width) {
+            padding-top: 70px;
+            padding-bottom: 35px;
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            @media (min-width: $content-width) {
+                align-items: flex-start;
+            }
+        }
+        .text {
+            padding-bottom: 20px;
+            width: 100%;
+            @media (min-width: $tablet-width + 1) {
+                padding-left: 43px;
+                width: percentage(700 / 1200);
+                order: 1;
+            }
+            &__quote {
+                @include quoteBlock();
+            }
+        }
+        .img {
+            width: 100%;
+            text-align: center;
+            @media (min-width: $tablet-width + 1) {
+                width: percentage(500 / 1200);
+            }
+        }
+        // .video {
+        //     width: 100%;
+        //     @media (min-width: $tablet-width + 1) {
+        //         width: percentage(500 / 1200);
+        //     }
+        //     &__container {
+        //         @include youtubeIframe();
+        //     }
+        // }
+        hgroup {
+            margin-bottom: 5px;
+            text-align: center;
+            letter-spacing: getLetterSpacing(75);
+            line-height: 1;
+            @media (min-width: $tablet-width + 1) {
+                margin-bottom: 10px;
+                text-align: left;
+            }
+        }
+        h1 {
+            margin-bottom: 8px;
+            color: #b4011e;
+            font-weight: bold;
+            font-size: 32px;
+        }
+        h2 {
+            color: #717171;
+            font-weight: bold;
+            font-size: 27px;
+        }
+    }
+    .section5 {
+        padding-bottom: 30px;
+        @media (min-width: $tablet-width + 1) {
+            padding-bottom: 0;
+        }
+    }
+}

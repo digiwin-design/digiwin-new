@@ -1,0 +1,27 @@
+main {
+    color: #000;
+    word-wrap: break-word;
+    font-size: 100%;
+    line-height: 1;
+    .container {
+        padding: 0;
+        width: auto;
+    }
+    h1,
+    h2,
+    h4,
+    h5 {
+        padding: 0;
+        color: inherit;
+        font-weight: normal;
+        font-size: 100%;
+        line-height: inherit;
+    }
+    i {
+        font-style: normal;
+    }
+    table {
+        width: auto;
+        border-spacing: 0;
+    }
+}

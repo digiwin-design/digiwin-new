@@ -1,0 +1,54 @@
+main .WB00247601_repair {
+    .header {
+        @include headerBg('WB00247601_repair/header-bg.jpg');
+        h1 {
+            color: #06effe;
+            font-weight: normal;
+            font-size: 30px;
+            &::first-line {
+                color: #fff;
+                font-weight: bold;
+            }
+        }
+        strong {
+            color: #fafa3b;
+            font-weight: bold;
+            font-size: 36px;
+        }
+    }
+    .section1 {
+        padding-bottom: 40px;
+        color: #555;
+        &-content {
+            line-height: 30px;
+        }
+    }
+    .section2 {
+        padding-bottom: 50px;
+        background-color: #186f85;
+        text-align: center;
+        h1 {
+            color: #fff;
+        }
+    }
+    .section3 {
+        padding-bottom: 50px;
+        h2 {
+            margin-bottom: .5em;
+            color: #003a65;
+            text-align: center;
+            font-weight: bold;
+            font-size: 30px;
+            &:nth-of-type(2) {
+                margin-top: 25px;
+            }
+            strong {
+                vertical-align: middle;
+                font-size: 50px;
+            }
+        }
+        .el-collapse-item:nth-child(5) .el-collapse-item__header {
+            height: 75px;
+        }
+    }
+}

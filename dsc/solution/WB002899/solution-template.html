@@ -1,0 +1,73 @@
+<template v-if="results">
+    <article class="section1">
+        <div class="container">
+            <h1 class="title">有效管理工案、現場、資金及財務<br>就必須確實執行下列各項流程</h1>
+            <ul id="section1-items" class="section1-items">
+                <li v-for="(result, index) in results">
+                    <section>
+                        <a :href="result.id" class="section1-icon" @click.prevent="goSection">
+                            <img :src="'https://www.digiwin.com/tw/dsc/solution/WB002899/images/solution/section1-icon' + (index+1) + '.png'"
+                                alt="">
+                        </a>
+                        <h1 class="section1-listTitle">{{result.title}}</h1>
+                        <ul class="section1-list js-section1-list">
+                            <li v-for="(category, index) in result.categories">
+                                <a :href="'#' + result.id + '-' + (index+1)" @click.prevent="goSlider">{{category.title}}</a>
+                            </li>
+                        </ul>
+                    </section>
+                </li>
+            </ul>
+            <img src="https://www.digiwin.com/tw/dsc/solution/WB002899/images/income/arrow-down.png" class="section1-arrow"
+                alt="">
+        </div>
+    </article>
+
+    <div id="section2" class="section2">
+        <article :id="result.id" :class="result.id + ' js-' + result.id" v-for="result in results">
+            <h1 class="title">{{result.title}}</h1>
+            <template v-for="(category, index) in result.categories" v-if="result.categories.length > 1">
+                <input type="radio" :name="result.id" :id="result.id + '-' + (index+1)" v-if="index">
+                <input type="radio" :name="result.id" :id="result.id + '-' + (index+1)" v-else checked>
+            </template>
+            <div class="section2-nav" v-if="result.categories.length > 1">
+                <label :for="result.id + '-' + (index+1)" v-for="(category, index) in result.categories">{{category.title}}</label>
+            </div>
+            <div class="section2-content">
+                <div class="section2-slider">
+                    <section v-for="(category, index) in result.categories">
+                        <div class="container">
+                            <h1>{{category.title}}</h1>
+                            <p v-html="category.content"></p>
+                            <img :src="'https://www.digiwin.com/tw/dsc/solution/WB002899/images/solution/' + result.id + '-' + (index+1) + '-illust.png'"
+                                alt="">
+                            <div class="solutionbtn">
+                            <a href="#contact" class="more_block js-nav">了解更多詳情</a> 
+                            <a href="https://www.digiwin.com/tw/zlsq.html?id=2011"  target="_blank" class="dl_block">型錄下載</a> 
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </article>
+    </div>
+
+    <div id="section2-mb" class="section2-mb">
+        <template v-for="result in results">
+            <template v-for="(category, index) in result.categories">
+                <div :class="'section2-mb-header ' + result.id + ' js-' + result.id">
+                    <p class="section2-mb-title">{{category.title}}</p>
+                    <p class="section2-mb-description" v-html="category.content"></p>
+                </div>
+                <div :class="'section2-mb-content ' + result.id">
+                    <img :src="'https://www.digiwin.com/tw/dsc/solution/WB002899/images/solution/' + result.id + '-' + (index+1) + '-illust.png'"
+                        alt="">
+                     <div class="solutionbtn">   
+                    <a href="#contact" class="more_block js-nav">了解更多詳情</a> 
+                    <a href="https://www.digiwin.com/tw/zlsq.html?id=2011"  target="_blank" class="dl_block">型錄下載</a> 
+                    </div>
+                </div>
+            </template>
+        </template>
+    </div>
+</template>

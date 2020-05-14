@@ -1,0 +1,640 @@
+@import '../common';
+@import 'components';
+
+main {
+    a i.fa {
+        font-size: 16px;
+    }
+
+    /* ==================== banner style ==================== */
+    #indBanner {
+        background: url('../../images/index/bg_banner.jpg') no-repeat center center;
+    }
+
+    #indBanner h1 {
+        color: #927f5a;
+    }
+
+    #indBanner .pageDesc {
+        width: 410px;
+    }
+
+
+    /*-----------------*/
+    /*----------------------------*/
+    #problems {
+        margin-top: 60px;
+        padding-bottom: 0;
+        background: url(../../images/demand_bg1.png) no-repeat center bottom;
+        font-family: '微軟正黑體', '新細明體', Arial, Helvetica, sans-serif;
+    }
+
+    .demand {
+        position: relative;
+        overflow: hidden;
+        padding: 70px 0;
+        min-width: 1000px;
+        width: 100%;
+        font-size: 16px;
+        line-height: 28px;
+    }
+    .sectionNote {
+        padding: 0 30px;
+        text-align: justify;
+
+/*font-size: 16px;*/
+        line-height: 27px;
+    }
+
+    .highLight {
+        color: #ff5454;
+        font-weight: bold;
+    }
+    .imgNote {
+        text-align: center;
+        font-size: 13px;
+    }
+
+    #problems .chart {
+        position: relative;
+        margin: 25px 0;
+        height: 495px;
+        background: url(../../images/index/demand_table_bg.png) no-repeat left top;
+    }
+
+    #problems .chart .left {
+        position: absolute;
+        top: 19px;
+        left: 49px;
+        z-index: 5;
+        margin: 0 0 0 19px;
+        padding: 12px 38px 0 50px;
+        width: 507px;
+        height: 495px;
+        background: url(../../images/index/demand_chartDesbg.png) no-repeat left top;
+    }
+
+    #problems .chart .left li {
+        margin: 0 0 19px;
+        color: #666;
+        font-size: 18px;
+        line-height: 23px;
+    }
+
+    #problems .chart .left li.highLight {
+        color: #fff;
+        font-weight: bold;
+    }
+
+    #problems .chart .right {
+        position: absolute;
+        top: 16px;
+        right: 255px;
+        z-index: 4;
+        margin-top: 7px;
+        width: 465px;
+        color: #fff;
+        text-align: right;
+    }
+
+    #problems .chart .right li {
+        margin: 0 0 16px;
+        width: 0;
+        height: 50px;
+        background-color: #cca453;
+        line-height: 50px;
+    }
+
+    #problems .chart .right .digital {
+        display: none;
+        margin-right: 15px;
+        font-size: 18px;
+    }
+
+    #problems .chart .right .problem03,
+    #problems .chart .right .problem04,
+    #problems .chart .right .problem05,
+    #problems .chart .right .problem06 {
+        background-color: #c8c8c8;
+    }
+
+    #problems .callIn {
+        margin-top: 60px;
+        background: url(../../images/demand_callin_bg.png) no-repeat center bottom;
+    }
+
+    #problems .callIn01 {
+        margin-left: 270px;
+    }
+
+    #problems .callIn02 {
+        margin: -40px 0 0 20px;
+    }
+
+    #problems .callIn03 {
+        margin: 10px 0 30px 120px;
+    }
+
+
+    /*------------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /* ==================== service style ==================== */
+    #service {
+        background: url('../../images/index/bg_problems.jpg') no-repeat center center;
+        color: #fff;
+    }
+
+    #service .jobProblem:hover .handTop {
+        -webkit-animation-play-state: paused;
+                animation-play-state: paused;
+    }
+
+    #service .txt {
+        float: left;
+        overflow: hidden;
+        padding: 0 15px;
+        cursor: pointer;
+    }
+
+    #service .txt .outline {
+        position: relative;
+        overflow: hidden;
+        padding: 30px 0;
+        border-radius: 2px;
+        background-color: #0482b7;
+    }
+
+    #service .txt .nameLayer {
+        position: relative;
+        z-index: 2;
+        text-align: center;
+    }
+
+    #service .txt .nameLayer p {
+        margin-top: 8px;
+        text-align: inherit;
+        font-weight: bold;
+        font-size: 24px;
+    }
+
+    #service .txt .txtLayer {
+        position: absolute;
+        top: 50%;
+        left: 0;
+        padding: 0 10px;
+        -webkit-transform: translateY(-50%);
+            -ms-transform: translateY(-50%);
+                transform: translateY(-50%);
+    }
+
+    #service .txt .txtLayer p {
+        float: left;
+        padding: 0 20px;
+    }
+
+    #service .txt .handTop {
+        position: absolute;
+        top: 95%;
+        left: 50%;
+        font-size: 24px;
+        -webkit-transform: translateX(-50%);
+            -ms-transform: translateX(-50%);
+                transform: translateX(-50%);
+        -webkit-animation: handTop 1.5s infinite;
+                animation: handTop 1.5s infinite;
+        -webkit-animation-timing-function: ease-out;
+                animation-timing-function: ease-out;
+    }
+
+    @-webkit-keyframes handTop {
+        0% {
+            top: 95%;
+        }
+        50% {
+            top: 87%;
+        }
+        100% {
+            top: 95%;
+        }
+    }
+
+    @keyframes handTop {
+        0% {
+            top: 95%;
+        }
+        50% {
+            top: 87%;
+        }
+        100% {
+            top: 95%;
+        }
+    }
+
+    #service .txt .mask {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        z-index: 3;
+        width: 100%;
+        height: 100%;
+    }
+
+    #service .txt01 {
+        width: 33.33333%;
+    }
+
+    #service .txt01 .outline {
+        background-color: #efba70;
+    }
+
+    #service .txt01 .txtLayer {
+        color: #f3c27f;
+    }
+
+    #service .txt01 .txtLayer p {
+        width: 100%;
+    }
+
+    #service .txt01 .mask {
+        background-color: rgba(200, 139, 54, .9);
+    }
+
+    #service .txt02 {
+        width: 33.33333%;
+    }
+
+    #service .txt02 .outline {
+        background-color: #b988b8;
+    }
+
+    #service .txt02 .txtLayer {
+        color: #bf91be;
+    }
+
+    #service .txt02 .txtLayer p {
+        width: 100%;
+    }
+
+    #service .txt02 .mask {
+        background-color: rgba(155, 92, 154, .9);
+    }
+
+
+    #service .txt03 {
+        width: 33.33333%;
+    }
+
+    #service .txt03 .outline {
+        background-color: #7ccdc4;
+    }
+
+    #service .txt03 .txtLayer {
+        color: #89d5cd;
+    }
+
+    #service .txt03 .txtLayer p {
+        width: 100%;
+    }
+
+    #service .txt03 .mask {
+        background-color: rgba(43, 191, 175, .9);
+    }
+
+
+
+
+
+    #service a.pageBtn-normal {
+        display: block;
+        margin: 30px auto 0;
+        background-color: transparent;
+        text-align: center;
+    }
+
+    #service a.pageBtn-normal:hover {
+        color: #2793f8;
+    }
+    /* ==================== business style ==================== */
+    #business .businessGroup {
+        margin-top: 50px;
+    }
+
+    #business .list {
+        float: left;
+        padding: 0 15px;
+        width: 25%;
+    }
+
+    #business img {
+        display: block;
+    }
+
+    #business .outline {
+        padding: 16px 16px 24px;
+        height: 100%;
+        border: 0px solid #ccc;
+        border-top: none;
+    }
+
+    #business .type {
+        display: inline-block;
+        padding: 1px 8px;
+        background-color: #666;
+        color: #fff;
+        font-size: 16px;
+    }
+
+    #business .name {
+        margin: 10px 0;
+        color: #ff5454;
+        text-align: center;
+        font-weight: bold;
+        font-size: 24px;
+    }
+
+    #business .desc {
+        font-size: 17px;
+    }
+
+
+
+    #business a.pageLink-bgColor {
+        float: right;
+        margin-top: 20px;
+        padding: 2px 8px;
+        font-size: 18px;
+        line-height: 27px;
+    }
+
+    #business a.pageLink-bgColor:hover {
+        color: #fff;
+    }
+    /*-------------MultiChannel------------------*/
+    #MultiChannel {
+        overflow: hidden;
+        margin: 0 auto;
+        width: 100%;
+        background: #fed5d1;
+    }
+
+    #Channelbox {
+        overflow: hidden;
+        margin: 0 auto;
+        width: 1080px;
+    }
+    #Channelbox .secLi1 a {
+        display: block;
+        float: left;
+        overflow: hidden;
+        margin: 30px 15px 0 15px; 
+        padding-top: 150px;
+        width: 150px;
+        background: url(../../images/index/MultiChannel/icon_01.png)top left no-repeat;
+        text-align: center ;
+        letter-spacing: 1px;
+        font-weight: bold;
+        font-size: 20px;
+        font-family: '微軟正黑體', '新細明體',Arial, Helvetica, sans-serif;
+        line-height: 32px;
+    }
+
+    #Channelbox .secLi2 a {
+        display: block;
+        float: left;
+        overflow: hidden;
+        margin: 30px 15px 0 15px; 
+        padding-top: 150px;
+        width: 150px;
+        background: url(../../images/index/MultiChannel/icon_02.png)top left no-repeat;
+        text-align: center ;
+        letter-spacing: 1px;
+        font-weight: bold;
+        font-size: 20px;
+        font-family: '微軟正黑體', '新細明體',Arial, Helvetica, sans-serif;
+        line-height: 32px;
+    }
+
+    #Channelbox .secLi3 a {
+        display: block;
+        float: left;
+        overflow: hidden;
+        margin: 30px 15px 0 15px; 
+        padding-top: 150px;
+        width: 150px;
+        background: url(../../images/index/MultiChannel/icon_03.png)top left no-repeat;
+        text-align: center ;
+        letter-spacing: 1px;
+        font-weight: bold;
+        font-size: 20px;
+        font-family: '微軟正黑體', '新細明體',Arial, Helvetica, sans-serif;
+        line-height: 32px;
+    }
+
+    #Channelbox .secLi4 a {
+        display: block;
+        float: left;
+        overflow: hidden;
+        margin: 30px 15px 0 15px; 
+        padding-top: 150px;
+        width: 150px;
+        background: url(../../images/index/MultiChannel/icon_04.png)top left no-repeat;
+        text-align: center ;
+        letter-spacing: 1px;
+        font-weight: bold;
+        font-size: 20px;
+        font-family: '微軟正黑體', '新細明體',Arial, Helvetica, sans-serif;
+        line-height: 32px;
+    }
+    #Channelbox .secLi5 a {
+        display: block;
+        float: left;
+        overflow: hidden;
+        margin: 30px 15px 0 15px; 
+        padding-top: 150px;
+        width: 150px;
+        background: url(../../images/index/MultiChannel/icon_05.png)top left no-repeat;
+        text-align: center ;
+        letter-spacing: 1px;
+        font-weight: bold;
+        font-size: 20px;
+        font-family: '微軟正黑體', '新細明體',Arial, Helvetica, sans-serif;
+        line-height: 32px;
+    }
+    #Channelbox .secLi6 a {
+        display: block;
+        float: left;
+        overflow: hidden;
+        margin: 30px 15px 0 15px; 
+        padding-top: 150px;
+        width: 150px;
+        background: url(../../images/index/MultiChannel/icon_06.png)top left no-repeat;
+        text-align: center ;
+        letter-spacing: 1px;
+        font-weight: bold;
+        font-size: 20px;
+        font-family: '微軟正黑體', '新細明體',Arial, Helvetica, sans-serif;
+        line-height: 32px;
+    }
+
+
+
+    #Channelbox .secLi1 a:hover,
+    #Channelbox .secLi2 a:hover,
+    #Channelbox .secLi3 a:hover,
+    #Channelbox .secLi4 a:hover,
+    #Channelbox .secLi5 a:hover,
+    #Channelbox .secLi6 a:hover {
+        overflow: hidden;
+        box-sizing: border-box;
+        background-position: top right;
+        background-repeat: no-repeat;
+        color: #c00;
+    }
+
+
+
+
+
+
+
+
+
+
+    /* ==================== case style ============
+      
+      
+      ======== */
+    #case .caseGroup {
+        margin-top: 50px;
+    }
+
+    #case .list {
+        float: left;
+        padding: 0 15px;
+        width: 33.3333%;
+    }
+
+    #case img {
+        display: block;
+    }
+
+    #case .outline {
+        padding: 16px 16px 24px;
+        height: 100%;
+        border: 1px solid #ccc;
+        border-top: none;
+    }
+
+    #case .type {
+        display: inline-block;
+        padding: 1px 8px;
+        background-color: #666;
+        color: #fff;
+        font-size: 16px;
+    }
+
+    #case .name {
+        margin: 10px 0;
+        color: #ff5454;
+        font-weight: bold;
+        font-size: 24px;
+    }
+
+    #case .desc {
+        font-size: 17px;
+    }
+
+    #case a:hover {
+        color: #fb7da7;
+    }
+
+    #case a.pageLink-bgColor {
+        float: right;
+        margin-top: 20px;
+        padding: 2px 8px;
+        font-size: 18px;
+        line-height: 27px;
+    }
+
+    #case a.pageLink-bgColor:hover {
+        color: #fff;
+    }
+
+
+    #case a.pageLink-outline {
+        display: block;
+        margin: 0 auto;
+        margin-top: 60px;
+        margin-bottom: 20px;
+        width: 500px;
+        background-color: #fff;
+        color: #ff5454;
+    }
+
+    #case a.pageLink-outline:hover {
+        color: #fff;
+    }
+
+
+
+    /* ==================== solution style ==================== */
+    #solution {
+        background-color: #fed5d1;
+    }
+
+    #solution img {
+        display: block;
+        margin: 0 auto;
+    }
+    /* ==================== receiptAD style ==================== */
+    #receiptAD {
+        overflow: hidden;
+        background: url('../../images/index/bg_receipt.jpg') no-repeat center center;
+        color: #fff;
+    }
+    #receipttext {
+        float: left;
+        margin-left: 40px;
+        padding: 20px;
+        width: 500px;
+        height: 400px;
+    }
+    #receiptimg {
+        display: block;
+        float: left;
+        width: 600px;
+        height: 500px;
+        background: url('../../images/index/img_receipt.png') no-repeat center center;
+    }
+
+
+    #receiptAD a.pageLink-outline {
+        background-color: #fff;
+        color: #ff5454;
+    }
+
+    #receiptAD a.pageLink-outline:hover {
+        color: #fff;
+    }
+}

@@ -1,0 +1,39 @@
+main .wall {
+    padding-bottom: 55px;
+    .sectionTitle > h1 {
+        color: #0c53aa;
+        font-weight: bold;
+    }
+    .case-item {
+        display: flex;
+        margin: -5px;
+        flex-wrap: wrap;
+        justify-content: center;
+        a {
+            @include btn(160px, 60px, #fff, #0f75bc, 10px);
+            margin: 5px;
+        }
+    }
+    section {
+        @extend %clearfix;
+        .top {
+            position: relative;
+            display: flex;
+            float: right;
+            color: #43aaf2;
+            align-items: center;
+            &::before {
+                margin-right: 3px;
+                width: 0;
+                height: 0;
+                border-width: 0 7px 14px 7px;
+                border-style: solid;
+                border-color: transparent transparent #266fb9 transparent;
+                content: '';
+            }
+            &::after {
+                @include clickableArea(false, 18px);
+            }
+        }
+    }
+}

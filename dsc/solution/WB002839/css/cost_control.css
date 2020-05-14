@@ -1,0 +1,402 @@
+@charset "utf-8";
+/* CSS Document */
+@import url("https://a1.digiwin.com/css/font-awesome.css");
+@import url("https://a1.digiwin.com/css/animate.css");
+@import url("https://a1.digiwin.com/css/hover.css");
+@import url("https://fonts.googleapis.com/earlyaccess/notosanstc.css");
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+
+.a1_ver_phone{display:none;}
+
+.header{background-image: url("../images/cost/header_bg.png"); background-position: center;height: 500px;}
+
+.header_wrap, .a1_wrap{width:100%;max-width: 1200px; margin: 0 auto;}
+
+.header .title {
+    font-size: 48px;
+    font-weight: bold;
+    color: #fffc00;
+    padding-top: 175px;
+}
+
+.header .content {
+    font-size: 26px;
+    color: #fff;
+    line-height: 1.5;
+    margin-top: 20px;
+    font-weight: 500;
+}
+.a1_wrap {
+    text-align: center;
+    padding-top: 65px;
+}
+.a1_p2{background-color:#cbe6e8;}
+.a1_title_main {
+    font-size: 36px;
+    color: #333333;
+}
+
+
+
+.a1_p2_content {
+    padding: 45px 0 110px;
+}
+.a1_p2_block * {
+    display: inline-block;
+}
+.a1_p2_block {
+    display: inline-block;
+    width: 370px;
+    height: 225px;
+    background-color: #01929d;
+    color: #fff;
+    margin: 0 10px;
+    vertical-align: top;
+    overflow: hidden;
+}
+
+.a1_p2_block.block_number2 {background-color: #038fb2;}
+.a1_p2_block.block_number3 {background-color: #1667ab;}
+
+
+
+
+
+
+.p2_block_content {
+    text-align: center;
+    padding-top: 30px;
+    line-height: 27px;
+}
+
+.p2_block_content p {
+    width: 100%;
+    font-size: 18px;
+    line-height: 27px;
+}
+.p2_block_content .slide_title_hl {
+    font-size: 18px;
+    display: inline;
+    font-weight: normal;
+    color: #ffe400;
+}
+.p2_block_hover {
+    display: inline-block;
+    width: 370px;
+    font-size: 20px;
+    position: relative;
+}
+
+p.move_arrow {
+    margin-top: 10px;
+    font-size: 30px;
+	
+	
+	
+	
+}
+
+.mask {
+    position: absolute;
+    top: 225px;
+    left: 0;
+    width: 370px;
+    height: 230px;
+    background-color: #01929d;
+    color: #ffffff;
+    opacity: 0;
+    z-index: 999;
+    overflow: hidden;
+}
+
+
+.a1_p2_block.block_number2 .mask {background-color: #038fb2;}
+.a1_p2_block.block_number3 .mask {background-color: #1667ab;}
+
+
+
+.a1_p2_block:hover .p2_block_hover p{
+    top: 300px;
+    opacity: 0;transition:all .3s; -webkit-transition:all .3s;
+}
+.a1_p2_block:hover .p2_block_hover{
+    background-color: unset;
+}
+
+.a1_p2_block:hover .mask {
+    top: -178px;
+    opacity: 1;
+    transition: all .3s;
+    -webkit-transition: all .3s;
+}
+
+.p2_mask_text {
+    text-align: center;
+    font-size: 18px;
+    padding: 90px 30px 0;
+    line-height: 24px;
+}
+
+
+
+
+.a1_p3 .block {
+    margin: 0 20px;
+    width: 33%;
+    max-width: 350px;
+    padding-top: 90px;
+    display: inline-block;
+    position: relative;
+    vertical-align: top;
+    padding-bottom: 50px;
+}
+
+.stamp {
+    position: absolute;
+    top: 27px;
+    left: 22%;
+}
+
+
+.a1_p3 .block p.title {
+    width: 100%;
+    max-width: 370px;
+    height: 68px;
+    background-color: #01929d;
+    line-height: 68px;
+    color: #fff;
+    font-size: 30px;    margin-top: 10px;
+}
+
+
+.a1_p3 .text_title {
+    font-size: 30px;
+    margin-top: 45px;
+    margin-bottom: 30px;
+}
+
+.a1_p3 .text_content {
+    max-width: 295px;
+    margin: 0 auto;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: left;
+    padding-left: 10px;
+}
+
+
+.a1_p3 .text_content p:before {
+    content: '';
+    width: 30px;
+    height: 30px;
+    background-image: url(../images/cost/check.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+}
+
+.a1_p3 .text_content p {
+    text-indent: -30px;
+}
+
+
+
+
+
+
+.a1_p4_content {
+    width: 100%;
+    padding: 0 15px;
+}
+
+
+.a1_p4 {
+    background-image: url(../images/cost/p4_bg.png);
+    background-position: center;
+    height: 544px;
+}
+.a1_p4 .a1_wrap {
+    text-align: left;
+}
+.a1_p4 .a1_wrap * {
+    display: inline-block;
+}
+.a1_p4 .a1_title_main {
+    font-size: 40px;
+    color: #f9fc04;
+    font-weight:500;
+    padding-bottom: 15px;
+    padding-top: 50px;
+    padding-right:15px;
+    padding-left:15px;
+}
+.a1_p4 p {
+    color: #fff;
+    font-size: 28px;
+    line-height: 48px;
+    padding-top: 15px;
+}
+
+
+section.a1_p5 {
+    background-color: #cbe6e8;
+}
+
+.a1_p5 .a1_title_content {
+    font-size: 18px;
+    margin: 10px 0 50px;
+    line-height: 30px;
+}
+.a1_p5_content {
+    padding-bottom: 90px;
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1200px) {	
+.header_wrap {
+    padding-left: 30px;
+}
+.a1_p2_block,.p2_block_hover,.mask  {
+    width: 300px;
+}
+.a1_p3 .block {
+    width: 30%;
+    max-width: 300px;
+    margin: 0 5px;
+}
+	.a1_p3 .text_content {
+    max-width: 270px;
+}
+
+
+
+
+}
+
+
+
+
+@media screen and (max-width: 992px) {	
+
+.a1_p2_block_wrap {
+    width: 350px;
+    margin: 0 auto;
+}
+.a1_p2_block, .p2_block_hover, .mask {
+    width: 334px;
+}
+
+.a1_p2_block {
+    margin: 15px 0;
+}
+	
+	
+.a1_p3 .block {
+    width: 100%;
+}	
+.a1_p3_content {
+    max-width: 350px;
+    margin: 0 auto;
+}	
+.a1_p3 .text_title {
+    margin: 40px 0 20px;
+}	
+	
+	
+.a1_p4 p {
+    font-size: 20px;
+    line-height:30px;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 450px) {	
+.header_wrap {
+    padding-left: 0;
+}
+section {
+    padding: 0 10px;
+}
+.header{background-image: url("../images/cost/phone/header_bg.png");height: 500px;}
+
+.header .content {
+    font-size: 20px;
+    line-height: 30px;
+}	
+	
+.header .title {
+    padding-top: 70px;
+}	
+	
+.header .title_wrap {
+    text-align: center;
+}	
+	
+	
+	.a1_p4 {
+    background-image: url(../images/cost/phone/p4_bg.png);
+    background-position: left;
+    height: auto;
+    background-repeat: no-repeat;
+}
+	
+	.a1_p4_content {
+    width: 100%;
+    padding: 0 15px;
+    font-size: 18px;
+}   
+	
+	.a1_p4 .a1_title_main {
+    font-size: 36px;
+    font-weight: normal;
+    padding: 20px 15px 10px 15px;
+}
+	
+	
+	.a1_p4 p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+	
+	.a1_p4 .a1_wrap {
+    padding-bottom: 500px;
+}
+	.a1_p5 .a1_title_content {
+    margin: 10px 0 20px;
+}
+	.a1_ver_phone{display:inline-block;}
+	.a1_ver_web{display:none;}
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

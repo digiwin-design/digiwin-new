@@ -1,0 +1,18 @@
+#link {width: 100%; min-width: 1000px; height: 95px; text-align: center; background-color: #FFF; z-index: 999; padding: 10px 0; font-family: "微軟正黑體", "新細明體";}
+.link {position: absolute; top: 605px; }
+.fixed {width: 100%; position: fixed; top: 0px; background-color: #f7f7f7;}
+#link > ul {width: 995px; padding: 0; margin: 0 auto;}
+#link > ul > li{width: 141px; height: 95px; float: left; border-left: 1px solid #CCC;  text-indent: -9999px;}
+#link .link1 {background: url(../images/link_01.png) no-repeat left top;}
+#link .link2 {background: url(../images/link_02.png) no-repeat left top;}
+#link .link3 {background: url(../images/link_03.png) no-repeat left top;}
+#link .link4 {background: url(../images/link_04.png) no-repeat left top;}
+#link .link5 {background: url(../images/link_05.png) no-repeat left top;}
+#link .link6 {background: url(../images/link_06.png) no-repeat left top;}
+#link .link7 {background: url(../images/link_07.png) no-repeat left top; border-right: 1px solid #CCC;}
+#link > ul > li > a {height: 95px; display: block;}
+.selected{background-position: right top;}
+#link .subLink { display: none; background-color: #FFF; text-align: center; width: 141px; border: 1px solid #CCC; border-top: none; margin-left: -1px; padding-top: 10px; text-indent: 0px;}
+#link .subLink > li {font-size: 17px; line-height: 40px; width: 141px;}
+#link .subLink > li a {display: block;}
+#link .subLink > li a:hover {background-color: #00a2a5; color: #FFF;}

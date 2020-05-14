@@ -1,0 +1,94 @@
+main .factoryLogistics {
+    .header {
+        @include headerBg('factoryLogistics/header-bg.jpg', 'factoryLogistics/header-bg.jpg', 100% 0);
+        h1 {
+            color: #fff;
+        }
+    }
+    article {
+        padding-bottom: 60px;
+    }
+    .section3,
+    .section5 {
+        background: image-url('factoryLogistics/content-bg.jpg') no-repeat 0 0/cover;
+    }
+    .section1 {
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        &-text {
+            margin-bottom: 2em;
+            font-size: 22px;
+            line-height: 30px;
+        }
+    }
+    .section2 {
+        img {
+            display: block;
+            margin: 0 auto;
+        }
+    }
+    .section3,
+    .section4 {
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .arrow-down {
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+    }
+    .section5 {
+        p {
+            margin-bottom: 1.5em;
+            line-height: 27px;
+        }
+        strong {
+            color: #ff7000;
+            font-weight: bold;
+        }
+        &-flow {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .arrow-right {
+            margin-right: 22px;
+            margin-left: 22px;
+        }
+    }
+    .section6 {
+        background-color: #002d45;
+        .container {
+            display: flex;
+            flex-direction: column;
+            height: 357px;
+            justify-content: space-around;
+            align-items: center;
+            &::before,
+            &::after {
+                content: '';
+            }
+        }
+        li {
+            display: flex;
+            color: #fff;
+            line-height: 33px;
+            &::before {
+                margin-right: 3px;
+                content: url(../images/factoryLogistics/list-icon.png);
+            }
+        }
+        a {
+            @include btn(300px, 37px, #ff0, transparent);
+            border: 1px solid #ff0;
+            border-radius: 5px;
+            font-weight: bold;
+            font-size: 16px;
+        }
+    }
+}

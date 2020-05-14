@@ -1,0 +1,8 @@
+@import 'common/variable';
+@import 'common/helpers';
+@import 'common/family';
+@import 'common/all';
+
+.video-container {
+    @include youtubeIframe();
+}

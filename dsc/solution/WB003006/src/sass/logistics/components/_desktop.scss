@@ -1,0 +1,44 @@
+main .desktop {
+    section {
+        padding-top: 70px;
+        padding-bottom: 90px;
+        &:nth-of-type(odd) {
+            background-color: #ffa1a1;
+        }
+        &:nth-of-type(even) {
+            background-color: #b2b2b2;
+        }
+        h1 {
+            margin: 0 auto 20px;
+            width: 128px;
+            height: 128px;
+            border: 2px solid #fff;
+            border-radius: 50%;
+            color: #fff;
+            text-align: center;
+            font-weight: bold;
+            font-size: 48px;
+            line-height: 128px;
+            @at-root {
+                main .desktop section:nth-of-type(odd) h1 {
+                    background-color: #ed3e3e;
+                }
+                main .desktop section:nth-of-type(even) h1 {
+                    background-color: #797979;
+                }
+            }
+        }
+        img {
+            display: block;
+            margin: 0 auto;
+        }
+    }
+    .section1-left-illust {
+        margin: 0 auto;
+        max-width: 1042px;
+    }
+    .section1-right-illust {
+        margin: 0 auto;
+        max-width: 834px;
+    }
+}

@@ -1,0 +1,68 @@
+@import '../common';
+@import '../WB002783_subPage';
+
+main {
+    background: url('../../images/bg_solution.jpg') no-repeat center center/cover fixed;
+    .section {
+        color: #fff;
+        h2 {
+            color: #ff0;
+            text-align: left;
+        }
+        .sectionNote {
+            padding: 0 0;
+            text-align: justify;
+        }
+        a {
+            color: #fff;
+        }
+        ul {
+            margin-top: 60px;
+        }
+        li {
+            float: left;
+            -webkit-box-sizing: border-box;
+                    box-sizing: border-box;
+            width: 20%;
+            text-align: center;
+            .imgStyle {
+                margin-bottom: 15px;
+                border-radius: 100%;
+                background-color: #00c2eb;
+            }
+        }
+    }
+    .header {
+        @include headerBg('bg_solutionBanner.jpg');
+    }
+    #MES {
+        background-color: rgba(0, 192, 209, .7);
+        li .imgStyle {
+            background-color: #00c0d1;
+        }
+    }
+    #SFT {
+        padding-bottom: 120px;
+        li .imgStyle {
+            background-color: #00a8ff;
+        }
+    }
+    #APS li:hover .imgStyle,
+    #MES li:hover .imgStyle,
+    #SFT li:hover .imgStyle {
+        background-color: #005d81;
+    }
+    #APS li:hover h3,
+    #MES li:hover h3,
+    #SFT li:hover h3 {
+        color: #ff0;
+    }
+    #APS,
+    #SFT {
+        h2,
+        h3,
+        p {
+            color: #03537c;
+        }
+    }
+}

@@ -1,0 +1,235 @@
+{
+    "links": {
+        "anchor": [
+            { "href": "#speaker", "text": "講師" },
+            { "href": "#schedule", "text": "場次" },
+            { "href": "#session", "text": "議程" }
+        ],
+        "external": [
+            {
+                "desktop": {
+                    "href": "/tw/dsc/activity/RTL/WB002993/WB00299306.html",
+                    "text": "活動花絮"
+                },
+                "mobile": {
+                    "href": "/tw/dsc/activity/RTL/WB002993/WB00299306.html",
+                    "text": "活動<br>花絮"
+                }
+            },
+            {
+                "desktop": {
+                    "href": "http://acpms.digiwin.com/WebRegACT/index.html?gNo=2019080007",
+                    "text": "我要報名"
+                },
+                "mobile": {
+                    "href": "http://acpms.digiwin.com/WebRegACT/index.html?gNo=2019080007",
+                    "text": "我要<br>報名"
+                }
+            },
+            {
+                "desktop": {
+                    "href": "/tw/contact/eform.html",
+                    "text": "0800009890"
+                },
+                "mobile": {
+                    "href": "tel:0800009890",
+                    "text": ""
+                }
+            }
+        ]
+    },
+    "casts": [
+        {
+            "id": 1,
+            "place": "台北場",
+            "company": "連鎖餐飲教父",
+            "name": "王品集團創辦人<br> 戴勝益",
+            "desc": "來自傳統製帽廠家族，1993年創立王品集團，歷年推出西堤、陶板屋、聚火鍋等十餘個差異化餐飲品牌，透過作業流程標準化且嚴謹的管理哲學，創造顧客獨特的消費經驗，王品集團在戴勝益的帶領下，成功立足競爭激烈的餐飲市場，成為台灣最大規模的餐飲王國。<br>2015年退休後投入書屋志業，積極推廣閱讀習慣亦為益品書屋創辦人。"
+        },
+        {
+            "id": 2,
+            "place": "台中場",
+            "company": "連鎖服務業教父",
+            "name": "客意比薩共同創辦人<br> 李明元<br> <i>(麥當勞前亞洲區副總裁)</i>",
+            "desc": "擁有單店、多店、跨國連鎖店實戰經驗，現任客意直火比薩合伙創辦人現任北京勺子課堂策略合夥人、東海大學餐旅研究所兼任副教授、上海交通大學海外教育學院教授、前頂新集團餐飲事業群副總裁<br>前麥當勞亞太區副總裁 1984年台灣麥當勞成立同年加入，從門市基層服務員做起，成為台灣麥當勞首位本土出身的總裁，升任亞洲區副總裁後，更是全球麥當勞管理階層位階最高的華人。<br>2016年與徐靜蕙共同創立客意直火比薩，親自操刀新創事業，開拓餐飲藍海。如今是縱橫兩岸的餐飲創客導師，帶領大家顛覆舊經濟。"
+        },
+        {
+            "id": 3,
+            "company": "將來商業銀行籌備處",
+            "name": "劉奕成 執行長",
+            "desc": "致力於金融相關領域超過20年，業務涵蓋投資銀行、企業金融、財富管理、風險控管等。曾擔任國泰世華金控副總、悠遊卡公司董事長、巴克萊銀行台北分行董事總經理、桃園捷運公司董事長、LINE BIZ PLUS北亞金融董事總經理。<br>2018年11月接任「將來商業銀行籌備處  執行長」，以客戶角度出發，將創意與巧思融合於金融服務與數位生活中，滿足多樣化的市場需求、推動臺灣純網銀的發展、開創更多友善積極的金融環境與創新服務。"
+        },
+        {
+            "id": 11,
+            "company": "將來商業銀行籌備處",
+            "name": "吳建頤 策略長",
+            "desc": ""
+        },
+        {
+            "id": 4,
+            "company": "商業發展研究院",
+            "name": "朱浩 副所長",
+            "desc": "國立臺灣大學國家發展研究所碩士畢業，專長領域包括經濟發展與貿易政策分析、經濟整合效益評估、可計算一般均衡模型建構與分析、東南亞經貿、新能源技術產業經濟效益分析、城市經濟與商圈發展及會展產業與活動經濟效益分析。<br>現任商研院 分項計畫負責任、副研究員及商業發展與策略研究所副所長。"
+        },
+        {
+            "id": 5,
+            "company": "工業技術研究院",
+            "name": "陳慧娟 組長",
+            "desc": "國立清華大學工業工程與工程管理研究所 碩士畢業，專長領域包括產業運籌服務模式與供應鏈管理、零售物流服務模式與智動化設計、企業績效管理、物流系統整合工程、運輸電子化與行動化(e/M)系統技術、國際物流知識領域研究分析等。<br>擔任經濟部多項物流專案計畫主持人，輔導近百家企業提升轉型，具有豐富的企業實戰經驗。"
+        },
+        {
+            "id": 12,
+            "company": "工業技術研究院",
+            "name": "洪筠緯 經理",
+            "desc": "國立交通大學工業工程與管理博士，專長領域包括物流管理、運輸智慧決策管理、行動化(e/M)系統技術、智慧商業科技應用等。<br>擔任亞洲矽谷智慧商業服務應用推動計畫 協同計畫主持人、商業服務生產力4.0先導計畫 協同計畫主持人、工研院服務系統科技中心生活物流服務組 經理/副理及工研院機械所、辨識與安全科技中心 研究員、「國際專案管理師」(PMP)、「國際斐陶斐榮譽學會」會員(80)"
+        },
+        {
+            "id": 6,
+            "company": "台北市電腦公會",
+            "name": "張雅婷 總監",
+            "desc": "現任台北巿電腦公會數位經濟推動中心總監及數位智慧推動聯盟、Open Data聯盟、企業綠色競爭尸聯盟秘書長，專注資料、AIoT、智慧零售及工業4.0等科技應用及趨勢及執行政府產業科技計畫。<br>經歷包括安永會計師事務行銷公關部經理與臺灣微軟整合行銷經理。目前擔任AI智慧應用服務發展環境推動計畫、資料經濟生態系推動計畫協同計畫及智造服務典範發展與市場推動計畫主持人，協助國內零售服務及製造業者進行數位轉型。"
+        },
+        {
+            "id": 7,
+            "company": "Lalamove",
+            "name": "賴根汎 行銷經理",
+            "desc": "昆士蘭科技大學行銷碩士，現任Lalamove行銷經理，曾任職於GOGOVAN行銷主任，上海1號店行銷運營，上海旺旺行銷課長，越南味丹消費品事業部行銷副處長。<br>Lalamove版圖擴大至亞洲15個城市，服務過2500萬用戶，2018年獲選為Google Play最具潛力的應用程式，目前在雙北擁有近萬間企業合作，並且與不同產業電商密切合作，如行動支付業「街口支付」、生鮮宅配業「愛上新鮮」、花卉網站「花道家」、零售產業「家樂福」、「頂好」。"
+        },
+        {
+            "id": 8,
+            "company": "拍檔科技",
+            "name": "吳道凱 資深處長",
+            "desc": "台灣大學國際企業研究所MBA 畢業，現任拍檔科技全球營運處資深處長、拍檔科技中國分公司 董事長、新加坡epoint system Ltd. 董事，曾任拍檔科技產品研發處 資深經理、佳世達行銷業務經理 、明碁電通業務經理、明基電通產品經理，專長領域包括產品策略規劃、專案時程管理、行銷策略分析、供應鏈管理、跨國企業營運管理。"
+        },
+        {
+            "id": 9,
+            "company": "鼎新電腦",
+            "name": "張進聰 資深副總裁",
+            "desc": "現任鼎捷集團資深副總裁，參與兩岸業營運管理以及市場推動決策計畫，25年來持續在零售業、餐飲業..等企業數位擔任轉型推手，於資訊化有著豐富經驗，同時也是鼎捷集團新零售推動關鍵策劃者。<br>中華民國資訊軟體協會理事、 上海台商協會顧問團 專家、鼎捷集團 資深副總裁、鼎捷集團 副總裁、鼎新電腦 副總裁、鼎新電腦流通事業群總經理。"
+        },
+        {
+            "id": 10,
+            "company": "鼎新電腦",
+            "name": "蘇明慧 總經理",
+            "desc": ""
+        }
+    ],
+    "features": [
+        {
+            "title": "全通路融合線上線下",
+            "content": "會員經營×精準行銷<br>多來客 常回購"
+        },
+        {
+            "title": "升級顧客體驗",
+            "content": "虛擬服務×有感場景<br>提高消費意願 加速成交時間"
+        },
+        {
+            "title": "強化營運效能",
+            "content": "金流×物流×資訊流<br>數據驅動決策 贏得商機"
+        }
+    ],
+    "events": [
+        {
+            "country": "台中場",
+            "date": "9.18",
+            "day": "三",
+            "location": "鼎新電腦台中公司 (中軟園區)",
+            "addr": "台中市大里區中興路一段161號",
+            "map": "https://goo.gl/Ct29pF",
+            "calendar": "https://calendar.google.com/calendar/render?action=TEMPLATE&trp=true&sf=true&output=xml&dates=20190918T053000Z/20190918T090000Z&details=詳細活動連結%0Ahttps://www.digiwin.com/tw/dsc/activity/RTL/WB002993/web/&location=台中市大里區中興路一段161號&text=鼎新新零售發佈會-開啟新零售，實現全域營銷&sprop=name:鼎新電腦&sprop=https://www.digiwin.com/tw/dsc/activity/RTL/WB002993/web/"
+        },
+        {
+            "country": "台北場",
+            "date": "9.24",
+            "day": "二",
+            "location": "大直典華5樓 繁華廳",
+            "addr": "台北市中山區植福路8號",
+            "map": "https://goo.gl/q98PnJ",
+            "calendar": "https://calendar.google.com/calendar/render?action=TEMPLATE&trp=true&sf=true&output=xml&dates=20190924T053000Z/20190924T090000Z&details=詳細活動連結%0Ahttps://www.digiwin.com/tw/dsc/activity/RTL/WB002993/web/&location=台北市中山區植福路8號&text=鼎新新零售發佈會-開啟新零售，實現全域營銷&sprop=name:鼎新電腦&sprop=http://www.digiwin.com/tw/dsc/activity/WB002926/web/"
+        }
+    ],
+    "schedules": [
+        {
+            "country": "台中場",
+            "list": [
+                {
+                    "content": "歡迎蒞臨",
+                    "cast": ""
+                },
+                {
+                    "content": "開場",
+                    "cast": ""
+                },
+                {
+                    "content": "<strong>開啟新零售．實現全域營銷</strong>",
+                    "cast": "<i class=\"company\">鼎新電腦 / </i>張進聰 資深副總裁"
+                },
+                {
+                    "content": "<strong>探討新零售．顧客體驗再升級</strong>",
+                    "cast": "<i class=\"company\">連鎖服務業教父 / </i><br>李明元 總裁 <i class=\"small\">(客意比薩共同創辦人,麥當勞前亞洲區副總裁)</i>"
+                },
+                {
+                    "content": "新零售心體驗&精美茶點",
+                    "cast": ""
+                },
+                {
+                    "content": "<strong>將來 × 新零售 多元跨界啟動無限可能</strong>",
+                    "cast": "<i class=\"company\">將來商業銀行籌備處 / </i>劉奕成 執行長"
+                },
+                {
+                    "content": "<strong>鼎新 × 新零售 虛實融合滾動無限商機</strong>",
+                    "cast": "<i class=\"company\">鼎新電腦   E流通暨休憩事業部 / </i>蘇明慧 總經理"
+                },
+                {
+                    "content": "<strong>《高峰對談》<br>產官學 × 新零售 多方觀點帶動無限發展</strong>",
+                    "cast": "主持人：<br><i class=\"company\">鼎新電腦 / </i>蘇明慧 總經理<br>與談人：<br><i class=\"company\">鼎新電腦 / </i>張進聰 資深副總裁<br><i class=\"company\">連鎖服務業教父 / </i>李明元 總裁<br><i class=\"company\">商業發展研究院 / </i>朱浩 副所長<br><i class=\"company\">工業技術研究院 / </i>洪筠緯 經理<br><i class=\"company\">Lalamove / </i>賴根汎 行銷經理<br><i class=\"company\">拍檔科技 / </i>吳道凱 資深處長"
+                },
+                {
+                    "content": "<strong>Q&A 交流</strong>",
+                    "cast": ""
+                }
+            ]
+        },
+        {
+            "country": "台北場",
+            "list": [
+                {
+                    "content": "歡迎蒞臨",
+                    "cast": ""
+                },
+                {
+                    "content": "開場",
+                    "cast": ""
+                },
+                {
+                    "content": "<strong>開啟新零售．實現全域營銷</strong>",
+                    "cast": "<i class=\"company\">鼎新電腦 / </i>張進聰 資深副總裁"
+                },
+                {
+                    "content": "<strong>探討新零售．顧客體驗再升級</strong>",
+                    "cast": "<i class=\"company\">連鎖餐飲教父 / </i><br>戴勝益 <i class=\"small\">(王品集團創辦人)</i>"
+                },
+                {
+                    "content": "新零售心體驗&精美茶點",
+                    "cast": ""
+                },
+                {
+                    "content": "<strong>將來 × 新零售 多元跨界啟動無限可能</strong>",
+                    "cast": "<i class=\"company\">將來商業銀行籌備處 / </i>吳建頤 策略長"
+                },
+                {
+                    "content": "<strong>鼎新 × 新零售 虛實融合滾動無限商機</strong>",
+                    "cast": "<i class=\"company\">鼎新電腦   E流通暨休憩事業部 / </i>蘇明慧 總經理"
+                },
+                {
+                    "content": "<strong>《高峰對談》<br>產官學 × 新零售 多方觀點帶動無限發展</strong>",
+                    "cast": "主持人：<br><i class=\"company\">鼎新電腦 / </i>蘇明慧 總經理<br>與談人：<br><i class=\"company\">鼎新電腦 / </i>張進聰 資深副總裁<br><i class=\"company\">商業發展研究院 / </i>朱浩 副所長<br><i class=\"company\">工業技術研究院 / </i>陳慧娟 組長<br><i class=\"company\">台北市電腦公會 / </i>張雅婷 總監<br><i class=\"company\">Lalamove / </i>賴根汎 行銷經理<br><i class=\"company\">拍檔科技 / </i>吳道凱 資深處長"
+                },
+                {
+                    "content": "<strong>Q&A 交流</strong>",
+                    "cast": ""
+                }
+            ]
+        }
+    ]
+}

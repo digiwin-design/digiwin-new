@@ -1,0 +1,11 @@
+
+<!--CSS-->
+<link href="http://www.digiwin.com/Library/css/bar.css" rel="stylesheet" type="text/css" />
+
+<!--JS-->
+<!--jQuery版本可視需求更改-->
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+
+<!--選單動態程式碼-->
+<script type="text/javascript" src="http://www.digiwin.com/Library/js/menu.js"></script>
+

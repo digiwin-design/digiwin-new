@@ -1,0 +1,111 @@
+main > .inventory {
+    .header {
+        @include bg('../images/inventory/header-bg.jpg');
+        height: image-height('inventory/header-bg.jpg');
+        .container {
+            display: flex;
+            flex-direction: column;
+            max-width: 568px;
+            height: 100%;
+            justify-content: center;
+            @media (max-width: $tablet-width - 1) {
+                padding-top: 2em;
+            }
+        }
+    }
+    article .container {
+        padding-bottom: 50px;
+    }
+    .sectionTitle {
+        margin-bottom: 1em;
+        color: #fff;
+    }
+    .section1 {
+        background-color: #756d51;
+    }
+    .section2 {
+        background-color: #2081b3;
+    }
+    .section3 {
+        @include bg('../images/inventory/section3-bg.jpg');
+        &-btn {
+            @include btn(520px, 65px, #fff, #f37f0e, 0, true);
+            margin: 33px auto 0;
+            font-size: 23px;
+        }
+        .container {
+            padding-top: 50px;
+        }
+        h1 {
+            color: #fff;
+            text-align: center;
+            font-weight: bold;
+            font-size: 22px;
+            line-height: 36px;
+        }
+        .swiper {
+            &-wrapper {
+                align-items: center;
+            }
+            &-slide {
+                display: flex;
+                flex-direction: column;
+                padding-right: 15px;
+                padding-left: 15px;
+                justify-content: center;
+                align-items: center;
+            }
+            &-button-prev,
+            &-button-next {
+                margin-top: -4px;
+            }
+            &-button-prev {
+                left: 15px;
+                background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABoAAAAyCAYAAABCtcuVAAAB8klEQVRYhbXYvXHjMBCG4Vc+x25AFbABXQNqAMg9zuVxznEBHuccO2cDiwZYgUIlUgNqwNlFuoCrG55+iCVAIJMAzjMgPi4BLshsp9NptN97vwKqh1zIgHwDFIOGSDHoEikCee/Xl8jskPfeA5+3+maDFHm/1z8LFEMAfuUiu90uigDbrBk550yIiLSLDOQFeDMgG0hcIyMiZwRg8owmIB/DPyZBqcgkyIg0ItLe6jBBuYgJmgOJQs65d8DnIqOQEfkQEYkhcOc5siIhBBMC8JiI1CGEzopcQUZkE0LYTkFgcOtKIqAzcs59A6uRcT/0tysJAXh0zq0MyGsIYZ+KQLx6z4JYoHYOxAK9aQkqDp2xm1uoKW0B5mjv6ZN3HP4Z2+T/BylmqdJXMZ8MKbbmzk7zojUhhDYZUqwCvoCnyLVdCKFOhhRb0s+sily/B2oROUbGjb6PnhQbqxqg6yYio+XJ8iq3JBJy9wyKWRIJ0IlInQwpZk3kHngVkZ8kSDFrIo/06/avTqZsiZf0R8elYXgtIl0SpJg1kQCtiDTJxxYFP4G1YWiTdeI7HA5dVVV/gN+RoXknPgB9dm5GethmOSzrgm/oq0Q5SLEt8Ewf7XKQYkfFrupeVurg/vvIez9MZFPs65bWvOb8u9iMzk0/Qi3/Auzl5Dr1TnsBAAAAAElFTkSuQmCC');
+                &.is-offset {
+                    top: calc(50% - 28px);
+                }
+            }
+            &-button-next {
+                right: 15px;
+                background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABoAAAAyCAYAAABCtcuVAAAB/UlEQVRYhb3XMU7jQBSA4Z/s1lyAE/gCcAEu8NxEFCv6oPQRB0Du0aZH27+ptqOjc0cacgEukI7KW3hiZRNn5o3H5kmR4vjFnyfz/GaCiNyLyDUDo2ka02vm89c5mCVmB+8nxWZHx5Nhx9Aeu/0OCKASkfI7IIDHMbEQNCoWg0bDZs65F6CeGrvYvxGRNRAr7Wd/Y100TWOCup/OObcANJK/FJF705XPQR57mgo7KYapsB99H26327eiKL6Am8B3b4qi+JrP5+8W6CJ00t/1MnKNZ1V9ieSEoTGxKJSAqao+ZUEeK4HHoZgZysWSII/dAlUqlgx57BpYp2CDoCHYYOgAq4DLQFqtqossyGMF8DuCLSwLXzBU9QN4AHahvGzoAAt2hlGgsiyjnaO3e6fEZrOpgLtI2t+fQwERuaKtuCKSqqpa5zywsbKGg64+pAVZOjnASlVf9wepTbUCYvvyHfDgK7EL63pknY8P2pF8Hp+wrLDW+ag90vvgjrFngMjqGoSM8wFDNycicknbJGPzAUeVFYr/WpDvxH8MyA745ZwzIQBdZzAu0QCfwMI5d1JZUUhEloBli1sDK+dccEnohXxlWZBX59wqFeggY97J/6IpoFXKpJ+L0MK3o530bATOj2hQZYWib0Q17TMyGgKnI8qqLCuUXVkWaJTKCsU/rLnz4ZipvKAAAAAASUVORK5CYII=');
+                &.is-offset {
+                    top: calc(50% - 28px);
+                }
+            }
+        }
+    }
+    .section4 {
+        @include bg('../images/inventory/section4-bg.jpg');
+        a {
+            $bgColor: #00b7ac #0085b7 #3eb02e;
+            position: relative;
+            display: block;
+            margin-right: auto;
+            margin-left: auto;
+            max-width: 416px;
+            height: 48px;
+            color: #fff;
+            text-align: center;
+            font-weight: bold;
+            font-size: 21px;
+            line-height: 48px;
+            @for $nth from 1 through 3 {
+                &:nth-of-type(#{$nth}) {
+                    background-color: nth($bgColor, $nth);
+                }
+            }
+            & + a {
+                margin-top: 20px;
+            }
+            &::after {
+                @include imgBg('../images/inventory/section4-icon.png');
+                position: absolute;
+                top: 50%;
+                right: 18px;
+                content: '';
+                transform: translateY(-50%);
+            }
+        }
+    }
+}

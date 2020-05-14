@@ -1,0 +1,657 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>鼎新客服連線精靈 因互連 而升級</title>
+<style type="text/css">
+
+
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	font-family: "微軟正黑體";
+	font-size: 15px;
+	line-height: 22px;
+	color: #4C4C4C;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: left top;
+	background-color: #f4f3f3;
+}
+td {
+	font-family: "微軟正黑體";
+	font-size: 15px;
+	line-height: 24px;
+	letter-spacing:1px;
+	color: #464646;
+}
+.txt11w {
+	font-family: "微軟正黑體";
+	font-size: 11px;
+	line-height: 15px;
+	color: #ffffff;
+}
+.txt13{
+	font-family: "微軟正黑體";
+	font-size: 13px;
+	line-height: 24px;
+	letter-spacing:1px;
+	color: #464646;
+}
+.txt13w {
+	font-family: "微軟正黑體";
+	font-size: 13px;
+	line-height: 18px;
+	color: #ffffff;
+}
+.txt13a {
+	font-family: "微軟正黑體";
+	font-size: 13px;
+	line-height: 22px;
+	letter-spacing:1px;
+	color: #1382b6;
+}
+.txt13g1 {
+	font-family: "微軟正黑體";
+	font-size: 13px;
+	line-height: 22px;
+	color: #458645;
+}
+.txt13R{
+	font-family: "微軟正黑體";
+	font-size: 13px;
+	line-height: 22px;
+	letter-spacing:1px;
+	color: #e3185c;
+	font-weight: bold;
+}
+.txt13B{
+	font-family: "微軟正黑體";
+	font-size: 13px;
+	line-height: 22px;
+	letter-spacing:1px;
+	color: #0e90c2;
+	font-weight: bold;
+}
+.txt13O{
+	font-family: "微軟正黑體";
+	font-size: 13px;
+	line-height: 22px;
+	letter-spacing:1px;
+	color: #f05b26;
+	font-weight: bold;
+}
+.txt13Oa{
+	font-family: "微軟正黑體";
+	font-size: 13px;
+	line-height: 22px;
+	letter-spacing:1px;
+	color: #f05b26;
+}
+.txt13G{
+	font-family: "微軟正黑體";
+	font-size: 13px;
+	line-height: 22px;
+	letter-spacing:1px;
+	color: #458645;
+	font-weight: bold;
+}
+.txt12 {
+	font-family: "微軟正黑體";
+	font-size: 12px;
+	line-height: 1.5;
+	letter-spacing:1px;
+	color: #505050;
+}
+	.txt15 {
+	font-family: "微軟正黑體";
+	font-size: 15px;
+	line-height: 28px;
+	letter-spacing:1px;
+	color: #505050;
+}
+.txt15B {
+	font-family: "微軟正黑體";
+	font-size: 15px;
+	line-height: 28px;
+	letter-spacing:1px;
+	font-weight: bold;
+	color: #505050;
+}
+.txt15Bule {
+	font-family: "微軟正黑體";
+	font-size: 15px;
+	line-height: 28px;
+	letter-spacing:1px;
+	font-weight: bold;
+	color: #1A5BBD;
+}
+.txt15o {
+	font-family: "微軟正黑體";
+	font-size: 15px;
+	line-height: 28px;
+	letter-spacing:1px;
+	font-weight: bold;
+	color: #F02C0F;
+}
+.txt15r {
+	font-family: "微軟正黑體";
+	font-size: 15px;
+	line-height: 28px;
+	letter-spacing:1px;
+	font-weight: bold;
+	color: #E91237;
+}
+.txt15g {
+	font-family: "微軟正黑體";
+	font-size: 15px;
+	line-height: 28px;
+	letter-spacing:1px;
+	font-weight: bold;
+	color: #74b64a;
+}
+
+.txt15{
+	font-family: "微軟正黑體";
+	font-size: 15px;
+	line-height: 25px;
+    letter-spacing:1px;
+	color: #464646;
+}
+.txt22 {
+	font-family: "微軟正黑體";
+	font-size: 22px;
+	line-height: 35px;
+	color: #505050;
+	font-weight: bold;
+}
+.txt18 {
+	font-family: Arial, "微軟正黑體";
+	font-size: 18px;
+	line-height: 30px;
+	font-weight: bold;
+	color: #1B75BB;
+}
+.txt18B {
+	font-family: "微軟正黑體";
+	font-size: 18px;
+	line-height: 25px;
+	font-weight: bold;
+	color: #505050;
+}
+.txt18c {
+	font-family: "微軟正黑體";
+	font-size: 18px;
+	line-height: 30px;
+	font-weight: bold;
+	color: #E91237;
+}
+.txt19 {
+	font-family: "微軟正黑體";
+	font-size: 19px;
+	line-height: 25px;
+	font-weight: bold;
+	color: #505050;
+}
+.txt20 {
+	font-family: Arial, "微軟正黑體";
+	font-size: 20px;
+	line-height: 25px;
+	font-weight: bold;
+	color: #505050;
+}
+.txt20a {
+	font-family: "微軟正黑體","微軟正黑體";
+	font-size: 22px;
+	line-height: 31px;
+	font-weight: bold;
+	color: #db0505;
+}
+.txt20w {
+	font-family: "微軟正黑體";
+	font-size: 22px;
+	line-height: 31px;
+	font-weight: bold;
+	color: #FFFFFF;
+}
+.txt35b {
+	font-family: "微軟正黑體","微軟正黑體",Arial, Helvetica, sans-serif;
+	font-size: 35px;
+	line-height: 37px;
+	font-weight: normal;
+	color: #1B75BB;
+}
+.txt35o {
+	font-family: Arial, "微軟正黑體";
+	font-size: 35px;
+	line-height: 37px;
+	font-weight: normal;
+	color:#f05a22;
+}
+.txt35r {
+	font-family: Arial, "微軟正黑體";
+	font-size: 35px;
+	line-height: 37px;
+	font-weight: normal;
+	color:#E3185C;
+}
+.txt35g {
+	font-family: Arial, "微軟正黑體";
+	font-size: 35px;
+	line-height: 37px;
+	font-weight: normal;
+	color:#458645;
+}
+.topline {
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	border-top-color: #bebebe;
+}
+.topline_a {
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	border-top-color: #dcdbdb;
+}
+.lineLR {
+	border-left-width: 1px;
+	border-left-style: solid;
+	border-left-color: #dcdbdb;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #dcdbdb;
+}
+.lineLD {
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-bottom-color: #bebebe;
+	border-left-color: #bebebe;
+}
+.lineLDo {
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-bottom-color: #ffcb83;
+	border-left-color: #ffcb83;
+}
+.linedown {
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #bebebe;
+}
+.lineL {
+	border-left-width: 1px;
+	border-left-style: solid;
+	border-left-color: #bebebe;
+}
+.lineLR {
+	border-left-width: 1px;
+	border-left-style: solid;
+	border-left-color: #bebebe;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #bebebe;
+}
+.lineLa {
+	border-left-width: 1px;
+	border-left-style: solid;
+	border-left-color: #f6911d;
+}
+a:link {
+	font-family: "微軟正黑體";
+	font-size: 15px;
+	line-height: 20px;
+	color: #505050;
+	text-decoration: none;
+}
+a:visited {
+	font-family: "微軟正黑體";
+	font-size: 15px;
+	line-height: 20px;
+	color: #505050;
+	text-decoration: none;
+}
+a:hover {
+	font-family: "微軟正黑體";
+	font-size: 15px;
+	line-height: 20px;
+	color: #f05a28;
+	text-decoration: none;
+}
+a:active {
+	font-family: "微軟正黑體";
+	font-size: 15px;
+	line-height: 20px;
+	color: #B6B5B5;
+	text-decoration: none;
+}
+a.b:link {
+	font-family: "微軟正黑體";
+	font-size: 15px;
+	line-height: 20px;
+	color: #505050;
+	text-decoration: underline;
+}
+a.b:visited {
+	font-family: "微軟正黑體";
+	font-size: 15px;
+	line-height: 20px;
+	color: #505050;
+	text-decoration: underline;
+}
+a.b:hover {
+	font-family: "微軟正黑體";
+	font-size: 15px;
+	line-height: 20px;
+	color: #f05a28;
+	text-decoration: underline;
+}
+a.b:active {
+	font-family: "微軟正黑體";
+	font-size: 15px;
+	line-height: 20px;
+	color: #B6B5B5;
+	text-decoration: underline;
+}
+a.c:link {
+	font-family: "微軟正黑體";
+	font-size: 15px;
+	line-height: 21px;
+	color: #f05a22;
+	text-decoration: underline;
+}
+a.c:visited {
+	font-family: "微軟正黑體";
+	font-size: 15px;
+	line-height: 21px;
+	color: #f05a22;
+	text-decoration: underline;
+}
+a.c:hover {
+	font-family: "微軟正黑體";
+	font-size: 15px;
+	line-height: 21px;
+	color: #990000;
+	text-decoration: none;
+}
+a.c:active {
+	font-family: "微軟正黑體";
+	font-size: 15px;
+	line-height: 21px;
+	color: #f05a22;
+	text-decoration: underline;
+}
+a.d:link {
+	font-family: "微軟正黑體";
+	font-size: 15px;
+	line-height: 18px;
+	color: #ffffff;
+	text-decoration: none;
+}
+a.d:visited {
+	font-family: "微軟正黑體";
+	font-size: 15px;
+	line-height: 18px;
+	color: #ffffff;
+	text-decoration: none;
+}
+a.d:hover {
+	font-family: "微軟正黑體";
+	font-size: 15px;
+	line-height: 18px;
+	color: #FF6;
+	text-decoration: underline;
+}
+
+
+
+a.e:link {
+	font-family: "微軟正黑體";
+	font-size: 15px;
+	line-height: 21px;
+	color: #f05a22;
+	text-decoration: underline;
+}
+a.e:visited {
+	font-family: "微軟正黑體";
+	font-size: 15px;
+	line-height: 21px;
+	color: #f05a22;
+	text-decoration: underline;
+}
+a.e:hover {
+	font-family: "微軟正黑體";
+	font-size: 15px;
+	line-height: 21px;
+	color: #990000;
+	text-decoration: none;
+}
+a.e:active {
+	font-family: "微軟正黑體";
+	font-size: 15px;
+	line-height: 21px;
+	color: #f05a22;
+	text-decoration: underline;
+}
+a.f:link {
+	font-family: "微軟正黑體";
+	font-size: 15px;
+	line-height: 25px;
+	color: #464646;
+	text-decoration: none;
+}
+a.f:visited {
+	font-family: "微軟正黑體";
+	font-size: 15px;
+	line-height: 25px;
+	color: #464646;
+	text-decoration: none;
+}
+a.f:hover {
+	font-family: "微軟正黑體";
+	font-size: 15px;
+	line-height: 25px;
+	color: #990000;
+	text-decoration: underline;
+}
+a.f:active {
+	font-family: "微軟正黑體";
+	font-size: 15px;
+	line-height: 25px;
+	color: #464646;
+	text-decoration: none;
+}
+a.g:link {
+	font-family: "微軟正黑體";
+	font-size: 15px;
+	line-height: 26px;
+	color: #464646;
+	text-decoration: underline;
+}
+a.g:hover {
+	font-family: "微軟正黑體";
+	font-size: 15px;
+	line-height: 26px;
+	color: #24a75f;
+	text-decoration: none;
+}
+a.h:link {
+	font-family: "微軟正黑體","微軟正黑體",Arial, Helvetica, sans-serif;
+	font-size: 25px;
+	line-height: 1.5;
+	color: #000;
+	text-decoration: none;
+}
+a.h:hover {
+	font-family: "微軟正黑體","微軟正黑體",Arial, Helvetica, sans-serif;
+	font-size: 25px;
+	line-height: 1.5;
+	color: #039;
+	text-decoration: none;
+}
+
+a.i:link {
+	font-family: "微軟正黑體";
+	font-size: 15px;
+	line-height: 26px;
+	color: #0561a8;
+	text-decoration: underline;
+}
+a.i:hover {
+	font-family: "微軟正黑體";
+	font-size: 15px;
+	line-height: 26px;
+	color: #279df8;
+	text-decoration: none;
+}
+
+
+	</style>
+<link href="http://www.digiwin.com/service/WB002903/css/WB002903.css" rel="stylesheet" type="text/css" />
+
+
+</head>
+
+<body onLoad="MM_preloadImages('http://www.dsc.com.tw/event/WB001635/images/map2.jpg')"><table width="900" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td><table width="900" border="0" align="center" cellpadding="0" cellspacing="0">
+      <tr>
+        <td width="164" height="65" rowspan="2" valign="bottom" bgcolor="#F5F3F4"><a href="http://www.digiwin.com/" target="_blank"><img src="http://www.digiwin.com/latter_head_2013/images/dsc_out2013-1a.jpg" width="163" height="48" border="0" /></a></td>
+        <td height="32" colspan="3" align="right" valign="bottom" bgcolor="#F5F3F4"><span class="txt13">｜<a href="http://www.digiwin.com/solution.htm?tag#top" target="_blank">行業解決方案</a>｜<a href="http://www.digiwin.com/aboutYin_2.6.8.01.html" target="_blank">企業通電子報</a>｜</span><a href="https://www.youtube.com/user/DSCTCE00" target="_blank" title="鼎新影音頻道"><img src="http://www.digiwin.com/latter_head_2013/images/youtube.jpg" alt="鼎新影音頻道" width="25" height="25" border="0" align="absmiddle" /></a>　<a href="http://www.facebook.com/DSCmain" target="_blank" title="鼎新粉絲團"><img src="http://www.digiwin.com/latter_head_2013/images/fb.jpg" alt="鼎新粉絲團" width="25" height="25" border="0" align="absmiddle" /></a>　</td>
+      </tr>
+      <tr>
+        <td width="329" height="33" valign="bottom" bgcolor="#FFFFFF"><img src="http://www.digiwin.com/latter_head_2013/images/dsc_out2013-2a.jpg" width="329" height="33" /></td>
+        <td width="408" height="33" colspan="2" valign="bottom" bgcolor="#FFFFFF"><img src="http://www.digiwin.com/latter_head_2013/images/dsc_out2013-3a.jpg" width="408" height="33" /></td>
+      </tr>
+    </table></td>
+  </tr>
+  <tr>
+    <td bgcolor="#FFFFFF" class="lineLR"><table width="780" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td><img src="http://www.digiwin.com/service/WB002903/images/900.jpg" width="900" height="350" alt=""/></td>
+      </tr>
+      <tr>
+        <td>&nbsp;</td>
+      </tr>
+      <tr>
+        <td align="center"><table width="790" border="0" cellspacing="0" cellpadding="0">
+          <tbody>
+            <tr>
+              <td><p class="txt18B">親愛的鼎新客戶您好：<br /></p>
+                  <span class="txt15B">感謝您對鼎新服務的支持與愛用，為了提供您更多元與效率的服務管道，</span><span class="txt15r">鼎新客服連線精靈即將在10月中升級囉！</span><span class="txt15">透過升級後的</span><span class="txt15B">【鼎新服務雲管家平台】</span><span class="txt15">，期望能與您有更緊密的互動；未來我們將逐步整合您所經常使用的功能：知識庫查詢、案件進度查詢、WEB案件登錄、 線上真人文字客服、智能客服、公告中心，以及全新的服務功能(系統維運 、資訊中心…等)，敬請期待全新面貌的升級服務。</span></td>
+              </tr>
+            <tr>
+              <td>&nbsp;</td>
+              </tr>
+            <tr>
+              <td><p class="txt15B">【鼎新服務雲管家】提供您直覺友善的操作體驗，一鍵取得您所需要的多元服務，立即啟用體驗：</p></td>
+            </tr>
+            <tr>
+              <td><p class="txt15r">★如何安裝鼎新服務雲管家</p></td>
+            </tr>
+            <tr>
+              <td align="center"><table width="750" border="0" cellspacing="0" cellpadding="0">
+                <tbody>
+                  <tr>
+                    <td class="txt15Bule">&nbsp;</td>
+                  </tr>
+                  <tr>
+                    <td class="txt15Bule">方式(一):透過鼎新客服連線精靈自動升級安裝</td>
+                  </tr>
+                  <tr>
+                    <td>1. 開啟鼎新客服連線精靈時，若出現下圖訊息，按下【OK】按鈕，即會自動下載鼎新服務雲管家安裝程式進行安裝</td>
+                  </tr>
+                  <tr>
+                    <td><img src="http://www.digiwin.com/service/WB002903/images/01.png" alt=""/></td>
+                  </tr>
+                  <tr>
+                    <td>&nbsp;</td>
+                  </tr>
+                </tbody>
+              </table>
+                <table width="750" border="0" cellspacing="0" cellpadding="0">
+                  <tbody>
+                    <tr>
+                      <td class="txt15Bule">方式(二)：手動安裝</td>
+                    </tr>
+                    <tr>
+                      <td><p>1.<a href="http://www.digiwin.com/service/WB002903/images/TW_SCP_OFFLINE.exe" target="_blank"><u>點此下載雲管家安裝程式</u></a></p>
+                        <p>2.下載完成後直接執行該安裝檔安裝</p>
+                        <p>鼎新服務雲管家安裝畫面如下圖，請按下【快速安裝】按鈕進行安裝</p></td>
+                    </tr>
+                    <tr>
+                      <td><img src="http://www.digiwin.com/service/WB002903/images/02.png" width="555" height="359" alt=""/></td>
+                    </tr>
+                    <tr>
+                      <td>3.執行後請按下【完成】按鈕，Windows的程式集及桌面會新增【鼎新服務雲管家】的捷徑，之後會自動執行鼎新服務雲管家。</td>
+                    </tr>
+                    <tr>
+                      <td>&nbsp;</td>
+                    </tr>
+                  </tbody>
+                </table>
+                <table width="750" border="0" cellspacing="0" cellpadding="0">
+                  <tbody>
+                    <tr>
+                      <td class="txt15Bule">★更多使用說明
+
+</td>
+                    </tr>
+                    <tr>
+                      <td><p>相關帳號登入與服務雲管家功能說明，請詳見附件，或<a href="http://www.digiwin.com/service/WB002903/images/鼎新服務雲管家使用說明_連線精靈1003.pdf" target="_blank">【<u>點我看更多</u>】</a>。</p></td>
+                    </tr>
+                    <tr>
+                      <td><img src="http://www.digiwin.com/service/WB002903/images/03.png"alt=""/></td>
+                    </tr>
+                    <tr>
+                      <td>&nbsp;</td>
+                    </tr>
+                    <tr>
+                      <td>~鼎新連線精靈，因互連而升級，<strong>服務雲管家，</strong>讓您輕鬆智享新服務~</td>
+                    </tr>
+                  </tbody>
+                </table>
+                <p class="txt15r">&nbsp;</p>
+                <p>&nbsp;</p></td>
+            </tr>
+            <tr>
+              <td align="right" class="txt15">鼎新電腦 客戶服務中心 敬上</td>
+            </tr>
+            </tbody>
+        </table></td>
+      </tr>
+      <tr>
+        <td>&nbsp;</td>
+      </tr>
+      <tr>
+        <td align="center" valign="middle" bgcolor="#F7F7F7" class="topline_a"><table width="900" border="0" cellspacing="0" cellpadding="15">
+          <tr>
+            <td height="130" align="left" valign="middle"><span class="txt12">鼎捷(鼎新電腦、鼎捷軟件、鼎捷軟件(越南)、鼎捷軟件(馬來西亞)、鼎華系統(鼎誠資訊‧艾碼科技)、智互聯(深圳)科技)向您蒐集之個人資料(包含個人姓名、公司名稱、職稱、地址、電話及電子郵件地址等得以直接或間接識別個人的相關資訊)，將僅限使用於本公司合於營業登記項目或章程所載及業務需要之客戶管理、行銷及營業範圍內相關服務使用，期限自聯繫起始日至特定目的終止日為止，並遵守「個人資料保護法」之規定妥善保護您的個人資訊。於此前提下，您同意本公司得於法律許可之範圍內處理及利用相關資料以提供資訊或服務，並得於本公司之營運地區向您提供行銷資訊，但您仍得依法律規定之相關個人資訊權利主張如下事項：查詢、閱覽、複製、補充、更正、處理、利用及刪除，請於上班時間以電話或電子郵件向本公司聯繫，電話：0800-009-890；Mail：<a href="mailto:dscmaz@digiwin.biz">dscmaz@digiwin.biz</a>。您亦可拒絕提供相關之個人資料，惟可能無法及時享有本公司提供之相關活動與獲取各項資訊之權利。若您不願意再收到相關訊息，<a href="http://www.digiwin.com/WMDReg/DMdecline.aspx">請連結取消訂閱</a>。</span></td>
+            </tr>
+          </table></td>
+      </tr>
+    </table></td>
+  </tr>
+  <tr>
+    <td><table width="900" border="0" align="center" cellpadding="0" cellspacing="0">
+      <tr>
+        <td width="16" align="left" valign="middle" class="txt13W"><img src="http://www.digiwin.com/latter_head_2013/images/down_T2013-2.jpg" width="16" height="35" /></td>
+        <td align="center" valign="middle" bgcolor="#9f9fa1" class="txt13w">鼎新電腦 版權所有 Copyright &copy; Data Systems Consulting Co., Ltd. All rights reserved.</td>
+        <td width="170" align="right" valign="top"><img src="http://www.digiwin.com/latter_head_2013/images/down_T2013-1.jpg" alt="" width="192" height="35" /></td>
+      </tr>
+    </table></td>
+  </tr>
+</table>
+
+</body>
+</html>

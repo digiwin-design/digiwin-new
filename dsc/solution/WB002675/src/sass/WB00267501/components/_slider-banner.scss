@@ -1,0 +1,114 @@
+main .banner {
+    position: relative;
+    overflow: hidden;
+    margin: 0 auto;
+    max-width: 1920px;
+    cursor: pointer;
+    &-slide {
+        height: 500px;
+        background-position: 50% 0;
+    }
+    .container {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        justify-content: center;
+    }
+    &-title {
+        margin-bottom: .5em;
+        font-size: 30px;
+        line-height: 40px;
+        @media (min-width: $tablet-width + 1) {
+            font-size: 48px;
+            line-height: 55px;
+        }
+        @at-root {
+            main .slide1,
+            main .slide2 {
+                .banner-title {
+                    color: #ffea00;
+                    font-weight: bold;
+                }
+            }
+            main .slide1,
+            main .slide2 {
+                .banner-desc {
+                    color: #fff;
+                }
+            }
+        }
+    }
+    &-desc {
+        line-height: 1.5;
+        @media (min-width: $tablet-width + 1) {
+            padding-right: 0;
+            width: 470px;
+            font-size: 20px;
+        }
+        strong {
+            color: #ce2206;
+            font-weight: bold;
+            @media (min-width: $tablet-width + 1) {
+                font-size: 24px;
+            }
+        }
+    }
+    &-controls {
+        position: absolute;
+        top: 0;
+        left: 50%;
+        z-index: 1;
+        width: 100%;
+        height: 100%;
+        transform: translateX(-50%);
+        @media (min-width: $content-width) {
+            width: $content-width;
+        }
+    }
+    &-button-next,
+    &-button-prev {
+        position: absolute;
+        top: 50%;
+        width: 44px;
+        height: 77px;
+        cursor: pointer;
+        transform: translateY(-50%);
+    }
+    &-button-next {
+        right: 5px;
+        background: image-url('WB00267501/banner-btn-next.png') 100% 50%/contain no-repeat;
+        @media (min-width: $tablet-width + 1) {
+            display: none;
+        }
+    }
+    &-button-prev {
+        left: 5px;
+        background: image-url('WB00267501/banner-btn-prev.png') 0 50%/contain no-repeat;
+        @media (min-width: $tablet-width + 1) {
+            display: none;
+        }
+    }
+    &-pagination {
+        display: none;
+        @media (min-width: $tablet-width + 1) {
+            position: absolute;
+            right: 46px;
+            bottom: 13px;
+            display: flex;
+            align-items: center;
+        }
+        &-bullet {
+            width: 14px;
+            height: 14px;
+            border-radius: 50%;
+            background-color: #aeaeae;
+            cursor: pointer;
+            & + .banner-pagination-bullet {
+                margin-left: 13px;
+            }
+            &-active {
+                background-color: #fff;
+            }
+        }
+    }
+}

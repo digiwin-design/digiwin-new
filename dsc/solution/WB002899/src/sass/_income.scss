@@ -1,0 +1,222 @@
+main.income {
+    .header {
+        @include bg('income/banner-s.jpg', 100% 0);
+        @media (min-width: $min-width) {
+            background-image: image-url('income/banner.jpg');
+            background-position: 50% 0;
+            background-size: auto;
+        }
+        .container {
+            height: 522px;
+            @media (min-width: $min-width) {
+                height: 500px;
+            }
+        }
+        h2 {
+            font-size: 20px;
+            line-height: 30px;
+        }
+    }
+    .section1 {
+        background-color: #f5f5f5;
+        .container {
+            padding-bottom: 24px;
+            @media (min-width: $min-width) {
+                padding-bottom: 67px;
+            }
+        }
+        .title {
+            margin-bottom: 90px;
+            @media (min-width: $min-width) {
+                margin-bottom: 132px;
+            }
+        }
+        &-items {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            @media (min-width: 1100px) {
+                flex-direction: row;
+                padding-right: 65px;
+                padding-left: 65px;
+                justify-content: space-between;
+            }
+            section {
+                position: relative;
+                padding-top: 90px;
+                width: 279px;
+                height: 327px;
+                border: 1px solid #d38601;
+                border-radius: 5%;
+                &:not(:last-child) {
+                    margin-bottom: 80px;
+                    @media (min-width: 1100px) {
+                        margin-bottom: 0;
+                    }
+                }
+
+                // color
+                @each $nth, $bg, $text, $border in (1, #e0b401, #616161, #ecb414), (2, #a8a385, #616161, #a8a385), (3, #f8a217, #616161, #ea9000) {
+                    &:nth-child(#{$nth}) {
+                        border-color: $border;
+                        .section1-itemTitle {
+                            background-color: $bg;
+                        }
+                        .section1-listTitle {
+                            color: $text;
+                        }
+                    }
+                }
+            }
+        }
+        &-itemTitle {
+            position: absolute;
+            top: -60px;
+            left: calc(50% - 60px);
+            display: flex;
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            background-color: #e0b401;
+            color: #fff;
+            letter-spacing: getLetterSpacing(75);
+            font-size: 30px;
+            cursor: pointer;
+            align-items: center;
+            justify-content: center;
+        }
+        &-listTitle {
+            margin-bottom: 22px;
+            color: #d38601;
+            text-align: center;
+            letter-spacing: getLetterSpacing(75);
+            font-size: 30px;
+        }
+        &-list {
+            padding-left: 60px;
+            li {
+                display: flex;
+                letter-spacing: getLetterSpacing(100);
+                font-size: 20px;
+                line-height: 30px;
+                align-items: center;
+                &::before {
+                    margin-right: 5px;
+                    width: 16px;
+                    height: 16px;
+                    border-radius: 50%;
+                    background-color: #555;
+                    content: '';
+                }
+            }
+        }
+        &-arrow {
+            display: block;
+            margin: 29px auto 0;
+            @media (min-width: $min-width) {
+                margin-top: 49px;
+            }
+        }
+    }
+    .section2 {
+        article {
+            position: relative;
+            padding-bottom: 55px;
+            @media (min-width: $min-width) {
+                padding-bottom: 52px;
+                height: 760px;
+            }
+        }
+        h1 {
+            margin-bottom: 36px;
+            color: #fff;
+        }
+        .learnMoreBtn {
+            margin: 0 auto;
+            max-width: none; /* override */
+            width: 306px;
+            cursor: pointer;
+        }
+        [type=checkbox] {
+            display: none;
+            &:checked + .section2-slider {
+                transform: translateX(-100%);
+            }
+        }
+        @each $type, $bgColor in (before, #e0b401), (running, #b1ac91), (after, #f9ab2e) {
+            &-#{$type} {
+                background-color: $bgColor;
+            }
+        }
+        &-slider-wrap {
+            overflow-x: hidden;
+            @media (min-width: $min-width) {
+                height: calc(100% - 134px);
+            }
+        }
+        &-slider {
+            display: flex;
+            transition: transform .5s;
+            @media (min-width: $min-width) {
+                height: 100%;
+            }
+            & > li {
+                display: flex;
+                flex-direction: column;
+                padding-right: 20px;
+                padding-left: 20px;
+                width: 100%;
+                flex-shrink: 0;
+                justify-content: center;
+                @media (min-width: $min-width) {
+                    height: 100%;
+                }
+            }
+        }
+        &-illust {
+            margin-bottom: 36px;
+            @media (min-width: $min-width) {
+                display: flex;
+                margin-bottom: 0;
+                justify-content: center;
+                align-items: center;
+                flex-grow: 1;
+            }
+            img {
+                display: block;
+            }
+        }
+        &-detailBtns {
+            display: flex;
+            flex-direction: column;
+            @media (min-width: $min-width) {
+                flex-direction: row;
+                justify-content: center;
+            }
+            li {
+                width: 100%;
+                @media (min-width: $min-width) {
+                    width: 257px;
+                }
+                &:first-child {
+                    margin-bottom: 23px;
+                    @media (min-width: $min-width) {
+                        margin-right: 29px;
+                        margin-bottom: 0;
+                    }
+                    label {
+                        @include btn(100%, 50px, #000, #fff, 0, true);
+                        font-size: 18px;
+                        cursor: pointer;
+                    }
+                }
+                &:last-child {
+                    a {
+                        @include btn(100%, 50px, #000, #e7ff47, 0, true);
+                        font-size: 18px;
+                    }
+                }
+            }
+        }
+    }
+}

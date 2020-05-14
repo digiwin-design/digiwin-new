@@ -1,0 +1,94 @@
+<slider-banner-s v-if="isMobile" v-bind:slides="result.banner" device="mobile"></slider-banner-s>
+<slider-banner v-else v-bind:slides="result.banner" device="desktop"></slider-banner>
+
+<article class="section1">
+    <div class="container">
+        <section-title title="電腦化確效管理程序" class="green"></section-title>
+        <picture>
+            <source srcset="images/WB00278501_verify/section1-illust.png" media="(min-width:769px)">
+            <img src="images/WB00278501_verify/section1-illust-s.png" alt="">
+        </picture>
+    </div>
+</article>
+
+<article class="section2">
+    <div class="container">
+        <section-title title="需確效之電腦化系統" class="white"></section-title>
+        <picture>
+            <source srcset="images/WB00278501_verify/section2-illust.png" media="(min-width:769px)">
+            <img src="images/WB00278501_verify/section2-illust-s.png" alt="">
+        </picture>
+    </div>
+</article>
+
+<article class="section3">
+    <div class="container">
+        <section-title title="電腦確效模式" class="green"></section-title>
+        <img src="images/WB00278501_verify/section3-illust.png" alt="">
+    </div>
+</article>
+
+<article class="section4">
+    <div class="container">
+        <section-title title="DQ確效文件Template" class="white"></section-title>
+        <img src="images/WB00278501_verify/section4-illust.png" alt="">
+    </div>
+</article>
+
+<article class="section5">
+    <div class="container">
+        <section-title title="IQ 裝機與系統相容驗證" class="green"></section-title>
+        <div class="content">
+            <ul>
+                <li>安裝說明</li>
+                <li>環境部署規劃說明</li>
+                <li>使用手冊</li>
+                <li>資料庫手冊</li>
+                <li>安裝測試報告</li>
+            </ul>
+            <figure>
+                <img src="images/WB00278501_verify/section5-icon1.png" alt="">
+                <figcaption>產品光碟<br>使用手冊光碟</figcaption>
+            </figure>
+            <figure>
+                <img src="images/WB00278501_verify/section5-icon2.png" alt="">
+                <figcaption>使用手冊<br>資料庫手冊<br>教育訓練手冊</figcaption>
+            </figure>
+            <figure>
+                <img src="images/WB00278501_verify/section5-icon3.png" alt="">
+                <figcaption>安裝測試報告</figcaption>
+            </figure>
+        </div>
+    </div>
+</article>
+
+<article class="section6">
+    <div class="container">
+        <section-title title="OQ測試劇本 / 測試紀錄" class="white"></section-title>
+        <img src="images/WB00278501_verify/section6-illust.png" alt="">
+    </div>
+</article>
+
+<article class="section7">
+    <div class="container">
+        <section-title title="PQ確效文件Template" class="green"></section-title>
+        <figure>
+            <img src="images/WB00278501_verify/section7-illust.png" alt="">
+            <figcaption>依據標準作業程序(SOP)，擬訂ERP電腦系統測試劇本；再依測試劇本進行性能驗證，產生測試記錄。</figcaption>
+        </figure>
+    </div>
+</article>
+
+<article class="section8">
+    <div class="container">
+        <section-title title="公司最重要的無形資產，您做好資料安全準備了嗎?" class="white"></section-title>
+        <div class="contents">
+            <section v-for="item in result.section8" :key="item.title">
+                <h1>{{item.title}}</h1>
+                <div class="content" v-html="item.content[isMobile ? 0 : 1]"></div>
+            </section>
+        </div>
+    </div>
+</article>
+
+<contact v-bind:multiple="false" source=""></contact>

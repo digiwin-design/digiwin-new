@@ -1,0 +1,651 @@
+@charset "UTF-8";
+main *, main *:before, main *:after {
+    box-sizing: content-box;
+}
+
+main #navLink,
+main #navLink .subLink {
+    background-color: #f9f9f9;
+}
+
+main .subBanner {
+    height: 300px;
+    margin-top: 0px;
+    padding: 0;
+    text-align: center;
+    font-size: 0;
+    clear: both;
+    display: block;
+}
+
+main .subBanner:before {
+    content: '';
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
+
+main .subBanner .content {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+main .subBanner h2 {
+    width: 680px;
+    font-size: 40px;
+    text-align: left;
+}
+
+main .subBanner p {
+    width: 630px;
+    font-size: 19px;
+    line-height: 30px;
+}
+
+main .subBanner.mis03Page {
+    background: url(../images/mis/misBanner03.jpg) no-repeat center top;
+}
+
+main .subBanner.mis02Page {
+    background: url(../images/mis/misBanner02.jpg) no-repeat center top;
+}
+
+main .subBanner.mis01Page {
+    background: url(../images/mis/misBanner01.jpg) no-repeat center top;
+}
+
+main .subBanner.wall {
+    background: url(../images/wall/hero-bg.jpg) no-repeat center top;
+}
+
+main .subA01bg {
+    width: 100%;
+}
+
+main h3.mis01_icon {
+    text-align: left;
+    background: url(../images/icon.png) no-repeat left -105px;
+    padding-left: 40px;
+    color: #0c53aa;
+}
+
+main h3.mis01_icon2 {
+    text-align: center;
+    color: #fcff01;
+}
+
+main #subA01 {
+    width: 900px;
+    overflow: hidden;
+    margin: 0 auto;
+    display: block;
+    padding-top: 50px;
+}
+
+main #subA01 #BOX2 {
+    width: 260px;
+    display: block;
+    float: left;
+    overflow: hidden;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+}
+
+main .subA02bg {
+    width: 100%;
+    background: url(../images/mis/subpage06_bg.png) no-repeat center top;
+}
+
+main #subA02 {
+    width: 900px;
+    overflow: hidden;
+    margin: 0 auto;
+    display: block;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+main #subA02 ul {
+    width: 550px;
+    margin: 0 auto;
+    line-height: 2;
+    color: #FFF;
+    font: "微軟正黑體",　Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+main #subA02 ul li {
+    background: url(../images/mis/QAicon.png) no-repeat left top;
+    padding-left: 40px;
+}
+
+main h3.mis02_icon {
+    text-align: left;
+    background: url(../images/icon.png) no-repeat left -55px;
+    padding-left: 40px;
+    color: #0c53aa;
+}
+
+main .subB01bg {
+    width: 100%;
+    overflow: hidden;
+}
+
+main #subB01 {
+    width: 900px;
+    overflow: hidden;
+    margin: 0 auto;
+    display: block;
+    padding-top: 30px;
+}
+
+main #subB01 #BOX {
+    width: 800px;
+    display: block;
+    float: left;
+    overflow: hidden;
+    padding: 0px 20px 20px 30px;
+    margin: 20px;
+}
+
+main .font_red {
+    color: #ea3c14;
+}
+
+main .font_green3 {
+    color: #6caf27;
+}
+
+main .font_Orange {
+    color: #f99424;
+}
+
+main .font_Blue2 {
+    color: #46b2bc;
+}
+
+main .font_purple {
+    color: #73166f;
+}
+
+main .font_Blue3 {
+    color: #178ed5;
+}
+
+main .boderR {
+    border-left: #ea3c14 solid 4px;
+}
+
+main .boderG {
+    border-left: #6caf27 solid 4px;
+}
+
+main .boderO {
+    border-left: #f99424 solid 4px;
+}
+
+main .boderB2 {
+    border-left: #46b2bc solid 4px;
+}
+
+main .boderP {
+    border-left: #73166f solid 4px;
+}
+
+main .boderB3 {
+    border-left: #178ed5 solid 4px;
+}
+
+main .subC01bg {
+    width: 100%;
+}
+
+main h3.mis03_icon {
+    text-align: left;
+    background: url(../images/icon.png) no-repeat left -155px;
+    padding-left: 40px;
+    color: #0c53aa;
+}
+
+main h4.BB {
+    font-size: 21px;
+    margin: 20px 0 7px;
+    text-align: left;
+    color: #1b92c4;
+    line-height: 36px;
+}
+
+main #subC01 {
+    width: 900px;
+    overflow: hidden;
+    margin: 0 auto;
+    display: block;
+    padding-top: 20px;
+}
+
+main #subC01 p {
+    font-size: 17px;
+    line-height: 1.6;
+    color: #333;
+    padding-bottom: 10px;
+}
+
+main .subC02bg {
+    width: 100%;
+}
+
+main #subC02 {
+    width: 900px;
+    overflow: hidden;
+    margin: 0 auto;
+    display: block;
+    padding-bottom: 50px;
+    position: relative;
+}
+
+main #subC02 img {
+    position: absolute;
+    left: 407px;
+    top: 13px;
+}
+
+main #button_O {
+    width: 715px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+main #button_OC {
+    width: 960px;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 325px;
+}
+
+main .btn {
+    float: left;
+    font-size: 20px;
+    font-family: "微軟正黑體", Arial, Helvetica, sans-serif;
+    width: 145px;
+    height: 40px;
+    margin: 0 auto;
+    line-height: 40px;
+    letter-spacing: 1px;
+    margin-right: 15px;
+}
+
+main .btn a {
+    display: block;
+    color: #FFF;
+    text-decoration: none;
+    background-color: #09F;
+}
+
+main .btn a:hover {
+    text-decoration: none;
+    margin: 0 auto;
+    background-color: #36C;
+}
+
+main .btn2 {
+    float: left;
+    font-size: 20px;
+    font-family: "微軟正黑體", Arial, Helvetica, sans-serif;
+    width: 145px;
+    height: 40px;
+    margin: 0 auto;
+    line-height: 40px;
+    letter-spacing: 1px;
+    margin-right: 15px;
+}
+
+main .btn2 a {
+    display: block;
+    color: #FFF;
+    text-decoration: none;
+    background-color: #0CF;
+}
+
+main .btn2 a:hover {
+    text-decoration: none;
+    margin: 0 auto;
+    background-color: #36C;
+}
+
+main .btn1 {
+    float: left;
+    font-size: 20px;
+    font-family: "微軟正黑體", Arial, Helvetica, sans-serif;
+    width: 200px;
+    height: 40px;
+    margin: 0 auto;
+    line-height: 40px;
+    margin-left: 20px;
+}
+
+main .btn1 a {
+    display: block;
+    color: #FFF;
+    text-decoration: none;
+    background: url(../images/icon_bg1.png) no-repeat left top;
+    font-weight: bold;
+}
+
+main .btn1 a:hover {
+    text-decoration: none;
+    margin: 0 auto;
+    background-position: right top;
+}
+
+main .conblock {
+    width: 100%;
+    background-color: #096ca0;
+    padding: 100px 0;
+}
+
+main #conblock {
+    width: 1000px;
+    overflow: hidden;
+    margin: 0 auto;
+    display: block;
+    padding: 30px 0;
+}
+
+main #conblock h3 {
+    line-height: 1.2;
+    text-align: center;
+    color: #FFF;
+}
+
+main #conblock h4 {
+    line-height: 1.2;
+    text-align: center;
+    color: #FFF;
+}
+
+main .section h3 {
+    margin-bottom: 30px;
+    font-size: 36px;
+}
+
+main .section h4 {
+    font-size: 21px;
+    margin: 20px 0 7px;
+    text-align: left;
+}
+
+main .section p {
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: justify;
+}
+
+main .floatLeft {
+    float: left;
+}
+
+main .floatRight {
+    float: right;
+}
+
+main .section .textLeft {
+    text-align: left;
+}
+
+main .section .textRight {
+    text-align: right;
+}
+
+main .section .textCenter {
+    text-align: center;
+}
+
+main .section {
+    width: 100%;
+    min-width: 1000px;
+    padding: 60px 0;
+    color: #444444;
+    font-family: Arial, "微軟正黑體";
+}
+
+main .content {
+    position: relative;
+    width: 1000px;
+    margin: 0 auto;
+}
+
+main .column_2 {
+    width: 50%;
+}
+
+main .column_3 {
+    width: 33%;
+}
+
+main .column_4 {
+    width: 25%;
+}
+
+main .column_5 {
+    width: 20%;
+}
+
+main .font_mainColor {
+    color: #0bb580;
+}
+
+main .font_orange {
+    color: #ff6600;
+}
+
+main .font_blue {
+    color: #058fa8;
+}
+
+main .font_blue2 {
+    color: #b5e6ff;
+}
+
+main .font_green {
+    color: #4fcc6a;
+}
+
+main .font_yellow1 {
+    color: #fffc00;
+}
+
+main .font_yellow {
+    color: #ffb400;
+}
+
+main .font_yellowLight {
+    color: #feffc1;
+}
+
+main .font_yellowDark {
+    color: #ff8d00;
+}
+
+main .font_redLight {
+    color: #ff5454;
+}
+
+main .font_white {
+    color: #ffffff;
+}
+
+main .font_gray {
+    color: #bbbbbb;
+}
+
+main .font_blackB {
+    color: #000000;
+    font-weight: bold;
+}
+
+main .font_green2 {
+    color: #eaff01;
+}
+
+main .bg_mainColor {
+    background-color: #0bb580;
+}
+
+main .bg_green {
+    background-color: #4fcc6a;
+}
+
+main .bg_yellow {
+    background-color: #ffb400;
+}
+
+main .bg_yellowDark {
+    background-color: #ff8d00;
+}
+
+main .bg_gray {
+    background-color: #bbbbbb;
+}
+
+main .bg_greenImg {
+    background: url(../images/bgGreen.jpg) no-repeat center center;
+}
+
+main .bg_ {
+    background: url(../images/bgGreen.jpg) no-repeat center center;
+}
+
+main .hover_yellow:hover h4 {
+    color: #ffb400;
+}
+
+main .circle {
+    margin: 0 auto;
+    border-radius: 50%;
+}
+
+main p.imgNote {
+    font-size: 19px;
+    font-weight: bold;
+    text-align: center;
+}
+
+main p.sectionNote {
+    width: 800px;
+    margin: 0 auto;
+    font-size: 19px;
+}
+
+main p.pageBtn {
+    width: 400px;
+    line-height: 60px;
+    margin: 50px auto 0;
+    border: 1px solid #ffffff;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+}
+
+main p.contactBtn {
+    position: relative;
+    z-index: 2;
+    width: 400px;
+    line-height: 55px;
+    margin: 50px auto 0;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    background-color: #034ea2;
+    border: 1px solid #ffffff;
+    letter-spacing: 1px;
+}
+
+main p.contactBtn a {
+    color: #FFF;
+}
+
+main p.contactBtn:hover {
+    background-color: #ffb400;
+}
+
+main .imgBorderAll {
+    border: 1px solid #eaeaea;
+}
+
+main .quotaOrange,
+main .quotaYellow {
+    position: relative;
+    margin: 50px auto;
+    padding: 25px 45px;
+    border-radius: 7px;
+    font-size: 18px;
+    line-height: 27px;
+}
+
+main .quotaOrange:before,
+main .quotaYellow:before {
+    content: "";
+    position: absolute;
+    top: -35px;
+    left: 20px;
+    width: 49px;
+    height: 49px;
+}
+
+main .quotaOrange:after,
+main .quotaYellow:after {
+    content: "";
+    position: absolute;
+    bottom: -35px;
+    right: 20px;
+    width: 49px;
+    height: 49px;
+}
+
+main .quotaYellow {
+    border: 3px solid #fff200;
+}
+
+main .quotaOrange {
+    border: 3px solid #ff8a00;
+}
+
+main .quotaOrange:before {
+    background: url(../images/issue/quota.png) no-repeat center 0;
+}
+
+main .quotaOrange:after {
+    background: url(../images/issue/quota.png) no-repeat center -49px;
+}
+
+main .quotaYellow:before {
+    background: url(../images/issue/quota.png) no-repeat center -98px;
+}
+
+main .quotaYellow:after {
+    background: url(../images/issue/quota.png) no-repeat center -147px;
+}
+
+main .rightList {
+    display: none;
+    position: fixed;
+    top: 50%;
+    right: 20px;
+    z-index: 99;
+    margin: -100px 0 0;
+    font-size: 18px;
+    font-family: Arial, "微軟正黑體";
+    text-align: right;
+}
+
+main .rightLink {
+    line-height: 50px;
+}
+
+main .rightLink a:hover, main .rightLink.selected a {
+    color: #ff8d00;
+}

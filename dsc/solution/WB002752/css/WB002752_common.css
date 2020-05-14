@@ -1,0 +1,146 @@
+@charset "UTF-8";
+main *, main *:before, main *:after {
+    box-sizing: content-box;
+}
+
+main .section h3 {
+    margin-bottom: 40px;
+    font-size: 36px;
+    font-weight: normal;
+    text-align: center;
+}
+
+main .section h4 {
+    /*font-size: 21px;*/
+    margin: 20px 0 7px;
+    /*text-align: left;*/
+}
+
+main .section p {
+    margin: 0;
+    padding: 0;
+    font-size: 17px;
+    line-height: 27px;
+    text-align: justify;
+}
+
+main .floatLeft {
+    float: left;
+}
+
+main .floatRight {
+    float: right;
+}
+
+main .section .textLeft {
+    text-align: left;
+}
+
+main .section .textRight {
+    text-align: right;
+}
+
+main .section .textCenter {
+    text-align: center;
+}
+
+main .section {
+    width: 100%;
+    min-width: 1000px;
+    padding: 50px 0;
+    color: #444444;
+    font-family: Arial, "微軟正黑體";
+}
+
+main .content {
+    position: relative;
+    width: 1000px;
+    margin: 0 auto;
+}
+
+main p.imgNote {
+    font-size: 19px;
+    font-weight: bold;
+    text-align: center;
+}
+
+main p.sectionNote {
+    width: 100%;
+    margin: 0 auto;
+    font-size: 19px;
+    line-height: 30px;
+}
+
+main #navLink {
+    width: 100%;
+    min-width: 1006px;
+    height: 80px;
+    padding: 10px 0;
+    background-color: #ffffff;
+    font-family: Arial, "微軟正黑體";
+    text-align: center;
+}
+
+main .navLink {
+    position: absolute;
+    z-index: 999;
+    top: 602px;
+}
+
+main .fixed {
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    background-color: #f7f7f7;
+}
+
+main #navLink > ul {
+    display: inline-block;
+}
+
+main #navLink > ul > li {
+    float: left;
+    width: 165px;
+    height: 80px;
+    border-left: 1px solid #CCC;
+    text-indent: -9999px;
+}
+
+main #navLink .link1 {
+    background: url("https://www.digiwin.com/tw/dsc/solution/WB002752/images/link_01.png") no-repeat left top;
+}
+
+main #navLink .link2 {
+    background: url("https://www.digiwin.com/tw/dsc/solution/WB002752/images/link_02.png") no-repeat left top;
+}
+
+main #navLink .link3 {
+    background: url("https://www.digiwin.com/tw/dsc/solution/WB002752/images/link_03.png") no-repeat left top;
+}
+
+main #navLink .link4 {
+    background: url("https://www.digiwin.com/tw/dsc/solution/WB002752/images/link_04.png") no-repeat left top;
+}
+
+main #navLink .link5 {
+    background: url("https://www.digiwin.com/tw/dsc/solution/WB002752/images/link_05.png") no-repeat left top;
+}
+
+main #navLink .link6 {
+    background: url("https://www.digiwin.com/tw/dsc/solution/WB002752/images/link_06.png") no-repeat left top;
+    border-right: 1px solid #CCC;
+}
+
+main #navLink > ul > li > a {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+main #navLink .navLinks:hover {
+    background-position: right top;
+}
+
+main #navLink .selected {
+    background-position: right top;
+}

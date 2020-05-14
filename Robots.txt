@@ -1,0 +1,5 @@
+Disallow: /dsc/unitedday/
+
+Disallow: /dsc/dev/
+
+Disallow: /dsc/assets/

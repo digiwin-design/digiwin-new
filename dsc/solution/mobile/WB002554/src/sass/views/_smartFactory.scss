@@ -1,0 +1,27 @@
+main .smartFactory {
+    .header {
+        @include headerBg('smartFactory/header-bg.jpg', 'smartFactory/header-bg.jpg', 100% 0);
+    }
+    .section1 {
+        padding-bottom: 50px;
+    }
+    &-link {
+        padding-top: 30px;
+        padding-bottom: 30px;
+        a {
+            display: flex;
+            height: 97px;
+            background-color: #0b6a9d;
+            color: #fff;
+            text-align: center;
+            letter-spacing: getLetterSpacing(75);
+            font-size: 20px;
+            line-height: 30px;
+            justify-content: center;
+            align-items: center;
+        }
+        strong {
+            color: #ff0;
+        }
+    }
+}

@@ -1,0 +1,9 @@
+$btn-hover-color: #8cf2fb;
+main .btn {
+    transition: background-color .15s ease-in-out;
+    @at-root {
+        html.no-mobile main .btn:hover {
+            background-color: $btn-hover-color;
+        }
+    }
+}

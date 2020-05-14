@@ -1,0 +1,521 @@
+/* #region function */
+/* #endregion function */
+/* #region mixin */
+/* #endregion mixin */
+/* #region extend */
+main .index .tabs li::after {
+  display: block;
+  clear: both;
+  height: 0;
+  content: ''; }
+
+@keyframes fadeIn {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+/* #endregion extend */
+[v-cloak] {
+  display: none; }
+
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity .5s; }
+
+.fade-enter,
+.fade-leave-to {
+  opacity: 0; }
+
+.lazyload,
+.lazyloading {
+  opacity: 0; }
+
+.lazyloaded {
+  opacity: 1;
+  transition: opacity 1s; }
+
+.dg.ac {
+  z-index: 99; }
+
+main {
+  margin: 0 auto;
+  min-width: 360px;
+  max-width: 768px;
+  font-size: 18px; }
+  main *:not(text) {
+    font-size: 100%; }
+  main .container {
+    margin: 0 auto;
+    padding: 0 15px;
+    max-width: 1200px; }
+    @media (min-width: 361px) {
+      main .container {
+        padding-right: 20px;
+        padding-left: 20px; } }
+    @media (min-width: 1200px) {
+      main .container {
+        padding-right: 0;
+        padding-left: 0; } }
+  main .btn {
+    transition: all .15s ease-in-out; }
+  main .video-container {
+    position: relative;
+    overflow: hidden;
+    padding-top: 56.25%;
+    /* 16:9 */
+    width: 100%;
+    height: 0; }
+    main .video-container iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%; }
+
+main .index .sectionTitle1 {
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 30px; }
+main .index .sectionTitle2 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 28px; }
+main .index .sectionBtn {
+  display: block;
+  height: 50px;
+  border-radius: 0;
+  background-color: #00a2a5;
+  color: #fff;
+  text-align: center;
+  line-height: 50px;
+  width: 100%;
+  color: #fff;
+  font-size: 22px; }
+main .index .video-container {
+  position: relative;
+  overflow: hidden;
+  padding-top: 56.25%;
+  /* 16:9 */
+  width: 100%;
+  height: 0; }
+  main .index .video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; }
+main .index .banner-slide {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+main .index .banner .title {
+  display: flex;
+  margin-bottom: 48px;
+  width: 100%;
+  height: 180px;
+  background-color: rgba(0, 0, 0, 0.6);
+  align-items: center; }
+main .index .banner h1 {
+  margin: 0 auto;
+  color: #fff;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 1.2; }
+main .index .banner strong {
+  color: #ffc208;
+  font-size: 40px; }
+main .index .banner .btns {
+  display: flex;
+  width: 100%;
+  justify-content: center; }
+  main .index .banner .btns a {
+    max-width: 150px;
+    width: calc(50% - 15px);
+    background-color: #ff8404;
+    color: #fff;
+    text-align: center;
+    line-height: 40px; }
+    main .index .banner .btns a + a {
+      margin-left: 30px; }
+main .index .section1 {
+  background-position: 50% 103%;
+  background-repeat: no-repeat;
+  background-image: image-url("index/section1-bg.png");
+  padding-top: 37px;
+  padding-bottom: 300px;
+  background-color: #0eb8bb;
+  color: #fff; }
+  main .index .section1 h1 {
+    margin-bottom: 1em; }
+  main .index .section1 p {
+    line-height: 24px; }
+main .index .section2 {
+  padding-top: 37px;
+  padding-bottom: 40px; }
+  main .index .section2 img {
+    display: block;
+    margin: 0 auto 40px; }
+  main .index .section2 p {
+    margin-bottom: 2em;
+    line-height: 28px; }
+    main .index .section2 p::first-line {
+      font-size: 14px; }
+main .index .section3 {
+  padding: 40px 0;
+  background-color: #e6e6e6; }
+  main .index .section3 h1 {
+    margin-bottom: 1em; }
+  main .index .section3 img {
+    display: block;
+    margin: 0 auto 10px; }
+  main .index .section3 h2 {
+    color: #00a2a5;
+    font-weight: bold;
+    line-height: 28px; }
+  main .index .section3 p {
+    margin-bottom: 1em;
+    color: #2d2d2d;
+    line-height: 28px; }
+  main .index .section3 a + a {
+    margin-top: 10px; }
+main .index .section4 {
+  padding: 40px 0;
+  background-color: #78c2c7; }
+  main .index .section4 h1 {
+    margin-bottom: 1em; }
+main .index .section5 {
+  padding: 40px 0; }
+  main .index .section5 h1 {
+    margin-bottom: 1em; }
+  main .index .section5-videoCaption {
+    display: flex;
+    margin-top: 13px;
+    color: #333;
+    letter-spacing: 0.05em;
+    font-size: 19px;
+    justify-content: center;
+    align-items: baseline; }
+    main .index .section5-videoCaption::before {
+      margin-right: 5px;
+      width: 0;
+      height: 0;
+      border-width: 0 7.5px 15px 7.5px;
+      border-style: solid;
+      border-color: transparent transparent #00a2a5 transparent;
+      content: ''; }
+    main .index .section5-videoCaption + .video-container {
+      margin-top: 30px; }
+  main .index .section5-additional {
+    text-align: center;
+    letter-spacing: 0.05em;
+    font-size: 17px;
+    line-height: 24px; }
+  main .index .section5 .sectionBtn {
+    margin-top: 40px;
+    margin-bottom: .5em; }
+
+main .industry .title {
+  text-align: center;
+  font-size: 26px; }
+main .industry .header {
+  background-position: 50% 110%;
+  background-repeat: no-repeat;
+  background-image: image-url("industry/header-bg.png");
+  padding-top: 72px;
+  height: 530px;
+  background-color: #127d7e; }
+  main .industry .header h2 {
+    margin-bottom: 117px;
+    color: #fff;
+    text-align: center;
+    letter-spacing: 0.03em;
+    font-size: 30px; }
+  main .industry .header h1 {
+    text-align: center; }
+main .industry .section1 {
+  padding-top: 40px;
+  background-color: #f5f3f3; }
+  main .industry .section1 h1 {
+    margin-bottom: 70px;
+    font-weight: bold; }
+  main .industry .section1 img {
+    display: block;
+    margin: 0 auto; }
+  main .industry .section1-1 {
+    margin-top: 1.5em;
+    padding: 40px 0;
+    background-color: #179e9f;
+    color: #fff; }
+    main .industry .section1-1 h2 {
+      margin-bottom: 1em; }
+    main .industry .section1-1 p {
+      line-height: 24px; }
+      main .industry .section1-1 p + p {
+        margin-top: 1em; }
+  main .industry .section1-2 {
+    padding: 40px 0;
+    background-color: #0a3d5f;
+    color: #fff; }
+    main .industry .section1-2 img {
+      display: block;
+      margin: 0 auto 1.5em; }
+    main .industry .section1-2 h2 {
+      margin-bottom: 1em; }
+      main .industry .section1-2 h2 + ul {
+        margin-bottom: 2em;
+        padding-left: 1em;
+        list-style-type: disc;
+        font-size: 17px;
+        line-height: 22px; }
+    main .industry .section1-2 ul {
+      margin-right: 5px;
+      flex-grow: 1; }
+    main .industry .section1-2 li {
+      margin-top: 5px; }
+    main .industry .section1-2 a {
+      display: flex;
+      padding: 15px;
+      color: #fff;
+      line-height: 24px;
+      align-items: center; }
+      main .industry .section1-2 a:nth-of-type(1) {
+        background-color: #00a2a5; }
+      main .industry .section1-2 a:nth-of-type(2) {
+        background-color: #ff7514; }
+      main .industry .section1-2 a::after {
+        width: 30px;
+        height: 30px;
+        background-image: image-url("industry/link-icon.png");
+        background-size: contain;
+        content: '';
+        flex-shrink: 0; }
+      main .industry .section1-2 a + a {
+        margin-top: 23px; }
+main .industry .section2 {
+  padding: 40px 0;
+  background-color: #ebeded; }
+  main .industry .section2 h1 {
+    margin-bottom: 1em;
+    letter-spacing: 0.025em;
+    font-weight: bold; }
+  main .industry .section2-links {
+    display: grid;
+    margin-top: 10px;
+    grid-template-rows: repeat(2, 25px);
+    grid-template-columns: repeat(4, 1fr);
+    gap: 3px; }
+    main .industry .section2-links a {
+      background-color: #179e9f;
+      color: #fff;
+      text-align: center;
+      font-weight: bold;
+      font-size: 16px;
+      line-height: 25px; }
+      main .industry .section2-links a:nth-child(5) {
+        font-size: 15px; }
+
+main .WB00247601_Industry01 .title {
+  margin-bottom: 1em;
+  font-size: 26px; }
+main .WB00247601_Industry01 .header {
+  background-position: 50% 0;
+  background-repeat: no-repeat;
+  background-image: image-url("WB00247601_Industry01/header-bg.jpg");
+  padding-top: 55px;
+  height: 350px; }
+  main .WB00247601_Industry01 .header h1 {
+    color: #00e7f6;
+    font-weight: normal;
+    font-size: 34px;
+    line-height: 38px; }
+  main .WB00247601_Industry01 .header h2 {
+    margin-top: 5px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 1; }
+main .WB00247601_Industry01 .section1 {
+  padding-top: 33px; }
+  main .WB00247601_Industry01 .section1 h1 {
+    color: #555;
+    line-height: 36px; }
+  main .WB00247601_Industry01 .section1 .swiper-slide {
+    width: 300px; }
+  main .WB00247601_Industry01 .section1 .slide {
+    position: relative;
+    padding: 25% 25px 25px 25px;
+    height: 440px;
+    border: 1px solid #f00; }
+    main .WB00247601_Industry01 .section1 .slide-tag {
+      position: absolute;
+      top: 0;
+      left: 0;
+      padding-top: 20px;
+      width: 154px;
+      height: 100px; }
+      main .WB00247601_Industry01 .section1 .slide1 .slide-tag {
+        background-image: linear-gradient(147deg, #297396 50%, transparent 0); }
+
+      main .WB00247601_Industry01 .section1 .slide2 .slide-tag {
+        background-image: linear-gradient(147deg, #31b5d6 50%, transparent 0); }
+
+      main .WB00247601_Industry01 .section1 .slide3 .slide-tag {
+        background-image: linear-gradient(147deg, #018c95 50%, transparent 0); }
+
+      main .WB00247601_Industry01 .section1 .slide4 .slide-tag {
+        background-image: linear-gradient(147deg, #29bac3 50%, transparent 0); }
+      main .WB00247601_Industry01 .section1 .slide-tag::before {
+        display: block;
+        width: 85px;
+        color: #fff;
+        content: attr(data-text);
+        text-align: center;
+        font-weight: bold;
+        font-size: 24px; }
+    main .WB00247601_Industry01 .section1 .slide figure {
+      text-align: center; }
+    main .WB00247601_Industry01 .section1 .slide figcaption {
+      margin-top: 15px;
+      margin-bottom: 20px;
+      font-weight: bold;
+      font-size: 24px; }
+      main .WB00247601_Industry01 .section1 .slide1 figcaption {
+        color: #297396; }
+
+      main .WB00247601_Industry01 .section1 .slide2 figcaption {
+        color: #31b5d6; }
+
+      main .WB00247601_Industry01 .section1 .slide3 figcaption {
+        color: #018c95; }
+
+      main .WB00247601_Industry01 .section1 .slide4 figcaption {
+        color: #29bac3; }
+    main .WB00247601_Industry01 .section1 .slide-text {
+      line-height: 28px; }
+      main .WB00247601_Industry01 .section1 .slide-text p + p {
+        margin-top: 1em; }
+      main .WB00247601_Industry01 .section1 .slide-text ul {
+        padding-left: 1em;
+        list-style-type: disc;
+        line-height: 24px; }
+
+main .banner {
+  position: relative;
+  overflow: hidden;
+  margin: 0 auto;
+  max-width: 1920px; }
+  main .banner.clickable {
+    cursor: pointer; }
+  main .banner-slide {
+    height: 420px;
+    background-position: 50% 0;
+    background-repeat: no-repeat; }
+  main .banner-title {
+    margin-bottom: .5em;
+    color: #fff;
+    font-size: 30px;
+    line-height: 40px; }
+    @media (min-width: 769px) {
+      main .banner-title {
+        font-size: 48px;
+        line-height: 55px; } }
+  main .banner-desc {
+    color: #fff;
+    line-height: 1.5; }
+    @media (min-width: 769px) {
+      main .banner-desc {
+        padding-right: 0;
+        max-width: 505px; } }
+    main .banner-desc strong {
+      color: #ce2206;
+      font-weight: bold; }
+      @media (min-width: 769px) {
+        main .banner-desc strong {
+          font-size: 24px; } }
+  main .banner-controls {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    transform: translateX(-50%); }
+    @media (min-width: 1200px) {
+      main .banner-controls {
+        width: 1200px; } }
+  main .banner-button-next, main .banner-button-prev {
+    position: absolute;
+    top: 50%;
+    width: 44px;
+    height: 77px;
+    cursor: pointer;
+    transform: translateY(-50%); }
+  main .banner-button-next {
+    right: 5px;
+    background: image-url("banner-btn-next.png") 100% 50%/contain no-repeat; }
+  main .banner-button-prev {
+    left: 5px;
+    background: image-url("banner-btn-prev.png") 0 50%/contain no-repeat; }
+  main .banner-pagination {
+    position: absolute;
+    bottom: 13px;
+    left: 50%;
+    display: flex;
+    transform: translateX(-50%);
+    align-items: center; }
+    @media (min-width: 769px) {
+      main .banner-pagination {
+        right: 46px;
+        left: auto;
+        transform: translateX(0); } }
+    main .banner-pagination-bullet {
+      width: 14px;
+      height: 14px;
+      border-radius: 50%;
+      background-color: #aeaeae;
+      cursor: pointer; }
+      main .banner-pagination-bullet + .banner-pagination-bullet {
+        margin-left: 13px; }
+      main .banner-pagination-bullet-active {
+        background-color: #fff; }
+  main .banner.disabled .swiper-wrapper {
+    transform: translate3d(0px, 0, 0) !important; }
+  main .banner.disabled .banner-pagination {
+    display: none; }
+
+main .index .tabs li {
+  padding: 30px 25px 10px; }
+  main .index .tabs.tab1 li:nth-of-type(even) {
+    background-color: #fff; }
+  main .index .tabs.tab2 li:nth-of-type(odd) {
+    background-color: #fff; }
+  main .index .tabs li p {
+    line-height: 28px; }
+  main .index .tabs li a {
+    float: right;
+    color: #da2d2f;
+    font-size: 12px;
+    line-height: 2.3; }
+    @media (min-width: 414px) {
+      main .index .tabs li a {
+        font-size: 14px; } }
+main .index .tabs-nav {
+  display: flex;
+  margin-top: 20px;
+  justify-content: center; }
+  main .index .tabs-nav a {
+    display: block;
+    height: 27px;
+    border-radius: 50%;
+    background-color: #fff;
+    color: #78c2c7;
+    text-align: center;
+    line-height: 27px;
+    width: 27px;
+    box-shadow: 0 0 0 2px #78c2c7, 0 0 0 3px #fff; }
+    main .index .tabs-nav a.active {
+      background-color: #d6494a;
+      color: #fff; }
+    main .index .tabs-nav a + a {
+      margin-left: 16px; }

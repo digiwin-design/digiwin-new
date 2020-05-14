@@ -1,0 +1,386 @@
+@charset "utf-8";
+/* CSS Document */
+/*@import url("https://a1.digiwin.com/css/font-awesome.css");
+@import url("https://a1.digiwin.com/css/animate.css");
+@import url("https://a1.digiwin.com/css/hover.css");
+@import url("https://fonts.googleapis.com/earlyaccess/notosanstc.css");
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");*/
+
+html, body { width:100%; height: auto;overflow-X:hidden; letter-spacing: 1px }
+body { font-size:100%;}
+*{transition:all .3s; -webkit-transition:all .3s;}
+
+/*:before{ content:"\f146";font-family: 'FontAwesome'; }*/
+
+.btnTop{ background: #CCC \9;background:rgba(0,0,0,.2); border-radius:50%; width:50px; height:50px; position: fixed;right:15px; bottom:15px;cursor:pointer; z-index:99; color:#FFF; text-align:center; font-family:Arial, Helvetica, sans-serif;
+	text-transform:uppercase; font-size:13px ; letter-spacing:1px; display: none  ; z-index:999;}
+.btnTop:before{content:"\f106";font-family: 'FontAwesome'; font-size:20px; color: #FFF ; display:block; padding-top:6px;}
+.btnTop:hover{background:rgba(0,0,0,.4);}
+.img-response{ max-width:100%; height:auto;}
+
+
+/*▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃ 版頭 ▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃*/
+
+.p1_br {
+    display: none !important;
+}
+.WB_p1 {
+    background-image: url(../images/case2/title_bg.png);
+    background-position: top center;height: 500px;
+}
+.WB_p1_wrap,.WB_p2_wrap, .WB_p3_wrap, .WB_p4_wrap, .WB_p5_wrap, .WB_p6_wrap, .WB_p7_wrap, .WB_p8_wrap, .WB_p9_wrap{line-height: 1.5; letter-spacing: 1px; width:100%; max-width: 1200px;margin: 0 auto;padding: 70px 15px;}
+.WB_p1_wrap * {
+    display: inline-block;
+    width: 100%;
+    max-width: 600px;
+}
+.WB_p1 .WB_text{margin-top: 20px;line-height: 45px;}
+.WB_p1 .title{color: #fff;font-size: 48px;font-weight: bold; margin-top:75px;}
+
+.WB_p1 .text_2{color: #fff;font-size: 20px; margin-top: 5px; width: 400px; line-height: 1.5}
+
+/*▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃ 內容 ▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃*/
+.WB_ver_web{display: block;}
+.WB_ver_phone{display: none;}
+.WB_p2{padding: 0 0; background-image: url(../images/case2/p2_bg.png); background-repeat:no-repeat; }
+.WB_p2_wrap{text-align: center;position: relative; }
+.WB_p2_title {font-size: 36px;}
+.WB_p2 .text_1 { font-size: 24px; color: #5b1395;padding: 30px 0 0px;}
+.WB_p2_p{text-align: left;font-size: 18px; color: #333;padding: 30px 0 30px; line-height: 1.6}
+
+
+.WB_p2_block_wrap{ position: relative;display: inline-block;}
+
+
+
+.videoBOX{width:500px; display: inline-block; float:left; }
+.videotitle{text-align: left; padding-top: 10px; padding-left:50px;  width:500px; height: 117px; display: inline-block; float:left; background-image: url(../images/case2/p2txt_bg.png); background-position:right bottom;}
+.videotitle_p1{ color: #ffffff; font-size: 24px; font-weight: 500; line-height: 1.8; }
+.videotitle_p2{ color: #fcff00; font-size: 18px; font-weight: 500; line-height: 1.6;  }
+.video-container {
+position: relative;
+padding-bottom: 56.25%;
+padding-top: 30px;
+height: 0;
+overflow: hidden;
+}
+.video-container iframe, .video-container object, .video-container embed {
+position: absolute;
+top: 0;left: 0;
+width: 100%;
+height: 100%;}
+
+/*padding-bottom: 56.25%為影片高度與寬度的比例16:9計算得來，9除以16=0.5625換算高度比0.5625=56.25%
+padding-top: 30px:用於修正的高度，可用25px或30px*/
+
+
+
+.WB_p2_BOXs{width: 100%;display: inline-block;position: relative; height: 260px; }
+.WB_p2_IBOX{ position: absolute; max-width: 300px; width: 25%; top:50px; left:30px;  display: inline-block; }
+.WB_p2_IBOX2{ position: absolute; max-width: 300px; width: 25%; top:60px; left:300px;  display: inline-block; }
+.WB_p2_IBOX3{ position: absolute; max-width: 300px; width: 25%; top:-70px; left:550px;  display: inline-block; }
+.WB_p2_IBOX4{ position: absolute; max-width: 300px; width: 25%; top:-170px; left:800px;  display: inline-block;}
+
+
+.WB_p2_icon{  width: 117px;  height: 117px;  border-radius: 100%;  margin: 0 auto; }
+.p2_icontitleG{ margin: 0 auto; font-size: 24px; font-weight: 700; color: #9da231; line-height: 1.8; }
+.p2_icontitleP{ margin: 0 auto; font-size: 24px; font-weight: 700; color: #6537ba ; line-height: 1.8; }
+.p2_iconP{ margin: 0 auto; font-size: 18px; font-weight: 500; color: #333;line-height: 1.6; }
+.p2_icon01{border: solid 3px #fff; background-color:#9da231 ; background-image: url(../images/case2/icon_04.png);  }
+
+.p2_icon02{border: solid 3px #fff; background-color:#6537ba ; background-image: url(../images/case2/icon_03.png); }
+
+.p2_icon03{border: solid 3px #fff; background-color:#9da231 ; background-image: url(../images/case2/icon_02.png); }
+
+.p2_icon04{border: solid 3px #fff; background-color:#6537ba ; background-image: url(../images/case2/icon_01.png); }
+
+/*----------------------------- 注意事項文字 -----------------------------------  */
+
+/* ul { width:80%; margin:0 auto; color:#a3a3a3; list-style:decimal; padding-left:30px;}
+ ul li{ margin-bottom:10px; font-size:15px; color:#333333; line-height:1.5;}
+*/
+
+/*---------------------------------------------------內容.WB_p3---------------------------------------------------------*/ 
+
+
+.WB_p3{padding: 0 0; background-color:#43267a; background-repeat:no-repeat; }
+.WB_p3_wrap{display:block;text-align: center; position: relative; }
+.WB_p3_title {font-size: 36px; color: #fff}
+.title_Y{font-size: 36px; color: #f4ff04 }
+.WB_p3_content{ width: 100% ;max-width: 1200px; margin:0 auto; text-align: center; padding: 50px 0}
+
+
+
+/*---------------------------------------------------內容.WB_p4---------------------------------------------------------*/ 
+
+.WB_p4{padding: 0 0; background-image: url(../images/case2/p4_bg.png);  background-repeat:no-repeat;background-position: top center;}
+.WB_p4_wrap{ display:block; text-align: center; width: 100%;} 
+.WB_p4_title {font-size: 36px; color: #000}
+.title_Y{font-size: 36px; color: #f4ff04 }
+.WB_p4_content { text-align: center; width: 100% ;max-width:863px; display: block; margin: 0 auto; padding: 50px 0}
+.WB_p4_IBOX{ max-width: 400px; width:50%; display: inline-block;  }
+.p4_icontitleP{ margin: 0 auto; font-size: 30px; font-weight: 700; color: #6537ba ; line-height: 1.8; text-align:center;}
+.p4_iconP{ margin: 0 auto; font-size: 22px; font-weight: 500; color: #333;line-height: 1.6;text-align:center; }
+
+
+/*---------------------------------------------------內容.WB_p5---------------------------------------------------------*/ 
+
+
+.WB_p5{padding: 0 0; background-color:#43267a; background-repeat:no-repeat; }
+.WB_p5_wrap{display:block;text-align: center; position: relative; }
+.WB_p5_title {font-size: 36px; color: #fff; padding: 0 15px;}
+.title_Y{font-size: 36px; color: #f4ff04 }
+.WB_p5_content{ width: 100% ;max-width: 1200px; margin:0 auto; text-align: center; padding: 50px 0}
+
+/*---------------------------------------------------內容.WB_p6---------------------------------------------------------*/ 
+
+
+.WB_p6{padding: 0 0; background-color:#ebebeb; background-repeat:no-repeat; }
+.WB_p6_wrap{display:block;text-align: center; position: relative; }
+.WB_p6_title {font-size: 36px; color: #000 ;}
+.title_Y{font-size: 36px; color: #f4ff04 }
+.WB_p6_content{ width: 100% ;max-width: 1200px; margin:0 auto; text-align: center; padding: 50px 0}
+
+
+/*---------------------------------------------------內容.WB_p7---------------------------------------------------------*/ 
+
+
+.WB_p7{padding: 0 0; background-color:#43267a; background-repeat:no-repeat; }
+.WB_p7_wrap{display:block;text-align: center; position: relative;  }
+.WB_p7_title {font-size: 36px; color: #fff; padding: 0 15px;}
+.title_Y{font-size: 36px; color: #f4ff04 }
+.WB_p7_content{ width: 100% ;max-width: 1200px; margin:0 auto; text-align: center; padding: 50px 0}
+
+
+
+/*---------------------------------------------------內容.WB_p8---------------------------------------------------------*/ 
+
+
+.WB_p8{padding: 0 0; background-color:#ebebeb; background-repeat:no-repeat; }
+.WB_p8_wrap{display:block;text-align: center; position: relative; }
+.WB_p8_title {font-size: 36px; color: #000}
+.title_Y{font-size: 36px; color: #f4ff04 }
+.WB_p8_content{ width: 100% ;max-width: 1200px; margin:0 auto; text-align: center; padding: 50px 0}
+
+
+/*---------------------------------------------------內容.WB_p9---------------------------------------------------------*/ 
+
+.WB_p9{padding: 0 0; background-image: url(../images/case2/p9_bg.png);  background-repeat:no-repeat;background-position: top center;}
+.WB_p9_wrap{ display:block; text-align: center; width: 100%; } 
+.WB_p9_title {font-size: 36px; color: #fff; padding: 0 15px;}
+.WB_p9_content { text-align: center; width: 100% ;max-width:863px; display: block; margin: 0 auto; padding: 50px 0}
+.WB_p9_IBOX{ max-width: 400px; width:50%; display: inline-block; margin: 10px; }
+
+
+
+
+
+.WB_btn{box-shadow: 15px 20px 5px rgba(0, 0, 0, 0.2); width: 300px; display: inline-block; height: 100px; text-align: center; line-height: 100px; border: 1px solid #fff; font-size:24px; font-weight: 700; letter-spacing: 2px; border-radius: 5px;}
+
+.WB_btn_W{background-color: rgba(67, 38, 122, 0.8) ; color:#ebebeb !important; }
+.WB_btn_W:hover{background-color: #ebebeb ; color:#43267a !important; }
+
+.WB_btn_G{background-color: rgba(164, 164, 17, 0.8) ; color:#fff !important; }
+.WB_btn_G:hover{background-color: #ebebeb; color:#a4a411 !important; }
+
+
+/*▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃ 手機內容 ▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃*/
+
+
+@media screen and (max-width: 1200px) {	}
+@media screen and (max-width: 1100px) {	}
+@media screen and (max-width: 992px) {
+
+.WB_p1 {
+    background-image: url(../images/case2/title_bg2.png);
+    background-repeat: no-repeat;
+    background-position-x: 42%;
+
+}
+
+
+
+.WB_p2_block { margin: 0;}
+
+.WB_p2_BOXs{width: 100%;  display: inline-block; position: relative; height: 260px;   margin: 0 auto; margin-top:20px;  }
+.WB_p2_IBOX{ position: relative; max-width: 100%; width: 100%; top:0px; left:0px;  display: inline-block; }
+.WB_p2_IBOX2{ position: relative; max-width: 100%; width: 100%; top:0px; left:0px;  display: inline-block; }
+.WB_p2_IBOX3{ position: relative; max-width:100%; width: 100%; top:0px; left:0px;  display: inline-block; }
+.WB_p2_IBOX4{ position: relative; max-width:100%; width: 100%; top:0px; left:0px;  display: inline-block; }
+
+.p2_icontitleG{ float: left; font-size: 24px; font-weight: 700; color: #9da231; line-height: 1.8; text-align: left }
+.p2_icontitleP{ float: left;  font-size: 24px; font-weight: 700; color: #6537ba ; line-height: 1.8;text-align: left }
+.p2_iconP{ float: left; font-size: 18px; font-weight: 500; color: #333;line-height: 1.6; text-align: left}
+
+.WB_p2_icon{width: 117px;  height: 117px;  border-radius: 100%;  float: left; margin:0 20px 0 10px; }
+.p2_icon01{border: solid 3px #fff; background-color:#9da231 ; background-image: url(../images/case2/icon_04.png);  }
+.p2_icon02{border: solid 3px #fff; background-color:#6537ba ; background-image: url(../images/case2/icon_03.png); }
+.p2_icon03{border: solid 3px #fff; background-color:#9da231 ; background-image: url(../images/case2/icon_02.png); }
+.p2_icon04{border: solid 3px #fff; background-color:#6537ba ; background-image: url(../images/case2/icon_01.png); }
+
+
+
+
+
+}
+	
+@media screen and (max-width: 870px) {
+
+.WB_p2_block_wrap { max-width: 360px; margin: 0 auto;}
+.WB_p2_block {margin: 15px 0;}
+
+
+.WB_p4_wrap{text-align: center; padding: 70px 0 20px 0; display: inline-block;  }
+.WB_p4_title {font-size: 30px; color: #000}
+.WB_p4_content{ width: 100% ;max-width:870px; text-align: center; padding: 40px 0;}
+.WB_p4_img{display: block; float: left  }
+.WB_p4_IBOX{ max-width: 100%; width: 50%; display: block; float: left; padding:0 50px 20px 50px   }
+.p4_icontitleP{ margin: 0 auto; font-size: 24px; font-weight: 700; color: #6537ba ; line-height: 1.8;text-align: left  }
+.p4_iconP{ margin: 0 auto; font-size: 18px; font-weight: 500; color: #333;line-height: 1.6; text-align: left }
+}
+
+@media screen and (max-width: 768px) { 
+
+
+ }
+@media screen and (max-width: 576px) {	
+.WB_ver_web{display: none;}
+.WB_ver_phone{display: block;}
+/*---------------------------.WB_p1---------------------------------------------*/ 
+.WB_p1_wrap, .WB_p2_wrap, .WB_p3_wrap, .WB_p4_wrap, .WB_p5_wrap, .WB_p6_wrap, .WB_p7_wrap, .WB_p8_wrap, .WB_p9_wrap{line-height: 1.5; letter-spacing: 1px; padding: 50px 15px;}	
+	
+.p1_br{display:inline-block !important;}
+	
+.WB_p1 {
+    background-image: url(../images/case2/title_bg_phone.png);
+    background-repeat: no-repeat;
+    background-position-x: 42%;
+
+}
+
+.WB_p1 .WB_text{margin-left: 15px;margin-top: 0px;line-height: 45px;}
+.WB_p1 .title{color: #fff;font-size: 48px;font-weight: bold; margin-top:30px;}
+
+.WB_p1 .text_2{color: #fff;font-size: 16px; margin-top: 5px; width: 100%; line-height: 1.5}
+
+
+/*------------------------------------.WB_p2---------------------------------------------*/
+
+.WB_p2_p{text-align: left;font-size: 18px; color: #333; line-height: 1.6}
+.WB_p2_block_wrap{ position: relative; display:inline-block; padding-bottom: 20px;   }
+
+.WB_p2_wrap{text-align: center;  }
+
+.videoBOX{width:100%; padding-bottom: 30px; display: inline-block; position: relative;}
+.videotitle{padding-left:20px; float: left; width:100%; padding-bottom: 30px; display: inline-block; left: 0px;background-image: url(../images/case2/p2txt_bg.png); background-position:center bottom;}
+
+.WB_p2_BOXs{width: 100%;  display:inline-block; position: relative; height:auto; margin: 0 auto; margin-top:20px; padding: 10px;  }
+
+.WB_p2_IBOX{ position: relative; max-width: 100%; width: 100%; top:0px; left:0px;  display: inline-block;}
+
+.WB_p2_IBOX2{ position: relative; max-width:100%; width: 100%; top:0px; left:0px;  display: inline-block; }
+.WB_p2_IBOX3{ position: relative; max-width:100%; width: 100%; top:0px; left:0px;  display: inline-block; }
+.WB_p2_IBOX4{ position: relative; max-width:100%; width: 100%; top:0px; left:0px;  display: inline-block;}
+
+
+
+.p2_icontitleG{ float: left; font-size: 24px; font-weight: 700; color: #9da231; line-height: 1.8; text-align: left }
+.p2_icontitleP{ float: left;  font-size: 24px; font-weight: 700; color: #6537ba ; line-height: 1.8;text-align: left }
+.p2_iconP{ float: left; font-size: 16px; font-weight: 500; color: #333;line-height: 1.6; text-align: left}
+
+.WB_p2_icon{width: 117px;  height: 117px;  border-radius: 100%;  float: left; margin:0 5px 0 0; }
+
+.p2_icon01{border: solid 3px #fff; background-color:#9da231 ; background-image: url(../images/case2/icon_04.png);  }
+
+.p2_icon02{border: solid 3px #fff; background-color:#6537ba ; background-image: url(../images/case2/icon_03.png); }
+
+.p2_icon03{border: solid 3px #fff; background-color:#9da231 ; background-image: url(../images/case2/icon_02.png); }
+
+.p2_icon04{border: solid 3px #fff; background-color:#6537ba ; background-image: url(../images/case2/icon_01.png); }
+
+
+	.WB_p2_title {
+    font-size: 30px;
+}
+	.WB_p2 .text_1 {
+    font-size: 20px;
+    padding: 10px 0 0 0;
+}
+	.WB_p2_block {
+    margin-bottom: 30px;
+}
+/*----------------------------------.WB_p3------------------------------------------------------*/
+	
+	
+.WB_p3{padding:0 0; background-color:#43267a; background-repeat:no-repeat; }
+.WB_p3_wrap{text-align: center; position: relative;padding: 70px 0 20px 0;  }
+.WB_p3_title {font-size: 30px; color: #fff}
+.title_Y{font-size: 36px; color: #f4ff04 }
+.WB_p3_content{ width: 100% ;max-width:360px; text-align: center; padding: 50px 0;}
+
+/*----------------------------------.WB_p4------------------------------------------------------*/
+    
+    
+.WB_p4{padding: 0 0; background-image: url(../images/case2/p4_bgphone.png);  background-repeat:repeat; background-position: center; }
+.WB_p4_wrap{text-align: center; padding: 70px 0 20px 0; display: inline-block;  }
+.WB_p4_title {font-size: 30px; color: #000}
+.title_Y{font-size: 36px; color: #f4ff04 }
+.WB_p4_content{ width: 100% ;max-width:360px; text-align: center; padding: 40px 0;}
+.WB_p4_img{display: block; float: left  }
+.WB_p4_IBOX{ max-width: 100%; width: 50%; display: block; float: left; padding:50px 0  }
+.p4_icontitleP{ margin: 0 auto; font-size: 24px; font-weight: 700; color: #6537ba ; line-height: 1.8;text-align: left  }
+.p4_iconP{ margin: 0 auto; font-size: 18px; font-weight: 500; color: #333;line-height: 1.6; text-align: left }
+/*----------------------------------.WB_p5------------------------------------------------------*/
+    
+    
+.WB_p5{padding:0 0; background-color:#43267a; background-repeat:no-repeat; }
+.WB_p5_wrap{text-align: center; position: relative;padding: 70px 0 20px 0;  }
+.WB_p5_title {font-size: 30px; color: #fff}
+.title_Y{font-size: 36px; color: #f4ff04 }
+.WB_p5_content{ width: 100% ;max-width:350px; text-align: center; padding: 50px 15px;}
+
+
+/*----------------------------------.WB_p6------------------------------------------------------*/
+    
+    
+.WB_p6{padding:0 0; background-color:#ebebeb; background-repeat:no-repeat; }
+.WB_p6_wrap{text-align: center; position: relative;padding: 70px 0 20px 0;  }
+.WB_p6_title {font-size: 30px; color: #000}
+.title_Y{font-size: 36px; color: #f4ff04 }
+.WB_p6_content{ width: 100% ;max-width:360px; text-align: center; padding: 50px 15px;display: block; }
+
+/*----------------------------------.WB_p7------------------------------------------------------*/
+    
+    
+.WB_p7{padding:0 0; background-color:#43267a; background-repeat:no-repeat; }
+.WB_p7_wrap{text-align: center; position: relative;padding: 70px 0 20px 0;  }
+.WB_p7_title {font-size: 30px; color: #fff; line-height: 1.6}
+.title_Y{font-size: 36px; color: #f4ff04 }
+.WB_p7_content{ width: 100% ;max-width:350px; text-align: center; padding: 50px 15px;display: block; }
+
+/*----------------------------------.WB_p8------------------------------------------------------*/
+    
+    
+.WB_p8{padding:0 0; background-color:#ebebeb; background-repeat:no-repeat; }
+.WB_p8_wrap{text-align: center; position: relative;padding: 70px 0 20px 0;  }
+.WB_p8_title {font-size: 30px; color: #000}
+.title_Y{font-size: 36px; color: #f4ff04 }
+.WB_p8_content{ width: 100% ;max-width:350px; text-align: center; padding: 50px 15px;display: block; }
+
+
+/*---------------------------------------------------內容.WB_p9---------------------------------------------------------*/ 
+
+.WB_p9{padding: 0 0; background-image: url(../images/case2/p9_bg.png);  background-repeat:no-repeat;background-position: top center;}
+.WB_p9_wrap{ display:block; text-align: center; width: 100%; } 
+.WB_p9_title {font-size: 30px; color: #fff; padding: 0 15px;}
+.WB_p9_content { text-align: center; width: 100% ;max-width:863px; display: block; margin: 0 auto; padding: 50px 0 30px 0}
+.WB_p9_IBOX{ max-width: 360px; width:100%; display: inline-block; margin: 10px 0 10px 0;}
+
+
+
+
+
+
+
+
+}

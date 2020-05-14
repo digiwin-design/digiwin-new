@@ -1,0 +1,255 @@
+@import 'common/variable';
+@import 'common/helpers';
+@import 'common/family';
+@import 'common/reset';
+@import 'common/all';
+
+#WB002811.WB002811_research {
+    #indBanner {
+        background: url('../images/research/bg_banner.jpg') no-repeat center center;
+        @media (max-width: 768px) {
+            height: image-height('research/bg_banner-s.jpg');
+            background-image: url('../images/research/bg_banner-s.jpg');
+        }
+    }
+    #foreword {
+        .jobProblem {
+            color: #fff;
+            &:hover .handTop {
+                -webkit-animation-play-state: paused;
+                        animation-play-state: paused;
+            }
+        }
+        .txt {
+            float: left;
+            overflow: hidden;
+            padding: 0 15px;
+            width: 33.33333%;
+            cursor: pointer;
+            .outline {
+                position: relative;
+                overflow: hidden;
+                padding: 30px 0;
+                border-radius: 2px;
+                background-color: #0482b7;
+            }
+            .nameLayer {
+                position: relative;
+                z-index: 2;
+                text-align: center;
+                p {
+                    margin-top: 8px;
+                    text-align: inherit;
+                    font-weight: bold;
+                    font-size: 24px;
+                }
+            }
+            .txtLayer {
+                position: absolute;
+                top: 50%;
+                left: 0;
+                padding: 0 10px;
+                -webkit-transform: translateY(-50%);
+                        transform: translateY(-50%);
+                p {
+                    float: left;
+                    padding: 0 20px;
+                }
+            }
+            .handTop {
+                position: absolute;
+                top: 95%;
+                left: 50%;
+                font-size: 24px;
+                -webkit-transform: translateX(-50%);
+                        transform: translateX(-50%);
+                -webkit-animation: handTop 1.5s infinite;
+                        animation: handTop 1.5s infinite;
+                -webkit-animation-timing-function: ease-out;
+                        animation-timing-function: ease-out;
+            }
+            .mask {
+                position: absolute;
+                top: 100%;
+                left: 0;
+                z-index: 3;
+                width: 100%;
+                height: 100%;
+            }
+        }
+        .txt01 {
+            .outline {
+                background-color: #05529a;
+            }
+            .txtLayer {
+                color: #0557a4;
+            }
+            .mask {
+                background-color: rgba(2, 29, 55, .9);
+            }
+        }
+        .txt02 {
+            .outline {
+                background-color: #0482b7;
+            }
+            .txtLayer {
+                color: #0489c1;
+            }
+            .mask {
+                background-color: rgba(2, 59, 83, .9);
+            }
+        }
+        .txt03 {
+            .outline {
+                background-color: #04a8b7;
+            }
+            .txtLayer {
+                color: #04b1c1;
+            }
+            .mask {
+                background-color: rgba(2, 76, 83, .9);
+            }
+        }
+    }
+    #mainContent {
+        background-color: #f5f5f5;
+        .group {
+            padding: 50px;
+            .list {
+                float: left;
+                width: 20%;
+                text-align: center;
+                cursor: pointer;
+                img {
+                    width: 120px;
+                    height: 120px;
+                    border-radius: 100%;
+                    background-color: #05529a;
+                    -webkit-transition: .5s;
+                            transition: .5s;
+                }
+                p {
+                    position: relative;
+                    margin-top: 10px;
+                    text-align: center;
+                    font-size: 20px;
+                    &:before {
+                        position: absolute;
+                        top: 110%;
+                        left: 50%;
+                        display: block;
+                        width: 0;
+                        height: 3px;
+                        background-color: #2793f8;
+                        content: '';
+                        -webkit-transition: .5s;
+                                transition: .5s;
+                        -webkit-transform: translateX(-50%);
+                                transform: translateX(-50%);
+                    }
+                }
+                &:hover {
+                    img {
+                        background-color: #2793f8;
+                    }
+                    p {
+                        color: #2793f8;
+                        &:before {
+                            width: 60%;
+                        }
+                    }
+                }
+            }
+        }
+        .fa {
+            display: block;
+            color: #ccc;
+            text-align: center;
+            font-size: 50px;
+            cursor: pointer;
+        }
+        .issue {
+            display: table;
+            padding: 50px 0;
+            border-bottom: 1px solid #ccc;
+            &.end {
+                border-bottom: none;
+            }
+            strong {
+                color: #05529a;
+            }
+            .txtGroup {
+                position: relative;
+                position: relative;
+                display: table-cell;
+                width: 550px;
+                vertical-align: middle;
+                ul {
+                    margin-left: 20px;
+                }
+                li {
+                    margin-bottom: 4px;
+                    list-style: disc outside;
+                    line-height: 24px;
+                }
+            }
+            .imgGroup {
+                position: relative;
+                display: table-cell;
+                width: 650px;
+                vertical-align: middle;
+                 > div {
+                    float: left;
+                    width: 310px;
+                    &:first-child {
+                        margin-right: 30px;
+                    }
+                }
+                p {
+                    text-align: center;
+                }
+            }
+            &:nth-of-type(odd) .txtGroup {
+                padding-right: 50px;
+            }
+            &:nth-of-type(even) {
+                .txtGroup {
+                    left: 650px;
+                    padding-left: 50px;
+                }
+                .imgGroup {
+                    right: 550px;
+                }
+            }
+        }
+    }
+}
+
+@-webkit-keyframes handTop {
+    0% {
+        top: 95%;
+    }
+
+    50% {
+        top: 87%;
+    }
+
+    100% {
+        top: 95%;
+    }
+}
+
+
+@keyframes handTop {
+    0% {
+        top: 95%;
+    }
+
+    50% {
+        top: 87%;
+    }
+
+    100% {
+        top: 95%;
+    }
+}

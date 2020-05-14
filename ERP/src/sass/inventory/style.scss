@@ -1,0 +1,287 @@
+@import '../common';
+@import 'all';
+@import 'components';
+
+main {
+    .header {
+        @include headerBg('inventory/header-bg.jpg', 'inventory/header-bg-s.jpg');
+        padding-top: 0;
+        color: #fff;
+        &-text {
+            @media (min-width: $tablet-width + 1) {
+                transform: translateY(-30px);
+            }
+        }
+        p {
+            font-size: 20px;
+            @media (min-width: $tablet-width + 1) {
+                font-size: 18px;
+            }
+        }
+        a {
+            @include btn(250px, 50px, #fff, #f9972b);
+            margin-top: 1em;
+            font-size: 22px;
+        }
+    }
+    .section1 {
+        padding-bottom: 60px;
+        &-boxs {
+            display: flex;
+            flex-wrap: wrap;
+        }
+    }
+    .section2 {
+        padding-bottom: 50px;
+        background-color: #e5f2f9;
+        @media (min-width: $tablet-width + 1) {
+            @include bg('inventory/section2-bg.jpg');
+            background-size: cover;
+        }
+        .container {
+            @media (min-width: $tablet-width + 1) {
+                padding-right: 0;
+                padding-left: 0;
+                &.sectionTitle,
+                &.sectionDesc {
+                    padding-right: 20px;
+                    padding-left: 20px;
+                }
+            }
+        }
+        &-items {
+            @media (min-width: $tablet-width + 1) {
+                display: flex;
+                margin: 0 auto;
+                padding-right: 30px;
+                padding-left: 30px;
+                max-width: 1200px;
+                justify-content: space-between;
+            }
+        }
+        &-item {
+            @media (min-width: $tablet-width + 1) {
+                width: calc((100% - 200px) / 3);
+                @for $nth from 1 through 3 {
+                    &:nth-of-type(#{$nth})::before {
+                        @include imgBg('inventory/section2-icon#{$nth}.png', true);
+                        display: block;
+                        margin: 0 auto;
+                        content: '';
+                    }
+                }
+            }
+            &:not(:last-of-type) {
+                border-bottom: 1px solid #e5f2f9;
+            }
+        }
+        &-subtitle {
+            display: flex;
+            height: 80px;
+            background-color: #1171c4;
+            color: #fff;
+            font-size: 24px;
+            line-height: 80px;
+            cursor: pointer;
+            justify-content: space-between;
+            align-items: center;
+            @media (min-width: $tablet-width + 1) {
+                display: block;
+                margin-top: 1em;
+                margin-bottom: 1em;
+                height: auto;
+                background-color: transparent;
+                color: #000;
+                text-align: center;
+                font-weight: bold;
+                font-size: 30px;
+                line-height: 1;
+                cursor: default;
+            }
+            &::after {
+                @include imgBg('inventory/plus-icon.png');
+                content: '';
+                @media (min-width: $tablet-width + 1) {
+                    display: none;
+                }
+            }
+            &.active::after {
+                @include imgBg('inventory/minus-icon.png');
+            }
+        }
+        &-content {
+            @at-root {
+                main .section2-item:not(:first-of-type) .section2-content {
+                    display: none;
+                    @media (min-width: $tablet-width + 1) {
+                        display: block;
+                    }
+                }
+            }
+            p {
+                padding-top: 1em;
+                @media (min-width: $tablet-width + 1) {
+                    padding-top: 0;
+                }
+                @at-root {
+                    main .section2-item:not(:last-of-type) .section2-content p {
+                        padding-bottom: 1em;
+                        @media (min-width: $tablet-width + 1) {
+                            padding-bottom: 0;
+                        }
+                    }
+                }
+            }
+        }
+        &-btn {
+            @include btn(306px, 65px, #fff, map-get($color, red));
+            display: flex;
+            margin: 2em auto 0;
+            border-radius: 5px;
+            justify-content: center;
+            align-items: center;
+            &::before {
+                @include imgBg('inventory/btn-arrow.png');
+                display: block;
+                margin-right: 10px;
+                content: '';
+            }
+        }
+    }
+    .section3 {
+        padding-bottom: 60px;
+        &-cases {
+            display: flex;
+            flex-wrap: wrap;
+        }
+    }
+    .section4 {
+        padding-bottom: 1em;
+        background-color: map-get($color, blue);
+        @media (min-width: $tablet-width + 1) {
+            padding-bottom: 60px;
+            background-color: transparent;
+        }
+        .sectionTitle,
+        .sectionDesc {
+            color: #fff;
+            @media (min-width: $tablet-width + 1) {
+                color: #000;
+            }
+        }
+        &-nav {
+            display: none;
+            @media (min-width: $tablet-width + 1) {
+                display: flex;
+                margin: 0 auto;
+                max-width: $content-width;
+                li {
+                    width: calc((100% - 12px) / 5);
+                    & + li {
+                        margin-left: 3px;
+                    }
+                    a {
+                        @include btn(100%, 62px, map-get($color, blue), transparent);
+                        border-width: 1px;
+                        border-style: solid;
+                        border-color: map-get($color, blue) map-get($color, blue) transparent map-get($color, blue);
+                        font-weight: bold;
+                        font-size: 24px;
+                        &.active {
+                            background-color: map-get($color, blue);
+                            color: #fff;
+                        }
+                    }
+                }
+            }
+        }
+        &-subtitle {
+            display: flex;
+            height: 80px;
+            background-color: #fff;
+            color: map-get($color, blue);
+            font-weight: bold;
+            font-size: 24px;
+            line-height: 80px;
+            cursor: pointer;
+            justify-content: space-between;
+            align-items: center;
+            @media (min-width: $tablet-width + 1) {
+                display: none;
+            }
+            &::after {
+                @include imgBg('inventory/plus-icon.png');
+                content: '';
+            }
+            &.active::after {
+                @include imgBg('inventory/minus-icon.png');
+            }
+        }
+        &-content {
+            @media (min-width: $tablet-width + 1) {
+                background-color: map-get($color, blue);
+            }
+            & + h2 {
+                margin-top: 1px;
+            }
+            .cols {
+                position: relative;
+                display: flex;
+                padding-top: 35px;
+                padding-bottom: 115px;
+                flex-wrap: wrap;
+                @media (min-width: $tablet-width + 1) {
+                    padding: 80px 20px;
+                }
+            }
+            .col {
+                width: 100%;
+                @media (min-width: $tablet-width + 1) {
+                    position: relative;
+                    width: calc((100% - 1em) / 2);
+                }
+                & + .col {
+                    margin-top: 1em;
+                    text-align: center;
+                    @media (min-width: $tablet-width + 1) {
+                        margin-top: 0;
+                        margin-left: 1em;
+                        text-align: right;
+                    }
+                }
+            }
+            h3 {
+                margin-bottom: .5em;
+                color: #fff;
+                font-size: 30px;
+            }
+            h4 {
+                color: #eaff00;
+                font-weight: bold;
+                font-size: 24px;
+            }
+            p {
+                color: #fff;
+            }
+        }
+        &-btn {
+            @include btn(356px, 52px, #fff, map-get($color, red), 0, true);
+            position: absolute;
+            bottom: 40px;
+            left: 50%;
+            width: calc(100% - 40px);
+            transform: translateX(-50%);
+            @media (min-width: $tablet-width + 1) {
+                position: static;
+                margin-top: 1em;
+                width: 100%;
+                transform: none;
+            }
+            @media (min-width: $content-width) {
+                position: absolute;
+                bottom: 0;
+                left: 0;
+            }
+        }
+    }
+}

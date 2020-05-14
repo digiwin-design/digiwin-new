@@ -1,0 +1,215 @@
+[v-cloak] {
+    display: none;
+}
+// dat.GUI
+.dg.ac {
+    z-index: 99;
+}
+main {
+    min-width: 360px;
+    font-size: 18px;
+    line-height: 1.6;
+    .container {
+        margin: 0 auto;
+        padding: 0 20px;
+        max-width: $content-width;
+        @media (min-width: $content-width) {
+            padding-right: 0;
+            padding-left: 0;
+        }
+    }
+    .mainTitle {
+        font-weight: bold;
+        font-size: 30px;
+        @media (min-width: $tablet-width + 1) {
+            font-size: 48px;
+        }
+    }
+    .sectionTitle {
+        padding-top: 50px;
+        text-align: center;
+        font-size: 26px;
+        @media (min-width: $tablet-width + 1) {
+            font-size: 36px;
+        }
+    }
+    .sectionDesc {
+        margin-top: .5em;
+        margin-bottom: 2em;
+        line-height: 26px;
+    }
+    .header {
+        h1 {
+            color: #f0fe11;
+            line-height: 40px;
+            @media (min-width: $tablet-width + 1) {
+                line-height: 55px;
+            }
+        }
+        p {
+            margin-top: .5em;
+            color: #fff;
+            line-height: 26px;
+        }
+    }
+    .hoverBox {
+        // color
+        $color: (
+            main: #e94609,
+            yellow: #e9b709,
+            orange: #e97d09,
+            pink: #f13f67,
+            coffee: #c49a6c,
+            blue: #49bcc3,
+            brown: #bd973c,
+            salmon: #ef8570,
+            purple: #b988b8,
+            gold: #cdbc5d,
+            sea: #7ccdc4,
+            green: #5cc99c,
+            darkOrange: #f68a0c,
+            forest: #b4bc2d,
+            tomato: #fe6547,
+            darkYellow: #dbac07
+        );
+        &.main {
+            background-color: map-get($color, main);
+            .hoverBox-hover {
+                background-color: rgba(darken(map-get($color, main), 20%), .95);
+            }
+        }
+        &.yellow {
+            background-color: map-get($color, yellow);
+            .hoverBox-hover {
+                background-color: rgba(darken(map-get($color, yellow), 20%), .95);
+            }
+        }
+        &.orange {
+            background-color: map-get($color, orange);
+            .hoverBox-hover {
+                background-color: rgba(darken(map-get($color, orange), 20%), .95);
+            }
+        }
+        &.pink {
+            background-color: map-get($color, pink);
+            .hoverBox-hover {
+                background-color: rgba(darken(map-get($color, pink), 20%), .95);
+            }
+        }
+        &.coffee {
+            background-color: map-get($color, coffee);
+            .hoverBox-hover {
+                background-color: rgba(darken(map-get($color, coffee), 20%), .95);
+            }
+        }
+        &.blue {
+            background-color: map-get($color, blue);
+            .hoverBox-hover {
+                background-color: rgba(darken(map-get($color, blue), 20%), .95);
+            }
+        }
+        &.brown {
+            background-color: map-get($color, brown);
+            .hoverBox-hover {
+                background-color: rgba(darken(map-get($color, brown), 20%), .95);
+            }
+        }
+        &.salmon {
+            background-color: map-get($color, salmon);
+            .hoverBox-hover {
+                background-color: rgba(darken(map-get($color, salmon), 20%), .95);
+            }
+        }
+        &.purple {
+            background-color: map-get($color, purple);
+            .hoverBox-hover {
+                background-color: rgba(darken(map-get($color, purple), 20%), .95);
+            }
+        }
+        &.gold {
+            background-color: map-get($color, gold);
+            .hoverBox-hover {
+                background-color: rgba(darken(map-get($color, gold), 20%), .95);
+            }
+        }
+        &.sea {
+            background-color: map-get($color, sea);
+            .hoverBox-hover {
+                background-color: rgba(darken(map-get($color, sea), 20%), .95);
+            }
+        }
+        &.green {
+            background-color: map-get($color, green);
+            .hoverBox-hover {
+                background-color: rgba(darken(map-get($color, green), 20%), .95);
+            }
+        }
+        &.darkOrange {
+            background-color: map-get($color, darkOrange);
+            .hoverBox-hover {
+                background-color: rgba(darken(map-get($color, darkOrange), 20%), .95);
+            }
+        }
+        &.forest {
+            background-color: map-get($color, forest);
+            .hoverBox-hover {
+                background-color: rgba(darken(map-get($color, forest), 20%), .95);
+            }
+        }
+        &.tomato {
+            background-color: map-get($color, tomato);
+            .hoverBox-hover {
+                background-color: rgba(darken(map-get($color, tomato), 20%), .95);
+            }
+        }
+        &.darkYellow {
+            background-color: map-get($color, darkYellow);
+            .hoverBox-hover {
+                background-color: rgba(darken(map-get($color, darkYellow), 20%), .95);
+            }
+        }
+
+        // icon
+        @for $nth from 1 through 13 {
+            &.icon#{$nth} {
+                &::before {
+                    background-image: image-url('hoverBox-icons/icon#{$nth}.png');
+                }
+            }
+        }
+    }
+    .slider {
+        &-desc {
+            display: flex;
+            flex-direction: column;
+            margin-bottom: 1.5em;
+            width: 100%;
+            align-items: center;
+            &-title {
+                margin-bottom: .5em;
+                text-align: center;
+                font-weight: bold;
+                font-size: 24px;
+            }
+            ul {
+                padding-left: 1em;
+                list-style-type: disc;
+            }
+            & > * {
+                max-width: 100%;
+            }
+        }
+        &-more {
+            @include btn(100%, 40px, #fff, $main-color, 0);
+            margin: 30px auto 0;
+            max-width: 335px;
+            font-size: 20px;
+        }
+        &-listCols {
+            display: flex;
+            ul + ul {
+                margin-left: 50px;
+            }
+        }
+    }
+}

@@ -1,0 +1,17 @@
+extends ../layout.pug
+
+block includes
+    //- fancybox
+    link(rel="stylesheet", href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css")
+    script(src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js", defer)
+    
+    //- jquery ui
+    link(rel="stylesheet", href="/tw/dsc/Library/css/jquery-ui.min.css")
+    script(src="/tw/dsc/solution/WB002513/js/jquery-ui.min.js", defer)
+
+    link(rel="stylesheet", href="css/WB002513_common.css")
+    link(rel='stylesheet', href='css/WB00251301/style.css')
+    script(src='js/WB00251301.min.js', defer)
+
+block content
+    include WB00251301.html

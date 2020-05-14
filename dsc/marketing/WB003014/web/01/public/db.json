@@ -1,0 +1,193 @@
+{
+    "latest": {
+        "title": "數位應用價值講堂",
+        "subtitle": "製造業轉型全指南系列",
+        "content": "面對疫情，越來越多的企業不只是降低人力需求；而是在生產上越來越有彈性，滿足各個不同需求的客戶。此系列活動以燈塔企業案例分享，從經營挑戰到管理重點，如何利用數位轉型自動化，達到企業免疫的關鍵？",
+        "link": "https://bit.ly/2xC8ZSP"
+    },
+    "category": [
+        {
+            "title": "數位轉型趨勢講堂",
+            "desc": "工業互聯網、新零售、美中貿易戰...面對各種趨勢議題和行業趨勢，數位轉型趨勢講堂透過一小時專家解說，助您把議題名詞轉變成轉型動詞！",
+            "link": "#video-list"
+        },
+        {
+            "title": "智慧工廠線上參訪",
+            "desc": "智慧製造看似遙遠，但已經有很多企業正在踏出第一步，實現智能工廠沒這麼困難！透過Digiwin TV實際採訪，讓您不用踏出家門，也能深度體驗了解智慧工廠！",
+            "link": "#video-list"
+        },
+        {
+            "title": "數位應用價值講堂",
+            "desc": "數位化只是手段，實際取得效益才是目的！標竿企業如何做到的？讓專家顧問團與您深度剖析實際應用案例，一同解決企業內部問題！",
+            "link": "#video-list"
+        }
+    ],
+    "recommended": [
+        {
+            "video": "https://youtu.be/Z9GXsJQu6jI",
+            "tags": ["數位應用價值", "管理議題"]
+        },
+        {
+            "video": "https://youtu.be/uwPo1UPONOE",
+            "tags": ["遠距會議", "居家辦公", "新冠肺炎"]
+        },
+        {
+            "video": "https://youtu.be/rlh2GXqeVa8",
+            "tags": ["數位應用管理", "HR", "新冠肺炎"]
+        },
+        {
+            "video": "https://youtu.be/1GfHtDT0vaw",
+            "tags": ["新零售", "全域營銷"]
+        },
+        {
+            "video": "https://youtu.be/vIEXbzwIAy4",
+            "tags": ["數位轉型", "工業4.0"]
+        }
+    ],
+    "videoList": [
+        {
+            "category": 1,
+            "titleType": "數位轉型<br>趨勢講堂",
+            "titleName": "2019鼎新企業高峰年會",
+            "contentText": "鼎新企業高峰年會邁向第七個年頭，帶給千家企業夥伴產業新知與趨勢議題。邀請業界黃金講師陣容，以實務角度帶出製造產業及零售業最新趨勢，與您一同邁向台灣新智造、新零售。",
+            "imgUrl": "list01.jpg",
+            "link": "/tw/activity/1780.html",
+            "linkText": "直播活動回看"
+        },
+        {
+            "category": 1,
+            "titleType": "數位轉型<br>趨勢講堂",
+            "titleName": "從《工業3.5》看台灣產業現狀 專家導讀會",
+            "contentText": "「工業3.5」是台灣製造企業面向智慧製造的混和型策略！而何謂工業3.5？特邀鼎新電腦歐俋伶總經理為大家導讀《工業3.5》，並分享台灣中小製造業轉型案例。",
+            "imgUrl": "list02.jpg",
+            "link": "/tw/activity/1931.html",
+            "linkText": "直播活動回看"
+        },
+        {
+            "category": 1,
+            "titleType": "數位轉型<br>趨勢講堂",
+            "titleName": "精實智慧製造 實現降本提效數位化轉型路徑",
+            "contentText": "精實生產的理論由來已久，是一套以排除浪費為主要目的之系統性生產方法。鼎新電腦資深顧問常金龍，將與您釐清精實製造與智慧製造的關係，以及雙軌併行之道。",
+            "imgUrl": "list03.jpg",
+            "link": "/tw/activity/1931.html",
+            "linkText": "直播活動回看"
+        },
+        {
+            "category": 1,
+            "titleType": "數位轉型<br>趨勢講堂",
+            "titleName": "工業互聯網APP賦能實現精實智能生產",
+            "contentText": "工業APP如何達到小應用大效益，讓企業主隨時隨地瞭解設備投資收益 ，降本增效提升企業OEE水準？讓鼎新電腦工業APP事業部曹永誠副總經理告訴您敏穩雙態IT新趨勢。",
+            "imgUrl": "list04.jpg",
+            "link": "/tw/activity/1931.html",
+            "linkText": "直播活動回看"
+        },
+        {
+            "category": 1,
+            "titleType": "數位轉型<br>趨勢講堂",
+            "titleName": "數據驅動數位化轉型有捷徑",
+            "contentText": "數位化轉型的目的是達到商業模式的變革，這條漫漫轉型路要如何才能把握方向不走偏、不繞遠路？鼎新電腦蘇斌雄專家，將與您分享面向數位化轉型與智慧製造的變與不變。",
+            "imgUrl": "list05.jpg",
+            "link": "/tw/activity/1931.html",
+            "linkText": "直播活動回看"
+        },
+        {
+            "category": 1,
+            "titleType": "數位轉型<br>趨勢講堂",
+            "titleName": "中美貿易戰看智能製造與工業互聯網，如何賦能台灣製造業數位化轉型",
+            "contentText": "中美貿易戰持續延燒，對台灣產業的影響為何？本次邀請鼎新電腦資深副總裁陳劉杰，從三個精彩案例分享智能製造與工業互聯網，如何賦能台灣製造業數位化轉型。",
+            "imgUrl": "list06.jpg",
+            "link": "/tw/activity/1976.html",
+            "linkText": "直播活動回看"
+        },
+        {
+            "category": 1,
+            "titleType": "數位轉型<br>趨勢講堂",
+            "titleName": "自動化工業展x塑橡膠工業展 專家看展指南 台灣智慧製造發展新視野",
+            "contentText": "本次邀請2位專家，用對談形式從展會亮點到趨勢走向，並以自身專長分享人機協作軟硬融通的智慧製造路徑，讓您快速從展會趨勢掌握智能製造發展方向！",
+            "imgUrl": "list07.jpg",
+            "link": "/tw/activity/1980.html",
+            "linkText": "直播活動回看"
+        },
+        {
+            "category": 1,
+            "titleType": "數位轉型<br>趨勢講堂",
+            "titleName": "書籍導讀會 《面向未來的智造者》 看台灣精實智能製造趨勢",
+            "contentText": "由鼎新電腦曹永誠副總經理分享《面對未來的智造者：工業4 .0的困惑與下一波製造業再興》書中「精實智能製造」的內涵，以及數據如何支持精實變革改善。",
+            "imgUrl": "list08.jpg",
+            "link": "/tw/activity/1997.html",
+            "linkText": "直播活動回看"
+        },
+        {
+            "category": 1,
+            "titleType": "數位轉型<br>趨勢講堂",
+            "titleName": "CIO到COO企業創新三部曲",
+            "contentText": "身為高階的您，如何發展企業的核心價值？此次分享從CIO到COO的角色價值轉換，到企業數位化轉型與智能化，如何善用資訊工具配合管理需求，達到企業經營夢想？",
+            "imgUrl": "list09.jpg",
+            "link": "/tw/activity/1998.html",
+            "linkText": "直播活動回看"
+        },
+        {
+            "category": 1,
+            "titleType": "數位轉型<br>趨勢講堂",
+            "titleName": "2020鼎新企業高峰線上年會",
+            "contentText": "因應疫情致全球遭受衝擊，企業面對市場環境「不確定性」加劇，企業該如何快速應變、強化免疫力？特別規劃從經濟面、營運面、產業面、職能面規劃多場線上直播，邀您一同參與！",
+            "imgUrl": "list14.jpg",
+            "link": "/tw/dsc/activity/MFT/WB003030/WB00303000_index.html",
+            "linkText": "直播活動回看"
+        },
+        {
+            "category": 2,
+            "titleType": "智慧工廠<br>線上參訪",
+            "titleName": "君牧塑膠線上參訪",
+            "contentText": "由標竿企業轉型團隊現身說法，從轉型實證分享、各站點導覽解說、智能方案實證經驗分享交流，帶您走進製造現場，看見「傳統產業」逐步實現「智慧工廠」的轉型之路。",
+            "imgUrl": "list12.jpg",
+            "link": "/tw/activity/1964.html",
+            "linkText": "案例影片及講義下載"
+        },
+        {
+            "category": 2,
+            "titleType": "智慧工廠<br>線上參訪",
+            "titleName": "力肯實業線上參訪(金屬業)",
+            "contentText": "手工具產業市場越來越競爭，如開發中國家產業的迅速發展，持續對我國造成威脅，如何透過數據應用做到精進管理，提升營運體質，找到抗衡未來不確定性的企業運營效能呢？",
+            "imgUrl": "list16.jpg",
+            "link": "/tw/activity/2247.html",
+            "linkText": "案例影片及講義下載"
+        },
+        {
+            "category": 3,
+            "titleType": "數位應用<br>價值講堂",
+            "titleName": "走出產銷迷宮創新商機 ─東野精機價值交付案例完整解析",
+            "contentText": "由價值交付雙嬌帶您了解管理議題的制定、有效產銷會議的關鍵要素，並以實證案例─東野精機以訂單交付管理議題，作為價值交付之落地實證手法完整解析。",
+            "imgUrl": "list10.jpg",
+            "link": "/tw/activity/2040.html",
+            "linkText": "直播活動回看"
+        },
+        {
+            "category": 3,
+            "titleType": "數位應用<br>價值講堂",
+            "titleName": "開啟新零售實現全域營銷─鼎新新零售方案實證案例分享會",
+            "contentText": "從數位化轉型的角度分享新零售的價值，並解析鼎新經營新零售三家客戶，實際運用新零售達到會員經營、虛實整合、全域營銷的案例分享。",
+            "imgUrl": "list11.jpg",
+            "link": "/tw/activity/2055.html",
+            "linkText": "直播活動回看"
+        },
+        {
+            "category": 3,
+            "titleType": "數位應用<br>價值講堂",
+            "titleName": "智能物流x動態存貨調控─碩陽電機價值交付案例完整解析",
+            "contentText": "由專家顧問解析碩陽電機進行價值交付管理升級的契機、瓶頸與成功關鍵為何？剖析存貨管理之目的，以及運用動態存貨調控流程的實證作為和成效！",
+            "imgUrl": "list13.jpg",
+            "link": "/tw/activity/2078.html",
+            "linkText": "直播活動回看"
+        },
+        {
+            "category": 3,
+            "titleType": "數位應用<br>價值講堂",
+            "titleName": "工程業專案管理全指南！",
+            "contentText": "工程業專案執行過程中，如何在價格、品質、技術、服務間取捨，擬定適切的經營發展策略，一直都是經營者的重要挑戰。面對不同專案，工程業應如何活用資源確保利潤？",
+            "imgUrl": "list15.jpg",
+            "link": "/tw/activity/2168.html",
+            "linkText": "直播活動回看"
+        }
+    ]
+}

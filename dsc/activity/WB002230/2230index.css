@@ -1,0 +1,130 @@
+@charset "big5";
+@import url("reset.css");
+/* CSS Document */
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	background-color: #F5F3F4;
+	background: #F5F3F4 url(images/bg.jpg) repeat-x;
+}
+
+.txt15 { 
+	font-family: 新細明體, Arial, Helvetica, sans-serif; 
+	font-size:15px; 
+	color:#fffcd4; font-weight:bold;
+	letter-spacing:1px; 
+	line-height:1.7;
+	}
+.txt15a { 
+	font-family: 新細明體, Arial, Helvetica, sans-serif; 
+	font-size:15px; 
+	color:#515151; font-weight:bold;
+	letter-spacing:1px; 
+	line-height:1.7;
+	}
+td { font-family:"新細明體"; font-size:13px; letter-spacing:1px; color:#333; line-height:1.6;}
+a.b:link {
+	font-family: 新細明體, Arial, Helvetica, sans-serif; 
+	font-size:13px; 
+	color:#333; 
+	letter-spacing:1px; 
+	line-height:1.6;
+	text-decoration:none;
+}
+a.b:visited {
+	font-family: 新細明體, Arial, Helvetica, sans-serif; 
+	font-size:13px; 
+	color:#333; 
+	letter-spacing:1px; 
+	line-height:1.6;
+}
+a.b:hover {
+	font-family: 新細明體, Arial, Helvetica, sans-serif; 
+	font-size:13px; 
+	color: #F60; 
+	letter-spacing:1px; 
+	line-height:1.6;
+}
+a.b:active {
+	font-family: "新細明體";
+	font-size: 13px;
+	line-height: 20px;
+	color: #333;
+	text-decoration: underline;
+}
+.lineL {
+	border-left-width: 1px;
+	border-left-style: solid;
+	border-left-color: #bebebe;
+}
+.txt13R{
+	font-family: "新細明體";
+	font-size: 13px;
+	line-height: 22px;
+	letter-spacing:1px;
+	color: #e3185c;
+	font-weight: bold;
+}
+.txt13B{
+	font-family: "新細明體";
+	font-size: 13px;
+	line-height: 22px;
+	letter-spacing:1px;
+	color: #0e90c2;
+	font-weight: bold;
+}
+.txt13G{
+	font-family: "新細明體";
+	font-size: 13px;
+	line-height: 22px;
+	letter-spacing:1px;
+	color: #458645;
+	font-weight: bold;
+}
+/* =====開始========================= */
+#WRAPPER { width:900px; margin:0 auto; background-color:#FFF;}
+#CIS { width:900px; margin:0 auto;}
+#TOP { width:900px; height:308px; margin:0 auto; background-image:url(images/2230index01a.jpg); position:relative;}
+#TOP #MOVIE {
+	width:320px;
+	height:240px;
+	position:absolute;
+	left: 541px;
+	top: 56px;
+}
+#CONTENT { width:830px; height:120px; margin:0 auto; padding:10px 30px 0 40px;}
+#CONTENT p { font-family:"新細明體"; font-size:15px; letter-spacing:1px; color:#525252; line-height:1.6;}
+#CONTENT h2 { font-family:"微軟正黑體"; font-size:20px; letter-spacing:1px; color:#17a4c6; line-height:1.6;}
+#TC_BG { width:800px; height:267px; margin:0 auto; background-image:url(images/2230index02.jpg); padding-left:46px; margin-bottom:20px;}
+#TC_BG .TC { float:left; width:159px; height:225px; margin:0 auto; margin-top:23px;}
+#EVENT1 { width:846px; height:110px; margin:0 auto; background-image:url(images/2230index07.jpg); }
+#EVENT1 p { font-family:"新細明體"; font-size:13px; letter-spacing:1px; color:#333; line-height:1.6;}
+#EVENT1 #MAIN_1 { float:left; width:340px; margin:22px 15px 0px 210px;}
+#EVENT1 #MAIN_1 a { color:#fffcd4; text-decoration:none; }
+#EVENT1 #MAIN_1 a:hover { text-decoration:underline; color: #FFF; }
+#EVENT1 #ADD_1 { float:left; width:180px; margin:22px 0px 0px 20px;}
+#EVENT1 #SIGN_1 { float:right; width:64px; height:110px;}
+
+#EVENT2 {clear:both; width:846px; height:110px; margin:0 auto; background-image:url(images/2230index09.jpg); }
+#EVENT2 p { font-family:"新細明體"; font-size:13px; letter-spacing:1px; color:#333; line-height:1.6;}
+#EVENT2 #MAIN_2 { float:left; width:340px; margin:22px 15px 0px 210px;}
+#EVENT2 #MAIN_2 a { color:#fffcd4; text-decoration:none; }
+#EVENT2 #MAIN_2 a:hover { text-decoration:underline; color: #FFF; }
+#EVENT2 #ADD_2 { float:left; width:180px; margin:22px 0px 0px 20px;}
+#EVENT2 #SIGN_2 { float:right; width:64px; height:110px;}
+
+#EVENT3 {clear:both; width:846px; height:110px; margin:0 auto; background-image:url(images/2230index11.jpg); }
+#EVENT3 p { font-family:"新細明體"; font-size:13px; letter-spacing:1px; color:#333; line-height:1.6;}
+#EVENT3 #MAIN_3 { float:left; width:340px; margin:22px 15px 0px 210px;}
+#EVENT3 #MAIN_3 a { color:#fffcd4; text-decoration:none; }
+#EVENT3 #MAIN_3 a:hover { text-decoration:underline; color: #FFF; }
+#EVENT3 #ADD_3 { float:left; width:180px; margin:22px 0px 0px 20px;}
+#EVENT3 #SIGN_3 { float:right; width:64px; height:110px;}
+
+#OTHER { clear:both; padding: 30px 20px 0 30px; }
+#OTHER p { font-family:"新細明體, Arial, Helvetica, sans-serif"; font-size:19px; color:#666; letter-spacing:1px;}
+#FOOTER { clear:both; width:900px; height:35px;margin:0 auto; background-image:url(images/down_T2013.jpg); text-indent:-9999px; margin-top:20px;}
+#STATEMENT { background-color:#F5F3F4;}
+#STATEMENT p { font-family:"新細明體, Arial, Helvetica, sans-serif"; font-size:12px; color:#666; letter-spacing:1px; line-height:1.3; padding: 10px 10px; }

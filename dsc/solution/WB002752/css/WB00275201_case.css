@@ -1,0 +1,160 @@
+@charset "UTF-8";
+main *, main *:before, main *:after {
+    box-sizing: content-box;
+}
+
+main.WB00275201_case body {
+    font-family: Arial, "微軟正黑體";
+}
+
+main.WB00275201_case .section h3 {
+    margin-bottom: 20px;
+}
+
+main.WB00275201_case #caseForeword.section {
+    padding-top: 80px;
+    padding-bottom: 30px;
+}
+
+main.WB00275201_case .tabList {
+    display: table;
+    margin: 0 auto;
+}
+
+main.WB00275201_case .tabList li {
+    width: 165px;
+    line-height: 40px;
+    margin: 25px 1px 0 0;
+    background-color: #00c0ff;
+    color: #fff;
+    font-size: 19px;
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+}
+
+main.WB00275201_case .tabList li:hover,
+main.WB00275201_case .tabList li.tabNow {
+    position: relative;
+    background-color: #ff7200;
+}
+
+main.WB00275201_case .tabList li.tabNow:before {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -14px;
+    border: 14px solid transparent;
+    border-top: 16px solid #ff7200;
+}
+
+main.WB00275201_case #case {
+    margin-top: 18px;
+    padding: 40px 0 0;
+    background: url("https://www.digiwin.com/tw/dsc/solution/WB002752/images/bg_caseBlue.jpg") no-repeat center center;
+    transition: 2s;
+}
+
+main.WB00275201_case #case.even {
+    background: url("https://www.digiwin.com/tw/dsc/solution/WB002752/images/bg_caseOrange.jpg") no-repeat center center;
+}
+
+main.WB00275201_case #case .content {
+    overflow: hidden;
+}
+
+main.WB00275201_case #caseList {
+    position: relative;
+    width: 600%;
+    color: #fff;
+}
+
+main.WB00275201_case #caseList h4 {
+    color: #ffff00;
+    font-size: 30px;
+    font-weight: normal;
+    text-align: left;
+}
+
+main.WB00275201_case #caseList .caseContent {
+    width: 1000px;
+}
+
+main.WB00275201_case #caseList h4 .hightLight {
+    font-size: 36px;
+}
+
+main.WB00275201_case #caseList .sectionNote {
+    margin-bottom: 20px;
+}
+
+main.WB00275201_case #caseList .caseProblem {
+    float: left;
+    width: 350px;
+    height: 375px;
+    padding: 45px 0 0 180px;
+    color: #ffff00;
+    font-size: 19px;
+}
+
+main.WB00275201_case #caseList p {
+    position: relative;
+}
+
+main.WB00275201_case #caseList .caseProblem p:before {
+    content: "";
+    position: absolute;
+    top: -38px;
+    left: -38px;
+    width: 38px;
+    height: 38px;
+    background: url("https://www.digiwin.com/tw/dsc/solution/WB002752/images/icon_quotaYellow.png") no-repeat left top;
+}
+
+main.WB00275201_case #caseList .caseProblem p:after {
+    content: "";
+    position: absolute;
+    right: -38px;
+    bottom: -38px;
+    width: 38px;
+    height: 38px;
+    background: url("https://www.digiwin.com/tw/dsc/solution/WB002752/images/icon_quotaYellow.png") no-repeat left bottom;
+}
+
+main.WB00275201_case #caseList .caseProblem .hightLight {
+    display: block;
+    text-align: right;
+}
+
+main.WB00275201_case #caseList .imgStyle {
+    float: right;
+}
+
+main.WB00275201_case #caseList .case01 .caseProblem {
+    background: url("https://www.digiwin.com/tw/dsc/solution/WB002752/images/bg_case01.png") no-repeat left bottom;
+}
+
+main.WB00275201_case #caseList .case02 .caseProblem {
+    background: url("https://www.digiwin.com/tw/dsc/solution/WB002752/images/bg_case02.png") no-repeat left bottom;
+}
+
+main.WB00275201_case #caseList .case03 .caseProblem {
+    background: url("https://www.digiwin.com/tw/dsc/solution/WB002752/images/bg_case03.png") no-repeat left bottom;
+}
+
+main.WB00275201_case #caseList .case04 .caseProblem {
+    background: url("https://www.digiwin.com/tw/dsc/solution/WB002752/images/bg_case04.png") no-repeat left bottom;
+}
+
+main.WB00275201_case #caseList .case05 .caseProblem {
+    background: url("https://www.digiwin.com/tw/dsc/solution/WB002752/images/bg_case05.png") no-repeat left bottom;
+}
+
+main.WB00275201_case #caseList .case06 .caseProblem {
+    background: url("https://www.digiwin.com/tw/dsc/solution/WB002752/images/bg_case06.png") no-repeat left bottom;
+}
+
+main.WB00275201_case #bluePrint .sectionNote {
+    text-align: center;
+}

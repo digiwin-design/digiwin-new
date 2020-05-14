@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="/tw/static/css/public.css">
+    <link rel="stylesheet" href="/tw/static/css/style.css">
+    <script src="/tw/static/js/jquery-1.11.3.min.js"></script>
+    <script src="https://polyfill.io/v3/polyfill.js?features=default,fetch,HTMLPictureElement,Array.prototype.find,NodeList.prototype.forEach&amp;flags=gated"></script>
+    <script src="/tw/dsc/assets/modernizr-custom.js"></script>
+    <script src="/tw/dsc/assets/mobile-detect.js"></script>
+    <script src="/tw/dsc/assets/mobile-detect-modernizr.js" defer=""></script>
+    <script src="/tw/dsc/assets/smoothscroll.js" defer></script>
+    <script src="/tw/dsc/assets/axios.min.js"></script>
+    <script src="/tw/dsc/assets/vuejs/vue-all-dev.js"></script>
+    <script src="/tw/dsc/js/common.min.js"></script>
+  </head>
+  <body>
+    <!-- 後台上稿內容開始-->
+    <link rel="stylesheet" href="/tw/dsc/css/Eform/xcConfirm.css">
+    <script src="/tw/dsc/js/Eform/xcConfirm.js" defer></script>
+    <link rel="stylesheet" href="../../assets/submenu/submenu.css">
+    <script src="../../assets/submenu/submenu.min.js"></script>
+    <link rel="stylesheet" href="assets/swiper.min.css">
+    <script src="assets/swiper.min.js" defer></script>
+    <script src="assets/vue-awesome-swiper.js" defer></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/animate.min.css">
+    <link rel="stylesheet" href="/tw/dsc/css/reboot.css">
+    <script src="assets/color-converter.js" defer></script>
+    <script src="assets/lodash.min.js" defer></script>
+    <script src="assets/jquery-ui-1.12.1.custom/jquery-ui.min.js" defer></script>
+    <script src="assets/wow.min.js" defer></script>
+    <script src="assets/dotdotdot.js" defer></script>
+    <script src="assets/jquery.actual.min.js" defer></script>
+    <script src="assets/d3.min.js" defer></script>
+    <script src="js/all.min.js" defer></script>
+    <link rel="preload" href="images/WB00267501_15/section1-after-s.png" as="image">
+    <link rel="stylesheet" href="assets/animate.min.css">
+    <link rel="stylesheet" href="css/WB00267501_15/style.css">
+    <script src="assets/lodash.min.js" defer></script>
+    <script src="assets/wow.min.js" defer></script>
+    <script src="js/WB00267501_15.min.js" defer></script>
+    <main v-cloak v-if="result"><div class="header">
+    <div class="container">
+        <hgroup>
+            <h1 class="mainTitle">
+                <strong>IMG行動經銷導航</strong>
+                <i>解決方案</i>
+            </h1>
+            <h2>
+                打造經銷通路服務新體驗<br>
+                24小時的下單及接單服務<br>
+                實現高效、開放、整合三大價值
+            </h2>
+        </hgroup>
+    </div>
+</div>
+
+<article class="section1">
+    <h1 class="sectionTitle container">傳統商品銷售的方式花費了多少等待時間？我們到底在等什麼？<br>經銷商/加盟主與總部的溝通是不是可以更順暢！</h1>
+    <Mobile v-if="isMobile"></Mobile>
+    <Desktop v-if="!isMobile"></Desktop>
+</article>
+
+<article class="section2">
+    <div class="container">
+        <h1 class="sectionTitle">行動經銷導航<br>提昇趨勢發展不可或缺的3大能力</h1>
+        <img src="images/WB00267501_15/section2-illust.png" alt="">
+    </div>
+</article>
+
+<article class="section3">
+    <div class="container">
+        <h1 class="sectionTitle">行動經銷導航有哪些功能</h1>
+        <div class="content">
+            <img src="images/WB00267501_15/section3-illust1.png" alt="">
+            <img src="images/WB00267501_15/section3-illust2.png" alt="">
+        </div>
+        <div class="video">
+            <div class="video-container">
+                <iframe src="https://www.youtube.com/embed/S3YsI-POGAU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+</article>
+
+<article class="section4">
+    <div class="container">
+        <h1 class="sectionTitle">行動經銷導航方案效益</h1>
+        <div class="content">
+            <dl>
+                <dt>．訂單整合資訊零誤差</dt>
+                <dd>總部不漏單</dd>
+                <dt>．訂貨流程進度即時追蹤</dt>
+                <dd>確保門市有充足貨量可銷售</dd>
+                <dt>．活動公告即時發佈</dt>
+                <dd>總部新品、主打商品資訊即時傳達</dd>
+                <dt>．商品資訊透明即時</dt>
+                <dd>庫存、單價、規格、圖片等資訊</dd>
+                <dt>．銷售策略執行確實</dt>
+                <dd>訂價、特價及對象執行確實，總部不會給錯價格</dd>
+                <dt>．24小時全年無休訂貨接單</dt>
+                <dd>通路有需求都可訂貨</dd>
+            </dl>
+            <img src="images/WB00267501_15/section4-illust.png" alt="">
+        </div>
+    </div>
+</article>
+
+<article class="section5">
+    <div class="container">
+        <h1><img src="images/WB00267501_15/section5-title.png" alt="共需連的起 商機鎖的住"></h1>
+        <div class="section5-illust">
+            <img src="images/WB00267501_15/section5-illust.png" alt="">
+        </div>
+    </div>
+</article>
+
+<article class="section6">
+    <div class="container">
+        <h1 class="sectionTitle">50嵐：看了就會、會了就對、對了就快</h1>
+        <p class="section6-subtitle">簡單→正確→迅速→確實</p>
+        <p class="section6-subtitle">操作可以更簡單! 資料可以更正確! 速度可以更快! 做事可以更有效率!</p>
+        <img src="images/WB00267501_15/section6-illust.png" alt="">
+        <div class="video">
+            <div class="video-container">
+                <iframe src="https://www.youtube.com/embed/uoOZmIL5fVw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+</article>
+
+<contact v-bind:multiple="false" source=""></contact>
+    </main>
+    <!-- 後台上稿內容結束-->
+  </body>
+</html>

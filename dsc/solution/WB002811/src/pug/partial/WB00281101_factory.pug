@@ -1,0 +1,12 @@
+extends ../layout.pug
+
+block includes
+    link(rel='stylesheet', href='css/WB002811_common.css')
+    link(rel='stylesheet', href='css/WB00281101_factory.css')
+    script.
+        $(document).ready(function () {
+            $('#stage .outline').click(function () { var $thisIndex = $(this).index('.outline'); $('#stageDetail').stop().fadeIn(); $('#stageDetail #stage' + ($thisIndex + 1)).stop().show(); }); $('.btnClose').click(function () { $('#stageDetail .stageDetail').stop().hide(); $('#stageDetail').stop().fadeOut(); })
+        });
+        
+block content
+    include WB00281101_factory.html

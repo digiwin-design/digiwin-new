@@ -1,0 +1,9 @@
+extends ../layout.pug
+
+block includes
+    link(rel="preload", href="images/member/banner.jpg", as="image")
+    link(rel='stylesheet', href='css/member/style.css')
+    script(src='js/member.min.js', defer)
+
+block content
+    include member.html

@@ -1,0 +1,1220 @@
+@charset "UTF-8";
+/* #region function */
+/* #endregion function */
+/* #region mixin */
+/* #endregion mixin */
+/* #region extend */
+/* #endregion extend */
+main {
+  color: #000;
+  font-size: 100%;
+  line-height: initial;
+}
+main .container {
+  padding: 0;
+  width: auto;
+}
+main h1, main h2, main h4, main h5 {
+  padding: 0;
+  color: inherit;
+  font-weight: normal;
+  font-size: 100%;
+  line-height: inherit;
+}
+
+main {
+  color: #333;
+  font-family: Arial, '微軟正黑體';
+  /*color style*/
+  /*ad style*/
+}
+main h3 {
+  text-align: center;
+  font-size: 45px;
+}
+main h4 {
+  text-align: center;
+  font-size: 19px;
+}
+main p {
+  text-align: justify;
+  font-size: 17px;
+  line-height: 24px;
+}
+main a.btn {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 24px;
+}
+main .section {
+  position: relative;
+  padding: 70px 0;
+  min-width: 1000px;
+  max-width: 1920px;
+  width: 100%;
+}
+main .content {
+  position: relative;
+  margin: 0 auto;
+  width: 1000px;
+}
+main .vAlignMiddle {
+  text-align: center;
+  font-size: 0;
+}
+main .vAlignMiddle:before {
+  display: inline-block;
+  height: 100%;
+  content: '';
+  vertical-align: middle;
+}
+main .vAlignMiddle .vAlignContent {
+  display: inline-block;
+  vertical-align: middle;
+}
+main .sectionNote {
+  text-align: center;
+  font-size: 19px;
+}
+main .imgStyle {
+  display: block;
+  margin: 0 auto;
+}
+main .cursor {
+  cursor: pointer;
+}
+main .cursorMove {
+  cursor: move;
+}
+main .yellow {
+  color: #ff0;
+}
+main .gray {
+  color: #bbb;
+}
+main .lineBreakPC {
+  display: block;
+}
+main #rightIcon {
+  position: fixed;
+  right: 5%;
+  bottom: 20px;
+  z-index: 998;
+  display: none;
+}
+main #rightIcon .rightIcon {
+  width: 50px;
+  height: 50px;
+  border-radius: 5px;
+  background-color: rgba(0, 0, 0, 0.7);
+  background-color: #333 \9;
+  color: #fff;
+  text-align: center;
+  font-size: 18px;
+}
+main #rightIcon .rightIcon:hover {
+  background-color: #00c0ff;
+  background-color: #00c0ff \9;
+}
+main #rightIcon .adIcon,
+main #rightIcon .adIconMobile,
+main #rightIcon .serviceIcon {
+  position: relative;
+  margin-bottom: 7px;
+  padding-top: 2px;
+  line-height: 24px;
+}
+main #rightIcon .adIcon a,
+main #rightIcon .adIconMobile a {
+  display: block;
+  color: #fff;
+}
+main #rightIcon .adIconMobile {
+  display: none;
+}
+main #rightIcon .rightIcon i {
+  color: #fff;
+  font-size: 27px;
+  line-height: 50px;
+}
+main #adBox {
+  position: fixed;
+  right: -270px;
+  bottom: -500px;
+  z-index: 999;
+  padding: 10px;
+  width: 270px;
+  border: 1px solid #aaa;
+  background-color: #fff;
+}
+main #adBox .adImg {
+  width: 100%;
+}
+main #adBox .adTxt {
+  margin-top: 10px;
+  padding: 0 10px;
+  font-size: 16px;
+}
+main #adBox .readMore {
+  display: block;
+  margin: 10px auto 0;
+  width: 100px;
+  border: 1px solid #ff7200;
+  color: #ff7200;
+  text-align: center;
+  line-height: 30px;
+}
+main #adBox .readMore:hover {
+  background-color: #ff7200;
+  color: #fff;
+}
+main #adBox .closeBox {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 30px;
+  background-color: rgba(0, 0, 0, 0.7);
+  background-color: #333 \9;
+  color: #fff;
+  text-align: center;
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 30px;
+}
+@media screen and (max-width: 768px) {
+  main {
+    /*聯絡表單*/
+  }
+  main .section {
+    position: relative;
+    padding: 50px 10px;
+    min-width: 100%;
+    width: 100%;
+  }
+  main .content {
+    position: relative;
+    margin: 0 auto;
+    width: 100%;
+  }
+  main .vAlignMiddle {
+    text-align: center;
+    font-size: 0;
+  }
+  main .vAlignMiddle:before {
+    display: block;
+    height: 0;
+    content: '';
+    vertical-align: middle;
+  }
+  main .vAlignMiddle .vAlignContent {
+    display: block;
+    vertical-align: middle;
+  }
+  main .sectionNote {
+    text-align: center;
+    font-size: 19px;
+  }
+  main .lineBreak {
+    display: block;
+  }
+  main .lineBreakPC {
+    display: inline;
+  }
+  main #contactTxt {
+    min-width: 100%;
+  }
+  main #contactTxt #contactText {
+    padding: 0 10px;
+    width: 100%;
+  }
+  main #contactTxt #info {
+    float: none;
+    width: 100%;
+  }
+  main #contactTxt #iframeForm {
+    float: none;
+    margin-top: -30px;
+    width: 100%;
+  }
+  main iframe {
+    margin: 0 auto -10px;
+    width: 100%;
+    border: none;
+  }
+  main iframe form #check #submit {
+    float: none;
+  }
+}
+@media screen and (max-width: 480px) {
+  main h3 {
+    text-align: center;
+    font-size: 30px;
+  }
+  main #rightIcon {
+    right: 10px;
+    bottom: 0px;
+  }
+  main #rightIcon .goTop,
+  main #rightIcon .adIcon,
+  main #adBox {
+    display: none;
+  }
+  main #rightIcon .adIconMobile {
+    display: block;
+  }
+}
+
+main {
+  min-width: 1000px;
+  /* ========================================================================== */
+  /* case */
+  /* ========================================================================== */
+  /*mainVisual*/
+  /*sixProcess*/
+  /*sixProcessTxtGroup*/
+  /*wrapper(threePoint+benefit bg)*/
+  /*threePoint*/
+  /*
+    #threePoint .threePointTxt {
+        float: right;
+        width: 445px;
+        margin-top: 105px;
+        padding-right: 35px;
+    }
+    */
+  /*threePointTxtGroup*/
+  /*#threePointTxtGroup .threePointTxt {
+        position: relative;
+        width: 445px;
+        margin: 0 auto;
+    }*/
+  /*benefit*/
+  /*advantage*/
+  /*videoCase*/
+  /*solution*/
+}
+main .sectionNote {
+  margin: 0 0 25px;
+}
+main #mainVisual {
+  position: relative;
+  overflow: hidden;
+  padding-top: 56.25%;
+  /* 16:9 */
+  width: 100%;
+  height: 0;
+}
+main #mainVisual iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+@-webkit-keyframes arrowDown {
+  0% {
+    top: 33px;
+  }
+  50% {
+    top: 53px;
+  }
+  100% {
+    top: 33px;
+  }
+}
+@keyframes arrowDown {
+  0% {
+    top: 33px;
+  }
+  50% {
+    top: 53px;
+  }
+  100% {
+    top: 33px;
+  }
+}
+@-webkit-keyframes arrowDown2 {
+  0% {
+    top: 25px;
+  }
+  50% {
+    top: 45px;
+  }
+  100% {
+    top: 25px;
+  }
+}
+@keyframes arrowDown2 {
+  0% {
+    top: 25px;
+  }
+  50% {
+    top: 45px;
+  }
+  100% {
+    top: 25px;
+  }
+}
+main #sixProcess.section {
+  padding: 70px 0 0;
+  height: 900px;
+  background: url(../images/smartFactory/bg_pc_sixProcess.jpg) no-repeat center top #eae9ea;
+}
+main #sixProcess h3,
+main #sixProcess .sectionNote {
+  color: #fff;
+}
+main #sixProcess .sixProcessBtn {
+  position: absolute;
+  cursor: pointer;
+}
+main #sixProcess .sixProcessBtn.active:before {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 0;
+  height: 0;
+  border-radius: 50%;
+  content: '';
+  -webkit-animation: ripple 3s infinite;
+          animation: ripple 3s infinite;
+}
+main #sixProcess .sixProcessBtn01 {
+  top: 194px;
+  left: 90px;
+}
+main #sixProcess .sixProcessBtn02 {
+  top: 161px;
+  left: 517px;
+}
+main #sixProcess .sixProcessBtn03 {
+  top: 196px;
+  left: 715px;
+}
+main #sixProcess .sixProcessBtn04 {
+  top: 333px;
+  left: 433px;
+}
+main #sixProcess .sixProcessBtn05 {
+  top: 378px;
+  left: 225px;
+}
+main #sixProcess .sixProcessBtn06 {
+  top: 566px;
+  left: 95px;
+}
+main #sixProcess .sixProcessBtn07 {
+  top: 490px;
+  left: 808px;
+}
+main #sixProcess .sixProcessEkb01 {
+  position: absolute;
+  top: 95px;
+  left: 325px;
+}
+main #sixProcess .sixProcessEkb02 {
+  position: absolute;
+  top: 330px;
+  left: 85px;
+}
+main #sixProcess .sixProcessEkb03 {
+  position: absolute;
+  top: 260px;
+  left: 590px;
+}
+main #sixProcess .sixProcessBtn.active:before {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 0;
+  height: 0;
+  border-radius: 50%;
+  content: '';
+  -webkit-animation: ripple 2s infinite;
+          animation: ripple 2s infinite;
+  -webkit-animation-timing-function: ease-out;
+          animation-timing-function: ease-out;
+}
+main #sixProcess .sixProcessBtn.active:after {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 0;
+  height: 0;
+  border-radius: 50%;
+  content: '';
+  -webkit-animation: ripple 2s infinite;
+          animation: ripple 2s infinite;
+  -webkit-animation-timing-function: ease-out;
+          animation-timing-function: ease-out;
+  -webkit-animation-delay: .5s;
+          animation-delay: .5s;
+}
+main #sixProcess .scrollDown {
+  position: absolute;
+  bottom: 60px;
+  left: 50%;
+  margin-left: -135px;
+  width: 270px;
+  text-align: center;
+  /*color: #fff;*/
+  font-size: 17px;
+  cursor: pointer;
+}
+main #sixProcess .scrollDown:before {
+  position: absolute;
+  top: 33px;
+  left: 50%;
+  margin-left: -15px;
+  border-top: 15px solid rgba(125, 125, 125, 0.9);
+  border-right: 15px solid transparent;
+  border-left: 15px solid transparent;
+  content: '';
+  -webkit-animation: arrowDown 1.5s infinite;
+          animation: arrowDown 1.5s infinite;
+  -webkit-animation-timing-function: ease-out;
+          animation-timing-function: ease-out;
+}
+main #sixProcess .scrollDown:after {
+  position: absolute;
+  top: 23px;
+  left: 50%;
+  margin-left: -15px;
+  border-top: 15px solid rgba(125, 125, 125, 0.5);
+  border-right: 15px solid transparent;
+  border-left: 15px solid transparent;
+  content: '';
+  -webkit-animation: arrowDown2 1.5s infinite;
+          animation: arrowDown2 1.5s infinite;
+  -webkit-animation-timing-function: ease-out;
+          animation-timing-function: ease-out;
+}
+@-webkit-keyframes ripple {
+  0% {
+    width: 0;
+    height: 0;
+    background-color: #00c8f8;
+  }
+  100% {
+    margin: -25px 0 0 -25px;
+    width: 50px;
+    height: 50px;
+    background-color: rgba(0, 200, 248, 0);
+  }
+}
+@keyframes ripple {
+  0% {
+    width: 0;
+    height: 0;
+    background-color: #00c8f8;
+  }
+  100% {
+    margin: -25px 0 0 -25px;
+    width: 50px;
+    height: 50px;
+    background-color: rgba(0, 200, 248, 0);
+  }
+}
+@keyframes ripple {
+  0% {
+    width: 0;
+    height: 0;
+    background-color: #00aca2;
+  }
+  100% {
+    margin: -50px 0 0 -50px;
+    width: 100px;
+    height: 100px;
+    background-color: rgba(0, 172, 162, 0);
+  }
+}
+@keyframes arrowDown {
+  0% {
+    top: 33px;
+  }
+  50% {
+    top: 53px;
+  }
+  100% {
+    top: 33px;
+  }
+}
+@keyframes arrowDown2 {
+  0% {
+    top: 25px;
+  }
+  50% {
+    top: 45px;
+  }
+  100% {
+    top: 25px;
+  }
+}
+main #sixProcessTxtGroup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  display: none;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+main #sixProcessTxtGroup .sixProcessList {
+  position: relative;
+  overflow-x: hidden;
+  width: 500px;
+}
+main #sixProcessTxtGroup .sixProcessListInner {
+  position: relative;
+  z-index: 9999;
+  margin-top: 30px;
+  width: 3500px;
+}
+main #sixProcessTxtGroup .sixProcessTxtOuter {
+  float: left;
+  width: 500px;
+}
+main #sixProcessTxtGroup .sixProcessTxt {
+  position: relative;
+  margin: 0 auto;
+  padding: 20px;
+  width: 300px;
+  border: 7px solid #55c3dd;
+  border-radius: 7px;
+  background-color: #fff;
+}
+main #sixProcessTxtGroup .sixProcessTxt h4 {
+  position: relative;
+  margin-bottom: 10px;
+  border-radius: 7px 7px 0 0;
+  color: #55c3dd;
+  font-size: 21px;
+}
+main #sixProcessTxtGroup .arrow {
+  position: absolute;
+  top: 50%;
+  z-index: 99999;
+  margin-top: -46px;
+  color: #fff;
+  font-size: 15px;
+  cursor: pointer;
+}
+main #sixProcessTxtGroup .prev {
+  left: 20px;
+  display: none;
+}
+main #sixProcessTxtGroup .next {
+  right: 20px;
+}
+main #sixProcessTxtGroup .processName {
+  width: 40px;
+}
+main #sixProcessTxtGroup .prev .processName {
+  text-align: right;
+}
+main #sixProcessTxtGroup .next .processName {
+  text-align: left;
+}
+main #sixProcessTxtGroup .close {
+  position: absolute;
+  top: -30px;
+  left: 100%;
+  z-index: 9999;
+  margin-left: -20px;
+  width: 40px;
+  height: 40px;
+  border: 3px solid #fff;
+  border-radius: 100%;
+  background-color: #000;
+  color: #fff;
+  font-size: 21px;
+  line-height: 35px;
+  cursor: pointer;
+}
+main #wrapper {
+  background: url(../images/smartFactory/bg_wrapper.png) no-repeat center top;
+}
+main #threePoint.section {
+  padding-bottom: 0;
+  color: #fff;
+}
+main #threePoint .imgStyle {
+  display: inline-block;
+  cursor: pointer;
+}
+main #threePoint .threePointContent {
+  position: relative;
+  float: left;
+  margin: 0 40px 0 45px;
+}
+main #threePoint .threePointIcon {
+  position: absolute;
+  cursor: pointer;
+}
+main #threePoint .threePointIcon .imgStyle {
+  position: relative;
+  z-index: 3;
+}
+main #threePoint .threePointIcon00 {
+  top: 50%;
+  left: 50%;
+  margin: -40px 0 0 -30px;
+}
+main #threePoint .threePointIcon01 {
+  top: 10px;
+  left: 50%;
+  margin-left: -80px;
+}
+main #threePoint .threePointIcon02 {
+  top: 160px;
+  left: 30px;
+}
+main #threePoint .threePointIcon03 {
+  top: 160px;
+  left: 235px;
+}
+main #threePoint strong {
+  color: #ff0;
+}
+main #threePoint .threePointIcon.active:before {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 2;
+  margin: -40px 0 0 -40px;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  content: '';
+  -webkit-animation: ripple2 3s infinite;
+          animation: ripple2 3s infinite;
+  -webkit-animation-timing-function: ease-out;
+          animation-timing-function: ease-out;
+  -webkit-animation-delay: 0;
+          animation-delay: 0;
+}
+main #threePoint .threePointIcon.active:after {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 2;
+  margin: -40px 0 0 -40px;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  content: '';
+  -webkit-animation: ripple2 3s infinite;
+          animation: ripple2 3s infinite;
+  -webkit-animation-timing-function: ease-out;
+          animation-timing-function: ease-out;
+  -webkit-animation-delay: .5s;
+          animation-delay: .5s;
+}
+@-webkit-keyframes ripple2 {
+  0% {
+    width: 80px;
+    height: 80px;
+    background-color: white;
+  }
+  100% {
+    margin: -100px 0 0 -100px;
+    width: 200px;
+    height: 200px;
+    background-color: rgba(255, 255, 255, 0);
+  }
+}
+@keyframes ripple2 {
+  0% {
+    width: 80px;
+    height: 80px;
+    background-color: white;
+  }
+  100% {
+    margin: -100px 0 0 -100px;
+    width: 200px;
+    height: 200px;
+    background-color: rgba(255, 255, 255, 0);
+  }
+}
+main #threePointTxtGroup {
+  float: left;
+  margin-top: 70px;
+  width: 445px;
+  height: 175px;
+}
+main #threePointTxtGroup .threePointList {
+  position: relative;
+  overflow: hidden;
+  width: 445px;
+}
+main #threePointTxtGroup .threePointListInner {
+  position: relative;
+  z-index: 99999;
+  width: 2000px;
+}
+main #threePointTxtGroup .threePointTxtOuter {
+  float: left;
+  width: 445px;
+}
+main #threePointTxtGroup .threePointTxt h5 {
+  padding-left: 25px;
+  background: url(../images/smartFactory/icon_threePointAll_color.png) no-repeat left 0;
+  color: #ff0;
+  text-align: left;
+  font-size: 19px;
+  line-height: 35px;
+}
+main #threePointTxtGroup .threePointTxtOuter01 h5.firProcess {
+  background-position: left 5px;
+}
+main #threePointTxtGroup .threePointTxtOuter01 h5.secProcess {
+  background-position: left -33px;
+}
+main #threePointTxtGroup .threePointTxtOuter02 h5.firProcess {
+  background-position: left -73px;
+}
+main #threePointTxtGroup .threePointTxtOuter02 h5.secProcess {
+  background-position: left -115px;
+}
+main #threePointTxtGroup .threePointTxtOuter03 h5.firProcess {
+  background-position: left -155px;
+}
+main #threePointTxtGroup .threePointTxtOuter03 h5.secProcess {
+  background-position: left -193px;
+}
+main #threePointTxtGroup .threePointTxtOuter00 p {
+  line-height: 27px;
+}
+main #threePointTxtGroup .threePointTxtOuter01 p,
+main #threePointTxtGroup .threePointTxtOuter02 p,
+main #threePointTxtGroup .threePointTxtOuter03 p {
+  padding: 0 0 0 25px;
+}
+main #benefit.section {
+  margin-top: 25px;
+  padding-top: 0;
+}
+main #benefit .benefitTxt {
+  margin-bottom: 20px;
+}
+main #benefit .subTitle {
+  margin: 15px 0;
+  padding-left: 115px;
+}
+main #benefit .subTitle div {
+  position: relative;
+  float: left;
+  padding: 10px 0;
+  width: 50%;
+  text-align: center;
+  font-size: 21px;
+}
+main #benefit .subTitle .right {
+  color: #ff9000;
+  font-weight: bold;
+}
+main #benefit .subTitle div:before {
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -40px;
+  width: 80px;
+  height: 1px;
+  background-color: #888;
+  content: '';
+}
+main #benefit .subTitle .right:before {
+  background-color: #ff9000;
+}
+main #benefit .benefitTxt h5 {
+  position: relative;
+  float: left;
+  padding: 15px 0 15px 60px;
+  width: 115px;
+  height: 85px;
+  border-radius: 0 20px;
+  background: url(../images/smartFactory/icon_benefitAll.png) no-repeat left top;
+  color: #fff;
+  font-size: 21px;
+}
+main #benefit .benefitTxt h5:before {
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -9px;
+  border-top: 10px solid #55c3dd;
+  border-right: 9px solid transparent;
+  border-left: 9px solid transparent;
+  content: '';
+}
+main #benefit .benefitTxt h6 {
+  text-align: center;
+  font-size: 19px;
+}
+main #benefit .benefitTxt ul {
+  position: relative;
+  float: right;
+  width: 885px;
+  border-bottom: 1px dashed #bbb;
+}
+main #benefit .benefitTxt ul:before {
+  position: absolute;
+  right: 0;
+  bottom: -1px;
+  width: 3px;
+  height: 3px;
+  background-color: #bbb;
+  content: '';
+}
+main #benefit .benefitTxt li {
+  position: relative;
+  float: left;
+  padding: 15px 55px;
+  width: 50%;
+  height: 84px;
+}
+main #benefit .benefitTxt .left:before {
+  position: absolute;
+  top: 50%;
+  left: 100%;
+  margin-top: -2px;
+  width: 5px;
+  height: 5px;
+  background-color: #bbb;
+  content: '';
+}
+main #benefit .benefitTxt01 h5 {
+  background-color: #55c3dd;
+  background-position: -10px -10px;
+}
+main #benefit .benefitTxt02 h5 {
+  background-color: #16aaca;
+  background-position: -10px -110px;
+}
+main #benefit .benefitTxt03 h5 {
+  background-color: #0095c0;
+  background-position: -10px -210px;
+}
+main #benefit .benefitTxt04 h5 {
+  background-color: #008ea3;
+  background-position: -10px -305px;
+}
+main #benefit .benefitTxt05 h5 {
+  background-color: #18a8b9;
+  background-position: -10px -405px;
+}
+main #benefit .benefitTxt06 h5 {
+  background-color: #3bc1cd;
+  background-position: -10px -505px;
+}
+main #benefit .benefitTxt02 h5:before {
+  border-top-color: #16aaca;
+}
+main #benefit .benefitTxt03 h5:before {
+  border-top-color: #0095c0;
+}
+main #benefit .benefitTxt04 h5:before {
+  border-top-color: #008ea3;
+}
+main #benefit .benefitTxt05 h5:before {
+  border-top-color: #18a8b9;
+}
+main #benefit .benefitTxt06 h5:before {
+  border: none;
+}
+main #advantage {
+  background: url(../images/smartFactory/bg_pc_advantage.jpg) no-repeat center center;
+  color: #fff;
+}
+main #advantage .advantageG01 {
+  float: left;
+  width: 45%;
+}
+main #advantage .advantageG02 {
+  float: right;
+  width: 45%;
+}
+main #advantage .imgStyle {
+  float: left;
+  margin-top: 5px;
+  width: 60px;
+}
+main #advantage .advantageTxt {
+  margin-bottom: 25px;
+  padding-left: 75px;
+}
+main #advantage h4 {
+  margin-bottom: 5px;
+  color: #ff0;
+  text-align: left;
+  font-size: 19px;
+}
+main #videoCase .videoContainer {
+  margin-top: 25px;
+}
+main #videoCase .videoContainer p {
+  margin-top: 10px;
+  padding: 0 15px;
+  text-align: center;
+}
+main #videoCase .videoTxt {
+  position: relative;
+  float: left;
+  margin-right: 20px;
+  width: 235px;
+}
+main #videoCase .videoTxt.end {
+  margin-right: 0;
+}
+main #videoCase .videoTxt a:link {
+  color: #333;
+}
+main #videoCase .videoTxt a:visited {
+  color: #555;
+}
+main #videoCase .videoTxt a:hover, main #videoCase .videoTxt a:active {
+  color: #ff9000;
+}
+main #videoCase .imgStyle {
+  width: 100%;
+}
+main #videoCase h4 {
+  position: relative;
+  margin: 40px 0 35px;
+  text-align: center;
+  font-size: 24px;
+}
+main #videoCase h4:before {
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin: 10px 0 0 -45px;
+  width: 90px;
+  height: 2px;
+  background-color: #888;
+  content: '';
+}
+main #solution {
+  padding: 50px 10px 40px;
+  background: url(../images/smartFactory/bg_solution.jpg) no-repeat center top #01bbb2;
+  color: #fff;
+}
+main #solution .sectionNote {
+  text-align: justify;
+}
+main #solution h4 {
+  color: #ff0;
+  text-align: justify;
+  font-size: 21px;
+}
+main #solution a {
+  color: #ff0;
+}
+main #solution .block01,
+main #solution .block02 {
+  position: relative;
+}
+main #solution .block01 .paragraphNote {
+  position: relative;
+  float: left;
+  margin: 70px 0 0 25px;
+  padding: 20px 35px;
+  width: 450px;
+  border: 3px solid #fff;
+  border-radius: 15px;
+}
+main #solution .block01 .imgStyle {
+  float: left;
+  margin: 5px 0 35px 55px;
+  max-width: 430px;
+  width: 100%;
+}
+main #solution .block01 .magnifier {
+  position: absolute;
+  right: 55px;
+  bottom: 45px;
+}
+main #solution .block02 .paragraphNote {
+  position: relative;
+  float: left;
+  margin-top: 40px;
+  padding: 20px 35px;
+  width: 370px;
+  border: 3px solid #fff;
+  border-radius: 15px;
+}
+main #solution .block02 .imgStyle {
+  float: left;
+  margin: 5px 40px 35px 25px;
+  max-width: 520px;
+  width: 100%;
+}
+main #solution .block02 .magnifier {
+  position: absolute;
+  bottom: 40px;
+  left: 485px;
+}
+main #solution .block01 .paragraphNote:before,
+main #solution .block02 .paragraphNote:before {
+  position: absolute;
+  top: -18px;
+  left: -25px;
+  width: 49px;
+  height: 37px;
+  background: url(../images/quota.jpg) no-repeat center top;
+  content: '';
+}
+main #solution .block01 .paragraphNote:after,
+main #solution .block02 .paragraphNote:after {
+  position: absolute;
+  right: -25px;
+  bottom: -18px;
+  width: 49px;
+  height: 37px;
+  background: url(../images/quota.jpg) no-repeat center -37px;
+  content: '';
+}
+main .case {
+  padding-top: 50px;
+  padding-bottom: 70px;
+  background-color: #e3e3e3;
+  background-image: url('../images/smartFactory/case-bg-s.png?1540871507');
+  background-position: 0 80px;
+  background-repeat: no-repeat;
+}
+main .case h3 {
+  margin-bottom: 30px;
+}
+@media (min-width: 1000px) {
+  main .case h3 {
+    margin-bottom: 0;
+  }
+}
+main .case img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+}
+@media (max-width: 999px) {
+  main .case .content {
+    width: auto;
+  }
+}
+main .case-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-right: 10px;
+  padding-left: 10px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+@media (min-width: 1000px) {
+  main .case-container {
+    padding-right: 0;
+    padding-left: 0;
+  }
+}
+main .case-content {
+  margin-bottom: 26px;
+  width: 100%;
+}
+@media (min-width: 1000px) {
+  main .case-content {
+    margin-right: 18px;
+    margin-bottom: 0;
+    width: 582px;
+  }
+  main .case-content map {
+    display: none;
+  }
+}
+main .case-text {
+  padding: 15px 20px;
+  background-color: rgba(255, 255, 255, 0.7);
+  font-size: 17px;
+  line-height: 27px;
+}
+main .case-text strong {
+  color: #028fa3;
+  font-weight: normal;
+}
+main .case-text a {
+  color: #ff6c00;
+  text-decoration: underline;
+}
+main .case-videos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+@media (min-width: 1000px) {
+  main .case-videos {
+    width: 383px;
+  }
+}
+main .case-video {
+  position: relative;
+  overflow: hidden;
+  padding-top: 56.25%;
+  /* 16:9 */
+  width: 100%;
+  height: 0;
+}
+main .case-video iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+main .case-video:first-child {
+  margin-bottom: 25px;
+}
+main .case-pagination {
+  position: absolute;
+  bottom: 20px !important;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+main .case-pagination-bullet {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: #888;
+  cursor: pointer;
+}
+main .case-pagination-bullet:first-of-type {
+  margin-right: 7px;
+}
+main .case-pagination-bullet-active {
+  background-color: #008ea3;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*# sourceMappingURL=smartFactory.css.map */

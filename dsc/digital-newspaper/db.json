@@ -1,0 +1,175 @@
+{
+    "1901_index": {
+        "videoSrc": "https://www.youtube.com/watch?v=0p1wz4VuzOM",
+        "section1": {
+            "title": "擁抱 數位轉型",
+            "subtitle": "新商業科技挾帶革命浪潮顛覆產業，數位轉型賽局已經開始<br>如何利用科技推動營運模式優化，顯現與其他競爭者的差異化價值呢？",
+            "contentTitle": "專家談"
+        },
+        "section2": {
+            "title": "實踐 數位轉型",
+            "subtitle": "運用智能化營運+數據化創新，企業營運數據累績為新黑金，<br>為企業收穫數據紅利，創造數位價值。",
+            "contentTitle": "企業應用",
+            "contents": [
+                {
+                    "link": "/tw/case/1689.html",
+                    "imgSrc": "images/1901/section2/img01.jpg",
+                    "caption": [
+                        "大井泵浦",
+                        "數位轉型創造卓越 提升企業營運競爭力"
+                    ]
+                },
+                {
+                    "link": "https://youtu.be/_w2VpMY3p0I",
+                    "imgSrc": "images/1901/section2/img02.jpg",
+                    "caption": [
+                        "東野精機",
+                        "用數據注入職能魂 用速度擴展競爭邊界"
+                    ]
+                },
+                {
+                    "link": "/tw/case/1435.html",
+                    "imgSrc": "images/1901/section2/img03.jpg",
+                    "caption": [
+                        "協訊國際",
+                        "用數據計算獲利方程式 獲利提升47%"
+                    ]
+                },
+                {
+                    "link": "/tw/portal/page/index/id/1056.html",
+                    "imgSrc": "images/1901/section2/img04.jpg",
+                    "caption": [
+                        "企業通雜誌",
+                        "人工智慧賦能工業互聯網 數據驅動企業數位轉型"
+                    ]
+                }
+            ]
+        },
+        "lineMsg": "運用智能化營運+數據化創新，企業營運數據累績為新黑金，為企業收穫數據紅利，創造數位價值。看見不一樣！【企業通電子報 數位專題/數位轉型】"
+    },
+    "1902": {
+        "section1": [
+            {
+                "title": "有多少家族企業經營權將交棒給下一代？",
+                "hoverText": "<i>71%</i>的台灣家族企業計畫將經營權或所有權轉移給下一代。"
+            },
+            {
+                "title": "有多少家族企業已準備接班人計劃？",
+                "hoverText": "僅有<i>6%</i>擁有健全的接班人計劃…"
+            },
+            {
+                "title": "企業交棒接班平均需要幾年？",
+                "hoverText": "順利接班平均需要<i>10年</i>"
+            }
+        ],
+        "section2": [
+            {
+                "title": "傳承計劃",
+                "detail": "台灣許多中小企業都在八○年代創業，創業者在具備「傳」的能力時啟動接班計劃，能從旁督導與修正將管理經營傳承，方能放心與放手；而「承」的接班者，在不同的時空環境與觀念下，互相欣賞發揮彈性，在傳統經驗的基礎上，採行新應用強化核心競爭力。",
+                "imgSrc": "images/1902/section2-illust1.jpg"
+            },
+            {
+                "title": "實戰領導",
+                "detail": "接班者的領導特質相當多元，例如溝通力、信任感與解決問題…等能力，保持熱枕渲染士氣，充份相信同仁的專業經驗、細心傾聽與分析、於工作場合參與互動，讓員工認同接班者能為他們提供有幫助的指導或工具，才能快速帶人又帶心！",
+                "imgSrc": "images/1902/section2-illust2.jpg"
+            },
+            {
+                "title": "管理E化",
+                "detail": "靠感覺、憑經驗的生意頭腦是無法傳承的，企業家將行業專業知識、營運經驗轉化融入在管理系統當中，讓數據累積成為智慧，使接班者將日常營運以系統化方式管理，亦能將心力投注在創新與轉型，為企業創造價值的方向。",
+                "imgSrc": "images/1902/section2-illust3.jpg"
+            },
+            {
+                "title": "數位決策",
+                "detail": "資訊爆量時代，各種訊息都會影響企業決策，因此如何將企業資訊自動化彙整，快速地取得營運數據協助企業決策，連帶納入外部資訊客觀判斷，落實數據驅動的企業數位化轉型。",
+                "imgSrc": "images/1902/section2-illust4.jpg"
+            }
+        ],
+        "player": [
+            {
+                "imgSrc": "images/1902/section3-slide1.jpg",
+                "videoSrc": "https://www.youtube.com/embed/ncNhR77Tr-g",
+                "company": "安得烈股份有限公司",
+                "name": "劉天靠 董事長",
+                "videoTitle": "從鎖而生的管理哲學由系統傳承下一代"
+            },
+            {
+                "imgSrc": "images/1902/section3-slide2.jpg",
+                "videoSrc": "https://www.youtube.com/embed/8v8keEs5aEs",
+                "company": "協楊木業",
+                "name": "李天柒 總經理",
+                "videoTitle": "第一代越南開市場，二代接班拼轉型"
+            },
+            {
+                "imgSrc": "images/1902/section3-slide3.jpg",
+                "videoSrc": "https://www.youtube.com/embed/hnDeiPqz3Jk",
+                "company": "勝宏實業",
+                "name": "陳昱君 總經理",
+                "videoTitle": "傳承三代工藝，勝宏一甲子的不織布傳奇"
+            },
+            {
+                "imgSrc": "images/1902/section3-slide4.jpg",
+                "videoSrc": "https://www.youtube.com/embed/KsU0HCR0D4g",
+                "company": "太平洋自行車",
+                "name": "林鳴皋 總經理",
+                "videoTitle": "從美國回台救火，二代讓太平洋自行車浴火重生"
+            },
+            {
+                "imgSrc": "images/1902/section3-slide5.jpg",
+                "videoSrc": "https://www.youtube.com/embed/7Owp1grw4jQ",
+                "company": "大井泵浦",
+                "name": "黃錦雲 總經理",
+                "videoTitle": "黃錦雲 擦亮品牌 提高管理效益"
+            },
+            {
+                "imgSrc": "images/1902/section3-slide6.jpg",
+                "videoSrc": "https://www.youtube.com/embed/qedDgg-qY8M",
+                "company": "卡訊電子",
+                "name": "吳珮蓉 董事長",
+                "videoTitle": "吳珮蓉管理透明化，讓世界聽到卡訊的聲音"
+            },
+            {
+                "imgSrc": "images/1902/section3-slide7.jpg",
+                "videoSrc": "https://www.youtube.com/embed/AsFp9OekTBY",
+                "company": "雅得電池",
+                "name": "李美宜 執行副總",
+                "videoTitle": "跨國管理難不倒她 雅得電池生產大躍進"
+            }
+        ]
+    },
+    "1903": {
+        "focus": [
+            {
+               "title": "典範移轉",
+               "text": "製造業典範移轉，應隨客製化、少量多樣市場需求，重新布局縮短供應鏈。",
+               "link": {
+                   "url": "https://youtu.be/ch2jX25unUM",
+                   "text": "看實證案例：<br>東野精機"
+               } 
+            },
+            {
+               "title": "加速自動化",
+               "text": "隨著機器人、物聯網等技術逐漸到位，加速自動化更可提升產品生產效率品質。",
+               "link": {
+                   "url": "https://youtu.be/owMEcx5Qdk4",
+                   "text": "看實證案例：<br>新漢(工業4.0智能工廠)"
+               } 
+            },
+            {
+               "title": "供應鏈轉移",
+               "text": "重新檢視生產價值及商業模式，積極布局進入終端市場，因應地域性進行轉型升級。",
+               "link": {
+                   "url": "https://youtu.be/0zpa5xoiB7A",
+                   "text": "看實證案例：<br>大井泵浦"
+               } 
+            },
+            {
+               "title": "智慧製造",
+               "text": "可解決供應鏈轉換的三大疑慮：減抵稅負增加成本、品質疑慮與學習成本、勞動需求成本。",
+               "link": {
+                   "url": "https://youtu.be/elvWdqh4xZo",
+                   "text": "看實證案例：<br>力肯實業"
+               } 
+            }
+        ]
+    }
+}

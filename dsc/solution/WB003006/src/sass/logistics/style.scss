@@ -1,0 +1,114 @@
+@import '../common';
+@import 'components';
+
+main {
+    .banner {
+        strong {
+            color: #ff0;
+        }
+        &-desc {
+            @media (min-width: $tablet-width + 1) {
+                font-size: 24px;
+            }
+        }
+    }
+    .section1 {
+        padding-bottom: 60px;
+        .container {
+            overflow: hidden;
+        }
+        .sectionTitle {
+            p {
+                @media (min-width: $tablet-width + 1) {
+                    text-align: center;
+                }
+            }
+            br {
+                display: none;
+                @media (min-width: $tablet-width + 1) {
+                    display: block;
+                }
+            }
+        }
+        &-pains {
+            display: flex;
+            margin: -20px;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .pain {
+            margin: 20px;
+            max-width: 370px;
+        }
+    }
+    .section2 {
+        background-color: #ececec;
+        &-boxs {
+            display: flex;
+            margin: -10px auto;
+            width: 302px;
+            flex-wrap: wrap;
+            align-items: center;
+            @media (min-width: $tablet-width + 1) {
+                width: calc(302px * 2);
+            }
+            @media (min-width: $content-width + 30) {
+                width: calc(302px * 4);
+            }
+            .hoverBox {
+                display: flex;
+                flex-direction: column;
+                margin: 10px;
+                width: 282px;
+                height: 272px;
+                justify-content: center;
+                align-items: center;
+                &:nth-child(odd) {
+                    background-color: #ed3e3e;
+                }
+                &:nth-child(even) {
+                    background-color: #797979;
+                }
+                &:nth-child(odd) [class$='-hover'] {
+                    background-color: #797979;
+                }
+                &:nth-child(even) [class$='-hover'] {
+                    background-color: #ed3e3e;
+                }
+                &-title {
+                    margin-top: 15px;
+                    color: #fff;
+                    font-weight: bold;
+                    font-size: 65px;
+                    line-height: 1;
+                }
+                &-hover {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    p {
+                        color: #fff;
+                        &:nth-child(1) {
+                            margin-bottom: 5px;
+                            font-weight: bold;
+                            font-size: 65px;
+                            line-height: 1;
+                        }
+                        &:nth-child(2) {
+                            font-size: 30px;
+                            line-height: 48px;
+                        }
+                    }
+                }
+                &.arrow::after {
+                    top: calc(100% - 34px);
+                    font-size: 34px;
+                }
+            }
+        }
+        & > .container {
+            margin-bottom: 60px;
+        }
+    }
+}

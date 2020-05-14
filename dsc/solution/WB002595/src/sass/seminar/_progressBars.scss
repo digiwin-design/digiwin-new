@@ -1,0 +1,64 @@
+main .progressBars {
+    h2 {
+        margin-bottom: .5em;
+        color: map-get($seminar-color, primary);
+        font-size: 24px;
+    }
+    li {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        &:not(:last-child) {
+            margin-bottom: 5px;
+        }
+    }
+    .text {
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        @at-root {
+            main .progressBars li.highest .text p {
+                background-color: map-get($seminar-color, primary);
+            }
+            main .progressBars li.highest .bar {
+                background-color: map-get($seminar-color, orange);
+            }
+        }
+        p {
+            display: flex;
+            padding: 16px 1em;
+            min-height: 80px;
+            background-color: map-get($seminar-color, secondary);
+            color: #fff;
+            font-size: 16px;
+            line-height: 24px;
+            align-items: center;
+            @media (min-width: $tablet-width + 1) {
+                min-height: 60px;
+            }
+        }
+    }
+    .value {
+        width: 50%;
+        height: 55px;
+        line-height: 55px;
+        @media (min-width: $tablet-width + 1) {
+            height: 40px;
+            line-height: 40px;
+        }
+    }
+    .bar {
+        overflow: hidden;
+        width: 0;
+        background-color: #b9b9b9;
+        color: #fff;
+        text-align: right;
+        white-space: nowrap;
+        @media (min-width: $tablet-width + 1) {
+            font-size: 24px;
+        }
+        &::after {
+            content: '\00a0\00a0';
+        }
+    }
+}

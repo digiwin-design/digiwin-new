@@ -1,0 +1,600 @@
+@charset "UTF-8";
+main *, main *:before, main *:after {
+    box-sizing: content-box;
+}
+
+main .explo7 {
+    *display: inline;
+    zoom: 1;
+}
+
+main .exploAll {
+    font-size: 0;
+}
+
+main .fl {
+    float: left;
+    display: inline;
+}
+
+main .fr {
+    float: right;
+    display: inline;
+}
+
+main #font_center {
+    text-align: center;
+    margin: 0 auto;
+}
+
+main #navLink,
+main #navLink .subLink {
+    background-color: #f9f9f9;
+}
+
+main .subBanner {
+    height: 330px;
+    margin-top: 100px;
+    padding: 0;
+    text-align: center;
+    font-size: 0;
+    clear: both;
+    display: block;
+}
+
+main .subBanner:before {
+    content: '';
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
+
+main .subBanner .content {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+main .subBanner h2 {
+    width: 680px;
+    font-size: 40px;
+    text-align: left;
+}
+
+main .subBanner p {
+    width: 630px;
+    font-size: 19px;
+    line-height: 30px;
+}
+
+main .manufacture00bg {
+    width: 100%;
+    background: url(../images/mapic/mapage00_bg.png) no-repeat center top;
+}
+
+main #manufacture00 {
+    width: 950px;
+    overflow: hidden;
+    margin: 0 auto;
+    display: block;
+    padding-top: 100px;
+}
+
+main .manufacture01bg {
+    width: 100%;
+    background: url(../images/mapic/mapage01_bg.png) no-repeat center top;
+}
+
+main #manufacture01 {
+    width: 950px;
+    overflow: hidden;
+    margin: 0 auto;
+    display: block;
+    padding-top: 50px;
+}
+
+main .manufacture02bg {
+    width: 100%;
+    background: url(../images/mapic/mapage02_bg.png) no-repeat center top;
+}
+
+main #manufacture02 {
+    width: 900px;
+    overflow: hidden;
+    margin: 0 auto;
+    display: block;
+}
+
+main .manufacture03bg {
+    width: 100%;
+    background: #d4e2e9 no-repeat center top;
+}
+
+main #manufacture03 {
+    width: 950px;
+    overflow: hidden;
+    margin: 0 auto;
+    display: block;
+}
+
+main #tabBox {
+    width: 950px;
+    height: 530px;
+}
+
+main #title_yellow_bold {
+    color: #fffc00;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+main #txt_yellow {
+    color: #fffc00;
+    font-size: 17px;
+}
+
+main .manufacture04bg {
+    width: 100%;
+    background: url(../images/mapic/mapage04_bg.png) no-repeat center top;
+}
+
+main #manufacture04 {
+    width: 950px;
+    overflow: hidden;
+    margin: 0 auto;
+    display: block;
+}
+
+main .manufacture05bg {
+    width: 100%;
+    background: url(../images/issue/subpage02_bg.png) no-repeat center top;
+}
+
+main #manufacture05 {
+    width: 950px;
+    overflow: hidden;
+    margin: 0 auto;
+    display: block;
+}
+
+main .font_bgblue {
+    background-color: #004a9d;
+    font-size: 20px;
+    text-align: center;
+    line-height: 80px;
+    width: 80px;
+    height: 80px;
+    border-radius: 50px;
+    display: block;
+    float: left;
+    color: #FFF;
+}
+
+main .font_bgblue2 {
+    background-color: #004a9d;
+    font-size: 20px;
+    text-align: center;
+    width: 80px;
+    height: 80px;
+    border-radius: 50px;
+    display: block;
+    float: left;
+    color: #FFF;
+}
+
+main .quotagray .font_bgTextW {
+    content: "";
+    position: absolute;
+    bottom: -1px;
+    left: 2px;
+    width: 79px;
+    height: 64px;
+    line-height: 22px;
+}
+
+main .quotagray .onehight {
+    margin-left: 100px;
+    line-height: 80px;
+}
+
+main .quotagray .twohight {
+    content: "";
+    position: absolute;
+    bottom: -1px;
+    right: 22px;
+    width: 289px;
+    height: 69px;
+}
+
+main #button_O {
+    width: 715px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+main #button_OC {
+    width: 960px;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 325px;
+}
+
+main .btn {
+    float: left;
+    font-size: 20px;
+    font-family: "微軟正黑體", Arial, Helvetica, sans-serif;
+    width: 145px;
+    height: 40px;
+    margin: 0 auto;
+    line-height: 40px;
+    letter-spacing: 1px;
+    margin-right: 15px;
+}
+
+main .btn a {
+    display: block;
+    color: #FFF;
+    text-decoration: none;
+    background-color: #09F;
+}
+
+main .btn a:hover {
+    text-decoration: none;
+    margin: 0 auto;
+    background-color: #36C;
+}
+
+main .btn2 {
+    float: left;
+    font-size: 20px;
+    font-family: "微軟正黑體", Arial, Helvetica, sans-serif;
+    width: 145px;
+    height: 40px;
+    margin: 0 auto;
+    line-height: 40px;
+    letter-spacing: 1px;
+    margin-right: 15px;
+}
+
+main .btn2 a {
+    display: block;
+    color: #FFF;
+    text-decoration: none;
+    background-color: #0CF;
+}
+
+main .btn2 a:hover {
+    text-decoration: none;
+    margin: 0 auto;
+    background-color: #36C;
+}
+
+main .btn1 {
+    float: left;
+    font-size: 20px;
+    font-family: "微軟正黑體", Arial, Helvetica, sans-serif;
+    width: 200px;
+    height: 40px;
+    margin: 0 auto;
+    line-height: 40px;
+    margin-left: 20px;
+}
+
+main .btn1 a {
+    display: block;
+    color: #FFF;
+    text-decoration: none;
+    background: url(../images/icon_bg1.png) no-repeat left top;
+    font-weight: bold;
+}
+
+main .btn1 a:hover {
+    text-decoration: none;
+    margin: 0 auto;
+    background-position: right top;
+}
+
+main .conblock {
+    width: 100%;
+    background-color: #1d8fbe;
+    padding: 150px 0;
+}
+
+main #conblock {
+    width: 1000px;
+    overflow: hidden;
+    margin: 0 auto;
+    display: block;
+    padding: 80px 0;
+}
+
+main #conblock h3 {
+    line-height: 1.2;
+    text-align: center;
+    color: #FFF;
+}
+
+main #conblock h4 {
+    line-height: 1.2;
+    text-align: center;
+    color: #FFF;
+}
+
+main .section h3 {
+    font-family: "微軟正黑體",Arial, Helvetica, sans-serif;
+    margin-bottom: 30px;
+    font-size: 36px;
+    text-align: left;
+}
+
+main .section h4 {
+    font-family: "微軟正黑體",Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin: 20px 0 7px;
+    text-align: left;
+    font-weight: normal;
+}
+
+main .section p {
+    margin: 0;
+    padding: 0;
+    font-size: 17px;
+    line-height: 27px;
+    text-align: justify;
+}
+
+main .floatLeft {
+    float: left;
+}
+
+main .floatRight {
+    float: right;
+}
+
+main .section .textLeft {
+    text-align: left;
+}
+
+main .section .textRight {
+    text-align: right;
+}
+
+main .section .textCenter {
+    text-align: center;
+}
+
+main .section {
+    width: 100%;
+    min-width: 1000px;
+    padding: 60px 0;
+    color: #444444;
+    font-family: Arial, "微軟正黑體";
+}
+
+main .content {
+    position: relative;
+    width: 1000px;
+    margin: 0 auto;
+}
+
+main .column_2 {
+    width: 50%;
+}
+
+main .column_3 {
+    width: 33%;
+}
+
+main .column_4 {
+    width: 25%;
+}
+
+main .column_5 {
+    width: 20%;
+}
+
+main .font_mainColor {
+    color: #0bb580;
+}
+
+main .font_orange {
+    color: #ff6600;
+}
+
+main .font_blue {
+    color: #058fa8;
+}
+
+main .font_green {
+    color: #4fcc6a;
+}
+
+main .font_yellow1 {
+    color: #fffc00;
+}
+
+main .font_yellow {
+    color: #ffb400;
+}
+
+main .font_yellowLight {
+    color: #feffc1;
+}
+
+main .font_yellowDark {
+    color: #ff8d00;
+}
+
+main .font_redLight {
+    color: #ff5454;
+}
+
+main .font_white {
+    color: #ffffff;
+}
+
+main .font_gray {
+    color: #bbbbbb;
+}
+
+main .font_green2 {
+    color: #eaff01;
+}
+
+main .bg_mainColor {
+    background-color: #0bb580;
+}
+
+main .bg_green {
+    background-color: #4fcc6a;
+}
+
+main .bg_yellow {
+    background-color: #ffb400;
+}
+
+main .bg_yellowDark {
+    background-color: #ff8d00;
+}
+
+main .bg_gray {
+    background-color: #bbbbbb;
+}
+
+main .bg_greenImg {
+    background: url(../images/bgGreen.jpg) no-repeat center center;
+}
+
+main .bg_ {
+    background: url(../images/bgGreen.jpg) no-repeat center center;
+}
+
+main .hover_yellow:hover h4 {
+    color: #ffb400;
+}
+
+main .circle {
+    margin: 0 auto;
+    border-radius: 50%;
+}
+
+main p.imgNote {
+    font-size: 19px;
+    font-weight: bold;
+    text-align: center;
+}
+
+main p.sectionNote {
+    width: 800px;
+    margin: 0 auto;
+    font-size: 19px;
+}
+
+main p.pageBtn {
+    width: 400px;
+    line-height: 60px;
+    margin: 50px auto 0;
+    border: 1px solid #ffffff;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+}
+
+main p.contactBtn {
+    position: relative;
+    z-index: 2;
+    width: 400px;
+    line-height: 55px;
+    margin: 50px auto 0;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    background-color: #034ea2;
+    border: 1px solid #ffffff;
+    letter-spacing: 1px;
+}
+
+main p.contactBtn a {
+    color: #FFF;
+}
+
+main p.contactBtn:hover {
+    background-color: #ffb400;
+}
+
+main .imgBorderAll {
+    border: 1px solid #eaeaea;
+}
+
+main .quotaOrange,
+main .quotaYellow {
+    position: relative;
+    margin: 50px auto;
+    padding: 25px 45px;
+    border-radius: 7px;
+    font-size: 18px;
+    line-height: 27px;
+}
+
+main .quotaOrange:before,
+main .quotaYellow:before {
+    content: "";
+    position: absolute;
+    top: -35px;
+    left: 20px;
+    width: 49px;
+    height: 49px;
+}
+
+main .quotaOrange:after,
+main .quotaYellow:after {
+    content: "";
+    position: absolute;
+    bottom: -35px;
+    right: 20px;
+    width: 49px;
+    height: 49px;
+}
+
+main .quotaYellow {
+    border: 3px solid #fff200;
+}
+
+main .quotaOrange {
+    border: 3px solid #ff8a00;
+}
+
+main .quotaOrange:before {
+    background: url(../images/issue/quota.png) no-repeat center 0;
+}
+
+main .quotaOrange:after {
+    background: url(../images/issue/quota.png) no-repeat center -49px;
+}
+
+main .quotaYellow:before {
+    background: url(../images/issue/quota.png) no-repeat center -98px;
+}
+
+main .quotaYellow:after {
+    background: url(../images/issue/quota.png) no-repeat center -147px;
+}
+
+main .rightList {
+    display: none;
+    position: fixed;
+    top: 50%;
+    right: 20px;
+    z-index: 99;
+    margin: -100px 0 0;
+    font-size: 18px;
+    font-family: Arial, "微軟正黑體";
+    text-align: right;
+}
+
+main .rightLink {
+    line-height: 50px;
+}
+
+main .rightLink a:hover, main .rightLink.selected a {
+    color: #ff8d00;
+}

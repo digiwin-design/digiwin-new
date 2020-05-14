@@ -1,0 +1,155 @@
+@charset "UTF-8";
+main *, main *:before, main *:after {
+    box-sizing: content-box;
+}
+
+main.WB00263901_6 {
+    /*---------------研討會-----------------------------*/
+	background-color: #FFF;
+	margin-top: 50px;
+}
+
+main.WB00263901_6 body {
+    font-family: "微軟正黑體", "新細明體", Arial, Helvetica, sans-serif;
+    background-color: #FFF;
+}
+
+main.WB00263901_6 h2 {
+    width: 100%;
+    font-size: 30px;
+    line-height: 30px;
+    margin: 30px 0px 10px 0px;
+    color: #e93030;
+}
+
+main.WB00263901_6 h2.DD {
+    text-align: left;
+    background: url(https://www.digiwin.com/tw/dsc/solution/WB002639/images/icon_even.png) no-repeat left center;
+    padding-left: 30px;
+}
+
+main.WB00263901_6 h2.EE {
+    text-align: left;
+    background: url(https://www.digiwin.com/tw/dsc/solution/WB002639/images/icon_case.png) no-repeat left center;
+    padding-left: 30px;
+    margin-bottom: 20px;
+}
+
+main.WB00263901_6 #event1 {
+    width: 1200px;
+    margin: 0 auto;
+    background-color: #FFF;
+    margin-top: 50px;
+    font-size: 16px;
+    line-height: 30px;
+    font-family: "微軟正黑體", "新細明體", Arial, Helvetica, sans-serif;
+}
+
+main.WB00263901_6 .txtboxAA {
+    width: 1200px;
+	background-color: #FFF;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding-bottom: 1em;
+    border-bottom: #CCC dotted 1px;
+}
+
+main.WB00263901_6 .txtboxAA::before {
+    display: table;
+    content: '';
+}
+
+main.WB00263901_6 .txtboxAA::after {
+    display: table;
+    clear: both;
+    content: '';
+}
+
+main.WB00263901_6 .txtboxAA .txtbox_L {
+    float: left;
+    width: 175px;
+    margin-right: 15px;
+}
+
+main.WB00263901_6 .txtboxAA .txtbox_R {
+    float: right;
+    width: 1010px;
+}
+
+main.WB00263901_6 .txtboxAA .txtbox_R h3 {
+    font-size: 20px;
+    line-height: 1.6;
+    color: #e66d24;
+}
+
+main.WB00263901_6 .txtboxAA .txtbox_R h4 {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #900;
+    padding: 5px 0px;
+}
+
+main.WB00263901_6 .txtboxAA .txtbox_R p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #202020;
+    padding-bottom: 6px;
+}
+
+main.WB00263901_6 h3 {
+    font-size: 20px;
+    line-height: 1.6;
+    color: #e66d24;
+}
+
+main.WB00263901_6 h4 {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #900;
+    padding: 5px 0px;
+}
+
+main.WB00263901_6 h4.case {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #f63439;
+}
+
+main.WB00263901_6 h5 {
+    font-size: 13px;
+    color: #666;
+}
+
+main.WB00263901_6 #button_R {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+main.WB00263901_6 .btnR {
+    float: left;
+    font-size: 16px;
+    font-family: "微軟正黑體", "新細明體", Arial, Helvetica, sans-serif;
+    width: 140px;
+    height: 30px;
+    margin: 0 auto;
+    line-height: 30px;
+    letter-spacing: 1px;
+    margin-right: 15px;
+}
+
+main.WB00263901_6 .btnR a {
+    display: block;
+    color: #e93030;
+    text-decoration: none;
+    border: #e93030 solid 1px;
+}
+
+main.WB00263901_6 .btnR a:hover {
+    text-decoration: none;
+    color: #FFF;
+    background-color: #e93030;
+    margin: 0 auto;
+    border-bottom: #e93030 solid 1px;
+}

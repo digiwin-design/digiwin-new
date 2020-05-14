@@ -1,0 +1,535 @@
+@charset "UTF-8";
+main *, main *:before, main *:after {
+    box-sizing: content-box;
+}
+main.store a {
+    color: inherit;
+}
+
+main.store table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+main.store .col-2 {
+    width: 50%;
+}
+
+main.store .col-3 {
+    width: 33.33333%;
+}
+
+main.store .col-4 {
+    width: 25%;
+}
+
+main.store .col-5 {
+    width: 20%;
+}
+
+main.store .section {
+    position: relative;
+    width: 100%;
+    min-width: 1200px;
+    padding: 70px 0;
+    font-family: Arial, "微軟正黑體";
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+main.store .section * {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+main.store .section h2 {
+    margin-bottom: 5px;
+    font-size: 36px;
+    line-height: 1.2;
+    font-weight: normal;
+    text-align: center;
+}
+
+main.store .section h3 {
+    margin-bottom: 10px;
+    font-size: 30px;
+    font-weight: normal;
+    line-height: 1.2;
+}
+
+main.store .section .title-line {
+    overflow: hidden;
+    margin-bottom: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+
+main.store .section .title-line span {
+    display: inline-block;
+    position: relative;
+}
+
+main.store .section .title-line span:before, main.store .section .title-line span:after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 50%;
+    width: 1000%;
+    border-bottom: 1px solid #aeaeae;
+}
+
+main.store .section .title-line span:before {
+    left: 100%;
+    margin-left: 10px;
+}
+
+main.store .section .title-line span:after {
+    right: 100%;
+    margin-right: 10px;
+}
+
+main.store .section p {
+    margin: 0;
+    text-align: justify;
+}
+
+main.store .content {
+    position: relative;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+main.store .vAlignMiddle {
+    text-align: center;
+    font-size: 0;
+}
+
+main.store .vAlignMiddle:before {
+    content: "";
+    height: 100%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+main.store .vAlignMiddle .vAlignContent {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+main.store .circle {
+    margin: 0 auto;
+    border-radius: 50%;
+}
+
+main.store .floatLeft {
+    float: left;
+}
+
+main.store .floatRight {
+    float: right;
+}
+
+main.store .imgCenter {
+    display: block;
+    margin: 0 auto;
+}
+
+main.store p.imgNote {
+    font-size: 19px;
+    text-align: center;
+}
+
+main.store p.sectionDesc, main.store p.sectionDesc-center {
+    margin: 0 auto 30px;
+    padding: 0 140px;
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+main.store p.sectionDesc-center {
+    text-align: center;
+}
+
+main.store .link {
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 2px;
+    font-size: 20px;
+    line-height: 1.5;
+    text-align: center;
+    cursor: pointer;
+    -webkit-transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out;
+}
+
+main.store .link-normal {
+    background-color: #53cfd9;
+    color: #fff;
+}
+
+main.store .link-normal:hover {
+    background-color: #2dc0cc;
+}
+
+main.store .link-outline {
+    background-color: transparent;
+    border: 1px solid #53cfd9;
+    color: #53cfd9;
+}
+
+main.store .link-outline:hover {
+    background-color: #53cfd9;
+    color: #fff;
+}
+
+main.store .link-block {
+    display: block;
+    margin: 0 auto;
+}
+
+main.store .linkGroup {
+    text-align: center;
+}
+
+main.store .highLight {
+    color: #ffff00;
+}
+
+main.store .pageName {
+    width: 1200px;
+    line-height: 48px;
+    margin: 0 auto;
+    font-family: Arial, "微軟正黑體";
+}
+
+main.store #indBanner {
+    height: 500px;
+    margin-bottom: 60px;
+    padding: 0;
+    color: #fff;
+}
+
+main.store #indBanner h1 {
+    margin-bottom: 4px;
+    font-size: 44px;
+    line-height: 1.2;
+    text-align: left;
+	color: #fff;
+}
+
+main.store #indBanner .pageDesc {
+    width: 700px;
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+main.store #indBanner {
+    background: url("https://www.digiwin.com/tw/dsc/solution/WB002850/images/store/bg_banner.jpg") no-repeat center center;
+}
+
+main.store #indBanner strong {
+    color: #ffff00;
+}
+
+main.store #jobProblem .jobProblem {
+    color: #fff;
+}
+
+main.store #jobProblem .jobProblem:hover .handTop {
+    -webkit-animation-play-state: paused;
+    animation-play-state: paused;
+}
+
+main.store #jobProblem .txt {
+    float: left;
+    overflow: hidden;
+    width: 25%;
+    margin-bottom: 30px;
+    padding: 0 15px;
+    cursor: pointer;
+}
+
+main.store #jobProblem .txt .outline {
+    overflow: hidden;
+    position: relative;
+    padding: 30px 0;
+    background-color: #53cfd9;
+    border-radius: 2px;
+}
+
+main.store #jobProblem .txt .nameLayer {
+    position: relative;
+    text-align: center;
+    z-index: 2;
+}
+
+main.store #jobProblem .txt .nameLayer p {
+    margin-top: 8px;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: inherit;
+}
+
+main.store #jobProblem .txt .txtLayer {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    padding: 0 10px;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+main.store #jobProblem .txt .txtLayer p {
+    float: left;
+    padding: 0 20px;
+}
+
+main.store #jobProblem .txt .handTop {
+    position: absolute;
+    top: 95%;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    font-size: 24px;
+    -webkit-animation: handTop 1.5s infinite;
+    animation: handTop 1.5s infinite;
+    -webkit-animation-timing-function: ease-out;
+    animation-timing-function: ease-out;
+}
+
+@-webkit-keyframes handTop {
+    0% {
+        top: 95%;
+    }
+    50% {
+        top: 87%;
+    }
+    100% {
+        top: 95%;
+    }
+}
+
+@keyframes handTop {
+    0% {
+        top: 95%;
+    }
+    50% {
+        top: 87%;
+    }
+    100% {
+        top: 95%;
+    }
+}
+
+main.store #jobProblem .txt .mask {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 3;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(214, 90, 0, 0.9);
+}
+
+main.store #jobProblem .txt05 .mask,
+main.store #jobProblem .txt06 .mask,
+main.store #jobProblem .txt07 .mask,
+main.store #jobProblem .txt08 .mask {
+    background-color: rgba(68, 73, 0, 0.9);
+}
+
+main.store #jobProblem .txt01 .outline,
+main.store #jobProblem .txt09 .outline {
+    background-color: #ffac70;
+}
+
+main.store #jobProblem .txt01 .txtLayer,
+main.store #jobProblem .txt09 .txtLayer {
+    color: #ffbb8a;
+}
+
+main.store #jobProblem .txt02 .outline,
+main.store #jobProblem .txt10 .outline {
+    background-color: #ff8f3d;
+}
+
+main.store #jobProblem .txt02 .txtLayer,
+main.store #jobProblem .txt10 .txtLayer {
+    color: #ff9e57;
+}
+
+main.store #jobProblem .txt03 .outline {
+    background-color: #ff862e;
+}
+
+main.store #jobProblem .txt03 .txtLayer {
+    color: #ff8933;
+}
+
+main.store #jobProblem .txt04 .outline {
+    background-color: #ff6c00;
+}
+
+main.store #jobProblem .txt04 .txtLayer {
+    color: #ff8024;
+}
+
+main.store #jobProblem .txt05 .outline {
+    background-color: #bcc900;
+}
+
+main.store #jobProblem .txt05 .txtLayer {
+    color: #c5d300;
+}
+
+main.store #jobProblem .txt06 .outline {
+    background-color: #a4af00;
+}
+
+main.store #jobProblem .txt06 .txtLayer {
+    color: #aeb900;
+}
+
+main.store #jobProblem .txt07 .outline {
+    background-color: #8c9600;
+}
+
+main.store #jobProblem .txt07 .txtLayer {
+    color: #96a000;
+}
+
+main.store #jobProblem .txt08 .outline {
+    background-color: #6b7200;
+}
+
+main.store #jobProblem .txt08 .txtLayer {
+    color: #7e8600;
+}
+
+main.store #jobProblem .txt09 {
+    margin-left: 25%;
+}
+
+main.store #mainContent {
+    background-color: #f5f5f5;
+}
+
+main.store #mainContent .fa {
+    display: block;
+    font-size: 50px;
+    color: #ccc;
+    text-align: center;
+    cursor: pointer;
+}
+
+main.store #mainContent .group {
+    margin: 50px 0;
+}
+
+main.store #mainContent .group .list {
+    float: left;
+    width: 20%;
+    text-align: center;
+    cursor: pointer;
+}
+
+main.store #mainContent .group .list img {
+    width: 120px;
+    height: 120px;
+    background-color: #53cfd9;
+    border-radius: 50%;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+}
+
+main.store #mainContent .group .list p {
+    position: relative;
+    margin-top: 10px;
+    font-size: 20px;
+    text-align: center;
+}
+
+main.store #mainContent .group .list p:before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 110%;
+    left: 50%;
+    width: 0;
+    height: 3px;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    background-color: #2dc0cc;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+}
+
+main.store #mainContent .group .list:hover img {
+    background-color: #2dc0cc;
+}
+
+main.store #mainContent .group .list:hover p {
+    color: #2dc0cc;
+}
+
+main.store #mainContent .group .list:hover p:before {
+    width: 40%;
+}
+
+main.store #mainContent .issue {
+    display: table;
+    padding: 50px 0;
+    border-bottom: 1px solid #ccc;
+}
+
+main.store #mainContent .issue.end, main.store #mainContent .issue:last-child {
+    border-bottom: none;
+}
+
+main.store #mainContent .issue h3 {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+main.store #mainContent .issue h3:after {
+    display: block;
+    content: "";
+    width: 40px;
+    margin-top: 20px;
+    border-bottom: 2px solid #53cfd9;
+}
+
+main.store #mainContent .issue .txtGroup {
+    display: table-cell;
+    position: relative;
+    width: 500px;
+    padding-right: 30px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    vertical-align: middle;
+}
+
+main.store #mainContent .issue .imgStyle {
+    display: table-cell;
+}
+
+main.store #mainContent .issue a {
+    display: inline-block;
+    position: relative;
+    margin-right: 45px;
+    font-size: 0;
+}
+
+main.store #mainContent .issue a.end {
+    margin-right: 0;
+}
+
+main.store #mainContent .issue a:before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 26px;
+    height: 26px;
+    background: url("https://www.digiwin.com/tw/dsc/solution/WB002850/images/icon_zoom.png") no-repeat center center;
+}

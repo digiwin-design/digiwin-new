@@ -1,0 +1,172 @@
+main .carousel1 {
+    $breakpoint: 1300px;
+    $paddingBottom: 77px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    @media (max-width: $breakpoint) {
+        position: static;
+        left: auto;
+        transform: translateX(0);
+    }
+    .swiper-container {
+        padding-right: 0;
+        padding-bottom: $paddingBottom;
+        padding-left: 0;
+        max-width: none;
+        width: 1800px;
+        @media (max-width: $breakpoint) {
+            width: 100%;
+        }
+    }
+    .swiper-slide {
+        height: auto;
+        transition: transform .4s;
+        transform: scale(.7);
+        @media (max-width: $breakpoint) {
+            padding-right: 20px;
+            padding-left: 20px;
+            transform: none;
+        }
+        @media (max-width: 360px) {
+            padding-right: 15px;
+            padding-left: 15px;
+        }
+        &::before {
+            position: absolute;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            z-index: 1;
+            border-radius: 10px;
+            background-color: rgba(#0d0c12, .5);
+            content: '';
+            transition: background-color .2s;
+            @media (max-width: $breakpoint) {
+                display: none;
+            }
+            @at-root {
+                html.no-mobile main .vueSwiper .swiper-slide:hover::before {
+                    background-color: rgba(#0d0c12, .3);
+                }
+            }
+        }
+    }
+    .swiper-slide-active,
+    .swiper-slide-next + .swiper-slide {
+        cursor: pointer;
+        @media (max-width: $breakpoint) {
+            cursor: default;
+            pointer-events: none;
+        }
+    }
+    .swiper-slide-active {
+        transform: scale(.7) translateX(150px);
+        transform-origin: 100% 50% 0;
+        @media (max-width: $breakpoint) {
+            transform: none;
+        }
+    }
+    .swiper-slide-next + .swiper-slide {
+        transform: scale(.7) translateX(-150px);
+        transform-origin: 0 50% 0;
+        @media (max-width: $breakpoint) {
+            transform: none;
+        }
+    }
+    .swiper-slide-next {
+        position: relative;
+        z-index: 1;
+        opacity: 1;
+        transform: scale(1);
+        &::before {
+            display: none;
+        }
+    }
+    .swiper-pagination {
+        bottom: 33px;
+        display: flex;
+        line-height: 14px;
+        justify-content: center;
+        @media (max-width: $breakpoint) {
+            bottom: 45px;
+        }
+    }
+    .swiper-pagination-bullet {
+        margin: 0 3px !important;
+        width: 14px;
+        height: 14px;
+        border-radius: 0;
+        background-color: #bbb;
+        opacity: 1;
+        @media (max-width: $breakpoint) {
+            width: 12px;
+            height: 12px;
+        }
+        &-active {
+            background-color: #239995;
+        }
+    }
+    .swiper-button-prev,
+    .swiper-button-next {
+        width: 36px;
+        background-size: contain;
+        transform: translateY(-#{$paddingBottom / 2});
+        @media (max-width: $breakpoint) {
+            width: 27px;
+        }
+    }
+    .swiper-button-prev {
+        left: 265px;
+        background-image: image-url('mag201909/carousel-prev.svg');
+        @media (max-width: $breakpoint) {
+            left: 0;
+        }
+    }
+    .swiper-button-next {
+        right: 265px;
+        background-image: image-url('mag201909/carousel-next.svg');
+        @media (max-width: $breakpoint) {
+            right: 0;
+        }
+    }
+    .slideItem {
+        display: flex;
+        margin: 0 auto;
+        padding: 40px;
+        max-width: 600px;
+        height: 100%;
+        border-radius: 10px;
+        background-color: #239995;
+        justify-content: center;
+        @media (max-width: $breakpoint) {
+            padding: 22px;
+        }
+        &-img {
+            flex-shrink: 0;
+            @media (max-width: $breakpoint) {
+                width: 100px;
+            }
+        }
+        &-text {
+            padding-left: 6px;
+        }
+        p {
+            font-size: 22px;
+            line-height: 30px;
+            @media (max-width: $breakpoint) {
+                font-size: 16px;
+                line-height: 20px;
+            }
+            &:first-child {
+                margin-bottom: 1em;
+                color: #ffe402;
+                font-weight: bold;
+            }
+            &:last-child {
+                color: #fff;
+            }
+        }
+    }
+}

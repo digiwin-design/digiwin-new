@@ -1,0 +1,15 @@
+extends ../layout.pug
+
+block includes
+    link(rel='stylesheet', href='assets/animate.css')
+    link(rel='stylesheet', href=`css/WB00291701_5.css?v=${Math.random()}`)
+    script(src='assets/modernizr-custom.js', defer)
+    script(src='assets/mobile-detect.js', defer)
+    script(src='assets/mobile-detect-modernizr.js', defer)
+    script(src='assets/picturefill.js', defer)
+    script(src='assets/lodash.js', defer)
+    script(src=`js/common.min.js?v=${Math.random()}`, defer)
+    script(src=`js/WB00291701_5.min.js?v=${Math.random()}`, defer)
+
+block content
+    include WB00291701_5.html

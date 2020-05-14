@@ -1,0 +1,394 @@
+[
+    {
+        "url": "/tw/dsc/assets/ad/demo.html",
+        "adUrl": "http://bit.ly/2OUAD3m",
+        "imgSrc": "/tw/dsc/assets/ad/images/20191209.jpg",
+        "startTime": "2019-12-09",
+        "endTime": "2020-12-31"
+    },
+    {
+        "url": "/tw/dsc/marketing/WB002838/WB00283808.htm",
+        "adUrl": "http://bit.ly/2OUAD3m",
+        "imgSrc": "/tw/dsc/assets/ad/images/20191209.jpg",
+        "startTime": "2019-12-09",
+        "endTime": "2019-12-13"
+    },
+    {
+        "url": "/tw/dsc/industry4/smartFactory.html",
+        "adUrl": "http://bit.ly/2OUAD3m",
+        "imgSrc": "/tw/dsc/assets/ad/images/20191209.jpg",
+        "startTime": "2019-12-09",
+        "endTime": "2019-12-13"
+    },
+    {
+        "url": "/tw/dsc/industry4/smartManufactur.html",
+        "adUrl": "http://bit.ly/2OUAD3m",
+        "imgSrc": "/tw/dsc/assets/ad/images/20191209.jpg",
+        "startTime": "2019-12-09",
+        "endTime": "2019-12-13"
+    },
+    {
+        "url": "/tw/dsc/solution/WB002554/WB00255401.html",
+        "adUrl": "http://bit.ly/2OUAD3m",
+        "imgSrc": "/tw/dsc/assets/ad/images/20191209.jpg",
+        "startTime": "2019-12-09",
+        "endTime": "2019-12-13"
+    },
+    {
+        "url": "/tw/dsc/marketing/WB002838/WB00283807.htm",
+        "adUrl": "http://bit.ly/2OUAD3m",
+        "imgSrc": "/tw/dsc/assets/ad/images/20191209.jpg",
+        "startTime": "2019-12-09",
+        "endTime": "2019-12-13"
+    },
+    {
+        "url": "/tw/dsc/marketing/WB003014/web/01/",
+        "adUrl": "http://bit.ly/2OUAD3m",
+        "imgSrc": "https://www.digiwin.com/tw/dsc/assets/ad/images/20191209.jpg",
+        "startTime": "2019-12-09",
+        "endTime": "2019-12-13"
+    },
+    {
+        "url": "/tw/dsc/solution/WB002783/WB00278301.html",
+        "adUrl": "https://www.digiwin.com/tw/dsc/activity/MFT/WB003030/WB00303000_index.html",
+        "imgSrc": "https://www.digiwin.com/tw/dsc/assets/ad/images/WB003030.jpg",
+        "startTime": "2020-02-17",
+        "endTime": "2020-04-01"
+    },
+    {
+        "url": "/tw/case.html",
+        "adUrl": "https://www.digiwin.com/tw/dsc/activity/MFT/WB003030/WB00303000_index.html",
+        "imgSrc": "https://www.digiwin.com/tw/dsc/assets/ad/images/WB003030.jpg",
+        "startTime": "2020-02-17",
+        "endTime": "2020-04-01"
+    },
+    {
+        "url": "/tw/video.html",
+        "adUrl": "https://www.digiwin.com/tw/dsc/activity/MFT/WB003030/WB00303000_index.html",
+        "imgSrc": "https://www.digiwin.com/tw/dsc/assets/ad/images/WB003030.jpg",
+        "startTime": "2020-02-17",
+        "endTime": "2020-04-01"
+    },
+    {
+        "url": "/tw/dsc/solution/WB002675/WB00267501.html",
+        "adUrl": "https://pse.is/PSNZ4",
+        "imgSrc": "https://www.digiwin.com/tw/dsc/assets/ad/images/20200421.jpg",
+        "startTime": "2020-04-21",
+        "endTime": "2020-05-30"
+    },
+    {
+        "url": "/tw/dsc/solution/WB002675/WB00267501_14.html",
+        "adUrl": "https://pse.is/PSNZ4",
+        "imgSrc": "https://www.digiwin.com/tw/dsc/assets/ad/images/20200421.jpg",
+        "startTime": "2020-04-21",
+        "endTime": "2020-05-30"
+    },
+    {
+        "url": "/tw/dsc/solution/WB002675/WB00267501_1.html",
+        "adUrl": "https://pse.is/PSNZ4",
+        "imgSrc": "https://www.digiwin.com/tw/dsc/assets/ad/images/20200421.jpg",
+        "startTime": "2020-04-21",
+        "endTime": "2020-05-30"
+    },
+    {
+        "url": "/tw/dsc/solution/WB002675/WB00267501_2.html",
+        "adUrl": "https://pse.is/PSNZ4",
+        "imgSrc": "https://www.digiwin.com/tw/dsc/assets/ad/images/20200421.jpg",
+        "startTime": "2020-04-21",
+        "endTime": "2020-05-30"
+    },
+    {
+        "url": "/tw/dsc/solution/WB002675/WB00267501_3.html",
+        "adUrl": "https://pse.is/PSNZ4",
+        "imgSrc": "https://www.digiwin.com/tw/dsc/assets/ad/images/20200421.jpg",
+        "startTime": "2020-04-21",
+        "endTime": "2020-05-30"
+    },
+    {
+        "url": "/tw/dsc/solution/WB002675/WB00267501_4.html",
+        "adUrl": "https://pse.is/PSNZ4",
+        "imgSrc": "https://www.digiwin.com/tw/dsc/assets/ad/images/20200421.jpg",
+        "startTime": "2020-04-21",
+        "endTime": "2020-05-30"
+    },
+    {
+        "url": "/tw/dsc/solution/WB002675/WB00267501_15.html",
+        "adUrl": "https://pse.is/PSNZ4",
+        "imgSrc": "https://www.digiwin.com/tw/dsc/assets/ad/images/20200421.jpg",
+        "startTime": "2020-04-21",
+        "endTime": "2020-05-30"
+    },
+    {
+        "url": "/tw/dsc/solution/WB002675/barcode.html",
+        "adUrl": "https://pse.is/PSNZ4",
+        "imgSrc": "https://www.digiwin.com/tw/dsc/assets/ad/images/20200421.jpg",
+        "startTime": "2020-04-21",
+        "endTime": "2020-05-30"
+    },
+    {
+        "url": "/tw/dsc/solution/WB002675/WB00267501_7.html",
+        "adUrl": "https://pse.is/PSNZ4",
+        "imgSrc": "https://www.digiwin.com/tw/dsc/assets/ad/images/20200421.jpg",
+        "startTime": "2020-04-21",
+        "endTime": "2020-05-30"
+    },
+    {
+        "url": "/tw/dsc/solution/WB002675/WB00267501_9.html",
+        "adUrl": "https://pse.is/PSNZ4",
+        "imgSrc": "https://www.digiwin.com/tw/dsc/assets/ad/images/20200421.jpg",
+        "startTime": "2020-04-21",
+        "endTime": "2020-05-30"
+    },
+    {
+        "url": "/tw/dsc/solution/WB002675/WB00267501_10.html",
+        "adUrl": "https://pse.is/PSNZ4",
+        "imgSrc": "https://www.digiwin.com/tw/dsc/assets/ad/images/20200421.jpg",
+        "startTime": "2020-04-21",
+        "endTime": "2020-05-30"
+    },
+    {
+        "url": "/tw/dsc/solution/WB002675/WB00267501_11.html",
+        "adUrl": "https://pse.is/PSNZ4",
+        "imgSrc": "https://www.digiwin.com/tw/dsc/assets/ad/images/20200421.jpg",
+        "startTime": "2020-04-21",
+        "endTime": "2020-05-30"
+    },
+    {
+        "url": "/tw/dsc/solution/WB002675/WB00267501_12.html",
+        "adUrl": "https://pse.is/PSNZ4",
+        "imgSrc": "https://www.digiwin.com/tw/dsc/assets/ad/images/20200421.jpg",
+        "startTime": "2020-04-21",
+        "endTime": "2020-05-30"
+    },
+    {
+        "url": "/tw/dsc/solution/WB002675/WB00267501_13.html",
+        "adUrl": "https://pse.is/PSNZ4",
+        "imgSrc": "https://www.digiwin.com/tw/dsc/assets/ad/images/20200421.jpg",
+        "startTime": "2020-04-21",
+        "endTime": "2020-05-30"
+    },
+    {
+        "url": "/tw/dsc/solution/WB002595/WB00259501.html",
+        "adUrl": "https://pse.is/PSNZ4",
+        "imgSrc": "https://www.digiwin.com/tw/dsc/assets/ad/images/20200421.jpg",
+        "startTime": "2020-04-21",
+        "endTime": "2020-05-30"
+    },
+    {
+        "url": "/tw/dsc/solution/WB002595/WB00259501_2.html",
+        "adUrl": "https://pse.is/PSNZ4",
+        "imgSrc": "https://www.digiwin.com/tw/dsc/assets/ad/images/20200421.jpg",
+        "startTime": "2020-04-21",
+        "endTime": "2020-05-30"
+    },
+    {
+        "url": "/tw/dsc/solution/WB002595/WB00259501_3.html",
+        "adUrl": "https://pse.is/PSNZ4",
+        "imgSrc": "https://www.digiwin.com/tw/dsc/assets/ad/images/20200421.jpg",
+        "startTime": "2020-04-21",
+        "endTime": "2020-05-30"
+    },
+    {
+        "url": "/tw/dsc/solution/WB002972/index.html",
+        "adUrl": "https://pse.is/PSNZ4",
+        "imgSrc": "https://www.digiwin.com/tw/dsc/assets/ad/images/20200421.jpg",
+        "startTime": "2020-04-21",
+        "endTime": "2020-05-30"
+    },
+    {
+        "url": "/tw/dsc/solution/WB002972/intro.html",
+        "adUrl": "https://pse.is/PSNZ4",
+        "imgSrc": "https://www.digiwin.com/tw/dsc/assets/ad/images/20200421.jpg",
+        "startTime": "2020-04-21",
+        "endTime": "2020-05-30"
+    },
+    {
+        "url": "/tw/dsc/solution/WB002972/case.html",
+        "adUrl": "https://pse.is/PSNZ4",
+        "imgSrc": "https://www.digiwin.com/tw/dsc/assets/ad/images/20200421.jpg",
+        "startTime": "2020-04-21",
+        "endTime": "2020-05-30"
+    },
+    {
+        "url": "/tw/dsc/solution/WB002972/case1.html",
+        "adUrl": "https://pse.is/PSNZ4",
+        "imgSrc": "https://www.digiwin.com/tw/dsc/assets/ad/images/20200421.jpg",
+        "startTime": "2020-04-21",
+        "endTime": "2020-05-30"
+    },
+    {
+        "url": "/tw/dsc/solution/WB002972/seminar.html",
+        "adUrl": "https://pse.is/PSNZ4",
+        "imgSrc": "https://www.digiwin.com/tw/dsc/assets/ad/images/20200421.jpg",
+        "startTime": "2020-04-21",
+        "endTime": "2020-05-30"
+    },
+    {
+        "url": "/tw/dsc/solution/WB002711/WB00271101.html",
+        "adUrl": "https://pse.is/PSNZ4",
+        "imgSrc": "https://www.digiwin.com/tw/dsc/assets/ad/images/20200421.jpg",
+        "startTime": "2020-04-21",
+        "endTime": "2020-05-30"
+    },
+    {
+        "url": "/tw/dsc/solution/WB002711/WB00271101_business.html",
+        "adUrl": "https://pse.is/PSNZ4",
+        "imgSrc": "https://www.digiwin.com/tw/dsc/assets/ad/images/20200421.jpg",
+        "startTime": "2020-04-21",
+        "endTime": "2020-05-30"
+    },
+    {
+        "url": "/tw/dsc/solution/WB002711/WB00271101_multichannel.html",
+        "adUrl": "https://pse.is/PSNZ4",
+        "imgSrc": "https://www.digiwin.com/tw/dsc/assets/ad/images/20200421.jpg",
+        "startTime": "2020-04-21",
+        "endTime": "2020-05-30"
+    },
+    {
+        "url": "/tw/dsc/solution/WB002711/WB00271101_case.html",
+        "adUrl": "https://pse.is/PSNZ4",
+        "imgSrc": "https://www.digiwin.com/tw/dsc/assets/ad/images/20200421.jpg",
+        "startTime": "2020-04-21",
+        "endTime": "2020-05-30"
+    },
+    {
+        "url": "/tw/dsc/solution/WB002752/WB00275201.html",
+        "adUrl": "https://pse.is/PSNZ4",
+        "imgSrc": "https://www.digiwin.com/tw/dsc/assets/ad/images/20200421.jpg",
+        "startTime": "2020-04-21",
+        "endTime": "2020-05-30"
+    },
+    {
+        "url": "/tw/dsc/solution/WB002752/WB00275201_activity.html",
+        "adUrl": "https://pse.is/PSNZ4",
+        "imgSrc": "https://www.digiwin.com/tw/dsc/assets/ad/images/20200421.jpg",
+        "startTime": "2020-04-21",
+        "endTime": "2020-05-30"
+    },
+    {
+        "url": "/tw/dsc/solution/WB002801/WB00280101.html",
+        "adUrl": "https://pse.is/PSNZ4",
+        "imgSrc": "https://www.digiwin.com/tw/dsc/assets/ad/images/20200421.jpg",
+        "startTime": "2020-04-21",
+        "endTime": "2020-05-30"
+    },
+    {
+        "url": "/tw/dsc/solution/WB002711/WB00271101.html",
+        "adUrl": "https://pse.is/PSNZ4",
+        "imgSrc": "https://www.digiwin.com/tw/dsc/assets/ad/images/20200421.jpg",
+        "startTime": "2020-04-21",
+        "endTime": "2020-05-30"
+    },
+    {
+        "url": "/tw/dsc/solution/WB002711/WB00271101.html",
+        "adUrl": "https://pse.is/PSNZ4",
+        "imgSrc": "https://www.digiwin.com/tw/dsc/assets/ad/images/20200421.jpg",
+        "startTime": "2020-04-21",
+        "endTime": "2020-05-30"
+    },
+    {
+        "url": "/tw/dsc/solution/WB002801/WB00280101_service.html",
+        "adUrl": "https://pse.is/PSNZ4",
+        "imgSrc": "https://www.digiwin.com/tw/dsc/assets/ad/images/20200421.jpg",
+        "startTime": "2020-04-21",
+        "endTime": "2020-05-30"
+    },
+    {
+        "url": "/tw/dsc/solution/WB002801/WB00280101_sales.html",
+        "adUrl": "https://pse.is/PSNZ4",
+        "imgSrc": "https://www.digiwin.com/tw/dsc/assets/ad/images/20200421.jpg",
+        "startTime": "2020-04-21",
+        "endTime": "2020-05-30"
+    },
+    {
+        "url": "/tw/dsc/solution/WB002801/WB00280101_project.html",
+        "adUrl": "https://pse.is/PSNZ4",
+        "imgSrc": "https://www.digiwin.com/tw/dsc/assets/ad/images/20200421.jpg",
+        "startTime": "2020-04-21",
+        "endTime": "2020-05-30"
+    },
+    {
+        "url": "/tw/dsc/solution/WB002801/WB00280101_case2.html",
+        "adUrl": "https://pse.is/PSNZ4",
+        "imgSrc": "https://www.digiwin.com/tw/dsc/assets/ad/images/20200421.jpg",
+        "startTime": "2020-04-21",
+        "endTime": "2020-05-30"
+    },
+    {
+        "url": "/tw/dsc/solution/WB002801/WB00280101_case.html",
+        "adUrl": "https://pse.is/PSNZ4",
+        "imgSrc": "https://www.digiwin.com/tw/dsc/assets/ad/images/20200421.jpg",
+        "startTime": "2020-04-21",
+        "endTime": "2020-05-30"
+    },
+    {
+        "url": "/tw/dsc/solution/WB002850/WB00285001.html",
+        "adUrl": "https://pse.is/PSNZ4",
+        "imgSrc": "https://www.digiwin.com/tw/dsc/assets/ad/images/20200421.jpg",
+        "startTime": "2020-04-21",
+        "endTime": "2020-05-30"
+    },
+    {
+        "url": "/tw/dsc/solution/WB002850/brand.html",
+        "adUrl": "https://pse.is/PSNZ4",
+        "imgSrc": "https://www.digiwin.com/tw/dsc/assets/ad/images/20200421.jpg",
+        "startTime": "2020-04-21",
+        "endTime": "2020-05-30"
+    },
+    {
+        "url": "/tw/dsc/solution/WB002850/store.html",
+        "adUrl": "https://pse.is/PSNZ4",
+        "imgSrc": "https://www.digiwin.com/tw/dsc/assets/ad/images/20200421.jpg",
+        "startTime": "2020-04-21",
+        "endTime": "2020-05-30"
+    },
+    {
+        "url": "/tw/dsc/solution/WB002850/solution.html",
+        "adUrl": "https://pse.is/PSNZ4",
+        "imgSrc": "https://www.digiwin.com/tw/dsc/assets/ad/images/20200421.jpg",
+        "startTime": "2020-04-21",
+        "endTime": "2020-05-30"
+    },
+    {
+        "url": "/tw/solution/ListDetail5967.html",
+        "adUrl": "https://pse.is/PSNZ4",
+        "imgSrc": "https://www.digiwin.com/tw/dsc/assets/ad/images/20200421.jpg",
+        "startTime": "2020-04-21",
+        "endTime": "2020-05-30"
+    },
+    {
+        "url": "/tw/dsc/solution/WB003006/index.html",
+        "adUrl": "https://pse.is/PSNZ4",
+        "imgSrc": "https://www.digiwin.com/tw/dsc/assets/ad/images/20200421.jpg",
+        "startTime": "2020-04-21",
+        "endTime": "2020-05-30"
+    },
+    {
+        "url": "/tw/dsc/solution/WB003006/efficiency.html",
+        "adUrl": "https://pse.is/PSNZ4",
+        "imgSrc": "https://www.digiwin.com/tw/dsc/assets/ad/images/20200421.jpg",
+        "startTime": "2020-04-21",
+        "endTime": "2020-05-30"
+    },
+    {
+        "url": "/tw/dsc/solution/WB003006/member.html",
+        "adUrl": "https://pse.is/PSNZ4",
+        "imgSrc": "https://www.digiwin.com/tw/dsc/assets/ad/images/20200421.jpg",
+        "startTime": "2020-04-21",
+        "endTime": "2020-05-30"
+    },
+    {
+        "url": "/tw/dsc/solution/WB003006/logistics.html",
+        "adUrl": "https://pse.is/PSNZ4",
+        "imgSrc": "https://www.digiwin.com/tw/dsc/assets/ad/images/20200421.jpg",
+        "startTime": "2020-04-21",
+        "endTime": "2020-05-30"
+    },
+    {
+        "url": "/tw/dsc/solution/WB003006/payment.html",
+        "adUrl": "https://pse.is/PSNZ4",
+        "imgSrc": "https://www.digiwin.com/tw/dsc/assets/ad/images/20200421.jpg",
+        "startTime": "2020-04-21",
+        "endTime": "2020-05-30"
+    }
+]

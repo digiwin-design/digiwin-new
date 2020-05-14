@@ -1,0 +1,37 @@
+@import '../common';
+@import 'components';
+
+main {
+    .section1 {
+        padding-bottom: 45px;
+        .container {
+            overflow: hidden;
+        }
+        &-pains {
+            display: flex;
+            margin: -22.5px;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .pain {
+            margin: 22.5px;
+            max-width: 370px;
+        }
+    }
+    .section2,
+    .section3,
+    .section4,
+    .section5 {
+        padding-bottom: 60px;
+    }
+    .section2 {
+        background-color: #ececec;
+    }
+    .section4 {
+        @include bg('efficiency/section4-bg.jpg');
+    }
+    .section5 img {
+        display: block;
+        margin: 0 auto;
+    }
+}

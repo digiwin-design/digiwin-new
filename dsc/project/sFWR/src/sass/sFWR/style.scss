@@ -1,0 +1,420 @@
+main {
+    section {
+        position: relative;
+        width: 100%;
+        min-width: 1200px;
+        max-width: 1920px;
+        font-size: 16px;
+    }
+    .container {
+        position: relative;
+        width: 1200px;
+        margin: 0 auto;
+    }
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        font-weight: normal;
+        line-height: 1.5;
+    }
+    
+    h1 {
+        font-size: 48px;
+    }
+    
+    h2 {
+        font-size: 36px;
+    }
+    
+    h3{
+        font-size: 24px;
+    }
+    h4 {
+        font-size: 20px;
+    }
+    h5{
+        font-size: 18px;
+    }
+    p {
+        font-size: 18px;
+        line-height: 1.5;
+    }
+    .pc{
+        display: block;
+    }
+    .m-mobile{
+        display: none;
+    }
+    /*banner*/
+    #banner{
+        position: relative;
+        height: 500px;
+        background: url("../../images/banner.jpg") no-repeat center center;
+        background-size: cover;
+    }
+    #banner h1{
+        color: #fff;
+        padding-top: 160px;
+    }
+    #banner .text{
+        color: #fff;
+    }
+    #power{
+        width: 100%;
+        margin: 0 auto;
+        position: relative;
+        text-align: center;
+        background: #eeeef0;
+        overflow: hidden;
+    }
+    #power h2,#model h2,#needs h2,#item h2,#case h2{
+        padding-top: 70px;
+    }
+    #power img,#model img{
+       margin: 65px auto;
+    }
+    #model{
+        width: 100%;
+        margin: 0 auto;
+        position: relative;
+        text-align: center;
+        overflow: hidden;
+    }
+    #needs{
+        position: relative;
+        height: 1059px;
+        background: url("../../images/needsbg.jpg") no-repeat center center;
+        margin: 0 auto;
+        text-align: center;
+        background-size: cover;
+    }
+    #needs .Visualization{
+        position: relative;
+        width: 100%;
+        height: 302px;
+        margin: 65px 10px;
+    }
+    #needs .Visualization li{
+        float: left;
+        width: 386px;
+        margin-left:10px ;
+    }
+    #needs h3{
+        color: #3f83bf;
+    }
+    .digitalize{
+        position: relative;
+        width: 100%;
+        height: 302px;
+    }
+    .digitalize li{
+        float: left;
+        margin-top: 50px;
+        margin-left: 9px;
+    }
+    .digitalize li:first-child{
+        width: 380px;
+    }
+    .digitalize li:nth-child(2){
+        width: 412px;
+    }
+    .digitalize li:last-child{
+        width: 379px;
+    
+    }
+    .digitalize li .wtxt{
+        display: block;
+        width: 350px;
+        text-align: justify;
+        padding-top: 20px;
+    }
+    .digitalize li .wtxt1{
+        display: block;
+        width: 380px;
+        text-align: justify;
+        padding-top: 20px;
+    }
+    
+    #item{
+        width: 100%;
+        margin: 0 auto;
+        position: relative;
+        text-align: center;
+        overflow: hidden;
+    }
+    #item h2{
+        padding-bottom: 60px;
+    }
+    #item ul{
+        position: relative;
+        width: 100%;
+        margin: 0 125px;
+    }
+    #item ul li{
+        float: left;
+        width: 190px;
+        margin-bottom: 40px;
+    }
+    #item ul li .boldH{
+        font-size: 30px;
+        font-weight: bold;
+        line-height:1.2;
+        padding-top: 25px;
+        padding-bottom: 15px;
+    }
+    .color1{
+        color: #f17931;
+    }
+    .color2{
+        color: #de334e;
+    }
+    .color3{
+        color: #b32084;
+    }
+    .color4{
+        color: #54488a;
+    }
+    .color5{
+        color: #1eaf85;
+    }
+    #item ul li .ptxt{
+        display: block;
+        width: 150px;
+        margin: 0 auto;
+        text-align: justify;
+    }
+    
+    #case{
+        width: 100%;
+        margin: 0 auto;
+        position: relative;
+        text-align: center;
+        background: #eeeef0;
+        overflow: hidden;
+    }
+    #case h2{
+        padding-bottom: 60px;
+    }
+    #case ul{
+        width: 100%;
+        overflow: hidden;
+        margin-bottom: 170px;
+    }
+    #case ul li{
+        float: left;
+        margin: 0 30px;
+        position: relative;
+    }
+    #case ul li .fadeout{
+        width: 536px;
+        height: 265px;
+    }
+    
+    .fadeout .boldH{
+        position: absolute;
+        font-size: 30px;
+        font-weight: bold;
+        line-height:1.2;
+        /*top:0;*/
+        bottom: 60px;
+        left: 50%;
+        margin-left: -65px;
+        color: #fff;
+    }
+    .fadeout .eimg{
+        position: absolute;
+        bottom:0;
+        left: 50%;
+        margin-left: -14px;
+    }
+    #case ul li .fadein{
+        position: absolute;
+        text-align: justify;
+        top:130%;
+        width: 536px;
+        height:265px;
+        background: #2da2bf;
+        border-radius: 3px;
+    }
+    #case ul li .fadein>p{
+        color: #fff;
+        padding: 65px 50px;
+    }
+    
+    /*移动端*/
+    
+    @media (max-width:768px){
+        section {
+            min-width: 100%;
+            max-width: 100%;
+        }
+        .container {
+            width: 100%;
+        }
+        h1 {
+            font-size: 30px;
+        }
+    
+        h2 {
+            font-size: 26px;
+        }
+    
+        h3{
+            font-size: 20px;
+        }
+        h4 {
+            font-size: 18px;
+        }
+        h5{
+            font-size: 16px;
+            font-weight: bold;
+        }
+        p {
+            font-size: 16px;
+            line-height: 1.5;
+        }
+        .pc{
+            display: none;
+        }
+        .m-mobile{
+            display: block;
+        }
+        #banner{
+            height: 352px;
+            background: url("../../images/banner_m.jpg") no-repeat center center;
+            background-size: cover;
+        }
+        #banner h1{
+            font-size: 36px;
+            padding: 0 38px;
+            padding-top: 120px;
+        }
+        #banner .text{
+            padding: 0 38px;
+        }
+        #power h2, #model h2, #needs h2, #item h2, #case h2 {
+           font-size: 26px;
+            padding: 50px 42px 40px;
+        }
+        #power h4,#model h4,#needs h4{
+            padding: 0 38px;
+        }
+        #power h4 br,#model h4 br,#needs h4 br{
+            display: none;
+        }
+        #power img, #model img {
+           margin:50px auto;
+        }
+        #needs{
+            height:958px;
+            background: url("../../images/needsbg_m.jpg") no-repeat center center;
+            background-size: cover;
+        }
+        #needs h3{
+           padding: 35px 0 10px;
+        }
+        #needs .swiper-wrapper{
+            margin: 40px auto 10px;
+        }
+        #needs .swiper-slide{
+            margin-bottom: 20px;
+        }
+    
+        #needs .swiper-button-next,#needs .swiper-button-prev {
+            position: absolute;
+            top: 50%;
+            width: 24px;
+            height: 38px;
+            margin-top: -10%;
+            z-index: 10;
+            cursor: pointer;
+            background-size: 24px 38px;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+        #needs .swiper-button-next {
+            background-image: url(../../images/rarr.png);
+            right: 13%;
+        }
+        #needs .swiper-button-prev {
+            background-image: url(../../images/larr.png);
+            left: 13%;
+        }
+        #needs .swiper-pagination-bullet{
+            width: 12px;
+            height: 12px;
+            background: #5597d1;
+            border-radius: 0;
+        }
+        #needs .swiper-container-horizontal>.swiper-pagination-bullets,
+        #needs .swiper-pagination-custom, .swiper-pagination-fraction {
+            bottom: 0;
+        }
+        #needs .swiper-container .ml{
+            margin: 5% 0 0 3%;
+        }
+        #needs .m2{
+           margin-bottom:8%;
+        }
+        #item ul{
+            margin: 0 auto;
+        }
+        #item ul li{
+            width: 50%;
+        }
+        #item ul li .boldH{
+            font-size: 18px;
+            padding: 2% 0;
+        }
+        #item ul li .boldH br{
+            display: none;
+        }
+        #item ul li .ptxt{
+            line-height: 1.4;
+        }
+        #item ul li:last-child{
+            float: none;
+            margin: 0 auto;
+            margin-bottom: 10%;
+        }
+        #case ul{
+            overflow: hidden;
+            margin-bottom: 10%;
+        }
+        #case ul li{
+            width: 312px;
+            float: none;
+            margin: 0 auto;
+            margin-bottom: 3%;
+            position: relative;
+            overflow: hidden;
+        }
+        #case ul li .fadeout {
+            width: 312px;
+            height: 218px;
+        }
+        #case ul li .fadeout>img{
+            margin: 0 auto;
+        }
+        .fadeout .boldH{
+            font-size: 22px;
+            bottom: 18%;
+            margin-left: -42px;
+        }
+        .fadeout .eimg{
+            bottom: 0;
+            margin-left: 0;
+        }
+        #case ul li .fadein{
+            width: 312px;
+            height: 218px;
+            overflow: hidden;
+        }
+        #case ul li .fadein>p {
+            padding: 5%;
+        }
+    }
+}

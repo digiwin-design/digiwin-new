@@ -1,0 +1,358 @@
+@charset "UTF-8";
+main.WB00252103 {}
+
+    main.WB00252103 .section h3 {
+        margin-bottom: 20px;
+        font-size: 36px;
+        text-align: center; }
+    main.WB00252103 .section h4 {
+        font-size: 21px;
+        margin: 20px 0 7px;
+        text-align: center; }
+    main.WB00252103 .section p {
+        margin: 0;
+        padding: 0;
+        font-size: 17px;
+        line-height: 27px;
+        text-align: justify; }
+    main.WB00252103 .vAlignMiddle {
+        text-align: center;
+        font-size: 0; }
+    main.WB00252103 .vAlignMiddle .vAlignContent {
+        display: inline-block;
+        vertical-align: middle; }
+    main.WB00252103 .floatLeft {
+        float: left; }
+    main.WB00252103 .floatRight {
+        float: right; }
+    main.WB00252103 .section .textLeft {
+        text-align: left; }
+    main.WB00252103 .section .textRight {
+        text-align: right; }
+    main.WB00252103 .section .textCenter {
+        text-align: center; }
+    main.WB00252103 .section {
+        width: 100%;
+        min-width: 1000px;
+        padding: 80px 0;
+        color: #444444;
+        font-family: Arial, "微軟正黑體"; }
+    main.WB00252103 .content {
+        position: relative;
+        width: 1000px;
+        margin: 0 auto;
+        font-size: 17px; }
+    main.WB00252103 .column_2 {
+        width: 50%; }
+    main.WB00252103 .column_3 {
+        width: 33%; }
+    main.WB00252103 .column_4 {
+        width: 25%; }
+    main.WB00252103 .column_5 {
+        width: 20%; }
+    main.WB00252103 .font_yellow {
+        color: #f9a422; }
+    main.WB00252103 .font_orange {
+        color: #f57f3c; }
+    main.WB00252103 .font_purple {
+        color: #ad2990; }
+    main.WB00252103 .font_indigo {
+        color: #4e55a3; }
+    main.WB00252103 .font_white {
+        color: #ffffff; }
+    main.WB00252103 .font_gray {
+        color: #bbbbbb; }
+    main.WB00252103 p.imgNote {
+        font-size: 19px;
+        font-weight: bold;
+        text-align: center; }
+    main.WB00252103 p.sectionNote {
+        margin: 0 auto;
+        padding: 0 50px;
+        font-size: 19px;
+        text-align: center; }
+    main.WB00252103 p.pageBtn {
+        width: 400px;
+        line-height: 60px;
+        margin: 50px auto 0;
+        border: 1px solid #ffffff;
+        font-size: 24px;
+        text-align: center;
+        cursor: pointer; }
+    main.WB00252103 p.contactBtn {
+        position: relative;
+        z-index: 2;
+        width: 400px;
+        line-height: 55px;
+        margin: -30px auto 0;
+        font-size: 21px;
+        text-align: center;
+        cursor: pointer; }
+    main.WB00252103 p.contactBtn:hover {
+        background-color: #ffb400; }
+    main.WB00252103 .imgBorderAll {
+        border: 1px solid #eaeaea; }
+    main.WB00252103 #problems {
+        padding-bottom: 0; }
+    main.WB00252103 #problems p.sectionNote {
+        text-align: justify; }
+    main.WB00252103 #problemsTxt {
+        width: 100%;
+        min-width: 1000px;
+        height: 631px;
+        margin-top: -35px;
+        background: url(../images/problemsBg.png) no-repeat center top;
+        color: #ffffff; }
+    main.WB00252103 #problemsTxt ul {
+        box-sizing: border-box;
+        width: 50%;
+        margin-top: 70px; }
+    main.WB00252103 #problemsTxt li {
+        box-sizing: border-box;
+        height: 60px;
+        font-size: 17px;
+        text-align: left;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+    }
+    main.WB00252103 #problemsTxt .floatLeft li.problem04 {
+        padding: 0 205px 0 15px;
+        font-size: 16px; }
+    main.WB00252103 #problemsTxt .floatLeft li.problem03 {
+        padding: 0 205px 0 45px; }
+    main.WB00252103 #problemsTxt .floatLeft li.problem02 {
+        padding: 0 185px 0 75px; }
+    main.WB00252103 #problemsTxt .floatLeft li.problem01 {
+        padding: 0 130px 0 120px; }
+    main.WB00252103 #problemsTxt .floatRight li.problem04 {
+        padding: 0 15px 0 205px; }
+    main.WB00252103 #problemsTxt .floatRight li.problem03 {
+        padding: 0 45px 0 205px; }
+    main.WB00252103 #problemsTxt .floatRight li.problem02 {
+        padding: 0 75px 0 185px; }
+    main.WB00252103 #problemsTxt .floatRight li.problem01 {
+        padding: 0 120px 0 130px; }
+    main.WB00252103 #problemsTxt .floatRight li.problem05 {
+        padding: 0 110px 0 130px; }
+    main.WB00252103 #process {
+        background: url(../images/processBg.jpg) no-repeat center top fixed #dfdfdf; }
+    main.WB00252103 #process p.imgNote {
+        margin-top: 25px; }
+    main.WB00252103 .processTxt {
+        position: relative; }
+    main.WB00252103 .processTxt > div {
+        position: absolute;
+        width: 210px;
+        text-align: justify; }
+    main.WB00252103 .processTxt > div li {
+        margin: 0 0 7px 17px;
+        line-height: 21px;
+        list-style: disc outside; }
+    main.WB00252103 .processTxt h4 {
+        margin: 0 0 3px;
+        font-size: 17px;
+        text-align: left; }
+    main.WB00252103 .processList01 {
+        top: 60px;
+        left: 582px; }
+    main.WB00252103 .processList02 {
+        top: 310px;
+        left: 690px; }
+    main.WB00252103 .processList03 {
+        top: 410px;
+        left: 235px; }
+    main.WB00252103 .processList04 {
+        top: 135px;
+        left: 115px; }
+    main.WB00252103 #case .caseList {
+        margin-top: 40px; }
+    main.WB00252103 #case .floatLeft {
+        margin-left: 30px; }
+    main.WB00252103 #case p.floatRight {
+        width: 790px;
+        padding-top: 20px; }
+    main.WB00252103 #case p.floatRight.caseList03 {
+        padding-top: 50px; }
+    main.WB00252103 #case .readMore {
+        display: block;
+        position: relative;
+        color: #ff4e4e;
+        text-align: right; }
+    main.WB00252103 #case .readMore a {
+        display: block;
+        color: #ff4e4e; }
+    main.WB00252103 #case .readMore a:hover {
+        color: #df0000; }
+    main.WB00252103 #case .readMore:before {
+        content: "";
+        position: absolute;
+        top: 50%;
+        left: 0;
+        width: 90%;
+        border-bottom: 1px dashed #ffc4c4; }
+    main.WB00252103 #case .readMore:after {
+        content: "";
+        position: absolute;
+        top: 50%;
+        left: 90%;
+        margin-top: -5px;
+        border-left: 8px solid #ff4e4e;
+        border-top: 5px solid transparent;
+        border-bottom: 5px solid transparent; }
+    main.WB00252103 #case .readMore:hover:after {
+        border-left: 8px solid #df0000; }
+    main.WB00252103 #hardware {
+        background: url(../images/hardwareBg.jpg) no-repeat center center; }
+    main.WB00252103 #hardwareTxt {
+        margin-top: 25px;
+        background: url(../images/hardwareTxtBg.png) no-repeat center bottom; }
+    main.WB00252103 #hardwareTxt h4 {
+        line-height: 30px;
+        padding-left: 35px;
+        font-size: 24px;
+        color: #2c95ff;
+        text-align: left;
+        background: url(../images/hardwareIcon.png) no-repeat left top; }
+    main.WB00252103 #hardwareTxt .floatRight h4 {
+        padding-left: 68px;
+        font-size: 24px;
+        color: #2c95ff;
+        text-align: left;
+        background: url(../images/hardwareIcon.png) no-repeat left -30px; }
+    main.WB00252103 #hardwareTxt .floatLeft,
+    main.WB00252103 #hardwareTxt .floatRight {
+        width: 50%; }
+    main.WB00252103 #hardwareTxt .floatLeft ul {
+        width: 370px;
+        margin: 40px 0 0 25px;
+        color: #ffffff; }
+    main.WB00252103 #hardwareTxt .floatLeft li {
+        position: relative;
+        margin-bottom: 15px; }
+    main.WB00252103 #hardwareTxt .floatLeft li:after {
+        content: "";
+        position: absolute;
+        top: 9px;
+        left: -15px;
+        margin-top: -5px;
+        border-left: 8px solid #ffffff;
+        border-top: 6px solid transparent;
+        border-bottom: 6px solid transparent; }
+    main.WB00252103 #finance {
+        background: url(../images/financeBg.png) no-repeat center bottom; }
+    main.WB00252103 #finance .floatLeft {
+        position: relative;
+        width: 450px;
+        margin: 50px 0 0 80px; }
+    main.WB00252103 #finance .floatLeft span {
+        display: block;
+        text-align: right; }
+    main.WB00252103 #finance .floatRight {
+        position: relative;
+        width: 390px;
+        margin: 20px 20px 0 0; }
+    main.WB00252103 #finance .quote {
+        margin-bottom: 30px; }
+    main.WB00252103 #finance .floatLeft .quote:before {
+        content: "";
+        position: absolute;
+        top: -7px;
+        left: -40px;
+        width: 30px;
+        height: 30px;
+        background: url(../images/quote.png) no-repeat left top; }
+    main.WB00252103 #finance .floatLeft .quote:after {
+        content: "";
+        position: absolute;
+        top: 112px;
+        right: -40px;
+        width: 30px;
+        height: 30px;
+        background: url(../images/quote.png) no-repeat right top; }
+    main.WB00252103 #finance .floatRight > p {
+        position: relative;
+        padding: 0 25px 0 50px;
+        line-height: 24px; }
+    main.WB00252103 #finance .floatRight > p:before {
+        content: "";
+        position: absolute;
+        top: 6px;
+        left: 30px;
+        border-bottom: 10px solid #444;
+        border-left: 6px solid transparent;
+        border-right: 6px solid transparent; }
+    main.WB00252103 #finance .otherLink {
+        display: block;
+        width: 30%;
+        line-height: 40px;
+        margin-top: 420px;
+        background-color: #de3513;
+        color: #fff;
+        text-align: center; }
+    main.WB00252103 #finance .otherLink:hover {
+        background-color: #ff5757; }
+    main.WB00252103 #finance .otherLink i {
+        color: #fff; }
+    main.WB00252103 #industry {
+        padding: 80px 0;
+        background-color: #ffc453;
+        color: #ffffff; }
+    main.WB00252103 #industry #industryTxt {
+        position: relative;
+        margin-top: 40px; }
+    main.WB00252103 #industry #industryTxt li {
+        overflow: hidden;
+        position: relative;
+        float: left;
+        width: 200px;
+        height: 150px;
+        margin: 0 0 35px;
+        text-align: center;
+        background: url(../images/industry.jpg) no-repeat; }
+    main.WB00252103 #industry #industryTxt a {
+        color: #fff; }
+    main.WB00252103 #industry #industryTxt h4 {
+        width: 200px;
+        height: 45px;
+        margin: 0;
+        padding-top: 105px;
+        font-weight: normal; }
+    main.WB00252103 #industry #industryTxt #ind_01 {
+        background-position: 0 0; }
+    main.WB00252103 #industry #industryTxt #ind_02 {
+        background-position: -200px 0; }
+    main.WB00252103 #industry #industryTxt #ind_03 {
+        background-position: -400px 0; }
+    main.WB00252103 #industry #industryTxt #ind_04 {
+        background-position: -600px 0; }
+    main.WB00252103 #industry #industryTxt #ind_05 {
+        background-position: -800px 0; }
+    main.WB00252103 #industry #industryTxt #ind_06 {
+        background-position: 0 -150px; }
+    main.WB00252103 #industry #industryTxt #ind_07 {
+        background-position: -200px -150px; }
+    main.WB00252103 #industry #industryTxt #ind_08 {
+        background-position: -400px -150px; }
+    main.WB00252103 #industry #industryTxt #ind_09 {
+        background-position: -600px -150px; }
+    main.WB00252103 #industry #industryTxt #ind_10 {
+        background-position: -800px -150px; }
+    main.WB00252103 #industry #industryTxt #ind_11 {
+        background-position: 0 -300px; }
+    main.WB00252103 #industry #industryTxt #ind_12 {
+        background-position: -200px -300px; }
+    main.WB00252103 #industry #industryTxt #ind_13 {
+        background-position: -400px -300px; }
+    main.WB00252103 #industry #industryTxt #ind_14 {
+        background-position: -600px -300px; }
+    main.WB00252103 #industry #industryTxt #ind_15 {
+        background-position: -800px -300px; }
+    main.WB00252103 #adBanner {
+        position: fixed;
+        z-index: 99999;
+        bottom: 105px;
+        right: 5px; }

@@ -1,0 +1,237 @@
+@charset "UTF-8";
+main.WB00247601_4 {
+    padding-bottom: 50px;
+}
+
+main.WB00247601_4 body {
+    background: none;
+}
+
+main.WB00247601_4 .linkALL_2 {
+    position: fixed;
+    top: 0;
+}
+
+main.WB00247601_4 .Block01bg {
+    width: 100%;
+}
+
+main.WB00247601_4 .section {
+    padding-top: 12px;
+}
+
+main.WB00247601_4 .section h3 {
+    margin-bottom: 50px;
+    font-size: 36px;
+}
+
+main.WB00247601_4 #Block01 {
+    width: 950px;
+    overflow: hidden;
+    margin: 0 auto;
+    display: block;
+    padding-top: 100px;
+}
+
+main.WB00247601_4 h3.Block01_icon {
+    text-align: center;
+    padding-left: 40px;
+    color: #00a2a5;
+}
+
+main.WB00247601_4 #Block01 p {
+    font-size: 18px;
+    line-height: 26px;
+    color: #4f4f4f;
+}
+
+main.WB00247601_4 #Block01 #icons {
+    width: 900px;
+    display: block;
+    overflow: hidden;
+    padding: 10px;
+}
+
+main.WB00247601_4 #Block01 #icons ul li {
+    float: left;
+    display: block;
+    line-height: 50px;
+    margin: 30px 90px 10px 30px;
+    padding-left: 46px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+main.WB00247601_4 .iconA {
+    background: url(../images/sess_icon1.png) no-repeat left center;
+}
+
+main.WB00247601_4 .iconB {
+    background: url(../images/sess_icon2.png) no-repeat left center;
+}
+
+main.WB00247601_4 .iconC {
+    background: url(../images/sess_icon3.png) no-repeat left center;
+}
+
+main.WB00247601_4 #Block01 a {
+    color: #000;
+}
+
+main.WB00247601_4 .section1 {
+    display: block;
+    width: 1000px;
+    margin: 0 auto;
+    font-family: Arial, "微軟正黑體";
+}
+
+main.WB00247601_4 .section1 .sec-header {
+    margin-top: 20px;
+    height: 50px;
+    width: 1000px;
+    background: url(../images/sess_bg1.png) no-repeat;
+    font-size: 18px;
+    color: #fff;
+    position: relative;
+    cursor: pointer;
+}
+
+main.WB00247601_4 .sec-header .secIcon-1 {
+    display: inline-block;
+    margin-left: 14px;
+    margin-top: 12px;
+    height: 25px;
+    line-height: 25px;
+    padding-left: 28px;
+    background: url(../images/sessBg_icon.png) 0 center no-repeat;
+}
+
+main.WB00247601_4 .section1 .sec-header p {
+    display: inline-block;
+    margin-left: 115px;
+    font-weight: bold;
+    /*width: 700px;*/
+}
+
+main.WB00247601_4 .sec-header .secIconMore {
+    position: absolute;
+    top: -4px;
+    right: 10px;
+    height: 51px;
+    width: 50px;
+    line-height: 36px;
+    background: url(../images/secIconMore.png) center 33px no-repeat;
+    font-size: 16px;
+    text-align: center;
+    cursor: pointer;
+}
+
+main.WB00247601_4 .changeDIV {
+    width: 100%;
+    height: 97.5%;
+    padding-top: 2.5%;
+    position: relative;
+}
+
+main.WB00247601_4 .section1 .changeDIV {
+    display: none;
+}
+
+main.WB00247601_4 .leftPart1 {
+    float: left;
+    padding-left: 20px;
+    width: 300px;
+    padding-bottom: 3%;
+}
+
+main.WB00247601_4 .leftPart1 a {
+    display: inline-block;
+}
+
+main.WB00247601_4 .turna {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    margin-bottom: 33px;
+    text-align: center;
+    width: 336px;
+    font-size: 18px;
+}
+
+main.WB00247601_4 .turna a {
+    margin-top: 25px;
+    width: 297px;
+    height: 39px;
+    line-height: 39px;
+    border: 1px solid #0294aa;
+    color: #0294aa;
+}
+
+main.WB00247601_4 .turna a:hover {
+    background: #0294aa;
+    color: #fff;
+}
+
+main.WB00247601_4 .rightPart1 {
+    float: right;
+    margin-right: 20px;
+    width: 628px;
+    height: 97%;
+    padding-bottom: 3%;
+}
+
+main.WB00247601_4 .changeDIV h4 {
+    font-size: 20px;
+    line-height: 26px;
+    color: #1a8393;
+    margin-bottom: 10px;
+}
+
+main.WB00247601_4 .changeDIV p {
+    color: #262626;
+    font-size: 17px;
+    line-height: 24px;
+}
+
+main.WB00247601_4 .changeDIV h5 {
+    color: #ff0000;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 45px;
+    margin-bottom: 18px;
+}
+
+main.WB00247601_4 .changeDIV dl {
+    font-size: 16px;
+    line-height: 26px;
+    /*margin-bottom: 25px;*/
+}
+
+main.WB00247601_4 .changeDIV dt {
+    font-weight: bold;
+    color: #00a2a5;
+}
+
+main.WB00247601_4 .changeDIV .last-dl {
+    margin-bottom: 0;
+}
+
+main.WB00247601_4 .section2 .changeDIV {
+    display: none;
+}
+
+main.WB00247601_4 .section2 .sec-header {
+    background: url(../images/sess_bg2.png) no-repeat;
+}
+
+main.WB00247601_4 .section3 .changeDIV {
+    display: block;
+}
+
+main.WB00247601_4 .section3 .sec-header {
+    background: url(../images/sess_bg3.png) no-repeat;
+}
+
+main.WB00247601_4 #contact {
+    margin-top: 168px;
+}

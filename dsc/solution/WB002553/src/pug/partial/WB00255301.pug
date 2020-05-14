@@ -1,0 +1,15 @@
+extends ../layout.pug
+
+block includes
+    link(rel='preload', href='images/WB00255301/header-bg.jpg', as='image')
+    link(rel="stylesheet", href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css")
+    link(rel='stylesheet', href='css/WB00255301/style.css')
+    script(src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js", defer)
+    script(src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.9.2/d3.min.js", defer)
+    script(src="https://unpkg.com/pdfjs-dist@2.1.266/build/pdf.min.js", defer)
+    script(src="https://unpkg.com/pdfjs-dist@2.1.266/build/pdf.worker.min.js", defer)
+    script(src="https://cdnjs.cloudflare.com/ajax/libs/jQuery.dotdotdot/3.2.3/jquery.dotdotdot.js", defer)
+    script(src='js/WB00255301.min.js', defer)
+
+block content
+    include WB00255301.html

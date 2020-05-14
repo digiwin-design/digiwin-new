@@ -1,0 +1,110 @@
+main .case {
+    li:not(:last-child) {
+        margin-bottom: 1px;
+    }
+    section {
+        hgroup {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        h1 {
+            display: flex;
+            padding-right: 5px;
+            padding-left: 5px;
+            width: 25%;
+            background-color: #f85820;
+            color: #fff;
+            text-align: center;
+            font-weight: normal;
+            font-size: 18px;
+            line-height: 1.2;
+            justify-content: center;
+            align-items: center;
+        }
+        h2 {
+            display: flex;
+            margin-bottom: 0;
+            padding: 5px 60px 5px 15px;
+            width: 75%;
+            background-color: #d0d0d0;
+            font-weight: normal;
+            font-size: 18px;
+            line-height: 1.2;
+            align-items: center;
+        }
+    }
+    &-header {
+        position: relative;
+        cursor: pointer;
+        &.active hgroup::after {
+            transform: rotate(90deg);
+        }
+        hgroup::after {
+            position: absolute;
+            top: calc(50% - 12.5px);
+            right: 17px;
+            width: image-width('719/case/menuBtn.png');
+            height: image-height('719/case/menuBtn.png');
+            background: image-url('719/case/menuBtn.png');
+            content: '';
+            transition: transform 200ms;
+        }
+    }
+    &-content {
+        @at-root {
+            main .case li:not(:first-child) .case-content {
+                display: none;
+            }
+        }
+        & > div {
+            display: flex;
+            background-color: #f8f5f3;
+            font-size: 18px;
+            line-height: 27px;
+        }
+    }
+    &-content-img {
+        display: none;
+    }
+    &-content-text {
+        padding: 21px 33px;
+    }
+    &-content-text-title {
+        color: #e23f0b;
+        font-weight: bold;
+        font-size: 20px;
+    }
+    @media (min-width: $tablet-width + 1) {
+        section {
+            h1 {
+                font-size: 22px;
+                line-height: 46px;
+            }
+            h2 {
+                padding-right: 84px;
+                padding-left: 38px;
+                font-size: 22px;
+            }
+        }
+        &-header {
+            hgroup::after {
+                right: 41px;
+            }
+        }
+        &-content > div {
+            padding: 0;
+            flex-wrap: wrap;
+        }
+        &-content-img {
+            display: block;
+            padding-top: 29px;
+            padding-bottom: 29px;
+            width: 25%;
+            text-align: center;
+        }
+        &-content-text {
+            padding: 29px 41px 29px 38px;
+            width: 75%;
+        }
+    }
+}

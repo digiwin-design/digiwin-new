@@ -1,0 +1,39 @@
+doctype html
+html(lang='zh-Hant-TW')
+    head
+        meta(charset='UTF-8')
+        meta(name='viewport', content='width=device-width, initial-scale=1.0')
+        meta(http-equiv='X-UA-Compatible', content='ie=edge')
+        meta(name='description', content='以企業價值與戰略藍圖為起點，以商業模式變革為終點，無論企業所屬的產業與規模為何，數位化轉型皆是邁向智能時代的關鍵路徑，邁向新增長模式。')
+        meta(name='keywords', content='數位化轉型、數位轉型、數字轉型、智慧製造、新零售、數據驅動')
+        title 企業數位化轉型 累積智慧及數據資產 釋放數據價值
+
+        //- 共用
+        link(rel='stylesheet', href='https://www.digiwin.com/tw/static/css/public.css')
+        link(rel='stylesheet', href='https://www.digiwin.com/tw/static/css/style.css')
+        script(src='https://www.digiwin.com/tw/static/js/jquery-1.11.3.min.js')
+
+        //- 共用(自定義)
+        script(src='https://polyfill.io/v3/polyfill.js?features=default,fetch,HTMLPictureElement,Array.prototype.find,NodeList.prototype.forEach&flags=gated')
+        script(src='/tw/dsc/assets/modernizr-custom.js')
+        script(src='/tw/dsc/assets/mobile-detect.js')
+        script(src='/tw/dsc/assets/mobile-detect-modernizr.js', defer='')
+        script(src='/tw/dsc/assets/axios.min.js')
+        script(src='/tw/dsc/assets/vuejs/vue-all.js')
+        script(src='/tw/dsc/js/common.min.js')
+
+    body
+        // 以下為後台上稿內容
+        //- form
+        link(rel='stylesheet', href='/tw/dsc/css/Eform/form-rwd.css')
+        script(src='/tw/dsc/js/Eform/form.js', defer)
+        link(rel='stylesheet', href='/tw/dsc/css/Eform/xcConfirm.css')
+        script(src='/tw/dsc/js/Eform/xcConfirm.js', defer)
+
+        block includes
+        
+        main
+            block content
+            
+        include partial/contact_v2.html
+        include ../../../../template/pug/form_component

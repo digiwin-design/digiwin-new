@@ -1,0 +1,117 @@
+$main-color: #009c9f;
+@import '../common';
+@import 'components';
+
+main {
+    .header {
+        @include headerBg('WB00247601_2/header-bg.jpg');
+        h1 {
+            color: #f0fe11;
+        }
+        p {
+            color: #fff;
+            font-size: 20px;
+            @media (max-width: $tablet-width) {
+                font-size: 18px;
+            }
+        }
+    }
+    .section1 {
+        padding-bottom: 35px;
+        background-color: #1a637b;
+        h1 {
+            color: #fff;
+        }
+        img {
+            display: block;
+            margin: 0 auto;
+        }
+    }
+    .section2 {
+        padding-bottom: 60px;
+        background-color: #e7e7e7;
+        p {
+            line-height: 30px;
+            &:first-of-type {
+                color: #1a637b;
+                font-weight: bold;
+                font-size: 22px;
+            }
+        }
+        img {
+            display: block;
+            margin: 1em auto 0;
+        }
+    }
+
+    // desktop & mobile component
+    .desktop-nav a,
+    .mobile .accordion .accordion-title {
+        background-color: $main-color;
+    }
+    .hoverBox {
+        @for $nth from 1 through 21 {
+            &.icon#{$nth} {
+                &::before {
+                    background-image: image-url('hoverBox-icons/icon#{$nth}.png');
+                }
+            }
+        }
+    }
+    .slider {
+        &-desc {
+            display: flex;
+            flex-direction: column;
+            margin-bottom: 1.5em;
+            width: 100%;
+            align-items: center;
+            &-title {
+                margin-bottom: 1em;
+                text-align: center;
+                font-weight: bold;
+                font-size: 24px;
+                line-height: 30px;
+                br {
+                    @media (max-width: $tablet-width) {
+                        display: none;
+                    }
+                }
+            }
+            ul {
+                padding-left: 1em;
+                list-style-type: disc;
+            }
+            & > * {
+                max-width: 100%;
+            }
+        }
+        &-illust {
+            text-align: center;
+        }
+        &-more {
+            @include btn(100%, 40px, #fff, $main-color, 0);
+            margin: 30px auto 0;
+            max-width: 335px;
+            font-size: 20px;
+        }
+        &-listCols {
+            display: flex;
+            ul + ul {
+                margin-left: 50px;
+            }
+        }
+        &-wish {
+            margin-top: 2em;
+            letter-spacing: getLetterSpacing(10);
+            line-height: 24px;
+            &::first-line {
+                color: #f00;
+                font-weight: bold;
+            }
+            strong {
+                color: #f00;
+                font-weight: normal;
+            }
+        }
+    }
+}

@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="/tw/static/css/public.css">
+    <link rel="stylesheet" href="/tw/static/css/style.css">
+    <script src="/tw/static/js/jquery-1.11.3.min.js"></script>
+    <script src="https://polyfill.io/v3/polyfill.js?features=default,fetch,HTMLPictureElement,Array.prototype.find,NodeList.prototype.forEach&amp;flags=gated"></script>
+    <script src="/tw/dsc/assets/modernizr-custom.js"></script>
+    <script src="/tw/dsc/assets/mobile-detect.js"></script>
+    <script src="/tw/dsc/assets/mobile-detect-modernizr.js" defer=""></script>
+    <script src="/tw/dsc/assets/smoothscroll.js" defer></script>
+    <script src="/tw/dsc/assets/axios.min.js"></script>
+    <script src="/tw/dsc/assets/vuejs/vue-all-dev.js"></script>
+    <script src="/tw/dsc/js/common.min.js"></script>
+  </head>
+  <body>
+    <!-- 以下為後台上稿內容-->
+    <link rel="stylesheet" href="/tw/dsc/css/Eform/form-rwd.css">
+    <script src="/tw/dsc/js/Eform/form.js" defer></script>
+    <link rel="stylesheet" href="/tw/dsc/css/Eform/xcConfirm.css">
+    <script src="/tw/dsc/js/Eform/xcConfirm.js" defer></script>
+    <link rel="stylesheet" href="/tw/dsc/css/reboot.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.7/css/swiper.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.7/js/swiper.min.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue-awesome-swiper@3.1.2/dist/vue-awesome-swiper.js" defer></script>
+    <link rel="preload" href="images/tw/ad.jpg" as="image">
+    <script src="assets/lodash.min.js" defer></script>
+    <script src="https://unpkg.com/dayjs" defer></script>
+    <script src="https://unpkg.com/dayjs/plugin/isBetween" defer></script>
+    <link rel="stylesheet" href="css/index-tw.css">
+    <script src="js/index-tw.min.js" defer></script>
+    <main v-cloak><div class="header">
+    <div class="container tw">
+        <p class="header-tag">工業APP</p>
+        <hgroup>
+            <h1>設備水晶球</h1>
+            <h2>賦能企業精實製造</h2>
+        </hgroup>
+        <p class="header-text">實現設備數位化管理，精確掌握運行狀態<br>精準反應機台利用率，提高設備OEE水準</p>
+        <template v-if="!eventEnd">
+            <a href="http://bit.ly/30wnJvp" target="_blank">7/17工業互聯網APP<br>線上直播預約</a>
+        </template>
+        <template v-else>
+            <a href="http://bit.ly/2OpBQBm" target="_blank">觀看工業互聯網APP<br>線上研討會</a>
+        </template>
+    </div>
+</div>
+
+<article class="section1">
+    <h1 class="sectionTitle container"><i>中小微製造企業</i><br><i>工廠智慧化困擾</i></h1>
+    <div class="hoverBoxs">
+        <div class="container">
+            <hover-box custom-class="hoverBox1">
+                <template slot="content">
+                    <p class="hoverBox-title">老闆</p>
+                </template>
+                <template slot="hover">
+                    <ul>
+                        <li>每天到處跑客戶，生產狀況究竟怎樣？</li>
+                        <li>到底機台幫我賺了多少錢？</li>
+                        <li>機台的利用率是如何？</li>
+                        <li>成本預算不足怎麼辦？</li>
+                    </ul>
+                </template>
+            </hover-box>
+            <hover-box custom-class="hoverBox2">
+                <template slot="content">
+                    <p class="hoverBox-title">廠長/現場主管</p>
+                </template>
+                <template slot="hover">
+                    <ul>
+                        <li>訂單遲遲交不上來，機台運作狀況？</li>
+                        <li>到底機台在作什麼訂單呀？</li>
+                        <li>機台每天生產多少什麼產品呀？</li>
+                        <li>是否可即時反映機台異常？</li>
+                    </ul>
+                </template>
+            </hover-box>
+        </div>
+    </div>
+</article>
+
+<div class="section2">
+    <div class="container">
+        <div class="section2-content">
+            <div class="sectionTitle">
+                <p>智慧工廠第一步</p>
+                <p>設備水晶球<br>實現設備聯網數位化</p>
+            </div>
+            <div class="section2-list">
+                <dt>工廠決策會更加全面</dt>
+                <dd>數據即時採集更新與分析回饋</dd>
+                <dt>設備運行狀態可監測</dt>
+                <dd>數據統計更迭，實現設備預測性維護保養</dd>
+                <dt>生產過程更加標準化</dt>
+                <dd>數據保留，形成長期標準化的數據設置</dd>
+            </div>
+        </div>
+        <img src="images/section2-bg.jpg" alt="">
+    </div>
+</div>
+
+<article id="section3" class="section3" :class="locale">
+    <div class="container">
+        <div class="section3-content">
+            <h1 class="sectionTitle">工業互聯網智慧製造<br>實踐路徑</h1>
+            <h2>以工業APP微應用、智慧雲平台，協助企業實現精進管理，加速數位化轉型落地。</h2>
+            <p>數據價值轉化路徑：</p>
+            <img src="images/tw/section3-illust.svg" alt="">
+            <p>以效益價值為起始，用輕量方案為手段，在垂直行業細分場景上促應用落地解放<i>數據紅利</i>。</p>
+            <ul class="section3-list">
+                <li data-text="IT&OT"><i>資訊化/自動化</i></li>
+                <li data-text="IT+OT"><i>數位化製造</i></li>
+                <li data-text="IT×OT"><i>數位化，網路化製造</i></li>
+                <li data-text="AIOT"><i>數位化、網路化，智慧化製造</i></li>
+            </ul>
+        </div>
+    </div>
+</article>
+
+<article class="section4">
+    <div class="container">
+        <div class="section4-content">
+            <h1 class="sectionTitle">設備水晶球應用場景</h1>
+            <h2>結合工廠應用場景，發展工業APP應用，<br>加速推動工廠數位化管理，賦能中小製造企業。</h2>
+            <img src="images/tw/section4-illust.png" class="section4-illust" alt="">
+        </div>
+        <img src="images/section4-bg.jpg" class="section4-bg" alt="">
+    </div>
+</article>
+
+<article class="section5">
+    <div class="container">
+        <div class="section5-content">
+            <h1 class="sectionTitle">效益價值立即可見</h1>
+            <h2>實現合理的績效管理，提高生產人員維修技能和運維管理水平，確保成本最低和效益最高。</h2>
+            <div class="section5-list">
+                <dt>降本/隨時隨地瞭解設備投資收益</dt>
+                <dd>
+                    <ul>
+                        <li>減少設備的待工時間與維修費用</li>
+                        <li>更好地管理設備的使用壽命週期</li>
+                    </ul>
+                </dd>
+                <dt>增效/隨時隨地掌握真實運行效率</dt>
+                <dd>
+                    <ul>
+                        <li>精確掌控設備狀況與班組績效</li>
+                        <li>提升企業設備綜合效率OEE水平</li>
+                    </ul>
+                </dd>
+                <dt>提質/改善瓶頸工藝生產效率</dt>
+                <dd>
+                    <ul>
+                        <li>降低廢品率，提高品質水平</li>
+                        <li>即時捕獲設備異常，加速解決</li>
+                    </ul>
+                </dd>
+            </div>
+        </div>
+        <div class="section5-carousel">
+            <div class="section5-slider">
+                <local-swiper ref="awesomeSwiperB" v-bind:options="swiperOptionB" v-on:slide-change="onSlideChange">
+                    <local-slide v-for="slide in slides" v-bind:key="slide.imgSrc">
+                        <img v-bind:src="slideImg(slide.imgSrc)" alt="">
+                    </local-slide>
+                </local-swiper>
+            </div>
+            <span class="section5-caption">{{caption}}</span>
+        </div>
+    </div>
+</article>
+
+<article class="section6">
+    <div class="container">
+        <h1 class="sectionTitle">設備水晶球<br>小應用 大效益</h1>
+        <div class="section6-content">
+            <figure>
+                <img src="images/tw/section6-item1.png" alt="">
+                <figcaption>基於SaaS應用，按需訂閱</figcaption>
+            </figure>
+            <figure>
+                <img src="images/tw/section6-item2.png" alt="">
+                <figcaption>無需高單價IT基礎設施，<br>可單機上線</figcaption>
+            </figure>
+            <figure>
+                <img src="images/tw/section6-item3.png" alt="">
+                <figcaption>標準化打包方案，隨需即享</figcaption>
+            </figure>
+        </div>
+    </div>
+</article>
+
+<ad></ad>
+<menu-mask></menu-mask>
+    </main><div id="contact">
+    <div id="contactTxt" class="clearfix">
+        <h2>資料索取與諮詢</h2>
+        <div id="info">
+            <p>請填寫下方資料便於盡快為您服務。<br>若您需要立即的支援與服務，請直撥免付費專線 <span class="highLight">0800-888-162</span>，謝謝！</p>
+            <ul>
+                <li class="line">
+                    <a href="https://acho.tw/acho/f/aB6q9" target="_blank"></a>
+                </li>
+                <li class="mail">
+                    <a href="mailto:marketing01@digiwin.com"></a>
+                </li>
+                <li class="fb">
+                    <a href="https://www.facebook.com/DSCmain" target="_blank"></a>
+                </li>
+            </ul>
+        </div>
+        <div id="formBlock" class="form">
+            <a id="fromSource" href="javascript:;">WB002939</a>
+            <div id="contactInput" class="clearfix">
+                <span class="hideLabel ">*公司名稱：</span><input type="text" placeholder="*完整公司名稱" name="contact-company" id="contact-company" class="contact required"><span class="hideLabel perLabel">*姓名：</span><input type="text" placeholder="*姓名" name="contact_person" id="contact_person" class="contact required"><span class="hideLabel evenLable">*聯絡電話：</span><input type="text" placeholder="*聯絡電話" name="telephone" id="telephone" class="contact required end"><span class="hideLabel evenLable">*E-mail：</span>
+                <input type="text" placeholder="*E-mail" name="contact-email" id="contact-email" class="contact required"><span class="hideLabel">*部門：</span><input type="text" placeholder="*部門" name="contact-dept" id="contact-dept" class="contact required"><span class="hideLabel">*職稱：</span><input type="text" placeholder="*職稱" name="contact-job" id="contact-job" class="contact required end">
+            </div>
+            <div class="consult-cont">
+                <p class="hideLabel">請在這裡描述您的需求：</p>
+                <textarea id="contact-query" cols='40' placeholder="請在這裡描述您的需求(500字以內)：" rows='4' class="" maxlength="500"></textarea>
+            </div>
+            <div class="inforCheck">
+                <label for="dm_ask"> <input name="information" class="information" id="dm_ask" type="checkbox" value="資料索取">索取相關資料</label> 
+            </div>
+            <hr>
+            <div class="verifica">
+                <span class="veriSpan">＊請輸入驗證碼：</span>
+                <span class="veriSpan-m">驗證碼:</span>
+                <input type="text" name="" id="identCode" class="identCode" onblur="validate()">
+                <input type="button" id="vericodePic" />
+                <span class="renovCode" onclick="createCode()"></span>
+                <span id="codeSuces"></span>
+            </div>
+            <input type="button" id="submit" value="送　　出">
+            <label for="agree" class="checAgree"><input type="checkbox" name="agree" value="" id="agree" checked="">
+                我同意接受鼎新電腦<a href="/tw/portal/page/index/id/1202.html" target="_blank">隱私權聲明</a></label>
+        </div>
+    </div>
+</div><!-- loading -->
+<div id="loading">
+<p><i></i>資料提交中，請稍後</p>
+</div>
+<!-- thx page -->
+<div id="thx">
+<div id="thxContent">
+<div class="close">X</div>
+<p class="title">資料己送出</p>
+<p class="thxparg"></p>
+<p class="suprtCall">
+<span>如需要立即的支援與服務，</span>
+<span>請直撥免付費專線 0800-888-162，謝謝！</span>
+</p>
+<p class="thxSourLoad1">
+<a id="SourLoadLink" href="" target="_blank">資料下載</a>
+</p>
+<p id="goIndex">
+<a href="javascript:;">繼續瀏覽網站</a>
+</p>
+</div>
+</div>
+  </body>
+</html>

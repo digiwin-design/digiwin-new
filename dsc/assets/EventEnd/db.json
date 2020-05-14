@@ -1,0 +1,160 @@
+{
+    "urlMap": [
+        {
+            "name": "Demo",
+            "page": "demo",
+            "href": "http://industry4.digiwin.com/activity.htm#contact"
+        },
+        {
+            "name": "工業4.0",
+            "page": "industry4",
+            "href": "http://industry4.digiwin.com/activity.htm#contact"
+        },
+        {
+            "name": "機械業",
+            "page": "WB002476",
+            "href": "https://www.digiwin.com/tw/dsc/solution/WB002476/WB00247601.html#contact"
+        },
+        {
+            "name": "電子業",
+            "page": "WB002513",
+            "href": "https://www.digiwin.com/tw/dsc/solution/WB002513/WB00251301.html#contact"
+        },
+        {
+            "name": "新設公司",
+            "page": "WB002521",
+            "href": "https://www.digiwin.com/tw/dsc/solution/WB002521/WB00252103.html#contact"
+        },
+        {
+            "name": "生技業",
+            "page": "WB002543",
+            "href": "https://www.digiwin.com/tw/dsc/solution/WB002543/WB00254301.html#contact"
+        },
+        {
+            "name": "食品業",
+            "page": "WB002553",
+            "href": "https://www.digiwin.com/tw/dsc/solution/WB002553/WB00255301.html#contact"
+        },
+        {
+            "name": "塑橡膠",
+            "page": "WB002554",
+            "href": "https://www.digiwin.com/tw/dsc/solution/WB002554/WB00255401.html#contact"
+        },
+        {
+            "name": "網購業",
+            "page": "WB002595",
+            "href": "https://www.digiwin.com/tw/dsc/solution/WB002595/WB00259501.html#contact"
+        },
+        {
+            "name": "EAS",
+            "page": "WB002639",
+            "href": "https://www.digiwin.com/tw/dsc/solution/WB002639/WB00263901.html#contact"
+        },
+        {
+            "name": "智能製造EDM",
+            "page": "WB002670",
+            "href": "http://industry4.digiwin.com/activity.htm#contact"
+        },
+        {
+            "name": "大流通",
+            "page": "WB002675",
+            "href": "https://www.digiwin.com/tw/dsc/solution/WB002675/WB00267501.html#contact"
+        },
+        {
+            "name": "一例一休",
+            "page": "WB002741",
+            "href": "https://www.digiwin.com/tw/dsc/solution/WB002741/WB00274101.html#contact"
+        },
+        {
+            "name": "電子發票",
+            "page": "WB002742",
+            "href": "https://www.digiwin.com/tw/dsc/solution/WB002742/WB00274201.html#contact"
+        },
+        {
+            "name": "接案管理",
+            "page": "WB002752",
+            "href": "https://www.digiwin.com/tw/dsc/solution/WB002752/WB00275201.html#contact"
+        },
+        {
+            "name": "大製造",
+            "page": "WB002783",
+            "href": "https://www.digiwin.com/tw/dsc/solution/WB002783/WB00278301.html#contact"
+        },
+        {
+            "name": "電子發票",
+            "page": "WB002747",
+            "href": "https://www.digiwin.com/tw/dsc/solution/WB002747/WB00274701.html#contact"
+        },
+        {
+            "name": "交通業",
+            "page": "WB002811",
+            "href": "https://www.digiwin.com/tw/dsc/solution/WB002811/WB00281101.html#contact"
+        },
+        {
+            "name": "中小企業SmartERP",
+            "page": "WB002839",
+            "href": "https://www.digiwin.com/tw/dsc/solution/WB002839/WB00283901.html#contact"
+        },
+        {
+            "name": "資訊委外",
+            "page": "WB002736",
+            "href": "https://www.digiwin.com/tw/dsc/service/WB002736/WB00273601.html#contact"
+        },
+        {
+            "name": "醫美業",
+            "page": "WB002850",
+            "href": "https://www.digiwin.com/tw/dsc/solution/WB002850/WB00258001.html#contact"
+        },
+        {
+            "name": "醫材業",
+            "page": "WB002785",
+            "href": "https://www.digiwin.com/tw/dsc/solution/WB002785/WB00278501.html#contact"
+        },
+        {
+            "name": "美妝業",
+            "page": "WB002711",
+            "href": "https://www.digiwin.com/tw/dsc/solution/WB002711/WB00271101.html#contact"
+        },
+        {
+            "name": "設備代理",
+            "page": "WB002801",
+            "href": "https://www.digiwin.com/tw/dsc/solution/WB002801/WB00280101.html#contact"
+        },
+        {
+            "name": "工程業",
+            "page": "WB002899",
+            "href": "https://www.digiwin.com/tw/dsc/solution/WB002899/WB00289901.html#contact"
+        },
+        {
+            "name": "IT編列預算",
+            "page": "WB002917",
+            "href": "https://www.digiwin.com/tw/dsc/solution/WB002917/WB00291701.html#contact"
+        },
+        {
+            "name": "IT編列預算",
+            "page": "WB002917",
+            "href": "https://www.digiwin.com/tw/dsc/solution/WB002917/WB00291701.html#contact"
+        },
+        {
+            "name": "智慧工廠",
+            "page": "WB002838",
+            "href": "https://www.digiwin.com/tw/dsc/marketing/WB002838/WB00283808.htm#contact"
+        },
+        {
+            "name": "新零售",
+            "page": "WB002972",
+            "href": "https://www.digiwin.com/tw/dsc/solution/WB002972/index#contact"
+        },
+        {
+            "name": "數位轉型",
+            "page": "WB002940",
+            "href": "https://www.digiwin.com/tw/dsc/project/WB002940/index#contact"
+        },
+        {
+        "name": "營運監控平台",
+        "page": "WB002970",
+        "href": "https://www.digiwin.com/tw/software/DOP/DOP.html#contact"
+        }
+
+	]
+}

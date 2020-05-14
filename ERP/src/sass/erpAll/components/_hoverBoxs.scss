@@ -1,0 +1,43 @@
+main {
+    .swiper-box {
+        overflow: hidden;
+        padding-bottom: 70px;
+    }
+    .swiper-container {
+        overflow: visible;
+    }
+    .swiper-button-prev {
+        @include imgBg('erpAll/swiper-button-prev.png', true);
+        left: 3px;
+        background-size: contain;
+    }
+    .swiper-button-next {
+        @include imgBg('erpAll/swiper-button-next.png', true);
+        right: 3px;
+        background-size: contain;
+    }
+    .swiper-pagination {
+        bottom: -33px !important;
+        display: flex;
+        justify-content: center;
+    }
+    .swiper-pagination-bullet {
+        width: 12px;
+        height: 12px;
+        background-color: #b5b5b5;
+        opacity: 1;
+    }
+    .swiper-pagination-bullet-active {
+        background-color: #3987f9;
+    }
+    .hoverBoxs {
+        margin: 0 auto;
+        padding: 0;
+        max-width: 1230px;
+    }
+    .boxs {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}

@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="/tw/static/css/public.css">
+    <link rel="stylesheet" href="/tw/static/css/style.css">
+    <script src="/tw/static/js/jquery-1.11.3.min.js"></script>
+    <link rel="stylesheet" href="/tw/dsc/css/all.css">
+    <script src="https://polyfill.io/v3/polyfill.js?features=default,fetch,HTMLPictureElement,Array.prototype.find,NodeList.prototype.forEach&amp;flags=gated"></script>
+    <script src="/tw/dsc/assets/modernizr-custom.js"></script>
+    <script src="/tw/dsc/assets/mobile-detect.js"></script>
+    <script src="/tw/dsc/assets/mobile-detect-modernizr.js" defer></script>
+    <script src="/tw/dsc/assets/smoothscroll.js" defer></script>
+    <script src="/tw/dsc/assets/axios.min.js"></script>
+    <script src="/tw/dsc/assets/axios-mock-adapter.min.js"></script>
+    <script src="/tw/dsc/assets/vuejs/vue-all-dev.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.2.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.0.1/firebase-database.js"></script>
+    <script src="/tw/dsc/js/common.min.js"></script>
+  </head>
+  <body>
+    <!-- 後台上稿內容開始-->
+    <link rel="stylesheet" href="/tw/dsc/css/Eform/xcConfirm.css">
+    <script src="/tw/dsc/js/Eform/xcConfirm.js" defer></script>
+    <link rel="stylesheet" href="/tw/dsc/assets/submenu/submenu.css">
+    <script src="/tw/dsc/assets/submenu/submenu.min.js"></script>
+    <link rel="stylesheet" href="assets/swiper.min.css">
+    <script src="assets/swiper.min.js" defer></script>
+    <link rel="stylesheet" href="/tw/dsc/css/reboot.css">
+    <script src="js/all.min.js" defer></script>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/ServiceCloud/style.css">
+    <script src="js/ServiceCloud.min.js" defer></script>
+    <main v-cloak v-if="result"><!--banner-->
+<section id="banner">
+    <div class="container">
+        <h1>
+            鼎新服務雲
+        </h1>
+        <span class="h2txt">定義服務新模式，啟動管理無限可能！</span>
+        <p class="txt1">重構服務新模式，<br>
+            搭建IT智能運維繫統。<br>
+            賦能企業管理升級！</p>
+    </div>
+</section>
+<!--总裁语-->
+<section id="remould">
+    <div class="container">
+        <h2>基於服務，重塑服務</h2>
+        <div class="view-w clearfix pc">
+            <img src="images/ServiceCloud/ghj.png" alt="" class="fl">
+            <div class="fr">
+                <p class="n1">為“雲鯨”的鼎新服務雲，運用人工智慧引擎、大數據分析等新數字技術，以互聯網思
+                    維整合多元應用，真正實現企業雲端的互聯網服務，幫助客戶向雲端數位化轉型。</p>
+                <h3>顧華傑</h3>
+                <p class="na1">研發處副總裁</p>
+            </div>
+        </div>
+        <div class="m-mobile">
+            <img src="images/ServiceCloud/ghj_m.jpg" alt="">
+        </div>
+        <p class="h3txt">
+            鼎新服務雲架構
+        </p>
+        <img src="images/ServiceCloud/jg.png" alt="" class="pc" style="margin:0 auto;">
+        <img src="images/ServiceCloud/jg_m.png" alt="" class="m-mobile" style="padding: 0 8%">
+    </div>
+</section>
+<section id="steward">
+    <div class="container">
+        <h2>雲管家 | 雲客服平台</h2>
+        <p class="h2txt">
+            完善的服務雲售後體系
+        </p>
+        <p>雲管家（雲客服平台）是鼎新軟體應用互聯網及人工智慧等新技術，專門研發的一套售後服務系統，<br>
+            可隨時隨地線上為客戶解決問題，實現客戶服務的全方位覆蓋及服務品質的提升。   </p>
+        <div class="pc fl" style="width: 580px;margin-left: 120px;">
+            <img src="images/ServiceCloud/steward1.png" alt="" class="img-l">
+            <a href="https://market-test.digiwincloud.com/" target="_blank"><img src="images/ServiceCloud/ty.png" alt=""></a>
+        </div>
+        <div class="fr clearfix pc">
+            <ul>
+                <li>
+                    <p class="th3p">雲管家 <br>
+                        五大功能</p>
+                    <img src="images/ServiceCloud/gn.png" alt="">
+                </li>
+                <li>
+                    <img src="images/ServiceCloud/aj.png" alt="" class="img-x">
+                    <h4>案件管理</h4>
+                    <p>提交系統問題&建議，<br>即時查看處理進度。</p>
+                </li>
+                <li>
+                    <img src="images/ServiceCloud/xt.png" alt="" class="img-x">
+                    <h4>系統運維</h4>
+                    <p>智能運維客戶系統，<br>伺服器異常情況預警。</p>
+                </li>
+                <li>
+                    <img src="images/ServiceCloud/zs.png" alt="" class="img-x">
+                    <h4>知識庫管理</h4>
+                    <p>Q&A式關鍵字搜索系統問<br>題，快速自主解決問題。</p>
+                </li>
+                <li>
+                    <img src="images/ServiceCloud/zn.png" alt="" class="img-x">
+                    <h4>智能客服</h4>
+                    <p>客服連線、線上溝通、<br>客服機器人。</p>
+                </li>
+                <li>
+                    <img src="images/ServiceCloud/qt.png" alt="" class="img-x">
+                    <h4>其他功能</h4>
+                    <p>公告中心、版本更新、<br>資訊中心。</p>
+                </li>
+            </ul>
+        </div>
+        <div class="m-mobile bg_s">
+            <img src="images/ServiceCloud/msteward1.png" alt="" style="padding: 2% 8% 0;">
+            <img src="images/ServiceCloud/mty.png" alt="">
+            <h2 class="c2">五大功能</h2>
+            <ul>
+                <li>
+                    <p><span>案件管理：</span>提交系統問題&建議，即時查看處理進度。</p>
+                </li>
+                <li>
+                    <p><span>知識庫管理：</span>Q&A式關鍵字搜索系統問題，快速自主解決問題。</p>
+                </li>
+                <li>
+                    <p><span>系統運維：</span>智能運維客戶系統，伺服器異常情況預警。</p>
+                </li>
+                <li>
+                    <p><span>智能客服：</span>客服連線、線上溝通、客服機器人。</p>
+                </li>
+                <li>
+                    <p><span>其他功能：</span>公告中心、版本更新、資訊中心。</p>
+                </li>
+            </ul>
+        </div>
+    </div>
+</section>
+<section id="steward2">
+    <div class="container">
+        <h2>Tip Biu BI</h2>
+        <p class="h2txt">
+            圍繞數據核心，驅動營運提升
+        </p>
+        <p>【Tip Biu BI】是鼎新推出的數據訂閱類產品，集成於鼎新ERP系統，可快速連接ERP報表，<br>實現圖形化、可視化的數據分析與數據自助式服務，為客戶帶來更智能的數據體驗！</p>
+        <img src="images/ServiceCloud/stewardbg21.png" alt="" class="mimg pc">
+        <img src="images/ServiceCloud/mstewardbg21.png" alt="" class="m-mobile">
+        <a href="https://escloud.digiwincloud.com/omp-web/#/home" target="_blank"><img src="images/ServiceCloud/lty.png" alt="" class="lty pc"></a>
+        <a href="https://escloud.digiwincloud.com/omp-web/#/home" target="_blank">
+            <img src="images/ServiceCloud/mlty.png" alt="" class="m-mobile" style="margin: 50px auto;">
+        </a>
+    </div>
+</section>
+<section id="employ">
+    <div class="container">
+        <h2 class="pc">使用人群</h2>
+        <img src="images/ServiceCloud/em-02.png" alt="" class="pc" style="margin: 0 auto;">
+        <img src="images/ServiceCloud/memploybg.png" alt="" class="m-mobile">
+    </div>
+</section>
+<section id="item">
+    <div class="container">
+        <h2>產品特色</h2>
+        <div class="tab_box">
+            <ul class="tab_menu">
+                <li class="active">
+                    <h4>操作簡單<br>
+                        拖曳完成</h4>
+                    <b><img src="images/ServiceCloud/line.png" alt=""></b>
+                </li>
+                <li>
+                    <h4>明細查詢<br>
+                        快速定位</h4>
+                    <b><img src="images/ServiceCloud/line.png" alt=""></b>
+                </li>
+                <li>
+                    <h4> 異常數據<br>
+                        智能預警</h4>
+                    <b><img src="images/ServiceCloud/line.png" alt=""></b>
+                </li>
+                <li>
+                    <h4>關聯數據<br>
+                        自動更新</h4>
+                    <b><img src="images/ServiceCloud/line.png" alt=""></b>
+                </li>
+                <li>
+                    <h4>多端支持</h4>
+                    <b><img src="images/ServiceCloud/line.png" alt=""></b>
+                </li>
+            </ul>
+            <div class="tab_box_a pc">
+                <div>
+                    <div class="fl">
+                        <h3>操作簡單 拖曳完成</h3>
+                        <img src="images/ServiceCloud/line_w.png" alt="">
+                        <p>簡單推曳即可產生多種圖表類型
+                            折線圖、圓餅圖、直條圖…
+                            幫您做出專業的商業圖表</p>
+                    </div>
+                    <div class="fr">
+                        <img src="images/ServiceCloud/jd.gif" alt="">
+                    </div>
+                </div>
+                <div class="hide">
+                    <div class="fl">
+                        <h3>明細查詢 快速定位</h3>
+                        <img src="images/ServiceCloud/line_w.png" alt="">
+                        <p>支援異常數據的明細查詢，
+                            可快速發現問題源頭，
+                            制定解決方案。</p>
+                    </div>
+                    <div class="fr">
+                        <img src="images/ServiceCloud/mx.gif" alt="">
+                    </div>
+                </div>
+                <div class="hide">
+                    <div class="fl">
+                        <h3>異常數據 智能預警</h3>
+                        <img src="images/ServiceCloud/line_w.png" alt="">
+                        <p>設定數據警戒線，<br>
+                            異常數據即刻得知，<br>
+                            降低企業試誤成本。</p>
+                    </div>
+                    <div class="fr">
+                        <img src="images/ServiceCloud/yj.gif" alt="">
+                    </div>
+                </div>
+                <div class="hide">
+                    <div class="fl">
+                        <h3>關聯數據 自動更新</h3>
+                        <img src="images/ServiceCloud/line_w.png" alt="">
+                        <p>√ 串連資料庫 <br>
+                            √ 數據同步上傳<br>
+                            √ 圖表及時更新</p>
+                    </div>
+                    <div class="fr">
+                        <img src="images/ServiceCloud/tb.gif" alt="">
+                    </div>
+                </div>
+                <div class="hide">
+                    <div class="fl">
+                        <h3>多端支持</h3>
+                        <img src="images/ServiceCloud/line_w.png" alt="">
+                        <p>√ PC顯示器<br>
+                            √ 行動裝置<br>
+                            √ 投影播放</p>
+                    </div>
+                    <div class="fr">
+                        <img src="images/ServiceCloud/dd.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="tab_box_b m-mobile">
+                <div>
+                    <p>簡單推曳即可產生多種圖表類型
+                        折線圖、圓餅圖、直條圖…
+                        幫您做出專業的商業圖表</p>
+                    <img src="images/ServiceCloud/mjd.gif" alt="">
+                </div>
+                <div class="hide">
+                    <p>支援異常數據的明細查詢，
+                        可快速發現問題源頭，
+                        制定解決方案。</p>
+                    <img src="images/ServiceCloud/mmx.gif" alt="">
+                </div>
+
+                <div class="hide">
+                    <p>設定數據警戒線，<br>
+                        異常數據即刻得知，<br>
+                        降低企業試誤成本。</p>
+                    <img src="images/ServiceCloud/myj.gif" alt="">
+                </div>
+                <div class="hide">
+
+                    <p>√ 串連資料庫 <br>
+                        √ 數據同步上傳<br>
+                        √ 圖表及時更新</p>
+
+                    <img src="images/ServiceCloud/mtb.gif" alt="">
+                </div>
+                <div class="hide">
+
+                    <p>√ PC顯示器<br>
+                        √ 行動裝置<br>
+                        √ 投影播放</p>
+
+                    <img src="images/ServiceCloud/mdd.jpg" alt="">
+
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section>
+    <a href="http://es-ygj.digiwincloud.com/" target="_blank"><img src="images/ServiceCloud/f1.jpg" alt="" class="pc"></a>
+    <a href="http://es-ygj.digiwincloud.com/" target="_blank"><img src="images/ServiceCloud/mf1.png" alt="" class="m-mobile"></a>
+</section>
+<contact v-bind:multiple="false" source="WB002903"></contact>
+    </main>
+    <!-- 後台上稿內容結束-->
+  </body>
+</html>

@@ -1,0 +1,78 @@
+main > .case {
+    padding-bottom: 30px;
+    .header {
+        @include headerBg('case/header-bg.jpg', 'case/header-bg.jpg', 100% 0);
+        h1 {
+            color: #fff;
+            font-size: 30px;
+        }
+    }
+    .nav {
+        $bgPos: 0 -150px -525px -450px -225px -300px -375px -75px;
+        display: flex;
+        padding: 21px 8px;
+        flex-wrap: wrap;
+        a {
+            margin: 9px;
+            padding-right: 20px;
+            width: calc((100% - 36px) / 2);
+            height: 43px;
+            border-radius: 5px;
+            background: image-url('case/nav-icons.png') no-repeat #00cfe8;
+            color: #fff;
+            text-align: right;
+            font-weight: bold;
+            font-size: 21px;
+            line-height: 43px;
+            &.is-disabled {
+                display: none;
+            }
+            @for $i from 1 through 8 {
+                &:nth-child(#{$i}) {
+                    background-position-y: nth($bgPos, $i);
+                }
+            }
+        }
+    }
+    .accordion {
+        h2 {
+            background-color: #02568b;
+            color: #fff;
+            font-size: 30px;
+        }
+        &-content {
+            padding-bottom: 25px;
+            &-link {
+                @include btn(100%, 63px, #fff, #0194aa);
+                display: flex;
+                margin-top: 25px;
+                font-weight: bold;
+                justify-content: center;
+                align-items: center;
+                &::before {
+                    @include imgBg('case/link-icon.png', true);
+                    margin-right: 4px;
+                    width: image-width('case/link-icon.png');
+                    height: image-height('case/link-icon.png');
+                    content: '';
+                }
+            }
+        }
+        .case {
+            padding-top: 1em;
+            strong {
+                color: #005d81;
+            }
+            .desc {
+                margin-top: 0.5em;
+                margin-bottom: 0.5em;
+            }
+            a {
+                height: 40px;
+                background-color: #02568b;
+                color: #fff;
+                line-height: 40px;
+            }
+        }
+    }
+}

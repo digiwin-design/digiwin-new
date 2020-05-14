@@ -1,0 +1,42 @@
+main .issue02 .tab {
+    h2 {
+        margin-bottom: 1em;
+        color: #eaff00;
+        font-weight: bold;
+        font-size: 30px;
+        line-height: 1.2;
+    }
+    ul {
+        margin-bottom: 1em;
+        padding-left: 1em;
+        list-style-type: disc;
+    }
+    li {
+        font-size: 20px;
+        line-height: 36px;
+    }
+    img {
+        margin-bottom: 2em;
+    }
+    .btn {
+        display: flex;
+        a {
+            display: flex;
+            width: calc((100% - 7px) / 2);
+            height: 73px;
+            border: 1px solid #fff;
+            background-color: #397c99;
+            color: #fff;
+            font-size: 20px;
+            line-height: 24px;
+            justify-content: center;
+            align-items: center;
+            &.active {
+                background-color: #f60;
+            }
+            + a {
+                margin-left: 7px;
+            }
+        }
+    }
+}

@@ -1,0 +1,108 @@
+<link rel="stylesheet" type="text/css" href="http://www.digiwin.com/Library/css/jquery-ui.min.css">
+<link rel="stylesheet" type="text/css" href="https://www.digiwin.com/tw/dsc/css/Eform/xcConfirm.css">
+<link rel="stylesheet" type="text/css" href="https://www.digiwin.com/tw/dsc/css/Eform/form.css">
+<link rel="stylesheet" href="https://www.digiwin.com/tw/dsc/service/WB002736/css/WB00273601_repair.css" />
+<link rel="stylesheet" href="https://www.digiwin.com/tw/dsc/service/WB002736/css/reset.css" />
+<script type="text/javascript" src="http://www.digiwin.com/Library/js/jquery-ui.min.js"></script>
+<style>
+.ui-tooltip { 
+	font-family: "微軟正黑體", "新細明體"; 
+	font-size: 17px; 
+	max-width:100%; 
+	border: 1px solid #eee; 
+	padding: 7px 20px; 
+	background-color: #ffc600; 
+	color:#000; 
+	letter-spacing: 1px; 
+}
+</style>
+
+<!-- submenu -->
+<link rel="stylesheet" href="https://www.digiwin.com/tw/dsc/assets/submenu/submenu.css">
+<script src="https://www.digiwin.com/tw/dsc/assets/submenu/submenu.min.js"></script>
+
+<div class="banner">
+	<img src="https://www.digiwin.com/tw/dsc/service/WB002736/images/bannerImg.png" alt="" />
+</div>
+
+<div id="contact">
+    <div id="contactTxt" class="clearfix">
+        <h2>線上報修與諮詢</h2>
+        <div id="info">
+            <p>請填寫下方資料便於盡快為您服務。<br>若您需要立即的支援與服務，請直撥免付費專線 <span class="highLight">0809-081-668</span>，謝謝！</p>
+        </div>
+        
+        <div id="rightForm" class="form shortForm">
+            <a id="fromSource" href="javascript:;">WB002121</a>
+            <p class="highLight">*為必填</p>
+            <div id="contactInput" class="clearfix">
+                <div>
+                    <span class="hideLabel">*公司名稱：</span><input type="text" placeholder="*公司名稱" name="contact-company" id="contact-company" class="contact required" data-name="*公司名稱：">
+                </div>
+                <div>
+                    <span class="hideLabel perLabel">*姓名：</span><input type="text" placeholder="*姓名" name="contact_person" id="contact_person" class="contact required" data-name="*姓名：">
+                </div>
+                <div class="tel">
+                    <span class="hideLabel evenLable">*聯絡電話：</span><input type="text" placeholder="*聯絡電話" name="telephone" id="telephone" class="contact required" data-name="*聯絡電話：">
+                </div>
+                <div class="extension end">
+                    <span class="hideLabel extLabel">分機：</span>
+                    <input type="text" placeholder="分機" name="extension" id="extension" class="contact end" data-name="分機：">
+                </div>
+                <div>
+                    <span class="hideLabel evenLable">*E-mail：</span><input type="text" placeholder="*E-mail：" name="contact-email" id="contact-email" class="contact required" data-name="*E-mail">
+                </div>
+                <div>
+                    <span class="hideLabel">*部門：</span><input type="text" placeholder="*部門" name="contact-dept" id="contact-dept" class="contact required" data-name="*部門：">
+                </div>
+                <div class="end">
+                    <span class="hideLabel">職稱：</span><input type="text" placeholder="職稱" name="contact-job" id="contact-job" class="contact end" data-name="職稱：">
+                </div>
+            </div>
+            <div class="demandCheck clearfix">
+                <p>請勾選報修類別：</p>
+                <label for="contact-demand01"><input name="contact-demand" class="contact-demand" id="contact-demand01" type="checkbox" value="個人電腦問題"> 個人電腦問題</label>
+                <label for="contact-demand02"><input name="contact-demand" class="contact-demand" id="contact-demand02" type="checkbox" value="伺服器問題"> 伺服器問題</label>
+                <label for="contact-demand03"><input name="contact-demand" class="contact-demand" id="contact-demand03" type="checkbox" value="POS機問題"> POS機問題</label>
+                <label for="contact-demand04"> <input name="contact-demand" class="contact-demand" id="contact-demand04" type="checkbox" value="網路問題"> 網路問題</label>       
+                <label for="contact-demand05"><input name="contact-demand" class="contact-demand" id="contact-demand05" type="checkbox" value="Office相關問題"> Office相關問題</label>          
+                <label for="contact-demand06"><input name="contact-demand" class="contact-demand" id="contact-demand06" type="checkbox" value="其他"> 其他</label>
+            </div>
+            <div class="consult-cont">
+                <p class="hideLabel">請在這裡描述您的需求(最多500字)：</p>
+                <textarea id="contact-query" cols="40" placeholder="請在這裡描述您的需求(最多500字)：" rows="4" class="" data-name="請在這裡描述您的需求(最多500字)："></textarea>
+            </div>
+
+            <div class="verifica">
+                <span class="veriSpan">＊請輸入驗證碼：</span>
+                <span class="veriSpan-m">驗證碼:</span>
+                <input type="text" name="" id="identCode" class="identCode" onblur= "validate()">
+                <input type="button" id="vericodePic" />
+                <span class="renovCode" onclick="createCode()"></span>
+                <span id = "codeSuces"></span>
+            </div>  
+            <input type="button" id="submit" value="送　　出">
+            <label for="agree" class="checAgree"><input type="checkbox" name="agree" value="" id="agree" checked=""> 我同意接受鼎新電腦<a href="https://www.digiwin.com/tw/portal/page/index/id/1202.html" target="_blank">隱私權聲明</a></label>
+        </div>
+    </div> 
+</div>
+
+<!-- loading -->
+<div id="loading"><p><i></i>資料處理中，請稍後...</p></div>
+
+<!-- thx page -->
+<div id="thx">
+    <div id="thxContent">
+        <div class="close">X</div>
+        <h3>報修單己送出</h3>
+        <p class="thxparg"></p>
+        <p class="suprtCall">
+            <span>如需要立即的支援與服務，</span>
+            <span>請直撥免付費專線0809-081-668，謝謝！</span>
+        </p>
+        <p class="thxSourLoad1"><a id="SourLoadLink" href="" target="_blank">資料下載</a></p>
+        <p id="goIndex"><a href="javascript:;">繼續瀏覽網站</a></p>
+    </div>
+</div>
+<script type="text/javascript" src="https://www.digiwin.com/tw/dsc/js/Eform/xcConfirm.js"></script>
+<script type="text/javascript" src="https://www.digiwin.com/tw/dsc/js/Eform/form.js"></script>

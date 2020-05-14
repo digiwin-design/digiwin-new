@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="/tw/static/css/public.css">
+    <link rel="stylesheet" href="/tw/static/css/style.css">
+    <script src="/tw/static/js/jquery-1.11.3.min.js"></script>
+    <script src="https://polyfill.io/v3/polyfill.js?features=default,fetch,HTMLPictureElement,Array.prototype.find,NodeList.prototype.forEach&amp;flags=gated"></script>
+    <script src="/tw/dsc/assets/modernizr-custom.js"></script>
+    <script src="/tw/dsc/assets/mobile-detect.js"></script>
+    <script src="/tw/dsc/assets/mobile-detect-modernizr.js" defer=""></script>
+    <script src="/tw/dsc/assets/smoothscroll.js" defer></script>
+    <script src="/tw/dsc/assets/axios.min.js"></script>
+    <script src="/tw/dsc/assets/vuejs/vue-all-dev.js"></script>
+    <script src="/tw/dsc/js/common.min.js"></script>
+    <style>
+      .header-box {
+          height: auto;
+      }
+      .page-submenu {
+          position: fixed;
+          z-index: 28;
+          width: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="header-box">
+      <header></header>
+    </div>
+    <!-- 以下為後台內容-->
+    <link rel="stylesheet" href="/tw/dsc/css/Eform/form-rwd.css">
+    <script src="/tw/dsc/js/Eform/form.js" defer></script>
+    <link rel="stylesheet" href="/tw/dsc/css/Eform/xcConfirm.css">
+    <script src="/tw/dsc/js/Eform/xcConfirm.js" defer></script>
+    <link rel="stylesheet" href="/tw/dsc/shadowbox/shadowbox.css">
+    <script src="/tw/dsc/shadowbox/shadowbox.js"></script>
+    <link rel="stylesheet" href="assets/swiper.min.css">
+    <script src="assets/swiper.min.js" defer="defer"></script>
+    <link rel="stylesheet" href="../../assets/submenu/submenu.css">
+    <script src="../../assets/submenu/submenu.min.js"></script>
+    <link rel="stylesheet" href="/tw/dsc/css/reboot.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="/tw/dsc/Library/js/jquery-ui.min.js"></script>
+    <script src="/tw/dsc/js/modernizr-custom.js"></script>
+    <script src="js/common.min.js" defer></script>
+    <script src="js/WB002811_common.min.js" defer="defer"></script>
+    <link rel="stylesheet" href="css/WB002811_common.css">
+    <link rel="stylesheet" href="css/WB00281101_cost.css">
+    <main><div id="WB002811" class="WB002811_cost">
+    <div id="indBanner" class="section vAlignMiddle">
+        <div class="content vAlignContent">
+            <h1>掌控成本從降低浪費做起</h1>
+            <p class="pageDesc">備料與庫存成本關乎交通業能否降低成本的重要關鍵項目，備多是庫存，備少會停工，共用物料如何備料才不會發生缺料狀況？另外生產進度延遲，影響訂單出貨，還有外包廠的損耗數量、良品數無法有效記錄，都是造成成本增加的原因...產業提升獲利就從細節競爭力開始
+                !
+            </p>
+        </div>
+    </div>
+
+    <div id="jobProblem" class="section">
+        <div class="content">
+            <div class="group">
+                <div class="outline active">
+                    <span class="changeBtn">存貨管理</span>
+                </div>
+                <div class="outline">
+                    <span class="changeBtn">成本精算</span>
+                </div>
+            </div>
+            <div class="jobGroup">
+                <div class="jobProblem jobProblem01 active clearfix">
+                    <div class="txt txt01">
+                        <div class="outline">
+                            <div class="nameLayer">
+                                <img src="images/icon_people03.svg" alt="生管的困擾">
+                                <p>生管</p>
+                            </div>
+                            <div class="txtLayer clearfix">
+                                <p>買多買少都是問題，庫存備了一堆用不到的料，但要用的料卻沒有備到。</p>
+                            </div>
+                            <div class="mask"></div>
+                            <div class="handTop">
+                                <i class="fa fa-angle-up" aria-hidden="true"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="txt txt02">
+                        <div class="outline">
+                            <div class="nameLayer">
+                                <img src="images/icon_people02.svg" alt="現場的困擾">
+                                <p>現場</p>
+                            </div>
+                            <div class="txtLayer clearfix">
+                                <p>每次要領料時都領不到料，現場停工待料，生產效率不高 。</p>
+                            </div>
+                            <div class="mask"></div>
+                            <div class="handTop">
+                                <i class="fa fa-angle-up" aria-hidden="true"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="jobProblem clearfix">
+                    <div class="txt txt01">
+                        <div class="outline">
+                            <div class="nameLayer">
+                                <img src="images/icon_people02.svg" alt="現場的困擾">
+                                <p>現場</p>
+                            </div>
+                            <div class="txtLayer clearfix">
+                                <p>生產線總是到了下班時才憑記憶回想今天做了哪些事...</p>
+                                <p>現場沒有即時報工工具，無法即時取得報工資訊。</p>
+                            </div>
+                            <div class="mask"></div>
+                            <div class="handTop">
+                                <i class="fa fa-angle-up" aria-hidden="true"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="txt txt02">
+                        <div class="outline">
+                            <div class="nameLayer">
+                                <img src="images/icon_people04.svg" alt="成會的困擾">
+                                <p>成會</p>
+                            </div>
+                            <div class="txtLayer clearfix">
+                                <p>批次成本差異飄來飄去，到底哪一批才合理？看不出來具體差異到底在哪裡…</p>
+                            </div>
+                            <div class="mask"></div>
+                            <div class="handTop">
+                                <i class="fa fa-angle-up" aria-hidden="true"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div id="mainContent" class="section">
+        <div class="content">
+            <h2>精算成本，其實您可以這樣作！</h2>
+            <p class="sectionDesc">加速成本精算，提高報價競爭力，並且掌握產業需求趨勢，降低存貨資金積壓，強化異常監控，避免資源浪費。</p>
+            <i class="fa fa-chevron-down" aria-hidden="true"></i>
+            <div class="issueGroup">
+                <div class="issue clearfix">
+                    <h3>提升
+                        <strong>成本精算</strong>能力</h3>
+                    <div class="txtGroup">
+                        <h4>專治：</h4>
+                        <ul>
+                            <li>現場沒有能自動收集(或即時回饋)工時的工具，所以工時無法在第一時間被正確的收集。</li>
+                            <li>無法詳細記錄每個外包廠的損耗數量、良品數。</li>
+                        </ul>
+                    </div>
+                    <div class="imgGroup clearfix">
+                        <h4>方案介紹</h4>
+                        <div>
+                            <a href="images/cost/img_fig01.jpg" rel="shadowbox[figGroup]" title="產品成本核算">
+                                <img src="images/cost/img_fig01_s.jpg" alt="產品成本核算">
+                                <p>▲ 產品成本核算</p>
+                            </a>
+                        </div>
+                        <div>
+                            <a href="images/cost/img_fig02.jpg" rel="shadowbox[figGroup]" title="材料金額來源">
+                                <img src="images/cost/img_fig02_s.jpg" alt="材料金額來源">
+                                <p>▲ 材料金額來源</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="issue clearfix">
+                    <h3>
+                        <strong>產品成本分析</strong>能力</h3>
+                    <div class="txtGroup">
+                        <h4>專治：</h4>
+                        <ul>
+                            <li>產品成本無法精算，以為出貨量大公司就有賺錢，熟不知成本高利潤低。</li>
+                        </ul>
+                    </div>
+                    <div class="imgGroup clearfix">
+                        <h4>方案介紹</h4>
+                        <div>
+                            <a href="images/cost/img_fig03.jpg" rel="shadowbox[figGroup]" title="料工費(銷貨成本趨勢分析)">
+                                <img src="images/cost/img_fig03_s.jpg" alt="料工費(銷貨成本趨勢分析)">
+                                <p>▲ 料工費(銷貨成本趨勢分析)</p>
+                            </a>
+                        </div>
+                        <div>
+                            <a href="images/cost/img_fig04.jpg" rel="shadowbox[figGroup]" title="銷售毛利分析">
+                                <img src="images/cost/img_fig04_s.jpg" alt="銷售毛利分析">
+                                <p>▲ 銷售毛利分析</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="issue clearfix">
+                    <h3>
+                        <strong>備料控管</strong>能力</h3>
+                    <div class="txtGroup">
+                        <h4>專治：</h4>
+                        <ul>
+                            <li>無法提供歷史銷售記錄，建議客戶作下單平準依據，造成無法依預測備料。</li>
+                            <li>如何管控現場的耗用與生產不足備料提醒</li>
+                        </ul>
+                    </div>
+                    <div class="imgGroup clearfix">
+                        <h4>方案介紹</h4>
+                        <div>
+                            <a href="images/cost/img_fig05.jpg" rel="shadowbox[figGroup]" title="備料計劃-建立銷售預測資料">
+                                <img src="images/cost/img_fig05_s.jpg" alt="備料計劃-建立銷售預測資料">
+                                <p>▲ 備料計劃-建立銷售預測資料</p>
+                            </a>
+                        </div>
+                        <div>
+                            <a href="images/cost/img_fig06.jpg" rel="shadowbox[figGroup]" title="備料計劃-檢視庫存呆滯料">
+                                <img src="images/cost/img_fig06_s.jpg" alt="備料計劃-檢視庫存呆滯料">
+                                <p>▲ 備料計劃-檢視庫存呆滯料</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="issue end clearfix">
+                    <h3>
+                        <strong>監控提醒</strong>能力</h3>
+                    <div class="txtGroup">
+                        <h4>專治：</h4>
+                        <ul>
+                            <li>現場耗用管控</li>
+                            <li>生產不足備料提醒</li>
+                            <li>成長中企業制度變多變繁雜，需要流程標準化。</li>
+                        </ul>
+                    </div>
+                    <div class="imgGroup clearfix">
+                        <h4>方案介紹</h4>
+                        <div>
+                            <a href="images/cost/img_fig07.jpg" rel="shadowbox[figGroup]" title="採購及付款循環">
+                                <img src="images/cost/img_fig07_s.jpg" alt="採購及付款循環">
+                                <p>▲ 採購及付款循環</p>
+                            </a>
+                        </div>
+                        <div>
+                            <a href="images/cost/img_fig08.jpg" rel="shadowbox[figGroup]" title="生產循環">
+                                <img src="images/cost/img_fig08_s.jpg" alt="生產循環">
+                                <p>▲ 生產循環</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+    </main><div id="contact">
+    <div id="contactTxt" class="clearfix">
+        <h2>資料索取與諮詢</h2>
+        <div id="info">
+            <p>請填寫下方資料便於盡快為您服務。<br>若您需要立即的支援與服務，請直撥免付費專線 <span class="highLight">0800-888-162</span>，謝謝！</p>
+            <ul>
+                <li class="mail">
+                    <a href="mailto:marketing01@digiwin.com"></a>
+                </li>
+                <li class="fb">
+                    <a href="https://www.facebook.com/DSCmain" target="_blank"></a>
+                </li>
+            </ul>
+        </div>
+        <div id="formBlock" class="form">
+            <a id="fromSource" href="javascript:;">WB002476</a>
+            <div id="contactInput" class="clearfix">
+                <span class="hideLabel ">*公司名稱：</span><input type="text" placeholder="*完整公司名稱" name="contact-company" id="contact-company" class="contact required"><span class="hideLabel perLabel">*姓名：</span><input type="text" placeholder="*姓名" name="contact_person" id="contact_person" class="contact required"><span class="hideLabel evenLable">*聯絡電話：</span><input type="text" placeholder="*聯絡電話" name="telephone" id="telephone" class="contact required end"><span class="hideLabel evenLable">*E-mail：</span>
+                <input type="text" placeholder="*E-mail" name="contact-email" id="contact-email" class="contact required"><span class="hideLabel">*部門：</span><input type="text" placeholder="*部門" name="contact-dept" id="contact-dept" class="contact required"><span class="hideLabel">*職稱：</span><input type="text" placeholder="*職稱" name="contact-job" id="contact-job" class="contact required end">
+            </div>
+            <div class="consult-cont">
+                <p class="hideLabel">請在這裡描述您的需求：</p>
+                <textarea id="contact-query" cols='40' placeholder="請在這裡描述您的需求(500字以內)：" rows='4' class="" maxlength="500"></textarea>
+            </div>
+            <div class="demandCheck clearfix">
+                <label for="contact-demand01"><input name="contact-demand" class="contact-demand" id="contact-demand01" type="checkbox" value="索取交通業相關資料" /> 索取交通業相關資料 </label>
+            </div>
+            <hr>
+            <div class="verifica">
+                <span class="veriSpan">＊請輸入驗證碼：</span>
+                <span class="veriSpan-m">驗證碼:</span>
+                <input type="text" name="" id="identCode" class="identCode" onblur="validate()">
+                <input type="button" id="vericodePic" />
+                <span class="renovCode" onclick="createCode()"></span>
+                <span id="codeSuces"></span>
+            </div>
+            <input type="button" id="submit" value="送　　出">
+            <label for="agree" class="checAgree"><input type="checkbox" name="agree" value="" id="agree" checked="">
+                我同意接受鼎新電腦<a href="/tw/portal/page/index/id/1202.html" target="_blank">隱私權聲明</a></label>
+        </div>
+    </div>
+</div><!-- loading -->
+<div id="loading">
+<p><i></i>資料提交中，請稍後</p>
+</div>
+<!-- thx page -->
+<div id="thx">
+<div id="thxContent">
+<div class="close">X</div>
+<p class="title">資料己送出</p>
+<p class="thxparg"></p>
+<p class="suprtCall">
+<span>如需要立即的支援與服務，</span>
+<span>請直撥免付費專線 0800-888-162，謝謝！</span>
+</p>
+<p class="thxSourLoad1">
+<a id="SourLoadLink" href="" target="_blank">資料下載</a>
+</p>
+<p id="goIndex">
+<a href="javascript:;">繼續瀏覽網站</a>
+</p>
+</div>
+</div>
+  </body>
+</html>

@@ -1,0 +1,19 @@
+main *, main *:before, main *:after {
+    box-sizing: content-box;
+}
+main {
+    /*common css-contactFormLeft*/
+}
+
+main .fixed {
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    background-color: #f7f7f7;
+}
+
+main .form #contactInput input,
+main .form .demandCheck,
+main .form #contact-query {
+    border-left-color: #1abbf7;
+}

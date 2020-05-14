@@ -1,0 +1,154 @@
+{
+    "videoSection": {
+        "section1": {
+            "type": "typeA",
+            "title": "數位轉型的變革<br>突破傳統製造業界線",
+            "videoSrc": "https://www.youtube.com/embed/e4IQTGXxXnk"
+        },
+        "section2": {
+            "type": "typeB",
+            "title": "力肯釘接智能製造的<br>三大變革",
+            "videoSrc": "https://www.youtube.com/embed/BmSwoKhMR8s"
+        },
+        "section3": {
+            "type": "typeA",
+            "title": "【廠內智能物流全流程】<br>力肯實業讓智能製造躍出新價值",
+            "videoSrc": "https://www.youtube.com/embed/I4PEbVrDVUA"
+        }
+    },
+    "processes": [
+        {
+            "title": "供應商平台",
+            "process": [
+                "供應商<br>透過系統平台<br>得知採購需求",
+                "確認採購需求<br>印製出貨單",
+                "出貨單對照<br>料件整理包裝",
+                "包裝完成<br>通知出貨"
+            ]
+        },
+        {
+            "title": "採購收貨",
+            "process": [
+                "看板即時確認<br>供應商出貨狀況",
+                "行動掃碼收貨<br>快速正確有效率",
+                "物料訊息即時回饋<br>並上傳資料庫",
+                "驗料狀況<br>看板即時呈現"
+            ]
+        },
+        {
+            "title": "入庫上架",
+            "process": [
+                "進貨單掃碼<br>儲位即時顯現",
+                "儲位、物料資訊<br>一次到位<br>入庫錯誤率大幅降低",
+                "看板即時<br>呈現物料狀況<br>主動發料不缺料"
+            ]
+        },
+        {
+            "title": "發料生產",
+            "process": [
+                "倉儲發料<br>製令條碼掃描",
+                "待發料件資訊<br>儲位即時顯現",
+                "掃描儲位條碼<br>確保發料正確",
+                "透過系統平台<br>印製領料單",
+                "行動發料提升效率<br>倉庫和製造無縫接軌",
+                "生產拿料<br>再次對料",
+                "產線主管透過看板<br>即時得知生產狀況"
+            ]
+        },
+        {
+            "title": "成品入庫",
+            "process": [
+                "生產完成成品入庫<br>透過工站行動報工"
+            ]
+        },
+        {
+            "title": "包裝出貨",
+            "process": [
+                "數位化鏈結由上而下<br>順利達成客戶期望"
+            ]
+        }
+    ],
+    "hoverBoxs": [
+        {
+            "title": "倉管",
+            "hoverText": [
+                "更簡單",
+                "更即時",
+                "更快速"
+            ]
+        },
+        {
+            "title": "採購",
+            "hoverText": [
+                "交貨及時報",
+                "進度好追蹤",
+                "供料按計劃"
+            ]
+        },
+        {
+            "title": "品管",
+            "hoverText": [
+                "用料緊急度",
+                "預計工作量",
+                "工作好交接"
+            ]
+        },
+        {
+            "title": "生管",
+            "hoverText": [
+                "進度好追蹤",
+                "異常控影響",
+                "急料不掉棒"
+            ]
+        },
+        {
+            "title": "製造",
+            "hoverText": [
+                "用料即時供",
+                "齊料好安排",
+                "變故消息快"
+            ]
+        },
+        {
+            "title": "經管",
+            "hoverText": [
+                "帳目有條理",
+                "週轉有抓緊",
+                "進出有效率"
+            ]
+        }
+    ],
+    "section2": {
+        "nav": [
+            {
+                "title": "倉儲運作",
+                "imgSrc": "images/case/section2-icon1.png"
+            },
+            {
+                "title": "派工備料",
+                "imgSrc": "images/case/section2-icon2.png"
+            },
+            {
+                "title": "現場報工",
+                "imgSrc": "images/case/section2-icon3.png"
+            }
+        ],
+        "popup": [
+            {
+                "title": "透明化",
+                "desc": "倉儲作業透過條碼行動化達到料帳一致",
+                "imgSrc": "images/case/popup-illust1.png"
+            },
+            {
+                "title": "可視化",
+                "desc": "透過電子看板達到管裡可視化",
+                "imgSrc": "images/case/popup-illust2.png"
+            },
+            {
+                "title": "即時化",
+                "desc": "透過智能報工即時掌控現場不遺漏",
+                "imgSrc": "images/case/popup-illust3.png"
+            }
+        ]
+    }
+}

@@ -1,0 +1,141 @@
+{
+    "index": [
+        {
+            "section": "section2-1",
+            "title": "控工案",
+            "problems": [
+                {
+                    "identity": "boss",
+                    "identityName": "老闆",
+                    "list": "<li class=\"swiper-slide double\"><p>無法有效掌握工進，一旦工期延宕，不僅成本增加，獲利減少，同時也影響資金之週轉運用。</p><p>業主一直追問工期進度做到那了，又沒人主動跟我報告，我怎知道!!</p></li><li class=\"swiper-slide double\"><p>原本有利潤的案子，怎麼做到後來就賠錢了….</p><p>預算難估，成本增加，利潤難賺！</p></li>"
+                },
+                {
+                    "identity": "engineering",
+                    "identityName": "工務/PM",
+                    "list": "<li class=\"swiper-slide double\"><p>白天都在現場，下班還要填寫【監工日報表】回報工地進度及狀況，每週要再整理成工進表，好累阿!!</p><p>業主追老闆，老闆又來追我工進， 我都要再一一確認工地狀況才能回覆進度！</p></li><li class=\"swiper-slide\"><p>我就是依照設計圖去做，怎麼知道會愈做愈多！</p></li>"
+                },
+                {
+                    "identity": "purchase",
+                    "identityName": "採購/成控",
+                    "list": "<li class=\"swiper-slide\"><p>我明明就是依據工務需求下單或發包，工務没有確實去場勘清圖，現場又隨便答應工程追加或變更！</p></li>"
+                }
+            ],
+            "ask": "如果控制好時程、預算，能不能就確保工案獲利?"
+        },
+        {
+            "section": "section2-2",
+            "title": "勘執行",
+            "problems": [
+                {
+                    "identity": "engineering",
+                    "identityName": "工務",
+                    "list": "<li class=\"swiper-slide double\"><p>施工在即，用料、發包需求一堆，要一筆一筆填寫不但費時，漏掉了也不易查知。</p><p>白天都在現場，下班還要填寫【監工日報表】回報工地進度及狀況，每週要再整理成工進表，好累阿!!</p></li><li class=\"swiper-slide\"><p>估驗請款用人工管理，每個月要花很多時間整理，每當老闆詢問估驗進度時，才想起某專案有多期款項未請！</p></li>"
+                },
+                {
+                    "identity": "purchase",
+                    "identityName": "採購/成控",
+                    "list": "<li class=\"swiper-slide double\"><p>拿到工務的料單，都用紙本填寫，描述又不同，(杯子=紙杯=環保杯？)，還要比對是否在合約內，秏時又費工!</p><p>現場領料不確實，出工後材料沒使用也沒退回，一時不留意預算就超支了！</p></li>"
+                },
+                {
+                    "identity": "finance",
+                    "identityName": "財務",
+                    "list": "<li class=\"swiper-slide double\"><p>每月結算成本花很久的時間，還要將工務工時資料整理成excel，十分秏時費工!</p><p>收到款時才發現和發票有差，又要去追問工務有没有忘記的罰單！</p></li><li class=\"swiper-slide\"><p>都已經付完代墊款了，才發現廠商計價時有扣款忘記扣了！</p></li>"
+                }
+            ],
+            "ask": "是不是人一定要在工地上才能管好現場?"
+        },
+        {
+            "section": "section2-3",
+            "title": "活資金",
+            "problems": [
+                {
+                    "identity": "boss",
+                    "identityName": "老闆",
+                    "list": "<li class=\"swiper-slide\"><p>接案時估算明明有賺錢，為何完工結算都没什麼賺？有時候還賠錢？</p></li>"
+                },
+                {
+                    "identity": "engineering",
+                    "identityName": "工務",
+                    "list": "<li class=\"swiper-slide\"><p>每月要整理請款進度表給財務，人工作業下易有疏漏，秏時費工！</p></li>"
+                },
+                {
+                    "identity": "finance",
+                    "identityName": "財務",
+                    "list": "<li class=\"swiper-slide\"><p>每月要核對工務請款和合約進度合不合，還要比對業主和廠商請款是否有差異，還不能漏掉扣款、代墊款等，這些都影響資金的掌握，可以有更有效率的做法嗎？</p></li>"
+                }
+            ],
+            "ask": "如果收支平衡，資金運用靈活，能不能就確保工案獲利?"
+        },
+        {
+            "section": "section2-4",
+            "title": "透財務",
+            "problems": [
+                {
+                    "identity": "boss",
+                    "identityName": "老闆",
+                    "list": "<li class=\"swiper-slide\"><p>無法分析那類型的工案利潤較好？也無法用以往類似工案做為新案承攬的估算參考！</p></li>"
+                },
+                {
+                    "identity": "finance",
+                    "identityName": "財務",
+                    "list": "<li class=\"swiper-slide\"><p>除了工地駐點人員以外的工時，支援人員的費用、工具、緊急採購等種類多，人工核算費時，無法判斷時以管銷費用認列，利潤參考性不高！</p></li>"
+                }
+            ],
+            "ask": "如果有完整成本數據，是不是就能找出更好的獲利模式?"
+        }
+    ],
+    "solution": [
+        {
+            "id": "section2-1",
+            "title": "控工案",
+            "categories": [
+                {
+                    "title": "工進管理",
+                    "content": "以完成時間與查核項目為關鍵，建置有效的承攬管理模型<br>將風險掌握在可控範圍內，並累積多元種整合能力"
+                },
+                {
+                    "title": "訂單匯入",
+                    "content": "結合施工進度編列採發計畫，確實匯入訂單內容，有效控管用料，是掌握工期、預算的關鍵"
+                },
+                {
+                    "title": "預算管理",
+                    "content": "結合施工進度編列採發計畫，制定「標準化」採購發包管理機制<br>配合實際進度有效調整，是工程如期、如預算的關鍵"
+                }
+            ]
+        },
+        {
+            "id": "section2-2",
+            "title": "勘執行",
+            "categories": [
+                {
+                    "title": "工地日報",
+                    "content": "人員屬性、主觀認知等，是工程成本主要影響因素之一<br>制訂報工及成本結構規範，有效強化管理現場"
+                },
+                {
+                    "title": "估驗計價",
+                    "content": "藉由即時施作項目與估驗計價回饋，更能有效掌控工程現況<br>做必要應變措施，確保工進如期完成"
+                }
+            ]
+        },
+        {
+            "id": "section2-3",
+            "title": "活資金",
+            "categories": [
+                {
+                    "title": "工進預算",
+                    "content": "透過定期估驗掌握工程收支狀況，有效掌握資金缺口<br>以因應融資規劃需求，避免營運資金風險。"
+                }
+            ]
+        },
+        {
+            "id": "section2-4",
+            "title": "透財務",
+            "categories": [
+                {
+                    "title": "工程損益",
+                    "content": "藉由核算原則的正規標準化，掌握工程專案成本結構，由損益數字反應機制，作為後續工程承攬管理改善基準。"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="/tw/static/css/public.css">
+    <link rel="stylesheet" href="/tw/static/css/style.css">
+    <script src="/tw/static/js/jquery-1.11.3.min.js"></script>
+    <script src="https://polyfill.io/v3/polyfill.js?features=default,fetch,HTMLPictureElement,Array.prototype.find,NodeList.prototype.forEach&amp;flags=gated"></script>
+    <script src="/tw/dsc/assets/modernizr-custom.js"></script>
+    <script src="/tw/dsc/assets/mobile-detect.js"></script>
+    <script src="/tw/dsc/assets/mobile-detect-modernizr.js" defer=""></script>
+    <script src="/tw/dsc/assets/smoothscroll.js" defer></script>
+    <script src="/tw/dsc/assets/axios.min.js"></script>
+    <script src="/tw/dsc/assets/vuejs/vue-all-dev.js"></script>
+    <script src="/tw/dsc/js/common.min.js"></script>
+    <style>
+      .header-box {
+          height: auto;
+      }
+      .page-submenu {
+          position: fixed;
+          z-index: 28;
+          width: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="header-box">
+      <header></header>
+    </div>
+    <!-- 以下為後台內容-->
+    <link rel="stylesheet" href="/tw/dsc/css/Eform/form-rwd.css">
+    <script src="/tw/dsc/js/Eform/form.js" defer></script>
+    <link rel="stylesheet" href="/tw/dsc/css/Eform/xcConfirm.css">
+    <script src="/tw/dsc/js/Eform/xcConfirm.js" defer></script>
+    <link rel="stylesheet" href="/tw/dsc/shadowbox/shadowbox.css">
+    <script src="/tw/dsc/shadowbox/shadowbox.js"></script>
+    <link rel="stylesheet" href="assets/swiper.min.css">
+    <script src="assets/swiper.min.js" defer="defer"></script>
+    <link rel="stylesheet" href="../../assets/submenu/submenu.css">
+    <script src="../../assets/submenu/submenu.min.js"></script>
+    <link rel="stylesheet" href="/tw/dsc/css/reboot.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="/tw/dsc/Library/js/jquery-ui.min.js"></script>
+    <script src="/tw/dsc/js/modernizr-custom.js"></script>
+    <script src="js/common.min.js" defer></script>
+    <script src="js/WB002811_common.min.js" defer="defer"></script>
+    <link rel="stylesheet" href="css/WB002811_common.css">
+    <link rel="stylesheet" href="css/WB00281101_quality.css">
+    <main><div id="WB002811" class="WB002811_quality">
+    <div id="indBanner" class="section vAlignMiddle">
+        <div class="content vAlignContent">
+            <h1>維持品質從預防異常開始</h1>
+            <p class="pageDesc">品質是交通業管理最重視的一環，企業通常採用的品質改善手法不外乎 8D,QC7,6 sigma…，但如何追蹤品質改善對策執行進度與成效？如何管理改善對策相關文件？如能透過事前預防準備有效監控產品品質，便能確保品質及產品認證，並降低品質異常所造成的失敗成本。</p>
+        </div>
+    </div>
+    
+    <div id="jobProblem" class="section">
+        <div class="content">
+            <div class="group">
+                <div class="outline active">
+                    <span class="changeBtn">認證審查</span>
+                </div>
+                <div class="outline">
+                    <span class="changeBtn">品質檢驗</span>
+                </div>
+                <div class="outline">
+                    <span class="changeBtn">履歷溯源</span>
+                </div>
+            </div>
+            <div class="jobGroup">
+                <div class="jobProblem active clearfix">
+                    <h2>認證審查超繁瑣，快速申請通過的密訣是什麼？</h2>
+                    <div class="txt txt01">
+                        <div class="outline">
+                            <div class="nameLayer">
+                                <img src="images/icon_people02.svg" alt="品管的困擾">
+                                <p>品管</p>
+                            </div>
+                            <div class="txtLayer clearfix">
+                                <p>這次新品要在歐美市場銷售，要儘快認證審查申請通過！</p>
+                                <p>各國認證送審格式都不一樣，同一個產品審查資料都要重覆再整理…真是耗費人力！</p>
+                            </div>
+                            <div class="mask"></div>
+                            <div class="handTop">
+                                <i class="fa fa-angle-up" aria-hidden="true"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="txt txt02">
+                        <div class="outline">
+                            <div class="nameLayer">
+                                <img src="images/icon_people01.svg" alt="老闆的困擾">
+                                <p>老闆</p>
+                            </div>
+                            <div class="txtLayer clearfix">
+                                <p>無法快速通過認證申請，延遲產品上市時程，造成商機流失，營收大受影響！</p>
+                            </div>
+                            <div class="mask"></div>
+                            <div class="handTop">
+                                <i class="fa fa-angle-up" aria-hidden="true"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="jobProblem clearfix">
+                    <h2>品檢記錄那麼多，資料怎麼管理？</h2>
+                    <div class="txt txt01">
+                        <div class="outline">
+                            <div class="nameLayer">
+                                <img src="images/icon_people02.svg" alt="品管的困擾">
+                                <p>品管</p>
+                            </div>
+                            <div class="txtLayer clearfix">
+                                <p>為了符合TS16949的品質規範，每一料件都有一堆品質檢驗紀錄報告要做！</p>
+                                <p>品檢工作一堆做不完，還有很多檢驗記錄没整理， 管制圖表出不來...</p>
+                            </div>
+                            <div class="mask"></div>
+                            <div class="handTop">
+                                <i class="fa fa-angle-up" aria-hidden="true"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="txt txt02">
+                        <div class="outline">
+                            <div class="nameLayer">
+                                <img src="images/icon_people01.svg" alt="老闆的困擾">
+                                <p>老闆</p>
+                            </div>
+                            <div class="txtLayer clearfix">
+                                <p>没有完善的品質管理機制，無法有效的控管產品品質 ，影響產品口碑客戶流失！</p>
+                            </div>
+                            <div class="mask"></div>
+                            <div class="handTop">
+                                <i class="fa fa-angle-up" aria-hidden="true"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="jobProblem jobProblem03 clearfix">
+                    <h2>產品不良引起客訴，如何追溯不良原因？</h2>
+                    <div class="txt txt01">
+                        <div class="outline">
+                            <div class="nameLayer">
+                                <img src="images/icon_people03.svg" alt="生管的困擾">
+                                <p>生管</p>
+                            </div>
+                            <div class="txtLayer clearfix">
+                                <p>客戶反應品質不良要退貨！這下要找出問題得要從大量留存的生產紀錄找起，又要花人力、花時間整理相關文件...</p>
+                            </div>
+                            <div class="mask"></div>
+                            <div class="handTop">
+                                <i class="fa fa-angle-up" aria-hidden="true"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="txt txt02">
+                        <div class="outline">
+                            <div class="nameLayer">
+                                <img src="images/icon_people02.svg" alt="品管的困擾">
+                                <p>品管</p>
+                            </div>
+                            <div class="txtLayer clearfix">
+                                <p>產品的生產履歷記錄資料那麼多，無法在客戶要求的期限內提出改善報告！影響客戶滿意度！</p>
+                            </div>
+                            <div class="mask"></div>
+                            <div class="handTop">
+                                <i class="fa fa-angle-up" aria-hidden="true"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div id="mainContent" class="section">
+        <div class="content">
+            <h2>品質對策管理，其實您可以這樣作！</h2>
+            <p class="sectionDesc">透過事前預防準備有效監控產品品質，便可確保品質及產品認證，並降低品質異常所造成的失敗成本。</p>
+            <i class="fa fa-chevron-down" aria-hidden="true"></i>
+            <div class="issueGroup">
+                <div class="issue clearfix">
+                    <h3>提升
+                        <strong>認證文件彙整</strong>能力</h3>
+                    <div class="txtGroup">
+                        <h4>專治：</h4>
+                        <ul>
+                            <li>文件皆使用人工紙本及excel方式記錄，繁瑣整理不易，無法快速彙整認證文件。</li>
+                        </ul>
+                    </div>
+                    <div class="imgGroup clearfix">
+                        <h4>方案介紹</h4>
+                        <div>
+                            <a href="images/quality/img_fig01.jpg" rel="shadowbox[figGroup]" title="產品專案資訊透明化">
+                                <img src="images/quality/img_fig01_s.jpg" alt="產品專案資訊透明化">
+                                <p>▲ 產品專案資訊透明化</p>
+                            </a>
+                        </div>
+                        <div>
+                            <a href="images/quality/img_fig02.jpg" rel="shadowbox[figGroup]" title="ABCD表里程碑檢查">
+                                <img src="images/quality/img_fig02_s.jpg" alt="ABCD表里程碑檢查">
+                                <p>▲ ABCD表里程碑檢查</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="issue clearfix">
+                    <h3>提升
+                        <strong>品質控管</strong>能力</h3>
+                    <div class="txtGroup">
+                        <h4>專治：</h4>
+                        <ul>
+                            <li>每天要檢驗的品項那麼多，很怕會拿錯品號...</li>
+                            <li>那麼多的檢測記錄很耗費時間整理，有時管制圖還會是錯的...</li>
+                        </ul>
+                    </div>
+                    <div class="imgGroup clearfix">
+                        <h4>方案介紹</h4>
+                        <div>
+                            <a href="images/quality/img_fig03.jpg" rel="shadowbox[figGroup]" title="好工具讓您發現問題的方向">
+                                <img src="images/quality/img_fig03_s.jpg" alt="好工具讓您發現問題的方向">
+                                <p>▲ 好工具讓您發現問題的方向</p>
+                            </a>
+                        </div>
+                        <div>
+                            <a href="images/quality/img_fig04.jpg" rel="shadowbox[figGroup]" title="別再人工製作報表">
+                                <img src="images/quality/img_fig04_s.jpg" alt="別再人工製作報表">
+                                <p>▲ 別再人工製作報表</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="issue clearfix">
+                    <h3>提升
+                        <strong>快速回應</strong>能力</h3>
+                    <div class="txtGroup">
+                        <h4>專治：</h4>
+                        <ul>
+                            <li>影響到產品品質的因素這麼多，每項都靠人工紀錄。</li>
+                            <li>生產記錄及品質相關資訊都是人工記錄，所以無法快速追溯生產履歷資料。</li>
+                        </ul>
+                    </div>
+                    <div class="imgGroup clearfix">
+                        <h4>方案介紹</h4>
+                        <div>
+                            <a href="images/quality/img_fig05.jpg" rel="shadowbox[figGroup]" title="逆向回溯，找出問題！">
+                                <img src="images/quality/img_fig05_s.jpg" alt="逆向回溯，找出問題！">
+                                <p>▲ 逆向回溯，找出問題！</p>
+                            </a>
+                        </div>
+                        <div>
+                            <a href="images/quality/img_fig06.jpg" rel="shadowbox[figGroup]" title="順向回溯，追查影響範圍！">
+                                <img src="images/quality/img_fig06_s.jpg" alt="順向回溯，追查影響範圍！">
+                                <p>▲ 順向回溯，追查影響範圍！</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="issue end clearfix">
+                    <h3>提升
+                        <strong>模具管理</strong>能力</h3>
+                    <div class="txtGroup">
+                        <h4>專治：</h4>
+                        <ul>
+                            <li>上機才發現模具有問題，要生產了才發現機台有問題！</li>
+                            <li>模具使用狀況不清楚，要用時才發現有狀況。</li>
+                        </ul>
+                    </div>
+                    <div class="imgGroup clearfix">
+                        <h4>方案介紹</h4>
+                        <div>
+                            <a href="images/quality/img_fig07.jpg" rel="shadowbox[figGroup]" title="模具使用紀錄查詢">
+                                <img src="images/quality/img_fig07_s.jpg" alt="模具使用紀錄查詢">
+                                <p>▲ 模具使用紀錄查詢</p>
+                            </a>
+                        </div>
+                        <div>
+                            <a href="images/quality/img_fig08.jpg" rel="shadowbox[figGroup]" title="修模發包模式">
+                                <img src="images/quality/img_fig08_s.jpg" alt="修模發包模式">
+                                <p>▲ 修模發包模式</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+    </main><div id="contact">
+    <div id="contactTxt" class="clearfix">
+        <h2>資料索取與諮詢</h2>
+        <div id="info">
+            <p>請填寫下方資料便於盡快為您服務。<br>若您需要立即的支援與服務，請直撥免付費專線 <span class="highLight">0800-888-162</span>，謝謝！</p>
+            <ul>
+                <li class="mail">
+                    <a href="mailto:marketing01@digiwin.com"></a>
+                </li>
+                <li class="fb">
+                    <a href="https://www.facebook.com/DSCmain" target="_blank"></a>
+                </li>
+            </ul>
+        </div>
+        <div id="formBlock" class="form">
+            <a id="fromSource" href="javascript:;">WB002476</a>
+            <div id="contactInput" class="clearfix">
+                <span class="hideLabel ">*公司名稱：</span><input type="text" placeholder="*完整公司名稱" name="contact-company" id="contact-company" class="contact required"><span class="hideLabel perLabel">*姓名：</span><input type="text" placeholder="*姓名" name="contact_person" id="contact_person" class="contact required"><span class="hideLabel evenLable">*聯絡電話：</span><input type="text" placeholder="*聯絡電話" name="telephone" id="telephone" class="contact required end"><span class="hideLabel evenLable">*E-mail：</span>
+                <input type="text" placeholder="*E-mail" name="contact-email" id="contact-email" class="contact required"><span class="hideLabel">*部門：</span><input type="text" placeholder="*部門" name="contact-dept" id="contact-dept" class="contact required"><span class="hideLabel">*職稱：</span><input type="text" placeholder="*職稱" name="contact-job" id="contact-job" class="contact required end">
+            </div>
+            <div class="consult-cont">
+                <p class="hideLabel">請在這裡描述您的需求：</p>
+                <textarea id="contact-query" cols='40' placeholder="請在這裡描述您的需求(500字以內)：" rows='4' class="" maxlength="500"></textarea>
+            </div>
+            <div class="demandCheck clearfix">
+                <label for="contact-demand01"><input name="contact-demand" class="contact-demand" id="contact-demand01" type="checkbox" value="索取交通業相關資料" /> 索取交通業相關資料 </label>
+            </div>
+            <hr>
+            <div class="verifica">
+                <span class="veriSpan">＊請輸入驗證碼：</span>
+                <span class="veriSpan-m">驗證碼:</span>
+                <input type="text" name="" id="identCode" class="identCode" onblur="validate()">
+                <input type="button" id="vericodePic" />
+                <span class="renovCode" onclick="createCode()"></span>
+                <span id="codeSuces"></span>
+            </div>
+            <input type="button" id="submit" value="送　　出">
+            <label for="agree" class="checAgree"><input type="checkbox" name="agree" value="" id="agree" checked="">
+                我同意接受鼎新電腦<a href="/tw/portal/page/index/id/1202.html" target="_blank">隱私權聲明</a></label>
+        </div>
+    </div>
+</div><!-- loading -->
+<div id="loading">
+<p><i></i>資料提交中，請稍後</p>
+</div>
+<!-- thx page -->
+<div id="thx">
+<div id="thxContent">
+<div class="close">X</div>
+<p class="title">資料己送出</p>
+<p class="thxparg"></p>
+<p class="suprtCall">
+<span>如需要立即的支援與服務，</span>
+<span>請直撥免付費專線 0800-888-162，謝謝！</span>
+</p>
+<p class="thxSourLoad1">
+<a id="SourLoadLink" href="" target="_blank">資料下載</a>
+</p>
+<p id="goIndex">
+<a href="javascript:;">繼續瀏覽網站</a>
+</p>
+</div>
+</div>
+  </body>
+</html>

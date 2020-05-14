@@ -1,0 +1,108 @@
+main .mobile {
+    .accordion {
+        &-content {
+            background-color: #c9c9c9;
+            &:not(:first-of-type) {
+                display: none;
+            }
+        }
+        .container {
+            padding-top: 1.5em;
+            padding-bottom: 1.5em;
+        }
+        h2 {
+            display: flex;
+            padding-right: 20px;
+            padding-left: 20px;
+            height: 84px;
+            background-color: $main-color;
+            color: #fff;
+            font-weight: bold;
+            font-size: 24px;
+            line-height: 84px;
+            cursor: pointer;
+            justify-content: space-between;
+            align-items: center;
+            &:not(:last-of-type) {
+                border-bottom: 1px solid #e8e8e8;
+            }
+            &:focus {
+                outline: none;
+            }
+            &::after {
+                @include imgBg('index/plus-icon.png');
+                content: '';
+            }
+            &.active::after {
+                @include imgBg('index/minus-icon.png');
+                content: '';
+            }
+        }
+        .hoverBoxs {
+            display: flex;
+            flex-direction: column;
+            margin-top: 1.5em;
+            margin-bottom: 1.5em;
+            align-items: center;
+        }
+        .hoverBox {
+            $bgColor: #bcae12, #ef8570, #1ca18d, #aa6ba9, #3caa7d;
+            display: flex;
+            flex-direction: column;
+            padding-right: 30px;
+            padding-left: 30px;
+            max-width: 370px;
+            width: 100%;
+            height: 224px;
+            color: #fff;
+            justify-content: center;
+            &.hoverBox5 {
+                height: 320px;
+            }
+            & + .hoverBox {
+                margin-top: 25px;
+            }
+            &::before {
+                display: block;
+                margin: 0 auto 1em;
+                width: 150px;
+                height: 120px;
+                background-position: 50%;
+                background-repeat: no-repeat;
+                content: '';
+            }
+            &-title {
+                text-align: center;
+                font-weight: bold;
+                font-size: 24px;
+                line-height: 1;
+            }
+            &-hover {
+                display: flex;
+                padding: 0 30px;
+                color: #fff;
+                text-align: justify;
+                letter-spacing: getLetterSpacing(25);
+                align-items: center;
+            }
+            &-hoverText {
+                display: flex;
+                flex-direction: column;
+                p + p {
+                    margin-top: .5em;
+                }
+            }
+            @for $nth from 1 through 5 {
+                &.hoverBox#{$nth} {
+                    background-color: nth($bgColor, $nth);
+                    &::before {
+                        background-image: image-url('02/hoverBox-icon#{$nth}.svg');
+                    }
+                    .hoverBox-hover {
+                        background-color: rgba(darken(nth($bgColor, $nth), 20%), .95);
+                    }
+                }
+            }
+        }
+    }
+}
